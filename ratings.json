@@ -1,13 +1,23 @@
 {
+  "https://www.tiqets.com/en/london-attractions-c67458/tickets-for-thames-cruise-westminster-to-greenwich-p975431/?partner=thecruisedetective.com-176436&tq_campaign=lond-comp-list-thamesriv": {
+    "rating": "4.4",
+    "reviews": "460",
+    "price": "18"
+  },
+  "https://www.tiqets.com/en/london-attractions-c67458/tickets-for-thames-cruise-westminster-to-greenwich-p975431": {
+    "rating": "4.4",
+    "reviews": "460",
+    "price": "18"
+  },
   "https://www.getyourguide.com/london-l57/coca-cola-london-eye-river-cruise-t193403/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-best-london-river-cruises-london-eye-cruises-comparison-list&mkt_cmp=true": {
-    "rating": "5",
-    "reviews": "6400",
-    "price": "21"
+    "rating": "4.536212504396109",
+    "reviews": "4198",
+    "price": "16"
   },
   "https://www.getyourguide.com/london-l57/coca-cola-london-eye-river-cruise-t193403": {
-    "rating": "5",
-    "reviews": "6400",
-    "price": "21"
+    "rating": "4.536212504396109",
+    "reviews": "4198",
+    "price": "16"
   },
   "https://www.getyourguide.com/london-l57/the-famous-city-cruises-hop-on-hop-off-sightseeing-cruise-t5273/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-best-london-river-cruises-city-cruises-sightseeing-comparison-list&mkt_cmp=true": {
     "rating": "4.388482394722439",
@@ -159,7 +169,7 @@
     "reviews": "370",
     "price": "65"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g186338-d11449148-Lunch_River_Cruise_on_the_Thames_with_2_Course_Meal-London_England.html?linkID=1&U1=4742b2bcbb4d49869d78c6f2c-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-A07q1x6KqIixOXQMJGanGg": {
+  "https://www.tripadvisor.com/AttractionProductReview-g186338-d11449148-Lunch_River_Cruise_on_the_Thames_with_2_Course_Meal-London_England.html?linkID=1&U1=13f509130c1b465dba8fbc1a6-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-gliViEp0RvkA1fZFkRBGTg": {
     "rating": "4.4",
     "reviews": "370",
     "price": "65"
@@ -168,6 +178,66 @@
     "rating": "4.4",
     "reviews": "370",
     "price": "65"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-compariso-bm": {
+    "rating": "4.6",
+    "reviews": "373",
+    "price": "103"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924": {
+    "rating": "4.6",
+    "reviews": "373",
+    "price": "103"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-compa-bp": {
+    "rating": "4.6",
+    "reviews": "332",
+    "price": "104"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358": {
+    "rating": "4.6",
+    "reviews": "332",
+    "price": "104"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-romantic-dinner-cruise-in-paris-p1023747/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-compa-pcv": {
+    "rating": "4.3",
+    "reviews": "27089",
+    "price": "15"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-romantic-dinner-cruise-in-paris-p1023747": {
+    "rating": "4.3",
+    "reviews": "27089",
+    "price": "15"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&tq_campaign=paris-din-comp-parenscene": {
+    "rating": "4.1",
+    "reviews": "295",
+    "price": "50"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475": {
+    "rating": "4.1",
+    "reviews": "295",
+    "price": "50"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-compa-dbleu": {
+    "rating": "4.4",
+    "reviews": "120",
+    "price": "71"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009": {
+    "rating": "4.4",
+    "reviews": "120",
+    "price": "71"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-par-comp-tratt": {
+    "rating": "4.3",
+    "reviews": "354",
+    "price": "62"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588": {
+    "rating": "4.3",
+    "reviews": "354",
+    "price": "62"
   },
   "https://www.getyourguide.com/paris-l16/paris-romantic-cruise-with-3-course-dinner-on-seine-river-t178769/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-capitaine-fracasse-comparison-list&mkt_cmp=true": {
     "rating": "4.315553643113339",
@@ -224,7 +294,7 @@
     "reviews": "1717",
     "price": "130"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11469157-Paris_Seine_River_Dinner_Cruise_with_Live_Music_by_Bateaux_Mouches-Paris_Ile_de_Fr.html?linkID=1&U1=933fcfff6fd748a9a7e5fd44c-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-nU93siM6rFChkQ2K6yX.cg": {
+  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11469157-Paris_Seine_River_Dinner_Cruise_with_Live_Music_by_Bateaux_Mouches-Paris_Ile_de_Fr.html?linkID=1&U1=72d134a87d4249c9a34c4b7e9-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-rK7HywJG7oSYa_4E8D1oLw": {
     "rating": "4.2",
     "reviews": "1717",
     "price": "130"
@@ -259,7 +329,7 @@
     "reviews": "3081",
     "price": "132"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11979678-Bateaux_Parisiens_Seine_River_Gourmet_Dinner_Sightseeing_Cruise-Paris_Ile_de_Franc.html?linkID=1&U1=3585b3cdb4eb411f85fd8a8ca-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-7h4hzVHZ0gzxp2VEmPZ9hQ": {
+  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11979678-Bateaux_Parisiens_Seine_River_Gourmet_Dinner_Sightseeing_Cruise-Paris_Ile_de_Franc.html?linkID=1&U1=367ac0f91da448afba94423f1-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-sVlizj6bhjgXHbXF2YolBQ": {
     "rating": "4.3",
     "reviews": "3081",
     "price": "132"
@@ -294,7 +364,7 @@
     "reviews": "326",
     "price": "99"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11477812-Paris_Seine_River_Sightseeing_and_Gourmet_Dinner_Cruise_with_3_Course_Menu-Paris_I.html?linkID=1&U1=a1da2957134c4d5bb17efd55a-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-5jWTIHZcLieFE4mw.l7R_w": {
+  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11477812-Paris_Seine_River_Sightseeing_and_Gourmet_Dinner_Cruise_with_3_Course_Menu-Paris_I.html?linkID=1&U1=e64eb3b4aa3e4d8b8654783c4-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-eMHZw7VQTpXsMu.kCnzwBA": {
     "rating": "3.7",
     "reviews": "326",
     "price": "99"
@@ -329,7 +399,7 @@
     "reviews": "826",
     "price": "68"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11454202-Paris_en_Scene_Boat_3_Course_Dinner_Cruise-Paris_Ile_de_France.html?linkID=1&U1=e398f2bab25a4f93a03c16325-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-96ycOPtckE8_DzjJGsf2cg": {
+  "https://www.tripadvisor.com/AttractionProductReview-g187147-d11454202-Paris_en_Scene_Boat_3_Course_Dinner_Cruise-Paris_Ile_de_France.html?linkID=1&U1=ecf44fb3b8d641809db99868d-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-zN9SYFoxnA5W_VT46n..gA": {
     "rating": "3.6",
     "reviews": "826",
     "price": "68"
@@ -364,7 +434,7 @@
     "reviews": "1281",
     "price": "103"
   },
-  "https://www.tripadvisor.com/AttractionProductReview-g187147-d25267310-Paris_Gourmet_Dinner_Seine_River_Cruise_with_Singer_and_DJ_Set-Paris_Ile_de_France.html?linkID=1&U1=939f380629d547b884a21a9e7-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-FGyHYD0gwhK0RDj1cod_Bw": {
+  "https://www.tripadvisor.com/AttractionProductReview-g187147-d25267310-Paris_Gourmet_Dinner_Seine_River_Cruise_with_Singer_and_DJ_Set-Paris_Ile_de_France.html?linkID=1&U1=6eaef795575949dcbc8dfb57d-404154&m=69936&ranMID=53777&ranEAID=S*SrDsqSOWQ&ranSiteID=S.SrDsqSOWQ-NYtwGfQeDbJj7KNUxtlACw": {
     "rating": "4.6",
     "reviews": "1281",
     "price": "103"
@@ -384,10 +454,45 @@
     "reviews": "2953",
     "price": "53"
   },
-  "https://www.getyourguide.com/paris-l16/bateaux-parisiens-dinner-cruise-t51059/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bateaux-mouches-vs-bateaux-parisiens-intro-bateaux-parisiens": {
-    "rating": "4.6783384898044655",
-    "reviews": "8401",
-    "price": "104"
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-compar-bp": {
+    "rating": "4.3",
+    "reviews": "9566",
+    "price": "16"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977": {
+    "rating": "4.3",
+    "reviews": "9566",
+    "price": "16"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-comparis-bm": {
+    "rating": "4.4",
+    "reviews": "8938",
+    "price": "15"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823": {
+    "rating": "4.4",
+    "reviews": "8938",
+    "price": "15"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&tq_campaign=paris-rcru-comp-vd": {
+    "rating": "4.3",
+    "reviews": "2400",
+    "price": "23"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911": {
+    "rating": "4.3",
+    "reviews": "2400",
+    "price": "23"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=pariv-comp-list-bato": {
+    "rating": "4.4",
+    "reviews": "1059",
+    "price": "21"
+  },
+  "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735": {
+    "rating": "4.4",
+    "reviews": "1059",
+    "price": "21"
   },
   "https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&mkt_cmp=true": {
     "rating": "4.9817967343975305",
@@ -458,6 +563,16 @@
     "rating": "3.5",
     "reviews": "2623",
     "price": "19"
+  },
+  "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-by-bateaux-mouches-t735394/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-paris-river-cruises-h3-reviews-bateaux-mouches": {
+    "rating": "4.41325815414621",
+    "reviews": "5519",
+    "price": "15"
+  },
+  "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-by-bateaux-mouches-t735394": {
+    "rating": "4.41325815414621",
+    "reviews": "5519",
+    "price": "15"
   },
   "https://www.viator.com/tours/Paris/Bateaux-Mouches-1-Hour-Seine-River-Cruise-with-optional-Champagne/d479-23561P1?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-paris-river-cruises-h3-reviews-list-bateaux-mouches": {
     "rating": "3.5",
@@ -568,6 +683,16 @@
     "rating": "3.5",
     "reviews": "1208",
     "price": "26"
+  },
+  "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-lovers-canal-cruise-from-central-station-p973666/?partner=thecruisedetective.com-176436&tq_campaign=ams-can-cru-compa-l": {
+    "rating": "4.2",
+    "reviews": "3201",
+    "price": "11"
+  },
+  "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-lovers-canal-cruise-from-central-station-p973666": {
+    "rating": "4.2",
+    "reviews": "3201",
+    "price": "11"
   },
   "https://www.getyourguide.com/amsterdam-l36/amsterdam-90-minute-boat-cruise-with-drinks-and-snacks-t313498/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-amsterdam-canal-cruises-comparison-list-flagship&mkt_cmp=true": {
     "rating": "4.582274185258136",
@@ -729,5 +854,5 @@
     "reviews": "6400",
     "price": "21"
   },
-  "_timestamp": "2026-07-21T15:34:42.652051Z"
+  "_timestamp": "2026-07-21T15:46:49.367727Z"
 }
