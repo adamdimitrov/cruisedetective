@@ -311,7 +311,7 @@
         links.forEach(link => {
             try {
                 const url = new URL(link.href);
-                url.searchParams.set('tq_campaign', subidParam);
+                url.searchParams.set('tq_click_id', subidParam);
                 link.href = url.toString();
             } catch (e) {
                 // Ignore invalid URLs
