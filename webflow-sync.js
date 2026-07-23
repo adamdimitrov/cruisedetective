@@ -152,6 +152,14 @@
 
                 const allLinks = [];
                 row.querySelectorAll("a").forEach(el => allLinks.push(el));
+                
+                // IMPORTANT FIX: Grab the sibling buy buttons and links outside the row on CruiseDetective
+                let sibling = row.nextElementSibling;
+                while (sibling && !sibling.classList.contains("w-layout-grid") && !sibling.classList.contains("divider")) {
+                    sibling.querySelectorAll("a").forEach(el => allLinks.push(el));
+                    sibling = sibling.nextElementSibling;
+                }
+
                 if (detailedSection) {
                     detailedSection.querySelectorAll("a").forEach(el => allLinks.push(el));
                 }
