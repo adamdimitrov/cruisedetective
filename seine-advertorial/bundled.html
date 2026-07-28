@@ -1,0 +1,621 @@
+<!-- PASTE THIS ENTIRE SNIPPET INTO A WEBFLOW EMBED -->
+<style>
+/* Reset & Variables */
+:root {
+    --primary-color: #0f172a; /* Slate 900 */
+    --text-main: #334155;     /* Slate 700 */
+    --text-muted: #64748b;    /* Slate 500 */
+    --bg-light: #f8fafc;      /* Slate 50 */
+    --cta-color: #10b981;     /* Emerald 500 - High conversion green */
+    --cta-hover: #059669;     /* Emerald 600 */
+    --accent: #3b82f6;        /* Blue 500 */
+    --warning: #f59e0b;       /* Amber 500 */
+    --max-width: 800px;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-main);
+    line-height: 1.7;
+    background-color: #ffffff;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+/* Layout */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--bg-light);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Header */
+.main-header {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 12px;
+}
+
+.logo-text {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+/* Content */
+.content-wrapper {
+    max-width: var(--max-width);
+    margin: 2rem auto 4rem;
+    padding: 0 1.5rem;
+}
+
+.headline {
+    margin-bottom: 1.5rem;
+}
+
+/* Author Meta */
+.author-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.author-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.author-name {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.publish-date {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Images */
+.hero-image-container, .content-image {
+    margin-bottom: 2rem;
+}
+
+.hero-image, .content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #eff6ff;
+    border-left: 4px solid var(--accent);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.highlight-box p {
+    margin: 0;
+    color: #1e3a8a;
+}
+
+/* Features List */
+.feature-list {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.feature-list li {
+    display: flex;
+    margin-bottom: 1.5rem;
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.feature-list .emoji {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+/* Expanded Features */
+.expanded-features h3 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.expanded-features ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.expanded-features li {
+    margin-bottom: 0.5rem;
+}
+
+.advertorial-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Reviews */
+.reviews-section {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.rating-summary {
+    margin-bottom: 1rem;
+}
+
+.stars {
+    color: var(--warning);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.score {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+.review-count {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.review-card {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.reviewer {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* CTA Buttons */
+.cta-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--cta-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 2rem 0;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.4);
+}
+
+.cta-button:hover {
+    background-color: var(--cta-hover);
+    transform: translateY(-2px);
+}
+
+.cta-arrow {
+    margin-left: 0.5rem;
+}
+
+.pulse-effect {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+.final-cta-box {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.final-cta-box h3 {
+    color: white;
+    border: none;
+    margin-top: 0;
+}
+
+.final-cta-box p {
+    color: #cbd5e1;
+}
+
+.large-cta {
+    font-size: 1.25rem;
+    padding: 1.25rem 2rem;
+}
+
+.secure-checkout {
+    font-size: 0.8rem !important;
+    margin-bottom: 0 !important;
+    opacity: 0.8;
+}
+
+/* Sticky Mobile CTA */
+.sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    box-shadow: 0 -4px 6px -1px rgba(0,0,0,0.1);
+    z-index: 100;
+    display: none; /* Shown via JS on scroll */
+    border-top: 1px solid #e2e8f0;
+}
+
+.sticky-cta .cta-button {
+    margin: 0;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.main-footer {
+    background: var(--bg-light);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.main-footer .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (min-width: 769px) {
+    .sticky-cta {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .content-wrapper {
+        margin-top: 1rem;
+    }
+    .feature-list li {
+        flex-direction: column;
+    }
+    .feature-list .emoji {
+        margin-bottom: 0.5rem;
+    }
+    /* Adding padding to bottom so sticky CTA doesn't cover content */
+    body {
+        padding-bottom: 80px; 
+    }
+}
+
+</style>
+
+
+
+    <div class="top-bar">
+        <p>ADVERTORIAL</p>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="https://www.thecruisedetective.com" class="logo-link">
+                <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="logo">
+                <span class="logo-text">THE CRUISE DETECTIVE</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <article class="advertorial-article">
+            
+            <h1 class="headline">I Spent 12 Days Testing Every Seine River Cruise in Paris – Here’s The Only One Worth Your Money.</h1>
+            
+            <div class="author-meta">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/652d0405192ba076b04f792e_Adam-dimitrov-portrait-75x75.webp" alt="Adam Dimitrov" class="author-img">
+                <div class="meta-info">
+                    <p class="author-name">By <strong>Adam Dimitrov</strong>, Head Cruise Detective</p>
+                    <p class="publish-date">Updated on <span id="dynamic-date">February 17, 2025</span></p>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp" alt="Seine River Cruise passing the Eiffel Tower" class="hero-image">
+                <p class="image-caption">If you're visiting Paris, a Seine River Cruise is an absolute must. But which one do you choose?</p>
+            </div>
+
+            <div class="article-body">
+                <p><strong>PARIS, FRANCE</strong> — Imagine this: You’ve finally made it to Paris. You’re standing by the banks of the Seine, the Eiffel Tower is twinkling in the distance, and you’re ready for that iconic river cruise you’ve been dreaming about.</p>
+
+                <p>But when you look at the options, your heart sinks. There are dozens of boats. The ticket lines are massive. Every tour company is claiming to be the "best." How do you know you're not walking straight into an overpriced tourist trap with dirty windows and terrible audio guides?</p>
+
+                <div class="highlight-box">
+                    <p>That’s exactly the problem I ran into. So, I decided to do something crazy: <strong>I embarked on a 12-day journey to Paris to test every single major Seine River Cruise myself.</strong></p>
+                </div>
+
+                <h2>The 12-Day Experiment</h2>
+                
+                <p>I rode the top 5 most popular cruises in the city. I sat on the upper decks, I sat on the lower decks. I listened to the audio guides. I checked the legroom, the cleanliness of the bathrooms, and most importantly—the views.</p>
+                
+                <p>While some of the famous names turned out to be cramped and disappointing, one specific cruise absolutely blew the others out of the water. </p>
+
+                <p>If you only have time for one river cruise in Paris, <strong>Bateaux Parisiens</strong> is the undisputed champion. Here’s why.</p>
+
+                <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=advertorial-1" class="cta-button pulse-effect" target="_blank" rel="nofollow">
+                    CHECK BATEAUX PARISIENS AVAILABILITY NOW 
+                    <span class="cta-arrow">→</span>
+                </a>
+
+                <h2>Why Bateaux Parisiens Took the #1 Spot</h2>
+
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif" alt="Bateaux Parisiens Boat" class="content-image">
+
+                <p>Out of all the boats I tested, Bateaux Parisiens offered the most premium experience for the price. Here is what makes them stand out from the crowd:</p>
+
+                <div class="expanded-features">
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10).webp" alt="Passengers enjoying the views on Bateaux Parisiens" class="advertorial-image" loading="lazy">
+                    <p>I wasn’t disappointed. Bateaux Parisiens and its boats are absolutely top-notch. They have spacious decks, 360° panoramic views up top, cozy seats, vending machines and clean restrooms. After testing everything out, here is my detailed breakdown of the experience.</p>
+                    
+                    <h3>1. The Ship & The Views</h3>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6583443c6e576281beda7395_bateaux-parisiens-sighteeing-cruise%20(4).webp" alt="The modern double-decker Bateaux Parisiens ship" class="advertorial-image" loading="lazy">
+                    <p>Unlike many older boats that feel like cramped floating buses, Bateaux Parisiens operates a fleet of 8 modern, spacious double-decker ships that hold up to 400 passengers. If you head to the upper deck, you're treated to <strong>unobstructed 360° panoramic views</strong>.</p>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp" alt="The top deck of the cruise" class="advertorial-image" loading="lazy">
+                    <p>There are no thick window frames or low ceilings to ruin your photos of the Louvre or Notre Dame. (Pro tip: grab a spot at the standing-only frontal section for the absolute best vantage point!)</p>
+
+                    <h3>2. Three Different Audio Guide Options</h3>
+                    <p>On other cruises, you're usually stuck with a single, muffled loudspeaker that you can barely hear over the engine noise. Bateaux Parisiens gives you three distinct options:</p>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a4486ad58854c723f3a49_1-bateaux-parisiens-sighteeing-cruise%20(38).webp" alt="Smartphone audio guide" class="advertorial-image" loading="lazy">
+                    <ul>
+                        <li><strong>Smartphone App (The Best Option):</strong> A crystal-clear, web-based app in 11 languages that you play directly from your own phone. It even includes interactive photo filters and quizzes. No download required!</li>
+                        <li><strong>Built-In Audio Dials:</strong> If your phone is dead, every lower-deck window seat has a wired "phone dial" style audio guide with 14 languages.</li>
+                        <li><strong>Live Guide:</strong> A real person narrating the journey through the loudspeakers in 4 languages.</li>
+                    </ul>
+
+                    <h3>3. Unbeatable Location & Easy Boarding</h3>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a3f5d72ec5dfeaf74d0cc_1-bateaux-parisiens-sighteeing-cruise%20(1).webp" alt="Assembly area at the Eiffel Tower" class="advertorial-image" loading="lazy">
+                    <p>The meeting point is right at Port de la Bourdonnais, literally <strong>just a two-minute walk from the Eiffel Tower</strong>. The assembly area is incredibly organized with a covered waiting zone, food vendors, and a fast security check.</p>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a3feafe9dfc29b0e39b63_1-bateaux-parisiens-sighteeing-cruise%20(5).webp" alt="Boarding area with vending machines" class="advertorial-image" loading="lazy">
+                    <p>Plus, the schedule is beautifully flexible: boats depart every 30-60 minutes from 10 AM to 10 PM. You simply book for a specific day, show up whenever you're ready, and hop on the next departure.</p>
+
+                    <h3>4. Complete Comfort (Aircon, Vending Machines & Accessibility)</h3>
+                    <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a4565140dc2a88f7a3000_1-bateaux-parisiens-sighteeing-cruise%20(7).webp" alt="Onboard vending machines and amenities" class="advertorial-image" loading="lazy">
+                    <p>Whether you're visiting during the scorching Paris summer or the freezing winter, the lower deck is fully climate-controlled. There are clean restrooms on board, vending machines for snacks and drinks, and the main deck is fully accessible for both wheelchairs and baby strollers (they even offer free entry for infants under 3!).</p>
+                    
+                    <div class="video-container">
+                        <iframe src="https://tube.rvere.com/embed?v=nG4YVVCfo6k" title="Bateaux Parisiens Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <h3>5. Risk-Free Booking</h3>
+                    <p>Nervous about your travel plans changing? Tiqets offers a generous cancellation policy allowing a <strong>full refund if canceled 24 hours in advance</strong>, plus a "reserve now, pay later" option. It's completely risk-free.</p>
+                </div>
+
+                <h2>What Real Travelers Are Saying</h2>
+
+                <div class="reviews-section">
+                    <div class="rating-summary">
+                        <span class="stars">★★★★★</span>
+                        <span class="score">4.4/5</span>
+                        <span class="review-count">Based on over 77,000+ Reviews</span>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">"Absolutely breathtaking. The audio guide was fascinating and the boat was pristine. Seeing the Eiffel Tower sparkle from the water is a memory I'll never forget. Highly recommend booking in advance!"</p>
+                        <p class="reviewer">- Sarah T. (Verified Buyer)</p>
+                    </div>
+                </div>
+
+                <h2>Don't Make This Rookie Mistake</h2>
+
+                <p>The worst thing you can do is show up at the dock without a ticket. The queues can be over an hour long, especially during sunset and evening cruises. </p>
+
+                <p>To guarantee your spot on the best boat in Paris, <strong>you must book your tickets online in advance.</strong> It costs the exact same (sometimes less with family discounts) and saves you hours of waiting.</p>
+
+                <div class="final-cta-box">
+                    <h3>Ready to see Paris from the Seine?</h3>
+                    <p>Click the button below to secure your tickets for Bateaux Parisiens before they sell out for your travel dates.</p>
+                    <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=advertorial-2" class="cta-button large-cta pulse-effect" target="_blank" rel="nofollow">
+                        SECURE YOUR TICKETS HERE 
+                        <span class="cta-arrow">→</span>
+                    </a>
+                    <p class="secure-checkout">🔒 Secure Checkout via Tiqets</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Copyright © <span id="current-year"></span> The Cruise Detective. All Rights Reserved.</p>
+            <p class="disclaimer">This is an advertorial based on personal experience. We may earn a commission if you book through our links, at no extra cost to you.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="sticky-cta" id="sticky-cta">
+        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=advertorial-3" class="cta-button pulse-effect" target="_blank" rel="nofollow">
+            CHECK AVAILABILITY
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Set dynamic dates
+    const dateElement = document.getElementById('dynamic-date');
+    const yearElement = document.getElementById('current-year');
+    
+    const today = new Date();
+    
+    // Set current year for copyright
+    if (yearElement) {
+        yearElement.textContent = today.getFullYear();
+    }
+    
+    // Set publish date to a recent date (e.g. today or yesterday) to keep it fresh
+    if (dateElement) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = today.toLocaleDateString('en-US', options);
+    }
+
+    // 2. Sticky CTA Logic
+    const stickyCta = document.getElementById('sticky-cta');
+    const mainHeader = document.querySelector('.main-header');
+    
+    // Check if we are on a mobile device (sticky CTA is most effective here)
+    // But we can enable it for all sizes, usually it's hidden or styled differently for desktop.
+    // We will show it if scrolled past the header.
+    
+    window.addEventListener('scroll', () => {
+        if (!stickyCta || !mainHeader) return;
+        
+        const scrollPosition = window.scrollY;
+        // Show sticky CTA after scrolling 500px down
+        if (scrollPosition > 500) {
+            stickyCta.style.display = 'block';
+        } else {
+            stickyCta.style.display = 'none';
+        }
+    });
+});
+
+</script>
