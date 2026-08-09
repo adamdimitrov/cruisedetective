@@ -359,26 +359,22 @@ p {
     opacity: 0.8;
 }
 
-/* Sticky Mobile CTA */
+/* Sticky Floating CTA */
 .sticky-cta {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(5px);
-    padding: 1rem;
-    box-shadow: 0 -4px 6px -1px rgba(0,0,0,0.1);
+    bottom: 1.5rem;
+    right: 1.5rem;
     z-index: 100;
     display: none; /* Shown via JS on scroll */
-    border-top: 1px solid #e2e8f0;
 }
 
 .sticky-cta .cta-button {
     margin: 0;
-    max-width: var(--max-width);
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2), 0 4px 6px -2px rgba(0,0,0,0.1);
+    font-size: 1rem;
+    white-space: nowrap;
 }
 
 /* Footer */
@@ -398,11 +394,7 @@ p {
 }
 
 /* Responsive */
-@media (min-width: 769px) {
-    .sticky-cta {
-        display: none !important;
-    }
-}
+
 
 @media (max-width: 768px) {
     h1 {
