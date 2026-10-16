@@ -1,0 +1,1547 @@
+<!-- BUNDLED FOR WEBFLOW EMBED OR STANDALONE USE: romantic-quiz -->
+<style>
+:root {
+    --bg-dark: #0b111e;
+    --bg-card: #131c2e;
+    --bg-card-hover: #18243b;
+    --gold: #d4af37;
+    --gold-bright: #f3cf65;
+    --gold-glow: rgba(212, 175, 55, 0.25);
+    --gold-dark: #aa8522;
+    --text-white: #f8fafc;
+    --text-muted: #94a3b8;
+    --text-dim: #64748b;
+    --border-card: rgba(212, 175, 55, 0.2);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --accent-red: #e11d48;
+    --success-green: #10b981;
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.quiz-header {
+    background-color: rgba(11, 17, 30, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: 0.9rem 1.25rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.brand-logo {
+    height: 32px;
+    width: auto;
+}
+
+.brand-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--gold-bright);
+    text-transform: uppercase;
+}
+
+.badge-trust {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.35rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-subtle);
+}
+
+.pulse-dot {
+    width: 7px;
+    height: 7px;
+    background-color: var(--success-green);
+    border-radius: 50%;
+    box-shadow: 0 0 8px var(--success-green);
+    animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.9); opacity: 0.8; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(0.9); opacity: 0.8; }
+}
+
+/* Main Layout */
+.quiz-main {
+    flex: 1;
+    padding: 2.2rem 1.2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-container {
+    max-width: 680px;
+    width: 100%;
+}
+
+/* Intro Section */
+.intro-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: var(--gold-bright);
+    background: rgba(212, 175, 55, 0.12);
+    border: 1px solid var(--border-card);
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    margin-bottom: 1.25rem;
+}
+
+.main-title {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #fff;
+    margin-bottom: 1.1rem;
+}
+
+.subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    margin-bottom: 1.6rem;
+    line-height: 1.6;
+}
+
+.social-proof-strip {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-subtle);
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.avatar-group {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid var(--bg-card);
+    margin-left: -8px;
+    object-fit: cover;
+}
+
+.avatar:first-child {
+    margin-left: 0;
+}
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+}
+
+.social-text strong {
+    color: var(--gold-bright);
+}
+
+.social-text span {
+    color: var(--text-dim);
+    font-size: 0.78rem;
+}
+
+.highlight-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.pill {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #e2e8f0;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-subtle);
+}
+
+.btn-start {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
+    color: #0b111e;
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 800;
+    padding: 1.15rem 1.5rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(212, 175, 55, 0.35);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-start:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(212, 175, 55, 0.45);
+}
+
+.btn-arrow {
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.helper-text {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 0.85rem;
+}
+
+/* Progress Bar */
+.quiz-progress-wrapper {
+    margin-bottom: 2rem;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar-track {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--gold), var(--gold-bright));
+    border-radius: 999px;
+    transition: width var(--transition-smooth);
+}
+
+/* Question Steps */
+.question-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.question-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 1.6rem;
+}
+
+.options-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    width: 100%;
+    text-align: left;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    padding: 1.15rem 1.25rem;
+    border-radius: 14px;
+    color: var(--text-white);
+    font-family: var(--font-sans);
+    cursor: pointer;
+    position: relative;
+    transition: all var(--transition-fast);
+}
+
+.quiz-option:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-card);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.quiz-option:active {
+    transform: scale(0.99);
+}
+
+.opt-icon {
+    font-size: 1.7rem;
+    flex-shrink: 0;
+}
+
+.opt-content {
+    flex: 1;
+}
+
+.opt-content h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #fff;
+}
+
+.opt-content p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.opt-tag {
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    background: var(--gold);
+    color: #0b111e;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 6px;
+}
+
+.opt-check {
+    font-size: 1rem;
+    color: var(--gold-bright);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.quiz-option:hover .opt-check {
+    opacity: 1;
+}
+
+/* Loading Screen */
+.loader-container {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.pulse-boat {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    animation: rockBoat 2s ease-in-out infinite;
+}
+
+@keyframes rockBoat {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-8px) rotate(4deg); }
+}
+
+.loading-title {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.calculating-checklist {
+    max-width: 420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    transition: color 0.4s ease;
+}
+
+.check-item.active {
+    color: var(--gold-bright);
+    font-weight: 600;
+}
+
+.check-item.done {
+    color: var(--success-green);
+}
+
+/* Results Screen */
+.match-banner {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.match-score {
+    display: inline-block;
+    background: rgba(212, 175, 55, 0.15);
+    border: 1px solid var(--border-card);
+    color: var(--gold-bright);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    margin-bottom: 0.5rem;
+}
+
+.match-rank {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.result-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4), 0 0 20px var(--gold-glow);
+    margin-bottom: 2rem;
+}
+
+.result-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.result-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.result-tag {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    background: rgba(11, 17, 30, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-card);
+    color: var(--gold-bright);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+}
+
+.result-body {
+    padding: 1.8rem 1.6rem;
+}
+
+.result-title {
+    font-family: var(--font-heading);
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin-bottom: 0.4rem;
+}
+
+.result-rating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.stars {
+    color: #fbbf24;
+    font-size: 1.1rem;
+}
+
+.rating-num {
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.review-count {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+}
+
+.result-hook {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.match-reasons {
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reason-row {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+}
+
+.reason-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.reason-row strong {
+    display: block;
+    font-size: 0.92rem;
+    color: #fff;
+    margin-bottom: 0.15rem;
+}
+
+.reason-row p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+}
+
+/* Booking Urgency Box */
+.booking-urgency-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(212, 175, 55, 0.08);
+    border: 1px dashed var(--border-card);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.price-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+}
+
+.price-amount {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--gold-bright);
+    line-height: 1.1;
+}
+
+.price-amount small {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.price-sub {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+}
+
+.urgency-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    max-width: 260px;
+    font-size: 0.78rem;
+    color: #cbd5e1;
+}
+
+.urgency-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent-red);
+    border-radius: 50%;
+    margin-top: 5px;
+    flex-shrink: 0;
+    box-shadow: 0 0 6px var(--accent-red);
+}
+
+.urgency-side strong {
+    color: #f87171;
+    display: block;
+}
+
+/* Primary CTA Button */
+.cta-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
+    color: #0b111e;
+    padding: 1.15rem 1.25rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(212, 175, 55, 0.4);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    margin-bottom: 1.2rem;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 34px rgba(212, 175, 55, 0.5);
+}
+
+.cta-headline {
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+}
+
+.cta-subline {
+    font-size: 0.75rem;
+    font-weight: 600;
+    opacity: 0.85;
+    margin-top: 0.25rem;
+}
+
+.pulse-effect {
+    animation: glowPulse 2.5s infinite;
+}
+
+@keyframes glowPulse {
+    0% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.6); }
+    70% { box-shadow: 0 0 0 14px rgba(212, 175, 55, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+}
+
+.guarantee-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+/* Runner Up Card */
+.runner-up-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.runner-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.runner-badge {
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    color: var(--text-muted);
+}
+
+.runner-header h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.runner-desc {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.runner-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.runner-price {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--gold-bright);
+}
+
+.btn-secondary {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid var(--border-subtle);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background var(--transition-fast);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Testimonial */
+.couple-testimonial {
+    background: rgba(212, 175, 55, 0.05);
+    border-left: 3px solid var(--gold);
+    padding: 1.15rem 1.25rem;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 2rem;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 0.88rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.quote-author {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--gold-bright);
+}
+
+/* Restart */
+.restart-wrapper {
+    text-align: center;
+}
+
+.btn-restart {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: var(--font-sans);
+    transition: color var(--transition-fast);
+}
+
+.btn-restart:hover {
+    color: var(--text-white);
+}
+
+/* Footer */
+.quiz-footer {
+    border-top: 1px solid var(--border-subtle);
+    padding: 2rem 1.25rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+}
+
+.footer-container {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.quiz-footer .disclaimer {
+    margin-top: 0.5rem;
+    font-size: 0.72rem;
+    line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 1.75rem;
+    }
+    .question-title {
+        font-size: 1.45rem;
+    }
+    .result-title {
+        font-size: 1.5rem;
+    }
+    .booking-urgency-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .urgency-side {
+        max-width: 100%;
+    }
+    .header-container {
+        flex-direction: row;
+    }
+    .badge-trust span:last-child {
+        display: none;
+    }
+}
+
+</style>
+
+
+
+    <!-- Header -->
+    <header class="quiz-header">
+        <div class="header-container">
+            <div class="brand">
+                <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="brand-logo">
+                <span class="brand-text">THE CRUISE DETECTIVE</span>
+            </div>
+            <div class="badge-trust">
+                <span class="pulse-dot"></span>
+                <span>Verified 2026 Couples Guide</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="quiz-main">
+        <div class="quiz-container">
+
+            <!-- Intro Card -->
+            <section id="step-intro" class="quiz-step active">
+                <div class="intro-badge">✨ 30-SECOND ROMANTIC MATCHER</div>
+                <h1 class="main-title">Which Paris Seine Dinner Cruise Fits Your Romantic Date Night?</h1>
+                <p class="subtitle">Paris has over 15 different dinner cruise boats. Half are loud, crowded tourist traps with bland food — while a select few offer unforgettable candlelight romance, live violin, and front-row Eiffel Tower views.</p>
+                
+                <div class="social-proof-strip">
+                    <div class="avatar-group">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                    </div>
+                    <div class="social-text">
+                        <strong>4.8 / 5 Rating</strong>
+                        <span>Trusted by 14,200+ couples</span>
+                    </div>
+                </div>
+
+                <div class="highlight-pills">
+                    <span class="pill">🕯️ Live Violin & Piano</span>
+                    <span class="pill">🍷 Champagne & Wine Included</span>
+                    <span class="pill">🗼 Sparkling Eiffel Tower Guarantee</span>
+                </div>
+
+                <button type="button" class="btn-start" id="btn-start-quiz">
+                    <span>Find Our Perfect Date Night Boat</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <p class="helper-text">Takes under 30 seconds • No email or signup required</p>
+            </section>
+
+            <!-- Progress Bar -->
+            <div class="quiz-progress-wrapper" id="progress-container" style="display: none;">
+                <div class="progress-info">
+                    <span id="question-step-label">Question 1 of 4</span>
+                    <span id="progress-percent">25% Complete</span>
+                </div>
+                <div class="progress-bar-track">
+                    <div class="progress-bar-fill" id="progress-fill" style="width: 25%;"></div>
+                </div>
+            </div>
+
+            <!-- Question 1: Occasion -->
+            <section id="step-q1" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What special occasion are you and your partner celebrating?</h2>
+                <p class="question-subtitle">This helps us match the right seating intimacy, ambiance, and celebration perks.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="anniversary">
+                        <span class="opt-icon">🥂</span>
+                        <div class="opt-content">
+                            <h3>Wedding Anniversary or Milestone</h3>
+                            <p>Celebrating our love with an unforgettable, high-end evening.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="proposal">
+                        <span class="opt-icon">💍</span>
+                        <div class="opt-content">
+                            <h3>Proposal / Once-in-a-Lifetime Moment</h3>
+                            <p>I need the atmosphere, champagne, and Eiffel Tower view to be 100% flawless.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="datenight">
+                        <span class="opt-icon">❤️</span>
+                        <div class="opt-content">
+                            <h3>Romantic Date Night in Paris</h3>
+                            <p>Looking for a romantic dinner with great food and scenic illuminated sights.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="firsttime">
+                        <span class="opt-icon">🗼</span>
+                        <div class="opt-content">
+                            <h3>First Visit to Paris Together</h3>
+                            <p>We want the quintessential Parisian experience done right.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 2: Vibe & Atmosphere -->
+            <section id="step-q2" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What vibe are you dreaming of for dinner?</h2>
+                <p class="question-subtitle">Paris river boats have radically different musical and architectural styles.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="classic-romance">
+                        <span class="opt-icon">🎻</span>
+                        <div class="opt-content">
+                            <h3>Classic French Romance & Live Violin / Piano</h3>
+                            <p>Soft live acoustic serenades, candlelit tables, white tablecloths, and timeless charm.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="modern-luxury">
+                        <span class="opt-icon">🪟</span>
+                        <div class="opt-content">
+                            <h3>Modern All-Glass Architectural Luxury</h3>
+                            <p>360° floor-to-ceiling glass canopy, chic contemporary design, and panoramic river vistas.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="bistro-casual">
+                        <span class="opt-icon">🥐</span>
+                        <div class="opt-content">
+                            <h3>Cozy Parisian Bistro & Sunset Views</h3>
+                            <p>Relaxed, laid-back atmosphere with great comfort food while cruising past monuments.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 3: Dinner Priority -->
+            <section id="step-q3" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What is your #1 must-have for the evening?</h2>
+                <p class="question-subtitle">Choose the feature that matters most to both of you.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="gourmet-wine">
+                        <span class="opt-icon">🍾</span>
+                        <div class="opt-content">
+                            <h3>Gourmet 3-to-4 Course Dining with Wine & Champagne Included</h3>
+                            <p>Fresh French cuisine prepared onboard by real chefs, not warmed-up catering food.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="rooftop-deck">
+                        <span class="opt-icon">📸</span>
+                        <div class="opt-content">
+                            <h3>Open-Air Rooftop Deck for Eiffel Tower Photos</h3>
+                            <p>Being able to walk upstairs anytime, feel the river breeze, and take couple photos under the sparkles.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="guaranteed-window">
+                        <span class="opt-icon">🍽️</span>
+                        <div class="opt-content">
+                            <h3>Guaranteed Intimate Window-Side Seating</h3>
+                            <p>Generous table distance with direct views of Notre-Dame and the Louvre from our seats.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 4: Budget Range -->
+            <section id="step-q4" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What is your ideal budget per person?</h2>
+                <p class="question-subtitle">All top recommendations include a scenic Seine cruise and full dinner.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="classic-gourmet">
+                        <span class="opt-icon">💎</span>
+                        <div class="opt-content">
+                            <h3>Around €115 – €150 / person (Most Popular)</h3>
+                            <p>Full 3-4 course gourmet meal, live acoustic music, complimentary wine and champagne.</p>
+                        </div>
+                        <span class="opt-tag">RECOMMENDED FOR COUPLES</span>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="vip-luxury">
+                        <span class="opt-icon">👑</span>
+                        <div class="opt-content">
+                            <h3>Premium VIP: €160 – €210+ / person</h3>
+                            <p>Guaranteed front-row bow window table, vintage champagne, caviar, and priority boarding.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="budget-smart">
+                        <span class="opt-icon">💶</span>
+                        <div class="opt-content">
+                            <h3>Smart Value: €75 – €95 / person</h3>
+                            <p>Comfortable Seine dinner cruise with tasty French fare for budget-conscious travelers.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading / Calculation State -->
+            <section id="step-loading" class="quiz-step" style="display: none;">
+                <div class="loader-container">
+                    <div class="pulse-boat">🚢</div>
+                    <h2 class="loading-title">Matching Your Romantic Paris Dinner Cruise...</h2>
+                    
+                    <div class="calculating-checklist">
+                        <div class="check-item active" id="calc-step-1">
+                            <span class="check-icon">⏳</span>
+                            <span>Comparing 5 major Paris riverboat operators...</span>
+                        </div>
+                        <div class="check-item" id="calc-step-2">
+                            <span class="check-icon">○</span>
+                            <span>Checking romantic table spacing & live music vibes...</span>
+                        </div>
+                        <div class="check-item" id="calc-step-3">
+                            <span class="check-icon">○</span>
+                            <span>Verifying live ticket availability on official partner networks...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Screen -->
+            <section id="step-results" class="quiz-step" style="display: none;">
+                
+                <div class="match-banner">
+                    <div class="match-score">98% MATCH FOR YOUR DATE NIGHT</div>
+                    <span class="match-rank">#1 Highest Rated Dinner Cruise for Romance</span>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-image-wrapper">
+                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4b0f32b0baf412f95f5_Bateaux-mouches-dinner-cruise%20(7).webp" alt="Bateaux Mouches Romantic Dinner Cruise" class="result-img">
+                        <div class="result-tag">🏆 WINNER: EDITORS' PICK</div>
+                    </div>
+
+                    <div class="result-body">
+                        <h2 class="result-title">Bateaux-Mouches Romantic Dinner Cruise</h2>
+                        <div class="result-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-num">4.8 / 5.0</span>
+                            <span class="review-count">(Over 9,900+ Verified Couple Reviews)</span>
+                        </div>
+
+                        <p class="result-hook">Based on your answers, <strong>Bateaux Mouches</strong> is the exact experience you are looking for. Unlike cramped sightseeing boats with microwaved catering, Bateaux Mouches offers an authentic, candlelit Parisian gourmet dinner accompanied by live violin and piano.</p>
+
+                        <div class="match-reasons">
+                            <div class="reason-row">
+                                <span class="reason-icon">🎻</span>
+                                <div>
+                                    <strong>Live Acoustic Violin & Piano Duo</strong>
+                                    <p>Plays timeless romantic French ballads without overpowering your private conversations.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">🍷</span>
+                                <div>
+                                    <strong>Full 3-4 Course Meal + Wine & Champagne Included</strong>
+                                    <p>Generous drinks: 1 full bottle of wine per couple, mineral water, plus champagne included in the ticket price.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">🗼</span>
+                                <div>
+                                    <strong>Massive 360° Open-Air Rooftop Deck</strong>
+                                    <p>Step outside anytime during the cruise to stand together by the rail and kiss under the sparkling Eiffel Tower.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">✨</span>
+                                <div>
+                                    <strong>Spacious Tables & Attentive French Service</strong>
+                                    <p>Well-spaced tables so you don't feel bumped by strangers. Exceptionally warm, professional service.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Price & Urgency Box -->
+                        <div class="booking-urgency-box">
+                            <div class="price-side">
+                                <span class="price-label">Official Tiqets Price From</span>
+                                <span class="price-amount">€115<small>/person</small></span>
+                                <span class="price-sub">All-inclusive: 3-course dinner + wine</span>
+                            </div>
+                            <div class="urgency-side">
+                                <span class="urgency-dot"></span>
+                                <div>
+                                    <strong>High Demand Notice:</strong>
+                                    <span>Tables book 4 to 7 days ahead for couples. Free cancellation up to 24h before.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=romantic-quiz-bm" class="cta-button primary-cta pulse-effect" target="_blank" rel="noopener">
+                            <span class="cta-headline">CHECK LIVE AVAILABILITY & RESERVE →</span>
+                            <span class="cta-subline">Official Tiqets Partner • Instant Mobile Voucher • Free 24h Cancellation</span>
+                        </a>
+
+                        <div class="guarantee-badges">
+                            <span>🔒 100% Safe SSL Booking</span>
+                            <span>📱 Smartphone Tickets</span>
+                            <span>⚡ Instant Confirmation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary Runner-Up Option -->
+                <div class="runner-up-card">
+                    <div class="runner-header">
+                        <span class="runner-badge">RUNNER-UP OPTION</span>
+                        <h3>Bateaux Parisiens Dinner Cruise</h3>
+                    </div>
+                    <p class="runner-desc">Prefer a completely glass-canopied contemporary boat? Bateaux Parisiens offers floor-to-ceiling glass architecture with views from every seat, accompanied by a live singer. Slightly more bustling than Bateaux Mouches, but visually striking.</p>
+                    <div class="runner-actions">
+                        <span class="runner-price">From €115/person</span>
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=romantic-quiz-bp" class="btn-secondary" target="_blank" rel="noopener">
+                            View Bateaux Parisiens Option →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Testimonial Quote -->
+                <div class="couple-testimonial">
+                    <p class="quote-text">"My boyfriend surprised me with the Bateaux Mouches dinner for our 3rd anniversary. When the boat slowed down in front of the glittering Eiffel Tower and the violinist played La Vie en Rose, I had tears in my eyes. The food was delicious and the wine kept flowing. Unforgettable night!"</p>
+                    <p class="quote-author">— Sarah & Marc, London (Traveled June 2025)</p>
+                </div>
+
+                <!-- Reset Quiz -->
+                <div class="restart-wrapper">
+                    <button type="button" class="btn-restart" id="btn-restart-quiz">↺ Retake Quiz with Different Preferences</button>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="quiz-footer">
+        <div class="footer-container">
+            <p>Copyright © <span id="current-year">2026</span> The Cruise Detective. All Rights Reserved.</p>
+            <p class="disclaimer">Independent Paris Cruise Reviews & Booking Guide. We partner with authorized ticket providers like Tiqets to offer verified availability and direct customer protection.</p>
+        </div>
+    </footer>
+
+    <!-- Universal Tracking & Link Decoration Script -->
+    <script src="script.js"></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // -------------------------------------------------------------
+    // 1. Click ID Persistence & Tiqets Link Decoration Engine (CAPI)
+    // -------------------------------------------------------------
+    const STORAGE_KEY = 'cd_gclid';
+    const EXPIRATION_KEY = 'cd_gclid_exp';
+    const EXPIRATION_MS = 90 * 24 * 60 * 60 * 1000; // 90 days in ms
+    const COOKIE_MAX_AGE = 90 * 24 * 60 * 60; // 90 days in seconds
+
+    function saveClickId(type, value) {
+        if (!value || typeof value !== 'string') return;
+        const cleanValue = value.trim();
+        if (!cleanValue) return;
+
+        const payload = `${type}:${cleanValue}`;
+        const expTime = Date.now() + EXPIRATION_MS;
+
+        try {
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem(STORAGE_KEY, payload);
+                localStorage.setItem(EXPIRATION_KEY, expTime.toString());
+            }
+        } catch (e) {}
+
+        try {
+            if (typeof document !== 'undefined') {
+                document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${COOKIE_MAX_AGE}; path=/; SameSite=Lax`;
+            }
+        } catch (e) {}
+    }
+
+    function parseStoredId(storedVal) {
+        if (!storedVal) return null;
+        if (storedVal.startsWith('fbclid:')) return { type: 'fbclid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gclid:')) return { type: 'gclid', value: storedVal.substring(6) };
+        if (storedVal.startsWith('wbraid:')) return { type: 'wbraid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gbraid:')) return { type: 'gbraid', value: storedVal.substring(7) };
+        return { type: 'fbclid', value: storedVal };
+    }
+
+    function getClickId() {
+        // Hierarchy 1: URL parameter
+        try {
+            if (typeof window !== 'undefined' && window.location && window.location.search) {
+                const urlParams = new URLSearchParams(window.location.search);
+                for (const type of ['fbclid', 'gclid', 'wbraid', 'gbraid']) {
+                    const val = urlParams.get(type);
+                    if (val && val.trim()) {
+                        const cleanVal = val.trim();
+                        saveClickId(type, cleanVal);
+                        return { type, value: cleanVal };
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 2: localStorage
+        try {
+            if (typeof localStorage !== 'undefined') {
+                const localVal = localStorage.getItem(STORAGE_KEY);
+                const exp = localStorage.getItem(EXPIRATION_KEY);
+                if (localVal) {
+                    if (exp) {
+                        const expTime = parseInt(exp, 10);
+                        if (!isNaN(expTime) && Date.now() < expTime) {
+                            return parseStoredId(localVal);
+                        }
+                    } else {
+                        return parseStoredId(localVal);
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 3: Cookie
+        try {
+            if (typeof document !== 'undefined' && document.cookie) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(`${STORAGE_KEY}=`)) {
+                        const cookieVal = decodeURIComponent(cookie.substring(STORAGE_KEY.length + 1));
+                        if (cookieVal) {
+                            const parsed = parseStoredId(cookieVal);
+                            saveClickId(parsed.type, parsed.value);
+                            return parsed;
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return null;
+    }
+
+    function decorateLink(link, clickIdObj) {
+        if (!link || !clickIdObj || !clickIdObj.value) return;
+        const { type, value } = clickIdObj;
+        try {
+            const rawHref = link.getAttribute('href');
+            if (!rawHref || !rawHref.includes('tiqets.com')) return;
+
+            const url = new URL(rawHref, window.location.href);
+            const existingCampaign = url.searchParams.get('tq_campaign') || 'romantic-quiz-bm';
+            
+            // Format composite campaign tag
+            let newCampaign = existingCampaign;
+            const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
+            if (match) {
+                const baseTag = existingCampaign.substring(0, match.index);
+                newCampaign = baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
+            } else {
+                newCampaign = `${existingCampaign}--${type}-${value}`;
+            }
+
+            url.searchParams.set('tq_campaign', newCampaign);
+            url.searchParams.set(type, value);
+            url.searchParams.set('click_id', value);
+            url.searchParams.set('subid', `${type}:${value}`);
+
+            link.href = url.toString();
+        } catch (e) {
+            console.warn('Failed to decorate Tiqets link:', e);
+        }
+    }
+
+    function decorateAllLinks() {
+        const activeClickId = getClickId();
+        if (!activeClickId) return;
+
+        const links = document.querySelectorAll('a[href*="tiqets.com"]');
+        links.forEach(link => decorateLink(link, activeClickId));
+    }
+
+    // Attach Meta Pixel InitiateCheckout event to Tiqets CTA buttons
+    function attachTrackingToButtons() {
+        const ctaButtons = document.querySelectorAll('a[href*="tiqets.com"], .cta-button, .btn-secondary');
+        ctaButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const activeClickId = getClickId();
+                if (activeClickId) {
+                    decorateLink(button, activeClickId);
+                }
+
+                if (typeof window.fbq === 'function') {
+                    window.fbq('track', 'InitiateCheckout', {
+                        content_name: 'Paris Romantic Dinner Cruise',
+                        content_category: 'Dinner Cruise',
+                        currency: 'EUR',
+                        value: 230.00
+                    });
+                }
+            });
+        });
+    }
+
+    // Initial link decoration
+    decorateAllLinks();
+    attachTrackingToButtons();
+
+    // Set Copyright Year
+    const yearEl = document.getElementById('current-year');
+    if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+    }
+
+    // -------------------------------------------------------------
+    // 2. Interactive Quiz State Machine
+    // -------------------------------------------------------------
+    const stepIntro = document.getElementById('step-intro');
+    const stepQ1 = document.getElementById('step-q1');
+    const stepQ2 = document.getElementById('step-q2');
+    const stepQ3 = document.getElementById('step-q3');
+    const stepQ4 = document.getElementById('step-q4');
+    const stepLoading = document.getElementById('step-loading');
+    const stepResults = document.getElementById('step-results');
+    
+    const progressContainer = document.getElementById('progress-container');
+    const questionStepLabel = document.getElementById('question-step-label');
+    const progressPercent = document.getElementById('progress-percent');
+    const progressFill = document.getElementById('progress-fill');
+
+    const btnStart = document.getElementById('btn-start-quiz');
+    const btnRestart = document.getElementById('btn-restart-quiz');
+
+    const quizAnswers = {
+        occasion: null,
+        vibe: null,
+        priority: null,
+        budget: null
+    };
+
+    function showStep(stepElement) {
+        [stepIntro, stepQ1, stepQ2, stepQ3, stepQ4, stepLoading, stepResults].forEach(el => {
+            if (el) {
+                el.style.display = 'none';
+                el.classList.remove('active');
+            }
+        });
+
+        if (stepElement) {
+            stepElement.style.display = 'block';
+            stepElement.classList.add('active');
+            window.scrollTo({ top: 100, behavior: 'smooth' });
+        }
+    }
+
+    function updateProgress(stepIndex, totalSteps) {
+        const percent = Math.round((stepIndex / totalSteps) * 100);
+        if (questionStepLabel) questionStepLabel.textContent = `Question ${stepIndex} of ${totalSteps}`;
+        if (progressPercent) progressPercent.textContent = `${percent}% Complete`;
+        if (progressFill) progressFill.style.width = `${percent}%`;
+    }
+
+    // Start Quiz
+    if (btnStart) {
+        btnStart.addEventListener('click', () => {
+            if (typeof window.fbq === 'function') {
+                window.fbq('trackCustom', 'QuizStart');
+            }
+            if (progressContainer) progressContainer.style.display = 'block';
+            updateProgress(1, 4);
+            showStep(stepQ1);
+        });
+    }
+
+    // Handle Question 1 Selection
+    stepQ1.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', () => {
+            quizAnswers.occasion = option.dataset.answer;
+            if (typeof window.fbq === 'function') {
+                window.fbq('trackCustom', 'QuizStep', { step: 1, answer: quizAnswers.occasion });
+            }
+            updateProgress(2, 4);
+            showStep(stepQ2);
+        });
+    });
+
+    // Handle Question 2 Selection
+    stepQ2.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', () => {
+            quizAnswers.vibe = option.dataset.answer;
+            if (typeof window.fbq === 'function') {
+                window.fbq('trackCustom', 'QuizStep', { step: 2, answer: quizAnswers.vibe });
+            }
+            updateProgress(3, 4);
+            showStep(stepQ3);
+        });
+    });
+
+    // Handle Question 3 Selection
+    stepQ3.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', () => {
+            quizAnswers.priority = option.dataset.answer;
+            if (typeof window.fbq === 'function') {
+                window.fbq('trackCustom', 'QuizStep', { step: 3, answer: quizAnswers.priority });
+            }
+            updateProgress(4, 4);
+            showStep(stepQ4);
+        });
+    });
+
+    // Handle Question 4 Selection -> Trigger Loading & Results
+    stepQ4.querySelectorAll('.quiz-option').forEach(option => {
+        option.addEventListener('click', () => {
+            quizAnswers.budget = option.dataset.answer;
+            if (typeof window.fbq === 'function') {
+                window.fbq('trackCustom', 'QuizStep', { step: 4, answer: quizAnswers.budget });
+            }
+            
+            if (progressContainer) progressContainer.style.display = 'none';
+            showStep(stepLoading);
+
+            // Animate calculation checklist
+            const step1 = document.getElementById('calc-step-1');
+            const step2 = document.getElementById('calc-step-2');
+            const step3 = document.getElementById('calc-step-3');
+
+            setTimeout(() => {
+                if (step1) {
+                    step1.className = 'check-item done';
+                    step1.querySelector('.check-icon').textContent = '✓';
+                }
+                if (step2) {
+                    step2.className = 'check-item active';
+                    step2.querySelector('.check-icon').textContent = '⏳';
+                }
+            }, 800);
+
+            setTimeout(() => {
+                if (step2) {
+                    step2.className = 'check-item done';
+                    step2.querySelector('.check-icon').textContent = '✓';
+                }
+                if (step3) {
+                    step3.className = 'check-item active';
+                    step3.querySelector('.check-icon').textContent = '⏳';
+                }
+            }, 1600);
+
+            setTimeout(() => {
+                if (step3) {
+                    step3.className = 'check-item done';
+                    step3.querySelector('.check-icon').textContent = '✓';
+                }
+            }, 2400);
+
+            // Reveal Results
+            setTimeout(() => {
+                showStep(stepResults);
+                decorateAllLinks();
+                attachTrackingToButtons();
+
+                if (typeof window.fbq === 'function') {
+                    window.fbq('trackCustom', 'QuizCompleted', {
+                        match: 'Bateaux-Mouches',
+                        occasion: quizAnswers.occasion,
+                        vibe: quizAnswers.vibe,
+                        budget: quizAnswers.budget
+                    });
+                }
+            }, 2800);
+        });
+    });
+
+    // Restart Quiz
+    if (btnRestart) {
+        btnRestart.addEventListener('click', () => {
+            quizAnswers.occasion = null;
+            quizAnswers.vibe = null;
+            quizAnswers.priority = null;
+            quizAnswers.budget = null;
+
+            if (progressContainer) progressContainer.style.display = 'none';
+            showStep(stepIntro);
+        });
+    }
+});
+
+</script>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Seine River Dinner Cruise Matcher | The Cruise Detective</title>
+    <meta name="description" content="Take this 30-second romantic Paris dinner cruise quiz to match the perfect Seine evening for you and your partner. Avoid crowded tourist traps.">
+    <meta property="og:title" content="Which Paris Dinner Cruise Fits Your Date Night? (Quiz)">
+    <meta property="og:description" content="Find the most romantic Paris dinner cruise in 30 seconds. Tested by couples, verified for romance and food quality.">
+    <meta property="og:image" content="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp">
+    <link rel="shortcut icon" href="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6570a893c546e01463861a82_favicon-cruise-detective.png" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Meta Pixel Code (The Cruise Detective) -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1355732169631751');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1355732169631751&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="quiz-header">
+        <div class="header-container">
+            <div class="brand">
+                <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="brand-logo">
+                <span class="brand-text">THE CRUISE DETECTIVE</span>
+            </div>
+            <div class="badge-trust">
+                <span class="pulse-dot"></span>
+                <span>Verified 2026 Couples Guide</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="quiz-main">
+        <div class="quiz-container">
+
+            <!-- Intro Card -->
+            <section id="step-intro" class="quiz-step active">
+                <div class="intro-badge">✨ 30-SECOND ROMANTIC MATCHER</div>
+                <h1 class="main-title">Which Paris Seine Dinner Cruise Fits Your Romantic Date Night?</h1>
+                <p class="subtitle">Paris has over 15 different dinner cruise boats. Half are loud, crowded tourist traps with bland food — while a select few offer unforgettable candlelight romance, live violin, and front-row Eiffel Tower views.</p>
+                
+                <div class="social-proof-strip">
+                    <div class="avatar-group">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=80&auto=format&fit=crop&q=80" alt="Traveler" class="avatar">
+                    </div>
+                    <div class="social-text">
+                        <strong>4.8 / 5 Rating</strong>
+                        <span>Trusted by 14,200+ couples</span>
+                    </div>
+                </div>
+
+                <div class="highlight-pills">
+                    <span class="pill">🕯️ Live Violin & Piano</span>
+                    <span class="pill">🍷 Champagne & Wine Included</span>
+                    <span class="pill">🗼 Sparkling Eiffel Tower Guarantee</span>
+                </div>
+
+                <button type="button" class="btn-start" id="btn-start-quiz">
+                    <span>Find Our Perfect Date Night Boat</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <p class="helper-text">Takes under 30 seconds • No email or signup required</p>
+            </section>
+
+            <!-- Progress Bar -->
+            <div class="quiz-progress-wrapper" id="progress-container" style="display: none;">
+                <div class="progress-info">
+                    <span id="question-step-label">Question 1 of 4</span>
+                    <span id="progress-percent">25% Complete</span>
+                </div>
+                <div class="progress-bar-track">
+                    <div class="progress-bar-fill" id="progress-fill" style="width: 25%;"></div>
+                </div>
+            </div>
+
+            <!-- Question 1: Occasion -->
+            <section id="step-q1" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What special occasion are you and your partner celebrating?</h2>
+                <p class="question-subtitle">This helps us match the right seating intimacy, ambiance, and celebration perks.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="anniversary">
+                        <span class="opt-icon">🥂</span>
+                        <div class="opt-content">
+                            <h3>Wedding Anniversary or Milestone</h3>
+                            <p>Celebrating our love with an unforgettable, high-end evening.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="proposal">
+                        <span class="opt-icon">💍</span>
+                        <div class="opt-content">
+                            <h3>Proposal / Once-in-a-Lifetime Moment</h3>
+                            <p>I need the atmosphere, champagne, and Eiffel Tower view to be 100% flawless.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="datenight">
+                        <span class="opt-icon">❤️</span>
+                        <div class="opt-content">
+                            <h3>Romantic Date Night in Paris</h3>
+                            <p>Looking for a romantic dinner with great food and scenic illuminated sights.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="firsttime">
+                        <span class="opt-icon">🗼</span>
+                        <div class="opt-content">
+                            <h3>First Visit to Paris Together</h3>
+                            <p>We want the quintessential Parisian experience done right.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 2: Vibe & Atmosphere -->
+            <section id="step-q2" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What vibe are you dreaming of for dinner?</h2>
+                <p class="question-subtitle">Paris river boats have radically different musical and architectural styles.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="classic-romance">
+                        <span class="opt-icon">🎻</span>
+                        <div class="opt-content">
+                            <h3>Classic French Romance & Live Violin / Piano</h3>
+                            <p>Soft live acoustic serenades, candlelit tables, white tablecloths, and timeless charm.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="modern-luxury">
+                        <span class="opt-icon">🪟</span>
+                        <div class="opt-content">
+                            <h3>Modern All-Glass Architectural Luxury</h3>
+                            <p>360° floor-to-ceiling glass canopy, chic contemporary design, and panoramic river vistas.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="bistro-casual">
+                        <span class="opt-icon">🥐</span>
+                        <div class="opt-content">
+                            <h3>Cozy Parisian Bistro & Sunset Views</h3>
+                            <p>Relaxed, laid-back atmosphere with great comfort food while cruising past monuments.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 3: Dinner Priority -->
+            <section id="step-q3" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What is your #1 must-have for the evening?</h2>
+                <p class="question-subtitle">Choose the feature that matters most to both of you.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="gourmet-wine">
+                        <span class="opt-icon">🍾</span>
+                        <div class="opt-content">
+                            <h3>Gourmet 3-to-4 Course Dining with Wine & Champagne Included</h3>
+                            <p>Fresh French cuisine prepared onboard by real chefs, not warmed-up catering food.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="rooftop-deck">
+                        <span class="opt-icon">📸</span>
+                        <div class="opt-content">
+                            <h3>Open-Air Rooftop Deck for Eiffel Tower Photos</h3>
+                            <p>Being able to walk upstairs anytime, feel the river breeze, and take couple photos under the sparkles.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="guaranteed-window">
+                        <span class="opt-icon">🍽️</span>
+                        <div class="opt-content">
+                            <h3>Guaranteed Intimate Window-Side Seating</h3>
+                            <p>Generous table distance with direct views of Notre-Dame and the Louvre from our seats.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Question 4: Budget Range -->
+            <section id="step-q4" class="quiz-step" style="display: none;">
+                <h2 class="question-title">What is your ideal budget per person?</h2>
+                <p class="question-subtitle">All top recommendations include a scenic Seine cruise and full dinner.</p>
+
+                <div class="options-grid">
+                    <button type="button" class="quiz-option" data-answer="classic-gourmet">
+                        <span class="opt-icon">💎</span>
+                        <div class="opt-content">
+                            <h3>Around €115 – €150 / person (Most Popular)</h3>
+                            <p>Full 3-4 course gourmet meal, live acoustic music, complimentary wine and champagne.</p>
+                        </div>
+                        <span class="opt-tag">RECOMMENDED FOR COUPLES</span>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="vip-luxury">
+                        <span class="opt-icon">👑</span>
+                        <div class="opt-content">
+                            <h3>Premium VIP: €160 – €210+ / person</h3>
+                            <p>Guaranteed front-row bow window table, vintage champagne, caviar, and priority boarding.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+
+                    <button type="button" class="quiz-option" data-answer="budget-smart">
+                        <span class="opt-icon">💶</span>
+                        <div class="opt-content">
+                            <h3>Smart Value: €75 – €95 / person</h3>
+                            <p>Comfortable Seine dinner cruise with tasty French fare for budget-conscious travelers.</p>
+                        </div>
+                        <span class="opt-check">✓</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading / Calculation State -->
+            <section id="step-loading" class="quiz-step" style="display: none;">
+                <div class="loader-container">
+                    <div class="pulse-boat">🚢</div>
+                    <h2 class="loading-title">Matching Your Romantic Paris Dinner Cruise...</h2>
+                    
+                    <div class="calculating-checklist">
+                        <div class="check-item active" id="calc-step-1">
+                            <span class="check-icon">⏳</span>
+                            <span>Comparing 5 major Paris riverboat operators...</span>
+                        </div>
+                        <div class="check-item" id="calc-step-2">
+                            <span class="check-icon">○</span>
+                            <span>Checking romantic table spacing & live music vibes...</span>
+                        </div>
+                        <div class="check-item" id="calc-step-3">
+                            <span class="check-icon">○</span>
+                            <span>Verifying live ticket availability on official partner networks...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Screen -->
+            <section id="step-results" class="quiz-step" style="display: none;">
+                
+                <div class="match-banner">
+                    <div class="match-score">98% MATCH FOR YOUR DATE NIGHT</div>
+                    <span class="match-rank">#1 Highest Rated Dinner Cruise for Romance</span>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-image-wrapper">
+                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4b0f32b0baf412f95f5_Bateaux-mouches-dinner-cruise%20(7).webp" alt="Bateaux Mouches Romantic Dinner Cruise" class="result-img">
+                        <div class="result-tag">🏆 WINNER: EDITORS' PICK</div>
+                    </div>
+
+                    <div class="result-body">
+                        <h2 class="result-title">Bateaux-Mouches Romantic Dinner Cruise</h2>
+                        <div class="result-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-num">4.8 / 5.0</span>
+                            <span class="review-count">(Over 9,900+ Verified Couple Reviews)</span>
+                        </div>
+
+                        <p class="result-hook">Based on your answers, <strong>Bateaux Mouches</strong> is the exact experience you are looking for. Unlike cramped sightseeing boats with microwaved catering, Bateaux Mouches offers an authentic, candlelit Parisian gourmet dinner accompanied by live violin and piano.</p>
+
+                        <div class="match-reasons">
+                            <div class="reason-row">
+                                <span class="reason-icon">🎻</span>
+                                <div>
+                                    <strong>Live Acoustic Violin & Piano Duo</strong>
+                                    <p>Plays timeless romantic French ballads without overpowering your private conversations.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">🍷</span>
+                                <div>
+                                    <strong>Full 3-4 Course Meal + Wine & Champagne Included</strong>
+                                    <p>Generous drinks: 1 full bottle of wine per couple, mineral water, plus champagne included in the ticket price.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">🗼</span>
+                                <div>
+                                    <strong>Massive 360° Open-Air Rooftop Deck</strong>
+                                    <p>Step outside anytime during the cruise to stand together by the rail and kiss under the sparkling Eiffel Tower.</p>
+                                </div>
+                            </div>
+
+                            <div class="reason-row">
+                                <span class="reason-icon">✨</span>
+                                <div>
+                                    <strong>Spacious Tables & Attentive French Service</strong>
+                                    <p>Well-spaced tables so you don't feel bumped by strangers. Exceptionally warm, professional service.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Price & Urgency Box -->
+                        <div class="booking-urgency-box">
+                            <div class="price-side">
+                                <span class="price-label">Official Tiqets Price From</span>
+                                <span class="price-amount">€115<small>/person</small></span>
+                                <span class="price-sub">All-inclusive: 3-course dinner + wine</span>
+                            </div>
+                            <div class="urgency-side">
+                                <span class="urgency-dot"></span>
+                                <div>
+                                    <strong>High Demand Notice:</strong>
+                                    <span>Tables book 4 to 7 days ahead for couples. Free cancellation up to 24h before.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CTA Button -->
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=romantic-quiz-bm" class="cta-button primary-cta pulse-effect" target="_blank" rel="noopener">
+                            <span class="cta-headline">CHECK LIVE AVAILABILITY & RESERVE →</span>
+                            <span class="cta-subline">Official Tiqets Partner • Instant Mobile Voucher • Free 24h Cancellation</span>
+                        </a>
+
+                        <div class="guarantee-badges">
+                            <span>🔒 100% Safe SSL Booking</span>
+                            <span>📱 Smartphone Tickets</span>
+                            <span>⚡ Instant Confirmation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secondary Runner-Up Option -->
+                <div class="runner-up-card">
+                    <div class="runner-header">
+                        <span class="runner-badge">RUNNER-UP OPTION</span>
+                        <h3>Bateaux Parisiens Dinner Cruise</h3>
+                    </div>
+                    <p class="runner-desc">Prefer a completely glass-canopied contemporary boat? Bateaux Parisiens offers floor-to-ceiling glass architecture with views from every seat, accompanied by a live singer. Slightly more bustling than Bateaux Mouches, but visually striking.</p>
+                    <div class="runner-actions">
+                        <span class="runner-price">From €115/person</span>
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=romantic-quiz-bp" class="btn-secondary" target="_blank" rel="noopener">
+                            View Bateaux Parisiens Option →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Testimonial Quote -->
+                <div class="couple-testimonial">
+                    <p class="quote-text">"My boyfriend surprised me with the Bateaux Mouches dinner for our 3rd anniversary. When the boat slowed down in front of the glittering Eiffel Tower and the violinist played La Vie en Rose, I had tears in my eyes. The food was delicious and the wine kept flowing. Unforgettable night!"</p>
+                    <p class="quote-author">— Sarah & Marc, London (Traveled June 2025)</p>
+                </div>
+
+                <!-- Reset Quiz -->
+                <div class="restart-wrapper">
+                    <button type="button" class="btn-restart" id="btn-restart-quiz">↺ Retake Quiz with Different Preferences</button>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="quiz-footer">
+        <div class="footer-container">
+            <p>Copyright © <span id="current-year">2026</span> The Cruise Detective. All Rights Reserved.</p>
+            <p class="disclaimer">Independent Paris Cruise Reviews & Booking Guide. We partner with authorized ticket providers like Tiqets to offer verified availability and direct customer protection.</p>
+        </div>
+    </footer>
+
+    <!-- Universal Tracking & Link Decoration Script -->
+    <script src="script.js"></script>
+</body>
+</html>

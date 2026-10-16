@@ -70,9 +70,9 @@
     async function initRatingsSync() {
         console.log("Initializing Cruise Detective Ratings, Price & Duration Sync...");
         try {
-            const response = await fetch(`${RATINGS_JSON_URL}?t=${new Date().getTime()}`);
-            if (!response.ok) {
-                throw new Error(`Failed to load ratings.json: ${response.statusText}`);
+            const response = await fetch(`${RATINGS_JSON_URL}?t=${new Date().getTime()}`).catch(() => null);
+            if (!response || !response.ok) {
+                return;
             }
             const ratingsDb = await response.json();
             console.log("Successfully loaded ratings database.");
@@ -302,30 +302,247 @@
         }
     }
 
-    function initTiqetsTracking() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const fbclid = urlParams.get('fbclid');
-        const gclid = urlParams.get('gclid');
-        
-        let subids = [];
-        if (fbclid) subids.push(`fbclid:${fbclid}`);
-        if (gclid) subids.push(`gclid:${gclid}`);
-        
-        if (subids.length === 0) return;
-        
-        const subidParam = subids.join('|');
-        
-        const links = document.querySelectorAll('a[href*="tiqets.com"]');
-        links.forEach(link => {
-            try {
-                const url = new URL(link.href);
-                url.searchParams.set('click_id', subidParam);
-                url.searchParams.set('subid', subidParam);
-                link.href = url.toString();
-            } catch (e) {
-                // Ignore invalid URLs
+    // ==========================================
+    // Cruise Detective Click ID Capture Tracking (R1)
+    // ==========================================
+
+    const STORAGE_KEY = 'cd_gclid';
+    const EXPIRATION_KEY = 'cd_gclid_exp';
+    const EXPIRATION_MS = 90 * 24 * 60 * 60 * 1000; // 90 days in ms (7,776,000,000)
+    const COOKIE_MAX_AGE = 90 * 24 * 60 * 60; // 90 days in seconds (7,776,000)
+
+    function saveClickId(type, value) {
+        if (!value || typeof value !== 'string') return;
+        const cleanValue = value.trim();
+        if (!cleanValue) return;
+
+        const payload = type === 'gclid' ? cleanValue : `${type}:${cleanValue}`;
+        const expTime = Date.now() + EXPIRATION_MS;
+
+        try {
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem(STORAGE_KEY, payload);
+                localStorage.setItem(EXPIRATION_KEY, expTime.toString());
             }
-        });
+        } catch (e) {}
+
+        try {
+            if (typeof document !== 'undefined') {
+                document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${COOKIE_MAX_AGE}; path=/; SameSite=Lax`;
+            }
+        } catch (e) {}
+    }
+
+    function parseStoredId(storedVal) {
+        if (!storedVal) return null;
+        if (storedVal.startsWith('fbclid:')) return { type: 'fbclid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('wbraid:')) return { type: 'wbraid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gbraid:')) return { type: 'gbraid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gclid:')) return { type: 'gclid', value: storedVal.substring(6) };
+        return { type: 'gclid', value: storedVal };
+    }
+
+    function getClickId() {
+        // Hierarchy 1: URL parameter
+        try {
+            if (typeof window !== 'undefined' && window.location && window.location.search) {
+                const urlParams = new URLSearchParams(window.location.search);
+                for (const type of ['fbclid', 'gclid', 'wbraid', 'gbraid']) {
+                    const val = urlParams.get(type);
+                    if (val && val.trim()) {
+                        const cleanVal = val.trim();
+                        saveClickId(type, cleanVal);
+                        return { type, value: cleanVal };
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 2: localStorage
+        try {
+            if (typeof localStorage !== 'undefined') {
+                const localVal = localStorage.getItem(STORAGE_KEY);
+                const exp = localStorage.getItem(EXPIRATION_KEY);
+                if (localVal) {
+                    if (exp) {
+                        const expTime = parseInt(exp, 10);
+                        if (!isNaN(expTime) && Date.now() < expTime) {
+                            return parseStoredId(localVal);
+                        }
+                    } else {
+                        localStorage.setItem(EXPIRATION_KEY, (Date.now() + EXPIRATION_MS).toString());
+                        return parseStoredId(localVal);
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 3: Cookie
+        try {
+            if (typeof document !== 'undefined' && document.cookie) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(`${STORAGE_KEY}=`)) {
+                        const cookieVal = decodeURIComponent(cookie.substring(STORAGE_KEY.length + 1));
+                        if (cookieVal) {
+                            const parsed = parseStoredId(cookieVal);
+                            saveClickId(parsed.type, parsed.value); // Repopulate localStorage
+                            return parsed;
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return null;
+    }
+
+    function formatTqCampaign(existingCampaign, clickIdObj) {
+        const { type, value } = clickIdObj;
+        if (!existingCampaign) {
+            return `${type}-${value}`;
+        }
+        const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
+        if (match) {
+            const baseTag = existingCampaign.substring(0, match.index);
+            return baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
+        }
+        if (existingCampaign === value) {
+            return value;
+        }
+        return `${existingCampaign}--${type}-${value}`;
+    }
+
+    function decorateLink(link, clickIdObj) {
+        if (!link || !clickIdObj || !clickIdObj.value) return;
+        const { type, value } = clickIdObj;
+        try {
+            const rawHref = link.getAttribute('href');
+            if (!rawHref || !rawHref.includes('tiqets.com')) return;
+
+            const baseUrl = (typeof window !== 'undefined' && window.location && window.location.href) ? window.location.href : 'http://localhost';
+            const url = new URL(rawHref, baseUrl);
+
+            if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+            if (url.hostname !== 'tiqets.com' && !url.hostname.endsWith('.tiqets.com')) return;
+
+            const existingCampaign = url.searchParams.get('tq_campaign');
+            const newCampaign = formatTqCampaign(existingCampaign, clickIdObj);
+
+            url.searchParams.set('tq_campaign', newCampaign);
+            url.searchParams.set(type, value);
+            url.searchParams.set('click_id', value);
+            
+            const existingSubid = url.searchParams.get('subid');
+            if (existingSubid) {
+                if (!existingSubid.includes(`${type}:`)) {
+                    url.searchParams.set('subid', existingSubid + `|${type}:${value}`);
+                }
+            } else {
+                url.searchParams.set('subid', `${type}:${value}`);
+            }
+
+            link.href = url.toString();
+        } catch (e) {
+            // Ignore malformed or unparseable URLs
+        }
+    }
+
+    function scanAndDecorate(container) {
+        const activeClickId = getClickId();
+        if (!activeClickId || typeof document === 'undefined') return;
+
+        try {
+            const root = container || document;
+            if (!root || !root.querySelectorAll) return;
+            const links = root.querySelectorAll('a[href*="tiqets.com"]');
+            links.forEach(link => decorateLink(link, activeClickId));
+        } catch (e) {}
+    }
+
+    let mutationObserverInstance = null;
+
+    function setupMutationObserver() {
+        if (typeof MutationObserver === 'undefined' || typeof document === 'undefined') return null;
+        const target = document.body || document.documentElement;
+        if (!target) return null;
+
+        try {
+            if (!mutationObserverInstance) {
+                mutationObserverInstance = new MutationObserver((mutations) => {
+                    const activeClickId = getClickId();
+                    if (!activeClickId) return;
+
+                    mutations.forEach((mutation) => {
+                        mutation.addedNodes.forEach((node) => {
+                            if (node.nodeType === 1) { // Node.ELEMENT_NODE
+                                if (node.matches && node.matches('a[href*="tiqets.com"]')) {
+                                    decorateLink(node, activeClickId);
+                                }
+                                if (node.querySelectorAll) {
+                                    const links = node.querySelectorAll('a[href*="tiqets.com"]');
+                                    links.forEach(link => decorateLink(link, activeClickId));
+                                }
+                            }
+                        });
+                    });
+                });
+                mutationObserverInstance.observe(target, { childList: true, subtree: true });
+            }
+        } catch (e) {}
+
+        return mutationObserverInstance;
+    }
+
+    let clickListenerAttached = false;
+
+    function setupClickInterceptor() {
+        if (typeof document === 'undefined' || clickListenerAttached) return;
+
+        try {
+            document.addEventListener('click', (e) => {
+                const activeClickId = getClickId();
+                if (!activeClickId) return;
+
+                const path = e.composedPath ? e.composedPath() : (e.target ? [e.target] : []);
+                for (let i = 0; i < path.length; i++) {
+                    const el = path[i];
+                    if (el && el.nodeType === 1 && el.tagName === 'A') {
+                        const href = el.getAttribute && el.getAttribute('href');
+                        if (href && href.includes('tiqets.com')) {
+                            decorateLink(el, activeClickId);
+                        }
+                    }
+                }
+            }, true); // Capture phase listener
+            clickListenerAttached = true;
+        } catch (e) {}
+    }
+
+    function initTiqetsTracking() {
+        const clickIdObj = getClickId();
+        scanAndDecorate();
+        setupMutationObserver();
+        setupClickInterceptor();
+        return clickIdObj;
+    }
+
+    const CruiseDetectiveTracking = {
+        saveGclid: saveClickId, // Kept for backwards compatibility
+        getGclid: getClickId,   // Kept for backwards compatibility
+        saveClickId: saveClickId,
+        getClickId: getClickId,
+        formatTqCampaign: formatTqCampaign,
+        decorateLink: decorateLink,
+        scanAndDecorate: scanAndDecorate,
+        setupMutationObserver: setupMutationObserver,
+        setupClickInterceptor: setupClickInterceptor,
+        init: initTiqetsTracking
+    };
+
+    if (typeof window !== 'undefined') {
+        window.CruiseDetectiveTracking = CruiseDetectiveTracking;
     }
 
     // Run on DOM load
@@ -339,3 +556,4 @@
         initTiqetsTracking();
     }
 })();
+

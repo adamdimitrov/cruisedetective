@@ -1,0 +1,755 @@
+<!-- BUNDLED FOR WEBFLOW EMBED OR STANDALONE USE: dinner-advertorial -->
+<style>
+/* Reset & Variables */
+:root {
+    --primary-color: #0f172a; /* Slate 900 */
+    --text-main: #334155;     /* Slate 700 */
+    --text-muted: #64748b;    /* Slate 500 */
+    --bg-light: #f8fafc;      /* Slate 50 */
+    --cta-color: #10b981;     /* Emerald 500 - High conversion green */
+    --cta-hover: #059669;     /* Emerald 600 */
+    --accent: #3b82f6;        /* Blue 500 */
+    --warning: #f59e0b;       /* Amber 500 */
+    --max-width: 800px;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-main);
+    line-height: 1.7;
+    background-color: #ffffff;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+/* Layout */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--bg-light);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Header */
+.main-header {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 12px;
+}
+
+.logo-text {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+/* Content */
+.content-wrapper {
+    max-width: var(--max-width);
+    margin: 2rem auto 4rem;
+    padding: 0 1.5rem;
+}
+
+.headline {
+    margin-bottom: 1.5rem;
+}
+
+/* Author Meta */
+.author-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.author-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.author-name {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.publish-date {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Images */
+.hero-image-container, .content-image {
+    margin-bottom: 2rem;
+}
+
+.hero-image, .content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #eff6ff;
+    border-left: 4px solid var(--accent);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.highlight-box p {
+    margin: 0;
+    color: #1e3a8a;
+}
+
+/* Features List */
+.feature-list {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.feature-list li {
+    display: flex;
+    margin-bottom: 1.5rem;
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.feature-list .emoji {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+/* Expanded Features */
+.expanded-features h3 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.expanded-features ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.expanded-features li {
+    margin-bottom: 0.5rem;
+}
+
+/* Reviews */
+.reviews-section {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.rating-summary {
+    margin-bottom: 1rem;
+}
+
+.stars {
+    color: var(--warning);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.score {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+.review-count {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.review-card {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.reviewer {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* CTA Buttons */
+.cta-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--cta-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 2rem 0;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.4);
+}
+
+.cta-button:hover {
+    background-color: var(--cta-hover);
+    transform: translateY(-2px);
+}
+
+.cta-arrow {
+    margin-left: 0.5rem;
+}
+
+.pulse-effect {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+.final-cta-box {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.final-cta-box h3 {
+    color: white;
+    border: none;
+    margin-top: 0;
+}
+
+.final-cta-box p {
+    color: #cbd5e1;
+}
+
+.large-cta {
+    font-size: 1.25rem;
+    padding: 1.25rem 2rem;
+}
+
+.secure-checkout {
+    font-size: 0.8rem !important;
+    margin-bottom: 0 !important;
+    opacity: 0.8;
+}
+
+/* Sticky Mobile CTA */
+.sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    box-shadow: 0 -4px 6px -1px rgba(0,0,0,0.1);
+    z-index: 100;
+    display: none; /* Shown via JS on scroll */
+    border-top: 1px solid #e2e8f0;
+}
+
+.sticky-cta .cta-button {
+    margin: 0;
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.main-footer {
+    background: var(--bg-light);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.main-footer .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (min-width: 769px) {
+    .sticky-cta {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .content-wrapper {
+        margin-top: 1rem;
+    }
+    .feature-list li {
+        flex-direction: column;
+    }
+    .feature-list .emoji {
+        margin-bottom: 0.5rem;
+    }
+    /* Adding padding to bottom so sticky CTA doesn't cover content */
+    body {
+        padding-bottom: 80px; 
+    }
+}
+
+</style>
+
+
+
+    <div class="top-bar">
+        <p>COUPLES TRAVEL EDITORIAL & ADVERTORIAL</p>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="https://www.thecruisedetective.com" class="logo-link">
+                <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="logo">
+                <span class="logo-text">THE CRUISE DETECTIVE</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <article class="advertorial-article">
+            
+            <h1 class="headline">I Spent 12 Days Testing Every Dinner Cruise in Paris With My Partner – Here’s The Only One Worth Your Romantic Date Night.</h1>
+            
+            <div class="author-meta">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/652d0405192ba076b04f792e_Adam-dimitrov-portrait-75x75.webp" alt="Adam Dimitrov" class="author-img">
+                <div class="meta-info">
+                    <p class="author-name">By <strong>Adam Dimitrov</strong>, Head Cruise Detective</p>
+                    <p class="publish-date">Updated on <span id="dynamic-date">February 2026</span> • Tested With Real Couples</p>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp" alt="Restaurant table with a view on a dinner cruise in Paris" class="hero-image">
+                <p class="image-caption">If you're visiting Paris as a couple, an evening dinner cruise on the Seine is on your bucket list. But which one will give you true romance instead of a tourist trap?</p>
+            </div>
+
+            <div class="article-body">
+                <p><strong>PARIS, FRANCE</strong> — Picture this: You and your partner finally arrive in the City of Love. You’ve planned the perfect romantic getaway. Tonight is supposed to be the highlight of your entire trip: a candlelit dinner cruise gliding down the Seine as the illuminated bridges and monuments drift past.</p>
+
+                <p>Then you start looking at the ticket options online. Your stomach drops. There are dozens of boats. Ticket prices swing wildly between €80 and €300+ per person. Every tour operator calls itself the "ultimate romantic luxury cruise."</p>
+
+                <p>How do you know you're not walking straight into an overpriced tourist trap with plastic tables crammed 2 inches apart, microwaved airline food, and screaming tour groups completely destroying your intimate date night?</p>
+
+                <div class="highlight-box">
+                    <p>That exact fear is what motivated my experiment: <strong>My partner and I spent 12 days in Paris testing all 5 major riverboat dinner cruises head-to-head.</strong></p>
+                </div>
+
+                <h2>The 12-Day Experiment for Couples</h2>
+                
+                <p>We booked the evening sailings. We evaluated table privacy, sampled the 4 courses, tested the wine pairings, checked the acoustics of the live musicians, and watched how each boat handled that crucial 22:00 moment when the Eiffel Tower bursts into sparkle.</p>
+                
+                <p>Two boats turned out to be noisy cafeterias with rubbery salmon and cramped bench seating. One had great windows but rushed us through dinner in 70 minutes with zero romance.</p>
+
+                <p>However, one specific dinner cruise blew all others completely out of the water. For an anniversary, honeymoon, proposal, or once-in-a-lifetime romantic date night, <strong>Bateaux Mouches</strong> is the undisputed champion. Here is why.</p>
+
+                <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-advertorial-bm" class="cta-button pulse-effect" target="_blank" rel="noopener">
+                    CHECK BATEAUX MOUCHES LIVE AVAILABILITY NOW 
+                    <span class="cta-arrow">→</span>
+                </a>
+
+                <h2>Why Bateaux Mouches Took the #1 Spot for Romance</h2>
+
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4b0f32b0baf412f95f5_Bateaux-mouches-dinner-cruise%20(7).webp" alt="Bateaux Mouches Dinner Cruise View" class="content-image">
+
+                <p>Out of all the dinner boats we tested, Bateaux Mouches delivered the purest, most enchanting romantic experience. Here are the 4 details that won us over:</p>
+
+                <div class="expanded-features">
+                    <h3>1. Generous Table Spacing & Genuine Intimacy</h3>
+                    <p>Unlike budget boats where you feel like you are eating with strangers, Bateaux Mouches spaces out tables with crisp white linens and candlelights. You can have an intimate conversation, hold hands across the table, and look into each other's eyes without being bumped by waiters or overheard by the next table.</p>
+
+                    <h3>2. Live Acoustic Violin & Piano Duo</h3>
+                    <p>There are no loud microphones or cheesy pre-recorded soundtracks. A gracious violinist and pianist duo wanders through the dining salon playing soft French classics like <em>La Vie en Rose</em>. It elevates the evening to pure magic.</p>
+
+                    <h3>3. Incredible Gourmet Food Cooked Fresh Onboard</h3>
+                    <p>You receive a full 3 to 4-course authentic French feast. The starters (smoked beef carpaccio, duck foie gras), mains (sea bream, tender beef filet), and chocolate profiterole desserts were genuinely gourmet. Plus, drinks are generously included: a full bottle of French wine per couple, mineral water, and champagne!</p>
+
+                    <h3>4. The 360° Open-Air Rooftop Deck for Eiffel Tower Sparkles</h3>
+                    <p>This is the secret weapon of Bateaux Mouches. Many boats trap you behind glass. On Bateaux Mouches, you can grab your champagne flutes, take your partner's hand, and walk up to the open rooftop deck anytime. Standing together by the railing as the sparkling Eiffel Tower lights illuminate your partner's face is a memory you will keep for the rest of your lives.</p>
+                </div>
+
+                <h2>Photo Breakdown: The Bateaux Mouches Experience</h2>
+
+                <h3>The Ship 🚢</h3>
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4919c0214cc0fedf303_Bateaux-mouches-dinner-cruise%20(11).webp" alt="The Bateaux Mouches Ship at sunset" class="content-image">
+                <p><strong>The ship is flawless in every aspect</strong> — elegant, spacious, and high-end. As soon as you board at the foot of Pont de l'Alma, the staff greets you warmly and leads you to your dressed table.</p>
+                
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4c121fd2a43b797c1ff_Bateaux-mouches-dinner-cruise%20(2).webp" alt="The main dinner area of the boat" class="content-image">
+                <p>The interior is tastefully decorated with massive panoramic windows offering unobstructed views of illuminated Parisian landmarks like Notre-Dame and the Louvre.</p>
+
+                <h3>The Rooftop Terrace</h3>
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4d0ee321d02c1230703_Bateaux-mouches-dinner-cruise%20(10).webp" alt="The open-air rooftop of the ship" class="content-image">
+                <p>The open top deck offers 360-degree views of the Seine. It is the single best photo spot in all of Paris at night.</p>
+
+                <h3>Live Acoustic Music 🎵</h3>
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4e025d7640b84b767a7_Bateaux-mouches-dinner-cruise%20(1).webp" alt="The live musician duo on Bateaux Mouches" class="content-image">
+                <p>The live piano and violin duo sets an atmosphere of timeless Parisian romance without overpowering your conversation.</p>
+
+                <h3>Food & Wine 🍴 🍷</h3>
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557455012bb5a3be959aacf_DSC03701.webp" alt="Thinly sliced smoked beef carpaccio" class="content-image">
+                <p><strong>Freshly prepared gourmet dishes:</strong> You get 3 or 4 courses (appetizer nibbles, gourmet starter, rich main course, and artisan dessert or cheese platter).</p>
+                
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557452eedc0759fd61fd2eb_DSC03746.webp" alt="Chou pastry profiterole" class="content-image">
+                <p>The chocolate profiteroles with melted chocolate and vanilla cream were genuinely sensational.</p>
+
+                <h2>What Other Couples Are Saying</h2>
+
+                <div class="reviews-section">
+                    <div class="rating-summary">
+                        <span class="stars">★★★★★</span>
+                        <span class="score">4.8/5</span>
+                        <span class="review-count">Based on over 9,910+ Couple Reviews</span>
+                    </div>
+                    <div class="review-card">
+                        <p class="review-text">"My husband booked this for my 30th birthday. The violin playing while we ate dinner with the city lights outside was breathtaking. When we went up to the rooftop deck just as the Eiffel Tower started sparkling, it felt like a dream. Absolutely worth every euro."</p>
+                        <p class="reviewer">- Emily & David (Verified Travelers)</p>
+                    </div>
+                </div>
+
+                <h2>Crucial Tip for Booking Couples in Paris</h2>
+
+                <p>The #1 mistake couples make is trying to buy tickets in person at the dock ticket booth. In peak romantic travel months, <strong>the evening dinner cruises sell out 4 to 7 days in advance</strong>.</p>
+
+                <p>To ensure you secure your preferred date without stress, <strong>reserve your tickets online ahead of time.</strong> Booking through authorized partners like Tiqets guarantees instant smartphone confirmation, skip-the-line dock entry, and free cancellation up to 24 hours before your cruise.</p>
+
+                <div class="final-cta-box">
+                    <h3>Ready for the ultimate Paris romantic evening?</h3>
+                    <p>Click below to check live table availability on Bateaux Mouches and lock in your reservation.</p>
+                    <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-advertorial-bm" class="cta-button large-cta pulse-effect" target="_blank" rel="noopener">
+                        SECURE YOUR ROMANTIC TABLE HERE 
+                        <span class="cta-arrow">→</span>
+                    </a>
+                    <p class="secure-checkout">🔒 Instant Smartphone Tickets • Free 24h Cancellation via Tiqets</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Copyright © <span id="current-year">2026</span> The Cruise Detective. All Rights Reserved.</p>
+            <p class="disclaimer">This is an advertorial and independent review based on firsthand experience. We partner with authorized ticket providers like Tiqets and may earn a commission on bookings at no extra cost to you.</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="sticky-cta" id="sticky-cta">
+        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-advertorial-bm-sticky" class="cta-button pulse-effect" target="_blank" rel="noopener">
+            CHECK AVAILABILITY & RESERVE →
+        </a>
+    </div>
+
+    <!-- Universal Tracking & Link Decoration Script -->
+    <script src="script.js"></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // -------------------------------------------------------------
+    // 1. Click ID Persistence & Tiqets Link Decoration Engine (CAPI)
+    // -------------------------------------------------------------
+    const STORAGE_KEY = 'cd_gclid';
+    const EXPIRATION_KEY = 'cd_gclid_exp';
+    const EXPIRATION_MS = 90 * 24 * 60 * 60 * 1000; // 90 days in ms
+    const COOKIE_MAX_AGE = 90 * 24 * 60 * 60; // 90 days in seconds
+
+    function saveClickId(type, value) {
+        if (!value || typeof value !== 'string') return;
+        const cleanValue = value.trim();
+        if (!cleanValue) return;
+
+        const payload = `${type}:${cleanValue}`;
+        const expTime = Date.now() + EXPIRATION_MS;
+
+        try {
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem(STORAGE_KEY, payload);
+                localStorage.setItem(EXPIRATION_KEY, expTime.toString());
+            }
+        } catch (e) {}
+
+        try {
+            if (typeof document !== 'undefined') {
+                document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${COOKIE_MAX_AGE}; path=/; SameSite=Lax`;
+            }
+        } catch (e) {}
+    }
+
+    function parseStoredId(storedVal) {
+        if (!storedVal) return null;
+        if (storedVal.startsWith('fbclid:')) return { type: 'fbclid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gclid:')) return { type: 'gclid', value: storedVal.substring(6) };
+        if (storedVal.startsWith('wbraid:')) return { type: 'wbraid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gbraid:')) return { type: 'gbraid', value: storedVal.substring(7) };
+        return { type: 'fbclid', value: storedVal };
+    }
+
+    function getClickId() {
+        // Hierarchy 1: URL query parameter
+        try {
+            if (typeof window !== 'undefined' && window.location && window.location.search) {
+                const urlParams = new URLSearchParams(window.location.search);
+                for (const type of ['fbclid', 'gclid', 'wbraid', 'gbraid']) {
+                    const val = urlParams.get(type);
+                    if (val && val.trim()) {
+                        const cleanVal = val.trim();
+                        saveClickId(type, cleanVal);
+                        return { type, value: cleanVal };
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 2: localStorage
+        try {
+            if (typeof localStorage !== 'undefined') {
+                const localVal = localStorage.getItem(STORAGE_KEY);
+                const exp = localStorage.getItem(EXPIRATION_KEY);
+                if (localVal) {
+                    if (exp) {
+                        const expTime = parseInt(exp, 10);
+                        if (!isNaN(expTime) && Date.now() < expTime) {
+                            return parseStoredId(localVal);
+                        }
+                    } else {
+                        return parseStoredId(localVal);
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 3: Cookie
+        try {
+            if (typeof document !== 'undefined' && document.cookie) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(`${STORAGE_KEY}=`)) {
+                        const cookieVal = decodeURIComponent(cookie.substring(STORAGE_KEY.length + 1));
+                        if (cookieVal) {
+                            const parsed = parseStoredId(cookieVal);
+                            saveClickId(parsed.type, parsed.value);
+                            return parsed;
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return null;
+    }
+
+    function decorateLink(link, clickIdObj) {
+        if (!link || !clickIdObj || !clickIdObj.value) return;
+        const { type, value } = clickIdObj;
+        try {
+            const rawHref = link.getAttribute('href');
+            if (!rawHref || !rawHref.includes('tiqets.com')) return;
+
+            const url = new URL(rawHref, window.location.href);
+            const existingCampaign = url.searchParams.get('tq_campaign') || 'dinner-paris-advertorial-bm';
+            
+            // Format composite campaign tag
+            let newCampaign = existingCampaign;
+            const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
+            if (match) {
+                const baseTag = existingCampaign.substring(0, match.index);
+                newCampaign = baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
+            } else {
+                newCampaign = `${existingCampaign}--${type}-${value}`;
+            }
+
+            url.searchParams.set('tq_campaign', newCampaign);
+            url.searchParams.set(type, value);
+            url.searchParams.set('click_id', value);
+            url.searchParams.set('subid', `${type}:${value}`);
+
+            link.href = url.toString();
+        } catch (e) {
+            console.warn('Failed to decorate Tiqets link:', e);
+        }
+    }
+
+    function scanAndDecorateLinks() {
+        const activeClickId = getClickId();
+        if (!activeClickId) return;
+
+        const links = document.querySelectorAll('a[href*="tiqets.com"]');
+        links.forEach(link => decorateLink(link, activeClickId));
+    }
+
+    function attachTrackingToButtons() {
+        const ctaButtons = document.querySelectorAll('a[href*="tiqets.com"], .cta-button');
+        ctaButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const activeClickId = getClickId();
+                if (activeClickId) {
+                    decorateLink(button, activeClickId);
+                }
+
+                if (typeof window.fbq === 'function') {
+                    window.fbq('track', 'InitiateCheckout', {
+                        content_name: 'Bateaux-Mouches Romantic Dinner Cruise (Advertorial)',
+                        content_category: 'Paris Dinner Cruise',
+                        currency: 'EUR',
+                        value: 230.00
+                    });
+                }
+            });
+        });
+    }
+
+    // Run link decoration & event tracking
+    scanAndDecorateLinks();
+    attachTrackingToButtons();
+
+    // -------------------------------------------------------------
+    // 2. Set dynamic dates
+    // -------------------------------------------------------------
+    const dateElement = document.getElementById('dynamic-date');
+    const yearElement = document.getElementById('current-year');
+    const today = new Date();
+    
+    // Set current year for copyright
+    if (yearElement) {
+        yearElement.textContent = today.getFullYear();
+    }
+    
+    // Set publish date
+    if (dateElement) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = today.toLocaleDateString('en-US', options);
+    }
+
+    // -------------------------------------------------------------
+    // 3. Sticky CTA Logic
+    // -------------------------------------------------------------
+    const stickyCta = document.getElementById('sticky-cta');
+    const mainHeader = document.querySelector('.main-header');
+    
+    window.addEventListener('scroll', () => {
+        if (!stickyCta || !mainHeader) return;
+        
+        const scrollPosition = window.scrollY;
+        // Show sticky CTA after scrolling 500px down
+        if (scrollPosition > 500) {
+            stickyCta.style.display = 'block';
+        } else {
+            stickyCta.style.display = 'none';
+        }
+    });
+});
+
+</script>
