@@ -4,7 +4,8 @@ import re
 directories = [
     "romantic-quiz",
     "dinner-comparison",
-    "dinner-advertorial"
+    "dinner-advertorial",
+    "seine-deal"
 ]
 
 base_root = "/Users/adamdimitrov/Development/cruisedetective"

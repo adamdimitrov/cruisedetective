@@ -1,0 +1,1005 @@
+<!-- BUNDLED FOR WEBFLOW EMBED OR STANDALONE USE: seine-deal -->
+<style>
+:root {
+    --bg-page: #f1f5f9;
+    --bg-card: #ffffff;
+    --primary: #0f172a;
+    --text-body: #334155;
+    --text-muted: #64748b;
+    --text-dim: #94a3b8;
+    --accent-green: #10b981;
+    --accent-green-dark: #059669;
+    --accent-red: #ef4444;
+    --border: #e2e8f0;
+    --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-page);
+    color: var(--text-body);
+    font-family: var(--font);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Status Bar */
+.top-status-bar {
+    background: #0f172a;
+    color: #f8fafc;
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+    text-align: center;
+}
+
+.status-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #22c55e;
+    animation: blink 1.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+/* Layout */
+.deal-wrapper {
+    max-width: 580px;
+    margin: 1.5rem auto 3rem;
+    padding: 0 1rem;
+}
+
+.deal-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.8rem 1.6rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Brand */
+.card-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.brand-logo {
+    height: 28px;
+    width: auto;
+}
+
+.verified-pill {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #047857;
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+}
+
+/* Headline */
+.deal-headline {
+    font-size: 1.65rem;
+    font-weight: 800;
+    line-height: 1.25;
+    color: var(--primary);
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.02em;
+}
+
+.social-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    margin-bottom: 1.4rem;
+}
+
+.stars {
+    color: #f59e0b;
+    font-size: 1rem;
+}
+
+.rating-text strong {
+    color: var(--primary);
+}
+
+/* Hero Image */
+.deal-image-container {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1.4rem;
+}
+
+.deal-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.img-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(8px);
+    color: #f8fafc;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    border-radius: 8px;
+}
+
+/* Price Box */
+.deal-price-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 1.4rem;
+}
+
+.price-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.price-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+}
+
+.price-main {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #047857;
+    line-height: 1.1;
+}
+
+.price-person {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.price-sub {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    margin-top: 0.15rem;
+}
+
+.badge-col {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+}
+
+.highlight-tag {
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: #065f46;
+    background: #d1fae5;
+    padding: 0.25rem 0.55rem;
+    border-radius: 6px;
+    letter-spacing: 0.04em;
+}
+
+.free-cancel-note {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+/* Primary CTA Button */
+.btn-deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent-green) 0%, var(--accent-green-dark) 100%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1.15rem 1.4rem;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 1.4rem;
+    text-align: center;
+}
+
+.btn-deal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(16, 185, 129, 0.45);
+}
+
+.btn-main-text {
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.btn-sub-text {
+    font-size: 0.75rem;
+    opacity: 0.9;
+    font-weight: 500;
+    margin-top: 0.25rem;
+}
+
+.pulse-btn {
+    animation: greenPulse 2.5s infinite;
+}
+
+@keyframes greenPulse {
+    0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6); }
+    70% { box-shadow: 0 0 0 12px rgba(16, 185, 129, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+}
+
+/* Comparison Strip */
+.comparison-strip {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.15rem;
+    margin-bottom: 1.6rem;
+}
+
+.strip-side {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+}
+
+.strip-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.strip-side strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.1rem;
+}
+
+.strip-side p {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    line-height: 1.45;
+}
+
+.bad-side strong {
+    color: #b91c1c;
+}
+
+.good-side strong {
+    color: #047857;
+}
+
+/* Feature Checklist */
+.feature-checklist {
+    margin-bottom: 1.8rem;
+}
+
+.feature-checklist h3 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.feature-item {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+    margin-bottom: 0.95rem;
+}
+
+.feature-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.feature-item strong {
+    font-size: 0.92rem;
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.15rem;
+}
+
+.feature-item p {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+}
+
+/* Sights Grid */
+.sights-preview {
+    margin-bottom: 1.8rem;
+}
+
+.sights-preview h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.85rem;
+}
+
+.sights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.sight-card {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    height: 90px;
+}
+
+.sight-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sight-card span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(15, 23, 42, 0.8);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.2rem 0;
+}
+
+/* Review Quote */
+.review-quote-box {
+    background: #f0fdf4;
+    border-left: 3px solid #10b981;
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.15rem;
+    margin-bottom: 1.8rem;
+}
+
+.review-content {
+    font-size: 0.85rem;
+    color: #166534;
+    font-style: italic;
+    line-height: 1.55;
+    margin-bottom: 0.5rem;
+}
+
+.review-author-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.author-name {
+    font-weight: 700;
+    color: #14532d;
+}
+
+.verified-tag {
+    color: #059669;
+    font-weight: 600;
+}
+
+/* Steps */
+.how-it-works {
+    margin-bottom: 1.8rem;
+}
+
+.how-it-works h3 {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.85rem;
+}
+
+.steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.step-row {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.step-num {
+    width: 26px;
+    height: 26px;
+    background: var(--primary);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.82rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.step-row p {
+    font-size: 0.85rem;
+    color: var(--text-body);
+}
+
+/* Final CTA */
+.final-cta-container {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.bottom-price-summary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.price-strike {
+    font-size: 0.78rem;
+    color: #ef4444;
+    text-decoration: line-through;
+}
+
+.price-online {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #047857;
+}
+
+.btn-deal.large {
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 0.85rem;
+}
+
+.trust-icons-strip {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Footer */
+.deal-footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    padding: 2rem 1rem 5rem;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.legal-note {
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    line-height: 1.4;
+}
+
+/* Sticky Bottom Bar */
+.sticky-deal-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(15, 23, 42, 0.96);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.75rem 1.25rem;
+    z-index: 999;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.sticky-deal-bar.visible {
+    transform: translateY(0);
+}
+
+.sticky-bar-inner {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-info strong {
+    font-size: 0.88rem;
+    color: #f8fafc;
+}
+
+.sticky-info span {
+    font-size: 0.72rem;
+    color: #34d399;
+    font-weight: 600;
+}
+
+.btn-sticky {
+    background: #10b981;
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.82rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .deal-card {
+        padding: 1.4rem 1.1rem;
+    }
+    .deal-headline {
+        font-size: 1.45rem;
+    }
+    .deal-price-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    .badge-col {
+        align-items: flex-start;
+    }
+}
+
+</style>
+
+
+
+    <!-- Urgency / Departure Bar -->
+    <div class="top-status-bar">
+        <div class="status-inner">
+            <span class="live-dot"></span>
+            <span><strong>Departures Today:</strong> Every 30 mins from Eiffel Tower • Open tickets valid all day</span>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <main class="deal-wrapper">
+        <div class="deal-card">
+            
+            <!-- Header Brand -->
+            <div class="card-brand">
+                <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective" class="brand-logo">
+                <span class="verified-pill">✓ Official Partner Booking</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="deal-headline">Skip the 45-Minute Dock Line: Official Seine River Sightseeing Cruise</h1>
+
+            <!-- Rating badge -->
+            <div class="social-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text"><strong>4.6 / 5.0</strong> (Over 48,000+ Verified Travelers)</span>
+            </div>
+
+            <!-- Hero Image with Live Badge -->
+            <div class="deal-image-container">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp" alt="Seine river cruise passing Eiffel Tower" class="deal-img">
+                <span class="img-badge">⚡ Instant Smartphone Voucher</span>
+            </div>
+
+            <!-- Price & Guarantee Box -->
+            <div class="deal-price-box">
+                <div class="price-col">
+                    <span class="price-label">OFFICIAL ONLINE PRICE</span>
+                    <div class="price-row">
+                        <span class="price-main">From €17</span>
+                        <span class="price-person">/ person</span>
+                    </div>
+                    <span class="price-sub">Children under 4 ride free • All taxes included</span>
+                </div>
+                <div class="badge-col">
+                    <span class="highlight-tag">BEST PRICE GUARANTEE</span>
+                    <span class="free-cancel-note">Free cancellation up to 24h before</span>
+                </div>
+            </div>
+
+            <!-- Primary CTA Button 1 -->
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=seine-deal-bp-top" class="btn-deal pulse-btn" target="_blank" rel="noopener">
+                <span class="btn-main-text">GET MOBILE TICKETS & SKIP THE LINE →</span>
+                <span class="btn-sub-text">Instant Confirmation on Tiqets • Scan Direct from Smartphone</span>
+            </a>
+
+            <!-- The Big Problem vs. The Solution Box -->
+            <div class="comparison-strip">
+                <div class="strip-side bad-side">
+                    <span class="strip-icon">❌</span>
+                    <div>
+                        <strong>Dock Ticket Booth:</strong>
+                        <p>30 to 50-minute queues in the heat or rain. Boats frequently depart while you wait in line.</p>
+                    </div>
+                </div>
+                <div class="strip-side good-side">
+                    <span class="strip-icon">✅</span>
+                    <div>
+                        <strong>Mobile Ticket Online:</strong>
+                        <p>Skip the box office queue entirely. Walk straight onto the next departing boat with your phone QR code.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Features Checklist -->
+            <div class="feature-checklist">
+                <h3>What’s Included with Your Ticket:</h3>
+                
+                <div class="feature-item">
+                    <span class="feature-icon">🗼</span>
+                    <div>
+                        <strong>Departs Directly Beneath the Eiffel Tower</strong>
+                        <p>Port de la Bourdonnais, Pier 3 (right at the foot of the tower). Boats depart every 30 minutes from 10:00 to 22:30.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <span class="feature-icon">⏱️</span>
+                    <div>
+                        <strong>1-Hour Complete Panoramic Cruise</strong>
+                        <p>Glides past the Louvre, Notre-Dame Cathedral, Musée d'Orsay, Conciergerie, and the historic bridges of Paris.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <span class="feature-icon">📱</span>
+                    <div>
+                        <strong>100% Flexible Smartphone Ticket</strong>
+                        <p>No printing required. You do not need to lock in an exact hour; hop on any scheduled departure on your selected day.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <span class="feature-icon">🎧</span>
+                    <div>
+                        <strong>Audio Commentary in 14 Languages</strong>
+                        <p>Connect your headphones to your smartphone via free onboard Wi-Fi or listen to the lower-deck audio broadcast.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <span class="feature-icon">☀️</span>
+                    <div>
+                        <strong>360° Open Upper Deck + Climate-Controlled Lower Deck</strong>
+                        <p>Enjoy the open breeze on the top deck for photos, or sit downstairs in heated/air-conditioned comfort with clean restrooms.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Sights Gallery -->
+            <div class="sights-preview">
+                <h3>What You'll See on the Route:</h3>
+                <div class="sights-grid">
+                    <div class="sight-card">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&auto=format&fit=crop&q=80" alt="Eiffel Tower from water">
+                        <span>Eiffel Tower</span>
+                    </div>
+                    <div class="sight-card">
+                        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400&auto=format&fit=crop&q=80" alt="Louvre museum Seine">
+                        <span>The Louvre</span>
+                    </div>
+                    <div class="sight-card">
+                        <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?w=400&auto=format&fit=crop&q=80" alt="Notre-Dame Paris">
+                        <span>Notre-Dame</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer Reviews Quote -->
+            <div class="review-quote-box">
+                <p class="review-content">"Buying this online before walking down to the dock saved us at least 40 minutes of standing in line. The ticket line was massive, but we just showed our phones at the boarding turnstile and walked right onto the boat. The views of the Eiffel Tower from the top deck were incredible!"</p>
+                <div class="review-author-row">
+                    <span class="author-name">— David & Jessica T., USA</span>
+                    <span class="verified-tag">✓ Verified Tiqets Buyer</span>
+                </div>
+            </div>
+
+            <!-- Simple 3-Step How It Works -->
+            <div class="how-it-works">
+                <h3>How It Works:</h3>
+                <div class="steps-list">
+                    <div class="step-row">
+                        <span class="step-num">1</span>
+                        <p><strong>Reserve Online:</strong> Pick your date and number of tickets on Tiqets (2 minutes).</p>
+                    </div>
+                    <div class="step-row">
+                        <span class="step-num">2</span>
+                        <p><strong>Instant Mobile Delivery:</strong> Your voucher lands in your email & phone instantly.</p>
+                    </div>
+                    <div class="step-row">
+                        <span class="step-num">3</span>
+                        <p><strong>Board at the Eiffel Tower:</strong> Walk down to Pier 3, scan your QR code at the turnstile, and enjoy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom CTA Box -->
+            <div class="final-cta-container">
+                <div class="bottom-price-summary">
+                    <span class="price-strike">Ticket Booth: Same Price + 45m Line</span>
+                    <span class="price-online">Online: From €17 (Direct Boarding)</span>
+                </div>
+
+                <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=seine-deal-bp-bottom" class="btn-deal pulse-btn large" target="_blank" rel="noopener">
+                    <span class="btn-main-text">SECURE YOUR SEINE CRUISE TICKETS →</span>
+                    <span class="btn-sub-text">100% Smartphone Ticket • Free 24h Cancellation</span>
+                </a>
+
+                <div class="trust-icons-strip">
+                    <span>🔒 SSL Encrypted</span>
+                    <span>⚡ Instant Delivery</span>
+                    <span>🔄 Flexible Entry</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="deal-footer">
+        <p>Copyright © <span id="current-year">2026</span> The Cruise Detective. All Rights Reserved.</p>
+        <p class="legal-note">Independent Paris river cruise booking guide. Tickets fulfilled by authorized official ticket provider Tiqets International B.V. Free cancellation applies up to 24 hours prior to departure.</p>
+    </footer>
+
+    <!-- Mobile Sticky CTA Bar -->
+    <div class="sticky-deal-bar" id="sticky-bar">
+        <div class="sticky-bar-inner">
+            <div class="sticky-info">
+                <strong>Seine River Cruise</strong>
+                <span>From €17 • Skip Dock Line</span>
+            </div>
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=seine-deal-bp-sticky" class="btn-sticky" target="_blank" rel="noopener">
+                Book Mobile Ticket →
+            </a>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // -------------------------------------------------------------
+    // 1. Click ID Persistence & Tiqets Link Decoration Engine (CAPI)
+    // -------------------------------------------------------------
+    const STORAGE_KEY = 'cd_gclid';
+    const EXPIRATION_KEY = 'cd_gclid_exp';
+    const EXPIRATION_MS = 90 * 24 * 60 * 60 * 1000; // 90 days in ms
+    const COOKIE_MAX_AGE = 90 * 24 * 60 * 60; // 90 days in seconds
+
+    function saveClickId(type, value) {
+        if (!value || typeof value !== 'string') return;
+        const cleanValue = value.trim();
+        if (!cleanValue) return;
+
+        const payload = `${type}:${cleanValue}`;
+        const expTime = Date.now() + EXPIRATION_MS;
+
+        try {
+            if (typeof localStorage !== 'undefined') {
+                localStorage.setItem(STORAGE_KEY, payload);
+                localStorage.setItem(EXPIRATION_KEY, expTime.toString());
+            }
+        } catch (e) {}
+
+        try {
+            if (typeof document !== 'undefined') {
+                document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${COOKIE_MAX_AGE}; path=/; SameSite=Lax`;
+            }
+        } catch (e) {}
+    }
+
+    function parseStoredId(storedVal) {
+        if (!storedVal) return null;
+        if (storedVal.startsWith('fbclid:')) return { type: 'fbclid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gclid:')) return { type: 'gclid', value: storedVal.substring(6) };
+        if (storedVal.startsWith('wbraid:')) return { type: 'wbraid', value: storedVal.substring(7) };
+        if (storedVal.startsWith('gbraid:')) return { type: 'gbraid', value: storedVal.substring(7) };
+        return { type: 'fbclid', value: storedVal };
+    }
+
+    function getClickId() {
+        // Hierarchy 1: URL parameter
+        try {
+            if (typeof window !== 'undefined' && window.location && window.location.search) {
+                const urlParams = new URLSearchParams(window.location.search);
+                for (const type of ['fbclid', 'gclid', 'wbraid', 'gbraid']) {
+                    const val = urlParams.get(type);
+                    if (val && val.trim()) {
+                        const cleanVal = val.trim();
+                        saveClickId(type, cleanVal);
+                        return { type, value: cleanVal };
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 2: localStorage
+        try {
+            if (typeof localStorage !== 'undefined') {
+                const localVal = localStorage.getItem(STORAGE_KEY);
+                const exp = localStorage.getItem(EXPIRATION_KEY);
+                if (localVal) {
+                    if (exp) {
+                        const expTime = parseInt(exp, 10);
+                        if (!isNaN(expTime) && Date.now() < expTime) {
+                            return parseStoredId(localVal);
+                        }
+                    } else {
+                        return parseStoredId(localVal);
+                    }
+                }
+            }
+        } catch (e) {}
+
+        // Hierarchy 3: Cookie
+        try {
+            if (typeof document !== 'undefined' && document.cookie) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(`${STORAGE_KEY}=`)) {
+                        const cookieVal = decodeURIComponent(cookie.substring(STORAGE_KEY.length + 1));
+                        if (cookieVal) {
+                            const parsed = parseStoredId(cookieVal);
+                            saveClickId(parsed.type, parsed.value);
+                            return parsed;
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
+        return null;
+    }
+
+    function decorateLink(link, clickIdObj) {
+        if (!link || !clickIdObj || !clickIdObj.value) return;
+        const { type, value } = clickIdObj;
+        try {
+            const rawHref = link.getAttribute('href');
+            if (!rawHref || !rawHref.includes('tiqets.com')) return;
+
+            const url = new URL(rawHref, window.location.href);
+            const existingCampaign = url.searchParams.get('tq_campaign') || 'seine-deal-bp';
+            
+            // Format composite campaign tag
+            let newCampaign = existingCampaign;
+            const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
+            if (match) {
+                const baseTag = existingCampaign.substring(0, match.index);
+                newCampaign = baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
+            } else {
+                newCampaign = `${existingCampaign}--${type}-${value}`;
+            }
+
+            url.searchParams.set('tq_campaign', newCampaign);
+            url.searchParams.set(type, value);
+            url.searchParams.set('click_id', value);
+            url.searchParams.set('subid', `${type}:${value}`);
+
+            link.href = url.toString();
+        } catch (e) {
+            console.warn('Failed to decorate Tiqets link:', e);
+        }
+    }
+
+    function scanAndDecorateLinks() {
+        const activeClickId = getClickId();
+        if (!activeClickId) return;
+
+        const links = document.querySelectorAll('a[href*="tiqets.com"]');
+        links.forEach(link => decorateLink(link, activeClickId));
+    }
+
+    function attachTrackingToButtons() {
+        const ctaButtons = document.querySelectorAll('a[href*="tiqets.com"], .btn-deal, .btn-sticky');
+        ctaButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const activeClickId = getClickId();
+                if (activeClickId) {
+                    decorateLink(button, activeClickId);
+                }
+
+                if (typeof window.fbq === 'function') {
+                    window.fbq('track', 'InitiateCheckout', {
+                        content_name: 'Bateaux Parisiens Seine Cruise Ticket',
+                        content_category: 'Paris Sightseeing Cruise',
+                        currency: 'EUR',
+                        value: 34.00
+                    });
+                }
+            });
+        });
+    }
+
+    // Execute link decoration & event tracking
+    scanAndDecorateLinks();
+    attachTrackingToButtons();
+
+    // -------------------------------------------------------------
+    // 2. Set Current Year
+    // -------------------------------------------------------------
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
+    // -------------------------------------------------------------
+    // 3. Sticky Bottom CTA Bar Logic
+    // -------------------------------------------------------------
+    const stickyBar = document.getElementById('sticky-bar');
+    if (stickyBar) {
+        window.addEventListener('scroll', () => {
+            const scrollPos = window.scrollY;
+            // Reveal after scrolling 350px down
+            if (scrollPos > 350) {
+                stickyBar.classList.add('visible');
+            } else {
+                stickyBar.classList.remove('visible');
+            }
+        });
+    }
+});
+
+</script>

@@ -6,7 +6,8 @@ def test_landing_pages():
     pages = [
         "romantic-quiz",
         "dinner-comparison",
-        "dinner-advertorial"
+        "dinner-advertorial",
+        "seine-deal"
     ]
 
     expected_pixel_id = "1355732169631751"
