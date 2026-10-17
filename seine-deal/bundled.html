@@ -585,6 +585,78 @@ body {
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
 }
 
+/* Collapsible FAQ Section */
+.faq-section {
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+.faq-section h3 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 0.65rem;
+    overflow: hidden;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.faq-item[open] {
+    background: #ffffff;
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.faq-question {
+    padding: 0.95rem 1.15rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--primary);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.faq-question::-webkit-details-marker {
+    display: none;
+}
+
+.faq-icon {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    transition: transform 0.25s ease;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+.faq-item[open] .faq-icon {
+    transform: rotate(180deg);
+    color: var(--accent-green-dark);
+}
+
+.faq-answer {
+    padding: 0 1.15rem 1rem;
+    font-size: 0.84rem;
+    color: var(--text-body);
+    line-height: 1.55;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+    margin-top: -0.2rem;
+    padding-top: 0.65rem;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
 /* Mobile */
 @media (max-width: 480px) {
     .deal-card {
@@ -611,7 +683,7 @@ body {
     <div class="top-status-bar">
         <div class="status-inner">
             <span class="live-dot"></span>
-            <span><strong>Live Schedule:</strong> Departs every 30–60 mins from Port de la Bourdonnais (Eiffel Tower) • Flexible day tickets</span>
+            <span><strong>Live Schedule:</strong> Departs every 30–60 minutes from Port de la Bourdonnais (Eiffel Tower) • Flexible day tickets</span>
         </div>
     </div>
 
@@ -636,7 +708,7 @@ body {
 
             <!-- Hero Image with Live Badge -->
             <div class="deal-image-container">
-                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif" alt="Bateaux Parisiens boat cruising near Eiffel Tower" class="deal-img">
+                <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif" alt="Bateaux Parisiens boat cruising near the Eiffel Tower" class="deal-img">
                 <span class="img-badge">⚡ Instant Smartphone Voucher</span>
             </div>
 
@@ -659,7 +731,7 @@ body {
             <!-- Primary CTA Button 1 -->
             <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=seine-deal-bp-top" class="btn-deal pulse-btn" target="_blank" rel="noopener">
                 <span class="btn-main-text">GET MOBILE TICKETS & SKIP THE LINE →</span>
-                <span class="btn-sub-text">Official Tiqets Partner • Scan Direct from Your Smartphone</span>
+                <span class="btn-sub-text">Official Tiqets Partner • Scan Directly from Your Smartphone</span>
             </a>
 
             <!-- The Big Problem vs. The Solution Box -->
@@ -668,14 +740,14 @@ body {
                     <span class="strip-icon">❌</span>
                     <div>
                         <strong>Dock Ticket Booth Queue:</strong>
-                        <p>30 to 50-minute lines at Port de la Bourdonnais. Boats frequently depart full while you wait in line.</p>
+                        <p>30 to 50-minute lines at Port de la Bourdonnais. Boats frequently depart full while you wait to purchase tickets.</p>
                     </div>
                 </div>
                 <div class="strip-side good-side">
                     <span class="strip-icon">✅</span>
                     <div>
                         <strong>Online Smartphone Voucher:</strong>
-                        <p>Skip the box office line entirely. Walk straight to Pier 3, scan your phone QR code, and board the next available boat.</p>
+                        <p>Skip the box office line entirely. Walk straight to Pier 3, scan your mobile QR code, and board the next available boat.</p>
                     </div>
                 </div>
             </div>
@@ -688,7 +760,7 @@ body {
                     <span class="feature-icon">🗼</span>
                     <div>
                         <strong>Departs Directly Beneath the Eiffel Tower</strong>
-                        <p>Board at Port de la Bourdonnais, Pier 3 (right at the foot of the Eiffel Tower). Easy 2-minute walk from Champ de Mars.</p>
+                        <p>Board at Port de la Bourdonnais, Pier 3 (right at the foot of the Eiffel Tower). A convenient 2-minute walk from Champ de Mars.</p>
                     </div>
                 </div>
 
@@ -696,7 +768,7 @@ body {
                     <span class="feature-icon">⏱️</span>
                     <div>
                         <strong>1-Hour Complete Panoramic Loop</strong>
-                        <p>Cruises past the Louvre, Notre-Dame Cathedral, Musée d'Orsay, Conciergerie, and beneath Paris's historic illuminated bridges.</p>
+                        <p>Cruises past the Louvre Museum, Notre-Dame Cathedral, Musée d'Orsay, the Conciergerie, and beneath Paris's historic illuminated bridges.</p>
                     </div>
                 </div>
 
@@ -704,7 +776,7 @@ body {
                     <span class="feature-icon">📱</span>
                     <div>
                         <strong>Flexible Open Schedule</strong>
-                        <p>No strict timeslot lock-in. Book for today or your travel date, show up at your convenience, and board the next departure.</p>
+                        <p>No strict timeslot lock-in. Book for today or your chosen travel date, show up whenever it suits your schedule, and board the next departure.</p>
                     </div>
                 </div>
 
@@ -712,7 +784,7 @@ body {
                     <span class="feature-icon">🎧</span>
                     <div>
                         <strong>Multi-Language Audio Guide System</strong>
-                        <p>Listen via the mobile web app on your phone (11 languages), plug into the lower-deck wired handsets (14 languages), or listen to the live guide broadcast.</p>
+                        <p>Listen via the mobile web app on your phone (11 languages), plug into the lower-deck wired handsets (14 languages), or follow along with the live guide broadcast.</p>
                     </div>
                 </div>
 
@@ -720,25 +792,25 @@ body {
                     <span class="feature-icon">🚢</span>
                     <div>
                         <strong>Double-Decker Panoramic Ship</strong>
-                        <p>Open upper terrace for unobstructed 360° photo taking + climate-controlled lower deck with heating/air conditioning and clean restrooms.</p>
+                        <p>Open upper deck with 360° unobstructed views for photos, plus a climate-controlled lower deck with heating, air conditioning, and clean restrooms.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Verified Experience Gallery (Real Bateaux Parisiens Photos) -->
+            <!-- Verified Experience Gallery -->
             <div class="sights-preview">
-                <h3>What Onboard Looks Like:</h3>
+                <h3>Inside the Bateaux Parisiens Experience:</h3>
                 <div class="sights-grid">
                     <div class="sight-card">
-                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp" alt="Upper deck panoramic view Bateaux Parisiens">
+                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp" alt="Upper deck panoramic view on Bateaux Parisiens">
                         <span>360° Upper Deck</span>
                     </div>
                     <div class="sight-card">
-                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a4486ad58854c723f3a49_1-bateaux-parisiens-sighteeing-cruise%20(38).webp" alt="Smartphone audio commentary">
+                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a4486ad58854c723f3a49_1-bateaux-parisiens-sighteeing-cruise%20(38).webp" alt="Smartphone audio commentary guide">
                         <span>Audio Guide App</span>
                     </div>
                     <div class="sight-card">
-                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a3f5d72ec5dfeaf74d0cc_1-bateaux-parisiens-sighteeing-cruise%20(1).webp" alt="Pier 3 boarding at Eiffel Tower">
+                        <img src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653a3f5d72ec5dfeaf74d0cc_1-bateaux-parisiens-sighteeing-cruise%20(1).webp" alt="Pier 3 boarding area at the Eiffel Tower">
                         <span>Eiffel Tower Pier 3</span>
                     </div>
                 </div>
@@ -755,7 +827,7 @@ body {
 
             <!-- Simple 3-Step How It Works -->
             <div class="how-it-works">
-                <h3>How to Board in 3 Steps:</h3>
+                <h3>How to Board in 3 Easy Steps:</h3>
                 <div class="steps-list">
                     <div class="step-row">
                         <span class="step-num">1</span>
@@ -763,13 +835,78 @@ body {
                     </div>
                     <div class="step-row">
                         <span class="step-num">2</span>
-                        <p><strong>Instant Mobile Delivery:</strong> Receive your barcode voucher via email and SMS instantly.</p>
+                        <p><strong>Instant Mobile Delivery:</strong> Receive your barcode voucher via email and SMS immediately.</p>
                     </div>
                     <div class="step-row">
                         <span class="step-num">3</span>
-                        <p><strong>Scan & Board:</strong> Walk down to Port de la Bourdonnais Pier 3, scan your phone at the gate, and step aboard.</p>
+                        <p><strong>Scan & Board:</strong> Walk down to Port de la Bourdonnais Pier 3, scan your phone at the turnstile, and step aboard.</p>
                     </div>
                 </div>
+            </div>
+
+            <!-- Collapsible FAQ Accordion Section -->
+            <div class="faq-section">
+                <h3>Frequently Asked Questions</h3>
+                
+                <details class="faq-item" open>
+                    <summary class="faq-question">
+                        <span>Do I need to select a specific time slot?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>No. Your ticket is a flexible day pass valid for any scheduled departure on your selected travel date. Boats depart every 30 to 60 minutes between 10:00 and 22:30, so you can arrive whenever it best fits your sightseeing itinerary.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Where exactly does the cruise depart from?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Boarding takes place at <strong>Port de la Bourdonnais, Pier 3 (Ponton 3)</strong>, located directly at the foot of the Eiffel Tower in the 7th arrondissement of Paris. Simply walk down the pedestrian ramp from the riverbank to the dock.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>How do I skip the ticket line?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>When you reach the dock, completely bypass the box office ticket lines. Head directly to the boarding gates at Pier 3 and present the digital barcode on your smartphone screen to be scanned for direct entry.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Can I cancel or reschedule if my plans change?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes. Bookings made through Tiqets include a 100% full refund policy if canceled up to 24 hours prior to your scheduled visit date.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>Do children require tickets?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Infants and toddlers aged 0 to 3 travel free of charge and do not need a ticket. Children aged 4 to 11 require a reduced child ticket (€9.50). All guests aged 12 and older require standard adult admission (€18).</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span>What is the best time of day to take the cruise?</span>
+                        <span class="faq-icon">▾</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Sunset and early evening departures are the most popular. A sunset cruise lets you admire the Parisian architecture during the golden hour, while evening cruises offer an unobstructed vantage point on the water to watch the Eiffel Tower sparkle after dusk (sparkling occurs for 5 minutes at the beginning of every hour after dark).</p>
+                    </div>
+                </details>
             </div>
 
             <!-- Bottom CTA Box -->
