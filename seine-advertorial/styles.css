@@ -1,5 +1,5 @@
 /* Reset & Variables */
-:root {
+:host {
     --primary-color: #0f172a; /* Slate 900 */
     --text-main: #334155;     /* Slate 700 */
     --text-muted: #64748b;    /* Slate 500 */
@@ -55,7 +55,7 @@ p {
 }
 
 /* Layout */
-.container {
+.adv-container {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -215,7 +215,7 @@ p {
     margin-bottom: 0.5rem;
 }
 
-.advertorial-image {
+.content-img {
     width: 100%;
     height: auto;
     border-radius: 8px;

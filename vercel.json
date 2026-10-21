@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "functions": {
+    "api/tiqets-webhook.js": {
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/tiqets-webhook",
+      "destination": "/api/tiqets-webhook.js"
+    },
+    {
+      "source": "/",
+      "destination": "/paris-family-cruise/index.html"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/paris-family-cruise/styles.css"
+    },
+    {
+      "source": "/script.js",
+      "destination": "/paris-family-cruise/script.js"
+    },
+    {
+      "source": "/family-cruise",
+      "destination": "/paris-family-cruise/index.html"
+    }
+  ]
+}

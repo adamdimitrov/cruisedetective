@@ -7,7 +7,9 @@ def test_landing_pages():
         "romantic-quiz",
         "dinner-comparison",
         "dinner-advertorial",
-        "seine-deal"
+        "seine-deal",
+        "paris-fast-booking",
+        "paris-family-cruise"
     ]
 
     expected_pixel_id = "1355732169631751"
@@ -34,15 +36,17 @@ def test_landing_pages():
         assert expected_pixel_id in html, f"Meta Pixel ID {expected_pixel_id} missing from {index_file}"
         print(f"  ✓ Meta Pixel {expected_pixel_id} verified in HTML head")
 
-        assert expected_partner_id in html, f"Tiqets Partner ID {expected_partner_id} missing from {index_file}"
-        print(f"  ✓ Tiqets Partner ID {expected_partner_id} verified on links")
+        page_partner_id = "luxurytraveltester" if page == "paris-fast-booking" else expected_partner_id
+
+        assert page_partner_id in html, f"Tiqets Partner ID {page_partner_id} missing from {index_file}"
+        print(f"  ✓ Tiqets Partner ID {page_partner_id} verified on links")
 
         # Check Tiqets links
         tiqets_links = re.findall(r'href=[\'"](https://www\.tiqets\.com[^\'"]+)[\'"]', html)
         assert len(tiqets_links) >= 1, f"No Tiqets links found in {index_file}"
         print(f"  ✓ Found {len(tiqets_links)} Tiqets CTA link(s)")
         for link in tiqets_links:
-            assert "partner=thecruisedetective.com-176436" in link, f"Partner missing in {link}"
+            assert f"partner={page_partner_id}" in link, f"Partner missing in {link}"
             assert "tq_campaign=" in link, f"tq_campaign missing in {link}"
 
         # 3. Check Script contents

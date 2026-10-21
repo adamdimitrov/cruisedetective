@@ -1,0 +1,17 @@
+{
+  "name": "cruisedetective-offline-conversions",
+  "version": "1.0.0",
+  "description": "Tiqets Webhook Receiver & Google Ads Offline Conversion Upload Serverless Backend",
+  "type": "module",
+  "main": "api/tiqets-webhook.js",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/*.test.js",
+    "test:unit": "node --test --test-concurrency=1 test/click-id-capture.test.js test/conversion-upload.test.js",
+    "test:e2e": "node --test --test-concurrency=1 test/e2e-suite.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "private": true
+}

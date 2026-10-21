@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateaux Parisiens - The Best Seine River Cruise | The Cruise Detective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Meta Pixel Code for Tracking (Example) -->
+    <script>
+      // Simulated tracking for the landing page
+      document.addEventListener('click', function(event) {
+        var target = event.target.closest('a');
+        if (target && target.href && target.href.includes('tiqets.com')) {
+           console.log("Tracked click to Tiqets: InitiateCheckout");
+        }
+      });
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">THE CRUISE DETECTIVE</div>
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436" class="btn btn-outline" target="_blank">Check Availability</a>
+        </div>
+    </nav>
+
+    <main class="product-page container">
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="main-image-container">
+                <img id="main-image" src="/Users/adamdimitrov/.gemini/antigravity/brain/58fb58a5-ebbf-47bc-b2f9-003f4fefaa3d/seine_cruise_hero_1785231589110.jpg" alt="Bateaux Parisiens Cruise on the Seine">
+                <div class="badge">Bestseller</div>
+            </div>
+            <div class="thumbnail-list">
+                <img class="thumbnail active" src="/Users/adamdimitrov/.gemini/antigravity/brain/58fb58a5-ebbf-47bc-b2f9-003f4fefaa3d/seine_cruise_hero_1785231589110.jpg" alt="Exterior View" onclick="changeImage(this.src)">
+                <img class="thumbnail" src="/Users/adamdimitrov/.gemini/antigravity/brain/58fb58a5-ebbf-47bc-b2f9-003f4fefaa3d/seine_cruise_interior_1785231607022.jpg" alt="Interior View" onclick="changeImage(this.src)">
+            </div>
+        </section>
+
+        <!-- Product Info Section -->
+        <section class="product-info">
+            <div class="rating">
+                <span class="stars">★★★★<span class="half-star">★</span></span>
+                <span class="rating-score">4.4</span>
+                <span class="reviews">(+77,740 reviews)</span>
+            </div>
+            
+            <h1 class="product-title">Bateaux Parisiens Sightseeing Cruise</h1>
+            <p class="product-subtitle">The #1 Rated Seine River Experience</p>
+            
+            <p class="description">
+                Experience the magic of Paris from its most beautiful avenue—the River Seine. 
+                Enjoy panoramic views of the Eiffel Tower, Notre Dame, and the Louvre from a luxurious glass-enclosed trimaran.
+            </p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎧</span>
+                    <div class="feature-text">
+                        <strong>Audio Guide Included</strong>
+                        <span>14 Languages Available</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📅</span>
+                    <div class="feature-text">
+                        <strong>Flexible Schedule</strong>
+                        <span>Departs every 30-60 mins</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">♿</span>
+                    <div class="feature-text">
+                        <strong>Accessible</strong>
+                        <span>Wheelchair friendly</span>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">👨‍👩‍👧‍👦</span>
+                    <div class="feature-text">
+                        <strong>Family Discounts</strong>
+                        <span>Free for ages 0-3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="price-header">
+                    <span class="price">From €16.00</span>
+                    <span class="cancellation">Free cancellation available</span>
+                </div>
+                <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436" class="btn btn-primary btn-large cta-pulse" target="_blank">Book Tickets on Tiqets</a>
+                <p class="guarantee">⚡ Instant ticket delivery to your smartphone</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="mobile-sticky-cta">
+        <div class="sticky-price">
+            <span class="price">€16.00</span>
+            <span class="rating-small">★ 4.4</span>
+        </div>
+        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436" class="btn btn-primary" target="_blank">Book Now</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
