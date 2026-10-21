@@ -10,7 +10,7 @@
 - **Bateaux Parisiens Commission Rate**: **41.9%** (Locked partnership rate via Tiqets / partner `thecruisedetective.com-176436`).
 - **Unit Economics Breakdown**:
   - Adult Ticket (€18.00): **€7.54** ($8.20) commission.
-  - Child Ticket 4–11 (€9.50): **€3.98** ($4.34) commission.
-  - Standard Family Basket (2 Adults + 2 Children = €55.00): **€23.05** ($25.10) gross profit per converted order.
-  - Break-Even at $0.40 CPC: **1.59% conversion rate** (1 sale every 62 clicks).
-  - Target ROAS at 4% Conversion Rate: **~2.5x ROAS** ($15.10 net profit per order after ad spend).
+  - Child Ticket 4–11 (€9.00): **€3.77** ($4.11) commission (50% OFF standard adult ticket).
+  - Standard Family Basket (2 Adults + 2 Children = €54.00): **€22.63** ($24.64) gross profit per converted order.
+  - Break-Even at $0.40 CPC: **1.62% conversion rate** (1 sale every 62 clicks).
+  - Target ROAS at 4% Conversion Rate: **~2.46x ROAS** ($14.64 net profit per order after ad spend).

@@ -5,10 +5,10 @@
 - **Bateaux Parisiens Commission Rate**: **41.9%**
 - **Basket Unit Economics**:
   - 1 Adult (€18.00): **€7.54** ($8.20) gross profit.
-  - 1 Child 4–11 (€9.50): **€3.98** ($4.34) gross profit.
-  - Standard Family Basket (2A + 2C = €55.00): **€23.05** ($25.10) gross profit per converted order.
-  - Max Allowable CPA at breakeven: **€23.05** ($25.10).
-  - Target CPA (for 2.0x+ ROAS): **< €11.50** (< $12.50).
+  - 1 Child 4–11 (€9.00): **€3.77** ($4.11) gross profit (50% OFF).
+  - Standard Family Basket (2A + 2C = €54.00): **€22.63** ($24.64) gross profit per converted order.
+  - Max Allowable CPA at breakeven: **€22.63** ($24.64).
+  - Target CPA (for 2.0x+ ROAS): **< €11.30** (< $12.30).
 
 ## Architecture
 - **Frontend (Webflow / Landing Pages)**: Tracking snippet in `webflow-sync.js` (and included in advertorial HTML/Webflow pages) capturing `gclid` from URL query string into `localStorage` (`cd_gclid`) & 90-day Cookie (`cd_gclid`). Automatically decorates outgoing Tiqets links (`a[href*="tiqets.com"]`) with `tq_campaign`, preserving existing campaign tags and appending `gclid`, `click_id`, and `subid`.
