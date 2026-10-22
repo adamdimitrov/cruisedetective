@@ -1,5 +1,20 @@
-<!-- BUNDLED FOR WEBFLOW EMBED OR STANDALONE USE: paris-family-cruise -->
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Paris Family Seine River Cruise • Skip the Line with Kids (Bateaux Parisiens)</title>
+    <meta name="description" content="The stress-free family sightseeing cruise in Paris. Skip the 45-minute dock line at the Eiffel Tower, enjoy kid-friendly audio storytelling, 50% child discounts and free infant admission.">
+    <meta property="og:title" content="Paris Family Seine River Cruise • Skip-the-Line Family Mobile Pass">
+    <meta property="og:description" content="No 45-minute lines with kids. Stroller-friendly boarding directly at the Eiffel Tower. Free infant admission & flexible all-day departures.">
+    <meta property="og:image" content="https://aws-tiqets-cdn.imgix.net/images/content/f9adace1d3dd4570928d01c7a0806e33.jpeg">
+    <link rel="shortcut icon" href="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6570a893c546e01463861a82_favicon-cruise-detective.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
 /* -------------------------------------------------------------
    Paris Family Cruise - Universal Responsive Stylesheet
    Mobile (360px - 768px) & Desktop (768px - 1440px+)
@@ -711,10 +726,11 @@ body {
 
 /* Total Summary Card */
 .total-summary-card {
-    background: #0f172a;
-    color: #fff;
+    background: #f8fafc;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
     border-radius: var(--radius-md);
-    padding: 12px 14px;
+    padding: 10px 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -730,16 +746,17 @@ body {
 .summary-label {
     display: block;
     font-size: 11px;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #94a3b8;
+    letter-spacing: 0.04em;
+    color: #475569;
     white-space: nowrap;
 }
 
 .summary-comparison {
     display: block;
-    font-size: 10.5px;
-    color: #cbd5e1;
+    font-size: 11px;
+    color: #64748b;
     margin-top: 1px;
     line-height: 1.3;
 }
@@ -749,9 +766,9 @@ body {
 }
 
 .summary-amount {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 800;
-    color: #38bdf8;
+    color: #0f172a;
     white-space: nowrap;
 }
 
@@ -1809,7 +1826,33 @@ body {
 
 </style>
 
+    <!-- Meta Pixel Tracking -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1355732169631751');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1355732169631751&ev=PageView&noscript=1"
+    /></noscript>
 
+    <!-- Microsoft Clarity Analytics & Session Replay -->
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "z1jcuxy2we");
+    </script>
+</head>
+<body>
 
     <!-- Top Urgency Ticker -->
     <header class="fast-topbar">
@@ -1825,7 +1868,6 @@ body {
             <div class="brand-logo-wrap">
                 <img src="https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="site-logo">
                 <span class="site-logo-text">CRUISE DETECTIVE</span>
-                <span class="verified-badge">✓ Official Family Booking</span>
             </div>
         </div>
     </nav>
@@ -1837,7 +1879,6 @@ body {
 
             <!-- Section 1: Header / Title -->
             <header class="grid-header">
-                <div class="category-breadcrumb">Paris With Kids • Official Family Sightseeing Pass</div>
                 <h1 class="main-title">Paris Family Seine River Cruise (Bateaux Parisiens)</h1>
                 <p class="subtitle">The easiest, zero-stress sightseeing tour for parents and kids. Skip the 45-minute dock line, enjoy stroller-friendly boarding at the Eiffel Tower, 50% child discounts, and interactive kid-friendly audio stories.</p>
                 <div class="header-meta-row">
@@ -2473,10 +2514,7 @@ body {
         </div>
     </aside>
 
-    <script src="/script.js"></script>
-
-
-<script>
+    <script>
 document.addEventListener('DOMContentLoaded', () => {
     // -------------------------------------------------------------
     // 1. 10-Photo Interactive Touch Slider & Carousel Engine
@@ -2905,3 +2943,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 </script>
+</body>
+</html>
