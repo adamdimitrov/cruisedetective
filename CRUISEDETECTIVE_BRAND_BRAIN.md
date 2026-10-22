@@ -69,4 +69,6 @@ Across 255 Bateaux Parisiens Sightseeing (`973977`) orders:
   - `SEO Visitors - Paris Dinner Cruises (30D Retargeting)`: **`120251645527150010`**
   - `SEO Historical Pool - Paris Sightseeing Cruises (180D Lookalike Seed)`: **`120251645527340010`**
   - `SEO Historical Pool - Paris Dinner Cruises (180D Lookalike Seed)`: **`120251645527780010`**
+  - `1% Lookalike (US) - Paris Sightseeing Cruises (180D Seed)`: **`120251648446510010`**
+  - `1% Lookalike (US) - Paris Dinner Cruises (180D Seed)`: **`120251648445530010`**
   - `Buyers - All`: **`120238497174370010`**
