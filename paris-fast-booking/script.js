@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2. Interactive Quantity & Price Calculator
     // -------------------------------------------------------------
     const ADULT_PRICE = 18.00;
-    const CHILD_PRICE = 9.50;
+    const CHILD_PRICE = 9.00;
 
     let adultCount = 2; // Default to couple (highest conversion rate)
     let childCount = 0;
@@ -214,6 +214,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const EXPIRATION_KEY = 'cd_gclid_exp';
     const EXPIRATION_MS = 90 * 24 * 60 * 60 * 1000;
 
+    function getCookieDomain() {
+        try {
+            const host = window.location.hostname;
+            if (host.endsWith('thecruisedetective.com')) {
+                return '; domain=.thecruisedetective.com';
+            }
+        } catch (e) {}
+        return '';
+    }
+
     function saveClickId(type, value) {
         if (!value || typeof value !== 'string') return;
         const cleanVal = value.trim();
@@ -228,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {}
 
         try {
-            document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${90 * 24 * 60 * 60}; path=/; SameSite=Lax`;
+            document.cookie = `${STORAGE_KEY}=${encodeURIComponent(payload)}; max-age=${90 * 24 * 60 * 60}; path=/${getCookieDomain()}; SameSite=Lax`;
         } catch (e) {}
     }
 
@@ -255,7 +265,36 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (e) {}
 
+        // 3. From cookie
+        try {
+            if (typeof document !== 'undefined' && document.cookie) {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.startsWith(`${STORAGE_KEY}=`)) {
+                        const cookieVal = decodeURIComponent(cookie.substring(STORAGE_KEY.length + 1));
+                        if (cookieVal) {
+                            const parts = cookieVal.split(':');
+                            if (parts.length === 2) {
+                                saveClickId(parts[0], parts[1]);
+                                return { type: parts[0], value: parts[1] };
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (e) {}
+
         return null;
+    }
+
+    function getFbpCookie() {
+        try {
+            const m = document.cookie.match(/(?:^|;\s*)_fbp=([^;]+)/);
+            return m ? decodeURIComponent(m[1]).trim() : '';
+        } catch (e) {
+            return '';
+        }
     }
 
     // -------------------------------------------------------------
@@ -263,11 +302,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // -------------------------------------------------------------
     const clickId = getClickId();
     const BASE_TIQETS_URL = 'https://www.tiqets.com/checkout/tickets-for-seine-river-cruise-by-bateaux-parisiens-p973977/booking_details/';
-    const PARTNER_ID = 'luxurytraveltester';
+    const PARTNER_ID = 'thecruisedetective.com-176436';
 
     function updateCheckoutLinks() {
         const total = calculateTotal();
         const totalTickets = adultCount + childCount;
+        const fbpVal = getFbpCookie();
 
         const targetLinks = [
             document.getElementById('main-checkout-btn'),
@@ -278,16 +318,18 @@ document.addEventListener('DOMContentLoaded', () => {
         targetLinks.forEach(link => {
             if (!link) return;
 
-            let campaignTag = 'paris-fast-booking';
+            let campaignTag = 'bateaux-parisiens-sightseeing';
             if (link.id.includes('bottom') || link.id.includes('secondary')) {
-                campaignTag = 'paris-fast-booking-bottom';
+                campaignTag = 'bateaux-parisiens-sightseeing-bottom';
             } else if (link.id.includes('sticky')) {
-                campaignTag = 'paris-fast-booking-sticky';
+                campaignTag = 'bateaux-parisiens-sightseeing-sticky';
             }
 
-            // Append click ID into campaign tag for server-to-server tracking
             if (clickId && clickId.value) {
                 campaignTag += `--${clickId.type}-${clickId.value}`;
+            }
+            if (fbpVal) {
+                campaignTag += `--fbp-${fbpVal}`;
             }
 
             const url = new URL(BASE_TIQETS_URL);
@@ -310,17 +352,29 @@ document.addEventListener('DOMContentLoaded', () => {
         if (targetBtn) {
             const total = calculateTotal();
             const totalTickets = adultCount + childCount;
+            const netCommission = Math.round(total * 0.419 * 100) / 100;
+
             if (typeof window.fbq === 'function') {
                 window.fbq('track', 'InitiateCheckout', {
                     content_name: 'Bateaux Parisiens Sightseeing Cruise',
                     content_category: 'Seine River Cruise',
-                    value: total,
+                    value: netCommission,
                     currency: 'EUR',
                     num_items: totalTickets
                 });
             }
+            if (typeof window.clarity === 'function') {
+                window.clarity('event', 'tiqets_outbound_click');
+                window.clarity('set', 'checkout_button', targetBtn.id);
+                window.clarity('set', 'basket_eur', total.toFixed(2));
+            }
         }
     });
+
+    if (typeof window.clarity === 'function') {
+        const sourceType = clickId && clickId.type ? clickId.type : 'direct_or_organic';
+        window.clarity('set', 'ad_click_type', sourceType);
+    }
 
     // -------------------------------------------------------------
     // 5. Sticky Bottom Bar Scroll Visibility Handler
@@ -350,6 +404,7 @@ document.addEventListener('DOMContentLoaded', () => {
         stickyBar.style.pointerEvents = 'none';
     }
 
-    // Initial run
+    // Initial run + delayed re-run after async Meta Pixel sets _fbp cookie
     updateDisplay();
+    setTimeout(updateCheckoutLinks, 1500);
 });
