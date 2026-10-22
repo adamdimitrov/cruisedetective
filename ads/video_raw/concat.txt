@@ -1,0 +1,6 @@
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/01_hook.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/02_mission.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/03_rooftop.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/04_food_drinks.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/05_bang_for_buck.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/06_verdict.mp4'

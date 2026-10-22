@@ -7,7 +7,8 @@ directories = [
     "dinner-advertorial",
     "seine-deal",
     "paris-fast-booking",
-    "paris-family-cruise"
+    "paris-family-cruise",
+    "paris-family-pass"
 ]
 
 base_root = "/Users/adamdimitrov/Development/cruisedetective"

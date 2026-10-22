@@ -1,0 +1,7 @@
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c1_hook_hires.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c2_mission.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c3_rooftop.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c4_food.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c5_drinks.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c6_value.mp4'
+file '/Users/adamdimitrov/Development/cruisedetective/ads/video_raw/c7_verdict.mp4'
