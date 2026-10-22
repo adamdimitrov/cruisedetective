@@ -36,7 +36,7 @@ def test_landing_pages():
         assert expected_pixel_id in html, f"Meta Pixel ID {expected_pixel_id} missing from {index_file}"
         print(f"  ✓ Meta Pixel {expected_pixel_id} verified in HTML head")
 
-        page_partner_id = "luxurytraveltester" if page == "paris-fast-booking" else expected_partner_id
+        page_partner_id = expected_partner_id
 
         assert page_partner_id in html, f"Tiqets Partner ID {page_partner_id} missing from {index_file}"
         print(f"  ✓ Tiqets Partner ID {page_partner_id} verified on links")
