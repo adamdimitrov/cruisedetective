@@ -17,12 +17,15 @@
 
 # Ad Creative & Image Generation Directives (Nano Banana / Gemini Image)
 
-- **Why Default AI Prompts Look Fake**: Native multimodal image models (`gemini-2.5-flash-image` / `gemini-3-pro-image` / Imagen 4) default to an overly airbrushed "commercial stock photo" aesthetic unless explicitly overridden.
-- **Mandatory Photorealism Prompt Overrides**: Every ad generation prompt MUST explicitly enforce:
-  - *"Realistic, candid iPhone photography lighting, natural skin textures, authentic everyday tourist clothing."*
-  - *"Real product/venue geometry"* (e.g., *"real Bateaux Parisiens glass-top trimaran boats on the Seine"*), passing actual reference photos from the landing page whenever possible.
-  - *"No floating 3D cartoon stopwatches, no cheesy clip-art icons, and no matching striped stock-photo outfits."*
-- **Mandatory Offer & Price Anchoring**: Every static ad creative and ad copy variation must explicitly state the real unit pricing (e.g., **€18 Adults • €9 Kids (50% OFF, ages 4–11) • Under 4 FREE**) and concrete logistics (**Instant Smartphone QR Ticket**, **Pier 3 under the Eiffel Tower**) to prevent price-reseller skepticism.
+- **Why Default AI Prompts Look Fake**: Native multimodal image models (`gemini-2.5-flash-image` / `gemini-3-pro-image` / Imagen 4) default to an overly airbrushed "commercial stock photo" aesthetic: plastic porcelain skin, symmetrical toothpaste-commercial grins, 3-point studio beauty lighting, and zero environmental clutter.
+- **Mandatory UGC & Photorealism Prompt Architecture (Camera & Sensor Reality)**:
+  Every ad generation prompt MUST explicitly define the authentic optical and physical camera properties:
+  - **Camera & Lens Physics**: *"Candid smartphone snapshot taken on iPhone 15 Pro, 24mm f/1.8 lens, natural handheld eye-level framing, authentic low-light sensor grain (ISO 800-1600), subtle optical depth-of-field, natural warm tungsten and candlelight illumination, realistic glass reflections and subtle lens flares."*
+  - **Human Subjects & Skin Texture**: *"Real everyday travelers in their early 30s, natural unretouched skin textures with visible pores, subtle facial micro-expressions (candid mid-laugh, relaxed affectionate smile, NOT a posed stock-model grin), natural stray hairs, authentic everyday evening clothing with real fabric wrinkles and texture (e.g. textured knit sweater, unbuttoned blazer, simple black slip dress)."*
+  - **Table & Environmental Authenticity**: *"Lived-in candid table physics: real crusty French baguette in a wire basket, butter knife with butter smear, wine glass condensation rings, flickering votive candle, authentic silverware placement."*
+  - **Boat & Venue Geometry**: *"Real Bateaux Mouches enclosed glass salon with starlight acoustic ceiling or the authentic upstairs 360° open-air rooftop deck (never fabricate exterior side gangways outside dining windows)."*
+  - **Negative AI Filter Enforcement**: *"Strictly avoid: airbrushed porcelain skin, wax-figure smooth faces, symmetrical stock photo poses, studio rim lighting, CGI 3D gloss, matching striped tourist costumes, and green corner bookmark icons."*
+- **Mandatory Offer & Price Anchoring**: Every static ad creative and ad copy variation must explicitly state the real unit pricing (e.g., **€18 Adults • €9 Kids (50% OFF, ages 4–11) • Under 4 FREE**) and concrete logistics (**Instant Smartphone QR Ticket**, **Pier 3 under the Eiffel Tower**, or **Pont de l'Alma Pier, 20:30 Prestige €135**) to prevent price-reseller skepticism.
 - **Template-Conditioned Generation (Option B Workflow)**: Whenever generating static Meta ads in Antigravity, ALWAYS pass a winning Superscale layout template from `/Users/adamdimitrov/Development/cruisedetective/ads/reference_library/templates/` alongside a real venue photo from `/Users/adamdimitrov/Development/cruisedetective/ads/reference_library/venue_photos/` into `image-generator`, instructing it to preserve the exact UI card typography, padding, and layout hierarchy while removing the green corner bookmark icon (see `/Users/adamdimitrov/.gemini/config/skills/nano-banana-ad-generator/SKILL.md`).
 
 # 365-Day Tiqets First-Party Data Intelligence (`CRUISEDETECTIVE_BRAND_BRAIN.md`)
