@@ -11,7 +11,8 @@ def test_landing_pages():
         "paris-fast-booking",
         "paris-family-cruise",
         "paris-family-pass",
-        "paris-family-compare"
+        "paris-family-compare",
+        "paris-couples-pass"
     ]
 
     expected_pixel_id = "1355732169631751"
