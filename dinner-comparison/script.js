@@ -94,29 +94,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function decorateLink(link, clickIdObj) {
-        if (!link || !clickIdObj || !clickIdObj.value) return;
-        const { type, value } = clickIdObj;
+        if (!link) return;
         try {
             const rawHref = link.getAttribute('href');
             if (!rawHref || !rawHref.includes('tiqets.com')) return;
 
             const url = new URL(rawHref, window.location.href);
-            const existingCampaign = url.searchParams.get('tq_campaign') || 'dinner-comparison-bm';
-            
-            // Format composite campaign tag
-            let newCampaign = existingCampaign;
-            const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
-            if (match) {
-                const baseTag = existingCampaign.substring(0, match.index);
-                newCampaign = baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
-            } else {
-                newCampaign = `${existingCampaign}--${type}-${value}`;
-            }
+            url.searchParams.set('partner', 'deals.cruisedetective.com');
 
-            url.searchParams.set('tq_campaign', newCampaign);
-            url.searchParams.set(type, value);
-            url.searchParams.set('click_id', value);
-            url.searchParams.set('subid', `${type}:${value}`);
+            if (clickIdObj && clickIdObj.value) {
+                const { type, value } = clickIdObj;
+                const existingCampaign = url.searchParams.get('tq_campaign') || 'dinner-comparison-bm';
+                
+                let newCampaign = existingCampaign;
+                const match = existingCampaign.match(/--(fbclid|gclid|wbraid|gbraid)-/);
+                if (match) {
+                    const baseTag = existingCampaign.substring(0, match.index);
+                    newCampaign = baseTag ? `${baseTag}--${type}-${value}` : `${type}-${value}`;
+                } else {
+                    newCampaign = `${existingCampaign}--${type}-${value}`;
+                }
+
+                url.searchParams.set('tq_campaign', newCampaign);
+                url.searchParams.set(type, value);
+                url.searchParams.set('click_id', value);
+                url.searchParams.set('subid', `${type}:${value}`);
+            }
 
             link.href = url.toString();
         } catch (e) {
@@ -126,8 +129,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function scanAndDecorateLinks() {
         const activeClickId = getClickId();
-        if (!activeClickId) return;
-
         const links = document.querySelectorAll('a[href*="tiqets.com"]');
         links.forEach(link => decorateLink(link, activeClickId));
     }
@@ -143,13 +144,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (typeof window.fbq === 'function') {
                     const text = button.textContent || '';
-                    const isRunnerUp = text.includes('Parisiens') || button.href.includes('p973977');
+                    let boatName = 'Bateaux Mouches Romantic Dinner Cruise';
+                    let priceVal = 230.00;
+
+                    if (button.href.includes('p974358') || text.includes('Parisiens')) {
+                        boatName = 'Bateaux Parisiens Gourmet Dinner Cruise';
+                        priceVal = 236.00;
+                    } else if (button.href.includes('p1023747') || text.includes('City Vision') || text.includes('Marina')) {
+                        boatName = 'Paris City Vision La Marina Dinner Cruise';
+                        priceVal = 200.00;
+                    } else if (button.href.includes('p1052475') || text.includes('Scène') || text.includes('Scene')) {
+                        boatName = 'Paris en Scène Dinner Cruise';
+                        priceVal = 138.00;
+                    } else if (button.href.includes('p1049009') || text.includes('Diamant')) {
+                        boatName = 'Le Diamant Bleu Gourmet Dinner Cruise';
+                        priceVal = 218.00;
+                    }
                     
                     window.fbq('track', 'InitiateCheckout', {
-                        content_name: isRunnerUp ? 'Bateaux Parisiens Dinner Cruise' : 'Bateaux Mouches Romantic Dinner Cruise',
+                        content_name: boatName,
                         content_category: 'Paris Dinner Cruise',
                         currency: 'EUR',
-                        value: isRunnerUp ? 230.00 : 230.00
+                        value: priceVal
                     });
                 }
             });
@@ -177,18 +193,107 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // -------------------------------------------------------------
-    // 3. Sticky Mobile Bar Scroll Logic
+    // 3. Category Filter Pill Click Handling
+    // -------------------------------------------------------------
+    const filterPills = document.querySelectorAll('.filter-pill');
+    filterPills.forEach(pill => {
+        pill.addEventListener('click', (e) => {
+            filterPills.forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+        });
+    });
+
+    // -------------------------------------------------------------
+    // 4. Dynamic Floating Bar: Tracks Current Cruise In View
     // -------------------------------------------------------------
     const stickyBar = document.getElementById('sticky-bar');
-    if (stickyBar) {
-        window.addEventListener('scroll', () => {
-            const scrollPos = window.scrollY;
-            // Reveal after scrolling 600px down (past the hero)
-            if (scrollPos > 600) {
-                stickyBar.classList.add('visible');
-            } else {
-                stickyBar.classList.remove('visible');
+    const boatCards = document.querySelectorAll('.boat-card');
+    const stickyThumb = document.getElementById('sticky-thumb');
+    const stickyRank = document.getElementById('sticky-rank');
+    const stickyName = document.getElementById('sticky-name');
+    const stickyPrice = document.getElementById('sticky-price');
+    const stickyDesc = document.getElementById('sticky-desc');
+    const stickyBtn = document.getElementById('sticky-cta-btn');
+
+    let currentActiveBoatId = null;
+
+    function updateFloatingBar() {
+        if (!stickyBar || boatCards.length === 0) return;
+
+        const scrollY = window.scrollY;
+        // Show only after scrolling past the comparison table (~420px)
+        if (scrollY < 420) {
+            stickyBar.classList.remove('visible');
+            return;
+        }
+
+        // Detect which cruise card is currently centered/in reading focus
+        const targetLine = window.innerHeight * 0.42;
+        let activeCard = null;
+
+        for (let i = 0; i < boatCards.length; i++) {
+            const card = boatCards[i];
+            const rect = card.getBoundingClientRect();
+            if (rect.top <= targetLine && rect.bottom >= targetLine) {
+                activeCard = card;
+                break;
             }
-        });
+        }
+
+        // If between cards or at start/end of cards section
+        if (!activeCard) {
+            for (let i = 0; i < boatCards.length; i++) {
+                const card = boatCards[i];
+                const rect = card.getBoundingClientRect();
+                if (rect.top <= window.innerHeight * 0.75 && rect.bottom > 0) {
+                    activeCard = card;
+                }
+            }
+        }
+
+        // Fallback to #1 winner if beyond all cards (e.g. at final verdict)
+        if (!activeCard) {
+            activeCard = boatCards[0];
+        }
+
+        stickyBar.classList.add('visible');
+
+        const boatId = activeCard.dataset.boatId;
+        if (boatId && boatId !== currentActiveBoatId) {
+            currentActiveBoatId = boatId;
+
+            if (stickyThumb && activeCard.dataset.boatThumb) {
+                stickyThumb.src = activeCard.dataset.boatThumb;
+            }
+            if (stickyRank && activeCard.dataset.boatRank) {
+                stickyRank.textContent = activeCard.dataset.boatRank;
+                stickyRank.className = `sticky-rank-badge pill-${boatId}`;
+            }
+            if (stickyName && activeCard.dataset.boatName) {
+                stickyName.textContent = activeCard.dataset.boatName;
+            }
+            if (stickyPrice && activeCard.dataset.boatPrice) {
+                stickyPrice.textContent = activeCard.dataset.boatPrice;
+            }
+            if (stickyDesc && activeCard.dataset.boatDesc) {
+                stickyDesc.textContent = activeCard.dataset.boatDesc;
+            }
+            if (stickyBtn) {
+                if (activeCard.dataset.boatBtn) {
+                    stickyBtn.textContent = activeCard.dataset.boatBtn;
+                }
+                if (activeCard.dataset.boatBtnClass) {
+                    stickyBtn.className = `btn-sticky-cta ${activeCard.dataset.boatBtnClass}`;
+                }
+                if (activeCard.dataset.boatUrl) {
+                    stickyBtn.href = activeCard.dataset.boatUrl;
+                    decorateLink(stickyBtn, getClickId());
+                }
+            }
+        }
     }
+
+    window.addEventListener('scroll', updateFloatingBar, { passive: true });
+    window.addEventListener('resize', updateFloatingBar, { passive: true });
+    updateFloatingBar();
 });
