@@ -187,7 +187,7 @@ test('E2E Lifecycle: Full 6-Stage User Click to Google Ads Offline Conversion Up
 
   // STAGE 1: User Click Simulation with ?gclid=test1234 (Evaluates production webflow-sync.js via JSDOM)
   const stage1Url = 'https://thecruisedetective.com/seine-advertorial?gclid=test1234&utm_source=google&utm_medium=cpc';
-  const stage1Html = '<a href="https://www.tiqets.com/en/paris-c66746/tickets-p982924/?partner=thecruisedetective.com-176436&tq_campaign=adv-tldr">Book Tickets</a>';
+  const stage1Html = '<a href="https://www.tiqets.com/en/paris-c66746/tickets-p982924/?partner=deals.cruisedetective.com&tq_campaign=adv-tldr">Book Tickets</a>';
 
   const frontendResult = executeFrontendTracking({
     urlStr: stage1Url,
@@ -273,7 +273,7 @@ test('Scenario 1: Standard Paid Search Campaign Journey (Paris Seine Cruise)', a
   // Step 1: User clicks Google Ad for Paris Seine Cruise
   const fe = executeFrontendTracking({
     urlStr: 'https://thecruisedetective.com/seine-advertorial?gclid=Cj0KCQiA_PARIS_SEINE_777',
-    linksHtml: '<a href="https://www.tiqets.com/en/paris-c66746/tickets-p982924/?partner=thecruisedetective.com-176436&tq_campaign=seine-bm">Book Tickets</a>'
+    linksHtml: '<a href="https://www.tiqets.com/en/paris-c66746/tickets-p982924/?partner=deals.cruisedetective.com&tq_campaign=seine-bm">Book Tickets</a>'
   });
 
   // Step 2: Sale completed on Tiqets

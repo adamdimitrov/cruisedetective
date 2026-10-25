@@ -50,7 +50,7 @@ describe('Click ID Capture (R1) Unit & Integration Test Suite', () => {
   describe('Tier 1: Primary Behavior (Happy Path)', () => {
 
     it('1.1 Should detect gclid from URL, store in localStorage (with ~90-day exp) and cookie', () => {
-      const initialHtml = `<a id="link1" href="https://www.tiqets.com/en/paris-c66746/?partner=thecruisedetective.com-176436&tq_campaign=adv-tldr">Tiqets Link</a>`;
+      const initialHtml = `<a id="link1" href="https://www.tiqets.com/en/paris-c66746/?partner=deals.cruisedetective.com&tq_campaign=adv-tldr">Tiqets Link</a>`;
       const testGclid = 'Cj0KCQ_tier1_url_gclid_12345';
       const testUrl = `https://thecruisedetective.com/?gclid=${testGclid}`;
 
@@ -78,8 +78,8 @@ describe('Click ID Capture (R1) Unit & Integration Test Suite', () => {
 
     it('1.2 Should decorate Tiqets links with tq_campaign (<base>--gclid-<gclid>), gclid, click_id, and subid', () => {
       const html = `
-        <a id="link-base" href="https://www.tiqets.com/en/paris-c66746/?partner=thecruisedetective.com-176436&tq_campaign=adv-tldr">Link with Base Tag</a>
-        <a id="link-nobase" href="https://www.tiqets.com/en/rome-c66746/?partner=thecruisedetective.com-176436">Link without Campaign Tag</a>
+        <a id="link-base" href="https://www.tiqets.com/en/paris-c66746/?partner=deals.cruisedetective.com&tq_campaign=adv-tldr">Link with Base Tag</a>
+        <a id="link-nobase" href="https://www.tiqets.com/en/rome-c66746/?partner=deals.cruisedetective.com">Link without Campaign Tag</a>
       `;
       const testGclid = 'Cj0KCQ_tier1_decor_67890';
       const testUrl = `https://thecruisedetective.com/?gclid=${testGclid}`;
@@ -92,7 +92,7 @@ describe('Click ID Capture (R1) Unit & Integration Test Suite', () => {
       assert.strictEqual(urlBase.searchParams.get('gclid'), testGclid);
       assert.strictEqual(urlBase.searchParams.get('click_id'), testGclid);
       assert.strictEqual(urlBase.searchParams.get('subid'), testGclid);
-      assert.strictEqual(urlBase.searchParams.get('partner'), 'thecruisedetective.com-176436');
+      assert.strictEqual(urlBase.searchParams.get('partner'), 'deals.cruisedetective.com');
 
       const linkNoBase = document.querySelector('#link-nobase');
       const urlNoBase = new URL(linkNoBase.href);

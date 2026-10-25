@@ -72,3 +72,14 @@ Across 255 Bateaux Parisiens Sightseeing (`973977`) orders:
   - `1% Lookalike (US) - Paris Sightseeing Cruises (180D Seed)`: **`120251648446510010`**
   - `1% Lookalike (US) - Paris Dinner Cruises (180D Seed)`: **`120251648445530010`**
   - `Buyers - All`: **`120238497174370010`**
+
+---
+
+## 6. Google Ads Assets & Brand Identity Directives
+- **Official Business Logo Asset**:
+  - **Asset Paths**:
+    - [`assets/cruise_detective_logo.png`](file:///Users/adamdimitrov/Development/cruisedetective/assets/cruise_detective_logo.png)
+    - [`ads/assets/cruise_detective_logo.png`](file:///Users/adamdimitrov/Development/cruisedetective/ads/assets/cruise_detective_logo.png)
+  - **Google Ads Asset ID**: `432769086002` (`customers/4899321613/assets/432769086002`)
+  - **Usage Mandate**: ALWAYS use this circular detective emblem (with solid white background) for Google Ads business logo assets, PMax brand identities, display placements, and advertiser verification.
+  - **Specs**: 256x256 PNG, solid white background, 1:1 aspect ratio (exceeds Google Ads 128x128 minimum).

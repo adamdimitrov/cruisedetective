@@ -55,3 +55,11 @@
   - `SEO Historical Pool - Paris Dinner Cruises (180D Lookalike Seed)`: `120251645527780010`
   - `1% Lookalike (US) - Paris Sightseeing Cruises (180D Seed)`: `120251648446510010`
   - `1% Lookalike (US) - Paris Dinner Cruises (180D Seed)`: `120251648445530010`
+
+# Google Ads Assets & Brand Identity Directives
+
+- **Official Business Logo Asset**:
+  - **Asset Path**: `/Users/adamdimitrov/Development/cruisedetective/assets/cruise_detective_logo.png` (and `/Users/adamdimitrov/Development/cruisedetective/ads/assets/cruise_detective_logo.png`)
+  - **Google Ads Asset ID**: `432769086002` (`customers/4899321613/assets/432769086002`)
+  - **Mandatory Policy**: ALWAYS use this exact circular detective emblem with white background (detective in trench coat and fedora holding a magnifying glass inspecting a cruise ship) for all Google Ads business logo assets, PMax brand identity, display units, and advertiser verification.
+  - **Dimensions & Specs**: 256x256 PNG, solid white background, 1:1 aspect ratio (conforms to Google Ads square logo asset requirement, minimum 128x128).
