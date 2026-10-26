@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cruise Detective - Webflow Custom Component Library (Paris Dinner Cruises)</title>
+  <!-- =========================================================================
+       THE CRUISE DETECTIVE: WEBFLOW COMPONENT LIBRARY (PARIS DINNER CRUISES)
+       File: 04_webflow_component_blocks.html
+       Scope: Requirement R4 - Scoped Webflow Component Styling & Callout Architecture
+       
+       INTEGRATION INSTRUCTIONS FOR WEBFLOW:
+       Option A (Recommended for Complete Page):
+         1. Copy the MASTER STYLESHEET block (between `style id="cd-master-components-css"`
+            and `/style`) into Webflow Page Settings -> "Inside head code" or an embed at top.
+         2. Copy individual HTML blocks (without repeating the CSS) into Webflow CMS Rich Text
+            or Custom HTML Embed widgets anywhere throughout the article.
+            
+       Option B (Standalone Drop-in Embeds):
+         Jump to "SECTION 4: STANDALONE SELF-CONTAINED EMBED SNIPPETS" at the bottom of this file.
+         Each snippet contains its own isolated `style` tag and can be pasted directly into any
+         Webflow Custom Code Embed block independently.
+         
+       All CSS is strictly namespaced under `.cd-*` with internal resets (box-sizing: border-box,
+       system font stacks, zero external font/script dependencies, inline accessible SVGs).
+       ========================================================================= -->
+
+  <!-- =========================================================================
+       MASTER STYLESHEET: THE CRUISE DETECTIVE COMPONENT TOKENS & ISOLATED RESETS
+       ========================================================================= -->
+  <style id="cd-master-components-css">
+    /* -------------------------------------------------------------------------
+       1. CSS CUSTOM PROPERTIES & THEME TOKENS
+       Scoped to component containers to prevent bleeding into Webflow global CSS.
+       ------------------------------------------------------------------------- */
+    .cd-sommelier-tip,
+    .cd-review-breakdown,
+    .cd-verified-reviews-bar,
+    .cd-showcase-container {
+      --cd-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --cd-font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+      
+      /* Brand Core */
+      --cd-dark-slate: #0f172a;
+      --cd-text-body: #334155;
+      --cd-text-muted: #64748b;
+      --cd-border-light: #e2e8f0;
+      
+      /* Sommelier Pro Tip Palette (Amber / Burgundy / Gold) */
+      --cd-wine-gold: #d97706;
+      --cd-wine-gold-dark: #b45309;
+      --cd-wine-gold-subtle: #fef3c7;
+      --cd-wine-gold-border: #fde68a;
+      --cd-wine-text: #92400e;
+      --cd-wine-bg: #fffdfa;
+      --cd-wine-box-border: #f3ede2;
+      
+      /* Pros (Loved) Palette (Emerald Green) */
+      --cd-pro-green: #16a34a;
+      --cd-pro-green-dark: #15803d;
+      --cd-pro-green-bg: #f0fdf4;
+      --cd-pro-green-border: #bbf7d0;
+      
+      /* Cons (Keep in Mind) Palette (Crimson Rose) */
+      --cd-con-rose: #e11d48;
+      --cd-con-rose-dark: #be123c;
+      --cd-con-rose-bg: #fff1f2;
+      --cd-con-rose-border: #fecdd3;
+      
+      /* Review Platforms */
+      --cd-color-tiqets: #ff5722;
+      --cd-color-gyg: #ff5533;
+      --cd-color-viator: #00aa6c;
+      --cd-color-tripadvisor: #34e0a1;
+      --cd-star-gold: #f59e0b;
+      
+      /* Shadows */
+      --cd-shadow-sm: 0 2px 8px -2px rgba(15, 23, 42, 0.05);
+      --cd-shadow-md: 0 4px 16px -2px rgba(45, 30, 15, 0.06);
+      --cd-shadow-card: 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+    }
+
+    /* -------------------------------------------------------------------------
+       2. INTERNAL RESETS (Kills Webflow .w-richtext and typography overrides)
+       ------------------------------------------------------------------------- */
+    .cd-sommelier-tip,
+    .cd-review-breakdown,
+    .cd-verified-reviews-bar {
+      box-sizing: border-box;
+      font-family: var(--cd-font-sans);
+      color: var(--cd-text-body);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .cd-sommelier-tip *,
+    .cd-review-breakdown *,
+    .cd-verified-reviews-bar * {
+      box-sizing: border-box;
+    }
+
+    /* -------------------------------------------------------------------------
+       3. COMPONENT 1: INSIDER SOMMELIER PRO TIP CALLOUT
+       ------------------------------------------------------------------------- */
+    .cd-sommelier-tip {
+      margin: 2.25rem 0;
+      padding: 1.5rem 1.75rem;
+      background: var(--cd-wine-bg);
+      border: 1px solid var(--cd-wine-box-border);
+      border-left: 5px solid var(--cd-wine-gold);
+      border-radius: 0 12px 12px 0;
+      box-shadow: var(--cd-shadow-md);
+      position: relative;
+    }
+    .cd-tip-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.85rem;
+    }
+    .cd-tip-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: var(--cd-wine-gold-subtle);
+      border: 1px solid var(--cd-wine-gold-border);
+      color: var(--cd-wine-text);
+      padding: 0.28rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .cd-tip-badge-icon {
+      flex-shrink: 0;
+      color: var(--cd-wine-gold-dark);
+      display: inline-block;
+    }
+    .cd-tip-operator-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--cd-text-muted);
+      letter-spacing: 0.02em;
+    }
+    .cd-tip-title {
+      font-size: 1.12rem;
+      font-weight: 800;
+      color: var(--cd-dark-slate);
+      margin: 0 0 0.6rem 0;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+    .cd-tip-content {
+      font-size: 0.935rem;
+      line-height: 1.62;
+      color: var(--cd-text-body);
+      margin: 0;
+    }
+    .cd-tip-content strong {
+      color: var(--cd-dark-slate);
+      font-weight: 700;
+    }
+    .cd-tip-callout-note {
+      margin-top: 0.9rem;
+      padding: 0.65rem 0.95rem;
+      background: rgba(217, 119, 6, 0.07);
+      border-left: 3px solid var(--cd-wine-gold);
+      border-radius: 4px;
+      font-size: 0.84rem;
+      color: #78350f;
+      line-height: 1.5;
+    }
+    .cd-tip-callout-note strong {
+      color: #92400e;
+    }
+
+    /* -------------------------------------------------------------------------
+       4. COMPONENT 2: STRUCTURED 2-COLUMN PROS & CONS CONTAINER
+       ------------------------------------------------------------------------- */
+    .cd-review-breakdown {
+      margin: 2.25rem 0;
+    }
+    .cd-pros-cons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      align-items: stretch;
+    }
+    @media (max-width: 768px) {
+      .cd-pros-cons-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+    .cd-card {
+      border-radius: 12px;
+      padding: 1.4rem 1.4rem 1.25rem 1.4rem;
+      box-shadow: var(--cd-shadow-card);
+      display: flex;
+      flex-direction: column;
+    }
+    .cd-pros-card {
+      background: var(--cd-pro-green-bg);
+      border: 1px solid var(--cd-pro-green-border);
+      border-top: 4px solid var(--cd-pro-green);
+    }
+    .cd-cons-card {
+      background: var(--cd-con-rose-bg);
+      border: 1px solid var(--cd-con-rose-border);
+      border-top: 4px solid var(--cd-con-rose);
+    }
+    .cd-card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 0.95rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+    }
+    .cd-card-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      margin: 0;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+    }
+    .cd-pros-card .cd-card-title {
+      color: var(--cd-pro-green-dark);
+    }
+    .cd-cons-card .cd-card-title {
+      color: var(--cd-con-rose-dark);
+    }
+    .cd-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      flex-grow: 1;
+    }
+    .cd-checklist li {
+      position: relative;
+      padding-left: 1.65rem;
+      font-size: 0.885rem;
+      line-height: 1.52;
+      color: #334155;
+    }
+    .cd-checklist li strong {
+      color: var(--cd-dark-slate);
+      font-weight: 700;
+    }
+    .cd-checklist-icon {
+      position: absolute;
+      left: 0;
+      top: 0.15rem;
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+    .cd-pros-list .cd-checklist-icon {
+      color: var(--cd-pro-green);
+    }
+    .cd-cons-list .cd-checklist-icon {
+      color: var(--cd-con-rose);
+    }
+
+    /* -------------------------------------------------------------------------
+       5. COMPONENT 3: MULTI-PLATFORM VERIFIED REVIEW BADGES
+       ------------------------------------------------------------------------- */
+    .cd-verified-reviews-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      background: #ffffff;
+      border: 1px solid var(--cd-border-light);
+      border-radius: 12px;
+      padding: 0.95rem 1.35rem;
+      margin: 1.75rem 0;
+      box-shadow: var(--cd-shadow-sm);
+    }
+    .cd-aggregate-score-box {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .cd-stars-display {
+      color: var(--cd-star-gold);
+      font-size: 1.15rem;
+      letter-spacing: 0.05em;
+      line-height: 1;
+      display: inline-block;
+    }
+    .cd-score-number {
+      font-size: 1.18rem;
+      font-weight: 800;
+      color: var(--cd-dark-slate);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    .cd-score-scale {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--cd-text-muted);
+    }
+    .cd-review-total {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #475569;
+      background: #f1f5f9;
+      padding: 0.3rem 0.65rem;
+      border-radius: 6px;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+    }
+    .cd-platform-chips-grid {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+    .cd-platform-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.28rem 0.65rem;
+      border-radius: 6px;
+      background: #f8fafc;
+      border: 1px solid var(--cd-border-light);
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: #334155;
+      white-space: nowrap;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .cd-platform-chip:hover {
+      background: #f1f5f9;
+      border-color: #cbd5e1;
+    }
+    .cd-platform-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+    .cd-platform-dot.tiqets { background: var(--cd-color-tiqets); }
+    .cd-platform-dot.gyg { background: var(--cd-color-gyg); }
+    .cd-platform-dot.viator { background: var(--cd-color-viator); }
+    .cd-platform-dot.tripadvisor { background: var(--cd-color-tripadvisor); }
+    .cd-platform-name {
+      font-weight: 700;
+      color: var(--cd-dark-slate);
+    }
+    .cd-platform-rating {
+      color: var(--cd-wine-gold);
+      font-weight: 700;
+    }
+    .cd-platform-count {
+      color: var(--cd-text-muted);
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+    @media (max-width: 640px) {
+      .cd-verified-reviews-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.9rem 1rem;
+        gap: 0.85rem;
+      }
+      .cd-platform-chips-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.4rem;
+      }
+      .cd-platform-chip {
+        justify-content: flex-start;
+        padding: 0.35rem 0.5rem;
+      }
+    }
+
+    /* -------------------------------------------------------------------------
+       6. DEMO / SHOWCASE WRAPPER STYLES (For review page inspection)
+       ------------------------------------------------------------------------- */
+    .cd-showcase-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      background: #f8fafc;
+      color: #0f172a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .cd-section-header {
+      margin: 3rem 0 1.5rem 0;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    .cd-section-header h2 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 0.25rem 0;
+      letter-spacing: -0.02em;
+    }
+    .cd-section-header p {
+      font-size: 0.9rem;
+      color: #64748b;
+      margin: 0;
+    }
+    .cd-example-block {
+      margin-bottom: 2rem;
+    }
+    .cd-example-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #0284c7;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+    .cd-code-snippet-box {
+      margin: 1.5rem 0 2.5rem 0;
+      background: #0f172a;
+      border-radius: 8px;
+      padding: 1.25rem;
+      color: #e2e8f0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      overflow-x: auto;
+      border: 1px solid #1e293b;
+    }
+    .cd-code-snippet-box pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+
+<div class="cd-showcase-container">
+
+  <!-- =========================================================================
+       DOCUMENTATION & DEPLOYMENT INSTRUCTIONS HEADER
+       ========================================================================= -->
+  <header style="margin-bottom: 2.5rem; background: #ffffff; padding: 2rem; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 2px 10px rgba(0,0,0,0.03);">
+    <div style="display: inline-block; background: #e0f2fe; color: #0369a1; padding: 0.25rem 0.65rem; border-radius: 6px; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem;">
+      Requirement R4 Component Library
+    </div>
+    <h1 style="font-size: 1.85rem; font-weight: 800; color: #0f172a; margin: 0 0 0.75rem 0; letter-spacing: -0.02em;">
+      The Cruise Detective: Webflow Custom Component Library
+    </h1>
+    <p style="font-size: 0.95rem; line-height: 1.6; color: #475569; margin: 0 0 1rem 0;">
+      Pre-styled, high-converting editorial UI components designed specifically for the Paris Dinner Cruises overhaul (<a href="https://www.thecruisedetective.com/dinner-cruises-paris" target="_blank" rel="noopener" style="color: #0284c7; text-decoration: underline;">thecruisedetective.com/dinner-cruises-paris</a>). Every block is strictly isolated with <code style="background: #f1f5f9; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85em; color: #0f172a;">.cd-*</code> class scoping to prevent collision with Webflow global styles or <code style="background: #f1f5f9; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85em; color: #0f172a;">.w-richtext</code> parent resets.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1.25rem; font-size: 0.85rem;">
+      <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem;">1. Sommelier Pro Tips</strong>
+        Amber-accented callout blocks featuring wine pairing nuances, serving temperatures, and boarding seating strategies for each boat.
+      </div>
+      <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem;">2. 2-Column Pros &amp; Cons</strong>
+        Responsive side-by-side grid contrasting "What We Loved" (emerald checkmarks) with "Keep in Mind" (rose alert triangles). Auto-stacks on mobile.
+      </div>
+      <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <strong style="color: #0f172a; display: block; margin-bottom: 0.35rem;">3. Multi-Platform Badges</strong>
+        Live social proof bars consolidating verified ratings and review counts across Tiqets, GetYourGuide, Viator, and TripAdvisor.
+      </div>
+    </div>
+  </header>
+
+
+  <!-- =========================================================================
+       SECTION 1: INSIDER SOMMELIER PRO TIP CALLOUTS
+       ========================================================================= -->
+  <div class="cd-section-header">
+    <h2>Section 1: Insider "Pro Tips" Sommelier Callouts</h2>
+    <p>Concrete, boat-specific tasting and wine logistics tips with inline sommelier icons and temperature guidance.</p>
+  </div>
+
+  <!-- Example 1.1: Bateaux Mouches (Prestige & Excellence Wine Strategy) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 1: Bateaux Mouches (Prestige &amp; Excellence Service)</span>
+    <aside class="cd-sommelier-tip" role="note" aria-label="Sommelier Insider Tip for Bateaux Mouches">
+      <div class="cd-tip-header-row">
+        <div class="cd-tip-badge">
+          <svg class="cd-tip-badge-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 22h8M12 11v11M17 2H7l1 7a4 4 0 0 0 8 0l1-7z"/>
+          </svg>
+          <span>Sommelier Insider Tip</span>
+        </div>
+        <span class="cd-tip-operator-tag">Compagnie des Bateaux Mouches • 20:30 Departure</span>
+      </div>
+      <h4 class="cd-tip-title">Starboard Seating &amp; Wine Decanting Strategy</h4>
+      <p class="cd-tip-content">
+        When boarding at Pont de l'Alma for the <strong>20:30 departure</strong>, request a table on the <strong>starboard (right) side</strong> of the glass salon. This positions your glasses directly facing the illuminated Musée d'Orsay, Louvre, and Notre-Dame on the outbound leg. On the standard <em>Prestige tier (€130)</em>, your ticket includes a full bottle of AOC wine per couple (Mouton Cadet Blanc or Agneau Rouge Bordeaux) plus flutes of Champagne Castel Mouches with warm cheese gougères.
+      </p>
+      <div class="cd-tip-callout-note">
+        <strong>Cellar Secret:</strong> The Bordeaux reds are often stored on lower decks and poured at ~14°C. Ask your server to uncork the bottle the moment your starters are placed; giving it 20 minutes to reach room temperature (17°C–18°C) transforms the tannins before the Châteaubriand or roasted lamb arrives.
+      </div>
+    </aside>
+  </div>
+
+  <!-- Example 1.2: Bateaux Parisiens (Upgrading Wine from Découverte) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 2: Bateaux Parisiens (Seating &amp; Wine Allocation Trap)</span>
+    <aside class="cd-sommelier-tip" role="note" aria-label="Sommelier Insider Tip for Bateaux Parisiens">
+      <div class="cd-tip-header-row">
+        <div class="cd-tip-badge">
+          <svg class="cd-tip-badge-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 22h8M12 11v11M17 2H7l1 7a4 4 0 0 0 8 0l1-7z"/>
+          </svg>
+          <span>Sommelier Insider Tip</span>
+        </div>
+        <span class="cd-tip-operator-tag">Bateaux Parisiens • Port de la Bourdonnais</span>
+      </div>
+      <h4 class="cd-tip-title">Avoid the 4-Person Wine Split: Why Privilège Service Pays for Itself</h4>
+      <p class="cd-tip-content">
+        Pay close attention to drink terms: the entry-level <strong>Étoile (€115)</strong> and <strong>Découverte (€139)</strong> tickets allocate <strong>one bottle of wine for every four guests</strong> (or just half a bottle per couple) alongside basic white wine Kir. If you are celebrating an anniversary, upgrade directly to <strong>Privilège Service (€179)</strong>: it guarantees lateral floor-to-ceiling window seating, provides a full bottle of selected AOC wine per couple (Mâcon-Villages or Saint-Joseph), includes genuine Champagne apéritifs, and adds an affineur cheese course.
+      </p>
+      <div class="cd-tip-callout-note">
+        <strong>Tasting Advice:</strong> If choosing the pan-seared sea scallops starter, request the Mâcon-Villages served well-chilled (around 9°C–10°C) to complement the sweet leek fondue. For red wine drinkers, skip the duckling main (consistently tough) in favor of the pan-fried veal medallion.
+      </div>
+    </aside>
+  </div>
+
+  <!-- Example 1.3: Paris City Vision / La Marina (The Base Ticket Drink Trap) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 3: Paris City Vision / La Marina de Paris (Drink Add-on Secret)</span>
+    <aside class="cd-sommelier-tip" role="note" aria-label="Sommelier Insider Tip for Paris City Vision">
+      <div class="cd-tip-header-row">
+        <div class="cd-tip-badge">
+          <svg class="cd-tip-badge-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 22h8M12 11v11M17 2H7l1 7a4 4 0 0 0 8 0l1-7z"/>
+          </svg>
+          <span>Sommelier Insider Tip</span>
+        </div>
+        <span class="cd-tip-operator-tag">Marina de Paris • Port Solférino (Musée d'Orsay)</span>
+      </div>
+      <h4 class="cd-tip-title">The Zero-Alcohol Base Ticket Trap: Book the Romantic Package</h4>
+      <p class="cd-tip-content">
+        Many diners are shocked upon arrival: the standard <strong>€80–€100 base ticket includes ZERO wine and ZERO bottled mineral water</strong> (only hot coffee or tea). With on-dock bar prices charging €6 for still water and €8–€15 per glass of house wine, your final bill can easily escalate by €40+. 
+      </p>
+      <div class="cd-tip-callout-note">
+        <strong>Smart Booking Tip:</strong> Reserve the <em>Romantic / VIP Package (€135–€155)</em> upfront through GetYourGuide. It bundles guaranteed window perimeter seating, a full bottle of chilled Champagne per couple, and a chef's dessert sampler, delivering substantially better unit value than buying drinks à la carte.
+      </div>
+    </aside>
+  </div>
+
+  <!-- Example 1.4: Le Diamant Bleu (Rooftop Deck Timing) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 5: Le Diamant Bleu (Rooftop Access &amp; Sound Strategy)</span>
+    <aside class="cd-sommelier-tip" role="note" aria-label="Sommelier Insider Tip for Le Diamant Bleu">
+      <div class="cd-tip-header-row">
+        <div class="cd-tip-badge">
+          <svg class="cd-tip-badge-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M8 22h8M12 11v11M17 2H7l1 7a4 4 0 0 0 8 0l1-7z"/>
+          </svg>
+          <span>Sommelier Insider Tip</span>
+        </div>
+        <span class="cd-tip-operator-tag">Le Diamant Bleu • Port d'Austerlitz</span>
+      </div>
+      <h4 class="cd-tip-title">Rooftop Lockout Timing &amp; Post-Dinner Terrace Champagne</h4>
+      <p class="cd-tip-content">
+        While Le Diamant Bleu boasts the Seine's largest open terrace (350m² of teak decking), <strong>crew members strictly lock access to the upper deck until after the main course is served</strong> to prevent galley food from getting cold. Do not arrive expecting golden hour sunset photos upstairs before dinner.
+      </p>
+      <div class="cd-tip-callout-note">
+        <strong>Party Strategy:</strong> Finish your main course promptly; once the deck unlocks, bring your champagne flutes upstairs for the 22:00 Eiffel Tower sparkle and live DJ set, escaping the noisy echo-chamber acoustics of the lower dining ballroom.
+      </div>
+    </aside>
+  </div>
+
+
+  <!-- =========================================================================
+       SECTION 2: STRUCTURED 2-COLUMN "WHAT WE LOVED" VS. "KEEP IN MIND"
+       ========================================================================= -->
+  <div class="cd-section-header">
+    <h2>Section 2: Structured 2-Column Pros &amp; Cons Containers</h2>
+    <p>Balanced, authentic editorial pros and cons with inline SVG checkmark and alert icons, high-contrast text, and responsive auto-stacking.</p>
+  </div>
+
+  <!-- Example 2.1: Bateaux Mouches (Rank #1) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 1: Bateaux Mouches (Prestige / Excellence) — Rank #1 Winner</span>
+    <div class="cd-review-breakdown" aria-label="Firsthand Editorial Assessment: Bateaux Mouches">
+      <div class="cd-pros-cons-grid">
+        <!-- What We Loved -->
+        <div class="cd-card cd-pros-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <h3 class="cd-card-title">What We Loved</h3>
+          </div>
+          <ul class="cd-checklist cd-pros-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>100% Galley-Cooked French Cuisine:</strong> Four-course menu prepared fresh onboard by brigade chefs. The warm choux profiterole with tableside dark chocolate ganache is the single best dessert on the Seine.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Unrestricted 360° Rooftop Deck:</strong> Open throughout the entire sailing. You can carry your champagne glasses upstairs anytime for glare-free photos right under the sparkling Eiffel Tower.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Generous Drinks Package:</strong> A full bottle of AOC wine per couple, Champagne Castel Mouches apéritif, 1L Evian water, and hot coffee/tea included in the standard €130 ticket.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Acoustic Classical Elegance:</strong> Live violin and baby grand piano duo performing French chansons at a gentle volume (&lt;65 dB), allowing quiet romantic conversation without speaker distortion.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Keep in Mind -->
+        <div class="cd-card cd-cons-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <h3 class="cd-card-title">Keep in Mind</h3>
+          </div>
+          <ul class="cd-checklist cd-cons-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Strict Smart Casual Enforcement:</strong> Men wearing athletic sneakers, distressed jeans, tracksuits, or flip-flops are turned away at Pont de l'Alma without refund. A collared shirt and tailored trousers are essential.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Bustling Passenger Volume:</strong> Large 500-capacity vessels mean boarding queues can stretch along the dock during peak summer months (arrive by 19:45 for smooth embarkation).
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Center Tables Face Night Glare:</strong> Lower-tier middle aisle tables face window reflections after dark. Take advantage of the upper rooftop deck for true unobstructed views.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>No Audio History Guide:</strong> This is purely a fine-dining and musical journey; the crew does not broadcast historical commentary over loudspeakers.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Example 2.2: Bateaux Parisiens (Rank #2) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 2: Bateaux Parisiens — Rank #2 Runner-Up</span>
+    <div class="cd-review-breakdown" aria-label="Firsthand Editorial Assessment: Bateaux Parisiens">
+      <div class="cd-pros-cons-grid">
+        <!-- What We Loved -->
+        <div class="cd-card cd-pros-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <h3 class="cd-card-title">What We Loved</h3>
+          </div>
+          <ul class="cd-checklist cd-pros-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Panoramic Glass Trimaran Canopy:</strong> Sweeping curved glass envelopes the entire vessel from waterline to ceiling, offering stunning monument vistas departing straight from Pier 5/7 beneath the Eiffel Tower.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Exceptional Seafood Starters:</strong> Pan-seared sea scallops with Chardonnay leek fondue and citrus gremolata executed with fine-dining finesse.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Bow Seating on Premier Service:</strong> Premier tier (€215) places you at the very nose (prow) of the vessel with zero tables ahead of you for an unforgettable 270° panorama.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Chic Live Vocalist:</strong> Professional pop/jazz singer accompanied by electric keyboard delivering tasteful, contemporary evening entertainment.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Keep in Mind -->
+        <div class="cd-card cd-cons-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <h3 class="cd-card-title">Keep in Mind</h3>
+          </div>
+          <ul class="cd-checklist cd-cons-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>No Open Rooftop Walking Deck:</strong> Entire boat is glass-enclosed. There is no open-air upper deck; guests wanting fresh air are limited to a small 10-person stern smoking platform.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Window Glare &amp; Winter Fogging:</strong> Overhead interior chandeliers cause mirror reflections on the glass canopy after dark; windows steam up noticeably during cold autumn/winter sailings.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Stingy Wine Allocation on Étoile:</strong> Standard ticket only includes 1 bottle of wine per 4 guests (half-bottle for couples) and white wine Kir rather than genuine Champagne.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Chewy Spiced Duckling Main:</strong> The roasted duckling breast was consistently observed as tough, dry, and lacking seasoning compared to the fish and veal selections.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Example 2.3: Paris City Vision / La Marina (Rank #3) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 3: Paris City Vision / La Marina de Paris — Rank #3 Romantic Bistro</span>
+    <div class="cd-review-breakdown" aria-label="Firsthand Editorial Assessment: Paris City Vision">
+      <div class="cd-pros-cons-grid">
+        <!-- What We Loved -->
+        <div class="cd-card cd-pros-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <h3 class="cd-card-title">What We Loved</h3>
+          </div>
+          <ul class="cd-checklist cd-pros-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Outstanding Live Cabaret Singer:</strong> Talented female vocalist singing Édith Piaf, Charles Aznavour, and romantic French classics, giving the room authentic bohemian bistro energy.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Intimate 2-Person Window Tables:</strong> Private perimeter tables positioned directly at river level create a cozy date-night vibe.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Pastry Chef Triumph Dessert:</strong> The torched Crème Brûlée Caramel Tart with sea salt caramel ribbon is a standout culinary highlight.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Central Musée d'Orsay Pier:</strong> Departs from Port Solférino on the Left Bank, within easy walking distance of Saint-Germain-des-Prés.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Keep in Mind -->
+        <div class="cd-card cd-cons-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <h3 class="cd-card-title">Keep in Mind</h3>
+          </div>
+          <ul class="cd-checklist cd-cons-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Zero Alcohol in Base Ticket:</strong> Standard ticket (€80–€100) includes no wine, beer, or bottled water. Must purchase drinks à la carte or book the VIP package.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Zero Open Promenade Deck:</strong> Fully enclosed low-profile barge vessel; passengers cannot step outside for open-air photography.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Severe Winter Window Fog:</strong> Enclosed dining humidity causes heavy condensation on perimeter glass from November to March.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Locked Tuileries Night Gate:</strong> Do not walk through the Tuileries garden at night (gates lock at dusk); access Port Solférino strictly via Quai Anatole France.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Example 2.4: Paris en Scène (Rank #4) -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 4: Paris en Scène — Rank #4 Best Budget Value Under €70</span>
+    <div class="cd-review-breakdown" aria-label="Firsthand Editorial Assessment: Paris en Scène">
+      <div class="cd-pros-cons-grid">
+        <!-- What We Loved -->
+        <div class="cd-card cd-pros-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            <h3 class="cd-card-title">What We Loved</h3>
+          </div>
+          <ul class="cd-checklist cd-pros-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Unbeatable €59–€65 Price Point:</strong> Lowest-priced 3-course dinner cruise on the Seine with zero hidden service charges.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Cinema-Style Leather Armchairs:</strong> Plush club chairs are oriented 90° directly towards panoramic river windows, providing an effortless viewing angle.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Dual Open Observation Decks:</strong> Features both an upper open-air rooftop platform and a small forward bow viewing area for open-air photos.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <strong>Statue of Liberty Pier:</strong> Convenient departure from Île aux Cygnes right beneath Pont de Bir-Hakeim.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Keep in Mind -->
+        <div class="cd-card cd-cons-card">
+          <div class="cd-card-header">
+            <svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <h3 class="cd-card-title">Keep in Mind</h3>
+          </div>
+          <ul class="cd-checklist cd-cons-list">
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Pre-Catered Reheated Meals:</strong> Dishes are pre-plated in an offsite commissary and reheated in steam ovens onboard; expect banquet cafeteria textures.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Short 75-Minute Duration:</strong> Cruise feels hurried compared to the standard 2h 15m sailings; courses arrive in rapid succession.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>No Live Musical Performers:</strong> Ambient lounge playlist streamed over ceiling speakers rather than acoustic violinists or vocalists.
+            </li>
+            <li>
+              <svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+              <strong>Swivel Side Trays:</strong> Small individual side trays attached to armchairs rather than standard full dining tables; tight for multiple glasses and bread plates.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =========================================================================
+       SECTION 3: MULTI-PLATFORM VERIFIED REVIEW BADGES
+       ========================================================================= -->
+  <div class="cd-section-header">
+    <h2>Section 3: Multi-Platform Verified Review Badges</h2>
+    <p>Social proof badges displaying aggregated score benchmarks and verified review volumes across Tiqets, GetYourGuide, Viator, and TripAdvisor.</p>
+  </div>
+
+  <!-- Badge 3.1: Bateaux Mouches -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 1: Bateaux Mouches (Prestige / Excellence)</span>
+    <div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms: Bateaux Mouches">
+      <div class="cd-aggregate-score-box">
+        <div class="cd-stars-display" aria-label="4.7 out of 5 stars">★★★★★</div>
+        <div class="cd-score-number">4.7 <span class="cd-score-scale">/ 5.0</span></div>
+        <div class="cd-review-total">+9,910 Verified Reviews</div>
+      </div>
+      <div class="cd-platform-chips-grid">
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tiqets" aria-hidden="true"></span>
+          <span class="cd-platform-name">Tiqets</span>
+          <span class="cd-platform-rating">4.7 ★</span>
+          <span class="cd-platform-count">(392+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot gyg" aria-hidden="true"></span>
+          <span class="cd-platform-name">GetYourGuide</span>
+          <span class="cd-platform-rating">4.5 ★</span>
+          <span class="cd-platform-count">(4,621+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot viator" aria-hidden="true"></span>
+          <span class="cd-platform-name">Viator</span>
+          <span class="cd-platform-rating">4.5 ★</span>
+          <span class="cd-platform-count">(3,140+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tripadvisor" aria-hidden="true"></span>
+          <span class="cd-platform-name">TripAdvisor</span>
+          <span class="cd-platform-rating">4.3 ★</span>
+          <span class="cd-platform-count">(1,754+)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge 3.2: Bateaux Parisiens -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 2: Bateaux Parisiens (Gourmet Dinner Cruise)</span>
+    <div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms: Bateaux Parisiens">
+      <div class="cd-aggregate-score-box">
+        <div class="cd-stars-display" aria-label="4.6 out of 5 stars">★★★★★</div>
+        <div class="cd-score-number">4.6 <span class="cd-score-scale">/ 5.0</span></div>
+        <div class="cd-review-total">+16,340 Verified Reviews</div>
+      </div>
+      <div class="cd-platform-chips-grid">
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot gyg" aria-hidden="true"></span>
+          <span class="cd-platform-name">GetYourGuide</span>
+          <span class="cd-platform-rating">4.7 ★</span>
+          <span class="cd-platform-count">(8,868+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tiqets" aria-hidden="true"></span>
+          <span class="cd-platform-name">Tiqets</span>
+          <span class="cd-platform-rating">4.6 ★</span>
+          <span class="cd-platform-count">(339+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot viator" aria-hidden="true"></span>
+          <span class="cd-platform-name">Viator</span>
+          <span class="cd-platform-rating">4.5 ★</span>
+          <span class="cd-platform-count">(3,980+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tripadvisor" aria-hidden="true"></span>
+          <span class="cd-platform-name">TripAdvisor</span>
+          <span class="cd-platform-rating">4.3 ★</span>
+          <span class="cd-platform-count">(3,145+)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge 3.3: Paris City Vision / La Marina -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 3: Paris City Vision / La Marina de Paris</span>
+    <div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms: Paris City Vision">
+      <div class="cd-aggregate-score-box">
+        <div class="cd-stars-display" aria-label="4.3 out of 5 stars">★★★★☆</div>
+        <div class="cd-score-number">4.3 <span class="cd-score-scale">/ 5.0</span></div>
+        <div class="cd-review-total">+6,670 Verified Reviews</div>
+      </div>
+      <div class="cd-platform-chips-grid">
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot gyg" aria-hidden="true"></span>
+          <span class="cd-platform-name">GetYourGuide</span>
+          <span class="cd-platform-rating">4.3 ★</span>
+          <span class="cd-platform-count">(6,062+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot viator" aria-hidden="true"></span>
+          <span class="cd-platform-name">Viator</span>
+          <span class="cd-platform-rating">4.2 ★</span>
+          <span class="cd-platform-count">(1,200+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tiqets" aria-hidden="true"></span>
+          <span class="cd-platform-name">Tiqets</span>
+          <span class="cd-platform-rating">4.0 ★</span>
+          <span class="cd-platform-count">(270+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tripadvisor" aria-hidden="true"></span>
+          <span class="cd-platform-name">TripAdvisor</span>
+          <span class="cd-platform-rating">3.7 ★</span>
+          <span class="cd-platform-count">(331+)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge 3.4: Paris en Scène -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 4: Paris en Scène (Budget Dinner Cruise)</span>
+    <div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms: Paris en Scène">
+      <div class="cd-aggregate-score-box">
+        <div class="cd-stars-display" aria-label="4.2 out of 5 stars">★★★★☆</div>
+        <div class="cd-score-number">4.2 <span class="cd-score-scale">/ 5.0</span></div>
+        <div class="cd-review-total">+13,470 Verified Reviews</div>
+      </div>
+      <div class="cd-platform-chips-grid">
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot gyg" aria-hidden="true"></span>
+          <span class="cd-platform-name">GetYourGuide</span>
+          <span class="cd-platform-rating">4.3 ★</span>
+          <span class="cd-platform-count">(12,271+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tiqets" aria-hidden="true"></span>
+          <span class="cd-platform-name">Tiqets</span>
+          <span class="cd-platform-rating">4.2 ★</span>
+          <span class="cd-platform-count">(325+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot viator" aria-hidden="true"></span>
+          <span class="cd-platform-name">Viator</span>
+          <span class="cd-platform-rating">4.1 ★</span>
+          <span class="cd-platform-count">(1,040+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tripadvisor" aria-hidden="true"></span>
+          <span class="cd-platform-name">TripAdvisor</span>
+          <span class="cd-platform-rating">3.7 ★</span>
+          <span class="cd-platform-count">(870+)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge 3.5: Le Diamant Bleu -->
+  <div class="cd-example-block">
+    <span class="cd-example-label">Boat 5: Le Diamant Bleu (70m Modern Yacht)</span>
+    <div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms: Le Diamant Bleu">
+      <div class="cd-aggregate-score-box">
+        <div class="cd-stars-display" aria-label="4.4 out of 5 stars">★★★★☆</div>
+        <div class="cd-score-number">4.4 <span class="cd-score-scale">/ 5.0</span></div>
+        <div class="cd-review-total">+4,770 Verified Reviews</div>
+      </div>
+      <div class="cd-platform-chips-grid">
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tripadvisor" aria-hidden="true"></span>
+          <span class="cd-platform-name">TripAdvisor</span>
+          <span class="cd-platform-rating">4.7 ★</span>
+          <span class="cd-platform-count">(570+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot viator" aria-hidden="true"></span>
+          <span class="cd-platform-name">Viator</span>
+          <span class="cd-platform-rating">4.5 ★</span>
+          <span class="cd-platform-count">(3,212+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot tiqets" aria-hidden="true"></span>
+          <span class="cd-platform-name">Tiqets</span>
+          <span class="cd-platform-rating">4.4 ★</span>
+          <span class="cd-platform-count">(154+)</span>
+        </div>
+        <div class="cd-platform-chip">
+          <span class="cd-platform-dot gyg" aria-hidden="true"></span>
+          <span class="cd-platform-name">GetYourGuide</span>
+          <span class="cd-platform-rating">3.5 ★</span>
+          <span class="cd-platform-count">(835+)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- =========================================================================
+       SECTION 4: STANDALONE SELF-CONTAINED EMBED SNIPPETS
+       (Ready to copy and paste directly into Webflow HTML Embed blocks)
+       ========================================================================= -->
+  <div class="cd-section-header">
+    <h2>Section 4: Standalone Self-Contained Embed Snippets</h2>
+    <p>Copy each self-contained block directly into any Webflow Custom HTML Embed widget without needing global stylesheets.</p>
+  </div>
+
+  <h3 style="font-size: 1.1rem; color: #0f172a; margin: 1.5rem 0 0.5rem 0;">4.1 Standalone Sommelier Pro Tip Embed Code</h3>
+  <div class="cd-code-snippet-box">
+    <pre>&lt;!-- =======================================================================
+     THE CRUISE DETECTIVE: SOMMELIER PRO TIP CALLOUT (STANDALONE EMBED)
+     Drop directly into a Webflow Custom HTML Embed widget inside any boat review.
+     ======================================================================= --&gt;
+&lt;style&gt;
+.cd-sommelier-tip {
+  margin: 2.25rem 0;
+  padding: 1.5rem 1.75rem;
+  background: #fffdfa;
+  border: 1px solid #f3ede2;
+  border-left: 5px solid #d97706;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 4px 16px -2px rgba(45, 30, 15, 0.06);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #334155;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.cd-sommelier-tip * { box-sizing: border-box; }
+.cd-tip-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+.cd-tip-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #fef3c7;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  padding: 0.28rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.cd-tip-badge-icon { flex-shrink: 0; color: #b45309; }
+.cd-tip-operator-tag { font-size: 0.75rem; font-weight: 700; color: #64748b; }
+.cd-tip-title {
+  font-size: 1.12rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.6rem 0;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+.cd-tip-content { font-size: 0.935rem; line-height: 1.62; color: #334155; margin: 0; }
+.cd-tip-content strong { color: #0f172a; font-weight: 700; }
+.cd-tip-callout-note {
+  margin-top: 0.9rem;
+  padding: 0.65rem 0.95rem;
+  background: rgba(217, 119, 6, 0.07);
+  border-left: 3px solid #d97706;
+  border-radius: 4px;
+  font-size: 0.84rem;
+  color: #78350f;
+  line-height: 1.5;
+}
+.cd-tip-callout-note strong { color: #92400e; }
+&lt;/style&gt;
+
+&lt;aside class="cd-sommelier-tip" role="note" aria-label="Sommelier Insider Tip"&gt;
+  &lt;div class="cd-tip-header-row"&gt;
+    &lt;div class="cd-tip-badge"&gt;
+      &lt;svg class="cd-tip-badge-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;
+        &lt;path d="M8 22h8M12 11v11M17 2H7l1 7a4 4 0 0 0 8 0l1-7z"/&gt;
+      &lt;/svg&gt;
+      &lt;span&gt;Sommelier Insider Tip&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span class="cd-tip-operator-tag"&gt;Compagnie des Bateaux Mouches • Pont de l'Alma&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;h4 class="cd-tip-title"&gt;Starboard Seating &amp;amp; Wine Decanting Strategy&lt;/h4&gt;
+  &lt;p class="cd-tip-content"&gt;
+    When boarding at Pont de l'Alma for the &lt;strong&gt;20:30 departure&lt;/strong&gt;, request a table on the &lt;strong&gt;starboard (right) side&lt;/strong&gt; to face the illuminated Louvre and Notre-Dame on the outbound stretch. Standard &lt;em&gt;Prestige tier&lt;/em&gt; includes a full bottle of AOC wine per couple and Champagne Castel Mouches flutes with warm cheese gougères.
+  &lt;/p&gt;
+  &lt;div class="cd-tip-callout-note"&gt;
+    &lt;strong&gt;Cellar Secret:&lt;/strong&gt; Ask your server to uncork the red Bordeaux at the start of your starter so it breathes and reaches 18°C before the beef or lamb main arrives.
+  &lt;/div&gt;
+&lt;/aside&gt;</pre>
+  </div>
+
+  <h3 style="font-size: 1.1rem; color: #0f172a; margin: 1.5rem 0 0.5rem 0;">4.2 Standalone 2-Column Pros &amp; Cons Embed Code</h3>
+  <div class="cd-code-snippet-box">
+    <pre>&lt;!-- =======================================================================
+     THE CRUISE DETECTIVE: 2-COLUMN PROS &amp; CONS (STANDALONE EMBED)
+     Drop directly into a Webflow Custom HTML Embed widget inside any boat review.
+     ======================================================================= --&gt;
+&lt;style&gt;
+.cd-review-breakdown {
+  margin: 2.25rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #334155;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.cd-review-breakdown * { box-sizing: border-box; }
+.cd-pros-cons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  align-items: stretch;
+}
+@media (max-width: 768px) {
+  .cd-pros-cons-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+.cd-card {
+  border-radius: 12px;
+  padding: 1.4rem 1.4rem 1.25rem 1.4rem;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+.cd-pros-card {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-top: 4px solid #16a34a;
+}
+.cd-cons-card {
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-top: 4px solid #e11d48;
+}
+.cd-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.95rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+}
+.cd-card-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.cd-pros-card .cd-card-title { color: #15803d; }
+.cd-cons-card .cd-card-title { color: #be123c; }
+.cd-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
+.cd-checklist li {
+  position: relative;
+  padding-left: 1.65rem;
+  font-size: 0.885rem;
+  line-height: 1.52;
+  color: #334155;
+}
+.cd-checklist li strong { color: #0f172a; font-weight: 700; }
+.cd-checklist-icon {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.cd-pros-list .cd-checklist-icon { color: #16a34a; }
+.cd-cons-list .cd-checklist-icon { color: #e11d48; }
+&lt;/style&gt;
+
+&lt;div class="cd-review-breakdown" aria-label="Firsthand Editorial Assessment"&gt;
+  &lt;div class="cd-pros-cons-grid"&gt;
+    &lt;div class="cd-card cd-pros-card"&gt;
+      &lt;div class="cd-card-header"&gt;
+        &lt;svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;
+          &lt;path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/&gt;
+          &lt;polyline points="22 4 12 14.01 9 11.01"/&gt;
+        &lt;/svg&gt;
+        &lt;h3 class="cd-card-title"&gt;What We Loved&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;ul class="cd-checklist cd-pros-list"&gt;
+        &lt;li&gt;
+          &lt;svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/&gt;&lt;/svg&gt;
+          &lt;strong&gt;100% Galley-Cooked French Cuisine:&lt;/strong&gt; Fresh 4-course menu cooked onboard rather than pre-catered reheated trays.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/&gt;&lt;/svg&gt;
+          &lt;strong&gt;Unrestricted 360° Rooftop Deck:&lt;/strong&gt; Open all evening for glare-free monument and sparkle photos.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="cd-card cd-cons-card"&gt;
+      &lt;div class="cd-card-header"&gt;
+        &lt;svg class="cd-checklist-icon" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;
+          &lt;circle cx="12" cy="12" r="10"/&gt;
+          &lt;line x1="12" y1="8" x2="12" y2="12"/&gt;
+          &lt;line x1="12" y1="16" x2="12.01" y2="16"/&gt;
+        &lt;/svg&gt;
+        &lt;h3 class="cd-card-title"&gt;Keep in Mind&lt;/h3&gt;
+      &lt;/div&gt;
+      &lt;ul class="cd-checklist cd-cons-list"&gt;
+        &lt;li&gt;
+          &lt;svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/&gt;&lt;/svg&gt;
+          &lt;strong&gt;Strict Smart Casual Attire:&lt;/strong&gt; Sneakers and sportswear turned away at boarding without refund.
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;svg class="cd-checklist-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/&gt;&lt;/svg&gt;
+          &lt;strong&gt;Center Table Reflections:&lt;/strong&gt; Center tables face nighttime glass reflection; use upper deck for photos.
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+  </div>
+
+  <h3 style="font-size: 1.1rem; color: #0f172a; margin: 1.5rem 0 0.5rem 0;">4.3 Standalone Multi-Platform Verified Review Badges Embed Code</h3>
+  <div class="cd-code-snippet-box">
+    <pre>&lt;!-- =======================================================================
+     THE CRUISE DETECTIVE: MULTI-PLATFORM REVIEW BADGES (STANDALONE EMBED)
+     Drop directly into a Webflow Custom HTML Embed widget inside any boat review.
+     ======================================================================= --&gt;
+&lt;style&gt;
+.cd-verified-reviews-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.95rem 1.35rem;
+  margin: 1.75rem 0;
+  box-shadow: 0 2px 8px -2px rgba(15, 23, 42, 0.05);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #334155;
+  box-sizing: border-box;
+}
+.cd-verified-reviews-bar * { box-sizing: border-box; }
+.cd-aggregate-score-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.cd-stars-display {
+  color: #f59e0b;
+  font-size: 1.15rem;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+.cd-score-number {
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.cd-score-scale {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+}
+.cd-review-total {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #475569;
+  background: #f1f5f9;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.cd-platform-chips-grid {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+.cd-platform-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 6px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: #334155;
+  white-space: nowrap;
+}
+.cd-platform-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cd-platform-dot.tiqets { background: #ff5722; }
+.cd-platform-dot.gyg { background: #ff5533; }
+.cd-platform-dot.viator { background: #00aa6c; }
+.cd-platform-dot.tripadvisor { background: #34e0a1; }
+.cd-platform-name { font-weight: 700; color: #0f172a; }
+.cd-platform-rating { color: #d97706; font-weight: 700; }
+.cd-platform-count { color: #64748b; font-size: 0.7rem; font-weight: 500; }
+@media (max-width: 640px) {
+  .cd-verified-reviews-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.9rem 1rem;
+    gap: 0.85rem;
+  }
+  .cd-platform-chips-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+  }
+  .cd-platform-chip {
+    justify-content: flex-start;
+    padding: 0.35rem 0.5rem;
+  }
+}
+&lt;/style&gt;
+
+&lt;div class="cd-verified-reviews-bar" aria-label="Verified Customer Review Ratings Across 4 Major Platforms"&gt;
+  &lt;div class="cd-aggregate-score-box"&gt;
+    &lt;div class="cd-stars-display" aria-label="4.7 out of 5 stars"&gt;★★★★★&lt;/div&gt;
+    &lt;div class="cd-score-number"&gt;4.7 &lt;span class="cd-score-scale"&gt;/ 5.0&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="cd-review-total"&gt;+9,910 Verified Reviews&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="cd-platform-chips-grid"&gt;
+    &lt;div class="cd-platform-chip"&gt;
+      &lt;span class="cd-platform-dot tiqets" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="cd-platform-name"&gt;Tiqets&lt;/span&gt;
+      &lt;span class="cd-platform-rating"&gt;4.7 ★&lt;/span&gt;
+      &lt;span class="cd-platform-count"&gt;(392+)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="cd-platform-chip"&gt;
+      &lt;span class="cd-platform-dot gyg" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="cd-platform-name"&gt;GetYourGuide&lt;/span&gt;
+      &lt;span class="cd-platform-rating"&gt;4.5 ★&lt;/span&gt;
+      &lt;span class="cd-platform-count"&gt;(4,621+)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="cd-platform-chip"&gt;
+      &lt;span class="cd-platform-dot viator" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="cd-platform-name"&gt;Viator&lt;/span&gt;
+      &lt;span class="cd-platform-rating"&gt;4.5 ★&lt;/span&gt;
+      &lt;span class="cd-platform-count"&gt;(3,140+)&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="cd-platform-chip"&gt;
+      &lt;span class="cd-platform-dot tripadvisor" aria-hidden="true"&gt;&lt;/span&gt;
+      &lt;span class="cd-platform-name"&gt;TripAdvisor&lt;/span&gt;
+      &lt;span class="cd-platform-rating"&gt;4.3 ★&lt;/span&gt;
+      &lt;span class="cd-platform-count"&gt;(1,754+)&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+  </div>
+
+  <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; font-size: 0.8rem; color: #64748b; text-align: center;">
+    The Cruise Detective &copy; 2026. All component blocks engineered with Webflow isolation and mobile responsive standards.
+  </footer>
+
+</div>
+
+</body>
+</html>

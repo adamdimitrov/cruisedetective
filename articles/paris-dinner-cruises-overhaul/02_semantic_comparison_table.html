@@ -1,0 +1,804 @@
+<!-- =======================================================================
+     THE CRUISE DETECTIVE: GOOGLE POSITION-0 COMPARISON MATRIX FOR WEBFLOW
+     Requirement R2: Responsive, accessible 9-column semantic HTML5 matrix.
+     Scoped with .cd-* CSS classes to guarantee complete isolation from Webflow
+     resets. Paste into a Webflow "HTML Embed" component directly below intro.
+     ======================================================================= -->
+
+<style>
+/* Scoped Container: Isolates from Webflow .w-richtext and typography resets */
+.cd-table-container {
+    width: 100% !important;
+    max-width: 1180px !important;
+    margin: 2.2rem auto 2.8rem auto !important;
+    background: #ffffff !important;
+    border: 1.5px solid #e5ded2 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 30px -4px rgba(45, 30, 15, 0.07), 0 2px 8px -2px rgba(45, 30, 15, 0.03) !important;
+    overflow: hidden !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+    color: #1c1917 !important;
+    line-height: 1.5 !important;
+    box-sizing: border-box !important;
+}
+
+.cd-table-container * {
+    box-sizing: border-box !important;
+}
+
+/* Screen reader only utility */
+.cd-sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Header Bar */
+.cd-table-header-bar {
+    background: #faf8f5 !important;
+    padding: 1.35rem 1.6rem 1.15rem 1.6rem !important;
+    border-bottom: 1.5px solid #e5ded2 !important;
+}
+
+.cd-table-tag {
+    display: inline-block !important;
+    font-size: 0.70rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+    color: #92400e !important;
+    background: #fef3c7 !important;
+    border: 1px solid #fde68a !important;
+    padding: 0.2rem 0.55rem !important;
+    border-radius: 4px !important;
+    margin-bottom: 0.45rem !important;
+}
+
+.cd-table-heading {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    font-size: 1.45rem !important;
+    font-weight: 800 !important;
+    color: #1c1917 !important;
+    margin: 0 0 0.35rem 0 !important;
+    line-height: 1.25 !important;
+    letter-spacing: -0.01em !important;
+}
+
+.cd-table-sub {
+    font-size: 0.88rem !important;
+    color: #57534e !important;
+    margin: 0 !important;
+    line-height: 1.4 !important;
+}
+
+/* Horizontal Scroll Area for Mobile Responsiveness & Accessibility */
+.cd-table-scroll-wrapper {
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    background: #ffffff !important;
+}
+
+/* Semantic HTML5 Table */
+.cd-comparison-table {
+    width: 100% !important;
+    min-width: 1140px !important;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    text-align: left !important;
+    font-size: 0.85rem !important;
+    margin: 0 !important;
+}
+
+.cd-comparison-table thead tr {
+    background: #f5f2eb !important;
+    border-bottom: 1.5px solid #e5ded2 !important;
+}
+
+.cd-comparison-table th[scope="col"] {
+    padding: 0.95rem 0.85rem !important;
+    font-size: 0.72rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase !important;
+    color: #44403c !important;
+    border: none !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    line-height: 1.3 !important;
+}
+
+.cd-comparison-table tbody tr {
+    border-bottom: 1px solid #eee9e0 !important;
+    transition: background 0.15s ease !important;
+}
+
+.cd-comparison-table tbody tr:hover {
+    background: #faf8f5 !important;
+}
+
+/* Winner Row Highlight (#1 Bateaux-Mouches) */
+.cd-comparison-table tbody tr.cd-row-winner {
+    background: #fffdf7 !important;
+    border-left: 4px solid #d97706 !important;
+}
+
+.cd-comparison-table tbody tr.cd-row-winner:hover {
+    background: #fefce8 !important;
+}
+
+.cd-comparison-table td,
+.cd-comparison-table th[scope="row"] {
+    padding: 1.05rem 0.85rem !important;
+    color: #292524 !important;
+    border: none !important;
+    vertical-align: middle !important;
+    line-height: 1.45 !important;
+}
+
+/* Column 1: Boat Name & Rank */
+.cd-col-boat {
+    min-width: 195px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+}
+
+.cd-rank-badge {
+    display: inline-block !important;
+    font-size: 0.65rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.04em !important;
+    padding: 0.18rem 0.48rem !important;
+    border-radius: 4px !important;
+    margin-bottom: 0.35rem !important;
+    white-space: nowrap !important;
+    line-height: 1.2 !important;
+}
+
+.cd-rank-gold {
+    background: #fef3c7 !important;
+    color: #92400e !important;
+    border: 1px solid #fde68a !important;
+}
+
+.cd-rank-navy {
+    background: #e2e8f0 !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+.cd-rank-wine {
+    background: #fee2e2 !important;
+    color: #991b1b !important;
+    border: 1px solid #fecaca !important;
+}
+
+.cd-rank-emerald {
+    background: #dcfce7 !important;
+    color: #166534 !important;
+    border: 1px solid #bbf7d0 !important;
+}
+
+.cd-rank-indigo {
+    background: #e0e7ff !important;
+    color: #3730a3 !important;
+    border: 1px solid #c7d2fe !important;
+}
+
+.cd-boat-name {
+    display: block !important;
+    font-size: 0.98rem !important;
+    font-weight: 800 !important;
+    color: #1c1917 !important;
+    line-height: 1.25 !important;
+}
+
+.cd-boat-desc {
+    display: block !important;
+    font-size: 0.74rem !important;
+    color: #64748b !important;
+    margin-top: 0.2rem !important;
+    line-height: 1.35 !important;
+}
+
+.cd-boat-pier {
+    display: block !important;
+    font-size: 0.70rem !important;
+    color: #78716c !important;
+    margin-top: 0.25rem !important;
+    line-height: 1.25 !important;
+}
+
+/* Column 2: Rating & Reviews */
+.cd-col-rating {
+    min-width: 120px !important;
+}
+
+.cd-rating-val {
+    display: block !important;
+    font-size: 0.94rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.2 !important;
+}
+
+.cd-rating-stars {
+    display: block !important;
+    color: #f59e0b !important;
+    font-size: 0.82rem !important;
+    letter-spacing: 0.08em !important;
+    margin-top: 0.15rem !important;
+    line-height: 1 !important;
+}
+
+.cd-review-count {
+    display: block !important;
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    color: #475569 !important;
+    margin-top: 0.2rem !important;
+}
+
+.cd-rating-platforms {
+    display: block !important;
+    font-size: 0.68rem !important;
+    color: #94a3b8 !important;
+    margin-top: 0.2rem !important;
+}
+
+/* Column 3: Price Range */
+.cd-col-price {
+    min-width: 125px !important;
+}
+
+.cd-price-val {
+    display: block !important;
+    font-size: 0.96rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.2 !important;
+}
+
+.cd-price-sub {
+    display: block !important;
+    font-size: 0.72rem !important;
+    color: #64748b !important;
+    margin-top: 0.2rem !important;
+    line-height: 1.3 !important;
+}
+
+.cd-price-discount {
+    display: block !important;
+    font-size: 0.68rem !important;
+    font-weight: 600 !important;
+    color: #15803d !important;
+    margin-top: 0.25rem !important;
+    line-height: 1.25 !important;
+}
+
+/* Column 4: Menu Courses & Quality */
+.cd-col-menu {
+    min-width: 175px !important;
+}
+
+.cd-menu-courses {
+    display: block !important;
+    font-size: 0.90rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.2 !important;
+}
+
+.cd-prep-tag {
+    display: inline-block !important;
+    font-size: 0.68rem !important;
+    font-weight: 700 !important;
+    padding: 0.15rem 0.45rem !important;
+    border-radius: 4px !important;
+    margin: 0.25rem 0 0.35rem 0 !important;
+    line-height: 1.2 !important;
+}
+
+.cd-prep-fresh {
+    background: #ecfdf5 !important;
+    color: #047857 !important;
+    border: 1px solid #a7f3d0 !important;
+}
+
+.cd-prep-bistro {
+    background: #f0fdf4 !important;
+    color: #166534 !important;
+    border: 1px solid #bbf7d0 !important;
+}
+
+.cd-prep-warmed {
+    background: #fef2f2 !important;
+    color: #b91c1c !important;
+    border: 1px solid #fecaca !important;
+}
+
+.cd-menu-dishes {
+    display: block !important;
+    font-size: 0.74rem !important;
+    color: #475569 !important;
+    line-height: 1.35 !important;
+}
+
+/* Column 5: Drinks Included */
+.cd-col-drinks {
+    min-width: 150px !important;
+}
+
+.cd-pill {
+    display: inline-block !important;
+    font-size: 0.70rem !important;
+    font-weight: 700 !important;
+    padding: 0.2rem 0.5rem !important;
+    border-radius: 6px !important;
+    line-height: 1.25 !important;
+    white-space: nowrap !important;
+}
+
+.cd-pill-green {
+    background: #ecfdf5 !important;
+    color: #047857 !important;
+    border: 1px solid #a7f3d0 !important;
+}
+
+.cd-pill-amber {
+    background: #fffbeb !important;
+    color: #b45309 !important;
+    border: 1px solid #fde68a !important;
+}
+
+.cd-pill-subtle {
+    background: #f8fafc !important;
+    color: #475569 !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+.cd-drinks-detail {
+    display: block !important;
+    font-size: 0.72rem !important;
+    color: #475569 !important;
+    margin-top: 0.3rem !important;
+    line-height: 1.35 !important;
+}
+
+/* Column 6: Music Type */
+.cd-col-music {
+    min-width: 140px !important;
+}
+
+.cd-music-type {
+    display: block !important;
+    font-size: 0.84rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.25 !important;
+}
+
+.cd-music-detail {
+    display: block !important;
+    font-size: 0.72rem !important;
+    color: #64748b !important;
+    margin-top: 0.25rem !important;
+    line-height: 1.35 !important;
+}
+
+/* Column 7: Rooftop Deck */
+.cd-col-deck {
+    min-width: 135px !important;
+}
+
+.cd-deck-title {
+    display: block !important;
+    font-size: 0.84rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.25 !important;
+}
+
+.cd-check {
+    color: #16a34a !important;
+    font-weight: 900 !important;
+    margin-right: 0.25rem !important;
+}
+
+.cd-cross {
+    color: #94a3b8 !important;
+    font-weight: 900 !important;
+    margin-right: 0.25rem !important;
+}
+
+.cd-cross-alert {
+    color: #d97706 !important;
+    font-weight: 900 !important;
+    margin-right: 0.25rem !important;
+}
+
+.cd-deck-detail {
+    display: block !important;
+    font-size: 0.72rem !important;
+    color: #64748b !important;
+    margin-top: 0.25rem !important;
+    line-height: 1.35 !important;
+}
+
+/* Column 8: Seating Highlights */
+.cd-col-seating {
+    min-width: 170px !important;
+}
+
+.cd-seating-tier {
+    display: block !important;
+    font-size: 0.84rem !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.25 !important;
+}
+
+.cd-seating-detail {
+    display: block !important;
+    font-size: 0.72rem !important;
+    color: #475569 !important;
+    margin-top: 0.25rem !important;
+    line-height: 1.35 !important;
+}
+
+/* Column 9: Direct Booking (Zero White Buttons!) */
+.cd-col-action {
+    text-align: center !important;
+    min-width: 145px !important;
+}
+
+.cd-btn {
+    display: block !important;
+    width: 100% !important;
+    color: #ffffff !important;
+    font-size: 0.78rem !important;
+    font-weight: 800 !important;
+    padding: 0.6rem 0.8rem !important;
+    border-radius: 8px !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.cd-btn:hover {
+    transform: translateY(-1px) !important;
+    filter: brightness(1.08) !important;
+    color: #ffffff !important;
+}
+
+.cd-btn-bm {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 50%, #b45309 100%) !important;
+    box-shadow: 0 4px 14px rgba(180, 83, 9, 0.38) !important;
+    border: 1px solid rgba(254, 243, 199, 0.4) !important;
+}
+
+.cd-btn-bp {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25) !important;
+    border: 1px solid #475569 !important;
+}
+
+.cd-btn-pcv {
+    background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%) !important;
+    box-shadow: 0 4px 12px rgba(153, 27, 27, 0.25) !important;
+    border: 1px solid #b91c1c !important;
+}
+
+.cd-btn-pes {
+    background: linear-gradient(135deg, #15803d 0%, #166534 100%) !important;
+    box-shadow: 0 4px 12px rgba(22, 101, 52, 0.25) !important;
+    border: 1px solid #16a34a !important;
+}
+
+.cd-btn-dbleu {
+    background: linear-gradient(135deg, #3730a3 0%, #1e1b4b 100%) !important;
+    box-shadow: 0 4px 12px rgba(49, 46, 129, 0.25) !important;
+    border: 1px solid #4f46e5 !important;
+}
+
+.cd-btn-sub {
+    display: block !important;
+    font-size: 0.65rem !important;
+    color: #64748b !important;
+    text-align: center !important;
+    margin-top: 0.35rem !important;
+    line-height: 1.2 !important;
+}
+
+/* Footer Tip Bar */
+.cd-table-footer-bar {
+    background: #faf8f5 !important;
+    padding: 0.95rem 1.6rem !important;
+    border-top: 1.5px solid #e5ded2 !important;
+    font-size: 0.78rem !important;
+    color: #44403c !important;
+    line-height: 1.5 !important;
+}
+
+.cd-table-footer-bar strong {
+    color: #1c1917 !important;
+}
+
+.cd-table-footer-notes {
+    margin-top: 0.35rem !important;
+    font-size: 0.72rem !important;
+    color: #78716c !important;
+}
+</style>
+
+<div class="cd-table-container">
+    <div class="cd-table-header-bar">
+        <span class="cd-table-tag">AT-A-GLANCE COMPARISON</span>
+        <h3 class="cd-table-heading">Top 5 Paris Dinner Cruises Compared (Personally Tested)</h3>
+        <p class="cd-table-sub">Direct comparison of ratings, pricing, culinary execution, included beverages, music, open rooftop decks, and seating tiers.</p>
+    </div>
+
+    <div class="cd-table-scroll-wrapper" role="region" aria-label="Paris Dinner Cruises Comparison Matrix" tabindex="0">
+        <table class="cd-comparison-table">
+            <caption class="cd-sr-only">Comprehensive 9-column comparison matrix of the top 5 Paris Seine dinner cruises based on ratings, prices, menu courses, drink inclusions, live music, rooftop decks, seating highlights, and direct booking links.</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="cd-col-boat">Boat Name &amp; Rank</th>
+                    <th scope="col" class="cd-col-rating">Overall Rating &amp; Review Volume</th>
+                    <th scope="col" class="cd-col-price">Price Range</th>
+                    <th scope="col" class="cd-col-menu">Menu Courses &amp; Quality</th>
+                    <th scope="col" class="cd-col-drinks">Drinks Included</th>
+                    <th scope="col" class="cd-col-music">Music Type</th>
+                    <th scope="col" class="cd-col-deck">Rooftop Deck</th>
+                    <th scope="col" class="cd-col-seating">Seating Highlights</th>
+                    <th scope="col" class="cd-col-action">Direct Booking</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rank 1: Bateaux-Mouches (Winner) -->
+                <tr class="cd-row-winner">
+                    <th scope="row" class="cd-col-boat">
+                        <span class="cd-rank-badge cd-rank-gold">#1 BEST OVERALL &bull; TESTED WINNER</span>
+                        <strong class="cd-boat-name">Bateaux Mouches</strong>
+                        <span class="cd-boat-desc">Authentic French Romance &bull; Galley Prepared</span>
+                        <span class="cd-boat-pier">Port de l'Alma (Right Bank)</span>
+                    </th>
+                    <td class="cd-col-rating">
+                        <strong class="cd-rating-val">4.7 / 5.0</strong>
+                        <span class="cd-rating-stars" aria-hidden="true">&starf;&starf;&starf;&starf;&starf;</span>
+                        <span class="cd-review-count">(9,910+ verified reviews)</span>
+                        <span class="cd-rating-platforms">Tiqets 4.7 &bull; GYG 4.5 &bull; TA 4.3</span>
+                    </td>
+                    <td class="cd-col-price">
+                        <strong class="cd-price-val">&euro;130 &ndash; &euro;170</strong>
+                        <span class="cd-price-sub">Prestige (&euro;130) / Excellence (&euro;170)</span>
+                        <span class="cd-price-discount">Kids (4&ndash;11): &euro;40 &bull; Under 4: FREE</span>
+                    </td>
+                    <td class="cd-col-menu">
+                        <strong class="cd-menu-courses">4 Courses</strong>
+                        <span class="cd-prep-tag cd-prep-fresh">100% Cooked Fresh Onboard</span>
+                        <span class="cd-menu-dishes">Beef carpaccio with gorgonzola, seared sea bream, 24-mo Comt&eacute;, warm chocolate chou profiteroles</span>
+                    </td>
+                    <td class="cd-col-drinks">
+                        <span class="cd-pill cd-pill-green">Full Bottle Wine + Champagne</span>
+                        <span class="cd-drinks-detail">1 bottle AOC wine / 2 guests + Champagne ap&eacute;ritif (12.5 cl) + 1L Evian water + coffee</span>
+                    </td>
+                    <td class="cd-col-music">
+                        <strong class="cd-music-type">Live Violin &amp; Piano Duo</strong>
+                        <span class="cd-music-detail">Acoustic classical &amp; romantic French chansons (&lt;65 dB, whisper-quiet romance)</span>
+                    </td>
+                    <td class="cd-col-deck">
+                        <strong class="cd-deck-title"><span class="cd-check">&check;</span> 360&deg; Open Upper Deck</strong>
+                        <span class="cd-deck-detail">Unrestricted access throughout entire cruise; perfect Eiffel sparkle photos</span>
+                    </td>
+                    <td class="cd-col-seating">
+                        <strong class="cd-seating-tier">Private 2-Person Tables</strong>
+                        <span class="cd-seating-detail">Outer perimeter window tables, heavy non-wobble cast iron bases, crisp white linens; Excellence tier guarantees front-row panoramic window</span>
+                    </td>
+                    <td class="cd-col-action">
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&amp;tq_campaign=table-paris-bm" class="cd-btn cd-btn-bm" target="_blank" rel="noopener">Book #1 Winner (&euro;130) &rarr;</a>
+                        <span class="cd-btn-sub">Instant QR Ticket &bull; 24h Cancel</span>
+                    </td>
+                </tr>
+
+                <!-- Rank 2: Bateaux Parisiens -->
+                <tr>
+                    <th scope="row" class="cd-col-boat">
+                        <span class="cd-rank-badge cd-rank-navy">#2 GOURMET CUISINE</span>
+                        <strong class="cd-boat-name">Bateaux Parisiens</strong>
+                        <span class="cd-boat-desc">Panoramic All-Glass Trimaran</span>
+                        <span class="cd-boat-pier">Pier 5/7, Eiffel Tower (Left Bank)</span>
+                    </th>
+                    <td class="cd-col-rating">
+                        <strong class="cd-rating-val">4.6 / 5.0</strong>
+                        <span class="cd-rating-stars" aria-hidden="true">&starf;&starf;&starf;&starf;&starf;</span>
+                        <span class="cd-review-count">(16,340+ verified reviews)</span>
+                        <span class="cd-rating-platforms">Tiqets 4.6 &bull; GYG 4.7 &bull; TA 4.3</span>
+                    </td>
+                    <td class="cd-col-price">
+                        <strong class="cd-price-val">&euro;115 &ndash; &euro;245</strong>
+                        <span class="cd-price-sub">&Eacute;toile (&euro;115) / Privil&egrave;ge (&euro;179) / Premier (&euro;215)</span>
+                        <span class="cd-price-discount">Kids (0&ndash;11): &euro;40&ndash;&euro;50 (up to 66% OFF)</span>
+                    </td>
+                    <td class="cd-col-menu">
+                        <strong class="cd-menu-courses">3 to 4 Courses</strong>
+                        <span class="cd-prep-tag cd-prep-fresh">Freshly Prepared Gourmet</span>
+                        <span class="cd-menu-dishes">Pan-seared scallops, spiced duckling or sea bass, cheese tasting platter, crisp chocolate praline tart</span>
+                    </td>
+                    <td class="cd-col-drinks">
+                        <span class="cd-pill cd-pill-amber">Tier Dependent</span>
+                        <span class="cd-drinks-detail">&Eacute;toile: Kir + 1 bottle wine / 4 guests; Privil&egrave;ge: Champagne + 1 bottle / 2; Premier: Grand Cru</span>
+                    </td>
+                    <td class="cd-col-music">
+                        <strong class="cd-music-type">Live Pop Vocalist &amp; Keyboard</strong>
+                        <span class="cd-music-detail">Upbeat pop classics &amp; international hits, lively lounge atmosphere</span>
+                    </td>
+                    <td class="cd-col-deck">
+                        <strong class="cd-deck-title"><span class="cd-cross">&cross;</span> Enclosed Glass Canopy</strong>
+                        <span class="cd-deck-detail">No upper walking promenade; tiny 8-person stern smoking balcony only</span>
+                    </td>
+                    <td class="cd-col-seating">
+                        <strong class="cd-seating-tier">Strict 3-Tier Placement</strong>
+                        <span class="cd-seating-detail">&Eacute;toile (center lower trench), Privil&egrave;ge (guaranteed lateral window, +&euro;64), Premier (front curved glass bow with 270&deg; views, &euro;215+)</span>
+                    </td>
+                    <td class="cd-col-action">
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&amp;tq_campaign=table-paris-bp" class="cd-btn cd-btn-bp" target="_blank" rel="noopener">Book #2 (&euro;115) &rarr;</a>
+                        <span class="cd-btn-sub">Official Tiqets &bull; 24h Cancel</span>
+                    </td>
+                </tr>
+
+                <!-- Rank 3: Paris City Vision (La Marina) -->
+                <tr>
+                    <th scope="row" class="cd-col-boat">
+                        <span class="cd-rank-badge cd-rank-wine">#3 MOST ROMANTIC VIBE</span>
+                        <strong class="cd-boat-name">Paris City Vision (La Marina)</strong>
+                        <span class="cd-boat-desc">Intimate Parisian Bistro</span>
+                        <span class="cd-boat-pier">Port Solf&eacute;rino, Mus&eacute;e d'Orsay</span>
+                    </th>
+                    <td class="cd-col-rating">
+                        <strong class="cd-rating-val">4.3 / 5.0</strong>
+                        <span class="cd-rating-stars" aria-hidden="true">&starf;&starf;&starf;&starf;&star;</span>
+                        <span class="cd-review-count">(6,670+ verified reviews)</span>
+                        <span class="cd-rating-platforms">GYG 4.3 &bull; TA 3.7 &bull; Tiqets 4.0</span>
+                    </td>
+                    <td class="cd-col-price">
+                        <strong class="cd-price-val">&euro;80 &ndash; &euro;155</strong>
+                        <span class="cd-price-sub">Standard (&euro;80) / Window (&euro;120) / VIP (&euro;155)</span>
+                        <span class="cd-price-discount">Kids (3&ndash;11): &euro;40 &bull; Under 3: FREE</span>
+                    </td>
+                    <td class="cd-col-menu">
+                        <strong class="cd-menu-courses">3 Courses</strong>
+                        <span class="cd-prep-tag cd-prep-bistro">Freshly Prepared Bistro</span>
+                        <span class="cd-menu-dishes">Duck foie gras terrine, sea bass with squid ink tuile, signature cr&egrave;me br&ucirc;l&eacute;e caramel tart</span>
+                    </td>
+                    <td class="cd-col-drinks">
+                        <span class="cd-pill cd-pill-subtle">Water Only in Standard</span>
+                        <span class="cd-drinks-detail">Alcohol extra &agrave; la carte (&euro;8&ndash;&euro;15/glass); 1/2 bottle Champagne in Romantic tier (&euro;135+)</span>
+                    </td>
+                    <td class="cd-col-music">
+                        <strong class="cd-music-type">Live Singer &amp; Accordion</strong>
+                        <span class="cd-music-detail">Traditional Parisian cabaret songs, &Eacute;dith Piaf standards, warm &amp; vibrant</span>
+                    </td>
+                    <td class="cd-col-deck">
+                        <strong class="cd-deck-title"><span class="cd-cross">&cross;</span> Enclosed Dining Salon</strong>
+                        <span class="cd-deck-detail">Zero outdoor deck access; panoramic windows prone to winter condensation</span>
+                    </td>
+                    <td class="cd-col-seating">
+                        <strong class="cd-seating-tier">Intimate Bistro Tables</strong>
+                        <span class="cd-seating-detail">Intimate 2-person tables along perimeter; center tables elevated on steps; guaranteed window seating upgrade available for +&euro;35</span>
+                    </td>
+                    <td class="cd-col-action">
+                        <a href="https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=table-paris-pcv&amp;mkt_cmp=true" class="cd-btn cd-btn-pcv" target="_blank" rel="noopener">Book #3 (&euro;80) &rarr;</a>
+                        <span class="cd-btn-sub">Direct GYG &bull; Instant Confirmation</span>
+                    </td>
+                </tr>
+
+                <!-- Rank 4: Paris en Scène -->
+                <tr>
+                    <th scope="row" class="cd-col-boat">
+                        <span class="cd-rank-badge cd-rank-emerald">#4 BEST VALUE UNDER &euro;70</span>
+                        <strong class="cd-boat-name">Paris en Sc&egrave;ne</strong>
+                        <span class="cd-boat-desc">Cinema-Style River Armchairs</span>
+                        <span class="cd-boat-pier">&Icirc;le aux Cygnes, Bir-Hakeim</span>
+                    </th>
+                    <td class="cd-col-rating">
+                        <strong class="cd-rating-val">4.2 / 5.0</strong>
+                        <span class="cd-rating-stars" aria-hidden="true">&starf;&starf;&starf;&starf;&star;</span>
+                        <span class="cd-review-count">(13,470+ verified reviews)</span>
+                        <span class="cd-rating-platforms">GYG 4.3 &bull; Tiqets 4.2 &bull; TA 3.7</span>
+                    </td>
+                    <td class="cd-col-price">
+                        <strong class="cd-price-val">&euro;57 &ndash; &euro;69</strong>
+                        <span class="cd-price-sub">Single Class / Wine Package (&euro;75)</span>
+                        <span class="cd-price-discount">Kids (4&ndash;12): &euro;28</span>
+                    </td>
+                    <td class="cd-col-menu">
+                        <strong class="cd-menu-courses">3 Courses</strong>
+                        <span class="cd-prep-tag cd-prep-warmed">Pre-Plated Catering Warmed Onboard</span>
+                        <span class="cd-menu-dishes">Pumpkin soup with hazelnuts, braised guinea fowl or bream, dual harlequin chocolate mousse</span>
+                    </td>
+                    <td class="cd-col-drinks">
+                        <span class="cd-pill cd-pill-subtle">0.5L Water Only</span>
+                        <span class="cd-drinks-detail">Zero alcohol in standard &euro;57&ndash;&euro;65 ticket; wine package add-on +&euro;10 or &agrave; la carte</span>
+                    </td>
+                    <td class="cd-col-music">
+                        <strong class="cd-music-type">Recorded Lounge Audio</strong>
+                        <span class="cd-music-detail">Contemporary background lounge music over salon speakers, casual &amp; unobtrusive</span>
+                    </td>
+                    <td class="cd-col-deck">
+                        <strong class="cd-deck-title"><span class="cd-check">&check;</span> Dual Open Decks</strong>
+                        <span class="cd-deck-detail">Full upper sun terrace + small front observation prow open throughout sailing</span>
+                    </td>
+                    <td class="cd-col-seating">
+                        <strong class="cd-seating-tier">Cinema-Style Leather Armchairs</strong>
+                        <span class="cd-seating-detail">All 2-person leather tub armchairs face directly towards panoramic glass with swivel side cocktail tables; unbeatable unobstructed window views</span>
+                    </td>
+                    <td class="cd-col-action">
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&amp;tq_campaign=table-paris-pes" class="cd-btn cd-btn-pes" target="_blank" rel="noopener">Book #4 (&euro;57) &rarr;</a>
+                        <span class="cd-btn-sub">Best Budget Deal &bull; 24h Cancel</span>
+                    </td>
+                </tr>
+
+                <!-- Rank 5: Le Diamant Bleu -->
+                <tr>
+                    <th scope="row" class="cd-col-boat">
+                        <span class="cd-rank-badge cd-rank-indigo">#5 FLOATING SALON YACHT</span>
+                        <strong class="cd-boat-name">Le Diamant Bleu</strong>
+                        <span class="cd-boat-desc">70m Modern Mega-Yacht with DJ</span>
+                        <span class="cd-boat-pier">Quai d'Austerlitz (Left Bank)</span>
+                    </th>
+                    <td class="cd-col-rating">
+                        <strong class="cd-rating-val">4.4 / 5.0</strong>
+                        <span class="cd-rating-stars" aria-hidden="true">&starf;&starf;&starf;&starf;&star;</span>
+                        <span class="cd-review-count">(4,770+ verified reviews)</span>
+                        <span class="cd-rating-platforms">Viator 4.5 &bull; Tiqets 4.4 &bull; TA 4.7</span>
+                    </td>
+                    <td class="cd-col-price">
+                        <strong class="cd-price-val">&euro;89 &ndash; &euro;144</strong>
+                        <span class="cd-price-sub">Standard (&euro;89) / VIP Window (&euro;129&ndash;&euro;144)</span>
+                        <span class="cd-price-discount">Kids: &euro;45 &bull; Under 3: FREE</span>
+                    </td>
+                    <td class="cd-col-menu">
+                        <strong class="cd-menu-courses">3 Courses</strong>
+                        <span class="cd-prep-tag cd-prep-fresh">Freshly Prepared Gourmet</span>
+                        <span class="cd-menu-dishes">Slow-poached egg parfait, tender braised veal medallion with potato pur&eacute;e, molten chocolate cake</span>
+                    </td>
+                    <td class="cd-col-drinks">
+                        <span class="cd-pill cd-pill-subtle">Water in Standard</span>
+                        <span class="cd-drinks-detail">Alcohol sold &agrave; la carte; 1 bottle Champagne / couple included in VIP Window packages (&euro;129+)</span>
+                    </td>
+                    <td class="cd-col-music">
+                        <strong class="cd-music-type">Live Vocalist &amp; Post-Dinner DJ</strong>
+                        <span class="cd-music-detail">Live acoustic guitarist/singer during dinner, followed by club-style DJ dance party</span>
+                    </td>
+                    <td class="cd-col-deck">
+                        <strong class="cd-deck-title"><span class="cd-cross-alert">&cross;</span> 350m&sup2; Teak Deck (Restricted)</strong>
+                        <span class="cd-deck-detail">Massive terrace, BUT staff enforces lockout until main course plates are cleared</span>
+                    </td>
+                    <td class="cd-col-seating">
+                        <strong class="cd-seating-tier">400-Guest Ballroom Salon</strong>
+                        <span class="cd-seating-detail">4 long parallel rows; center 2-person tables have lightweight wobbly pedestals; VIP Window packages secure outer booths &amp; front bow</span>
+                    </td>
+                    <td class="cd-col-action">
+                        <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&amp;tq_campaign=table-paris-dbleu" class="cd-btn cd-btn-dbleu" target="_blank" rel="noopener">Book #5 (&euro;89) &rarr;</a>
+                        <span class="cd-btn-sub">Official Tiqets &bull; 24h Cancel</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="cd-table-footer-bar">
+        <strong>Tested Sommelier &amp; Captain Tip:</strong> For proposals, romantic milestones, and prime sunset lighting, book the <strong>20:00 or 20:30 departures</strong>. Cruises pace their navigation loop to float directly in front of the illuminated Eiffel Tower during its mesmerizing 5-minute diamond sparkle display at the top of the hour.
+        <div class="cd-table-footer-notes">
+            <em>Pricing transparency: Rates verified for the 2026 season. All ticket links connect directly to official authorized partner reservation engines (Tiqets &amp; GetYourGuide) featuring instant smartphone QR delivery and 24-hour to 48-hour free cancellation flexibility.</em>
+        </div>
+    </div>
+</div>
