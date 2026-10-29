@@ -25,6 +25,22 @@
     {
       "source": "/family-cruise",
       "destination": "/paris-family-cruise/index.html"
+    },
+    {
+      "source": "/seine-river-cruises-paris",
+      "destination": "/seine-comparison/index.html"
+    },
+    {
+      "source": "/dinner-cruise-paris",
+      "destination": "/dinner-comparison/index.html"
+    },
+    {
+      "source": "/amsterdam-canal-cruises",
+      "destination": "/amsterdam-comparison/index.html"
+    },
+    {
+      "source": "/amsterdam-comparison",
+      "destination": "/amsterdam-comparison/index.html"
     }
   ]
 }
