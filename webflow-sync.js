@@ -1,4 +1,28 @@
 (function() {
+    // Immediately hide and remove legacy Webflow comparison table embeds (.tcd-seo-table-container) across all Webflow articles
+    function removeWebflowComparisonTables() {
+        try {
+            if (typeof document === "undefined") return;
+            if (!document.getElementById("tcd-remove-comparison-table-style")) {
+                const style = document.createElement("style");
+                style.id = "tcd-remove-comparison-table-style";
+                style.textContent = ".tcd-seo-table-container, .w-embed:has(.tcd-seo-table-container) { display: none !important; margin: 0 !important; padding: 0 !important; height: 0 !important; overflow: hidden !important; border: none !important; }";
+                (document.head || document.documentElement).appendChild(style);
+            }
+            const tables = document.querySelectorAll(".tcd-seo-table-container");
+            tables.forEach((table) => {
+                const embedWrapper = table.closest(".w-embed");
+                if (embedWrapper) {
+                    embedWrapper.remove();
+                } else {
+                    table.remove();
+                }
+            });
+        } catch (e) {}
+    }
+
+    removeWebflowComparisonTables();
+
     // Hosted ratings.json path:
     const RATINGS_JSON_URL = "https://raw.githubusercontent.com/adamdimitrov/cruisedetective/refs/heads/main/ratings.json";
 
@@ -548,10 +572,12 @@
     // Run on DOM load
     if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", () => {
+            removeWebflowComparisonTables();
             initRatingsSync();
             initTiqetsTracking();
         });
     } else {
+        removeWebflowComparisonTables();
         initRatingsSync();
         initTiqetsTracking();
     }
