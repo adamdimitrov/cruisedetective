@@ -403,7 +403,7 @@ def generate_dinner_cruises_paris():
     with open(full_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
         
-    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
+    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and 'Trattoria' not in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
     bm_imgs = [i for i in all_imgs if 'mouche' in i.lower()]
     bp_imgs = [i for i in all_imgs if 'parisien' in i.lower() or '3678' in i or '3677' in i or '3716' in i or '3746' in i]
     ps_imgs = [i for i in all_imgs if 'scene' in i.lower()]
@@ -956,7 +956,7 @@ def generate_seine_river_cruises_paris():
     with open(full_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
         
-    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
+    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and 'Trattoria' not in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
     bp_imgs = [i for i in all_imgs if 'parisiens' in i.lower()]
     bm_imgs = [i for i in all_imgs if 'mouches' in i.lower()]
     vd_imgs = [i for i in all_imgs if 'vedettes' in i.lower()]
@@ -1307,7 +1307,7 @@ def generate_canal_cruises_amsterdam():
     with open(full_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
         
-    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
+    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and 'Trattoria' not in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
     lv_imgs = [i for i in all_imgs if 'lovers' in i.lower()]
     cj_imgs = [i for i in all_imgs if 'captain' in i.lower()]
     fs_imgs = [i for i in all_imgs if 'flagship' in i.lower()]
@@ -1645,7 +1645,7 @@ def generate_thames_river_cruises_london():
     with open(full_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
         
-    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
+    all_imgs = [img['src'] for img in soup.find_all('img', src=True) if 'website-files.com' in img['src'] and 'Trattoria' not in img['src'] and not any(k in img['src'] for k in ['logo', 'icon', 'let%C3%B6lt%C3%A9s', 'avatar', 'badge', 'Tripadvisor'])]
     trs_imgs = [i for i in all_imgs if 'thames-river-sightseeing' in i.lower() or '04e56' in i]
     cc_imgs = [i for i in all_imgs if 'city-cruises' in i.lower()]
     tr_imgs = [i for i in all_imgs if 'rocket' in i.lower() or 'rib' in i.lower()]
