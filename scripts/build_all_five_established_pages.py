@@ -187,10 +187,10 @@ def build_sticky_bar(pick_label, pick_desc, pick_price, pick_cta, pick_url):
       </svg>
       <span>Contents</span>
     </button>
-    <div class="hybrid-pick-context">
-      <span class="hybrid-pick-badge">🏆 #1 TESTED PICK</span>
-      <span class="hybrid-pick-title">{pick_label}</span>
-      <span class="hybrid-pick-meta">{pick_desc} • <strong>{pick_price}</strong></span>
+    <div class="hybrid-active-info hybrid-pick-context">
+      <span class="hybrid-active-badge hybrid-pick-badge">🏆 #1 TESTED PICK</span>
+      <span class="hybrid-active-title hybrid-pick-title">{pick_label}</span>
+      <span class="hybrid-active-price hybrid-pick-meta">{pick_desc} • <strong>{pick_price}</strong></span>
     </div>
     <div class="hybrid-cta-wrap">
       <a class="hybrid-cta-btn" href="{pick_url}" target="_blank" rel="noopener nofollow sponsored">
@@ -210,12 +210,90 @@ def build_sticky_bar(pick_label, pick_desc, pick_price, pick_cta, pick_url):
   </div>
 </div>'''
 
+def clean_review_elements(soup):
+    # 1. Clean bpa-proof: remove any (X+ Reviews) or total review count
+    for p in soup.find_all(class_='bpa-proof'):
+        for child in list(p.children):
+            if isinstance(child, str):
+                cleaned = re.sub(r'\s*\(\s*[\d,kK\+\.]+\s*(?:Reviews|Total Reviews|verified reviews|Total)?\s*\)', '', child)
+                child.replace_with(cleaned)
+            elif child.name == 'span' and any(k in child.get_text().lower() for k in ['review', 'total', 'verified reviews']):
+                child.decompose()
+
+    # 2. Clean bpa-channels in comparison deck cards
+    for c in soup.find_all(class_='bpa-channels'):
+        for a in c.find_all('a'):
+            for sp in a.find_all('span'):
+                sp.decompose()
+            svg = a.find('svg')
+            img_existing = a.find('img')
+            href = (a.get('href') or '') + ' ' + (a.get('title') or '')
+            href_lower = href.lower()
+            if 'getyourguide' in href_lower or 'gyg' in href_lower:
+                icon_src = '/assets/icons/getyourguide.png'
+                alt = 'GetYourGuide'
+            elif 'viator' in href_lower:
+                icon_src = '/assets/icons/viator.png'
+                alt = 'Viator'
+            elif 'tripadvisor' in href_lower:
+                icon_src = '/assets/icons/tripadvisor.png'
+                alt = 'TripAdvisor'
+            elif 'tiqets' in href_lower:
+                icon_src = '/assets/icons/tiqets.png'
+                alt = 'Tiqets'
+            else:
+                icon_src = '/assets/icons/tiqets.png'
+                alt = 'Tiqets'
+            
+            if svg:
+                img = soup.new_tag('img', **{'class': 'bpa-rev-icon', 'src': icon_src, 'alt': alt, 'width': '16', 'height': '16', 'loading': 'lazy'})
+                svg.replace_with(img)
+            elif img_existing:
+                img_existing['src'] = icon_src
+                img_existing['alt'] = alt
+
+    # 3. Clean bpa-rev-badge in detailed reviews
+    for b in soup.find_all(class_='bpa-rev-badge'):
+        cnt = b.find(class_='bpa-rev-count')
+        if cnt:
+            cnt.decompose()
+        for sp in b.find_all('span'):
+            txt = sp.get_text(strip=True)
+            if re.search(r'\([\d,kK\+\.]+\)', txt):
+                sp.decompose()
+        svg = b.find('svg')
+        img_existing = b.find('img')
+        href = (b.get('href') or '') + ' ' + (b.get('title') or '')
+        href_lower = href.lower()
+        if 'getyourguide' in href_lower or 'gyg' in href_lower:
+            icon_src = '/assets/icons/getyourguide.png'
+            alt = 'GetYourGuide'
+        elif 'viator' in href_lower:
+            icon_src = '/assets/icons/viator.png'
+            alt = 'Viator'
+        elif 'tripadvisor' in href_lower:
+            icon_src = '/assets/icons/tripadvisor.png'
+            alt = 'TripAdvisor'
+        elif 'tiqets' in href_lower:
+            icon_src = '/assets/icons/tiqets.png'
+            alt = 'Tiqets'
+        else:
+            icon_src = '/assets/icons/tiqets.png'
+            alt = 'Tiqets'
+        
+        if svg:
+            img = soup.new_tag('img', **{'class': 'bpa-rev-icon', 'src': icon_src, 'alt': alt, 'width': '16', 'height': '16', 'loading': 'lazy'})
+            svg.replace_with(img)
+        elif img_existing:
+            img_existing['src'] = icon_src
+            img_existing['alt'] = alt
+
 def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, h1_title, date_text, intro_content_html, comparison_table_html, right_content_html, sticky_bar_html):
     hero_img_markup = f'''<div class="hero-image-wrapper">
   <img class="hero-image" src="{hero_img_url}" alt="{hero_img_alt}" loading="eager"/>
 </div>''' if hero_img_url else ''
 
-    return f'''<!DOCTYPE html>
+    raw_html = f'''<!DOCTYPE html>
 <html lang="en">
 {head_html}
 <body>
@@ -274,6 +352,10 @@ def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, 
 <script src="/js/ltt-nav.js" defer=""></script>
 </body>
 </html>'''
+
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    clean_review_elements(soup)
+    return str(soup)
 
 # ==============================================================================
 # 1. BUILD DINNER CRUISES PARIS
