@@ -28,12 +28,12 @@
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | Staging Isolation & Core Money Hubs Pipeline | Branch `staging/static-overhaul`, ingest all 5 hubs, configure `vercel.json` rewrites | none | PLANNED |
-| M2 | HCU & Anchor Pollution Elimination | Strip heading emojis/nbsp, enforce clean semantic IDs, enforce 0-fragment canonical tags | M1 | PLANNED |
-| M3 | 6-Language Architecture & 301 Pruning | 351+ 301 redirects in `vercel.json`, 27 languages pruned, clean 77-URL `sitemap.xml` | M1 | PLANNED |
-| M4 | Tiqets S2S & Conversion Tracking Integrity | Partner ID enforcement, `webflow-sync.js` alignment, Google Data Manager mock sync, test suites pass | M1 | PLANNED |
-| E2E | E2E Testing Track | Design and publish opaque-box test runner (Tiers 1-4) and create `TEST_READY.md` | none | PLANNED |
-| M5 | Final Integration, 100% E2E Pass & Staging Preview | Run 100% E2E tests, verify Vercel Staging Preview URL, adversarial Tier 5 hardening | M2, M3, M4, E2E | PLANNED |
+| M1 | Staging Isolation & Core Money Hubs Pipeline | Branch `staging/static-overhaul`, ingest all 5 hubs, configure `vercel.json` rewrites | none | DONE |
+| M2 | HCU & Anchor Pollution Elimination | Strip heading emojis/nbsp, enforce clean semantic IDs, enforce 0-fragment canonical tags | M1 | DONE |
+| M3 | 6-Language Architecture & 301 Pruning | 351+ 301 redirects in `vercel.json`, 27 languages pruned, clean 77-URL `sitemap.xml` | M1 | DONE |
+| M4 | Tiqets S2S & Conversion Tracking Integrity | Partner ID enforcement, `webflow-sync.js` alignment, Google Data Manager mock sync, test suites pass | M1 | DONE |
+| E2E | E2E Testing Track | Design and publish opaque-box test runner (Tiers 1-4) and create `TEST_READY.md` | none | DONE |
+| M5 | Final Integration, 100% E2E Pass & Staging Preview | Run 100% E2E tests, verify Vercel Staging Preview URL, adversarial Tier 5 hardening | M2, M3, M4, E2E | DONE |
 
 ## Interface Contracts
 ### `webflow-sync.js` &larr;&rarr; Outbound Tiqets Links

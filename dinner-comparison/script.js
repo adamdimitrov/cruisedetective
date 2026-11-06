@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!rawHref || !rawHref.includes('tiqets.com')) return;
 
             const url = new URL(rawHref, window.location.href);
-            url.searchParams.set('partner', 'deals.cruisedetective.com');
+            url.searchParams.set('partner', 'thecruisedetective.com-176436');
 
             if (clickIdObj && clickIdObj.value) {
                 const { type, value } = clickIdObj;

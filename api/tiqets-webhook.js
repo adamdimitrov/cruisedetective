@@ -195,43 +195,13 @@ export default async function handler(req, res) {
 
     let accessToken = await getAccessToken();
 
-    // If conversion action resource name is provided in env, use it directly
-    if (process.env.GOOGLE_ADS_CONVERSION_ACTION_ID) {
-      cachedConversionActionResource = `customers/${customerId}/conversionActions/${process.env.GOOGLE_ADS_CONVERSION_ACTION_ID}`;
-    }
+    const conversionActionId = process.env.GOOGLE_ADS_CONVERSION_ACTION_ID || '7715980036';
+    const conversionTimestamp = payload.created_at || new Date().toISOString();
 
-    // Resolve resource name if not cached
-    if (!cachedConversionActionResource) {
-      try {
-        const searchRes = await fetch(`https://googleads.googleapis.com/v17/customers/${customerId}/googleAds:searchStream`, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${accessToken}`,
-            'developer-token': devToken,
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            query: `SELECT conversion_action.resource_name FROM conversion_action WHERE conversion_action.name = '${actionName}'`
-          })
-        });
-
-        if (searchRes.ok) {
-          const searchData = await searchRes.json();
-          if (Array.isArray(searchData) && searchData[0]?.results?.[0]?.conversionAction?.resourceName) {
-            cachedConversionActionResource = searchData[0].results[0].conversionAction.resourceName;
-          }
-        }
-      } catch (err) {
-        // Fall back to default resource name if search stream fails
-      }
-    }
-
-    const conversionActionResource = cachedConversionActionResource || `customers/${customerId}/conversionActions/default_action_id`;
-    const conversionDateTime = formatGoogleAdsDateTime(payload.created_at);
-
-    let rawPrice = payload.financials?.total_price;
+    // Prioritize net affiliate commission (profit) over gross ticket total
+    let rawPrice = payload.financials?.commission_amount;
     if (rawPrice === undefined || rawPrice === null) {
-      rawPrice = payload.financials?.commission_amount;
+      rawPrice = payload.financials?.total_price;
     }
     const conversionValue = Math.round((parseFloat(rawPrice) || 0) * 100) / 100;
     const currencyCode = (payload.financials?.currency || 'EUR').toUpperCase();
@@ -239,26 +209,35 @@ export default async function handler(req, res) {
     const validateOnly = Boolean(payload.validateOnly || (req.query && req.query.validateOnly));
 
     const postUpload = async (token) => {
-      const conversionEvent = {
-        conversionAction: conversionActionResource,
-        conversionDateTime: conversionDateTime,
+      const event = {
+        eventName: 'purchase',
+        eventTimestamp: conversionTimestamp,
+        eventSource: 'WEB',
         conversionValue: conversionValue,
-        currencyCode: currencyCode,
-        orderId: orderId
+        currency: currencyCode,
+        transactionId: String(orderId),
+        adIdentifiers: {
+          [clickIdObj.type]: clickIdObj.value
+        }
       };
-      conversionEvent[clickIdObj.type] = clickIdObj.value;
 
-      return fetch(`https://googleads.googleapis.com/v17/customers/${customerId}:uploadClickConversions`, {
+      return fetch('https://datamanager.googleapis.com/v1/events:ingest', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
-          'developer-token': devToken,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          customerId: customerId,
-          conversions: [conversionEvent],
-          partialFailure: true,
+          destinations: [
+            {
+              operatingAccount: {
+                accountType: 'GOOGLE_ADS',
+                accountId: customerId
+              },
+              productDestinationId: conversionActionId
+            }
+          ],
+          events: [event],
           validateOnly: validateOnly
         })
       });
