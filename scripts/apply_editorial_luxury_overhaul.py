@@ -11,6 +11,13 @@ from bs4 import BeautifulSoup
 
 BASE_DIR = "/Users/adamdimitrov/Development/cruisedetective"
 
+with open(os.path.join(BASE_DIR, "css/editorial-luxury.css"), "r", encoding="utf-8") as f:
+    EMBEDDED_CSS = f.read()
+
+with open(os.path.join(BASE_DIR, "js/ltt-nav.js"), "r", encoding="utf-8") as f:
+    EMBEDDED_JS = f.read()
+
+
 # ---------------------------------------------------------------------------
 # BRAND ICONS & SVGS
 # ---------------------------------------------------------------------------
@@ -869,6 +876,9 @@ def generate_dinner_cruises_paris():
 
   <!-- Google Fonts & Luxury Editorial Stylesheet -->
   <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+  <style id="editorial-luxury-css">
+{EMBEDDED_CSS}
+  </style>
 
   <!-- Tracking & Analytics -->
   {TRACKING_HEAD}
@@ -922,6 +932,9 @@ def generate_dinner_cruises_paris():
   {get_footer()}
 
   <script src="/js/ltt-nav.js"></script>
+  <script id="ltt-nav-inline-js">
+{EMBEDDED_JS}
+  </script>
   <script src="/webflow-sync.js"></script>
 </body>
 </html>
@@ -1214,6 +1227,9 @@ def generate_seine_river_cruises_paris():
 
   <!-- Google Fonts & Luxury Editorial Stylesheet -->
   <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+  <style id="editorial-luxury-css">
+{EMBEDDED_CSS}
+  </style>
 
   <!-- Tracking & Analytics -->
   {TRACKING_HEAD}
@@ -1267,6 +1283,9 @@ def generate_seine_river_cruises_paris():
   {get_footer()}
 
   <script src="/js/ltt-nav.js"></script>
+  <script id="ltt-nav-inline-js">
+{EMBEDDED_JS}
+  </script>
   <script src="/webflow-sync.js"></script>
 </body>
 </html>
@@ -1546,6 +1565,9 @@ def generate_canal_cruises_amsterdam():
 
   <!-- Google Fonts & Luxury Editorial Stylesheet -->
   <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+  <style id="editorial-luxury-css">
+{EMBEDDED_CSS}
+  </style>
 
   <!-- Tracking & Analytics -->
   {TRACKING_HEAD}
@@ -1599,6 +1621,9 @@ def generate_canal_cruises_amsterdam():
   {get_footer()}
 
   <script src="/js/ltt-nav.js"></script>
+  <script id="ltt-nav-inline-js">
+{EMBEDDED_JS}
+  </script>
   <script src="/webflow-sync.js"></script>
 </body>
 </html>
@@ -1847,6 +1872,9 @@ def generate_thames_river_cruises_london():
 
   <!-- Google Fonts & Luxury Editorial Stylesheet -->
   <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+  <style id="editorial-luxury-css">
+{EMBEDDED_CSS}
+  </style>
 
   <!-- Tracking & Analytics -->
   {TRACKING_HEAD}
@@ -1900,6 +1928,9 @@ def generate_thames_river_cruises_london():
   {get_footer()}
 
   <script src="/js/ltt-nav.js"></script>
+  <script id="ltt-nav-inline-js">
+{EMBEDDED_JS}
+  </script>
   <script src="/webflow-sync.js"></script>
 </body>
 </html>
@@ -2051,6 +2082,9 @@ def generate_mouches_vs_parisiens():
 
   <!-- Google Fonts & Luxury Editorial Stylesheet -->
   <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+  <style id="editorial-luxury-css">
+{EMBEDDED_CSS}
+  </style>
 
   <!-- Tracking & Analytics -->
   {TRACKING_HEAD}
@@ -2104,6 +2138,9 @@ def generate_mouches_vs_parisiens():
   {get_footer()}
 
   <script src="/js/ltt-nav.js"></script>
+  <script id="ltt-nav-inline-js">
+{EMBEDDED_JS}
+  </script>
   <script src="/webflow-sync.js"></script>
 </body>
 </html>
