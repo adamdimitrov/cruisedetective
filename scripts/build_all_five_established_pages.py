@@ -210,85 +210,370 @@ def build_sticky_bar(pick_label, pick_desc, pick_price, pick_cta, pick_url):
   </div>
 </div>'''
 
-def clean_review_elements(soup):
-    # 1. Clean bpa-proof: remove any (X+ Reviews) or total review count
-    for p in soup.find_all(class_='bpa-proof'):
-        for child in list(p.children):
-            if isinstance(child, str):
-                cleaned = re.sub(r'\s*\(\s*[\d,kK\+\.]+\s*(?:Reviews|Total Reviews|verified reviews|Total)?\s*\)', '', child)
-                child.replace_with(cleaned)
-            elif child.name == 'span' and any(k in child.get_text().lower() for k in ['review', 'total', 'verified reviews']):
-                child.decompose()
+PAGE_REVIEWS_DATA = {
+    'dinner-cruises-paris': [
+        # Boat 1: Bateaux Mouches
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.7', 'count': '+300', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=din-paris-reviews-bm'},
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+3,470', 'url': 'https://www.getyourguide.com/paris-l16/paris-sightseeing-cruise-on-the-seine-with-4-course-dinner-t465480/?partner_id=YS414AJ&cmp=article-dinner-cruises-paris-h3-reviews-bateaux-mouches&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.4', 'count': '+4,590', 'url': 'https://www.viator.com/tours/Paris/Bateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music/d479-23561P3?pid=P00072830&mcid=42383&medium=link&campaign=article-dinner-cruises-paris-h3-reviews-bateaux-mouches'},
+                {'name': 'tripadvisor', 'score': '4.4', 'count': '+1,550', 'url': 'https://tripadvisor.tp.st/zCpG1Y1H'}
+            ]
+        },
+        # Boat 2: Bateaux Parisiens
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.6', 'count': '+310', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-reviews-bp'},
+                {'name': 'getyourguide', 'score': '4.7', 'count': '+6,570', 'url': 'https://www.getyourguide.com/paris-l16/bateaux-parisiens-dinner-cruise-t51059/?partner_id=YS414AJ&cmp=article-dinner-cruises-paris-h3-reviews-bateaux-parisiens&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.4', 'count': '+6,630', 'url': 'https://www.viator.com/tours/Paris/Seine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music/d479-5836DINNERCRUISE?pid=P00072830&mcid=42383&medium=link&campaign=article-dinner-cruises-paris-h3-reviews-bateaux-parisiens'},
+                {'name': 'tripadvisor', 'score': '4.4', 'count': '+2,830', 'url': 'https://tripadvisor.tp.st/nEUZLgkQ'}
+            ]
+        },
+        # Boat 3: Paris City Vision (La Marina)
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.0', 'count': '+60', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-romantic-dinner-cruise-in-paris-p1023747/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-reviews-pcv'},
+                {'name': 'getyourguide', 'score': '4.2', 'count': '+4,670', 'url': 'https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-h3-reviews-paris-city-vision&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.8', 'count': '+1,630', 'url': 'https://www.viator.com/tours/Paris/Marina-de-Paris-Seine-River-Cruise-with-3-Course-Meal/d479-2050DC?pid=P00072830&mcid=42383&medium=link&campaign=article-dinner-cruises-paris-h3-reviews-paris-city-vision'},
+                {'name': 'tripadvisor', 'score': '3.7', 'count': '+310', 'url': 'https://tripadvisor.tp.st/zM4vsUOq'}
+            ]
+        },
+        # Boat 4: Paris en Scène
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.1', 'count': '+220', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&tq_campaign=paris-din-rev-parenscene'},
+                {'name': 'getyourguide', 'score': '4.2', 'count': '+9,530', 'url': 'https://www.getyourguide.com/paris-l16/paris-dinner-cruise-t179570/?partner_id=YS414AJ&cmp=article-dinner-cruises-paris-h3-reviews-paris-en-scene&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.7', 'count': '+2,970', 'url': 'https://www.viator.com/tours/Paris/Bistro-Style-Seine-River-Dinner-Cruise/d479-6557DINNERCRUISE?pid=P00072830&mcid=42383&medium=link&campaign=article-dinner-cruises-paris-h3-reviews-paris-en-scene'},
+                {'name': 'tripadvisor', 'score': '3.7', 'count': '+750', 'url': 'https://tripadvisor.tp.st/70jsrckb'}
+            ]
+        },
+        # Boat 5: Le Diamant Bleu
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.4', 'count': '+60', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-reviews-dbl'},
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+2,280', 'url': 'https://www.getyourguide.com/paris-l16/paris-lounge-tapas-dinner-cruise-on-the-seine-river-t142833/?partner_id=YS414AJ&cmp=article-dinner-cruises-paris-h3-reviews-list-le-diamant-bleu&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.5', 'count': '+1,370', 'url': 'https://www.viator.com/tours/Paris/Gourmet-dinner-cruise-on-the-Seine-river-with-singer-and-DJ-Set/d479-45167P2?pid=P00072830&mcid=42383&medium=link&campaign=article-dinner-cruises-paris-h3-reviews-list-le-diamant-bleu'},
+                {'name': 'tripadvisor', 'score': '4.7', 'count': '+1,060', 'url': 'https://tripadvisor.tp.st/jA8ACudO'}
+            ]
+        },
+        # Boat 6: Théo Trattoria
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.3', 'count': '+270', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-par-rev-tratt'},
+                {'name': 'getyourguide', 'score': '4.3', 'count': '+1,940', 'url': 'https://www.getyourguide.com/paris-l16/paris-trattoria-on-seine-italian-dinner-cruise-t459219/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-italian-dinner-le-diamant-bleu-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.2', 'count': '+1,000', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-italian-dinner-le-diamant-bleu-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FTrattoria-on-Seine-Italian-dinner-cruise-in-Paris%2Fd479-45167P3&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.2', 'count': '+680', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-italian-dinner-le-diamant-bleu-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g196560-d25549723-Paris_Theo_Boat_Seine_River_Italian_Trattoria_Style_Dinner_Cruise-Boulogne_Billanc.html&campaign_id=149'}
+            ]
+        },
+        # Boat 7: Capitaine Fracasse
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.2', 'count': '+2,170', 'url': 'https://www.getyourguide.com/paris-l16/paris-romantic-cruise-with-3-course-dinner-on-seine-river-t178769/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-capitaine-fracasse-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.0', 'count': '+810', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-capitaine-fracasse-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FParis-Seine-River-Cruise-with-3-Course-Dinner%2Fd479-6557FRACASSE&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.0', 'count': '+260', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-capitaine-fracasse-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11477836-Paris_Capitaine_Fracasse_3_Course_Seine_River_Dinner_Cruise-Paris_Ile_de_France.html&campaign_id=149'}
+            ]
+        },
+        # Boat 8: Maxim\'s de Paris
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+520', 'url': 'https://www.getyourguide.com/paris-l16/paris-seine-river-cruise-with-3-course-dinner-live-music-t420838/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-maxim-de-paris-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.2', 'count': '+120', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-maxim-de-paris-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FEiffel-Tower-Experience-and-Dinner-Cruise-with-Moulin-Rouge-Show-and-Champagne%2Fd479-2050P305&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.2', 'count': '+60', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-maxim-de-paris-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d17775540-Seine_River_Dinner_Cruise_Maxim_s_de_Paris_with_Champagne_and_Live_Music-Paris_Ile.html&campaign_id=149'}
+            ]
+        },
+        # Boat 9: Ducasse Sur Seine
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.7', 'count': '+510', 'url': 'https://www.getyourguide.com/paris-l16/paris-ducasse-sur-seine-gourmet-dinner-cruise-t273821/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=din-paris-det-ducasse&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.0', 'count': '+160', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-ducasse-sur-seine-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FDucasse-dinner-on-the-Seine-with-Alain-Ducasse-Chocolate-Bar%2Fd479-135588P1&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.0', 'count': '+150', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-ducasse-sur-seine-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d17330345-Paris_at_the_First_Lodges_Ducasse_sur_Seine_dinner_cruise-Paris_Ile_de_France.html&campaign_id=149'}
+            ]
+        },
+        # Boat 10: Paris City Vision Early Sunset
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.4', 'count': '+1,940', 'url': 'https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=din-paris-det-early&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.8', 'count': '+1,630', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-city-vision-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Fen-PH%2Ftours%2FParis%2FMarina-de-Paris-Seine-River-Cruise-with-3-Course-Meal%2Fd479-2050DC&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '3.8', 'count': '+190', 'url': 'https://tp.media/r?marker=404154.article-dinner-cruises-paris-city-vision-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11446381-Paris_Seine_Gourmet_Dinner_Cruise_Champagne-Paris_Ile_de_France.html&campaign_id=149'}
+            ]
+        }
+    ],
+    'seine-river-cruises-paris': [
+        # Boat 1: Bateaux Parisiens
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.3', 'count': '10,010+', 'url': 'https://www.tiqets.com/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-bp'},
+                {'name': 'getyourguide', 'score': '4.4', 'count': '67,060+', 'url': 'https://www.getyourguide.com/paris-l16/paris-bateaux-parisiens-seine-river-sightseeing-cruise-t51059/?partner_id=YS414AJ&cmp=seine-deck-bp&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.7', 'count': '2,190+', 'url': 'https://www.viator.com/tours/Paris/Bateaux-Parisiens-Seine-River-Sightseeing-Cruise/d479-5836P1?pid=P00072830&mcid=42383&medium=link&campaign=seine-deck-bp'},
+                {'name': 'tripadvisor', 'score': '3.7', 'count': '960+', 'url': 'https://tripadvisor.tp.st/nEUZLgkQ'}
+            ]
+        },
+        # Boat 2: Bateaux-Mouches
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.4', 'count': '10,120+', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-bm'},
+                {'name': 'getyourguide', 'score': '4.5', 'count': '3,340+', 'url': 'https://www.getyourguide.com/paris-l16/paris-seine-river-cruise-by-bateaux-mouches-t178877/?partner_id=YS414AJ&cmp=seine-deck-bm&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.7', 'count': '800+', 'url': 'https://www.viator.com/tours/Paris/Bateaux-Mouches-Seine-River-Cruise/d479-22340P1?pid=P00072830&mcid=42383&medium=link&campaign=seine-deck-bm'},
+                {'name': 'tripadvisor', 'score': '3.7', 'count': '580+', 'url': 'https://tripadvisor.tp.st/zCpG1Y1H'}
+            ]
+        },
+        # Boat 3: Vedettes de Paris
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.3', 'count': '2,560+', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-vdp'},
+                {'name': 'getyourguide', 'score': '4.3', 'count': '20,000+', 'url': 'https://www.getyourguide.com/paris-l16/paris-vedettes-de-paris-seine-river-sightseeing-cruise-t16408/?partner_id=YS414AJ&cmp=seine-deck-vdp&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.9', 'count': '140+', 'url': 'https://www.viator.com/tours/Paris/Vedettes-de-Paris-Seine-River-Cruise/d479-5837P1?pid=P00072830&mcid=42383&medium=link&campaign=seine-deck-vdp'},
+                {'name': 'tripadvisor', 'score': '3.9', 'count': '50+', 'url': 'https://tp.media/r?marker=404154.seine-deck-vdp'}
+            ]
+        },
+        # Boat 4: Batobus Paris
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.4', 'count': '1,120+', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-bato'},
+                {'name': 'getyourguide', 'score': '4.3', 'count': '5,250+', 'url': 'https://www.getyourguide.com/paris-l16/batobus-hop-on-hop-off-boat-pass-t178871/?partner_id=YS414AJ&cmp=seine-deck-bato&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.0', 'count': '3,330+', 'url': 'https://www.viator.com/tours/Paris/Batobus-Hop-On-Hop-Off-Seine-River-Cruise/d479-5838P1?pid=P00072830&mcid=42383&medium=link&campaign=seine-deck-bato'},
+                {'name': 'tripadvisor', 'score': '4.0', 'count': '1,680+', 'url': 'https://tp.media/r?marker=404154.seine-deck-bato'}
+            ]
+        },
+        # Boat 5: Paris Canal
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.5', 'count': '340+', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-canal-saint-martin-cruise-from-musee-d-orsay-to-parc-de-la-villette-p977685/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-pcan'},
+                {'name': 'getyourguide', 'score': '4.2', 'count': '2,140+', 'url': 'https://www.getyourguide.com/paris-l16/paris-canal-saint-martin-cruise-t178873/?partner_id=YS414AJ&cmp=seine-deck-pcan&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.5', 'count': '1,120+', 'url': 'https://www.viator.com/tours/Paris/Canal-Saint-Martin-Cruise/d479-5839P1?pid=P00072830&mcid=42383&medium=link&campaign=seine-deck-pcan'},
+                {'name': 'tripadvisor', 'score': '3.5', 'count': '240+', 'url': 'https://tp.media/r?marker=404154.seine-deck-pcan'}
+            ]
+        }
+    ],
+    'canal-cruises-amsterdam': [
+        # Boat 1: Lovers Canal Cruises
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.2', 'count': '3,374+', 'url': 'https://www.tiqets.com/en/things-to-do-in-amsterdam-c75061/tickets-for-1-hour-amsterdam-canal-cruise-p973666/?partner=thecruisedetective.com-176436&tq_campaign=amsterdam-deck-lovers'},
+                {'name': 'getyourguide', 'score': '4.2', 'count': '14,830+', 'url': 'https://www.getyourguide.com/amsterdam-l36/amsterdam-1-hour-canal-cruise-t8271/?partner_id=YS414AJ&cmp=amsterdam-deck-lovers&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.6', 'count': '800+', 'url': 'https://www.viator.com/tours/Amsterdam/Amsterdam-Canal-Cruise-with-Lovers/d525-2484P1?pid=P00072830&mcid=42383&medium=link&campaign=amsterdam-deck-lovers'},
+                {'name': 'tripadvisor', 'score': '3.2', 'count': '360+', 'url': 'https://tp.media/r?marker=404154.amsterdam-deck-lovers'}
+            ]
+        },
+        # Boat 2: Captain Jack
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.7', 'count': '1,730+', 'url': 'https://www.getyourguide.com/amsterdam-l36/amsterdam-all-inclusive-canal-cruise-with-drinks-cheese-t394862/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=amsterdam-deck-captainjack&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.9', 'count': '15,640+', 'url': 'https://www.viator.com/tours/Amsterdam/Captain-Jack-Amsterdam-Canal-Cruise/d525-102553P1?pid=P00072830&mcid=42383&medium=link&campaign=amsterdam-deck-captainjack'},
+                {'name': 'tripadvisor', 'score': '4.9', 'count': '13,450+', 'url': 'https://tp.media/r?marker=404154.amsterdam-deck-captainjack'}
+            ]
+        },
+        # Boat 3: Flagship Amsterdam
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.6', 'count': '24,500+', 'url': 'https://www.getyourguide.com/amsterdam-l36/amsterdam-open-boat-canal-cruise-with-live-guide-t193132/?partner_id=YS414AJ&cmp=amsterdam-deck-flagship&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.9', 'count': '30,820+', 'url': 'https://www.viator.com/tours/Amsterdam/Flagship-Amsterdam-Open-Boat-Canal-Cruise/d525-108865P1?pid=P00072830&mcid=42383&medium=link&campaign=amsterdam-deck-flagship'},
+                {'name': 'tripadvisor', 'score': '4.9', 'count': '27,190+', 'url': 'https://tp.media/r?marker=404154.amsterdam-deck-flagship'}
+            ]
+        },
+        # Boat 4: Blue Boat Company
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.4', 'count': '18,880+', 'url': 'https://www.getyourguide.com/amsterdam-l36/amsterdam-city-canal-cruise-blue-boat-t8272/?partner_id=YS414AJ&cmp=amsterdam-deck-blueboat&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.0', 'count': '700+', 'url': 'https://www.viator.com/tours/Amsterdam/Blue-Boat-Amsterdam-Canal-Cruise/d525-2485P1?pid=P00072830&mcid=42383&medium=link&campaign=amsterdam-deck-blueboat'},
+                {'name': 'tripadvisor', 'score': '3.9', 'count': '390+', 'url': 'https://tp.media/r?marker=404154.amsterdam-deck-blueboat'}
+            ]
+        },
+        # Boat 5: Friendship Amsterdam
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.5', 'count': '3,380+', 'url': 'https://www.getyourguide.com/amsterdam-l36/amsterdam-luxury-boat-cruise-with-unlimited-drinks-t141525/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=amsterdam-deck-friendship&mkt_cmp=true'},
+                {'name': 'viator', 'score': '5.0', 'count': '5,410+', 'url': 'https://www.viator.com/tours/Amsterdam/Friendship-Amsterdam-Luxury-Canal-Cruise/d525-12345P1?pid=P00072830&mcid=42383&medium=link&campaign=amsterdam-deck-friendship'},
+                {'name': 'tripadvisor', 'score': '4.9', 'count': '5,370+', 'url': 'https://tp.media/r?marker=404154.amsterdam-deck-friendship'}
+            ]
+        }
+    ],
+    'thames-river-cruises-london': [
+        # Boat 1: Thames River Sightseeing
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.4', 'count': '+410', 'url': 'https://www.tiqets.com/en/london-attractions-c67458/tickets-for-thames-cruise-westminster-to-greenwich-p975431/?partner=thecruisedetective.com-176436&tq_campaign=lond-reviews-thamesriv'},
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+21,210', 'url': 'https://www.getyourguide.com/london-l57/westminster-to-greenwich-sightseeing-cruise-t71379/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-london-river-cruises-h3-reviews-thames-river-sightseeing&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.6', 'count': '+2,830', 'url': 'https://www.viator.com/en-GB/tours/London/Westminster-to-Greenwich-Sightseeing-Thames-Cruise/d737-37862P1?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-london-river-cruises-h3-reviews-thames-river-sightseeing'},
+                {'name': 'tripadvisor', 'score': '4.5', 'count': '+910', 'url': 'https://tp.media/r?marker=404154.eng-article-london-river-cruises-h3-reviews-thames-river-sightseeing&trs=204442&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11483572-Westminster_to_Greenwich_Sightseeing_Thames_Cruise_in_London-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 2: London Eye River Cruise
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+3,600', 'url': 'https://www.getyourguide.com/london-l57/coca-cola-london-eye-river-cruise-t193403/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-best-london-river-cruises-london-eye-cruises-h3-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.7', 'count': '+1,360', 'url': 'https://www.viator.com/tours/London/London-Eye-River-Cruise/d737-2988P12?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-london-river-cruises-h3-reviews-list-london-eye'},
+                {'name': 'tripadvisor', 'score': '4.7', 'count': '+1,040', 'url': 'https://tp.media/r?marker=404154.eng-article-london-river-cruises-h3-reviews-list-london-eye&trs=204442&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d15750710-London_Eye_River_Cruise-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 3: City Cruises Hop-On Hop-Off
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.4', 'count': '+3,000', 'url': 'https://www.getyourguide.com/london-l57/the-famous-city-cruises-hop-on-hop-off-sightseeing-cruise-t5273/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-london-river-cruises-h3-reviews-city-cruises-sightseeing-cruise&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.1', 'count': '+1,240', 'url': 'https://www.viator.com/tours/London/Thames-Hop-On-Hop-Off-River-Cruise/d737-3542RRR?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-london-river-cruises-h3-reviews-city-cruises-sightseeing-cruise'},
+                {'name': 'tripadvisor', 'score': '4.1', 'count': '+660', 'url': 'https://tp.media/r?marker=404154.eng-article-london-river-cruises-h3-reviews-city-cruises-sightseeing-cruise&trs=204442&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11449151-Thames_24_Hour_Hop_On_Hop_Off_River_Cruise-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 4: Thames Rockets
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.9', 'count': '+770', 'url': 'https://www.getyourguide.com/london-l57/thames-boat-trip-waterway-london-adventure-t16670/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-best-london-river-cruises-thames-rockets-h3-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '5.0', 'count': '+3,900', 'url': 'https://www.viator.com/tours/London/High-Speed-Thames-River-RIB-Cruise-in-London/d737-6918ULA?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-best-london-river-cruises-thames-rockets-h3-reviews'},
+                {'name': 'tripadvisor', 'score': '5.0', 'count': '+3,300', 'url': 'https://tp.media/r?marker=404154.eng-article-best-london-river-cruises-thames-rockets-h3-reviews&trs=204442&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11454893-High_Speed_Thames_River_Speedboat_in_London-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 5: Thames RIB Experience
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.8', 'count': '+300', 'url': 'https://www.getyourguide.com/london-l57/london-75-minute-thames-barrier-speedboat-rib-experience-t207834/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-london-river-cruises-h3-reviews-thames-ribs-speedboat&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.9', 'count': '+770', 'url': 'https://tp.media/r?marker=404154.eng-article-london-river-cruises-h3-reviews-thames-ribs-speedboat&trs=204442&p=1922&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FLondon%2FRiver-Thames-High-Speed-Cruise%2Fd737-5182SPEED&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.9', 'count': '+520', 'url': 'https://tp.media/r?marker=404154.eng-article-london-river-cruises-h3-reviews-thames-ribs-speedboat&trs=204442&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11450740-Speedboat_Thames_Barrier_Experience_to_from_Embankment_Pier_70_minutes-London_Engl.html&campaign_id=149'}
+            ]
+        },
+        # Boat 6: Thames River Lunch Cruise
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+1,910', 'url': 'https://www.getyourguide.com/london-l57/lunch-cruise-on-the-thames-t26664/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-best-london-river-cruises-city-cruises-lunch-cruise-h3-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.5', 'count': '+960', 'url': 'https://www.viator.com/tours/London/Thames-Lunch-Cruise-with-2-Course-Meal/d737-3542LUNCHCRU?pid=P00072830&mcid=42383&medium=link&campaign=eng-article-best-london-river-cruises-city-cruises-lunch-cruise-h3-reviews'},
+                {'name': 'tripadvisor', 'score': '4.4', 'count': '+330', 'url': 'https://tripadvisor.tp.st/nYFrD6vQ'}
+            ]
+        },
+        # Boat 7: Thames River Sunset Cruise with Bubbly
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.4', 'count': '+2,380', 'url': 'https://www.getyourguide.com/london-l57/cruise-the-thames-with-a-glass-of-bubbly-canapes-t29923/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-london-city-cruises-bubbly-canapes-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.9', 'count': '+550', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-city-cruises-bubbly-canapes-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Fen-PH%2Ftours%2FLondon%2FRiver-Thames-Sunset-Sightseeing-Cruise%2Fd737-3542EVENING&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '3.8', 'count': '+140', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-city-cruises-bubbly-canapes-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11449147-River_Thames_Evening_Cruise_with_Sparkling_wine_and_Canapes-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 8: Thames Jazz Dinner Cruise
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.1', 'count': '+220', 'url': 'https://www.getyourguide.com/london-l57/thames-jazz-dinner-cruise-t37172/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-london-city-cruises-jazz-cruise-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '3.9', 'count': '+140', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-city-cruises-jazz-cruise-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Fen-PH%2Ftours%2FLondon%2FThames-Jazz-Dinner-Cruise%2Fd737-3542P19&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '3.9', 'count': '+60', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-city-cruises-jazz-cruise-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11468827-Dinner_and_Jazz_Cruise_on_the_River_Thames-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 9: Thames Hop-On Hop-Off Uber Boat
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.0', 'count': '+230', 'url': 'https://www.getyourguide.com/london-l57/london-uber-boat-by-thames-clippers-hop-on-hop-off-day-pass-t67981/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-london-thames-clippers-uberboat-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.0', 'count': '+680', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-thames-clippers-uberboat-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Fen-PH%2Ftours%2FLondon%2FThames-Clippers-River-Roamer-Hop-On-Hop-Off-Pass%2Fd737-5021CLIPPER&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.0', 'count': '+590', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-thames-clippers-uberboat-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d12078321-London_Uber_Boat_Hop_On_Hop_Off_1_Day_River_Thames_Pass-London_England.html&campaign_id=149'}
+            ]
+        },
+        # Boat 10: Thames Evening Dinner Cruise
+        {
+            'channels': [
+                {'name': 'getyourguide', 'score': '4.3', 'count': '+1,950', 'url': 'https://www.getyourguide.com/london-l57/the-london-showboat-dinner-dance-cruise-t5275/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-london-thames-city-cruises-dinner-cruise-reviews&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.2', 'count': '+1,690', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-thames-city-cruises-dinner-cruise-reviews&trs=327188&p=1922&u=https%3A%2F%2Fwww.viator.com%2Fen-PH%2Ftours%2FLondon%2FThe-London-Showboat-Dinner-Cruise-on-the-Thames-River%2Fd737-3542SB&campaign_id=47'},
+                {'name': 'tripadvisor', 'score': '4.2', 'count': '+350', 'url': 'https://tp.media/r?marker=404154.article-river-cruises-london-thames-city-cruises-dinner-cruise-reviews&trs=327188&p=4456&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g186338-d11449152-London_Dinner_Cruise_on_the_Thames_River-London_England.html&campaign_id=149'}
+            ]
+        }
+    ],
+    'bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison': [
+        # Boat 1: Bateaux Mouches
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.7', 'count': '+300', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-bm'},
+                {'name': 'getyourguide', 'score': '4.5', 'count': '+3,470', 'url': 'https://www.getyourguide.com/paris-l16/paris-sightseeing-cruise-on-the-seine-with-4-course-dinner-t465480/?partner_id=YS414AJ&cmp=vs-deck-bm&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.4', 'count': '+4,590', 'url': 'https://www.viator.com/tours/Paris/Bateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music/d479-23561P3?pid=P00072830&mcid=42383&medium=link&campaign=vs-deck-bm'},
+                {'name': 'tripadvisor', 'score': '4.4', 'count': '+1,550', 'url': 'https://tripadvisor.tp.st/zCpG1Y1H'}
+            ]
+        },
+        # Boat 2: Bateaux Parisiens
+        {
+            'channels': [
+                {'name': 'tiqets', 'score': '4.6', 'count': '+310', 'url': 'https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-bp'},
+                {'name': 'getyourguide', 'score': '4.7', 'count': '+6,570', 'url': 'https://www.getyourguide.com/paris-l16/bateaux-parisiens-dinner-cruise-t51059/?partner_id=YS414AJ&cmp=vs-deck-bp&mkt_cmp=true'},
+                {'name': 'viator', 'score': '4.4', 'count': '+6,630', 'url': 'https://www.viator.com/tours/Paris/Seine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music/d479-5836DINNERCRUISE?pid=P00072830&mcid=42383&medium=link&campaign=vs-deck-bp'},
+                {'name': 'tripadvisor', 'score': '4.4', 'count': '+2,830', 'url': 'https://tripadvisor.tp.st/nEUZLgkQ'}
+            ]
+        }
+    ]
+}
 
-    # 2. Clean bpa-channels in comparison deck cards
-    for c in soup.find_all(class_='bpa-channels'):
-        for a in c.find_all('a'):
-            for sp in a.find_all('span'):
-                sp.decompose()
-            svg = a.find('svg')
-            img_existing = a.find('img')
-            href = (a.get('href') or '') + ' ' + (a.get('title') or '')
-            href_lower = href.lower()
-            if 'getyourguide' in href_lower or 'gyg' in href_lower:
-                icon_src = '/assets/icons/getyourguide.png'
-                alt = 'GetYourGuide'
-            elif 'viator' in href_lower:
-                icon_src = '/assets/icons/viator.png'
-                alt = 'Viator'
-            elif 'tripadvisor' in href_lower:
-                icon_src = '/assets/icons/tripadvisor.png'
-                alt = 'TripAdvisor'
-            elif 'tiqets' in href_lower:
-                icon_src = '/assets/icons/tiqets.png'
-                alt = 'Tiqets'
-            else:
-                icon_src = '/assets/icons/tiqets.png'
-                alt = 'Tiqets'
-            
-            if svg:
-                img = soup.new_tag('img', **{'class': 'bpa-rev-icon', 'src': icon_src, 'alt': alt, 'width': '16', 'height': '16', 'loading': 'lazy'})
-                svg.replace_with(img)
-            elif img_existing:
-                img_existing['src'] = icon_src
-                img_existing['alt'] = alt
+def apply_reviews_and_proof(soup, page_slug):
+    page_data = PAGE_REVIEWS_DATA.get(page_slug, [])
 
-    # 3. Clean bpa-rev-badge in detailed reviews
-    for b in soup.find_all(class_='bpa-rev-badge'):
-        cnt = b.find(class_='bpa-rev-count')
-        if cnt:
-            cnt.decompose()
-        for sp in b.find_all('span'):
-            txt = sp.get_text(strip=True)
-            if re.search(r'\([\d,kK\+\.]+\)', txt):
-                sp.decompose()
-        svg = b.find('svg')
-        img_existing = b.find('img')
-        href = (b.get('href') or '') + ' ' + (b.get('title') or '')
-        href_lower = href.lower()
-        if 'getyourguide' in href_lower or 'gyg' in href_lower:
-            icon_src = '/assets/icons/getyourguide.png'
-            alt = 'GetYourGuide'
-        elif 'viator' in href_lower:
-            icon_src = '/assets/icons/viator.png'
-            alt = 'Viator'
-        elif 'tripadvisor' in href_lower:
-            icon_src = '/assets/icons/tripadvisor.png'
-            alt = 'TripAdvisor'
-        elif 'tiqets' in href_lower:
-            icon_src = '/assets/icons/tiqets.png'
-            alt = 'Tiqets'
-        else:
-            icon_src = '/assets/icons/tiqets.png'
-            alt = 'Tiqets'
-        
-        if svg:
-            img = soup.new_tag('img', **{'class': 'bpa-rev-icon', 'src': icon_src, 'alt': alt, 'width': '16', 'height': '16', 'loading': 'lazy'})
-            svg.replace_with(img)
-        elif img_existing:
-            img_existing['src'] = icon_src
-            img_existing['alt'] = alt
+    # 1. Update Comparison Deck Cards
+    cards = soup.find_all(class_='bpa-card')
+    for i, card in enumerate(cards):
+        # Update bpa-proof: eliminate generic reviews line, leave strictly verified badge
+        proof = card.find(class_='bpa-proof')
+        if proof:
+            proof.clear()
+            v_span = soup.new_tag('span', **{'class': 'bpa-verified'})
+            v_span.string = '✓ Personally Field-Tested'
+            proof.append(v_span)
 
-def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, h1_title, date_text, intro_content_html, comparison_table_html, right_content_html, sticky_bar_html):
+        # Update bpa-channels: populate authentic OTA review badges with NO brand names
+        if i < len(page_data):
+            ch_container = card.find(class_='bpa-channels')
+            if ch_container:
+                ch_container.clear()
+                for ch in page_data[i]['channels']:
+                    a_tag = soup.new_tag('a', **{
+                        'class': 'bpa-ci',
+                        'href': ch['url'],
+                        'target': '_blank',
+                        'rel': 'noopener nofollow sponsored',
+                        'title': f"Check reviews on {ch['name'].capitalize()}"
+                    })
+                    img_tag = soup.new_tag('img', **{
+                        'class': 'bpa-rev-icon',
+                        'src': f"/assets/icons/{ch['name']}.png",
+                        'alt': '',
+                        'width': '16',
+                        'height': '16',
+                        'loading': 'lazy'
+                    })
+                    strong_tag = soup.new_tag('strong')
+                    strong_tag.string = ch['score']
+                    cnt_span = soup.new_tag('span', **{'class': 'bpa-rev-count'})
+                    cnt_span.string = f"({ch['count']})"
+
+                    a_tag.append(img_tag)
+                    a_tag.append(strong_tag)
+                    a_tag.append(cnt_span)
+                    ch_container.append(a_tag)
+
+    # 2. Update Detailed Reviews Accordions
+    details = soup.find_all('details', class_='bpa-details-card')
+    for i, det in enumerate(details):
+        if i < len(page_data):
+            sr = det.find(class_='bpa-summary-reviews')
+            if sr:
+                sr.clear()
+                for ch in page_data[i]['channels']:
+                    a_tag = soup.new_tag('a', **{
+                        'class': 'bpa-rev-badge',
+                        'href': ch['url'],
+                        'target': '_blank',
+                        'rel': 'noopener nofollow sponsored',
+                        'onclick': 'event.stopPropagation()',
+                        'title': f"Check reviews on {ch['name'].capitalize()}"
+                    })
+                    img_tag = soup.new_tag('img', **{
+                        'class': 'bpa-rev-icon',
+                        'src': f"/assets/icons/{ch['name']}.png",
+                        'alt': '',
+                        'width': '16',
+                        'height': '16',
+                        'loading': 'lazy'
+                    })
+                    score_span = soup.new_tag('span', **{'class': 'bpa-rev-score'})
+                    score_span.string = ch['score']
+                    cnt_span = soup.new_tag('span', **{'class': 'bpa-rev-count'})
+                    cnt_span.string = f"({ch['count']})"
+
+                    a_tag.append(img_tag)
+                    a_tag.append(score_span)
+                    a_tag.append(cnt_span)
+                    sr.append(a_tag)
+
+def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, h1_title, date_text, intro_content_html, comparison_table_html, right_content_html, sticky_bar_html, page_slug=None):
     hero_img_markup = f'''<div class="hero-image-wrapper">
   <img class="hero-image" src="{hero_img_url}" alt="{hero_img_alt}" loading="eager"/>
 </div>''' if hero_img_url else ''
@@ -354,7 +639,8 @@ def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, 
 </html>'''
 
     soup = BeautifulSoup(raw_html, 'html.parser')
-    clean_review_elements(soup)
+    if page_slug:
+        apply_reviews_and_proof(soup, page_slug)
     return str(soup)
 
 # ==============================================================================
@@ -428,7 +714,8 @@ def build_dinner_cruises_paris():
         intro_content_html=intro_html,
         comparison_table_html=comp_html,
         right_content_html=right_content,
-        sticky_bar_html=sticky
+        sticky_bar_html=sticky,
+        page_slug='dinner-cruises-paris'
     )
 
     out_path = os.path.join(BASE_DIR, 'dinner-cruises-paris/index.html')
@@ -525,7 +812,8 @@ def build_seine_river_cruises_paris():
         intro_content_html=intro_html,
         comparison_table_html=comp_html,
         right_content_html=right_content,
-        sticky_bar_html=sticky
+        sticky_bar_html=sticky,
+        page_slug='seine-river-cruises-paris'
     )
 
     out_path = os.path.join(BASE_DIR, 'seine-river-cruises-paris/index.html')
@@ -610,7 +898,8 @@ def build_canal_cruises_amsterdam():
         intro_content_html=intro_html,
         comparison_table_html=comp_html,
         right_content_html=right_content,
-        sticky_bar_html=sticky
+        sticky_bar_html=sticky,
+        page_slug='canal-cruises-amsterdam'
     )
 
     out_path = os.path.join(BASE_DIR, 'canal-cruises-amsterdam/index.html')
@@ -680,7 +969,8 @@ def build_thames_cruises_london():
         intro_content_html=intro_html,
         comparison_table_html=comp_html,
         right_content_html=right_content,
-        sticky_bar_html=sticky
+        sticky_bar_html=sticky,
+        page_slug='thames-river-cruises-london'
     )
 
     out_path = os.path.join(BASE_DIR, 'thames-river-cruises-london/index.html')
@@ -754,7 +1044,8 @@ def build_head_to_head():
         intro_content_html=intro_html,
         comparison_table_html=comp_html,
         right_content_html=right_content,
-        sticky_bar_html=sticky
+        sticky_bar_html=sticky,
+        page_slug='bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison'
     )
 
     out_path = os.path.join(BASE_DIR, 'bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison/index.html')
