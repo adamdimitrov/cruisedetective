@@ -649,7 +649,9 @@ def generate_dinner_cruises_paris():
             "price_sub": "Trattoria €65 • Formula with Wine €75",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-tratt",
             "cta_text": "Book on Tiqets →",
-            "photos": ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu%20(Le%20Th%C3%A9o%20-%20Italian%20Trattoria).webp"],
+            "photos": [
+                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp"
+            ],
             "editorial_review_html": """
             <p><strong>A Breath of Fresh Air on Paris Waters:</strong> Operated by the Diamant Bleu team, Théo is the only dedicated Italian trattoria river cruise in Paris. If you have already had three nights of duck confit and want a warm, joyful atmosphere filled with fresh burrata, truffle rigatoni, and velvety tiramisu, Théo hits the spot.</p>
             """,
@@ -825,7 +827,7 @@ def generate_dinner_cruises_paris():
     details_html = [build_details_card_html(item) for item in items]
 
     deck_section = f'''<!-- COMPARISON ENGINE: 10 BEST SEINE DINNER CRUISES -->
-<section class="ltt-deck-container comparison-deck" id="comparison-matrix" id="paris-dinner-deck">
+<section class="ltt-deck-container comparison-deck" id="comparison-matrix" data-deck="paris-dinner-deck">
   <div class="ltt-header-box">
     <div class="ltt-section-eyebrow">2026 COMPARISON ENGINE • PERSONALLY TESTED UNDERCOVER</div>
     <h2 class="ltt-header-title">10 Best Seine River Dinner Cruises in Paris (2026 Ranked)</h2>
@@ -924,8 +926,8 @@ def generate_dinner_cruises_paris():
 
     <div class="ltt-container">
       {deck_section}
-      {details_section}
     </div>
+    {details_section}
   </main>
 
   {get_hybrid_sticky_bar(10, "Compagnie des Bateaux Mouches", "From €130", items[0]["url"])}
@@ -1176,7 +1178,7 @@ def generate_seine_river_cruises_paris():
     details_html = [build_details_card_html(item) for item in items]
 
     deck_section = f'''<!-- COMPARISON ENGINE: 5 BEST SEINE SIGHTSEEING CRUISES -->
-<section class="ltt-deck-container comparison-deck" id="comparison-matrix" id="seine-sightseeing-deck">
+<section class="ltt-deck-container comparison-deck" id="comparison-matrix" data-deck="seine-sightseeing-deck">
   <div class="ltt-header-box">
     <div class="ltt-section-eyebrow">2026 COMPARISON ENGINE • PERSONALLY TESTED UNDERCOVER</div>
     <h2 class="ltt-header-title">The 5 Best Paris Seine River Cruises (2026 Ranked &amp; Tested)</h2>
@@ -1275,8 +1277,8 @@ def generate_seine_river_cruises_paris():
 
     <div class="ltt-container">
       {deck_section}
-      {details_section}
     </div>
+    {details_section}
   </main>
 
   {get_hybrid_sticky_bar(5, "Bateaux Parisiens (#1 Winner)", "€18.00 (Kids €9)", items[0]["url"])}
@@ -1514,7 +1516,7 @@ def generate_canal_cruises_amsterdam():
     details_html = [build_details_card_html(item) for item in items]
 
     deck_section = f'''<!-- COMPARISON ENGINE: 5 BEST AMSTERDAM CANAL CRUISES -->
-<section class="ltt-deck-container comparison-deck" id="comparison-matrix" id="amsterdam-canal-deck">
+<section class="ltt-deck-container comparison-deck" id="comparison-matrix" data-deck="amsterdam-canal-deck">
   <div class="ltt-header-box">
     <div class="ltt-section-eyebrow">2026 COMPARISON ENGINE • PERSONALLY TESTED UNDERCOVER</div>
     <h2 class="ltt-header-title">The 5 Best Amsterdam Canal Cruises (2026 Ranked &amp; Tested)</h2>
@@ -1613,8 +1615,8 @@ def generate_canal_cruises_amsterdam():
 
     <div class="ltt-container">
       {deck_section}
-      {details_section}
     </div>
+    {details_section}
   </main>
 
   {get_hybrid_sticky_bar(5, "Lovers Canal Cruises (#1 Winner)", "€16.00", items[0]["url"])}
@@ -1823,7 +1825,7 @@ def generate_thames_river_cruises_london():
     details_html = [build_details_card_html(item) for item in items]
 
     deck_section = f'''<!-- COMPARISON ENGINE: 10 BEST THAMES CRUISES -->
-<section class="ltt-deck-container comparison-deck" id="comparison-matrix" id="thames-river-deck">
+<section class="ltt-deck-container comparison-deck" id="comparison-matrix" data-deck="thames-river-deck">
   <div class="ltt-header-box">
     <div class="ltt-section-eyebrow">2026 COMPARISON ENGINE • PERSONALLY TESTED UNDERCOVER</div>
     <h2 class="ltt-header-title">10 Best Thames River Cruises in London (2026 Ranked)</h2>
@@ -1920,8 +1922,8 @@ def generate_thames_river_cruises_london():
 
     <div class="ltt-container">
       {deck_section}
-      {details_section}
     </div>
+    {details_section}
   </main>
 
   {get_hybrid_sticky_bar(10, "Thames River Sightseeing (#1 Winner)", "From £16.50", items[0]["url"])}
@@ -2011,9 +2013,10 @@ def generate_mouches_vs_parisiens():
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-bp",
             "cta_text": "Book Bateaux Parisiens (€85+) →",
             "photos": [
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(1).webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e6827827717b4f627f685_bateaux-parisiens-dinner-cruise%20(11).webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e673d95e852a1e22beb62_bateaux-parisiens-dinner-cruise%20(3).webp"
+                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557453e8a6348c194b21d69_DSC03716.webp",
+                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557452eedc0759fd61fd2eb_DSC03746.webp",
+                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(12).webp",
+                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e6827827717b4f627f685_bateaux-parisiens-dinner-cruise%20(3).webp"
             ],
             "editorial_review_html": """
             <p><strong>The Winner for Architecture and Eiffel Tower Proximity:</strong> If boarding directly underneath the Eiffel Tower and dining beneath a sleek all-glass canopy with a live singer is your dream, Bateaux Parisiens delivers an unforgettable visual spectacle.</p>
@@ -2039,7 +2042,7 @@ def generate_mouches_vs_parisiens():
     details_html = [build_details_card_html(item) for item in items]
 
     deck_section = f'''<!-- SIDE-BY-SIDE COMPARISON DECK -->
-<section class="ltt-deck-container comparison-deck" id="comparison-matrix" id="side-by-side-deck">
+<section class="ltt-deck-container comparison-deck" id="comparison-matrix" data-deck="side-by-side-deck">
   <div class="ltt-header-box">
     <div class="ltt-section-eyebrow">HEAD-TO-HEAD DUEL • 2026 TESTED UNDERCOVER</div>
     <h2 class="ltt-header-title">Bateaux Mouches vs. Bateaux Parisiens Dinner Cruise</h2>
@@ -2130,8 +2133,8 @@ def generate_mouches_vs_parisiens():
 
     <div class="ltt-container">
       {deck_section}
-      {details_section}
     </div>
+    {details_section}
   </main>
 
   {get_hybrid_sticky_bar(2, "Bateaux Mouches (Prestige €130)", "From €130", items[0]["url"])}
