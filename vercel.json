@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "functions": {
     "api/tiqets-webhook.js": {
       "maxDuration": 15
@@ -28,19 +30,39 @@
     },
     {
       "source": "/seine-river-cruises-paris",
-      "destination": "/seine-comparison/index.html"
+      "destination": "/seine-river-cruises-paris/index.html"
+    },
+    {
+      "source": "/dinner-cruises-paris",
+      "destination": "/dinner-cruises-paris/index.html"
     },
     {
       "source": "/dinner-cruise-paris",
-      "destination": "/dinner-comparison/index.html"
+      "destination": "/dinner-cruises-paris/index.html"
+    },
+    {
+      "source": "/dinner-comparison",
+      "destination": "/dinner-cruises-paris/index.html"
+    },
+    {
+      "source": "/canal-cruises-amsterdam",
+      "destination": "/canal-cruises-amsterdam/index.html"
     },
     {
       "source": "/amsterdam-canal-cruises",
-      "destination": "/amsterdam-comparison/index.html"
+      "destination": "/canal-cruises-amsterdam/index.html"
     },
     {
       "source": "/amsterdam-comparison",
-      "destination": "/amsterdam-comparison/index.html"
+      "destination": "/canal-cruises-amsterdam/index.html"
+    },
+    {
+      "source": "/thames-river-cruises-london",
+      "destination": "/thames-river-cruises-london/index.html"
+    },
+    {
+      "source": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison/index.html"
     }
   ]
 }
