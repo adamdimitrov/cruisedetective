@@ -5,6 +5,18 @@
 - **Truth Over Politeness**: If the user's premise, math, assumption, or marketing approach has flaws, call it out plainly and immediately. Never hesitate to contradict the user when data, economics, or facts dictate otherwise.
 - **Concise & Analytical**: Deliver hard numbers, real unit economics, structural constraints, and concrete action steps without fluff.
 
+# UI / UX & Design Directives (Homepage & Card Layouts)
+
+- **Strictly No Spec Pills / Feature Chips on Homepage Guide Cards**:
+  - Never render feature chips, spec badges, or pill tags (`.ltt-guide-specs`, `.ltt-guide-sp`, etc.) inside directory or flagship guide cards on the homepage (`index.html`) or category hubs.
+  - The canonical card architecture must remain clean, uncluttered, and editorial:
+    1. Card thumbnail image with single top category tag (`.ltt-guide-tag`)
+    2. Uppercase kicker (`.ltt-guide-kicker`)
+    3. Serif headline (`.ltt-guide-title`)
+    4. Excerpt description (`.ltt-guide-excerpt`)
+    5. Clean footer bar (`.ltt-guide-footer`) with price anchor on the left and CTA button on the right.
+  - Any spec details or bullet points belong strictly inside the full article listicle cards or breakdown tables, NEVER on the homepage directory overview cards.
+
 # Commercial & Unit Economics Context
 
 - **Bateaux Parisiens Commission Rate**: **41.9%** (Locked partnership rate via Tiqets / partner `thecruisedetective.com-176436`).
