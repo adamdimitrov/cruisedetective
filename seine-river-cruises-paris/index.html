@@ -9186,7 +9186,7 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
     if (guideList && guideList.length) {
       var div = document.createElement('div');
       div.className = 'hybrid-toc-divider';
-      div.textContent = "Buyer's Guide & Methodology";
+      div.textContent = cfg.tocGuideLabel || "Buyer's Guide & Methodology";
       list.appendChild(div);
       guideList.forEach(function(g) {
         var a = document.createElement('a');
@@ -9277,7 +9277,7 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
     if (guideSections.length) {
       var grp = document.createElement('div');
       grp.className = 'toc-group-label';
-      grp.textContent = "Buyer's Guide & Methodology";
+      grp.textContent = cfg.tocGuideLabel || "Buyer's Guide & Methodology";
       frag.appendChild(grp);
       guideSections.forEach(function(g) {
         var a = document.createElement('a');

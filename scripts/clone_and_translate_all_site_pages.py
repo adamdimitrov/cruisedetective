@@ -1356,6 +1356,294 @@ PARIS_SIGHTSEEING_BEST_FOR = {
     ]
 }
 
+
+FILTER_TABS_I18N = {
+    'fr': {
+        'filter_label': 'Filtres :',
+        'all': 'Tous (10)',
+        'tested': '✓ Testé en personne (5)',
+        'livemusic': '🎵 Musique Live (5)',
+        'under100': '💶 Moins de 100 € (5)',
+        'gourmet': '🍷 Menu Gastronomique 4 Plats (5)',
+        'under20': '💶 Moins de 20 € (5)',
+        'treats': '🥂 Boissons & Gourmandises (4)',
+        'lunch': '🍽️ Déjeuner Assis (1)',
+        'route': '🗺️ Batobus & Canal (2)',
+        'private': '🛥️ Bateau Privé (1)',
+        'sightseeing_amsterdam': '🏆 Promenade Classique (3)',
+        'drinks_amsterdam': '🧀 Boissons & Fromage (4)',
+        'dining_amsterdam': '🍷 Dîner & Pizza (2)',
+        'specialty_amsterdam': '✨ Spécialité & Smoke-Friendly (1)',
+        'sightseeing_london': '🏆 Promenade Classique (4)',
+        'dining_london': '🍷 Déjeuner & Dîner (4)',
+        'speedboat_london': '⚡ Bateaux Rapides (2)',
+        'duel_tab_1': 'Dîner Bateaux Mouches',
+        'duel_tab_2': 'Dîner Bateaux Parisiens',
+        'duel_tab_3': '⚖️ Tableau Comparatif Complet',
+        'expand_all': 'Tout afficher',
+        'collapse_all': 'Tout réduire',
+        'breakdown_sub': 'Tests indépendants sur le terrain • Tous les avis ouverts par défaut • Cliquez pour réduire/afficher',
+        "hide_review": "Masquer l'avis",
+        "show_review": "Afficher l'avis",
+        "buyers_guide_divider": "Guide d'achat & Méthodologie"
+    },
+    'de': {
+        'filter_label': 'Filter:',
+        'all': 'Alle (10)',
+        'tested': '✓ Persönlich getestet (5)',
+        'livemusic': '🎵 Live-Musik (5)',
+        'under100': '💶 Unter 100 € (5)',
+        'gourmet': '🍷 4-Gänge-Gourmetmenü (5)',
+        'under20': '💶 Unter 20 € (5)',
+        'treats': '🥂 Getränke & Snacks (4)',
+        'lunch': '🍽️ Mittagessen an Bord (1)',
+        'route': '🗺️ Hop-On & Kanäle (2)',
+        'private': '🛥️ Privatboot (1)',
+        'sightseeing_amsterdam': '🏆 Klassische Rundfahrt (3)',
+        'drinks_amsterdam': '🧀 Getränke & Käse (4)',
+        'dining_amsterdam': '🍷 Abendessen & Pizza (2)',
+        'specialty_amsterdam': '✨ Spezial & Smoke-Friendly (1)',
+        'sightseeing_london': '🏆 Klassische Rundfahrt (4)',
+        'dining_london': '🍷 Mittag- & Abendessen (4)',
+        'speedboat_london': '⚡ Schnellboote (2)',
+        'duel_tab_1': 'Bateaux Mouches Dinner',
+        'duel_tab_2': 'Bateaux Parisiens Dinner',
+        'duel_tab_3': '⚖️ Detaillierter Vergleich',
+        'expand_all': 'Alle ausklappen',
+        'collapse_all': 'Alle einklappen',
+        'breakdown_sub': 'Unabhängig im Feld getestet • Alle Bewertungen standardmäßig geöffnet • Zum Ein-/Ausklappen klicken',
+        'hide_review': 'Bewertung ausblenden',
+        'show_review': 'Bewertung anzeigen',
+        'buyers_guide_divider': 'Kaufratgeber & Methodik'
+    },
+    'es': {
+        'filter_label': 'Filtros:',
+        'all': 'Todos (10)',
+        'tested': '✓ Evaluado personalmente (5)',
+        'livemusic': '🎵 Música en Vivo (5)',
+        'under100': '💶 Menos de 100 € (5)',
+        'gourmet': '🍷 Menú Gourmet 4 Platos (5)',
+        'under20': '💶 Menos de 20 € (5)',
+        'treats': '🥂 Bebidas y Aperitivos (4)',
+        'lunch': '🍽️ Almuerzo a Bordo (1)',
+        'route': '🗺️ Paradas Libres y Canales (2)',
+        'private': '🛥️ Barco Privado (1)',
+        'sightseeing_amsterdam': '🏆 Paseo Panorámico (3)',
+        'drinks_amsterdam': '🧀 Bebidas y Queso (4)',
+        'dining_amsterdam': '🍷 Cena y Pizza (2)',
+        'specialty_amsterdam': '✨ Especial y Smoke-Friendly (1)',
+        'sightseeing_london': '🏆 Paseo Panorámico (4)',
+        'dining_london': '🍷 Almuerzo y Cena (4)',
+        'speedboat_london': '⚡ Lanchas Rápidas (2)',
+        'duel_tab_1': 'Cena Bateaux Mouches',
+        'duel_tab_2': 'Cena Bateaux Parisiens',
+        'duel_tab_3': '⚖️ Tabla Comparativa Detallada',
+        'expand_all': 'Expandir todo',
+        'collapse_all': 'Contraer todo',
+        'breakdown_sub': 'Evaluado de forma independiente en el terreno • Todas las reseñas abiertas por defecto • Haz clic para contraer/expandir',
+        'hide_review': 'Ocultar reseña',
+        'show_review': 'Ver reseña',
+        'buyers_guide_divider': 'Guía del comprador y metodología'
+    },
+    'it': {
+        'filter_label': 'Filtri:',
+        'all': 'Tutti (10)',
+        'tested': '✓ Testato di persona (5)',
+        'livemusic': '🎵 Musica dal Vivo (5)',
+        'under100': '💶 Sotto 100 € (5)',
+        'gourmet': '🍷 Gourmet 4 Portate (5)',
+        'under20': '💶 Sotto 20 € (5)',
+        'treats': '🥂 Bevande e Degustazioni (4)',
+        'lunch': '🍽️ Pranzo a Bordo (1)',
+        'route': '🗺️ Hop-On & Canali (2)',
+        'private': '🛥️ Barca Privata (1)',
+        'sightseeing_amsterdam': '🏆 Giro Panoramico (3)',
+        'drinks_amsterdam': '🧀 Bevande e Formaggi (4)',
+        'dining_amsterdam': '🍷 Cena e Pizza (2)',
+        'specialty_amsterdam': '✨ Esperienze Speciali & 420 (1)',
+        'sightseeing_london': '🏆 Giro Panoramico (4)',
+        'dining_london': '🍷 Pranzo e Cena (4)',
+        'speedboat_london': '⚡ Motoscafi Veloci (2)',
+        'duel_tab_1': 'Cena Bateaux Mouches',
+        'duel_tab_2': 'Cena Bateaux Parisiens',
+        'duel_tab_3': '⚖️ Tabella di Confronto Completa',
+        'expand_all': 'Espandi tutto',
+        'collapse_all': 'Comprimi tutto',
+        'breakdown_sub': 'Testato sul campo in modo indipendente • Tutte le recensioni aperte di default • Clicca per comprimere/espandere',
+        'hide_review': 'Nascondi recensione',
+        'show_review': 'Mostra recensione',
+        "buyers_guide_divider": "Guida all'acquisto e metodologia"
+    },
+    'ja': {
+        'filter_label': 'フィルター:',
+        'all': 'すべて (10)',
+        'tested': '✓ 実際に現地検証済み (5)',
+        'livemusic': '🎵 ライブ音楽 (5)',
+        'under100': '💶 100ユーロ未満 (5)',
+        'gourmet': '🍷 4品フルコース (5)',
+        'under20': '💶 20ユーロ未満 (5)',
+        'treats': '🥂 ドリンク＆スイーツ (4)',
+        'lunch': '🍽️ ランチクルーズ (1)',
+        'route': '🗺️ 乗り降り自由＆運河 (2)',
+        'private': '🛥️ プライベートボート (1)',
+        'sightseeing_amsterdam': '🏆 定番観光 (3)',
+        'drinks_amsterdam': '🧀 ドリンク＆チーズ (4)',
+        'dining_amsterdam': '🍷 ディナー＆ピザ (2)',
+        'specialty_amsterdam': '✨ 特別体験＆420フレンドリー (1)',
+        'sightseeing_london': '🏆 定番観光 (4)',
+        'dining_london': '🍷 ランチ＆ディナー (4)',
+        'speedboat_london': '⚡ スピードボート (2)',
+        'duel_tab_1': 'バトー・ムーシュ ディナー',
+        'duel_tab_2': 'バトー・パリジャン ディナー',
+        'duel_tab_3': '⚖️ 詳細スペック比較表',
+        'expand_all': 'すべて展開',
+        'collapse_all': 'すべて折りたたむ',
+        'breakdown_sub': '現地で独自に実地検証済み • すべてのレビューはデフォルトで展開表示 • クリックで折りたたみ/展開',
+        'hide_review': 'レビューを閉じる',
+        'show_review': 'レビューを見る',
+        'buyers_guide_divider': '購入ガイド＆検証方法'
+    },
+    'nl': {
+        'filter_label': 'Filters:',
+        'all': 'Alle (10)',
+        'tested': '✓ Persoonlijk getest (5)',
+        'livemusic': '🎵 Live Muziek (5)',
+        'under100': '💶 Onder €100 (5)',
+        'gourmet': '🍷 4-Gangen Gastronomisch (5)',
+        'under20': '💶 Onder €20 (5)',
+        'treats': '🥂 Drankjes & Hapjes (4)',
+        'lunch': '🍽️ Lunch aan Boord (1)',
+        'route': '🗺️ Hop-On & Kanalen (2)',
+        'private': '🛥️ Privéboot (1)',
+        'sightseeing_amsterdam': '🏆 Rondvaart (3)',
+        'drinks_amsterdam': '🧀 Drankjes & Kaas (4)',
+        'dining_amsterdam': '🍷 Diner & Pizza (2)',
+        'specialty_amsterdam': '✨ Speciale Vaart & 420 (1)',
+        'sightseeing_london': '🏆 Rondvaart (4)',
+        'dining_london': '🍷 Lunch & Diner (4)',
+        'speedboat_london': '⚡ Speedboten (2)',
+        'duel_tab_1': 'Bateaux Mouches Diner',
+        'duel_tab_2': 'Bateaux Parisiens Diner',
+        'duel_tab_3': '⚖️ Volledige Vergelijkingstabel',
+        'expand_all': 'Alles uitklappen',
+        'collapse_all': 'Alles inklappen',
+        'breakdown_sub': 'Onafhankelijk in de praktijk getest • Alle reviews standaard geopend • Klik om in/uit te klappen',
+        'hide_review': 'Review inklappen',
+        'show_review': 'Review bekijken',
+        'buyers_guide_divider': 'Koopgids & Methodologie'
+    },
+    'pl': {
+        'filter_label': 'Filtry:',
+        'all': 'Wszystkie (10)',
+        'tested': '✓ Przetestowane osobiście (5)',
+        'livemusic': '🎵 Muzyka na żywo (5)',
+        'under100': '💶 Poniżej 100 € (5)',
+        'gourmet': '🍷 Wykwintne 4 Dania (5)',
+        'under20': '💶 Poniżej 20 € (5)',
+        'treats': '🥂 Drinki i Przekąski (4)',
+        'lunch': '🍽️ Obiad na Statku (1)',
+        'route': '🗺️ Hop-On i Kanał (2)',
+        'private': '🛥️ Prywatna Łódź (1)',
+        'sightseeing_amsterdam': '🏆 Rejs Widokowy (3)',
+        'drinks_amsterdam': '🧀 Drinki i Sery (4)',
+        'dining_amsterdam': '🍷 Kolacja i Pizza (2)',
+        'specialty_amsterdam': '✨ Specjalne i Smoke-Friendly (1)',
+        'sightseeing_london': '🏆 Rejs Widokowy (4)',
+        'dining_london': '🍷 Obiad i Kolacja (4)',
+        'speedboat_london': '⚡ Szybkie Łodzie (2)',
+        'duel_tab_1': 'Rejs Bateaux Mouches',
+        'duel_tab_2': 'Rejs Bateaux Parisiens',
+        'duel_tab_3': '⚖️ Tabela Porównawcza',
+        'expand_all': 'Rozwiń wszystko',
+        'collapse_all': 'Zwiń wszystko',
+        'breakdown_sub': 'Niezależnie przetestowane w terenie • Wszystkie recenzje domyślnie otwarte • Kliknij, aby zwinąć/rozwinąć',
+        'hide_review': 'Zwiń recenzję',
+        'show_review': 'Zobacz recenzję',
+        'buyers_guide_divider': 'Poradnik kupującego i metodologia'
+    },
+    'ro': {
+        'filter_label': 'Filtre:',
+        'all': 'Toate (10)',
+        'tested': '✓ Testat personal (5)',
+        'livemusic': '🎵 Muzică Live (5)',
+        'under100': '💶 Sub 100 € (5)',
+        'gourmet': '🍷 Meniu Gourmet 4 Feluri (5)',
+        'under20': '💶 Sub 20 € (5)',
+        'treats': '🥂 Băuturi & Gustări (4)',
+        'lunch': '🍽️ Prânz la Masă (1)',
+        'route': '🗺️ Hop-On & Canale (2)',
+        'private': '🛥️ Barcă Privată (1)',
+        'sightseeing_amsterdam': '🏆 Croazieră Panoramică (3)',
+        'drinks_amsterdam': '🧀 Băuturi & Brânzeturi (4)',
+        'dining_amsterdam': '🍷 Cină & Pizza (2)',
+        'specialty_amsterdam': '✨ Experiențe Speciale & 420 (1)',
+        'sightseeing_london': '🏆 Croazieră Panoramică (4)',
+        'dining_london': '🍷 Prânz & Cină (4)',
+        'speedboat_london': '⚡ Bărci Rapide (2)',
+        'duel_tab_1': 'Cină Bateaux Mouches',
+        'duel_tab_2': 'Cină Bateaux Parisiens',
+        'duel_tab_3': '⚖️ Tabel Comparativ Detaliat',
+        'expand_all': 'Extinde tot',
+        'collapse_all': 'Restrânge tot',
+        'breakdown_sub': 'Testat pe teren în mod independent • Toate recenziile deschise implicit • Clic pentru a restrânge/extinde',
+        'hide_review': 'Ascunde recenzia',
+        'show_review': 'Vezi recenzia',
+        'buyers_guide_divider': 'Ghidul cumpărătorului și metodologie'
+    }
+}
+
+def sync_metadata_from_git(soup, target_rel_path, lang):
+    """Extract authentic <title>, <meta description>, og:, twitter:, and JSON-LD schema from git history 0e6ce9a~1"""
+    try:
+        raw = subprocess.check_output(
+            ['git', '-C', BASE_DIR, 'show', f'0e6ce9a~1:{target_rel_path}'],
+            stderr=subprocess.DEVNULL
+        ).decode('utf-8', errors='ignore')
+        old_soup = BeautifulSoup(raw, 'html.parser')
+        old_title = old_soup.title.string.strip() if old_soup.title and old_soup.title.string else ''
+        d = old_soup.find('meta', {'name': 'description'})
+        old_desc = d['content'].strip() if d and d.get('content') else ''
+
+        if old_title:
+            if soup.title:
+                soup.title.string = old_title
+            og_t = soup.find('meta', property='og:title')
+            if og_t: og_t['content'] = old_title
+            tw_t = soup.find('meta', attrs={'name': 'twitter:title'})
+            if tw_t: tw_t['content'] = old_title
+
+        if old_desc:
+            m_desc = soup.find('meta', attrs={'name': 'description'})
+            if m_desc: m_desc['content'] = old_desc
+            og_d = soup.find('meta', property='og:description')
+            if og_d: og_d['content'] = old_desc
+            tw_d = soup.find('meta', attrs={'name': 'twitter:description'})
+            if tw_d: tw_d['content'] = old_desc
+
+        # Also update JSON-LD schema
+        canon_url = f"https://www.thecruisedetective.com/{target_rel_path.replace('/index.html', '')}"
+        for s in soup.find_all('script', {'type': 'application/ld+json'}):
+            try:
+                data = json.loads(s.string)
+                updated = False
+                if '@graph' in data:
+                    for item in data['@graph']:
+                        if item.get('@type') in ['Article', 'WebPage']:
+                            if lang: item['inLanguage'] = lang
+                            if old_title and 'headline' in item: item['headline'] = old_title
+                            if old_title and 'name' in item: item['name'] = old_title
+                            if old_desc and 'description' in item: item['description'] = old_desc
+                            item['url'] = canon_url
+                            if '@id' in item and '#' in item['@id']:
+                                item['@id'] = canon_url + '#' + item['@id'].split('#', 1)[1]
+                            updated = True
+                if updated:
+                    s.string = json.dumps(data, ensure_ascii=False)
+            except Exception:
+                pass
+    except Exception as e:
+        pass
+
 def localize_navbar(soup, lang):
     """Ensure navbar branding, links, and drawer are localized cleanly across ALL pages"""
     d = NAV_I18N[lang]
@@ -1613,6 +1901,7 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         canon_tag = head.find('link', rel='canonical')
         if canon_tag:
             canon_tag['href'] = canon_url
+        sync_metadata_from_git(master_soup, target_rel_path, lang)
 
     # 2. Localize Navbar & Mobile Drawer
     localize_navbar(master_soup, lang)
@@ -1651,8 +1940,44 @@ def clone_guide_page(dest_key, lang, target_rel_path):
                 lead_div.clear()
                 lead_div.append(BeautifulSoup(tr_data['lead_copy_html'], 'html.parser'))
 
-        fl = hero.find(class_='ltt-filter-label')
-        if fl: fl.string = t['filter_label']
+        if lang in FILTER_TABS_I18N:
+            ft = FILTER_TABS_I18N[lang]
+            fl = hero.find(class_='ltt-filter-label')
+            if fl: fl.string = ft['filter_label']
+            for btn in hero.find_all('button', class_='ltt-tab-btn'):
+                cat = btn.get('data-cat')
+                if cat == 'all':
+                    btn.string = ft['all']
+                elif cat == 'tested':
+                    btn.string = ft['tested']
+                elif cat == 'livemusic':
+                    btn.string = ft['livemusic']
+                elif cat == 'under100':
+                    btn.string = ft['under100']
+                elif cat == 'gourmet':
+                    btn.string = ft['gourmet']
+                elif cat == 'under20':
+                    btn.string = ft['under20']
+                elif cat == 'treats':
+                    btn.string = ft['treats']
+                elif cat == 'lunch':
+                    btn.string = ft['lunch']
+                elif cat == 'route':
+                    btn.string = ft['route']
+                elif cat == 'private':
+                    btn.string = ft['private']
+                elif cat == 'sightseeing':
+                    if dest_key == 'amsterdam': btn.string = ft['sightseeing_amsterdam']
+                    elif dest_key == 'london': btn.string = ft['sightseeing_london']
+                elif cat == 'drinks':
+                    btn.string = ft['drinks_amsterdam']
+                elif cat == 'dining':
+                    if dest_key == 'amsterdam': btn.string = ft['dining_amsterdam']
+                    elif dest_key == 'london': btn.string = ft['dining_london']
+                elif cat == 'specialty':
+                    btn.string = ft['specialty_amsterdam']
+                elif cat == 'speedboat':
+                    btn.string = ft['speedboat_london']
 
     # 4. Update Deck Cards (.bpa-card)
     deck = master_soup.find(class_='ltt-deck-container')
@@ -1744,6 +2069,16 @@ def clone_guide_page(dest_key, lang, target_rel_path):
     bd_title = dest_cfg['breakdown_title'].get(lang, dest_cfg['breakdown_title']['fr'])
     if bd_h2: bd_h2.string = bd_title
 
+    if lang in FILTER_TABS_I18N:
+        ft = FILTER_TABS_I18N[lang]
+        bd_sub = master_soup.find(class_='bpa-breakdown-sub')
+        if bd_sub: bd_sub.string = ft['breakdown_sub']
+        for abtn in master_soup.find_all('button', class_='bpa-acc-ctrl-btn'):
+            if 'true' in abtn.get('onclick', ''):
+                abtn.string = ft['expand_all']
+            elif 'false' in abtn.get('onclick', ''):
+                abtn.string = ft['collapse_all']
+
     # 6. Update In-Depth Review Cards (details.bpa-details-card)
     review_cards = master_soup.find_all('details', class_='bpa-details-card')
     for idx, rcard in enumerate(review_cards):
@@ -1751,7 +2086,12 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         row = tr_data['deck_rows'][idx] if idx < len(tr_data['deck_rows']) else {}
         card_title = short_titles[idx] if idx < len(short_titles) else rev.get('clean_title', '')
 
-        # Summary title
+        # Summary title & toggle text
+        if lang in FILTER_TABS_I18N:
+            toggle_text = rcard.find(class_='bpa-toggle-text')
+            if toggle_text:
+                toggle_text.string = FILTER_TABS_I18N[lang]['hide_review']
+
         stitle = rcard.find(class_='bpa-details-title')
         if stitle and card_title:
             stitle.string = card_title
@@ -1879,6 +2219,28 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         sbtn = sticky.find(class_='hybrid-sticky-btn') or sticky.find(class_='hybrid-cta-btn')
         if sbtn: sbtn.string = t['btn_check']
 
+    # 8.5 Localize Intro .w-richtext before #breakdown-header
+    if dest_key in ['dinner', 'sightseeing', 'london']:
+        try:
+            old_raw = subprocess.check_output(
+                ['git', '-C', BASE_DIR, 'show', f'0e6ce9a~1:{target_rel_path}'],
+                stderr=subprocess.DEVNULL
+            ).decode('utf-8', errors='ignore')
+            old_soup = BeautifulSoup(old_raw, 'html.parser')
+            target_intro = master_soup.select_one('.blog-section-2 .content-right_blog .w-richtext')
+            for rt in old_soup.find_all('div', class_='w-richtext'):
+                if 'breadcrumb' in ' '.join(rt.get('class', [])):
+                    continue
+                h2s = [h.get_text(strip=True) for h in rt.find_all('h2')]
+                if h2s and not any(h.startswith(('1.', '2.', '3.')) for h in h2s):
+                    if target_intro:
+                        target_intro.clear()
+                        for ch in list(rt.children):
+                            target_intro.append(ch)
+                    break
+        except Exception as e:
+            pass
+
     # 9. Handle Post-Review Sections
     if dest_key == 'dinner':
         try:
@@ -1923,6 +2285,13 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         new_script.string = cfg_code
         master_soup.body.append(new_script)
 
+    # 9.5 Localize inline runtime script strings
+    if lang in FILTER_TABS_I18N:
+        guide_div_label = FILTER_TABS_I18N[lang]['buyers_guide_divider']
+        for sc in master_soup.find_all('script'):
+            if sc.string and "Buyer's Guide & Methodology" in sc.string:
+                sc.string = sc.string.replace('\"Buyer\'s Guide & Methodology\"', json.dumps(guide_div_label))
+
     # 10. Localize Footer
     localize_footer(master_soup, lang)
 
@@ -1959,6 +2328,7 @@ def clone_and_translate_homepage(lang):
 
     canon = soup.find('link', rel='canonical')
     if canon: canon['href'] = f"https://www.thecruisedetective.com/{lang}/"
+    sync_metadata_from_git(soup, f"{lang}/index.html", lang)
 
     # 2. Localize Navbar & Mobile Drawer
     localize_navbar(soup, lang)
@@ -2126,6 +2496,7 @@ def clone_and_translate_about_page(lang):
 
     canon = soup.find('link', rel='canonical')
     if canon: canon['href'] = f"https://www.thecruisedetective.com/{URL_MAP[lang]['about'].lstrip('/')}"
+    sync_metadata_from_git(soup, rel_path, lang)
 
     # 2. Localize Navbar & Drawer
     localize_navbar(soup, lang)
@@ -2232,6 +2603,15 @@ def upgrade_all_duel_pages():
         
         localize_navbar(soup, lang)
         localize_footer(soup, lang)
+        sync_metadata_from_git(soup, rel_path, lang)
+
+        if lang in FILTER_TABS_I18N:
+            ft = FILTER_TABS_I18N[lang]
+            tabs = soup.find_all('button', class_='ltt-tab-btn')
+            if len(tabs) >= 3:
+                tabs[0].string = ft['duel_tab_1']
+                tabs[1].string = ft['duel_tab_2']
+                tabs[2].string = ft['duel_tab_3']
         
         with open(abs_path, 'w', encoding='utf-8') as f:
             f.write(str(soup))
@@ -2247,6 +2627,7 @@ def upgrade_all_contact_pages():
 
         localize_navbar(soup, lang)
         localize_footer(soup, lang)
+        sync_metadata_from_git(soup, rel_path, lang)
 
         with open(abs_path, 'w', encoding='utf-8') as f:
             f.write(str(soup))
