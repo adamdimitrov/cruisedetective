@@ -19,6 +19,10 @@ BASE_DIR = '/Users/adamdimitrov/Development/cruisedetective'
 sys.path.insert(0, os.path.join(BASE_DIR, 'scripts'))
 
 from upgrade_translated_about_pages import ABOUT_I18N
+try:
+    from complete_i18n_catalog import ABOUT_PAGE_I18N, HOMEPAGE_SUBCOMPONENTS_I18N, FOOTER_SUBCOMPONENTS_I18N, GUIDE_SUBCOMPONENTS_I18N
+except ImportError:
+    from scripts.complete_i18n_catalog import ABOUT_PAGE_I18N, HOMEPAGE_SUBCOMPONENTS_I18N, FOOTER_SUBCOMPONENTS_I18N, GUIDE_SUBCOMPONENTS_I18N
 from upgrade_translated_duel_pages import DUEL_I18N, DUEL_PAGES, build_duel_deck_html
 from upgrade_translated_contact_pages import CONTACT_I18N, CONTACT_PAGES
 from harmonize_all_translated_pages import I18N as HOMEPAGE_I18N
@@ -926,6 +930,13 @@ SPECS_MAP = {
     }
 }
 
+try:
+    from specs_i18n import SPECS_I18N
+    for _lcode, _sdict in SPECS_I18N.items():
+        SPECS_MAP[_lcode] = _sdict
+except Exception as _e:
+    pass
+
 PARIS_DINNER_BEST_FOR = {
     'fr': [
         "Couples, anniversaires et premiers visiteurs à Paris souhaitant la quintessence du dîner romantique avec violon, piano, champagne généreux et accès au pont ouvert à 360°.",
@@ -1737,7 +1748,7 @@ def localize_footer(soup, lang):
     d = HOMEPAGE_I18N[lang]
     u = URL_MAP[lang]
 
-    footer = soup.find('footer') or soup.find(class_='footer-dark')
+    footer = soup.find('footer') or soup.find(class_='footer-dark') or soup.find(class_='footer-section')
     if not footer:
         return
 
@@ -1789,6 +1800,16 @@ def localize_footer(soup, lang):
         elif 'terms' in href:
             a['href'] = f"/{lang}/terms-of-service"
             a.string = d['footer_terms']
+
+    # Localize footer tagline & copyright
+    if lang in FOOTER_SUBCOMPONENTS_I18N:
+        f_info = FOOTER_SUBCOMPONENTS_I18N[lang]
+        for lt in footer.find_all(class_=['legal-text', 'legal-paragraph']):
+            txt = lt.get_text()
+            if any(k in txt.lower() for k in ['rights reserved', 'droits réservés', 'rechte vorbehalten', 'derechos reservados', 'tutti i diritti', 'all rights', 'wszelkie prawa', 'toate drepturile', '無断転載を禁じます']):
+                lt.string = f_info['rights']
+            elif any(k in txt.lower() for k in ['tested undercover', 'incognito', 'im feld getestet', 'pruebas de incógnito', 'test in incognito', '実地調査', 'in de praktijk', 'w terenie', 'pe teren']):
+                lt.string = f_info['tagline']
 
 def extract_original_translated_data(rel_path):
     """Extract authentic translated copy from commit 0e6ce9a~1"""
@@ -1996,6 +2017,10 @@ def clone_guide_page(dest_key, lang, target_rel_path):
             if title_tag:
                 title_tag.string = card_title
 
+            for simg in card.find_all('img'):
+                if simg.get('alt') and card_title:
+                    simg['alt'] = card_title
+
             # Localize Rank tag
             rank_map = None
             if dest_key == 'dinner': rank_map = PARIS_DINNER_RANKS
@@ -2194,6 +2219,21 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         if qf_h:
             qf_h.string = t.get('quick_facts_title', 'Faits en bref — Caractéristiques vérifiées')
 
+        # Localize Video section inside review card
+        vsec = rcard.find(class_='ltt-media-section')
+        if vsec and card_title and lang in GUIDE_SUBCOMPONENTS_I18N:
+            vspan = vsec.select_one('.ltt-sec-mini-head span:first-child')
+            if vspan:
+                vspan.string = f"{GUIDE_SUBCOMPONENTS_I18N[lang]['video_review_prefix']} {card_title}"
+            vpill = vsec.find(class_='ltt-mini-pill')
+            if vpill:
+                vpill.string = GUIDE_SUBCOMPONENTS_I18N[lang]['first_hand_footage']
+
+        # Slider images alt tags inside review card
+        for simg in rcard.find_all('img'):
+            if simg.get('alt') and card_title:
+                simg['alt'] = card_title
+
     # 7. Update Table of Contents Title
     toc_titles = master_soup.find_all(class_=['title-small-3', 'ltt-toc-heading'])
     for tt in toc_titles:
@@ -2284,6 +2324,88 @@ def clone_guide_page(dest_key, lang, target_rel_path):
         new_script = master_soup.new_tag('script')
         new_script.string = cfg_code
         master_soup.body.append(new_script)
+
+    # 9.2 Localize Buy Cards, Quick Facts, and Video Review Sections
+    if lang in GUIDE_SUBCOMPONENTS_I18N:
+        gc = GUIDE_SUBCOMPONENTS_I18N[lang]
+
+        # Buy Cards (.ltt-buy-card)
+        for bc in master_soup.find_all(class_='ltt-buy-card'):
+            badge_span = bc.select_one('.ltt-buy-card-badge span:last-child')
+            if badge_span: badge_span.string = gc['official_tickets']
+
+            p_val = bc.find(class_='ltt-buy-price-val')
+            if p_val and 'From' in p_val.get_text():
+                p_val.string = p_val.get_text().replace('From', gc['from_price'])
+
+            for perk in bc.find_all(class_='ltt-buy-perk'):
+                ptxt = perk.get_text()
+                if 'Instant' in ptxt or '⚡' in ptxt:
+                    perk.string = gc['instant_qr']
+                elif 'Refund' in ptxt or '🛡️' in ptxt:
+                    perk.string = gc['full_refund']
+                elif 'Departure:' in ptxt or '📍' in ptxt:
+                    dp = perk.find('strong')
+                    dp_val = dp.get_text() if dp else ''
+                    perk.clear()
+                    perk.append(f"{gc['departure_label']} ")
+                    st = master_soup.new_tag('strong')
+                    st.string = dp_val
+                    perk.append(st)
+                elif 'Duration:' in ptxt or '⏱️' in ptxt:
+                    du = perk.find('strong')
+                    du_val = du.get_text() if du else ''
+                    perk.clear()
+                    perk.append(f"{gc['duration_label']} ")
+                    st = master_soup.new_tag('strong')
+                    st.string = du_val
+                    perk.append(st)
+
+            # CTA Button (.ltt-buy-cta-btn / .bpa-btn)
+            bcta = bc.find('a', class_=['ltt-buy-cta-btn', 'bpa-btn'])
+            if bcta:
+                bspan = bcta.find('span')
+                if bspan:
+                    bspan.string = gc['btn_check_pricing']
+                else:
+                    bcta.string = gc['btn_check_pricing']
+
+            # Trust Badge (.ltt-buy-card-trust)
+            btrust = bc.find(class_='ltt-buy-card-trust')
+            if btrust:
+                tspan = btrust.find('span')
+                if tspan:
+                    tspan.string = gc['best_price']
+            for mt in bc.find_all('div', style=lambda s: s and 'font-size: 11.5px' in s):
+                mt.string = gc['best_price']
+
+        # Quick Facts Table (.qf1-wrap)
+        for qf in master_soup.find_all(class_='qf1-wrap'):
+            qtitle = qf.find(class_='qf1-title')
+            if qtitle: qtitle.string = gc['qf_title']
+            for qrow in qf.find_all(class_='qf1-row'):
+                lbl = qrow.find(class_='qf1-label')
+                if lbl:
+                    ltxt = lbl.get_text(strip=True)
+                    if 'Schedule' in ltxt: lbl.string = gc['qf_schedule']
+                    elif 'Ticket' in ltxt: lbl.string = gc['qf_format']
+                    elif 'Dress' in ltxt: lbl.string = gc['qf_dress']
+                    elif 'Child' in ltxt: lbl.string = gc['qf_discounts']
+                    elif 'Parking' in ltxt: lbl.string = gc['qf_parking']
+
+        # Video Section (.ltt-media-section)
+        for vsec in master_soup.find_all(class_='ltt-media-section'):
+            vspan = vsec.select_one('.ltt-sec-mini-head span:first-child')
+            if vspan and 'Video Review:' in vspan.get_text():
+                vspan.string = vspan.get_text().replace('Video Review:', gc['video_review_prefix'])
+            vpill = vsec.find(class_='ltt-mini-pill')
+            if vpill and 'Footage' in vpill.get_text():
+                vpill.string = gc['first_hand_footage']
+
+        # Live Music H4
+        for mh in master_soup.find_all('h4'):
+            if 'Live Music' in mh.get_text():
+                mh.string = gc['live_music_h4']
 
     # 9.5 Localize inline runtime script strings
     if lang in FILTER_TABS_I18N:
@@ -2431,6 +2553,11 @@ def clone_and_translate_homepage(lang):
 
     # 5. Localize Manifesto Section
     manifesto_sec = soup.find(lambda s: s.name == 'section' and s.find(class_='ltt-manifesto-grid'))
+    if manifesto_sec and lang in HOMEPAGE_SUBCOMPONENTS_I18N:
+        m_btn = manifesto_sec.find(class_='ltt-guide-btn')
+        if m_btn:
+            m_btn['href'] = u['about']
+            m_btn.string = HOMEPAGE_SUBCOMPONENTS_I18N[lang]['manifesto_btn']
     if manifesto_sec:
         m_eyebrow = manifesto_sec.find(class_='ltt-section-eyebrow')
         if m_eyebrow: m_eyebrow.string = d['manifesto_eyebrow']
@@ -2454,6 +2581,11 @@ def clone_and_translate_homepage(lang):
 
     # 6. Localize Author Section
     author_sec = soup.find(class_='ltt-author-section')
+    if author_sec and lang in HOMEPAGE_SUBCOMPONENTS_I18N:
+        h_badges = HOMEPAGE_SUBCOMPONENTS_I18N[lang]['author_badges']
+        for b_idx, vb in enumerate(author_sec.find_all(class_='ltt-vbadge')):
+            if b_idx < len(h_badges):
+                vb.string = h_badges[b_idx]
     if author_sec:
         a_eyebrow = author_sec.find(class_='ltt-author-eyebrow')
         if a_eyebrow: a_eyebrow.string = d['author_eyebrow']
@@ -2487,7 +2619,7 @@ def clone_and_translate_about_page(lang):
     with open(en_path, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
 
-    ab = ABOUT_I18N[lang]
+    ab = ABOUT_PAGE_I18N[lang]
     u = URL_MAP[lang]
 
     # 1. Update html lang & canonical
@@ -2501,7 +2633,7 @@ def clone_and_translate_about_page(lang):
     # 2. Localize Navbar & Drawer
     localize_navbar(soup, lang)
 
-    # 3. Localize About Header
+    # 3. Localize Section 1: Hero Header
     hdr = soup.find(class_='ltt-about-header')
     if hdr:
         eyebrow = hdr.find(class_='ltt-section-eyebrow')
@@ -2518,17 +2650,17 @@ def clone_and_translate_about_page(lang):
         lead = hdr.find(class_='ltt-about-intro-lead')
         if lead: lead.string = ab['hdr_lead']
 
-    # 4. Localize Section 1: Manifesto Pillars
-    pillars_sec = soup.find(lambda s: s.name == 'section' and s.find(class_='ltt-manifesto-grid'))
-    if pillars_sec:
-        eyebrow = pillars_sec.find(class_='ltt-section-eyebrow')
+    # 4. Localize Section 2: Travel Reality Manifesto
+    manifesto_sec = soup.find(lambda s: s.name == 'section' and s.find(class_='ltt-manifesto-grid'))
+    if manifesto_sec:
+        eyebrow = manifesto_sec.find(class_='ltt-section-eyebrow')
         if eyebrow: eyebrow.string = ab['sec1_eyebrow']
-        title = pillars_sec.find(class_='ltt-section-title')
+        title = manifesto_sec.find(class_='ltt-section-title')
         if title: title.string = ab['sec1_title']
-        sub = pillars_sec.find(class_='ltt-section-subtitle')
+        sub = manifesto_sec.find(class_='ltt-section-subtitle')
         if sub: sub.string = ab['sec1_sub']
 
-        p_cards = pillars_sec.find_all(class_='ltt-manifesto-card')
+        p_cards = manifesto_sec.find_all(class_='ltt-manifesto-card')
         p_data = [
             (ab['p1_title'], ab['p1_text']),
             (ab['p2_title'], ab['p2_text']),
@@ -2541,27 +2673,40 @@ def clone_and_translate_about_page(lang):
                 p = pc.find('p')
                 if p: p.string = p_data[idx][1]
 
-    # 5. Localize Section 2: Founder Card
-    founder_sec = soup.find(lambda s: s.name == 'section' and s.find(class_='ltt-author-card'))
-    if founder_sec:
-        f_eyebrow = founder_sec.find(class_='ltt-author-eyebrow')
-        if f_eyebrow: f_eyebrow.string = ab['founder_eyebrow']
-        f_name = founder_sec.find(class_='ltt-author-name')
-        if f_name: f_name.string = ab['founder_name']
-        f_role = founder_sec.find(class_='ltt-author-role')
-        if f_role: f_role.string = ab['founder_role']
-        
-        f_card = founder_sec.find(class_='ltt-author-card')
-        if f_card:
-            right_col = f_card.find('div')
-            if right_col:
-                ps = right_col.find_all('p')
-                if len(ps) >= 2:
-                    ps[0].string = ab['founder_p1']
-                    ps[1].string = ab['founder_p2']
+    # 5. Localize Section 3: Founder Leadership Stack (#founders)
+    founders_sec = soup.find('section', id='founders') or soup.find(lambda s: s.name == 'section' and (s.find(class_='ltt-founders-stack') or s.find(class_='ltt-founder-card')))
+    if founders_sec:
+        f_eyebrow = founders_sec.find(class_='ltt-section-eyebrow')
+        if f_eyebrow: f_eyebrow.string = ab['founders_eyebrow']
+        f_title = founders_sec.find(class_='ltt-section-title')
+        if f_title: f_title.string = ab['founders_title']
+        f_sub = founders_sec.find(class_='ltt-section-subtitle')
+        if f_sub: f_sub.string = ab['founders_sub']
 
-    # 6. Localize Section 3: Ethics Policy (Dark Navy Container)
-    ethics_sec = soup.find(class_='ltt-ethics-section')
+        f_card = founders_sec.find(class_='ltt-founder-card')
+        if f_card:
+            f_role = f_card.find(class_='ltt-founder-role')
+            if f_role: f_role.string = ab['founder_role']
+
+            f_badges = f_card.find_all(class_='ltt-badge-pill')
+            for b_idx, badge_el in enumerate(f_badges):
+                if b_idx < len(ab['founder_badges']):
+                    badge_el.string = ab['founder_badges'][b_idx]
+
+            f_lead = f_card.find(class_='ltt-founder-lead')
+            if f_lead: f_lead.string = ab['founder_lead']
+
+            f_bodies = f_card.find_all(class_='ltt-founder-body')
+            if len(f_bodies) >= 1:
+                f_bodies[0].string = ab['founder_body1']
+            if len(f_bodies) >= 2:
+                f_bodies[1].string = ab['founder_body2']
+
+            f_quote = f_card.find(class_='ltt-founder-pullquote')
+            if f_quote: f_quote.string = ab['founder_quote']
+
+    # 6. Localize Section 4: Ethics Policy (Dark Navy Container #testing-protocol)
+    ethics_sec = soup.find(class_='ltt-ethics-section') or soup.find('section', id='testing-protocol')
     if ethics_sec:
         e_eyebrow = ethics_sec.find(class_='ltt-section-eyebrow')
         if e_eyebrow: e_eyebrow.string = ab['sec2_eyebrow']
@@ -2633,6 +2778,23 @@ def upgrade_all_contact_pages():
             f.write(str(soup))
         print(f"[CONTACT NAV LOCALIZED] {rel_path}")
 
+def upgrade_all_deal_and_legal_pages():
+    for lang in LANGS:
+        for sub in ['seine-cruise-deal', 'privacy-policy', 'terms-of-service']:
+            rel_path = f"{lang}/{sub}/index.html"
+            abs_path = os.path.join(BASE_DIR, rel_path)
+            if not os.path.exists(abs_path):
+                continue
+            with open(abs_path, 'r', encoding='utf-8') as f:
+                soup = BeautifulSoup(f.read(), 'html.parser')
+
+            localize_navbar(soup, lang)
+            localize_footer(soup, lang)
+
+            with open(abs_path, 'w', encoding='utf-8') as f:
+                f.write(str(soup))
+            print(f"[DEAL/LEGAL LOCALIZED] {rel_path}")
+
 def run_all_cloners():
     print("=================================================================")
     print("EXECUTING DEFINITIVE MASTER 1:1 CLONING & TRANSLATION ENGINE (V3)")
@@ -2663,6 +2825,10 @@ def run_all_cloners():
     # 5. Contact Pages (8 pages)
     print("\n--- PHASE 5: CONTACT DESK PAGES ---")
     upgrade_all_contact_pages()
+
+    # 6. Deal and Legal Pages (24 pages)
+    print("\n--- PHASE 6: DEAL & LEGAL PAGES ---")
+    upgrade_all_deal_and_legal_pages()
 
     print("\n=================================================================")
     print("ALL 64+ SITE PAGES CLONED & TRANSLATED WITH 100% MASTER PARITY!")
