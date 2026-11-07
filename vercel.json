@@ -187,21 +187,6 @@
       "permanent": true
     },
     {
-      "source": "/it",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/de",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/es",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/uk/про",
       "destination": "/about",
       "permanent": true
@@ -318,21 +303,6 @@
     },
     {
       "source": "/no/om",
-      "destination": "/about",
-      "permanent": true
-    },
-    {
-      "source": "/it/su-di-noi",
-      "destination": "/about",
-      "permanent": true
-    },
-    {
-      "source": "/de/uber-uns",
-      "destination": "/about",
-      "permanent": true
-    },
-    {
-      "source": "/es/acerca",
       "destination": "/about",
       "permanent": true
     },
@@ -457,21 +427,6 @@
       "permanent": true
     },
     {
-      "source": "/it/migliori-crociere-con-cena-senna-parigi",
-      "destination": "/dinner-cruises-paris",
-      "permanent": true
-    },
-    {
-      "source": "/de/besten-bootsfahrten-mit-abendessen-paris",
-      "destination": "/dinner-cruises-paris",
-      "permanent": true
-    },
-    {
-      "source": "/es/mejores-cruceros-con-cena-paris",
-      "destination": "/dinner-cruises-paris",
-      "permanent": true
-    },
-    {
       "source": "/uk/контакт",
       "destination": "/contact",
       "permanent": true
@@ -588,21 +543,6 @@
     },
     {
       "source": "/no/kontakt",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
-      "source": "/it/contatto",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
-      "source": "/de/kontakt",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
-      "source": "/es/contacto",
       "destination": "/contact",
       "permanent": true
     },
@@ -727,21 +667,6 @@
       "permanent": true
     },
     {
-      "source": "/it/migliori-crociere-senna-parigi",
-      "destination": "/seine-river-cruises-paris",
-      "permanent": true
-    },
-    {
-      "source": "/de/besten-bootsfahrten-seine-paris",
-      "destination": "/seine-river-cruises-paris",
-      "permanent": true
-    },
-    {
-      "source": "/es/mejores-cruceros-sena-paris",
-      "destination": "/seine-river-cruises-paris",
-      "permanent": true
-    },
-    {
       "source": "/uk/найкращі-круїзи-каналах-Амстердамі",
       "destination": "/canal-cruises-amsterdam",
       "permanent": true
@@ -858,21 +783,6 @@
     },
     {
       "source": "/no/beste-kanal-cruise-amsterdam",
-      "destination": "/canal-cruises-amsterdam",
-      "permanent": true
-    },
-    {
-      "source": "/it/migliori-crociere-canali-amsterdam",
-      "destination": "/canal-cruises-amsterdam",
-      "permanent": true
-    },
-    {
-      "source": "/de/besten-grachtenfahrten-amsterdam",
-      "destination": "/canal-cruises-amsterdam",
-      "permanent": true
-    },
-    {
-      "source": "/es/mejores-cruceros-canales-amsterdam",
       "destination": "/canal-cruises-amsterdam",
       "permanent": true
     },
@@ -997,21 +907,6 @@
       "permanent": true
     },
     {
-      "source": "/es/mejores-cruceros-tamesis-londres",
-      "destination": "/thames-river-cruises-london",
-      "permanent": true
-    },
-    {
-      "source": "/it/crociere-sul-fiume-tamigi-a-londra",
-      "destination": "/thames-river-cruises-london",
-      "permanent": true
-    },
-    {
-      "source": "/de/themse-kreuzfahrten-london",
-      "destination": "/thames-river-cruises-london",
-      "permanent": true
-    },
-    {
       "source": "/uk/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparation",
       "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
       "permanent": true
@@ -1128,21 +1023,6 @@
     },
     {
       "source": "/no/bateaux-mouches-vs-bateaux-parisiens-middag-cruise-side-ved-side-sammenligning",
-      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
-      "permanent": true
-    },
-    {
-      "source": "/es/comparación-de-crucero-con-cena-bateaux-mouches-vs-bateaux-parisiens-lado-a-lado",
-      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
-      "permanent": true
-    },
-    {
-      "source": "/it/bateaux-mouches-vs-bateaux-parisiens-crociera-con-cena-confronto-fianco-a-fianco",
-      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
-      "permanent": true
-    },
-    {
-      "source": "/de/bateaux-mouches-gegen-bateaux-parisiens-dinner-kreuzfahrt-nebeneinander-vergleich",
       "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
       "permanent": true
     },
@@ -1267,21 +1147,6 @@
       "permanent": true
     },
     {
-      "source": "/es/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
-      "permanent": true
-    },
-    {
-      "source": "/it/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
-      "permanent": true
-    },
-    {
-      "source": "/de/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
-      "permanent": true
-    },
-    {
       "source": "/uk/seine-cruise-deal",
       "destination": "/seine-cruise-deal",
       "permanent": true
@@ -1398,21 +1263,6 @@
     },
     {
       "source": "/no/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/es/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/it/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/de/seine-cruise-deal",
       "destination": "/seine-cruise-deal",
       "permanent": true
     },
@@ -1537,21 +1387,6 @@
       "permanent": true
     },
     {
-      "source": "/es/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
-      "permanent": true
-    },
-    {
-      "source": "/it/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
-      "permanent": true
-    },
-    {
-      "source": "/de/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
-      "permanent": true
-    },
-    {
       "source": "/uk/privacy-policy",
       "destination": "/privacy-policy",
       "permanent": true
@@ -1668,21 +1503,6 @@
     },
     {
       "source": "/no/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/es/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/it/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/de/privacy-policy",
       "destination": "/privacy-policy",
       "permanent": true
     },
@@ -1807,21 +1627,6 @@
       "permanent": true
     },
     {
-      "source": "/es/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/it/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/de/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
       "source": "/dinner-cruise-paris",
       "destination": "/dinner-cruises-paris",
       "permanent": true
@@ -1842,12 +1647,12 @@
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|de|el|es|fa|fi|he|hi|hr|hu|it|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
+      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|de|el|es|fa|fi|he|hi|hr|hu|it|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
+      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
       "destination": "/",
       "permanent": true
     }

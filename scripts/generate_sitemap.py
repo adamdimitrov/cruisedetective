@@ -20,12 +20,12 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITEMAP_OUTPUT_PATH = os.path.join(PROJECT_ROOT, "sitemap.xml")
 BACKUP_SITEMAP_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sitemap_production_backup.xml")
 
-APPROVED_LANGUAGES = ["en", "ja", "pl", "ro", "fr", "nl"]
-ALLOWED_HREFLANGS = {"en", "en-us", "ja", "pl", "ro", "fr", "nl", "x-default"}
+APPROVED_LANGUAGES = ["en", "ja", "pl", "ro", "fr", "nl", "es", "de", "it"]
+ALLOWED_HREFLANGS = {"en", "en-us", "ja", "pl", "ro", "fr", "nl", "es", "de", "it", "x-default"}
 
 DEAD_LANGUAGES = [
-    "ar", "bg", "ca", "cs", "da", "de", "el", "es", "fa", "fi",
-    "he", "hi", "hr", "hu", "it", "ko", "no", "pt", "ru", "sk",
+    "ar", "bg", "ca", "cs", "da", "el", "fa", "fi",
+    "he", "hi", "hr", "hu", "ko", "no", "pt", "ru", "sk",
     "sr", "sv", "th", "tr", "uk", "vi", "zh"
 ]
 
@@ -56,7 +56,7 @@ def is_approved_loc(loc):
         return False
 
     # Approved language prefixes or root/English
-    if prefix in ["ja", "pl", "ro", "fr", "nl"]:
+    if prefix in ["ja", "pl", "ro", "fr", "nl", "es", "de", "it"]:
         return True
     
     # If prefix is not a known dead language and not an approved localized prefix, it is English (e.g. '', 'about', 'dinner-cruises-paris')
@@ -84,7 +84,7 @@ def generate_clean_sitemap(xml_content):
             approved_urls.append((loc, u))
 
     print(f"Discovered {len(approved_urls)} approved URLs matching 6 approved languages.")
-    assert len(approved_urls) == 77, f"Expected exactly 77 approved URLs, got {len(approved_urls)}"
+    assert len(approved_urls) == 116, f"Expected exactly 116 approved URLs, got {len(approved_urls)}"
 
     for loc, old_url in approved_urls:
         new_url = ET.SubElement(new_root, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
