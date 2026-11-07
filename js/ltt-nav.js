@@ -124,6 +124,66 @@
         closeTocSheet();
       }
     });
+
+    // Update active nav links based on current URL
+    updateActiveNavLinks();
+  }
+
+  function updateActiveNavLinks() {
+    try {
+      if (typeof window === 'undefined' || !window.location) return;
+      var rawPath = (window.location.pathname || '/').toLowerCase();
+      var normPath = rawPath.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+
+      var navLinks = document.querySelectorAll('.ltt-nav-link:not(.ltt-dropdown-btn), .ltt-mobile-link, .ltt-mega-item');
+      var isDropdownChildActive = false;
+
+      navLinks.forEach(function(el) {
+        var rawHref = (el.getAttribute('href') || '').toLowerCase();
+        if (!rawHref) return;
+        var normHref = rawHref.split('?')[0].split('#')[0].replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+
+        var isMatch = false;
+        if (normHref !== '/' && (normPath === normHref || normPath.indexOf(normHref + '/') === 0)) {
+          isMatch = true;
+        } else if (normHref === '/' && normPath === '/') {
+          isMatch = true;
+        }
+
+        if (isMatch) {
+          el.classList.add('active');
+          el.setAttribute('aria-current', 'page');
+          if (el.closest('.ltt-mega-menu')) {
+            isDropdownChildActive = true;
+          }
+        } else {
+          if (normHref !== '/') {
+            el.classList.remove('active');
+            el.removeAttribute('aria-current');
+          }
+        }
+      });
+
+      // Handle Destinations dropdown button (only active if child is active AND not already represented by a top-level link)
+      var hasDirectTopLink = false;
+      var topLinks = document.querySelectorAll('.ltt-nav-links > .ltt-nav-link:not(.ltt-dropdown-btn)');
+      topLinks.forEach(function(tl) {
+        if (tl.classList.contains('active')) {
+          hasDirectTopLink = true;
+        }
+      });
+
+      var dropBtn = document.querySelector('.ltt-dropdown-btn');
+      if (dropBtn) {
+        if (isDropdownChildActive && !hasDirectTopLink) {
+          dropBtn.classList.add('active');
+          dropBtn.setAttribute('aria-current', 'true');
+        } else {
+          dropBtn.classList.remove('active');
+          dropBtn.removeAttribute('aria-current');
+        }
+      }
+    } catch(e) {}
   }
 
   // 4. Hybrid Sticky Bar & Bottom Sheet TOC

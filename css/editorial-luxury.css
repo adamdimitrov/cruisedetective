@@ -234,11 +234,31 @@ a:hover {
 }
 
 .ltt-nav-link.active,
-.ltt-nav-link[aria-current="page"] {
+.ltt-nav-link[aria-current="page"],
+.ltt-dropdown-btn.active {
   color: #0f172a !important;
   background: #f1f5f9 !important;
   font-weight: 700 !important;
   box-shadow: inset 0 -2px 0 #0f172a !important;
+}
+
+.ltt-mega-item.active,
+.ltt-mega-item[aria-current="page"] {
+  background: #f1f5f9 !important;
+  border-left: 3px solid #0f172a !important;
+}
+
+.ltt-mobile-link.active,
+.ltt-mobile-link[aria-current="page"] {
+  background: #0f172a !important;
+  color: #ffffff !important;
+  border-color: #0f172a !important;
+  font-weight: 700 !important;
+}
+
+.ltt-mobile-link.active span,
+.ltt-mobile-link[aria-current="page"] span {
+  color: #ffffff !important;
 }
 
 .ltt-nav-dropdown {

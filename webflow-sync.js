@@ -156,11 +156,109 @@
         });
     }
 
+    // ----------------------------------------------------
+    // 3. Dynamic Active Navigation Link Controller
+    // ----------------------------------------------------
+    function ensureActiveNavStyles() {
+        try {
+            if (typeof document === 'undefined') return;
+            if (!document.getElementById('ltt-active-nav-styles')) {
+                var style = document.createElement('style');
+                style.id = 'ltt-active-nav-styles';
+                style.textContent = '' +
+                    '.ltt-nav-link.active, .ltt-nav-link[aria-current="page"], .ltt-dropdown-btn.active {' +
+                    '  color: #0f172a !important;' +
+                    '  background: #f1f5f9 !important;' +
+                    '  font-weight: 700 !important;' +
+                    '  box-shadow: inset 0 -2px 0 #0f172a !important;' +
+                    '}' +
+                    '.ltt-mega-item.active, .ltt-mega-item[aria-current="page"] {' +
+                    '  background: #f1f5f9 !important;' +
+                    '  border-left: 3px solid #0f172a !important;' +
+                    '}' +
+                    '.ltt-mobile-link.active, .ltt-mobile-link[aria-current="page"] {' +
+                    '  background: #0f172a !important;' +
+                    '  color: #ffffff !important;' +
+                    '  border-color: #0f172a !important;' +
+                    '  font-weight: 700 !important;' +
+                    '}' +
+                    '.ltt-mobile-link.active span, .ltt-mobile-link[aria-current="page"] span {' +
+                    '  color: #ffffff !important;' +
+                    '}';
+                (document.head || document.documentElement).appendChild(style);
+            }
+        } catch(e) {}
+    }
+
+    function updateActiveNavLinks() {
+        try {
+            if (typeof window === 'undefined' || !window.location) return;
+            ensureActiveNavStyles();
+
+            var rawPath = (window.location.pathname || '/').toLowerCase();
+            var normPath = rawPath.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+
+            var navLinks = document.querySelectorAll('.ltt-nav-link:not(.ltt-dropdown-btn), .ltt-mobile-link, .ltt-mega-item');
+            var isDropdownChildActive = false;
+
+            navLinks.forEach(function(el) {
+                var rawHref = (el.getAttribute('href') || '').toLowerCase();
+                if (!rawHref) return;
+                var normHref = rawHref.split('?')[0].split('#')[0].replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+
+                var isMatch = false;
+                if (normHref !== '/' && (normPath === normHref || normPath.indexOf(normHref + '/') === 0)) {
+                    isMatch = true;
+                } else if (normHref === '/' && normPath === '/') {
+                    isMatch = true;
+                }
+
+                if (isMatch) {
+                    el.classList.add('active');
+                    el.setAttribute('aria-current', 'page');
+                    if (el.closest('.ltt-mega-menu')) {
+                        isDropdownChildActive = true;
+                    }
+                } else {
+                    if (normHref !== '/') {
+                        el.classList.remove('active');
+                        el.removeAttribute('aria-current');
+                    }
+                }
+            });
+
+            // Handle Destinations dropdown button (only active if child is active AND not already represented by a top-level link)
+            var hasDirectTopLink = false;
+            var topLinks = document.querySelectorAll('.ltt-nav-links > .ltt-nav-link:not(.ltt-dropdown-btn)');
+            topLinks.forEach(function(tl) {
+                if (tl.classList.contains('active')) {
+                    hasDirectTopLink = true;
+                }
+            });
+
+            var dropBtn = document.querySelector('.ltt-dropdown-btn');
+            if (dropBtn) {
+                if (isDropdownChildActive && !hasDirectTopLink) {
+                    dropBtn.classList.add('active');
+                    dropBtn.setAttribute('aria-current', 'true');
+                } else {
+                    dropBtn.classList.remove('active');
+                    dropBtn.removeAttribute('aria-current');
+                }
+            }
+        } catch(e) {}
+    }
+
     // Run synchronization on DOMContentLoaded and on window load
     function init() {
         const clickId = getOrSetClickId();
         decorateTiqetsLinks(clickId);
+        updateActiveNavLinks();
     }
+
+    // Immediate attempt if DOM is already present
+    ensureActiveNavStyles();
+    updateActiveNavLinks();
 
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
