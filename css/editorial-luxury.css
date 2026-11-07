@@ -2,7 +2,7 @@
    THE CRUISE DETECTIVE — LUXURY EDITORIAL DESIGN SYSTEM & ARCHITECTURE
    Condé Nast Traveler / Wirecutter Hybrid Aesthetic
    Typography: 'Playfair Display' (Serif) + 'Plus Jakarta Sans' (Sans-serif)
-   Palette: Deep Slate / Obsidian (#0f172a, #1e293b), Warm Ivory (#faf8f5), Champagne Gold (#d97706, #c5a059)
+   Palette: Deep Slate / Obsidian (#0f172a, #1e293b), Warm Ivory (#faf8f5), Champagne Gold (#dfa732, #b88214)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
@@ -26,11 +26,11 @@
   --ivory-warm: #faf8f5;
   --ivory-pure: #ffffff;
   
-  --gold-primary: #d97706;
-  --gold-accent:  #c5a059;
-  --gold-hover:   #b45309;
-  --gold-light:   #fef3c7;
-  --gold-border:  rgba(217, 119, 6, 0.25);
+  --gold-primary: #dfa732;
+  --gold-accent:  #dfa732;
+  --gold-hover:   #b88214;
+  --gold-light:   #fdfaf2;
+  --gold-border:  rgba(223, 167, 50, 0.25);
   
   --green-bg:     #f0fdf4;
   --green-border: #bbf7d0;
@@ -552,7 +552,7 @@ a:hover {
 }
 
 .bpa-rank-tag.bpa-gold {
-  background: #d97706 !important;
+  background: #dfa732 !important;
   color: #ffffff !important;
 }
 
@@ -657,7 +657,7 @@ a:hover {
 
 .bpa-score-text {
   background: var(--gold-light) !important;
-  color: #92400e !important;
+  color: #785208 !important;
   font-weight: 800 !important;
   font-size: 11.5px !important;
   padding: 2px 7px !important;
@@ -807,12 +807,12 @@ a:hover {
 /* Editorial Best-For Box */
 .bpa-best-for {
   background: #fffbeb !important;
-  border: 1px solid rgba(217, 119, 6, 0.2) !important;
+  border: 1px solid rgba(223, 167, 50, 0.25) !important;
   border-left: 3px solid var(--gold-primary) !important;
   border-radius: 0 8px 8px 0 !important;
   padding: 10px 12px !important;
   font-size: 12px !important;
-  color: #92400e !important;
+  color: #785208 !important;
   line-height: 1.45 !important;
 }
 
@@ -1215,7 +1215,7 @@ a:hover {
 
 .hybrid-active-badge,
 .hybrid-pick-badge {
-  background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%) !important;
+  background: linear-gradient(135deg, #d4b26f 0%, #dfa732 100%) !important;
   color: #0f172a !important;
   font-size: 11px !important;
   font-weight: 800 !important;
@@ -1259,7 +1259,7 @@ a:hover {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  background: linear-gradient(135deg, #dfa732 0%, #b88214 100%) !important;
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
   font-size: 13.5px !important;
@@ -1269,7 +1269,7 @@ a:hover {
   border-radius: 999px !important;
   text-decoration: none !important;
   white-space: nowrap !important;
-  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.5) !important;
+  box-shadow: 0 4px 14px rgba(223, 167, 50, 0.45) !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
   border: 1px solid rgba(255, 255, 255, 0.25) !important;
   transition: all 0.15s ease !important;
@@ -1277,11 +1277,11 @@ a:hover {
 
 .hybrid-cta-btn:hover,
 .hybrid-cta-btn:focus {
-  background: linear-gradient(135deg, #b45309 0%, #78350f 100%) !important;
+  background: linear-gradient(135deg, #ca9325 0%, #9f6e0d 100%) !important;
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
   transform: translateY(-1px) !important;
-  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.7) !important;
+  box-shadow: 0 6px 20px rgba(223, 167, 50, 0.65) !important;
 }
 
 @media (max-width: 768px) {
@@ -1416,9 +1416,9 @@ a:hover {
 }
 
 .hybrid-toc-item:hover {
-  background: #fffbeb;
-  border-color: #fde68a;
-  color: #92400e;
+  background: #fdfaf2;
+  border-color: #f2e0b6;
+  color: #785208;
 }
 
 .hybrid-toc-item span:first-child {
@@ -1983,9 +1983,9 @@ a:hover {
 
 /* Sommelier & Field Auditor Insider Tip */
 .cd-sommelier-tip {
-  background: #fffbeb !important;
-  border: 1px solid #fde68a !important;
-  border-left: 4px solid #d97706 !important;
+  background: #fdfaf2 !important;
+  border: 1px solid #f2e0b6 !important;
+  border-left: 4px solid #dfa732 !important;
   border-radius: 0 12px 12px 0 !important;
   padding: 18px 22px !important;
   margin: 20px 0 24px 0 !important;
@@ -2002,9 +2002,9 @@ a:hover {
   display: inline-flex !important;
   align-items: center !important;
   gap: 5px !important;
-  background: #fef3c7 !important;
-  border: 1px solid #fcd34d !important;
-  color: #b45309 !important;
+  background: #fbf8f1 !important;
+  border: 1px solid #f2e0b6 !important;
+  color: #785208 !important;
   font-size: 11px !important;
   font-weight: 800 !important;
   letter-spacing: 0.08em !important;
@@ -2017,14 +2017,14 @@ a:hover {
   font-family: var(--font-serif) !important;
   font-size: 16px !important;
   font-weight: 700 !important;
-  color: #92400e !important;
+  color: #785208 !important;
   margin: 0 !important;
 }
 
 .cd-tip-body p {
   font-size: 14.5px !important;
   line-height: 1.65 !important;
-  color: #78350f !important;
+  color: #5c3e04 !important;
   margin: 0 !important;
 }
 
