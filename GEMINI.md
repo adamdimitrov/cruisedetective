@@ -63,3 +63,16 @@
   - **Google Ads Asset ID**: `432769086002` (`customers/4899321613/assets/432769086002`)
   - **Mandatory Policy**: ALWAYS use this exact circular detective emblem with white background (detective in trench coat and fedora holding a magnifying glass inspecting a cruise ship) for all Google Ads business logo assets, PMax brand identity, display units, and advertiser verification.
   - **Dimensions & Specs**: 256x256 PNG, solid white background, 1:1 aspect ratio (conforms to Google Ads square logo asset requirement, minimum 128x128).
+
+# Budapest Adventures & Legenda City Cruises Commercial Intelligence
+
+- **Core Credential & Account Status**:
+  - In 2025, **Budapest Adventures (`contact@budapestadventures.com` / Adam Dimitrov) generated €130,000+ in direct ticket revenue for Legenda City Cruises**.
+  - Legenda leadership explicitly confirmed Adam / Budapest Adventures as by far their top performing, standout online partner.
+  - Adam is not an outside solicitor or cold agency; he is a verified **Top-Tier VIP Account / Key Distribution Partner**.
+- **Strategic Directives with Legenda**:
+  - **No Cold Pitching / No Guessing**: Leverage the €130,000 track record to secure an in-person, 15-minute meeting at Legenda's Vigadó tér office.
+  - **Discovery First**: Do not guess bottlenecks; let them voice their pain points (off-peak capacity, OTA margin bleed to Viator/GetYourGuide, winter seasonality) and package performance-based solutions around them.
+- **Partner Ecosystem (Aug 20 Leak)**:
+  - Legenda relies on ~200 offline B2B accounts: Budapest 5-star concierges (Four Seasons, Ritz-Carlton, Kempinski, Matild Palace, W Budapest, etc.) and global wholesale DMCs (Abercrombie & Kent, Amex GBT, Miki Travel, G2 Travel).
+  - Strictly no mass spamming to protect the partnership and avoid alerting them to the leak. Direct concierge contact is reserved for high-ticket private experiences (private boats, VIP wine tours) that Legenda cannot fulfill.

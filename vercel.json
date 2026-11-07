@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "functions": {
     "api/tiqets-webhook.js": {
       "maxDuration": 15
@@ -12,7 +14,7 @@
     },
     {
       "source": "/",
-      "destination": "/paris-family-cruise/index.html"
+      "destination": "/index.html"
     },
     {
       "source": "/styles.css",
@@ -28,19 +30,1631 @@
     },
     {
       "source": "/seine-river-cruises-paris",
-      "destination": "/seine-comparison/index.html"
+      "destination": "/seine-river-cruises-paris/index.html"
+    },
+    {
+      "source": "/dinner-cruises-paris",
+      "destination": "/dinner-cruises-paris/index.html"
     },
     {
       "source": "/dinner-cruise-paris",
-      "destination": "/dinner-comparison/index.html"
+      "destination": "/dinner-cruises-paris/index.html"
+    },
+    {
+      "source": "/dinner-comparison",
+      "destination": "/dinner-cruises-paris/index.html"
+    },
+    {
+      "source": "/canal-cruises-amsterdam",
+      "destination": "/canal-cruises-amsterdam/index.html"
     },
     {
       "source": "/amsterdam-canal-cruises",
-      "destination": "/amsterdam-comparison/index.html"
+      "destination": "/canal-cruises-amsterdam/index.html"
     },
     {
       "source": "/amsterdam-comparison",
-      "destination": "/amsterdam-comparison/index.html"
+      "destination": "/canal-cruises-amsterdam/index.html"
+    },
+    {
+      "source": "/thames-river-cruises-london",
+      "destination": "/thames-river-cruises-london/index.html"
+    },
+    {
+      "source": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/uk",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hr",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ca",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/pt",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/zh",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/vi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ar",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tr",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/th",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sv",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ko",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sk",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sr",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ru",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/he",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hu",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/el",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/da",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cs",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/bg",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/no",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/uk/про",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/fa/درباره",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/hr/oko",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/ca/sobre",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/pt/sobre",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/zh/关于",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/vi/về",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/ar/عن",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/tr/hakkında",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/th/เกยวกบ",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/sv/om",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/ko/에-대한",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/sk/o",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/sr/о",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/ru/о",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/he/אודות",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/hi/क-बर-म",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/hu/körülbelül",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/el/για",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/fi/noin",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/da/om",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/cs/o",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/bg/относно",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/no/om",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/uk/найкраща-вечеря-круїзи-париж",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fa/بهترین-شام-کروز-پاریس",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hr/najbolja-krstarenja-za-večeru-pariz",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ca/millor-sopar-creuers-parís",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/pt/melhores-cruzeiros-jantar-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/zh/巴黎最佳晚餐游船",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/vi/du-thuyền-ăn-tối-ở-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ar/أفضل-رحلات-بحرية-لتناول-العشاء-في-باريس",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/tr/iyi-akşam-yemeği-gezileri-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/th/ล่องเรือดินเนอร์ที่ดีที่สุดในปารีส",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sv/bästa-middag-kryssningar-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ko/베스트-디너-크루즈-파리",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sk/najlepšia-večera-plavby-paríž",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sr/ајбоља-вечера-крстарење-париз",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ru/лучшие-круизы-с-ужином-париж",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/he/הכי-טוב-ארוחת-ערב-הפלגות-פריז",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hi/बेस्ट-डिनर-क्रूज़-पेरिस",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hu/legjobb-parizsi-setahajo-vacsoraval-a-szajnan",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/el/καλύτερο-δείπνο-κρουαζιέρες-παρίσι",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fi/parhaat-illallisristeilyt-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/da/bedste-middag-krydstogter-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/cs/nejlepší-večeře-plavby-paříž",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/bg/най-добрата-вечеря-круизи-Париж",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/no/beste-middag-cruise-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/uk/контакт",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/fa/تماس",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/hr/kontakt",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/ca/contacte",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/pt/contato",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/zh/接触",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/vi/liên-hệ",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/ar/اتصال",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/tr/temas-etmek",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/th/ตดตอ",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/sv/kontakta",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/ko/연락하다",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/sk/kontakt",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/sr/контакт",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/ru/контакт",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/he/מגע",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/hi/सपरक",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/hu/érintkezés",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/el/επαφή",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/fi/yhteystiedot",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/da/kontakte",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/cs/kontakt",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/bg/контакт",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/no/kontakt",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/uk/кращі-круїзи-по-річці-сена-Парижі",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fa/بهترین-رود-سن-کروز-پاریس",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hr/najbolja-seine-river-cruises-pariz",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ca/millors-creuers-el-riu-sena-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/pt/melhores-cruzeiros-no-rio-sena-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/zh/巴黎最佳塞纳河游船",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/vi/du-thuyền-sông-seine-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ar/أفضل-رحلات-بحرية-نهرية-نهرية-باريس",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/tr/iyi-seine-nehri-gezileri-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/th/ล่องเรือแม่น้ำแซนที่ดีที่สุดในปารีส",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sv/bästa-not-flod-kryssningar-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ko/베스트-센-강-크루즈-파리",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sk/najlepšie-seine-rieka-plavby-paríž",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/sr/најбоље-сене-река-крстарење-париз",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ru/лучшие-круизы-по-сене-реке-париж",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/he/בסט-סיין-נהר-הפלגות-פאריס",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hi/बेस्ट-सीन-रिवर-क्रूज़-पेरिस",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/hu/legjobb-parizsi-setahajok-hajokirandulasok-a-szajnan",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/el/καλύτερος-σεν-ποταμός-κρουαζιέρες-παρίσι",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fi/parhaat-seine-jokiristeilyt-pariisi",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/da/bedste-flod-krydstogter-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/cs/nejlepší-plavba-po-řece-seine-paříži",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/bg/най-добрите-круизи-по-река-Сена-Париж",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/no/beste-seine-elve-cruise-paris",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/uk/найкращі-круїзи-каналах-Амстердамі",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/fa/بهترین-کانال-کروز-آمستردام",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/hr/najbolja-krstarenja-kanalima-Amsterdamom",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ca/millors-creuers-canal-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/pt/melhores-cruzeiros-pelo-canal-amsterdão",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/zh/阿姆斯特丹最佳运河游船",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/vi/du-thuyền-trên-kênh-đào-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ar/أفضل-رحلات-بحرية-على-القناة-في-أمستردام",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/tr/iyi-kanal-gezileri-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/th/ล่องเรือในคลองที่ดีที่สุดในอัมสเตอร์ดัม",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/sv/bästa-kanal-kryssningar-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ko/베스트-운하-크루즈-암스테르담",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/sk/najlepsie-kanalne-plavby-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/sr/бест-цанал-цруисес-амстердам",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ru/лучшие-круизы-по-каналам-амстердам",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/he/הטוב-ביותר-תעלה-הפלגות-אמסטרדם",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/hi/बेस्ट-कैनाल-क्रूज़-एम्स्टर्डम",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/hu/legjobb-amszerdami-csatorna-hajókirándulasok",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/el/καλύτερο-κανάλι-κρουαζιέρες-Άμστερνταμ",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/fi/parhaat-kanavaristeilyt-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/da/bedste-kanal-krydstogter-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/cs/nejlepší-plavby-po-kanálech-Amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/bg/най-добрите-канал-круизи-Амстердам",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/no/beste-kanal-cruise-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/uk/найкращі-річкові-круїзи-темза-лондон",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/fa/بهترین-تیمز-رود-کروز-لندن",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/hr/najbolja-krstarenja-rijekom-temzom-londonom",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/ca/millors-creuers-el-riu-Tàmesi-londres",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/pt/melhores-cruzeiros-no-rio-tames-londre",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/zh/伦敦最佳泰晤士河游船",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/vi/du-thuyền-trên-sông-thames-london",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/ar/أفضل-رحلات-بحرية-على-نهر-التيمز-في-لندن",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/tr/iyi-thames-nehri-gezileri-londra",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/th/ล่องเรือแม่น้ำเทมส์ที่ดีที่สุดในลอนดอน",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/sv/bästa-thames-flod-kryssningar-london",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/ko/베스트-템스-강-크루즈-런던",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/sk/najlepšie-temža-rieka-plavby-londýn",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/sr/најбоља-темза-река-крстарења-лондон",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/ru/лучшие-круизы-по-темзе-реке-лондон",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/he/התמזה-ריבר-קרויז-לונדון",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/hi/थेम्स-रिवर-क्रूज़-लंदन",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/hu/legjobb-londoni-setahajo-es-hajokirandulas-a-temzen",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/el/Τάμεσης-ποταμός-κρουαζιέρες-λονδίνο",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/fi/parhaat-thames-joen-risteilyt-lontoo",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/da/bedste-thames-flod-krydstogter-london",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/cs/nejlepší-plavba-po-řece-Temži-Londýně",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/bg/най-добрите-круизи-по-река-темза-лондон",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/no/beste-thames-elven-kryss-london",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/uk/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparation",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/fa/مقایسه-باتو-موچ-در-مقابل-باتو-پاریزین-شام-کروز-کنار-به-سایت",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/hr/bateaux-mouches-vs-bateaux-parisiens-večera-krstarenje-poredna-usporedba",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/ca/bateaux-mouches-vs-bateaux-parisiens-sopar-creuer-comparació-costat",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/pt/bateaux-mouches-vs-bateaux-parisiens-jantar-cruzeiro-comparação-lado-a-lado",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/zh/bateaux-mouches-vs-bateaux-parisiens-晚餐巡游并排比较",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/vi/bateaux-mouches-vs-bateaux-parisiens-bữa-tối-cruise-side-by-side-so-sánh",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/ar/باتو-فطائر-مقابل-باتو-باريسيين-وجبة-عشاء-رحلة-بحرية-جنبا-إلى-جنب-مقارنة",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/tr/bateaux-mouches-vs-bateaux-parisiens-akşam-yemeği-yolculuğu-yan-yana-karşılaştırma",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/th/bateaux-mouches-vs-bateaux-parisiens-อาหารคำ-ลองเรอ-เปรยบเทยบ-เคยงขางกน",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/sv/bateaux-mouches-vs-bateaux-parisiens-middag-kryssning-sida-vid-sida-jämförelse",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/ko/bateaux-mouches-vs-bateaux-parisiens-저녁-식사-크루즈-병렬-비교",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/sk/bateaux-mouches-vs-bateaux-parisiens-večera-plavba-side-by-side-porovnanie",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/sr/батеаук-моуцхес-вс-батеаук-парисиенс-диннер-цруисе-сиде-би-сиде-поређење",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/ru/сравнение-бато-муш-против-бато-парижан-ужин-круиз-бок-о-бок",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/he/bateaux-mouches-vs-bateaux-parisiens-ארוחת-ערב-שיוט-צד-בצד-השוואה",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/hi/बट-मचस-बनम-बट-परसयस-डनर-करज-सइड-बय-सइड-तलन",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/hu/bateaux-mouches-vs-bateaux-parisiens-vacsora-körutazás-egymás-melletti-összehasonlítás",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/el/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/fi/bateaux-mouches-vs-bateaux-parisiens-illallinen-risteily-vieres-vieres-vertailu",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/da/bateaux-mouches-vs-bateaux-parisiens-middag-krydstogt-side-om-side-sammenligning",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/cs/bateaux-mouches-vs-bateaux-parisiens-večeře-plavba-side-by-side-srovnání",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/bg/bateaux-mouches-vs-bateaux-parisiens-вечеря-круиз-успоредно-сравнение",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/no/bateaux-mouches-vs-bateaux-parisiens-middag-cruise-side-ved-side-sammenligning",
+      "destination": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+      "permanent": true
+    },
+    {
+      "source": "/uk/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/fa/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/hr/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/ca/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/pt/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/zh/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/vi/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/ar/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/tr/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/th/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/sv/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/ko/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/sk/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/sr/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/ru/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/he/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/hi/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/hu/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/el/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/fi/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/da/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/cs/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/bg/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/no/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris-1",
+      "permanent": true
+    },
+    {
+      "source": "/uk/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/fa/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/hr/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/ca/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/pt/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/zh/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/vi/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/ar/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/tr/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/th/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/sv/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/ko/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/sk/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/sr/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/ru/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/he/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/hi/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/hu/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/el/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/fi/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/da/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/cs/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/bg/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/no/seine-cruise-deal",
+      "destination": "/seine-cruise-deal",
+      "permanent": true
+    },
+    {
+      "source": "/uk/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/fa/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/hr/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ca/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/pt/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/zh/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/vi/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ar/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/tr/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/th/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/sv/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ko/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/sk/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/sr/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ru/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/he/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/hi/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/hu/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/el/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/fi/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/da/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/cs/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/bg/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/no/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/uk/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/hr/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/ca/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/pt/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/zh/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/vi/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/ar/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/tr/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/th/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/sv/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/ko/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/sk/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/sr/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/ru/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/he/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/hi/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/hu/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/el/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/fi/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/da/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/cs/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/bg/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/no/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/uk/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/fa/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/hr/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/ca/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/pt/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/zh/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/vi/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/ar/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/tr/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/th/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/sv/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/ko/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/sk/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/sr/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/ru/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/he/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/hi/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/hu/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/el/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/fi/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/da/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/cs/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/bg/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/no/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/dinner-cruise-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/amsterdam-canal-cruises",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/it/migliori-crociere-cena-parigi",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/zh/巴黎塞纳河晚餐游船",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

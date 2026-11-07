@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // -------------------------------------------------------------
     const clickId = getClickId();
     const BASE_TIQETS_URL = 'https://www.tiqets.com/checkout/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/booking_details/';
-    const PARTNER_ID = 'deals.cruisedetective.com';
+    const PARTNER_ID = 'thecruisedetective.com-176436';
 
     function updateCheckoutLinks() {
         const total = calculateTotal();
