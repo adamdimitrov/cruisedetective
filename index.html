@@ -411,6 +411,42 @@
       }
     }
 
+    /* Navbar Brand & Hover Animation (Standardized with Seine River Cruises) */
+    .ltt-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #0f172a;
+      flex-shrink: 0;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: opacity 0.15s ease;
+    }
+    .ltt-brand-logo {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      display: block;
+      flex-shrink: 0;
+      border-radius: 50% !important;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .ltt-brand:hover,
+    .ltt-brand:hover .ltt-brand-text {
+      color: #0f172a !important;
+      opacity: 0.82 !important;
+    }
+    .ltt-brand:hover .ltt-brand-logo {
+      transform: scale(1.04) !important;
+    }
+
   </style>
 
   <!-- Tracking & Analytics -->
@@ -479,8 +515,8 @@
   <!-- NAVIGATION HEADER -->
   <header class="ltt-navbar" role="banner">
     <div class="ltt-nav-inner">
-      <a aria-label="The Cruise Detective Homepage" class="ltt-brand" href="/">
-        <img alt="The Cruise Detective Logo" class="ltt-brand-logo" height="36" src="/assets/cruise_detective_logo.png" width="36"/>
+      <a aria-label="THE CRUISE DETECTIVE Homepage" class="ltt-brand" href="/">
+        <img alt="THE CRUISE DETECTIVE Logo" class="ltt-brand-logo" height="36" src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6570a89c8c97ba4e084ac5d5_webclip-cruise-detective.png" width="36"/>
         <span class="ltt-brand-text">THE CRUISE DETECTIVE</span>
       </a>
 
@@ -684,7 +720,7 @@
           <a class="ltt-guide-card" data-destination="paris" href="/seine-river-cruises-paris">
             <div class="ltt-guide-img-wrap">
               <span class="ltt-guide-tag">🗼 SIGHTSEEING ESSENTIAL</span>
-              <img alt="Seine River Sightseeing Cruise boat passing under the Eiffel Tower" class="ltt-guide-img" loading="lazy" src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp"/>
+              <img alt="Seine River Sightseeing Cruise boat passing under the Eiffel Tower" class="ltt-guide-img" loading="lazy" src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif"/>
             </div>
             <div class="ltt-guide-content">
               <div class="ltt-guide-kicker">Paris, France • 10 Boats Evaluated</div>
@@ -721,7 +757,7 @@
           <!-- Guide 4: Amsterdam Canal Cruises -->
           <a class="ltt-guide-card" data-destination="amsterdam" href="/canal-cruises-amsterdam">
             <div class="ltt-guide-img-wrap">
-              <span class="ltt-guide-tag">🌷 AMSTERDAM CHOSEN</span>
+              <span class="ltt-guide-tag">🌷 AMSTERDAM CANALS</span>
               <img alt="Amsterdam Canal Cruise boat passing historic canal houses and bridges" class="ltt-guide-img" loading="lazy" src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5237222689efacce475b_best-amsterdam-canal-cruises-featured-image.webp"/>
             </div>
             <div class="ltt-guide-content">

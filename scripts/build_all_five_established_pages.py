@@ -804,7 +804,7 @@ def build_seine_river_cruises_paris():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp',
+        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif',
         hero_img_alt='Paris Seine Sightseeing Cruise passing Pont Alexandre III and Eiffel Tower',
         breadcrumb_text='5 Best Paris Seine River Cruises (2026 Ranked & Tested)',
         h1_title='The 5 Best Paris Seine River Cruises (2026 Ranked & Tested)',
