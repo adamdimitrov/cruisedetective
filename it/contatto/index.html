@@ -232,6 +232,7 @@ function gtag_report_conversion(url) {
 </div>
 </header>
 
+
 <main>
   <div class="form-section-touch" style="padding: 60px 20px 80px 20px; max-width: 860px; margin: 0 auto;">
     <div class="container-24">
@@ -308,6 +309,33 @@ function gtag_report_conversion(url) {
     </div>
   </div>
 </main>
+
+<script>
+  (function() {
+    var n1 = Math.floor(Math.random() * 8) + 2;
+    var n2 = Math.floor(Math.random() * 7) + 1;
+    var expected = n1 + n2;
+    var eqEl = document.getElementById('captchaEquation');
+    if (eqEl) eqEl.textContent = n1 + ' + ' + n2 + ' = ?';
+
+    var form = document.getElementById('contact-form');
+    var input = document.getElementById('captchaAnswer');
+    var err = document.getElementById('captchaError');
+
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        if (parseInt(input.value, 10) !== expected) {
+          e.preventDefault();
+          if (err) err.style.display = 'block';
+          input.focus();
+        } else {
+          if (err) err.style.display = 'none';
+        }
+      });
+    }
+  })();
+</script>
+
 
 <script>
   (function() {
