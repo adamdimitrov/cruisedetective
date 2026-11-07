@@ -1959,11 +1959,11 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
-.bpa-ic-google { background-image: url('https://cdn.prod.website-files.com/67d02edca7795b0f57073b59/67ebc6e4688dbf65f4077122_google-logo.avif'); }
-.bpa-ic-ta { background-image: url('https://cdn.prod.website-files.com/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3743_tripadvisor-icon.png'); }
-.bpa-ic-gyg { background-image: url('https://cdn.prod.website-files.com/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3745_getyourguide-icon.png'); }
-.bpa-ic-viator { background-image: url('https://cdn.prod.website-files.com/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3747_viator-icon.png'); }
-.bpa-ic-tiqets { background-image: url('https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6852917a8b23e16d4296b394_tiqets-logo.avif'); }
+.bpa-ic-google { background-image: url('/assets/cdn/67d02edca7795b0f57073b59/67ebc6e4688dbf65f4077122_google-logo.avif'); }
+.bpa-ic-ta { background-image: url('/assets/cdn/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3743_tripadvisor-icon.png'); }
+.bpa-ic-gyg { background-image: url('/assets/cdn/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3745_getyourguide-icon.png'); }
+.bpa-ic-viator { background-image: url('/assets/cdn/60e43c7d6d05b671dff0dc1a/65350288cf6e222fd93f3747_viator-icon.png'); }
+.bpa-ic-tiqets { background-image: url('/assets/cdn/652d0405192ba076b04f74a3/6852917a8b23e16d4296b394_tiqets-logo.avif'); }
 
 /* ==========================================================================
    ESTABLISHED EDITORIAL ARTICLE ARCHITECTURE (Condé Nast / Wirecutter Hybrid)

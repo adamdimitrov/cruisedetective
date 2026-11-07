@@ -593,7 +593,7 @@ def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, 
   <h1 class="component-heading-2">{h1_title}</h1>
   <p class="paragraph-26"><strong>Last updated:</strong> {date_text}</p>
   <div class="div-block-45">
-    <img alt="Adam Dimitrov" class="component-author-image" src="https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/652d0405192ba076b04f792e_Adam-dimitrov-portrait-75x75.webp"/>
+    <img alt="Adam Dimitrov" class="component-author-image" src="/assets/cdn/652d0405192ba076b04f74a3/652d0405192ba076b04f792e_Adam-dimitrov-portrait-75x75.webp"/>
     <div class="rich-text-block-35 w-richtext">
       <p><strong>Author:</strong> <a href="/about/">Adam Dimitrov</a> — Chief Cruise Detective • Personally Field-Tested</p>
     </div>
@@ -706,7 +706,7 @@ def build_dinner_cruises_paris():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
+        hero_img_url='/assets/cdn/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
         hero_img_alt='Paris Seine River Dinner Cruise with illuminated Eiffel Tower',
         breadcrumb_text='10 Best Seine River Dinner Cruises in Paris (2026 Ranked & Tested)',
         h1_title='10 Best Seine River Dinner Cruises in Paris (2026 Ranked & Tested)',
@@ -804,7 +804,7 @@ def build_seine_river_cruises_paris():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif',
+        hero_img_url='/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif',
         hero_img_alt='Paris Seine Sightseeing Cruise passing Pont Alexandre III and Eiffel Tower',
         breadcrumb_text='5 Best Paris Seine River Cruises (2026 Ranked & Tested)',
         h1_title='The 5 Best Paris Seine River Cruises (2026 Ranked & Tested)',
@@ -890,7 +890,7 @@ def build_canal_cruises_amsterdam():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
+        hero_img_url='/assets/cdn/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
         hero_img_alt='Amsterdam Historic Canal Ring Cruise passing illuminated bridge',
         breadcrumb_text='5 Best Amsterdam Canal Cruises (2026 Ranked & Tested)',
         h1_title='The 5 Best Amsterdam Canal Cruises (2026 Ranked & Tested)',
@@ -961,7 +961,7 @@ def build_thames_cruises_london():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/656b5269b59a73ed77082a40_best-london-river-cruises-featured-image.webp',
+        hero_img_url='/assets/cdn/652d0405192ba076b04f74a3/656b5269b59a73ed77082a40_best-london-river-cruises-featured-image.webp',
         hero_img_alt='London Thames River Cruise passing Tower Bridge and The Shard',
         breadcrumb_text='10 Best Thames River Cruises in London (2026 Ranked & Tested)',
         h1_title='10 Best Thames River Cruises in London (2026 Ranked & Tested)',
@@ -1036,7 +1036,7 @@ def build_head_to_head():
 
     page_html = build_page_skeleton(
         head_html=head,
-        hero_img_url='https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
+        hero_img_url='/assets/cdn/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp',
         hero_img_alt='Bateaux Mouches vs Bateaux Parisiens Seine Dinner Cruise comparison',
         breadcrumb_text='Bateaux Mouches vs. Bateaux Parisiens Dinner Cruise Showdown',
         h1_title='Bateaux Mouches vs. Bateaux Parisiens Dinner Cruise (Side-by-Side Comparison)',

@@ -435,7 +435,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Prestige Menu €130 • Excellence Menu €155",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=din-paris-deck-bm",
             "cta_text": "Book on Tiqets →",
-            "photos": bm_imgs if bm_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d7488c95f4ddb81c828e_Bateaux-mouches-dinner-cruise%20(15).webp"],
+            "photos": bm_imgs if bm_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/6557d7488c95f4ddb81c828e_Bateaux-mouches-dinner-cruise%20(15).webp"],
             "editorial_review_html": """
             <p><strong>The Definitive Romantic Standard on the Seine:</strong> Compagnie des Bateaux Mouches remains our highest-rated Paris dinner cruise for a singular reason: authenticity. Unlike boats that operate glorified banquet warming trays, Bateaux Mouches prepares every course fresh in a full onboard galley commanded by French culinary brigades.</p>
             <p>During our undercover tasting expedition, the Prestige Menu (€130) exceeded restaurant expectations: a delicate southwest duck foie gras terrine served with toasted brioche, followed by slow-braised veal cheek in red wine reduction and a decadent chocolate praline dome crafted by their dedicated pastry team. The beverage allocation is exceptionally generous—a full bottle of wine per couple, mineral water, coffee, and a flute of champagne are completely included.</p>
@@ -481,7 +481,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Étoile €85 • Découverte €115 • Privilège €140 • Premier €215",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-bp",
             "cta_text": "Book on Tiqets →",
-            "photos": bp_imgs if bp_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(1).webp"],
+            "photos": bp_imgs if bp_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(1).webp"],
             "editorial_review_html": """
             <p><strong>Futuristic Glass Architecture at the Eiffel Tower:</strong> Operating from Pier 5 and 7 directly at the foot of the Eiffel Tower, Bateaux Parisiens deploys sleek, custom-built trimarans constructed almost entirely of curvilinear glass. The unobstructed vertical sightseeing from inside the boat is unmatched anywhere on the river.</p>
             <p>Food is prepared fresh onboard under the supervision of a dedicated executive chef. The starter of chilled sea bass carpaccio with citrus vinaigrette and the roasted duck breast with spiced honey glaze performed admirably. Live entertainment features a talented female vocalist accompanied by acoustic keyboard, performing a lively mix of classic French chansons and international jazz.</p>
@@ -526,7 +526,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Saveurs Menu €75 • Romantique €105",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-romantic-dinner-cruise-in-paris-p1023747/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-pcv",
             "cta_text": "Book on Tiqets →",
-            "photos": pc_imgs if pc_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision%20(La%20Marina).webp"],
+            "photos": pc_imgs if pc_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision%20(La%20Marina).webp"],
             "editorial_review_html": """
             <p><strong>Intimate Central Departure from Musée d'Orsay:</strong> Departing from Port Solférino, directly beneath the Musée d'Orsay steps, La Marina offers a boutique, intimate cruise format. Because the vessels are smaller (around 120 guests), the boarding process is remarkably calm and devoid of massive tour coach queues.</p>
             <p>The culinary format features tasting plates: starters are presented as a curated trio of French appetizers (such as cured salmon rillette, duck foie gras, and seasonal velouté), followed by your choice of braised beef chuck or roasted cod fillet with saffron bouillon. The atmosphere is quiet, relaxed, and conversational.</p>
@@ -568,7 +568,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Bistro €49 • With Wine €59 • Champagne €69",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-pes",
             "cta_text": "Book on Tiqets →",
-            "photos": ps_imgs if ps_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/655a44616ef862d66401b2ed_Paris-en-scene-dinner-cruise%20(7).webp"],
+            "photos": ps_imgs if ps_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/655a44616ef862d66401b2ed_Paris-en-scene-dinner-cruise%20(7).webp"],
             "editorial_review_html": """
             <p><strong>The Undisputed King of Budget River Dining:</strong> When travelers assume a Seine dinner cruise costs €150 minimum, Paris en Scène breaks the mold with an entry price of €49. Rather than conventional banquet tables, the salon is arranged like a cinema lounge with pairs of leather club armchairs oriented directly toward the panoramic windows.</p>
             <p>The food is simple bistro fare: a fresh vegetable velouté, roasted salmon fillet with lemon herb butter, and chocolate tartlet. While it does not compete with Michelin gastronomy, the value proposition is extraordinary. You sail the identical Seine monuments as the €200 boats for the cost of a standard sidewalk bistro meal.</p>
@@ -609,7 +609,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Gourmet €89 • Sparkling €119 • VIP Window €129",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-ldb",
             "cta_text": "Book on Tiqets →",
-            "photos": db_imgs if db_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/655a55115a44d5d4886240a9_Le-diamant-bleu-dinner-cruise%20(8).webp"],
+            "photos": db_imgs if db_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/655a55115a44d5d4886240a9_Le-diamant-bleu-dinner-cruise%20(8).webp"],
             "editorial_review_html": """
             <p><strong>Chic Superyacht Ambiance on the Seine:</strong> Le Diamant Bleu is a 70-meter luxury yacht equipped with 34 panoramic windows and a massive 350-square-meter teak rooftop terrace. This cruise deliberately abandons the traditional quiet classical vibe in favor of an energetic Parisian dinner-party atmosphere.</p>
             <p>Dishes are prepared fresh onboard: burrata with heirloom tomatoes, pan-seared sea bream with lemon emulsion, and gourmet Paris-Brest pastry. After dessert, the live singer transitions into an upbeat DJ set, and guests head upstairs to dance under the illuminated bridges.</p>
@@ -650,7 +650,7 @@ def generate_dinner_cruises_paris():
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588/?partner=thecruisedetective.com-176436&tq_campaign=dinner-paris-deck-tratt",
             "cta_text": "Book on Tiqets →",
             "photos": [
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp"
+                "/assets/cdn/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp"
             ],
             "editorial_review_html": """
             <p><strong>A Breath of Fresh Air on Paris Waters:</strong> Operated by the Diamant Bleu team, Théo is the only dedicated Italian trattoria river cruise in Paris. If you have already had three nights of duck confit and want a warm, joyful atmosphere filled with fresh burrata, truffle rigatoni, and velvety tiramisu, Théo hits the spot.</p>
@@ -689,7 +689,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Fracasse Menu €79 • Amiral Menu €99",
             "url": "https://www.getyourguide.com/paris-l16/paris-romantic-cruise-with-3-course-dinner-on-seine-river-t178769/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=dinner-paris-deck-fracasse&mkt_cmp=true",
             "cta_text": "Book on GYG →",
-            "photos": cf_imgs if cf_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673abf57b32cf03625c0afc7_Capitaine%20Fracasse.webp"],
+            "photos": cf_imgs if cf_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/673abf57b32cf03625c0afc7_Capitaine%20Fracasse.webp"],
             "editorial_review_html": """
             <p><strong>Gastronomic Integrity by an MOF Laureate:</strong> The Capitaine Fracasse stands out for its kitchen pedigree. Menus are designed and supervised by Chef Martial Enguehard (Meilleur Ouvrier de France), and 100% of preparation takes place in the ship’s open kitchen galley right before your eyes.</p>
             """,
@@ -727,7 +727,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Maxim's Menu €149 • Privilege Window €189",
             "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-cruise-with-3-course-dinner-live-music-t420838/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=dinner-paris-deck-maxims&mkt_cmp=true",
             "cta_text": "Book on GYG →",
-            "photos": mx_imgs if mx_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673be6fcb2781534f290995e_maxim%20de%20paris.webp"],
+            "photos": mx_imgs if mx_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/673be6fcb2781534f290995e_maxim%20de%20paris.webp"],
             "editorial_review_html": """
             <p><strong>Art Nouveau Romance and Live Jazz:</strong> Inspired by the legendary Paris restaurant founded in 1893, Maxim's cruise boat is outfitted in polished mahogany, brass fixtures, and plush red velvet seating. An authentic live jazz pianist and singer perform classic standards while servers present classic French gastronomy.</p>
             """,
@@ -765,7 +765,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "4-Course Nuit Étoilée €160 • 5-Course with Wine €290",
             "url": "https://www.ducasse-seine.com/",
             "cta_text": "Reserve on Ducasse →",
-            "photos": dc_imgs if dc_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673aca1674c1ea1c0ffaf31b_Ducasse%20sur%20Seine.webp"],
+            "photos": dc_imgs if dc_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/673aca1674c1ea1c0ffaf31b_Ducasse%20sur%20Seine.webp"],
             "editorial_review_html": """
             <p><strong>Haute Cuisine on a Silent Electric Vessel:</strong> Alain Ducasse revolutionized river cruising by launching a custom 100% electric luxury catamaran. Zero diesel smell, zero engine vibration, and culinary standards matching top Paris dining rooms.</p>
             """,
@@ -803,7 +803,7 @@ def generate_dinner_cruises_paris():
             "price_sub": "Early Departure €75 • Children (3–11) €40",
             "url": "https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=dinner-paris-deck-early&mkt_cmp=true",
             "cta_text": "Book on GYG →",
-            "photos": pc_imgs if pc_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision%20(La%20Marina).webp"],
+            "photos": pc_imgs if pc_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision%20(La%20Marina).webp"],
             "editorial_review_html": """
             <p><strong>Convenient Early Sunset Seating:</strong> Designed for travelers who prefer not to dine at 9:00 PM, this early departure leaves Port Solférino at 18:15 and concludes at 19:30. You catch the golden hour light illuminating Notre-Dame and the Louvre, dine comfortably with children, and have the entire night ahead.</p>
             """,
@@ -986,7 +986,7 @@ def generate_seine_river_cruises_paris():
             "price_sub": "Adults €18.00 • Children 4–11 €9.00 (50% OFF) • Under 4 FREE",
             "url": "https://www.tiqets.com/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-bp",
             "cta_text": "Book on Tiqets (€18) →",
-            "photos": bp_imgs if bp_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6583443c6e576281beda7395_bateaux-parisiens-sighteeing-cruise%20(4).webp"],
+            "photos": bp_imgs if bp_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/6583443c6e576281beda7395_bateaux-parisiens-sighteeing-cruise%20(4).webp"],
             "editorial_review_html": """
             <p><strong>The Gold Standard of Paris Sightseeing:</strong> Operating directly beneath the iron legs of the Eiffel Tower at Pier 3, Bateaux Parisiens sets the benchmark for Paris river sightseeing. Their modern trimarans feature individual wired handset audio guides at every seat (available in 14 languages) plus a dedicated smartphone web app, eliminating the noisy loudspeaker echo that ruins commentary on older boats.</p>
             <p>The boat layout provides the best of both worlds: a temperature-controlled, glass-canopied main salon for chilly days, and an expansive open-air top deck with tiered seating for panoramic photos of Notre-Dame, the Louvre, and the Musée d'Orsay.</p>
@@ -1030,7 +1030,7 @@ def generate_seine_river_cruises_paris():
             "price_sub": "Adults €17.00 • Children 4–12 €8.00 • Under 4 FREE",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-bm",
             "cta_text": "Book on Tiqets (€17) →",
-            "photos": bm_imgs if bm_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2).webp"],
+            "photos": bm_imgs if bm_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2).webp"],
             "editorial_review_html": """
             <p><strong>The Pioneer of Parisian River Cruising:</strong> Compagnie des Bateaux Mouches operates the largest sightseeing vessels on the Seine. The crown jewel of their fleet is the colossal upper observation deck: hundreds of forward-facing cinema-style seats that give you an uninterrupted, wind-in-your-hair vista of the Parisian skyline.</p>
             <p>For nighttime sparkle photography, Bateaux-Mouches is arguably the best platform on the river. The sheer elevation of their upper deck puts you well above the water reflections and bridge parapets.</p>
@@ -1071,7 +1071,7 @@ def generate_seine_river_cruises_paris():
             "price_sub": "Adults €21.00 • Children 4–11 €11.00 • Under 4 FREE",
             "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-with-audio-guide-t402830/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=seine-deck-vedettes&mkt_cmp=true",
             "cta_text": "Book on GYG (€21) →",
-            "photos": vd_imgs if vd_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37).webp"],
+            "photos": vd_imgs if vd_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37).webp"],
             "editorial_review_html": """
             <p><strong>A Civilized Boutique Experience:</strong> While Bateaux Parisiens and Mouches pack up to 600–1,000 travelers onto two-story mega-barges, Vedettes de Paris operates sleek single-deck vessels limited to roughly 220 passengers. The result is a radically calmer, more human-scale journey.</p>
             <p>They are also the only standard sightseeing operator with an active onboard bar serving champagne by the flute, artisanal French beer, fresh crêpes, and Parisian cookies. Sipping a glass of chilled champagne as you glide beneath Pont Alexandre III is an experience the larger competitors cannot replicate.</p>
@@ -1111,7 +1111,7 @@ def generate_seine_river_cruises_paris():
             "price_sub": "1-Day Pass €23.00 • 2-Day Pass €27.00 • Kids €13.00",
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-hop-on-hop-off-seine-river-shuttle-p975765/?partner=thecruisedetective.com-176436&tq_campaign=seine-deck-batobus",
             "cta_text": "Book Batobus Pass →",
-            "photos": bb_imgs if bb_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp"],
+            "photos": bb_imgs if bb_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp"],
             "editorial_review_html": """
             <p><strong>Paris's Riverfront Subway Alternative:</strong> Batobus is not a narrated sightseeing tour; it is a water-taxi shuttle network connecting nine of the most iconic attractions along the Seine (Eiffel Tower, Invalides, Musée d'Orsay, Saint-Germain-des-Prés, Notre-Dame, Jardin des Plantes, Hôtel de Ville, Louvre, and Place de la Concorde).</p>
             <p>If you purchase a 24-hour (€23) or 48-hour (€27) pass, you can board and disembark as many times as you like. You bypass hot underground metro stations, avoid staircases with baby strollers, and travel across the city center surrounded by water.</p>
@@ -1151,7 +1151,7 @@ def generate_seine_river_cruises_paris():
             "price_sub": "Adults €23.00 • Youths (15–25) €19.00 • Kids (4–14) €14.00",
             "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-and-canal-saint-martin-cruise-t394200/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=seine-deck-pariscanal&mkt_cmp=true",
             "cta_text": "Book on GYG (€23) →",
-            "photos": pc_imgs if pc_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23).webp"],
+            "photos": pc_imgs if pc_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23).webp"],
             "editorial_review_html": """
             <p><strong>Underground Tunnels and Historic Water Locks:</strong> For travelers seeking something far beyond the standard tourist loop, Paris Canal offers a 2.5-hour voyage connecting the Seine to the historic Canal Saint-Martin. You sail past the Louvre and Notre-Dame, enter the Arsenal Marina, and dive beneath the mysterious 2-kilometer underground vault of the Bastille.</p>
             <p>Watching the boat rise and descend through four historic 19th-century double locks and swing bridges engineered under Napoleon Bonaparte is one of the most memorable engineering experiences in Europe.</p>
@@ -1336,7 +1336,7 @@ def generate_canal_cruises_amsterdam():
             "price_sub": "Adults €16.00 • Children (4–13) €10.00 • Under 4 FREE",
             "url": "https://www.tiqets.com/en/things-to-do-in-amsterdam-c75061/tickets-for-1-hour-amsterdam-canal-cruise-p973666/?partner=thecruisedetective.com-176436&tq_campaign=amsterdam-deck-lovers",
             "cta_text": "Book on Tiqets (€16) →",
-            "photos": lv_imgs if lv_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/659072ab015470c887bdb2a6_amsterdam-canal-cruise-lovers-canal%20(20).webp"],
+            "photos": lv_imgs if lv_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/659072ab015470c887bdb2a6_amsterdam-canal-cruise-lovers-canal%20(20).webp"],
             "editorial_review_html": """
             <p><strong>The Definitive Amsterdam Canal Experience:</strong> Lovers Canal Cruises is the backbone of Amsterdam water tourism. Located directly opposite Centraal Station, their fleet features modern electric and hybrid vessels equipped with sliding glass roof panels that open fully in pleasant weather.</p>
             <p>The 19-language audio system delivers engaging historical context about the Golden Age merchant houses, the 17th-century canal ring, and the Skinny Bridge (Magere Brug). High departure frequency (every 15–20 minutes) makes booking effortless.</p>
@@ -1375,7 +1375,7 @@ def generate_canal_cruises_amsterdam():
             "price_sub": "Adults €34.00 • All drinks & cheese included",
             "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-all-inclusive-canal-cruise-with-drinks-cheese-t394862/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=amsterdam-deck-captainjack&mkt_cmp=true",
             "cta_text": "Book on GYG (€34) →",
-            "photos": cj_imgs if cj_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/658f0ecbd7d409840b9ead59_amsterdam-canal-cruise-captain-jack%20(2).webp"],
+            "photos": cj_imgs if cj_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/658f0ecbd7d409840b9ead59_amsterdam-canal-cruise-captain-jack%20(2).webp"],
             "editorial_review_html": """
             <p><strong>The Highest-Rated Boat Tour in the Netherlands:</strong> Captain Jack operates open electric sloops with an intimate group cap of 16–20 guests. From the moment you step onboard, you are handed a glass of crisp wine or cold Heineken alongside generous platters of aged Dutch Gouda cheeses.</p>
             <p>The 90-minute runtime allows the skipper to explore narrower, quieter residential canals that large commercial glass boats are physically too wide to enter. The skipper's storytelling is legendary: candid, hilarious, and deeply knowledgeable.</p>
@@ -1415,7 +1415,7 @@ def generate_canal_cruises_amsterdam():
             "price_sub": "Standard €19.50 • With Unlimited Drinks €29.50",
             "url": "https://www.tiqets.com/en/things-to-do-in-amsterdam-c75061/tickets-for-amsterdam-canal-cruise-by-flagship-p1052601/?partner=thecruisedetective.com-176436&tq_campaign=amsterdam-deck-flagship",
             "cta_text": "Book on Tiqets (€19.50) →",
-            "photos": fs_imgs if fs_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5).webp"],
+            "photos": fs_imgs if fs_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5).webp"],
             "editorial_review_html": """
             <p><strong>Vibrant Open-Air Sloop Cruising:</strong> Flagship revolutionized Amsterdam canal tours by introducing open-air electric sloops with onboard hostesses and live comedy-infused guiding. You sit on cushioned leather benches with no glass ceiling separating you from the towering 17th-century canal mansions.</p>
             """,
@@ -1454,7 +1454,7 @@ def generate_canal_cruises_amsterdam():
             "price_sub": "Adults €17.50 • Kids €10.00 • Kids Audio Story Included",
             "url": "https://www.tiqets.com/en/things-to-do-in-amsterdam-c75061/tickets-for-city-canal-cruise-blue-boat-company-p974100/?partner=thecruisedetective.com-176436&tq_campaign=amsterdam-deck-blueboat",
             "cta_text": "Book on Tiqets (€17.50) →",
-            "photos": bb_imgs if bb_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/659074e3eadc405562bff51f_amsterdam-canal-cruise-blue-boat%20(3).webp"],
+            "photos": bb_imgs if bb_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/659074e3eadc405562bff51f_amsterdam-canal-cruise-blue-boat%20(3).webp"],
             "editorial_review_html": """
             <p><strong>The Family &amp; Museum Quarter Specialist:</strong> Departing directly across the street from the Rijksmuseum and Van Gogh Museum, Blue Boat Company is our top pick for families and cultural travelers. Their 75-minute voyage is 15 minutes longer than standard tours and includes a specialized children's interactive audio adventure booklet.</p>
             """,
@@ -1492,7 +1492,7 @@ def generate_canal_cruises_amsterdam():
             "price_sub": "Adults €28.00 • Includes open bar options",
             "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-luxury-boat-cruise-with-unlimited-drinks-t141525/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=amsterdam-deck-friendship&mkt_cmp=true",
             "cta_text": "Book on GYG (€28) →",
-            "photos": fr_imgs if fr_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp"],
+            "photos": fr_imgs if fr_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp"],
             "editorial_review_html": """
             <p><strong>Chic Designer Sloop Cruising:</strong> Friendship Amsterdam operates handcrafted luxury electric boats featuring designer outdoor upholstery, soft pillows, and an upscale cocktail bar. If you want a romantic, premium vibe with sophisticated hostesses and craft cocktails, Friendship is the premier choice.</p>
             """,
@@ -1671,7 +1671,7 @@ def generate_thames_river_cruises_london():
             "price_sub": "Adults £16.50 • Children £10.50 • Under 5 FREE",
             "url": "https://www.tiqets.com/en/things-to-do-in-london-c67491/tickets-for-thames-river-sightseeing-cruise-p975431/?partner=thecruisedetective.com-176436&tq_campaign=thames-deck-trs",
             "cta_text": "Book on Tiqets (£16.50) →",
-            "photos": trs_imgs[:6] if trs_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699b059ca38a7cca1a7cf095_thames-river-sightseeing.avif"],
+            "photos": trs_imgs[:6] if trs_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/699b059ca38a7cca1a7cf095_thames-river-sightseeing.avif"],
             "editorial_review_html": """
             <p><strong>The Quintessential London Sightseeing Cruise:</strong> Thames River Sightseeing is our top-ranked London boat operator for its combination of route coverage, departure frequency, and hilarious live Cockney commentary. Sailing from Westminster Pier right beneath Big Ben, the route glides past the London Eye, St Paul's Cathedral, the Tate Modern, Tower Bridge, and downstream to Greenwich Royal Observatory.</p>
             """,
@@ -1709,7 +1709,7 @@ def generate_thames_river_cruises_london():
             "price_sub": "Single £18.00 • 24-Hour Pass £24.00",
             "url": "https://www.tiqets.com/en/things-to-do-in-london-c67491/tickets-for-city-cruises-hop-on-hop-off-river-pass-p974880/?partner=thecruisedetective.com-176436&tq_campaign=thames-deck-citycruises",
             "cta_text": "Book City Cruises Pass →",
-            "photos": cc_imgs[:4] if cc_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/699b059ca38a7cca1a7cf095_thames-river-sightseeing.avif"],
+            "photos": cc_imgs[:4] if cc_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/699b059ca38a7cca1a7cf095_thames-river-sightseeing.avif"],
             "editorial_review_html": """
             <p><strong>The Ultimate Thames Day Pass:</strong> City Cruises operates London's primary sightseeing hop-on hop-off network. Their 24-hour river pass allows unlimited boarding across four key London tourist hubs.</p>
             """,
@@ -1745,7 +1745,7 @@ def generate_thames_river_cruises_london():
             "price_sub": "Adults £49.95 • Children £39.95",
             "url": "https://www.getyourguide.com/london-l57/london-ultimate-thames-speedboat-experience-t28893/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=thames-deck-rockets&mkt_cmp=true",
             "cta_text": "Book Thames Rockets →",
-            "photos": tr_imgs[:4] if tr_imgs else ["https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/66bccd08439b2c91b9f464a0_best-thames-river-cruises-thames-ribs%20(5).webp"],
+            "photos": tr_imgs[:4] if tr_imgs else ["/assets/cdn/652d0405192ba076b04f74a3/66bccd08439b2c91b9f464a0_best-thames-river-cruises-thames-ribs%20(5).webp"],
             "editorial_review_html": """
             <p><strong>Pure Adrenaline on London Waters:</strong> Thames Rockets combines sightseeing with extreme speedboat racing. Once past Tower Bridge where river speed limits lift, the twin 880hp engines roar to life, carving tight turns across the Thames at 30+ knots with chart-topping soundtrack hits.</p>
             """,
@@ -1971,9 +1971,9 @@ def generate_mouches_vs_parisiens():
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-bm",
             "cta_text": "Book Bateaux Mouches (€130) →",
             "photos": [
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d7488c95f4ddb81c828e_Bateaux-mouches-dinner-cruise%20(15).webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4919c0214cc0fedf303_Bateaux-mouches-dinner-cruise%20(11).webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557d4b0f32b0baf412f95f5_Bateaux-mouches-dinner-cruise%20(7).webp"
+                "/assets/cdn/652d0405192ba076b04f74a3/6557d7488c95f4ddb81c828e_Bateaux-mouches-dinner-cruise%20(15).webp",
+                "/assets/cdn/652d0405192ba076b04f74a3/6557d4919c0214cc0fedf303_Bateaux-mouches-dinner-cruise%20(11).webp",
+                "/assets/cdn/652d0405192ba076b04f74a3/6557d4b0f32b0baf412f95f5_Bateaux-mouches-dinner-cruise%20(7).webp"
             ],
             "editorial_review_html": """
             <p><strong>The Winner for Gastronomy and Atmosphere:</strong> Bateaux Mouches triumphs on food quality, beverage inclusion, and romantic atmosphere. Preparing every course fresh in an onboard kitchen with active chefs produces superior texture and flavor compared to pre-plated competitors.</p>
@@ -2013,10 +2013,10 @@ def generate_mouches_vs_parisiens():
             "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-bp",
             "cta_text": "Book Bateaux Parisiens (€85+) →",
             "photos": [
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557453e8a6348c194b21d69_DSC03716.webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/6557452eedc0759fd61fd2eb_DSC03746.webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(12).webp",
-                "https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/653e6827827717b4f627f685_bateaux-parisiens-dinner-cruise%20(3).webp"
+                "/assets/cdn/652d0405192ba076b04f74a3/6557453e8a6348c194b21d69_DSC03716.webp",
+                "/assets/cdn/652d0405192ba076b04f74a3/6557452eedc0759fd61fd2eb_DSC03746.webp",
+                "/assets/cdn/652d0405192ba076b04f74a3/653e67da33c8ccff6d081df9_bateaux-parisiens-dinner-cruise%20(12).webp",
+                "/assets/cdn/652d0405192ba076b04f74a3/653e6827827717b4f627f685_bateaux-parisiens-dinner-cruise%20(3).webp"
             ],
             "editorial_review_html": """
             <p><strong>The Winner for Architecture and Eiffel Tower Proximity:</strong> If boarding directly underneath the Eiffel Tower and dining beneath a sleek all-glass canopy with a live singer is your dream, Bateaux Parisiens delivers an unforgettable visual spectacle.</p>

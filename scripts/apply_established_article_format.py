@@ -204,7 +204,7 @@ def run_dinner_cruises():
         for img in b_soup.find_all('img'):
             src = img.get('src', '')
             if 'Trattoria' in src:
-                img['src'] = 'https://cdn.prod.website-files.com/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp'
+                img['src'] = '/assets/cdn/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp'
             img['loading'] = 'lazy'
 
         # Score badges for summary

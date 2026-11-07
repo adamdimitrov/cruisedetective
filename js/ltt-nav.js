@@ -56,7 +56,8 @@
     var dropdown = document.getElementById('lttExploreDropdown');
     var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
 
-    if (toggle && drawer) {
+    if (toggle && drawer && !toggle._hasNavListener) {
+      toggle._hasNavListener = true;
       toggle.addEventListener('click', function(e) {
         e.stopPropagation();
         var isOpen = drawer.classList.contains('is-open');
