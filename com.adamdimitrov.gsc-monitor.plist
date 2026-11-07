@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.adamdimitrov.gsc-monitor</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/adamdimitrov/Development/cruisedetective/scripts/gsc_anomaly_monitor.py</string>
+        <string>--days</string>
+        <string>7</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+        <!-- Monday at 08:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>1</integer>
+            <key>Hour</key>
+            <integer>8</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Thursday at 08:00 AM -->
+        <dict>
+            <key>Weekday</key>
+            <integer>4</integer>
+            <key>Hour</key>
+            <integer>8</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/adamdimitrov/Development/cruisedetective/gsc_monitor.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/adamdimitrov/Development/cruisedetective/gsc_monitor.error.log</string>
+</dict>
+</plist>

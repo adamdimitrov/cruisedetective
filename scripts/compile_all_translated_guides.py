@@ -22,6 +22,7 @@ import os
 import re
 import sys
 import glob
+import json
 import subprocess
 from bs4 import BeautifulSoup
 
@@ -206,6 +207,18 @@ DEST_CONFIGS = {
             'ro': 'Comparație Top 10 Croaziere pe Tamisa'
         }
     }
+}
+
+COMMON_GUIDE_LABELS = {
+    'en': '💡 Field Advice & FAQs',
+    'fr': '💡 Conseils pratiques & FAQ',
+    'de': '💡 Praxistipps & FAQ',
+    'es': '💡 Consejos prácticos y FAQ',
+    'it': '💡 Consigli pratici & FAQ',
+    'ja': '💡 現地アドバイス＆よくある質問',
+    'nl': '💡 Praktisch advies & FAQ',
+    'pl': '💡 Praktyczne porady i FAQ',
+    'ro': '💡 Sfaturi practice & Întrebări frecvente'
 }
 
 COMMON_I18N = {
@@ -393,7 +406,20 @@ def extract_en_deck_cards(en_soup):
         })
     return card_data
 
-def extract_target_page_data(target_soup):
+def extract_target_page_data(target_rel_path):
+    try:
+        raw_html = subprocess.check_output(
+            ['git', '-C', BASE_DIR, 'show', f'0e6ce9a~1:{target_rel_path}'],
+            stderr=subprocess.DEVNULL
+        ).decode('utf-8', errors='ignore')
+    except Exception as e:
+        print(f"Warning: git show failed for {target_rel_path}: {e}")
+        target_abs = os.path.join(BASE_DIR, target_rel_path)
+        with open(target_abs, 'r', encoding='utf-8') as f:
+            raw_html = f.read()
+
+    target_soup = BeautifulSoup(raw_html, 'html.parser')
+
     # 1. H1 and lead copy
     h1 = target_soup.find('h1')
     h1_text = h1.get_text(strip=True) if h1 else ""
@@ -421,10 +447,10 @@ def extract_target_page_data(target_soup):
             txt = cell.get_text(" ", strip=True)
             if re.match(r'^\d+\.', txt) and len(txt) > 5 and not t_text:
                 t_text = txt
-            if any(char.isdigit() for char in txt) and ('€' in txt or '£' in txt or 'ユーロ' in txt) and not p_text:
+            if any(char.isdigit() for char in txt) and ('€' in txt or '£' in txt or 'ユーロ' in txt or 'zł' in txt or 'lei' in txt) and not p_text:
                 p_text = txt.replace('ⓘ', '').strip()
             a_tag = cell.find('a', href=True)
-            if a_tag and not link_url and ('tiqets.com' in a_tag['href'] or 'getyourguide.com' in a_tag['href'] or 'fareharbor.com' in a_tag['href'] or 'tp.media' in a_tag['href']):
+            if a_tag and not link_url and ('tiqets.com' in a_tag['href'] or 'getyourguide.com' in a_tag['href'] or 'fareharbor.com' in a_tag['href'] or 'tp.media' in a_tag['href'] or 'tripadvisor' in a_tag['href']):
                 link_url = a_tag['href']
         
         row_data.append({
@@ -433,23 +459,68 @@ def extract_target_page_data(target_soup):
             'url': link_url
         })
 
-    # 3. Extract in-depth review containers from blog section
+    # 3. Extract 10 in-depth review items
+    headings = target_soup.find_all(class_='heading-33')
+    reviews_data = []
+    buying_guide_html = ""
+
+    for idx, h in enumerate(headings[:10]):
+        raw_title = h.get_text(' ', strip=True)
+        clean_title = re.sub(r'^\d+\.\s*([^\w\s]*\s*)?', '', raw_title).strip()
+        
+        parent = h.find_parent('div', class_='container') or h.find_parent('div', class_='w-container') or h.parent
+        b_soup = BeautifulSoup(str(parent), 'html.parser')
+
+        # Check if last item container contains post-guide FAQs
+        if idx == len(headings[:10]) - 1:
+            for guide_h2 in b_soup.find_all('h2'):
+                h2_txt = guide_h2.get_text(strip=True).lower()
+                if any(k in h2_txt for k in ['trap', 'piège', 'falle', 'trappola', 'val', 'pułapka', 'capcană', '落とし穴', 'wear', 'porter', 'kleidung', 'vestir', 'indossare', 'kleding', 'ubiór', 'îmbrăcat', '服装', 'season', 'période', 'jahreszeit', 'época', 'stagione', 'seizoen', 'pora roku', 'sezon', '時期', 'photo', 'anniversaire', 'geburtstag', 'cumpleaños', 'compleanno', 'verjaardag', 'urodziny', 'aniversar', '誕生日']):
+                    guide_block = guide_h2.parent
+                    if guide_block and 'w-richtext' in guide_block.get('class', []):
+                        buying_guide_html += str(guide_block)
+                        guide_block.decompose()
+
+        # Decompose duplicate heading, prices, rating containers, and legacy Webflow elements
+        for bad in b_soup.find_all(class_=['div-block-27', 'heading-33', 'div-block-26', 'div-block-34', 'div-block-39', 'load-more-div-copy', 'bpa-card', 'bpa-slider']):
+            bad.decompose()
+
+        # Decompose any 420px SVGs or star ratings
+        for bad_svg in b_soup.find_all(lambda e: e.name == 'svg' and (e.get('width') == '420' or e.get('height') == '420')):
+            bad_svg.decompose()
+        for star_div in b_soup.find_all(class_=['star-ratings', 'star-ratings-2', 'star-ratings-3', 'icon-8']):
+            star_div.decompose()
+
+        # Unwrap load-more-div to eliminate height clamps
+        for lmd in b_soup.find_all(class_='load-more-div'):
+            lmd.unwrap()
+
+        # Remove legacy redundant buttons
+        for bad_btn in b_soup.find_all('a', class_=lambda c: c and ('button' in c or 'btn' in c)):
+            bad_btn.decompose()
+
+        reviews_data.append({
+            'clean_title': clean_title,
+            'raw_title': raw_title,
+            'body_html': str(b_soup)
+        })
+
+    # 4. Intro article before item 1
     blog = target_soup.find(class_='blog-section') or target_soup.find(class_='blog-section-2')
-    containers = blog.find_all(class_='container') if blog else []
-    
-    # Also extract intro articles (before item 1) and buying guide / FAQ (after item 10)
-    cr = blog.find(class_='content-right_blog') if blog else None
     intro_article_html = ""
-    if cr:
-        first_block = cr.find(class_='w-layout-blockcontainer') or cr.find(class_='w-richtext')
-        if first_block and first_block != containers[0] if containers else False:
-            intro_article_html = str(first_block)
+    if blog:
+        cr = blog.find(class_='content-right_blog')
+        if cr:
+            first_block = cr.find(class_='w-layout-blockcontainer') or cr.find(class_='w-richtext')
+            if first_block and not first_block.find(class_='heading-33'):
+                intro_article_html = str(first_block)
 
     return {
         'h1_text': h1_text,
         'lead_copy_html': lead_copy_html,
         'rows': row_data,
-        'containers': containers,
+        'reviews': reviews_data,
+        'buying_guide_html': buying_guide_html,
         'intro_article_html': intro_article_html
     }
 
@@ -490,7 +561,7 @@ def compile_guide_page(dest_key, lang, target_rel_path):
         footer_html = str(en_soup.find('section', class_='footer-dark'))
 
     t = COMMON_I18N[lang]
-    target_data = extract_target_page_data(target_soup)
+    target_data = extract_target_page_data(target_rel_path)
     en_cards = extract_en_deck_cards(en_soup)
 
     # 3. Clean Card Hero Component
@@ -734,9 +805,14 @@ def compile_guide_page(dest_key, lang, target_rel_path):
     short_titles = []
     
     for idx, c in enumerate(en_cards):
-        # Localized title from target table row if available
+        # Localized title from reviews or target table row if available
         row = target_data['rows'][idx] if idx < len(target_data['rows']) else {}
-        card_title = row.get('title') if row.get('title') else c['title_text']
+        if idx < len(target_data['reviews']) and target_data['reviews'][idx]['clean_title']:
+            card_title = target_data['reviews'][idx]['clean_title']
+        elif row.get('title'):
+            card_title = re.sub(r'^\d+\.\s*([^\w\s]*\s*)?', '', row.get('title')).strip()
+        else:
+            card_title = c['title_text']
         short_titles.append(card_title)
         
         # Localized price
@@ -835,19 +911,17 @@ def compile_guide_page(dest_key, lang, target_rel_path):
 
     # 5. Review Details Cards (.bpa-details-card) for Blog Section
     details_cards_html = []
-    containers = target_data['containers']
     
     for idx, c in enumerate(en_cards):
         row = target_data['rows'][idx] if idx < len(target_data['rows']) else {}
-        card_title = row.get('title') if row.get('title') else c['title_text']
+        card_title = short_titles[idx]
         card_price = row.get('price') if row.get('price') else c['price_text']
         card_url = row.get('url') if row.get('url') else c['aff_url']
         jump_id = c['href_jump'].replace('#', '')
 
-        # Localized review content from container if exists
-        review_body_html = ""
-        if idx < len(containers):
-            review_body_html = str(containers[idx])
+        # Localized review content from review items
+        if idx < len(target_data['reviews']):
+            review_body_html = target_data['reviews'][idx]['body_html']
         else:
             review_body_html = f"<p>Detailed undercover audit and tasting notes for {card_title}.</p>"
 
@@ -878,6 +952,7 @@ def compile_guide_page(dest_key, lang, target_rel_path):
 
     bd_title = dest_cfg['breakdown_title'].get(lang, dest_cfg['breakdown_title']['fr'])
     toc_deck = dest_cfg['toc_deck_label'].get(lang, dest_cfg['toc_deck_label']['fr'])
+    buying_guide_section = f'<div class="ltt-post-guide" id="buying-guide">{target_data["buying_guide_html"]}</div>' if target_data.get('buying_guide_html') else ''
 
     blog_section_html = f'''
 <div class="blog-section-2">
@@ -902,6 +977,7 @@ def compile_guide_page(dest_key, lang, target_rel_path):
           <div id="in-depth-reviews">
             {''.join(details_cards_html)}
           </div>
+          {buying_guide_section}
         </div>
       </div>
     </div>
@@ -938,6 +1014,15 @@ def compile_guide_page(dest_key, lang, target_rel_path):
   .w-webflow-badge, a.w-webflow-badge, [class*="w-webflow-badge"], a[href*="webflow.com?utm_campaign=brandjs"], a[href*="webflow.com/?utm_campaign=brandjs"] {{
     display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important;
     position: absolute !important; top: -99999px !important; left: -99999px !important; width: 0 !important; height: 0 !important; z-index: -99999 !important;
+  }}
+  </style>
+  <style id="cd-kill-420-star-svgs">
+  svg[width="420"], svg[height="420"], .icon-8 svg, .star-ratings svg, .star-ratings-2 svg, .star-ratings-3 svg {{
+    width: 14px !important;
+    height: 14px !important;
+    max-width: 14px !important;
+    max-height: 14px !important;
+    fill: #dfa732 !important;
   }}
   </style>
   <style id="cd-universal-pill-buttons">
@@ -982,16 +1067,17 @@ def compile_guide_page(dest_key, lang, target_rel_path):
 {footer_html}
 {sticky_bar_html}
 
-<script src="/js/ltt-nav.js"></script>
-<script src="/webflow-sync.js"></script>
 <script>
 window.LTT_PAGE_CONFIG = {{
   "deckId": "{dest_cfg['deck_id']}",
   "tocDeckLabel": "{toc_deck}",
   "tocBreakdownLabel": "{bd_title}",
-  "shortTitles": {short_titles}
+  "tocGuideLabel": "{COMMON_GUIDE_LABELS.get(lang, COMMON_GUIDE_LABELS['en'])}",
+  "shortTitles": {json.dumps(short_titles, ensure_ascii=False)}
 }};
 </script>
+<script src="/js/ltt-nav.js"></script>
+<script src="/webflow-sync.js"></script>
 </body>
 </html>
 '''

@@ -1240,7 +1240,8 @@ a:hover {
   pointer-events: auto;
 }
 
-.hybrid-bar-inner {
+.hybrid-bar-inner,
+.hybrid-sticky-inner {
   max-width: 1120px;
   margin: 0 auto;
   display: flex;
@@ -1272,7 +1273,8 @@ a:hover {
 }
 
 .hybrid-active-info,
-.hybrid-pick-context {
+.hybrid-pick-context,
+.hybrid-sticky-info {
   display: flex !important;
   align-items: center !important;
   gap: 10px !important;
@@ -1282,7 +1284,8 @@ a:hover {
 }
 
 .hybrid-active-badge,
-.hybrid-pick-badge {
+.hybrid-pick-badge,
+.hybrid-sticky-top-badge {
   background: linear-gradient(135deg, #d4b26f 0%, #dfa732 100%) !important;
   color: #0f172a !important;
   font-size: 11px !important;
@@ -1296,7 +1299,8 @@ a:hover {
 }
 
 .hybrid-active-title,
-.hybrid-pick-title {
+.hybrid-pick-title,
+.hybrid-sticky-title {
   font-size: 14px !important;
   font-weight: 700 !important;
   color: #ffffff !important;
@@ -1306,7 +1310,8 @@ a:hover {
 }
 
 .hybrid-active-price,
-.hybrid-pick-meta {
+.hybrid-pick-meta,
+.hybrid-sticky-price {
   font-size: 13px !important;
   font-weight: 600 !important;
   color: #cbd5e1 !important;
@@ -1323,11 +1328,28 @@ a:hover {
 .hybrid-cta-btn:visited,
 .hybrid-cta-btn:hover,
 .hybrid-cta-btn:active,
-.hybrid-cta-btn:focus {
+.hybrid-cta-btn:focus,
+.hybrid-sticky-btn,
+.ltt-sticky-cta {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
   background: linear-gradient(135deg, #dfa732 0%, #b88214 100%) !important;
+  color: #ffffff !important;
+  font-size: 13.5px !important;
+  font-weight: 800 !important;
+  padding: 8px 18px !important;
+  border-radius: 9999px !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  box-shadow: 0 2px 8px rgba(223, 167, 50, 0.35) !important;
+  transition: all 0.15s ease !important;
+}
+.hybrid-sticky-btn:hover,
+.ltt-sticky-cta:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 14px rgba(223, 167, 50, 0.5) !important;
+}
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
   font-size: 13.5px !important;
@@ -4267,7 +4289,8 @@ a[href*="webflow.com"] img.w-webflow-badge-icon,
   pointer-events: auto;
 }
 
-.hybrid-bar-inner {
+.hybrid-bar-inner,
+.hybrid-sticky-inner {
   max-width: 1120px;
   margin: 0 auto;
   display: flex;
@@ -5360,3 +5383,29 @@ footer.ltt-footer .legal-text {
     padding: 20px 16px;
   }
 }
+
+/* ==========================================================================
+   UNIVERSAL SVG STAR RATING CONSTRAINT
+   Prevents raw Webflow 420x420 star icons from blowing up
+   ========================================================================== */
+.star-ratings svg, .star-ratings-2 svg, .star-ratings-3 svg,
+.icon-8 svg, .icon-9 svg, .icon-10 svg, .icon-11 svg, .icon-12 svg,
+.icon-13 svg, .icon-14 svg, .icon-15 svg, .icon-16 svg, .icon-17 svg,
+.icon-18 svg, .icon-19 svg, .icon-20 svg, .icon-8, .icon-19, .icon-20 {
+  width: 14px !important;
+  height: 14px !important;
+  max-width: 14px !important;
+  max-height: 14px !important;
+  fill: #dfa732 !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.star-ratings, .star-ratings-2, .star-ratings-3 {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+

@@ -242,12 +242,16 @@
     // Populate Desktop Sticky TOC (#toc)
     var desktopToc = document.getElementById('toc');
     if (desktopToc && desktopToc.children.length === 0) {
+      var cfg = window.LTT_PAGE_CONFIG || {};
+      var deckJumpText = cfg.tocDeckLabel || '⚡ Comparison Deck';
+      var bdJumpText = cfg.tocBreakdownLabel || '📋 Detailed Breakdown';
+
       var deckElem = document.getElementById('ltt-cards-deck') || document.querySelector('.ltt-deck-container') || document.querySelector('.comparison-table');
       if (deckElem) {
         var deckJump = document.createElement('a');
         deckJump.className = 'tocitem';
         deckJump.href = '#' + (deckElem.id || 'ltt-cards-deck');
-        deckJump.textContent = '⚡ Comparison Deck';
+        deckJump.textContent = deckJumpText;
         desktopToc.appendChild(deckJump);
       }
 
@@ -258,7 +262,7 @@
           var bdJump = document.createElement('a');
           bdJump.className = 'tocitem';
           bdJump.href = '#breakdown-header';
-          bdJump.textContent = '📋 Detailed Breakdown';
+          bdJump.textContent = bdJumpText;
           desktopToc.appendChild(bdJump);
         }
 
@@ -280,7 +284,7 @@
         var bgJump = document.createElement('a');
         bgJump.className = 'tocitem';
         bgJump.href = '#' + (buyingGuide.id || 'buying-guide');
-        bgJump.textContent = '💡 Field Advice & FAQs';
+        bgJump.textContent = cfg.tocGuideLabel || '💡 Field Advice & FAQs';
         desktopToc.appendChild(bgJump);
       }
     }
