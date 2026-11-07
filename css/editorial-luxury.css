@@ -263,6 +263,8 @@ a:hover {
 
 .ltt-nav-dropdown {
   position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 .ltt-chevron {
@@ -277,8 +279,9 @@ a:hover {
 
 .ltt-mega-menu {
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;
   left: 0;
+  margin-top: 6px;
   background: #ffffff;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-lg);
@@ -293,6 +296,18 @@ a:hover {
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
   pointer-events: none;
   z-index: 10000;
+}
+
+/* Invisible hover bridge: covers the gap between trigger button and menu */
+.ltt-mega-menu::before {
+  content: '';
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  right: -24px;
+  height: 28px;
+  background: transparent;
+  pointer-events: auto;
 }
 
 .ltt-nav-dropdown:hover .ltt-mega-menu,
@@ -1955,8 +1970,9 @@ a:hover {
 
 /* Ethics Charter */
 .ltt-ethics-section {
-  background: #0f172a;
-  color: #ffffff;
+  background: #0f172a !important;
+  background-color: #0f172a !important;
+  color: #ffffff !important;
 }
 
 .ltt-ethics-section .ltt-section-title {
@@ -1964,7 +1980,7 @@ a:hover {
 }
 
 .ltt-ethics-section .ltt-section-subtitle {
-  color: var(--slate-300);
+  color: var(--slate-300) !important;
 }
 
 .ltt-ethics-grid {
@@ -1974,8 +1990,8 @@ a:hover {
 }
 
 .ltt-ethics-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
   border-radius: var(--radius-lg);
   padding: 24px;
 }

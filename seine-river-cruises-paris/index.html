@@ -1755,7 +1755,8 @@ function gtag_report_conversion(url) {
     var dropdown = document.getElementById('lttDestinationsDropdown') || document.getElementById('lttExploreDropdown');
     var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
 
-    if (toggle && drawer) {
+    if (toggle && drawer && !toggle._bound) {
+      toggle._bound = true;
       toggle.addEventListener('click', function(e) {
         e.stopPropagation();
         var isOpen = drawer.classList.contains('is-open');
@@ -1782,32 +1783,48 @@ function gtag_report_conversion(url) {
       });
     }
 
-    if (dropBtn && dropdown) {
-      dropBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        var open = dropdown.classList.toggle('is-open');
-        dropBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      });
-    }
+    if (dropdown && !dropdown._bound) {
+      dropdown._bound = true;
+      var closeTimeout = null;
 
-    document.addEventListener('click', function(e) {
-      if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {
-        drawer.classList.remove('is-open');
-        if (toggle) {
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
+      function openMenu() {
+        if (closeTimeout) {
+          clearTimeout(closeTimeout);
+          closeTimeout = null;
         }
-        drawer.setAttribute('aria-hidden', 'true');
+        dropdown.classList.add('is-open');
+        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'true');
       }
-      if (dropdown && dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {
-        dropdown.classList.remove('is-open');
-        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
-      }
-    });
 
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        if (drawer && drawer.classList.contains('is-open')) {
+      function closeMenuWithGrace(delay) {
+        if (closeTimeout) clearTimeout(closeTimeout);
+        closeTimeout = setTimeout(function() {
+          dropdown.classList.remove('is-open');
+          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+        }, delay !== undefined ? delay : 350);
+      }
+
+      dropdown.addEventListener('mouseenter', openMenu);
+      dropdown.addEventListener('mouseleave', function() {
+        closeMenuWithGrace(350);
+      });
+
+      if (dropBtn) {
+        dropBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          if (dropdown.classList.contains('is-open')) {
+            closeMenuWithGrace(0);
+          } else {
+            openMenu();
+          }
+        });
+      }
+
+      document.addEventListener('click', function(e) {
+        if (dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {
+          closeMenuWithGrace(0);
+        }
+        if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {
           drawer.classList.remove('is-open');
           if (toggle) {
             toggle.classList.remove('is-active');
@@ -1815,12 +1832,25 @@ function gtag_report_conversion(url) {
           }
           drawer.setAttribute('aria-hidden', 'true');
         }
-        if (dropdown && dropdown.classList.contains('is-open')) {
-          dropdown.classList.remove('is-open');
-          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          if (drawer && drawer.classList.contains('is-open')) {
+            drawer.classList.remove('is-open');
+            if (toggle) {
+              toggle.classList.remove('is-active');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+            drawer.setAttribute('aria-hidden', 'true');
+          }
+          if (dropdown && dropdown.classList.contains('is-open')) {
+            dropdown.classList.remove('is-open');
+            if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+          }
         }
-      }
-    });
+      });
+    }
   }
 
   if (document.readyState === 'loading') {
@@ -1828,8 +1858,8 @@ function gtag_report_conversion(url) {
   } else {
     initNav();
   }
+  window.addEventListener('load', initNav);
 })();
-
 </script><style id="ltt-hero-card-styles">
 /* ==========================================================================
    LUXURY EDITORIAL SYSTEM — CANONICAL FULL-WIDTH UNIFIED HERO CARD
