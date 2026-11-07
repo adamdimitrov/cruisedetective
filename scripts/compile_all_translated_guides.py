@@ -479,7 +479,15 @@ def compile_guide_page(dest_key, lang, target_rel_path):
     navbar_html = str(navbar) if navbar else str(en_soup.find('header', class_='ltt-navbar'))
     
     footer = target_soup.find('section', class_='footer-dark')
-    footer_html = str(footer) if footer else str(en_soup.find('section', class_='footer-dark'))
+    if footer:
+        # Strip legacy Webflow embeds and obsolete scripts
+        for bad_div in footer.find_all('div', class_='add-to-footer'):
+            bad_div.decompose()
+        for script_tag in footer.find_all('script'):
+            script_tag.decompose()
+        footer_html = str(footer)
+    else:
+        footer_html = str(en_soup.find('section', class_='footer-dark'))
 
     t = COMMON_I18N[lang]
     target_data = extract_target_page_data(target_soup)
@@ -967,62 +975,6 @@ def compile_guide_page(dest_key, lang, target_rel_path):
 </head>
 <body>
 {navbar_html}
-
-<script id="ltt-nav-script">
-(function() {{
-  function initNav() {{
-    var toggle = document.getElementById('lttNavToggle');
-    var drawer = document.getElementById('lttMobileDrawer');
-    var dropdown = document.getElementById('lttExploreDropdown') || document.getElementById('lttDestinationsDropdown');
-    var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
-
-    if (toggle && drawer) {{
-      toggle.addEventListener('click', function(e) {{
-        e.stopPropagation();
-        var isOpen = drawer.classList.contains('is-open');
-        drawer.classList.toggle('is-open', !isOpen);
-        toggle.classList.toggle('is-active', !isOpen);
-        toggle.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
-        drawer.setAttribute('aria-hidden', !isOpen ? 'false' : 'true');
-      }});
-      drawer.querySelectorAll('a').forEach(function(link) {{
-        link.addEventListener('click', function() {{
-          drawer.classList.remove('is-open');
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
-          drawer.setAttribute('aria-hidden', 'true');
-        }});
-      }});
-    }}
-    if (dropBtn && dropdown) {{
-      dropBtn.addEventListener('click', function(e) {{
-        e.stopPropagation();
-        var open = dropdown.classList.toggle('is-open');
-        dropBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      }});
-    }}
-    document.addEventListener('click', function(e) {{
-      if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {{
-        drawer.classList.remove('is-open');
-        if (toggle) {{
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
-        }}
-        drawer.setAttribute('aria-hidden', 'true');
-      }}
-      if (dropdown && dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {{
-        dropdown.classList.remove('is-open');
-        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
-      }}
-    }});
-  }}
-  if (document.readyState === 'loading') {{
-    document.addEventListener('DOMContentLoaded', initNav);
-  }} else {{
-    initNav();
-  }}
-}})();
-</script>
 
 {clean_hero_html}
 {comparison_section_html}

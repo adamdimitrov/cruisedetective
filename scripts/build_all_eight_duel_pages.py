@@ -374,7 +374,7 @@ def build_duel_page(lang, rel_path):
     print(f"\nBuilding perfected Duel page for [{lang.upper()}]: {rel_path} ...")
     
     # 1. Fetch original content before 0e6ce9a
-    raw_orig = subprocess.check_output(['git', 'show', f'0e6ce9a~1:{rel_path}'], text=True)
+    raw_orig = subprocess.check_output(['git', 'show', f'0e6ce9a~1:{rel_path}'], text=True, cwd=BASE_DIR)
     orig_soup = BeautifulSoup(raw_orig, 'html.parser')
     
     # Extract head metadata
@@ -567,62 +567,6 @@ def build_duel_page(lang, rel_path):
 </head>
 <body>
 {navbar_html}
-
-<script id="ltt-nav-script">
-(function() {{
-  function initNav() {{
-    var toggle = document.getElementById('lttNavToggle');
-    var drawer = document.getElementById('lttMobileDrawer');
-    var dropdown = document.getElementById('lttExploreDropdown') || document.getElementById('lttDestinationsDropdown');
-    var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
-
-    if (toggle && drawer) {{
-      toggle.addEventListener('click', function(e) {{
-        e.stopPropagation();
-        var isOpen = drawer.classList.contains('is-open');
-        drawer.classList.toggle('is-open', !isOpen);
-        toggle.classList.toggle('is-active', !isOpen);
-        toggle.setAttribute('aria-expanded', !isOpen ? 'true' : 'false');
-        drawer.setAttribute('aria-hidden', !isOpen ? 'false' : 'true');
-      }});
-      drawer.querySelectorAll('a').forEach(function(link) {{
-        link.addEventListener('click', function() {{
-          drawer.classList.remove('is-open');
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
-          drawer.setAttribute('aria-hidden', 'true');
-        }});
-      }});
-    }}
-    if (dropBtn && dropdown) {{
-      dropBtn.addEventListener('click', function(e) {{
-        e.stopPropagation();
-        var open = dropdown.classList.toggle('is-open');
-        dropBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      }});
-    }}
-    document.addEventListener('click', function(e) {{
-      if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {{
-        drawer.classList.remove('is-open');
-        if (toggle) {{
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
-        }}
-        drawer.setAttribute('aria-hidden', 'true');
-      }}
-      if (dropdown && dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {{
-        dropdown.classList.remove('is-open');
-        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
-      }}
-    }});
-  }}
-  if (document.readyState === 'loading') {{
-    document.addEventListener('DOMContentLoaded', initNav);
-  }} else {{
-    initNav();
-  }}
-}})();
-</script>
 
 <style id="ltt-hero-card-styles">
 .ltt-hero-wrap {{

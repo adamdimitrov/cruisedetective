@@ -4,9 +4,10 @@
    Features:
    1. Modern Navigation Header & Mobile Drawer
    2. Media Slider Carousel & Dynamic Counter
-   3. Category Filter Tabs
+   3. Category Filter Tabs (Deck Cards & Detailed Reviews)
    4. Floating Hybrid Sticky Bar (appears after scrolling past hero/deck)
    5. Interactive Bottom-Sheet / Modal Table of Contents
+   6. Safe DOM-ID Smooth Scrolling (Unicode/Emoji/Digit resilient)
    ========================================================================== */
 
 (function() {
@@ -33,21 +34,41 @@
   };
 
   // 2. Category Filter Tabs Controller
-  window.lttFilterCards = function(cat, btn) {
+  window.lttFilterItems = function(cat, btn) {
     var buttons = document.querySelectorAll('.ltt-tab-btn');
-    buttons.forEach(function(b) { b.classList.remove('active'); });
-    if (btn) btn.classList.add('active');
-    
-    var cards = document.querySelectorAll('#ltt-cards-deck .bpa-card');
-    cards.forEach(function(card) {
-      var cardCat = card.getAttribute('data-cat') || '';
-      if (cat === 'all' || cardCat.indexOf(cat) !== -1) {
-        card.style.display = 'block';
+    var activeCat = cat || 'all';
+
+    // If currently active and clicked again (except 'all'), toggle back to 'all'
+    if (btn && btn.classList.contains('active') && cat !== 'all') {
+      activeCat = 'all';
+    }
+
+    buttons.forEach(function(b) {
+      var bCat = b.getAttribute('data-cat') || 'all';
+      if (bCat === activeCat) {
+        b.classList.add('active');
       } else {
-        card.style.display = 'none';
+        b.classList.remove('active');
+      }
+    });
+
+    var cards = document.querySelectorAll('.ltt-deck-container .bpa-card, #ltt-cards-deck .bpa-card, .bpa-card');
+    var detailsCards = document.querySelectorAll('details.bpa-details-card');
+
+    cards.forEach(function(card, idx) {
+      var cardCat = card.getAttribute('data-cat') || '';
+      var show = (activeCat === 'all' || cardCat.indexOf(activeCat) !== -1);
+      card.style.display = show ? '' : 'none';
+      if (detailsCards[idx]) {
+        detailsCards[idx].style.display = show ? '' : 'none';
       }
     });
   };
+
+  // Aliases to guarantee 100% template compatibility
+  window.lttFilterSafaris = window.lttFilterItems;
+  window.lttFilterCruises = window.lttFilterItems;
+  window.lttFilterCards = window.lttFilterItems;
 
   // 3. Navigation Header & Mobile Drawer
   function initNav() {
@@ -198,7 +219,7 @@
 
     // Populate Mobile Bottom Sheet TOC from Cards or Details
     if (tocList && tocList.children.length === 0) {
-      var cards = document.querySelectorAll('#ltt-cards-deck .bpa-card');
+      var cards = document.querySelectorAll('.ltt-deck-container .bpa-card, #ltt-cards-deck .bpa-card, .bpa-card');
       cards.forEach(function(card) {
         var titleElem = card.querySelector('.bpa-title');
         var sublink = card.querySelector('.bpa-sublink');
@@ -221,11 +242,11 @@
     // Populate Desktop Sticky TOC (#toc)
     var desktopToc = document.getElementById('toc');
     if (desktopToc && desktopToc.children.length === 0) {
-      var deckElem = document.getElementById('ltt-cards-deck') || document.querySelector('.comparison-table');
+      var deckElem = document.getElementById('ltt-cards-deck') || document.querySelector('.ltt-deck-container') || document.querySelector('.comparison-table');
       if (deckElem) {
         var deckJump = document.createElement('a');
         deckJump.className = 'tocitem';
-        deckJump.href = '#ltt-cards-deck';
+        deckJump.href = '#' + (deckElem.id || 'ltt-cards-deck');
         deckJump.textContent = '⚡ Comparison Deck';
         desktopToc.appendChild(deckJump);
       }
@@ -264,7 +285,7 @@
       }
     }
 
-    // Scrollspy for Desktop TOC items
+    // Safe Scrollspy for Desktop TOC items (ID lookup without CSS selector crash)
     if (desktopToc) {
       var tocItems = desktopToc.querySelectorAll('.tocitem');
       window.addEventListener('scroll', function() {
@@ -273,7 +294,8 @@
         tocItems.forEach(function(item) {
           var hash = item.getAttribute('href');
           if (hash && hash.startsWith('#')) {
-            var target = document.querySelector(hash);
+            var targetId = hash.slice(1);
+            var target = document.getElementById(targetId);
             if (target && target.offsetTop <= fromTop) {
               cur = item;
             }
@@ -290,10 +312,14 @@
     }
 
     // Show/hide sticky bar based on scroll position
-    var thresholdElem = document.getElementById('ltt-cards-deck') || document.querySelector('.ltt-header-box');
+    var thresholdElem = document.getElementById('ltt-cards-deck') || 
+                        document.querySelector('.ltt-deck-container') || 
+                        document.querySelector('.ltt-duel-grid') || 
+                        document.querySelector('.comparison-table') || 
+                        document.querySelector('.ltt-hero-wrap');
     function onScroll() {
       var scrollY = window.pageYOffset || document.documentElement.scrollTop;
-      var triggerPoint = thresholdElem ? (thresholdElem.offsetTop + 100) : 450;
+      var triggerPoint = thresholdElem ? Math.max(250, thresholdElem.offsetTop) : 350;
       if (scrollY > triggerPoint) {
         stickyBar.classList.add('is-visible');
       } else {
@@ -328,6 +354,26 @@
       });
     }
   }
+
+  // Safe Smooth Scroll Handler for all in-page hash links
+  document.addEventListener('click', function(e) {
+    var anchor = e.target.closest('a[href^="#"]');
+    if (!anchor) return;
+    var href = anchor.getAttribute('href');
+    if (href && href.length > 1) {
+      var targetId = href.slice(1);
+      var targetElem = document.getElementById(targetId);
+      if (targetElem) {
+        e.preventDefault();
+        var topOffset = 80;
+        var elemPos = targetElem.getBoundingClientRect().top + window.pageYOffset - topOffset;
+        window.scrollTo({ top: elemPos, behavior: 'smooth' });
+        if (history.pushState) {
+          history.pushState(null, '', href);
+        }
+      }
+    }
+  });
 
   // Global Expand / Collapse All Detailed Reviews controller
   window.toggleAllDetails = function(open) {
