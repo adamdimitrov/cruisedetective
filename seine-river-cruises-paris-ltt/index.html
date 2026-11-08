@@ -8676,6 +8676,7 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
     var vCenter = window.innerHeight * 0.45;
     var footer = document.querySelector('footer') || document.querySelector('.ltt-footer') || document.querySelector('.t-footer');
     var isPastFooter = footer ? (footer.getBoundingClientRect().top < window.innerHeight - 20) : false;
+    var hasPassedHero = (window.scrollY > 300);
     if (!hasPassedHero || isPastFooter) {
       bar.classList.remove('visible', 'is-visible');
       return;
