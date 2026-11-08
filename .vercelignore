@@ -1,0 +1,17 @@
+# Git & Environment
+.git
+.agents
+.env
+.env.local
+.DS_Store
+
+# Ad creative libraries & assets (108 MB - local Meta ads workflow only)
+ads/
+
+# Local scripts & data
+scripts/
+*.log
+*.csv
+uploaded_orders.json
+credentials/
+reports/
