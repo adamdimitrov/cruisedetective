@@ -6,6 +6,76 @@
   display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important;
   position: absolute !important; top: -99999px !important; left: -99999px !important; width: 0 !important; height: 0 !important; z-index: -99999 !important;
 }
+
+/* Navigation & Mobile Drawer z-index hierarchy */
+.ltt-navbar {
+  z-index: 100000 !important;
+}
+.ltt-mobile-drawer {
+  z-index: 100000 !important;
+}
+.ltt-drawer-content {
+  padding-bottom: 50px !important;
+}
+
+/* Floating Sticky Bottom Bar z-index & Mobile Drawer conflict suppression */
+.hybrid-sticky-bar,
+.sticky-mobile-bar,
+#sticky-bar {
+  z-index: 9990 !important;
+}
+
+body.ltt-drawer-open #sticky-bar,
+body.ltt-drawer-open .hybrid-sticky-bar,
+body.ltt-drawer-open .sticky-mobile-bar,
+body:has(.ltt-mobile-drawer.is-open) #sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .hybrid-sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  transform: translateY(150%) !important;
+}
+
+/* Mobile Toggle Hamburger Button & Symmetrical X Animation */
+.ltt-hamburger {
+  width: 42px !important;
+  height: 42px !important;
+  padding: 10px 8px !important;
+  background: transparent !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+.ltt-hamburger:hover {
+  background: #f8fafc !important;
+}
+.ltt-hamburger-bar {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  background: #0f172a !important;
+  border-radius: 2px !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease !important;
+  transform-origin: center !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg) !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(2) {
+  opacity: 0 !important;
+  transform: scaleX(0) !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg) !important;
+}
+
 </style>
   <meta charset="utf-8"/>
   <title>The Cruise Detective — Independent, Field-Tested River &amp; Dinner Cruise Reviews</title>

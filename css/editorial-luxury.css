@@ -123,7 +123,7 @@ a:hover {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--slate-200);
-  z-index: 9999;
+  z-index: 100000 !important;
   box-sizing: border-box;
 }
 
@@ -418,17 +418,19 @@ a:hover {
   height: 2px;
   background: var(--slate-900);
   border-radius: 2px;
-  transition: transform 0.25s ease, opacity 0.2s ease;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+  transform-origin: center;
 }
 
 .ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(1) {
-  transform: translateY(7.5px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 .ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(2) {
   opacity: 0;
+  transform: scaleX(0);
 }
 .ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(3) {
-  transform: translateY(-7.5px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 .ltt-mobile-drawer {
@@ -466,7 +468,7 @@ a:hover {
     opacity: 0;
     overflow: hidden;
     transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
-    z-index: 9999;
+    z-index: 100000 !important;
   }
   .ltt-mobile-drawer.is-open {
     max-height: calc(100vh - 68px);
@@ -1253,12 +1255,14 @@ a:hover {
 /* --------------------------------------------------------------------------
    5. HYBRID STICKY BAR & BOTTOM-SHEET TOC MODAL
    -------------------------------------------------------------------------- */
-.hybrid-sticky-bar {
+.hybrid-sticky-bar,
+.sticky-mobile-bar,
+#sticky-bar {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 99990;
+  z-index: 9990 !important;
   background: rgba(15, 23, 42, 0.96);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -1272,8 +1276,27 @@ a:hover {
   box-sizing: border-box;
 }
 
+body.ltt-drawer-open #sticky-bar,
+body.ltt-drawer-open .hybrid-sticky-bar,
+body.ltt-drawer-open .sticky-mobile-bar,
+body:has(.ltt-mobile-drawer.is-open) #sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .hybrid-sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  transform: translateY(150%) !important;
+}
+
+.ltt-drawer-content {
+  padding-bottom: 50px !important;
+}
+
 .hybrid-sticky-bar.is-visible,
-.hybrid-sticky-bar.visible {
+.hybrid-sticky-bar.visible,
+#sticky-bar.is-visible,
+#sticky-bar.visible {
   transform: translateY(0);
   opacity: 1;
   pointer-events: auto;
@@ -4303,12 +4326,14 @@ a[href*="webflow.com"] img.w-webflow-badge-icon,
 /* ==========================================================================
    HYBRID STICKY BAR & TOC BOTTOM SHEET (BPA DESKTOP & MOBILE SOLUTION)
    ========================================================================== */
-.hybrid-sticky-bar {
+.hybrid-sticky-bar,
+.sticky-mobile-bar,
+#sticky-bar {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 99990;
+  z-index: 9990 !important;
   background: rgba(15, 23, 42, 0.96);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);

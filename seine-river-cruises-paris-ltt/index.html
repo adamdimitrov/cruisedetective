@@ -8666,19 +8666,17 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
 
   // 7. Update Floating Sticky Bottom Bar
   function updateFloatingCTA() {
-    var bar = document.getElementById('sticky-bar');
+    if (document.body.classList.contains('ltt-drawer-open')) return;
+    var bar = document.getElementById('sticky-bar') || document.querySelector('.hybrid-sticky-bar');
     if (!bar) return;
     var cards = document.querySelectorAll('.bpa-card');
     var reviews = document.querySelectorAll('.bpa-details-card');
     if (!cards.length) return;
     var itemsData = getItems();
     var vCenter = window.innerHeight * 0.45;
-    var lastRev = reviews.length ? reviews[reviews.length - 1] : cards[cards.length - 1];
-    var lastBottom = lastRev.getBoundingClientRect().bottom;
-
-    var hasPassedHero = (window.scrollY > 350);
-    var isPastReviews = (lastBottom < 100);
-    if (!hasPassedHero || isPastReviews) {
+    var footer = document.querySelector('footer') || document.querySelector('.ltt-footer') || document.querySelector('.t-footer');
+    var isPastFooter = footer ? (footer.getBoundingClientRect().top < window.innerHeight - 20) : false;
+    if (!hasPassedHero || isPastFooter) {
       bar.classList.remove('visible', 'is-visible');
       return;
     }
