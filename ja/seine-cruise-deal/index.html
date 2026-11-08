@@ -126,6 +126,194 @@ function gtag_report_conversion(url) {
   color: #ffffff !important;
 }
 </style>
+<style id="ltt-language-switcher-styles">
+/* ==========================================================================
+   THE CRUISE DETECTIVE — CANONICAL LANGUAGE SWITCHER SYSTEM
+   ========================================================================== */
+.ltt-lang-trigger {
+  position: relative;
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.ltt-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: inherit;
+  line-height: 1;
+}
+.ltt-lang-btn:hover, .ltt-lang-btn.is-active {
+  background: #ffffff;
+  border-color: #dfa732;
+  box-shadow: 0 4px 12px rgba(223, 167, 50, 0.18);
+  color: #0b1320;
+}
+.ltt-lang-globe {
+  color: #64748b;
+  transition: color 0.15s ease;
+}
+.ltt-lang-btn:hover .ltt-lang-globe, .ltt-lang-btn.is-active .ltt-lang-globe {
+  color: #dfa732;
+}
+.ltt-lang-code {
+  letter-spacing: 0.04em;
+  font-weight: 800;
+}
+.ltt-lang-chevron {
+  color: #94a3b8;
+  transition: transform 0.2s ease;
+}
+.ltt-lang-btn.is-active .ltt-lang-chevron {
+  transform: rotate(180deg);
+  color: #dfa732;
+}
+.ltt-lang-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 280px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  padding: 8px;
+  z-index: 10000;
+  display: none;
+  animation: lttLangFade 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.ltt-lang-dropdown.show {
+  display: block;
+}
+@keyframes lttLangFade {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.ltt-lang-dropdown-header {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  padding: 6px 10px 4px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ltt-lang-grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+.ltt-lang-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background 0.12s ease;
+}
+.ltt-lang-item:hover {
+  background: #f8fafc;
+  color: #0b1320;
+}
+.ltt-lang-item.current {
+  background: rgba(223, 167, 50, 0.12);
+  color: #8b6508;
+  font-weight: 700;
+}
+.ltt-lang-item .lang-native {
+  display: block;
+}
+.ltt-lang-item .lang-code-tag {
+  font-size: 10px;
+  font-weight: 800;
+  color: #94a3b8;
+  background: #f1f5f9;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.ltt-lang-item.current .lang-code-tag {
+  background: #dfa732;
+  color: #ffffff;
+}
+.ltt-mobile-lang-box {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+.ltt-mobile-lang-title {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ltt-mobile-lang-chips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.ltt-mobile-lang-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: #1e293b;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.ltt-mobile-lang-chip:hover {
+  border-color: #cbd5e1;
+  background: #ffffff;
+}
+.ltt-mobile-lang-chip.current {
+  background: #0b1320;
+  border-color: #0b1320;
+  color: #ffffff;
+}
+.ltt-mobile-lang-chip.current .chip-code {
+  color: #dfa732;
+}
+.ltt-mobile-lang-chip .chip-code {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.ltt-mobile-lang-chip .chip-name {
+  font-size: 10px;
+  opacity: 0.75;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  .ltt-lang-trigger {
+    display: none !important; /* Mobile header remains 100% clean (Brand + Hamburger only) */
+  }
+}
+</style>
 </head><body><header class="ltt-navbar" role="banner">
 <div class="ltt-nav-inner">
 <a aria-label="THE CRUISE DETECTIVE Homepage" class="ltt-brand" href="/ja/">
@@ -190,6 +378,64 @@ function gtag_report_conversion(url) {
 <a class="ltt-nav-link" href="/ja/接触">お問い合わせ</a>
 </nav>
 <div class="ltt-nav-right">
+        <!-- DESKTOP LANGUAGE SWITCHER -->
+        <div class="ltt-lang-trigger" id="lttLangTrigger">
+          <button aria-expanded="false" aria-haspopup="true" class="ltt-lang-btn" id="lttLangBtn" onclick="window.lttToggleLangDropdown()" type="button">
+            <svg class="ltt-lang-globe" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="13">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span class="ltt-lang-code" id="lttActiveLangLabel">JA</span>
+            <svg class="ltt-lang-chevron" fill="none" height="10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="10">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div aria-label="Select Language" class="ltt-lang-dropdown" id="lttLangDropdown" role="menu">
+            <div class="ltt-lang-dropdown-header">
+              <span>Select Language</span>
+              <span style="font-size:9px; color:#10b981; font-weight:800;">● 9 AVAILABLE</span>
+            </div>
+            <div class="ltt-lang-grid-menu">
+              <a class="ltt-lang-item" data-lang="en" href="/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">English</span>
+                <span class="lang-code-tag">EN</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="fr" href="/fr/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Français</span>
+                <span class="lang-code-tag">FR</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="de" href="/de/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Deutsch</span>
+                <span class="lang-code-tag">DE</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="es" href="/es/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Español</span>
+                <span class="lang-code-tag">ES</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="it" href="/it/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Italiano</span>
+                <span class="lang-code-tag">IT</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="nl" href="/nl/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Nederlands</span>
+                <span class="lang-code-tag">NL</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="pl" href="/pl/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Polski</span>
+                <span class="lang-code-tag">PL</span>
+              </a>
+              <a class="ltt-lang-item" data-lang="ro" href="/ro/seine-cruise-deal" role="menuitem">
+                <span class="lang-native">Română</span>
+                <span class="lang-code-tag">RO</span>
+              </a>
+              <a class="ltt-lang-item current" data-lang="ja" href="/ja/seine-cruise-deal" role="menuitem" style="grid-column: span 2;">
+                <span class="lang-native">日本語 (Japanese)</span>
+                <span class="lang-code-tag">JA</span>
+              </a>
+            </div>
+          </div>
+        </div>
 <button aria-controls="lttMobileDrawer" aria-expanded="false" aria-label="Toggle Menu" class="ltt-hamburger" id="lttNavToggle" type="button">
 <span class="ltt-hamburger-bar"></span>
 <span class="ltt-hamburger-bar"></span>
@@ -228,6 +474,51 @@ function gtag_report_conversion(url) {
 <span>✉️ お問い合わせ</span>
 </a>
 </div>
+        <!-- MOBILE DRAWER LANGUAGE SECTION -->
+        <div class="ltt-mobile-lang-box">
+          <div class="ltt-mobile-lang-title">
+            <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span>Language</span>
+          </div>
+          <div class="ltt-mobile-lang-chips">
+            <a class="ltt-mobile-lang-chip" data-m-lang="en" href="/seine-cruise-deal">
+              <span class="chip-code">EN</span>
+              <span class="chip-name">English</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="fr" href="/fr/seine-cruise-deal">
+              <span class="chip-code">FR</span>
+              <span class="chip-name">Français</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="de" href="/de/seine-cruise-deal">
+              <span class="chip-code">DE</span>
+              <span class="chip-name">Deutsch</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="es" href="/es/seine-cruise-deal">
+              <span class="chip-code">ES</span>
+              <span class="chip-name">Español</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="it" href="/it/seine-cruise-deal">
+              <span class="chip-code">IT</span>
+              <span class="chip-name">Italiano</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="nl" href="/nl/seine-cruise-deal">
+              <span class="chip-code">NL</span>
+              <span class="chip-name">Nederlands</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="pl" href="/pl/seine-cruise-deal">
+              <span class="chip-code">PL</span>
+              <span class="chip-name">Polski</span>
+            </a>
+            <a class="ltt-mobile-lang-chip" data-m-lang="ro" href="/ro/seine-cruise-deal">
+              <span class="chip-code">RO</span>
+              <span class="chip-name">Română</span>
+            </a>
+            <a class="ltt-mobile-lang-chip current" data-m-lang="ja" href="/ja/seine-cruise-deal">
+              <span class="chip-code">JA</span>
+              <span class="chip-name">日本語</span>
+            </a>
+          </div>
+        </div>
 </div>
 </div>
 </header><script crossorigin="anonymous" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=652d0405192ba076b04f74a3" type="text/javascript"></script><script crossorigin="anonymous" integrity="sha384-xIv+OW+Mu6VVQpkDsgy1n4DycwBN0kIMqGMoW1cZF0hQ+xuOeLBeXFkT3OAv048X" src="/assets/cdn/652d0405192ba076b04f74a3/js/webflow.913d6f81.631a8e5f22778f16.js" type="text/javascript"></script><!-- ==========================================
@@ -841,4 +1132,50 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 </div>
 </div>
+<script id="ltt-language-switcher-logic">
+(function() {
+  window.lttToggleLangDropdown = function() {
+    var dd = document.getElementById('lttLangDropdown');
+    var btn = document.getElementById('lttLangBtn');
+    if (!dd || !btn) return;
+    var isOpen = dd.classList.contains('show');
+    if (isOpen) {
+      dd.classList.remove('show');
+      btn.classList.remove('is-active');
+      btn.setAttribute('aria-expanded', 'false');
+    } else {
+      dd.classList.add('show');
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  };
+
+  document.addEventListener('click', function(e) {
+    var trigger = document.getElementById('lttLangTrigger');
+    var dd = document.getElementById('lttLangDropdown');
+    var btn = document.getElementById('lttLangBtn');
+    if (trigger && dd && !trigger.contains(e.target)) {
+      dd.classList.remove('show');
+      if (btn) {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      var dd = document.getElementById('lttLangDropdown');
+      var btn = document.getElementById('lttLangBtn');
+      if (dd && dd.classList.contains('show')) {
+        dd.classList.remove('show');
+        if (btn) {
+          btn.classList.remove('is-active');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+  });
+})();
+</script>
 </body></html>

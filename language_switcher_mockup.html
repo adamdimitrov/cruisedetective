@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cruise Detective — Language Switcher Architecture & Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0f18;
+      --bg-card: #121a29;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --gold: #dfa732;
+      --gold-hover: #f3b942;
+      --gold-bg: rgba(223, 167, 50, 0.12);
+      --border-dark: rgba(255, 255, 255, 0.08);
+      --border-gold: rgba(223, 167, 50, 0.3);
+      --white: #ffffff;
+      --light-bg: #f8fafc;
+      --light-border: #e2e8f0;
+      --light-text: #0f172a;
+      --light-muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #06090e;
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 30px 20px 80px;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    /* HEADER BANNER */
+    .mockup-header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    .mockup-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-bg);
+      border: 1px solid var(--border-gold);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 5px 14px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    .mockup-title {
+      font-family: 'Cinzel', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;
+    }
+    .mockup-subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* GRID FOR TOUCHPOINTS */
+    .touchpoints-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+
+    .touchpoint-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-dark);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    .touchpoint-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 24px;
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border-dark);
+    }
+    .touchpoint-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .touchpoint-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: #0b1320;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .touchpoint-badge {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+    }
+
+    .touchpoint-body {
+      padding: 24px;
+    }
+
+    /* ============================================================ */
+    /* 1. DESKTOP NAVBAR SIMULATION (White Editorial Theme) */
+    /* ============================================================ */
+    .simulated-browser {
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: visible;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      border: 1px solid #e2e8f0;
+    }
+    .browser-bar {
+      background: #f1f5f9;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid #e2e8f0;
+      border-radius: 12px 12px 0 0;
+    }
+    .browser-dots {
+      display: flex;
+      gap: 6px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .dot-red { background: #ff5f56; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #27c93f; }
+    .browser-url {
+      background: #ffffff;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #475569;
+      font-family: monospace;
+      flex-grow: 1;
+      max-width: 480px;
+      border: 1px solid #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .browser-url svg {
+      color: #10b981;
+    }
+
+    /* Simulated Actual Navbar */
+    .ltt-demo-navbar {
+      background: #ffffff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+    .ltt-demo-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #0b1320;
+    }
+    .ltt-demo-logo {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #0b1320;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+    .ltt-demo-brand-text {
+      font-family: 'Cinzel', serif;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .ltt-demo-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .ltt-demo-link {
+      font-size: 13px;
+      font-weight: 600;
+      color: #334155;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.15s;
+    }
+    .ltt-demo-link:hover {
+      color: var(--gold);
+    }
+
+    /* RIGHT CONTAINER & LANGUAGE SWITCHER PILL */
+    .ltt-demo-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: relative;
+    }
+
+    /* THE CANONICAL DESKTOP LANGUAGE PILL */
+    .ltt-lang-trigger {
+      position: relative;
+    }
+    .ltt-lang-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      color: #0f172a;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      font-family: inherit;
+    }
+    .ltt-lang-btn:hover, .ltt-lang-btn.is-active {
+      background: #ffffff;
+      border-color: var(--gold);
+      box-shadow: 0 4px 12px rgba(223, 167, 50, 0.18);
+      color: #0b1320;
+    }
+    .ltt-lang-globe {
+      color: #64748b;
+      transition: color 0.15s;
+    }
+    .ltt-lang-btn:hover .ltt-lang-globe {
+      color: var(--gold);
+    }
+    .ltt-lang-code {
+      letter-spacing: 0.05em;
+    }
+    .ltt-lang-chevron {
+      color: #94a3b8;
+      transition: transform 0.2s;
+    }
+    .ltt-lang-btn.is-active .ltt-lang-chevron {
+      transform: rotate(180deg);
+      color: var(--gold);
+    }
+
+    /* DROPDOWN MENU */
+    .ltt-lang-dropdown {
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      width: 280px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.04);
+      padding: 8px;
+      z-index: 100;
+      display: none;
+      animation: langFadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ltt-lang-dropdown.show {
+      display: block;
+    }
+    @keyframes langFadeIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .ltt-lang-dropdown-header {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #94a3b8;
+      padding: 6px 10px 4px;
+      border-bottom: 1px solid #f1f5f9;
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .ltt-lang-grid-menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+    }
+
+    .ltt-lang-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #1e293b;
+      font-size: 12px;
+      font-weight: 600;
+      transition: background 0.12s;
+    }
+    .ltt-lang-item:hover {
+      background: #f8fafc;
+      color: #0b1320;
+    }
+    .ltt-lang-item.current {
+      background: var(--gold-bg);
+      color: #8b6508;
+      font-weight: 700;
+    }
+    .ltt-lang-item .lang-native {
+      display: block;
+    }
+    .ltt-lang-item .lang-code-tag {
+      font-size: 10px;
+      font-weight: 800;
+      color: #94a3b8;
+      background: #f1f5f9;
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    .ltt-lang-item.current .lang-code-tag {
+      background: #dfa732;
+      color: #ffffff;
+    }
+
+    /* DEMO PAGE BODY */
+    .ltt-demo-body {
+      padding: 40px 30px;
+      background: #fafaf9;
+      text-align: center;
+    }
+    .demo-kicker {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .demo-headline {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      color: #0f172a;
+      max-width: 600px;
+      margin: 0 auto 12px;
+      font-weight: 700;
+    }
+    .demo-desc {
+      font-size: 14px;
+      color: #64748b;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ============================================================ */
+    /* 2. MOBILE DRAWER INTEGRATION (Phone Viewport Simulation) */
+    /* ============================================================ */
+    .mobile-side-by-side {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 900px) {
+      .mobile-side-by-side {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .phone-mockup {
+      width: 100%;
+      max-width: 360px;
+      background: #ffffff;
+      border: 8px solid #1e293b;
+      border-radius: 36px;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .phone-speaker {
+      width: 100px;
+      height: 18px;
+      background: #1e293b;
+      margin: 0 auto;
+      border-radius: 0 0 10px 10px;
+    }
+    .phone-screen {
+      background: #ffffff;
+      color: #0f172a;
+      height: 580px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow-y: auto;
+    }
+    .phone-header {
+      padding: 14px 16px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .phone-brand {
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #0b1320;
+    }
+    .phone-close-btn {
+      width: 28px;
+      height: 28px;
+      background: #f1f5f9;
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: #475569;
+    }
+
+    .phone-drawer-content {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .phone-menu-group {
+      margin-bottom: 20px;
+    }
+    .phone-menu-label {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #94a3b8;
+      margin-bottom: 8px;
+    }
+    .phone-menu-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: #f8fafc;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 6px;
+      text-decoration: none;
+    }
+
+    /* THE MOBILE LANGUAGE CHIPS GRID */
+    .phone-lang-box {
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid #e2e8f0;
+    }
+    .phone-lang-title {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #64748b;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .phone-lang-chips {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+    }
+    .phone-lang-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 4px;
+      border-radius: 8px;
+      border: 1px solid #e2e8f0;
+      background: #f8fafc;
+      color: #1e293b;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .phone-lang-chip:hover {
+      border-color: #cbd5e1;
+      background: #ffffff;
+    }
+    .phone-lang-chip.current {
+      background: #0b1320;
+      border-color: #0b1320;
+      color: #ffffff;
+    }
+    .phone-lang-chip.current .chip-code {
+      color: var(--gold);
+    }
+    .chip-code {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+    }
+    .chip-name {
+      font-size: 10px;
+      opacity: 0.75;
+      font-weight: 500;
+    }
+
+    /* ============================================================ */
+    /* 3. SMART CONTEXTUAL GEO BANNER (Conversion Saver) */
+    /* ============================================================ */
+    .smart-banner-demo {
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    .smart-toast-bar {
+      background: #0b1320;
+      color: #ffffff;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      border-bottom: 2px solid var(--gold);
+      animation: slideDownToast 0.3s ease-out;
+    }
+    @keyframes slideDownToast {
+      from { transform: translateY(-100%); }
+      to { transform: translateY(0); }
+    }
+    .toast-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+    }
+    .toast-icon {
+      font-size: 18px;
+    }
+    .toast-msg strong {
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .toast-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .toast-switch-btn {
+      background: var(--gold);
+      color: #0b1320;
+      border: none;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: background 0.15s;
+    }
+    .toast-switch-btn:hover {
+      background: var(--gold-hover);
+    }
+    .toast-close-btn {
+      background: transparent;
+      border: none;
+      color: #94a3b8;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 4px;
+      line-height: 1;
+    }
+    .toast-close-btn:hover {
+      color: #ffffff;
+    }
+
+    /* ============================================================ */
+    /* 4. FOOTER SEO LANGUAGE BAR (Internal Link Equity) */
+    /* ============================================================ */
+    .ltt-footer-demo {
+      background: #0b1320;
+      color: #94a3b8;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .footer-lang-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 6px 14px;
+      font-size: 12px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      margin-bottom: 16px;
+    }
+    .footer-lang-label {
+      font-weight: 700;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .footer-lang-link {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .footer-lang-link:hover {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+    .footer-lang-link.current {
+      color: #ffffff;
+      font-weight: 700;
+      border-bottom: 1px solid var(--gold);
+    }
+    .footer-bullet {
+      color: #475569;
+      font-size: 10px;
+    }
+    .footer-copy-text {
+      text-align: center;
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    /* ANALYSIS & DIRECTIVES TABLE */
+    .analysis-table-wrap {
+      margin-top: 30px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-dark);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .analysis-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .analysis-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    @media (max-width: 800px) {
+      .analysis-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .analysis-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .analysis-box-head {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .analysis-box p {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    /* INTERACTIVE CONTROLS BAR */
+    .controls-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+    .ctrl-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .ctrl-btn {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #f1f5f9;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .ctrl-btn:hover, .ctrl-btn.active {
+      background: var(--gold);
+      color: #0b1320;
+      border-color: var(--gold);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="mockup-header">
+      <div class="mockup-badge">Editorial UX & Conversion Architecture</div>
+      <h1 class="mockup-title">The Minimal High-Converting Language Switcher</h1>
+      <p class="mockup-subtitle">
+        Zero performance bloat, no IP-redirect traps, pure semantic HTML links for PageRank equity, and a friction-free expat conversion safety net.
+      </p>
+    </div>
+
+    <!-- INTERACTIVE DEMO CONTROLS -->
+    <div class="controls-bar">
+      <span class="ctrl-label">Preview Language Selection:</span>
+      <button class="ctrl-btn active" onclick="setLang('en', 'English', '/dinner-cruises-paris')">English (EN)</button>
+      <button class="ctrl-btn" onclick="setLang('fr', 'Français', '/fr/meilleurs-diners-croisieres-paris')">Français (FR)</button>
+      <button class="ctrl-btn" onclick="setLang('de', 'Deutsch', '/de/beste-dinner-fahrten-seine-paris')">Deutsch (DE)</button>
+      <button class="ctrl-btn" onclick="setLang('es', 'Español', '/es/mejores-cruceros-cena-sena-paris')">Español (ES)</button>
+      <button class="ctrl-btn" onclick="setLang('it', 'Italiano', '/it/migliori-crociere-con-cena-senna-parigi')">Italiano (IT)</button>
+      <button class="ctrl-btn" onclick="toggleDropdown()">Toggle Desktop Dropdown</button>
+      
+    </div>
+
+    <!-- TOUCHPOINT 1: DESKTOP HEADER -->
+    <div class="touchpoints-grid">
+      <div class="touchpoint-card">
+        <div class="touchpoint-head">
+          <div class="touchpoint-title">
+            <span class="touchpoint-num">1</span>
+            Desktop Header Pill & Direct-Article Dropdown
+          </div>
+          <span class="touchpoint-badge">Zero Nav Clutter • Instant URL Matching</span>
+        </div>
+        <div class="touchpoint-body">
+          <div class="simulated-browser">
+            <div class="browser-bar">
+              <div class="browser-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="browser-url" id="browserUrl">
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                https://thecruisedetective.com<span id="urlPath" style="color:#0f172a; font-weight:700;">/dinner-cruises-paris</span>
+              </div>
+            </div>
+
+            <header class="ltt-demo-navbar">
+              <a class="ltt-demo-brand" href="#">
+                <div class="ltt-demo-logo">🕵️‍♂️</div>
+                <span class="ltt-demo-brand-text">THE CRUISE DETECTIVE</span>
+              </a>
+
+              <nav class="ltt-demo-links">
+                <a class="ltt-demo-link" href="#">Destinations ▾</a>
+                <a class="ltt-demo-link" href="#" style="color:var(--gold); font-weight:700;">Dinner Cruises</a>
+                <a class="ltt-demo-link" href="#">Sightseeing</a>
+                <a class="ltt-demo-link" href="#">About</a>
+                <a class="ltt-demo-link" href="#">Contact</a>
+              </nav>
+
+              <div class="ltt-demo-right">
+                <!-- CANONICAL MINIMAL SWITCHER TRIGGER -->
+                <div class="ltt-lang-trigger" id="langTrigger">
+                  <button class="ltt-lang-btn" id="langBtn" onclick="toggleDropdown()" type="button" aria-haspopup="true" aria-expanded="false">
+                    <svg class="ltt-lang-globe" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span class="ltt-lang-code" id="activeLangCode">EN</span>
+                    <svg class="ltt-lang-chevron" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </button>
+
+                  <!-- 2-COLUMN FAST-SELECT POPUP -->
+                  <div class="ltt-lang-dropdown show" id="langDropdown">
+                    <div class="ltt-lang-dropdown-header">
+                      <span>Select Language</span>
+                      <span style="font-size:9px; color:#10b981; font-weight:800;">● 9 AVAILABLE</span>
+                    </div>
+                    <div class="ltt-lang-grid-menu">
+                      <a class="ltt-lang-item current" href="#" data-lang="en">
+                        <span class="lang-native">English</span>
+                        <span class="lang-code-tag">EN</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="fr">
+                        <span class="lang-native">Français</span>
+                        <span class="lang-code-tag">FR</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="de">
+                        <span class="lang-native">Deutsch</span>
+                        <span class="lang-code-tag">DE</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="es">
+                        <span class="lang-native">Español</span>
+                        <span class="lang-code-tag">ES</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="it">
+                        <span class="lang-native">Italiano</span>
+                        <span class="lang-code-tag">IT</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="nl">
+                        <span class="lang-native">Nederlands</span>
+                        <span class="lang-code-tag">NL</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="pl">
+                        <span class="lang-native">Polski</span>
+                        <span class="lang-code-tag">PL</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="ro">
+                        <span class="lang-native">Română</span>
+                        <span class="lang-code-tag">RO</span>
+                      </a>
+                      <a class="ltt-lang-item" href="#" data-lang="ja" style="grid-column: span 2;">
+                        <span class="lang-native">日本語 (Japanese)</span>
+                        <span class="lang-code-tag">JA</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+
+            <div class="ltt-demo-body">
+              <div class="demo-kicker" id="demoKicker">Expert Field Tested Review • Paris 2026</div>
+              <h2 class="demo-headline" id="demoHeadline">10 Best Seine Dinner Cruises Ranked &amp; Compared</h2>
+              <p class="demo-desc" id="demoDesc">We spent 14 nights testing every dinner boat on the Seine. Complete menu breakdowns, pier maps, and insider seating guides.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOUCHPOINT 2 & 3: MOBILE DRAWER + SMART GEO TOAST -->
+      <div class="mobile-side-by-side">
+        <!-- MOBILE DRAWER PHONE -->
+        <div class="touchpoint-card">
+          <div class="touchpoint-head">
+            <div class="touchpoint-title">
+              <span class="touchpoint-num">2</span>
+              Mobile Drawer (Thumb Grid)
+            </div>
+          </div>
+          <div class="touchpoint-body" style="padding:16px; display:flex; justify-content:center;">
+            <div class="phone-mockup">
+              <div class="phone-speaker"></div>
+              <div class="phone-screen">
+                <div class="phone-header">
+                  <span class="phone-brand">THE CRUISE DETECTIVE</span>
+                  <button class="phone-close-btn">✕</button>
+                </div>
+
+                <div class="phone-drawer-content">
+                  <div class="phone-menu-group">
+                    <div class="phone-menu-label">Destinations</div>
+                    <a class="phone-menu-item" href="#">
+                      <span>🍷 Paris Dinner Cruises</span>
+                      <span style="font-size:10px; font-weight:800; background:var(--gold); color:#0b1320; padding:2px 6px; border-radius:4px;">TOP</span>
+                    </a>
+                    <a class="phone-menu-item" href="#">
+                      <span>🗼 Seine Sightseeing</span>
+                    </a>
+                    <a class="phone-menu-item" href="#">
+                      <span>🌷 Amsterdam Canals</span>
+                    </a>
+                    <a class="phone-menu-item" href="#">
+                      <span>🇬🇧 London Thames</span>
+                    </a>
+                  </div>
+
+                  <!-- MOBILE DEDICATED LANGUAGE CHIPS GRID -->
+                  <div class="phone-lang-box">
+                    <div class="phone-lang-title">
+                      <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                      Language
+                    </div>
+                    <div class="phone-lang-chips">
+                      <div class="phone-lang-chip current" data-m-lang="en">
+                        <span class="chip-code">EN</span>
+                        <span class="chip-name">English</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="fr">
+                        <span class="chip-code">FR</span>
+                        <span class="chip-name">Français</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="de">
+                        <span class="chip-code">DE</span>
+                        <span class="chip-name">Deutsch</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="es">
+                        <span class="chip-code">ES</span>
+                        <span class="chip-name">Español</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="it">
+                        <span class="chip-code">IT</span>
+                        <span class="chip-name">Italiano</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="nl">
+                        <span class="chip-code">NL</span>
+                        <span class="chip-name">Nederlands</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="pl">
+                        <span class="chip-code">PL</span>
+                        <span class="chip-name">Polski</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="ro">
+                        <span class="chip-code">RO</span>
+                        <span class="chip-name">Română</span>
+                      </div>
+                      <div class="phone-lang-chip" data-m-lang="ja">
+                        <span class="chip-code">JA</span>
+                        <span class="chip-name">日本語</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STRATEGIC ANALYSIS TABLE -->
+    <div class="analysis-table-wrap">
+      <div class="analysis-title">
+        <span>⚖️</span> Tervezési Szabályok: Miért így és miért nem máshogy?
+      </div>
+      <div class="analysis-grid">
+        <div class="analysis-box">
+          <div class="analysis-box-head">❌ Soha Ne: Zászlók</div>
+          <p>
+            A zászló országot jelöl, nem nyelvet. Egy amerikai vagy kanadai nem kattint szívesen brit zászlóra, egy latin-amerikai mexikóira vagy spanyolra. A natív név (<em>Français, Deutsch, 日本語</em>) 100%-ban univerzális és félreérthetetlen.
+          </p>
+        </div>
+
+        <div class="analysis-box">
+          <div class="analysis-box-head">❌ Soha Ne: IP Auto-Redirect</div>
+          <p>
+            A látogató IP címe alapján kényszerített átirányítás a leggyorsabb módja a Googlebot crawl hibáknak és a külföldön tartózkodó vevők elüldözésének. Mindig a felhasználó dönt, nem az algoritmus.
+          </p>
+        </div>
+
+        <div class="analysis-box">
+          <div class="analysis-box-head">✅ Mindig: Direct Slug Link</div>
+          <p>
+            Ha a felhasználó a <code>/dinner-cruises-paris</code> oldalon van, a francia gomb közvetlenül a <code>/fr/meilleurs-diners-croisieres-paris</code> aloldalra kell mutasson, sosem a francia főoldalra (<code>/fr/</code>). A főoldalra való visszadobás 80%+ kosárelhagyást okoz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var currentLang = 'en';
+
+    var langContent = {
+      en: {
+        code: 'EN',
+        url: '/dinner-cruises-paris',
+        kicker: 'Expert Field Tested Review • Paris 2026',
+        headline: '10 Best Seine Dinner Cruises Ranked & Compared',
+        desc: 'We spent 14 nights testing every dinner boat on the Seine. Complete menu breakdowns, pier maps, and insider seating guides.'
+      },
+      fr: {
+        code: 'FR',
+        url: '/fr/meilleurs-diners-croisieres-paris',
+        kicker: 'Avis Testé sur le Terrain • Paris 2026',
+        headline: 'Les 10 Meilleurs Dîners-Croisières sur la Seine',
+        desc: 'Nous avons passé 14 nuits à tester chaque bateau-restaurant. Menus gourmands détaillés, plans d\'embarquement et conseils de placement.'
+      },
+      de: {
+        code: 'DE',
+        url: '/de/beste-dinner-fahrten-seine-paris',
+        kicker: 'Experten-Testbericht • Paris 2026',
+        headline: 'Die 10 besten Seine Dinner-Fahrten im Vergleich',
+        desc: '14 Abende auf der Seine: Ehrliche Menü-Analysen, Abfahrtsorte und Insider-Tipps für die besten Tische am Fenster.'
+      },
+      es: {
+        code: 'ES',
+        url: '/es/mejores-cruceros-cena-sena-paris',
+        kicker: 'Guía Probada en Primera Persona • París 2026',
+        headline: 'Los 10 Mejores Cruceros con Cena por el Sena',
+        desc: '14 noches probando cada barco restaurante. Menús completos analizados, muelles exactos y consejos de reserva.'
+      },
+      it: {
+        code: 'IT',
+        url: '/it/migliori-crociere-con-cena-senna-parigi',
+        kicker: 'Recensione Verificata sul Campo • Parigi 2026',
+        headline: 'Le 10 Migliori Crociere con Cena sulla Senna',
+        desc: 'Abbiamo testato 10 navi ristorante a Parigi. Menu completi, vini inclusi, posizioni dei tavoli e mappe d\'imbarco.'
+      }
+    };
+
+    function setLang(code, name, path) {
+      currentLang = code;
+      var data = langContent[code] || langContent.en;
+
+      // Update Desktop Pill
+      document.getElementById('activeLangCode').textContent = data.code;
+      document.getElementById('urlPath').textContent = data.url;
+      document.getElementById('demoKicker').textContent = data.kicker;
+      document.getElementById('demoHeadline').textContent = data.headline;
+      document.getElementById('demoDesc').textContent = data.desc;
+
+      // Update Dropdown active states
+      document.querySelectorAll('.ltt-lang-item').forEach(function(item) {
+        if (item.getAttribute('data-lang') === code) {
+          item.classList.add('current');
+        } else {
+          item.classList.remove('current');
+        }
+      });
+
+      // Update Mobile chips
+      document.querySelectorAll('.phone-lang-chip').forEach(function(chip) {
+        if (chip.getAttribute('data-m-lang') === code) {
+          chip.classList.add('current');
+        } else {
+          chip.classList.remove('current');
+        }
+      });
+
+      // Update control buttons
+      document.querySelectorAll('.ctrl-btn').forEach(function(btn) {
+        if (btn.textContent.includes(code.toUpperCase())) {
+          btn.classList.add('active');
+        } else if (!btn.textContent.includes('Toggle')) {
+          btn.classList.remove('active');
+        }
+      });
+    }
+
+    function toggleDropdown() {
+      var dropdown = document.getElementById('langDropdown');
+      var btn = document.getElementById('langBtn');
+      dropdown.classList.toggle('show');
+      btn.classList.toggle('is-active');
+    }
+
+     else {
+        toast.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
