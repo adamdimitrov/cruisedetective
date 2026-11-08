@@ -937,6 +937,57 @@ try:
 except Exception as _e:
     pass
 
+SP_CARD_I18N = {
+    'fr': {
+        'Live Singer Performance': 'Performance de Chanteuse en Direct',
+        'Live singer/guitarist': 'Le chanteur/guitariste en direct',
+        'Live Piano & Violin Duet': 'Duo Piano & Violon en Direct',
+        'Live Singer': 'Chanteuse en Direct'
+    },
+    'de': {
+        'Live Singer Performance': 'Live-Gesangsdarbietung',
+        'Live singer/guitarist': 'Der Live-Sänger/Gitarrist',
+        'Live Piano & Violin Duet': 'Live-Klavier- & Violinduo',
+        'Live Singer': 'Live-Sänger/in'
+    },
+    'es': {
+        'Live Singer Performance': 'Actuación de Cantante en Vivo',
+        'Live singer/guitarist': 'El cantante/guitarrista en vivo',
+        'Live Piano & Violin Duet': 'Dúo de Piano y Violín en Vivo',
+        'Live Singer': 'Cantante en Vivo'
+    },
+    'it': {
+        'Live Singer Performance': 'Esibizione di Cantante dal Vivo',
+        'Live singer/guitarist': 'Il cantante/chitarrista dal vivo',
+        'Live Piano & Violin Duet': 'Duo Pianoforte e Violino dal Vivo',
+        'Live Singer': 'Cantante dal Vivo'
+    },
+    'ja': {
+        'Live Singer Performance': '生歌ボーカルライブ演奏',
+        'Live singer/guitarist': '生歌シンガー／ギタリスト',
+        'Live Piano & Violin Duet': 'ピアノ＆バイオリン生演奏デュエット',
+        'Live Singer': '生歌ボーカリスト'
+    },
+    'nl': {
+        'Live Singer Performance': 'Optreden van Live Zanger/Zangeres',
+        'Live singer/guitarist': 'De live zanger/gitarist',
+        'Live Piano & Violin Duet': 'Live Piano- en Vioolduet',
+        'Live Singer': 'Live Zanger/Zangeres'
+    },
+    'pl': {
+        'Live Singer Performance': 'Występ Wokalisty na Żywo',
+        'Live singer/guitarist': 'Wokalista/gitarzysta na żywo',
+        'Live Piano & Violin Duet': 'Duet Fortepianu i Skrzypiec na Żywo',
+        'Live Singer': 'Wokalista / Wokalistka na Żywo'
+    },
+    'ro': {
+        'Live Singer Performance': 'Spectacol cu Cântăreț Live',
+        'Live singer/guitarist': 'Cântărețul/chitaristul live',
+        'Live Piano & Violin Duet': 'Duet de Pian și Vioară Live',
+        'Live Singer': 'Cântăreț Live'
+    }
+}
+
 PARIS_DINNER_BEST_FOR = {
     'fr': [
         "Couples, anniversaires et premiers visiteurs à Paris souhaitant la quintessence du dîner romantique avec violon, piano, champagne généreux et accès au pont ouvert à 360°.",
@@ -2234,6 +2285,16 @@ def clone_guide_page(dest_key, lang, target_rel_path):
             if simg.get('alt') and card_title:
                 simg['alt'] = card_title
 
+        # Localize subpoint bullet highlights inside review card
+        if lang in SP_CARD_I18N:
+            for li in rcard.find_all('li'):
+                litext = li.get_text()
+                for en_sub, tr_sub in SP_CARD_I18N[lang].items():
+                    if en_sub in litext:
+                        for c in list(li.contents):
+                            if isinstance(c, str) and en_sub in c:
+                                c.replace_with(c.replace(en_sub, tr_sub))
+
     # 7. Update Table of Contents Title
     toc_titles = master_soup.find_all(class_=['title-small-3', 'ltt-toc-heading'])
     for tt in toc_titles:
@@ -2416,6 +2477,21 @@ def clone_guide_page(dest_key, lang, target_rel_path):
 
     # 10. Localize Footer
     localize_footer(master_soup, lang)
+
+    # 11. Final pass: eliminate any remaining leaked English phrases
+    if lang in SP_CARD_I18N:
+        for li in master_soup.find_all('li'):
+            litext = li.get_text()
+            for en_sub, tr_sub in SP_CARD_I18N[lang].items():
+                if en_sub in litext:
+                    for c in list(li.contents):
+                        if isinstance(c, str) and en_sub in c:
+                            c.replace_with(c.replace(en_sub, tr_sub))
+        for sp in master_soup.find_all(class_='bpa-sp'):
+            sptext = sp.get_text()
+            if 'Live Singer' in sptext:
+                tr_singer = SP_CARD_I18N[lang]['Live Singer']
+                sp.string = sptext.replace('Live Singer', tr_singer)
 
     final_html = str(master_soup)
     with open(target_abs, 'w', encoding='utf-8') as f:
