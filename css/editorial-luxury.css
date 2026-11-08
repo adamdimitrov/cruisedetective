@@ -388,6 +388,15 @@ a:hover {
   box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
 }
 
+.ltt-nav-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  gap: 12px;
+}
+
 .ltt-hamburger {
   display: none;
   width: 42px;
@@ -427,8 +436,23 @@ a:hover {
 }
 
 @media (max-width: 991px) {
+  .ltt-nav-inner {
+    justify-content: space-between !important;
+    gap: 12px !important;
+  }
   .ltt-nav-links, .ltt-cta-pill { display: none !important; }
-  .ltt-hamburger { display: flex !important; }
+  .ltt-nav-right {
+    margin-left: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 100% !important;
+  }
+  .ltt-hamburger {
+    display: flex !important;
+    align-self: center !important;
+    margin: 0 !important;
+  }
   .ltt-mobile-drawer {
     display: block;
     position: absolute;
