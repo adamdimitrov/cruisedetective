@@ -37,6 +37,10 @@
       "destination": "/seine-river-cruises-paris/index.html"
     },
     {
+      "source": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris/index.html"
+    },
+    {
       "source": "/dinner-cruises-paris",
       "destination": "/dinner-cruises-paris/index.html"
     },
