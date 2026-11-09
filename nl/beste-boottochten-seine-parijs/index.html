@@ -1482,6 +1482,115 @@ function gtag_report_conversion(url) {
   text-decoration-color: #785208 !important;
 }
 
+/* Editorial Bookmark Cross-Link Card */
+.cd-bookmark-wrapper {
+  margin: 18px 0 6px 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.cd-editorial-bookmark {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  text-decoration: none !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  min-height: 130px !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04) !important;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.18s ease, box-shadow 0.18s ease !important;
+}
+.cd-editorial-bookmark:hover {
+  transform: translateY(-2px) !important;
+  border-color: #dfa732 !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08) !important;
+}
+.cd-editorial-body {
+  flex: 1 1 auto !important;
+  padding: 16px 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-width: 0 !important;
+}
+.cd-editorial-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 15.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  color: #0f172a !important;
+  margin-bottom: 6px !important;
+}
+.cd-editorial-desc {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: #64748b !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  margin-bottom: 10px !important;
+}
+.cd-editorial-meta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 11.5px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  color: #334155 !important;
+}
+.cd-editorial-icon {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  flex-shrink: 0 !important;
+  border: 1px solid #e2e8f0 !important;
+  display: inline-block !important;
+}
+.cd-editorial-pub {
+  text-transform: uppercase !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  color: #0f172a !important;
+}
+.cd-editorial-dot {
+  color: #94a3b8 !important;
+}
+.cd-editorial-author {
+  color: #64748b !important;
+  font-weight: 500 !important;
+}
+.cd-editorial-thumb {
+  flex: 0 0 220px !important;
+  max-width: 220px !important;
+  position: relative !important;
+  background: #f1f5f9 !important;
+}
+.cd-editorial-thumb img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+@media (max-width: 640px) {
+  .cd-editorial-bookmark {
+    flex-direction: column-reverse !important;
+  }
+  .cd-editorial-thumb {
+    flex: none !important;
+    max-width: 100% !important;
+    height: 150px !important;
+  }
+  .cd-editorial-body {
+    padding: 14px 16px !important;
+  }
+}
+
+
 /* Integrated Single-Row Filter Bar (Inside Hero Card or Slim Filter Bar) */
 .ltt-integrated-filter-bar {
   margin-top: 18px;
@@ -1567,7 +1676,26 @@ function gtag_report_conversion(url) {
 <span class="ltt-trust-pill paragraph-26">Laatst bijgewerkt: 1 nov. 2026</span>
 </div>
 </div>
-<div class="ltt-lead-copy"><p>Ik ben op een <strong>twaalfdaagse reis naar Parijs</strong> gegaan om definitieve antwoorden te vinden door de <strong>vijf populairste riviercruises</strong> en <a href="/nl/beste-boottochten-seine-met-diner-parijs">dinercruises in Parijs</a> <strong>uit te proberen</strong>.</p><p>Ze hebben allemaal duizenden lovende recensies, dus de <strong>meest betrouwbare manier om ze te rangschikken was door ze allemaal te ervaren</strong>.</p><p>Dit artikel geeft je een <strong>ongelooflijk gedetailleerd overzicht</strong> van mijn bevindingen.</p></div>
+<div class="ltt-lead-copy"><p>Ik ben op een <strong>twaalfdaagse reis naar Parijs</strong> gegaan om definitieve antwoorden te vinden door de <strong>vijf populairste riviercruises</strong> en <a href="/nl/beste-boottochten-seine-met-diner-parijs">dinercruises in Parijs</a> <strong>uit te proberen</strong>.</p><p>Ze hebben allemaal duizenden lovende recensies, dus de <strong>meest betrouwbare manier om ze te rangschikken was door ze allemaal te ervaren</strong>.</p><p>Dit artikel geeft je een <strong>ongelooflijk gedetailleerd overzicht</strong> van mijn bevindingen.</p>
+<figure class="cd-bookmark-wrapper">
+  <a href="/nl/beste-boottochten-seine-met-diner-parijs" class="cd-editorial-bookmark" target="_blank" rel="noopener">
+    <div class="cd-editorial-body">
+      <div>
+        <div class="cd-editorial-title">De 10 beste dinercruises in Parijs in 2026 (door mijzelf getest)</div>
+        <div class="cd-editorial-desc">Ontdek onze uitgebreide review van de 10 beste dinercruises in Parijs voor 2026. We hebben elke route in onze top 5 aanbevelingen zelf getest, de gerechten geproefd en...</div>
+      </div>
+      <div class="cd-editorial-meta">
+        <img class="cd-editorial-icon" src="/assets/cruise_detective_logo_128.png" alt="The Cruise Detective" width="18" height="18" />
+        <span class="cd-editorial-pub">THE CRUISE DETECTIVE</span>
+        <span class="cd-editorial-dot">•</span>
+        <span class="cd-editorial-author">Adam Dimitrov</span>
+      </div>
+    </div>
+    <div class="cd-editorial-thumb">
+      <img src="/assets/cdn/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp" alt="De 10 beste dinercruises in Parijs in 2026 (door mijzelf getest)" loading="lazy" />
+    </div>
+  </a>
+</figure></div>
 <div class="ltt-integrated-filter-bar">
 <span class="ltt-filter-label">Filters:</span>
 <div class="ltt-integrated-pills">
