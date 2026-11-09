@@ -8699,7 +8699,20 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
       frag.appendChild(a);
     });
 
-    /* guideSections kept for mobile hybridSheet only */
+        if (guideSections.length) {
+      var grp = document.createElement('div');
+      grp.className = 'toc-group-label';
+      grp.textContent = cfg.tocGuideLabel || "Buyer's Guide & Methodology";
+      frag.appendChild(grp);
+      guideSections.forEach(function(g) {
+        var a = document.createElement('a');
+        a.className = 'tocitem';
+        a.href = '#' + g.id;
+        a.textContent = g.text;
+        frag.appendChild(a);
+        items.push({ id: g.id, text: g.text });
+      });
+    }
 
     toc.appendChild(frag);
     toc.setAttribute('data-synced', 'true');
