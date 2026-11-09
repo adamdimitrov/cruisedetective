@@ -172,6 +172,71 @@
   ],
   "redirects": [
     {
+      "source": "/nl/over-uns",
+      "destination": "/nl/over-ons",
+      "permanent": true
+    },
+    {
+      "source": "/nl/beste-roondvarten-grachten-amsterdam",
+      "destination": "/nl/beste-rondvaarten-grachten-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ro/cele-mai-bune-croaziere-râul-senine-paris",
+      "destination": "/ro/cele-mai-bune-croaziere-sena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/pl/o",
+      "destination": "/pl/o-nas",
+      "permanent": true
+    },
+    {
+      "source": "/ja/接触",
+      "destination": "/ja/お問い合わせ",
+      "permanent": true
+    },
+    {
+      "source": "/ja/パリのベスト-セ-ヌ川クル-ズ",
+      "destination": "/ja/パリのベスト-セーヌ川クルーズ",
+      "permanent": true
+    },
+    {
+      "source": "/ja/パリのベスト-ディナ-クル-ズ",
+      "destination": "/ja/パリのベスト-ディナークルーズ",
+      "permanent": true
+    },
+    {
+      "source": "/ja/ベスト運河クル-ズ-アムステルダム",
+      "destination": "/ja/ベスト運河クルーズ-アムステルダム",
+      "permanent": true
+    },
+    {
+      "source": "/ja/ロンドンのテムズ川クル-ズ",
+      "destination": "/ja/ロンドンのテムズ川クルーズ",
+      "permanent": true
+    },
+    {
+      "source": "/fr/seine-river-cruise-review",
+      "destination": "/fr/meilleures-croisieres-seine-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ro/dinner-cruises",
+      "destination": "/ro/cele-mai-bune-cina-croaziere-paris",
+      "permanent": true
+    },
+    {
+      "source": "/ja/dinner-cruises",
+      "destination": "/ja/パリのベスト-ディナークルーズ",
+      "permanent": true
+    },
+    {
+      "source": "/nl/london",
+      "destination": "/nl/beste-boottochten-theems-londen",
+      "permanent": true
+    },
+    {
       "source": "/:lang/privacy-policy",
       "destination": "/privacy-policy",
       "permanent": true
