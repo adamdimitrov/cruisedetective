@@ -172,6 +172,17 @@
   ],
   "redirects": [
     {
+      "source": "/:path((?!api/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "thecruisedetective.com"
+        }
+      ],
+      "destination": "https://www.thecruisedetective.com/:path",
+      "permanent": true
+    },
+    {
       "source": "/de/seine-river-cruise-review",
       "destination": "/seine-river-cruise-review",
       "permanent": true
