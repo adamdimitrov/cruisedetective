@@ -77,6 +77,78 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
   transform: translateY(-10px) rotate(-45deg) !important;
 }
 
+
+/* ==========================================================================
+   CANONICAL BUDAPEST ADVENTURES PARITY GRID & TOC GEOMETRY
+   ========================================================================== */
+.container-31, .container-26 {
+  width: 100% !important;
+  max-width: 1240px !important;
+  margin: 0 auto !important;
+  padding: 0 16px !important;
+  box-sizing: border-box !important;
+}
+.blog-grid-2, .blog-grid {
+  position: relative !important;
+  display: block !important;
+  padding-left: 270px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+}
+.content-left {
+  display: block !important;
+  width: 230px !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  inset: 0% auto 0% 0% !important;
+}
+.stick-wrapper {
+  position: sticky !important;
+  top: 88px !important;
+  max-height: calc(100vh - 104px) !important;
+  overflow-y: auto !important;
+  z-index: 90 !important;
+  padding-top: 6px !important;
+}
+.content-right_blog {
+  width: 100% !important;
+  max-width: 920px !important;
+  box-sizing: border-box !important;
+  display: block !important;
+}
+.container-33 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.bpa-details-card {
+  width: 100% !important;
+  max-width: 920px !important;
+  box-sizing: border-box !important;
+}
+.ltt-editorial-wrapper {
+  width: 100% !important;
+  max-width: 920px !important;
+  margin: 60px auto 0 auto !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 991px) {
+  .blog-grid-2, .blog-grid {
+    padding-left: 0 !important;
+    display: block !important;
+  }
+  .content-left {
+    display: none !important;
+  }
+  .content-right_blog {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
 </style>
 <meta charset="utf-8"/>
 <title>Bateaux Mouches vs. Bateaux Parisiens Dinner Cruise (Side-by-Side Comparison) | The Cruise Detective</title>
@@ -8876,20 +8948,7 @@ window.LTT_PAGE_CONFIG = {"deckId": "bm-vs-bp-comparison-deck", "tocDeckLabel": 
       frag.appendChild(a);
     });
 
-    if (guideSections.length) {
-      var grp = document.createElement('div');
-      grp.className = 'toc-group-label';
-      grp.textContent = "Buyer's Guide & Methodology";
-      frag.appendChild(grp);
-      guideSections.forEach(function(g) {
-        var a = document.createElement('a');
-        a.className = 'tocitem';
-        a.href = '#' + g.id;
-        a.textContent = g.text;
-        frag.appendChild(a);
-        items.push({ id: g.id, text: g.text });
-      });
-    }
+    /* guideSections kept for mobile hybridSheet only */
 
     toc.appendChild(frag);
     toc.setAttribute('data-synced', 'true');
