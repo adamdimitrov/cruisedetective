@@ -8121,17 +8121,19 @@ window.LTT_PAGE_CONFIG = {
   // 1b. Bento Filmstrip Desktop & Mobile Slider Controls
   window.lttFilmSync = function(strip) {
     if (!strip) return;
-    var wrap = strip.closest('.ltt-filmstrip-wrap');
-    if (!wrap) return;
-    var prevBtn = wrap.querySelector('.ltt-film-prev');
-    var nextBtn = wrap.querySelector('.ltt-film-next');
-    var maxScroll = strip.scrollWidth - strip.clientWidth;
-    if (prevBtn) {
-      prevBtn.classList.toggle('is-disabled', maxScroll <= 6 || strip.scrollLeft <= 6);
-    }
-    if (nextBtn) {
-      nextBtn.classList.toggle('is-disabled', maxScroll <= 6 || strip.scrollLeft >= maxScroll - 6);
-    }
+    requestAnimationFrame(function() {
+      var wrap = strip.closest('.ltt-filmstrip-wrap');
+      if (!wrap) return;
+      var prevBtn = wrap.querySelector('.ltt-film-prev');
+      var nextBtn = wrap.querySelector('.ltt-film-next');
+      var maxScroll = strip.scrollWidth - strip.clientWidth;
+      if (prevBtn) {
+        prevBtn.classList.toggle('is-disabled', maxScroll <= 6 || strip.scrollLeft <= 6);
+      }
+      if (nextBtn) {
+        nextBtn.classList.toggle('is-disabled', maxScroll <= 6 || strip.scrollLeft >= maxScroll - 6);
+      }
+    });
   };
 
   window.lttFilmSlide = function(btn, dir) {
@@ -8661,16 +8663,26 @@ window.LTT_PAGE_CONFIG = {
     }
   }, { passive: true });
 
+  var _layoutScheduled = false;
+  function scheduleLayoutSync() {
+    if (_layoutScheduled) return;
+    _layoutScheduled = true;
+    requestAnimationFrame(function() {
+      _layoutScheduled = false;
+      initAllFilmstrips();
+      updateFloatingCTA();
+      updateActiveTOC();
+    });
+  }
+
   window.addEventListener('resize', function() {
-    initAllFilmstrips();
+    scheduleLayoutSync();
   }, { passive: true });
 
   function initAll() {
     initHybridSheet();
     syncSidebarTOC();
-    initAllFilmstrips();
-    updateFloatingCTA();
-    updateActiveTOC();
+    scheduleLayoutSync();
     if (window.location.hash) {
       var h = window.location.hash.substring(1);
       var el = document.getElementById(h) || (h === 'desert-safaris-breakdown' ? document.getElementById('breakdown-header') : null);
@@ -8687,9 +8699,7 @@ window.LTT_PAGE_CONFIG = {
   } else {
     initAll();
   }
-  window.addEventListener('load', initAll);
-  setTimeout(initAll, 200);
-  setTimeout(initAll, 800);
+  window.addEventListener('load', scheduleLayoutSync);
 })();
 
 </script><script id="ltt-language-switcher-logic">
