@@ -63,7 +63,9 @@ Across 255 Bateaux Parisiens Sightseeing (`973977`) orders:
 - **Meta Pixel ID (Shared across `thecruisedetective.com` and `deals.thecruisedetective.com`):** `1355732169631751`
 - **Google Ads Tag on `thecruisedetective.com`:** `AW-16782417237` (Customer ID: `4899321613`)
 - **GA4 Measurement ID:** `G-RN34XFKPQ6` | **GTM Container:** `GTM-W8KZMGH`
-- **Microsoft Clarity Project ID (`deals.thecruisedetective.com`):** `z1jcuxy2we`
+- **Microsoft Clarity Project IDs:**
+  - `thecruisedetective.com` (Organic SEO / Editorial / Multi-language Guides): **`zb30xa0bub`**
+  - `deals.thecruisedetective.com` (Paid Funnels / Google & Meta Ads LP): **`z1jcuxy2we`**
 - **Meta Website Custom Audiences:**
   - `SEO & LP Visitors - Paris Sightseeing Cruises (30D Retargeting)`: **`120251645526940010`**
   - `SEO Visitors - Paris Dinner Cruises (30D Retargeting)`: **`120251645527150010`**
