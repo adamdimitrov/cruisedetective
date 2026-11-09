@@ -19,6 +19,7 @@ import json
 import os
 import re
 import subprocess
+from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -115,9 +116,12 @@ def main():
     vp = os.path.join(ROOT, "vercel.json")
     with open(vp, encoding="utf-8") as f:
         v = json.load(f)
+    # Vercel matches redirect sources against the percent-encoded path, so
+    # non-ASCII slugs must be written encoded or they never match.
+    enc = lambda p: quote(p, safe="/:")
     existing = {r["source"] for r in v["redirects"]}
-    new_rules = [{"source": o, "destination": n, "permanent": True}
-                 for o, n in mapping.items() if o not in existing]
+    new_rules = [{"source": enc(o), "destination": enc(n), "permanent": True}
+                 for o, n in mapping.items() if enc(o) not in existing]
     # old paths may also be targets of older redirects -> point those straight at the new slug
     for r in v["redirects"]:
         if r["destination"] in SLUG_RENAMES:
