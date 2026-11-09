@@ -628,7 +628,509 @@ function gtag_report_conversion(url) {
 </div>
 </header><div class="w-embed w-script">
 <!-- Shadow DOM Host -->
-<div id="webflow_privacy-host"></div>
+<div id="webflow_privacy-host"><template shadowrootmode="open"><style>
+    :host {
+        all: initial;
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        color: #334155;
+        line-height: 1.7;
+        background-color: #ffffff;
+        font-size: 18px;
+        -webkit-font-smoothing: antialiased;
+    }
+    /* Reset & Variables */
+:host {
+    --primary-color: #0f172a; /* Slate 900 */
+    --text-main: #334155;     /* Slate 700 */
+    --text-muted: #64748b;    /* Slate 500 */
+    --bg-light: #f8fafc;      /* Slate 50 */
+    --cta-color: #10b981;     /* Emerald 500 - High conversion green */
+    --cta-hover: #059669;     /* Emerald 600 */
+    --accent: #3b82f6;        /* Blue 500 */
+    --warning: #f59e0b;       /* Amber 500 */
+    --max-width: 800px;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-main);
+    line-height: 1.7;
+    background-color: #ffffff;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    border-bottom: 2px solid var(--bg-light);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+/* Layout */
+.adv-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: var(--bg-light);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Header */
+.main-header {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 12px;
+}
+
+.logo-text {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+/* Content */
+.content-wrapper {
+    max-width: var(--max-width);
+    margin: 2rem auto 4rem;
+    padding: 0 1.5rem;
+}
+
+.headline {
+    margin-bottom: 1.5rem;
+}
+
+/* Author Meta */
+.author-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.author-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.author-name {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--primary-color);
+}
+
+.publish-date {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Images */
+.hero-image-container, .content-image {
+    margin-bottom: 2rem;
+}
+
+.hero-image, .content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #eff6ff;
+    border-left: 4px solid var(--accent);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.highlight-box p {
+    margin: 0;
+    color: #1e3a8a;
+}
+
+/* Features List */
+.feature-list {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.feature-list li {
+    display: flex;
+    margin-bottom: 1.5rem;
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.feature-list .emoji {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+/* Expanded Features */
+.expanded-features h3 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.expanded-features ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.expanded-features li {
+    margin-bottom: 0.5rem;
+}
+
+.content-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Reviews */
+.reviews-section {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.rating-summary {
+    margin-bottom: 1rem;
+}
+
+.stars {
+    color: var(--warning);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.score {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+.review-count {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.review-card {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.reviewer {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* CTA Buttons */
+.cta-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--cta-color);
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 2rem 0;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.4);
+}
+
+.cta-button:hover {
+    background-color: var(--cta-hover);
+    transform: translateY(-2px);
+}
+
+.cta-arrow {
+    margin-left: 0.5rem;
+}
+
+.pulse-effect {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+}
+
+.final-cta-box {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.final-cta-box h3 {
+    color: white;
+    border: none;
+    margin-top: 0;
+}
+
+.final-cta-box p {
+    color: #cbd5e1;
+}
+
+.large-cta {
+    font-size: 1.25rem;
+    padding: 1.25rem 2rem;
+}
+
+.secure-checkout {
+    font-size: 0.8rem !important;
+    margin-bottom: 0 !important;
+    opacity: 0.8;
+}
+
+/* Sticky Floating CTA */
+.sticky-cta {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 100;
+    display: none; /* Shown via JS on scroll */
+}
+
+.sticky-cta .cta-button {
+    margin: 0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2), 0 4px 6px -2px rgba(0,0,0,0.1);
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+/* Footer */
+.main-footer {
+    background: var(--bg-light);
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.main-footer .disclaimer {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* Responsive */
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .content-wrapper {
+        margin-top: 1rem;
+    }
+    .feature-list li {
+        flex-direction: column;
+    }
+    .feature-list .emoji {
+        margin-bottom: 0.5rem;
+    }
+    /* Adding padding to bottom so sticky CTA doesn't cover content */
+    body {
+        padding-bottom: 80px; 
+    }
+}
+
+    
+    ul {
+        margin-left: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+    li {
+        margin-bottom: 0.5rem;
+    }
+    
+    </style><div>
+    <header class="main-header">
+        <div class="adv-container header-container">
+            <div class="logo-link" style="cursor: default;">
+                <img src="/assets/cdn/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="The Cruise Detective Logo" class="logo">
+                <span class="logo-text">THE CRUISE DETECTIVE</span>
+            </div>
+        </div>
+    </header>
+    <main class="content-wrapper" style="padding-top: 2rem;">
+        <article class="review-article" style="margin-bottom: 4rem;">
+            
+<h1>Privacy Policy</h1>
+<p><strong>Effective Date:</strong> January 1, 2025</p>
+<p>Welcome to The Cruise Detective ("we", "our", or "us"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy will inform you about how we look after your personal data when you visit our website (thecruisedetective.com) and tell you about your privacy rights and how the law protects you.</p>
+
+<h2>1. Information We Collect</h2>
+<p>We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p>
+<ul>
+    <li><strong>Technical Data:</strong> Includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.</li>
+    <li><strong>Usage Data:</strong> Includes information about how you use our website, products and services.</li>
+</ul>
+
+<h2>2. How We Collect Your Data</h2>
+<p>We use different methods to collect data from and about you including through:</p>
+<ul>
+    <li><strong>Automated technologies or interactions:</strong> As you interact with our website, we will automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies, server logs and other similar technologies.</li>
+</ul>
+
+<h2>3. Cookies and Tracking Technologies (Meta Pixel)</h2>
+<p>Our website uses cookies and similar tracking technologies to track the activity on our website and hold certain information.</p>
+<ul>
+    <li><strong>Meta (Facebook) Pixel:</strong> We use the Meta Pixel to measure, optimize, and build audiences for our advertising campaigns. This allows us to see how our users move between devices when accessing our website and Facebook, to ensure our Facebook ads are seen by the users most likely to be interested in our content.</li>
+    <li>You can learn more about how Meta collects and uses your data by reviewing their Data Policy. You can opt out of Facebook's interest-based ads by adjusting your Facebook Ad Settings.</li>
+</ul>
+
+<h2>4. Affiliate Links</h2>
+<p>The Cruise Detective participates in affiliate marketing programs. When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission. Affiliate programs and affiliations include, but are not limited to, Tiqets. These third-party sites use their own cookies to track the origin of sales. We have no control over the privacy policies of these third-party websites.</p>
+
+<h2>5. Third-Party Links</h2>
+<p>This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements.</p>
+
+<h2>6. Your Rights</h2>
+<p>Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, restriction, transfer, to object to processing, to portability of data and (where the lawful ground of processing is consent) to withdraw consent.</p>
+
+<h2>7. Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us via our Contact page.</p>
+
+        </article>
+    </main>
+    <footer class="main-footer">
+        <div class="adv-container">
+            <div class="footer-links" style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 1rem;">
+                <a href="/privacy-policy" style="color: inherit; text-decoration: underline;">Privacy Policy</a>
+                <a href="/terms-of-service" style="color: inherit; text-decoration: underline;">Terms of Service</a>
+                <a href="/contact" style="color: inherit; text-decoration: underline;">Contact Us</a>
+            </div>
+            <p>Copyright © <span id="current-year"></span> The Cruise Detective. All Rights Reserved.</p>
+            <p class="disclaimer">This is an advertorial based on personal experience. We may earn a commission if you book through our links, at no extra cost to you.</p>
+            <p class="disclaimer" style="margin-top: 1rem; font-size: 0.7rem;">This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
+        </div>
+    </footer>
+    </div></template></div>
 <style>
     
     #webflow_privacy-host {
@@ -644,22 +1146,15 @@ function gtag_report_conversion(url) {
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=Open+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
 <script>
     (function() {
-        const host = document.getElementById("webflow_privacy-host");
-        const root = host.attachShadow({ mode: "open" });
-        
-        const style = document.createElement("style");
-        style.textContent = "\n    :host {\n        all: initial;\n        display: block;\n        font-family: \"Open Sans\", sans-serif;\n        color: #334155;\n        line-height: 1.7;\n        background-color: #ffffff;\n        font-size: 18px;\n        -webkit-font-smoothing: antialiased;\n    }\n    /* Reset & Variables */\n:host {\n    --primary-color: #0f172a; /* Slate 900 */\n    --text-main: #334155;     /* Slate 700 */\n    --text-muted: #64748b;    /* Slate 500 */\n    --bg-light: #f8fafc;      /* Slate 50 */\n    --cta-color: #10b981;     /* Emerald 500 - High conversion green */\n    --cta-hover: #059669;     /* Emerald 600 */\n    --accent: #3b82f6;        /* Blue 500 */\n    --warning: #f59e0b;       /* Amber 500 */\n    --max-width: 800px;\n    --font-heading: 'Inter', sans-serif;\n    --font-body: 'Open Sans', sans-serif;\n}\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    font-family: var(--font-body);\n    color: var(--text-main);\n    line-height: 1.7;\n    background-color: #ffffff;\n    font-size: 18px;\n    -webkit-font-smoothing: antialiased;\n}\n\n/* Typography */\nh1, h2, h3, h4 {\n    font-family: var(--font-heading);\n    color: var(--primary-color);\n    line-height: 1.2;\n    margin-bottom: 1rem;\n}\n\nh1 {\n    font-size: 2.25rem;\n    font-weight: 800;\n    letter-spacing: -0.025em;\n}\n\nh2 {\n    font-size: 1.75rem;\n    font-weight: 700;\n    margin-top: 2.5rem;\n    border-bottom: 2px solid var(--bg-light);\n    padding-bottom: 0.5rem;\n}\n\np {\n    margin-bottom: 1.25rem;\n}\n\n/* Layout */\n.adv-container {\n    max-width: var(--max-width);\n    margin: 0 auto;\n    padding: 0 1.5rem;\n}\n\n/* Top Bar */\n.top-bar {\n    background-color: var(--bg-light);\n    text-align: center;\n    padding: 0.5rem;\n    font-size: 0.75rem;\n    color: var(--text-muted);\n    letter-spacing: 0.1em;\n    text-transform: uppercase;\n    border-bottom: 1px solid #e2e8f0;\n}\n\n/* Header */\n.main-header {\n    padding: 1.5rem 0;\n    border-bottom: 1px solid #e2e8f0;\n    background: #fff;\n    box-shadow: 0 1px 3px rgba(0,0,0,0.05);\n}\n\n.logo-link {\n    display: flex;\n    align-items: center;\n    text-decoration: none;\n    color: var(--primary-color);\n}\n\n.logo {\n    width: 40px;\n    height: auto;\n    margin-right: 12px;\n}\n\n.logo-text {\n    font-family: var(--font-heading);\n    font-weight: 800;\n    font-size: 1.25rem;\n    letter-spacing: -0.02em;\n}\n\n/* Content */\n.content-wrapper {\n    max-width: var(--max-width);\n    margin: 2rem auto 4rem;\n    padding: 0 1.5rem;\n}\n\n.headline {\n    margin-bottom: 1.5rem;\n}\n\n/* Author Meta */\n.author-meta {\n    display: flex;\n    align-items: center;\n    margin-bottom: 2rem;\n    padding-bottom: 1.5rem;\n    border-bottom: 1px solid #e2e8f0;\n}\n\n.author-img {\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n    margin-right: 1rem;\n    object-fit: cover;\n}\n\n.author-name {\n    margin: 0;\n    font-size: 0.95rem;\n    color: var(--primary-color);\n}\n\n.publish-date {\n    margin: 0;\n    font-size: 0.85rem;\n    color: var(--text-muted);\n}\n\n/* Images */\n.hero-image-container, .content-image {\n    margin-bottom: 2rem;\n}\n\n.hero-image, .content-image {\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);\n}\n\n.image-caption {\n    text-align: center;\n    font-size: 0.85rem;\n    color: var(--text-muted);\n    font-style: italic;\n    margin-top: 0.5rem;\n}\n\n/* Highlight Box */\n.highlight-box {\n    background-color: #eff6ff;\n    border-left: 4px solid var(--accent);\n    padding: 1.5rem;\n    margin: 2rem 0;\n    border-radius: 0 8px 8px 0;\n}\n\n.highlight-box p {\n    margin: 0;\n    color: #1e3a8a;\n}\n\n/* Features List */\n.feature-list {\n    list-style: none;\n    margin: 2rem 0;\n}\n\n.feature-list li {\n    display: flex;\n    margin-bottom: 1.5rem;\n    background: var(--bg-light);\n    padding: 1.25rem;\n    border-radius: 8px;\n    border: 1px solid #e2e8f0;\n}\n\n.feature-list .emoji {\n    font-size: 1.5rem;\n    margin-right: 1rem;\n    flex-shrink: 0;\n}\n\n/* Expanded Features */\n.expanded-features h3 {\n    font-size: 1.25rem;\n    color: var(--accent);\n    margin-top: 1.5rem;\n    margin-bottom: 0.5rem;\n    display: flex;\n    align-items: center;\n}\n\n.expanded-features ul {\n    margin-left: 1.5rem;\n    margin-bottom: 1.5rem;\n}\n\n.expanded-features li {\n    margin-bottom: 0.5rem;\n}\n\n.content-img {\n    width: 100%;\n    height: auto;\n    border-radius: 8px;\n    margin: 1rem 0;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n    display: block;\n}\n\n.video-container {\n    position: relative;\n    padding-bottom: 56.25%; /* 16:9 aspect ratio */\n    height: 0;\n    overflow: hidden;\n    margin: 1.5rem 0;\n    border-radius: 8px;\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.video-container iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n/* Reviews */\n.reviews-section {\n    background: #fffbeb;\n    border: 1px solid #fde68a;\n    padding: 2rem;\n    border-radius: 12px;\n    margin: 2rem 0;\n    text-align: center;\n}\n\n.rating-summary {\n    margin-bottom: 1rem;\n}\n\n.stars {\n    color: var(--warning);\n    font-size: 1.5rem;\n    letter-spacing: 2px;\n}\n\n.score {\n    font-weight: 700;\n    font-size: 1.25rem;\n    margin: 0 0.5rem;\n}\n\n.review-count {\n    display: block;\n    font-size: 0.85rem;\n    color: var(--text-muted);\n}\n\n.review-card {\n    font-style: italic;\n    font-size: 1.1rem;\n}\n\n.reviewer {\n    font-style: normal;\n    font-weight: 600;\n    margin-top: 1rem;\n    font-size: 0.9rem;\n}\n\n/* CTA Buttons */\n.cta-button {\n    display: block;\n    width: 100%;\n    text-align: center;\n    background-color: var(--cta-color);\n    color: #ffffff;\n    font-family: var(--font-heading);\n    font-weight: 700;\n    font-size: 1.125rem;\n    padding: 1rem 1.5rem;\n    border-radius: 8px;\n    text-decoration: none;\n    margin: 2rem 0;\n    transition: background-color 0.2s, transform 0.2s;\n    box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.4);\n}\n\n.cta-button:hover {\n    background-color: var(--cta-hover);\n    transform: translateY(-2px);\n}\n\n.cta-arrow {\n    margin-left: 0.5rem;\n}\n\n.pulse-effect {\n    animation: pulse 2s infinite;\n}\n\n@keyframes pulse {\n    0% {\n        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);\n    }\n    70% {\n        box-shadow: 0 0 0 15px rgba(16, 185, 129, 0);\n    }\n    100% {\n        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);\n    }\n}\n\n.final-cta-box {\n    background-color: var(--primary-color);\n    color: white;\n    padding: 2.5rem 2rem;\n    border-radius: 12px;\n    text-align: center;\n    margin: 3rem 0;\n}\n\n.final-cta-box h3 {\n    color: white;\n    border: none;\n    margin-top: 0;\n}\n\n.final-cta-box p {\n    color: #cbd5e1;\n}\n\n.large-cta {\n    font-size: 1.25rem;\n    padding: 1.25rem 2rem;\n}\n\n.secure-checkout {\n    font-size: 0.8rem !important;\n    margin-bottom: 0 !important;\n    opacity: 0.8;\n}\n\n/* Sticky Floating CTA */\n.sticky-cta {\n    position: fixed;\n    bottom: 1.5rem;\n    right: 1.5rem;\n    z-index: 100;\n    display: none; /* Shown via JS on scroll */\n}\n\n.sticky-cta .cta-button {\n    margin: 0;\n    padding: 0.75rem 1.5rem;\n    border-radius: 9999px;\n    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.2), 0 4px 6px -2px rgba(0,0,0,0.1);\n    font-size: 1rem;\n    white-space: nowrap;\n}\n\n/* Footer */\n.main-footer {\n    background: var(--bg-light);\n    padding: 3rem 1.5rem;\n    text-align: center;\n    border-top: 1px solid #e2e8f0;\n    font-size: 0.85rem;\n    color: var(--text-muted);\n}\n\n.main-footer .disclaimer {\n    margin-top: 1rem;\n    font-size: 0.75rem;\n    opacity: 0.8;\n}\n\n/* Responsive */\n\n\n@media (max-width: 768px) {\n    h1 {\n        font-size: 1.75rem;\n    }\n    h2 {\n        font-size: 1.5rem;\n    }\n    .content-wrapper {\n        margin-top: 1rem;\n    }\n    .feature-list li {\n        flex-direction: column;\n    }\n    .feature-list .emoji {\n        margin-bottom: 0.5rem;\n    }\n    /* Adding padding to bottom so sticky CTA doesn't cover content */\n    body {\n        padding-bottom: 80px; \n    }\n}\n\n    \n    ul {\n        margin-left: 1.5rem;\n        margin-bottom: 1.25rem;\n    }\n    li {\n        margin-bottom: 0.5rem;\n    }\n    \n    ";
-        root.appendChild(style);
-        
-        const content = document.createElement("div");
-        content.innerHTML = "\n    <header class=\"main-header\">\n        <div class=\"adv-container header-container\">\n            <div class=\"logo-link\" style=\"cursor: default;\">\n                <img src=\"/assets/cdn/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg\" alt=\"The Cruise Detective Logo\" class=\"logo\">\n                <span class=\"logo-text\">THE CRUISE DETECTIVE</span>\n            </div>\n        </div>\n    </header>\n    <main class=\"content-wrapper\" style=\"padding-top: 2rem;\">\n        <article class=\"review-article\" style=\"margin-bottom: 4rem;\">\n            \n<h1>Privacy Policy</h1>\n<p><strong>Effective Date:</strong> January 1, 2025</p>\n<p>Welcome to The Cruise Detective (\"we\", \"our\", or \"us\"). We respect your privacy and are committed to protecting your personal data. This Privacy Policy will inform you about how we look after your personal data when you visit our website (thecruisedetective.com) and tell you about your privacy rights and how the law protects you.</p>\n\n<h2>1. Information We Collect</h2>\n<p>We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p>\n<ul>\n    <li><strong>Technical Data:</strong> Includes internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.</li>\n    <li><strong>Usage Data:</strong> Includes information about how you use our website, products and services.</li>\n</ul>\n\n<h2>2. How We Collect Your Data</h2>\n<p>We use different methods to collect data from and about you including through:</p>\n<ul>\n    <li><strong>Automated technologies or interactions:</strong> As you interact with our website, we will automatically collect Technical Data about your equipment, browsing actions and patterns. We collect this personal data by using cookies, server logs and other similar technologies.</li>\n</ul>\n\n<h2>3. Cookies and Tracking Technologies (Meta Pixel)</h2>\n<p>Our website uses cookies and similar tracking technologies to track the activity on our website and hold certain information.</p>\n<ul>\n    <li><strong>Meta (Facebook) Pixel:</strong> We use the Meta Pixel to measure, optimize, and build audiences for our advertising campaigns. This allows us to see how our users move between devices when accessing our website and Facebook, to ensure our Facebook ads are seen by the users most likely to be interested in our content.</li>\n    <li>You can learn more about how Meta collects and uses your data by reviewing their Data Policy. You can opt out of Facebook's interest-based ads by adjusting your Facebook Ad Settings.</li>\n</ul>\n\n<h2>4. Affiliate Links</h2>\n<p>The Cruise Detective participates in affiliate marketing programs. When you click on links to various merchants on this site and make a purchase, this can result in this site earning a commission. Affiliate programs and affiliations include, but are not limited to, Tiqets. These third-party sites use their own cookies to track the origin of sales. We have no control over the privacy policies of these third-party websites.</p>\n\n<h2>5. Third-Party Links</h2>\n<p>This website may include links to third-party websites, plug-ins and applications. Clicking on those links or enabling those connections may allow third parties to collect or share data about you. We do not control these third-party websites and are not responsible for their privacy statements.</p>\n\n<h2>6. Your Rights</h2>\n<p>Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, restriction, transfer, to object to processing, to portability of data and (where the lawful ground of processing is consent) to withdraw consent.</p>\n\n<h2>7. Contact Us</h2>\n<p>If you have any questions about this Privacy Policy, please contact us via our Contact page.</p>\n\n        </article>\n    </main>\n    <footer class=\"main-footer\">\n        <div class=\"adv-container\">\n            <div class=\"footer-links\" style=\"margin-bottom: 1rem; display: flex; justify-content: center; gap: 1rem;\">\n                <a href=\"/privacy-policy\" style=\"color: inherit; text-decoration: underline;\">Privacy Policy</a>\n                <a href=\"/terms-of-service\" style=\"color: inherit; text-decoration: underline;\">Terms of Service</a>\n                <a href=\"/contact\" style=\"color: inherit; text-decoration: underline;\">Contact Us</a>\n            </div>\n            <p>Copyright \u00a9 <span id=\"current-year\"></span> The Cruise Detective. All Rights Reserved.</p>\n            <p class=\"disclaimer\">This is an advertorial based on personal experience. We may earn a commission if you book through our links, at no extra cost to you.</p>\n            <p class=\"disclaimer\" style=\"margin-top: 1rem; font-size: 0.7rem;\">This site is not a part of the Facebook website or Facebook Inc. Additionally, This site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>\n        </div>\n    </footer>\n    ";
-        root.appendChild(content);
-        
-        // Year logic for footer
-        const yearElement = root.getElementById("current-year");
-        if (yearElement) {
-            yearElement.textContent = new Date().getFullYear();
+        var host = document.getElementById("webflow_privacy-host");
+        // Fallback for browsers without declarative shadow DOM support
+        if (!host.shadowRoot) {
+            var tpl = host.querySelector("template[shadowrootmode]");
+            if (tpl) { host.attachShadow({ mode: "open" }).appendChild(tpl.content); tpl.remove(); }
         }
+        // Year logic for footer
+        var yearElement = host.shadowRoot && host.shadowRoot.getElementById("current-year");
+        if (yearElement) { yearElement.textContent = new Date().getFullYear(); }
     })();
     </script></div><script crossorigin="anonymous" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" src="/assets/js/jquery-3.5.1.min.js" type="text/javascript"></script><script crossorigin="anonymous" integrity="sha384-xIv+OW+Mu6VVQpkDsgy1n4DycwBN0kIMqGMoW1cZF0hQ+xuOeLBeXFkT3OAv048X" src="/assets/cdn/652d0405192ba076b04f74a3/js/webflow.913d6f81.631a8e5f22778f16.js" type="text/javascript"></script><!-- ==========================================
      UNIVERSAL GLOBAL STYLES (For any cloned site)
