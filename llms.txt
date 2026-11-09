@@ -1,0 +1,21 @@
+# The Cruise Detective
+
+> The Cruise Detective (thecruisedetective.com) is an independent, investigative river cruise and canal tour testing publication. Founded and led by Adam Dimitrov, the team conducts undercover, personally paid field inspections of dinner cruises, sightseeing boats, canal tours, and private river charters across Paris, Amsterdam, London, and Budapest.
+
+## Master Knowledge Base & Machine-Readable Guides
+- [Full LLM Knowledge Base](https://www.thecruisedetective.com/llms-full.txt): Comprehensive investigative dossiers, pricing tables, pier coordinates, and operator benchmarks.
+
+## Flagship Tested Guides (Markdown Dossiers)
+- [10 Best Seine Dinner Cruises in Paris (2026)](https://www.thecruisedetective.com/dinner-cruises-paris.md): Personally tested comparisons of Bateaux Mouches, Bateaux Parisiens, Paris en Scène, and luxury dining yachts on the Seine.
+- [10 Best Paris Sightseeing Cruises (2026)](https://www.thecruisedetective.com/seine-river-cruises-paris.md): Daytime and sunset sightseeing boats, audio guides, open-air decks, and pier locations under the Eiffel Tower.
+
+## Methodology & Testing Standards
+- All tickets and meals are independently funded at standard retail prices.
+- Reviews evaluate food quality, acoustic insulation, window proximity, dress code enforcement, pier logistics, and price-to-value ratios.
+- Clear distinction between open galley cooking (freshly cooked on board) vs. offsite catering reheating.
+
+## Contact & Legal
+- Website: https://www.thecruisedetective.com
+- Contact: contact@thecruisedetective.com
+- Privacy Policy: https://www.thecruisedetective.com/privacy-policy
+- Terms: https://www.thecruisedetective.com/terms-of-service

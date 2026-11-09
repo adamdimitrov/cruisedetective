@@ -459,6 +459,8 @@ a:hover {
   .ltt-hamburger { display: flex !important; }
   .ltt-mobile-drawer {
     display: block;
+    visibility: hidden;
+    pointer-events: none;
     position: absolute;
     top: 68px;
     left: 0;
@@ -469,10 +471,12 @@ a:hover {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
-    transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+    transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease, visibility 0.35s ease;
     z-index: 9999;
   }
   .ltt-mobile-drawer.is-open {
+    visibility: visible;
+    pointer-events: auto;
     max-height: calc(100vh - 68px);
     opacity: 1;
     overflow-y: auto;
@@ -2532,7 +2536,7 @@ footer.ltt-footer .legal-text {
 </button>
 </div>
 </div>
-<div aria-hidden="true" class="ltt-mobile-drawer" id="lttMobileDrawer">
+<div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
 <div class="ltt-mobile-label">Kierunki i Przewodniki</div>

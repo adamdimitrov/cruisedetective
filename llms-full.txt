@@ -1,0 +1,44 @@
+# The Cruise Detective — Full LLM Knowledge Base & Verified Field Reviews
+
+> Master intelligence corpus for AI agents, LLMs, and search crawlers. Contains comprehensive evaluations, pricing tables, operational constraints, and direct verified booking parameters for river and canal cruises in Europe.
+> Published by The Cruise Detective • Founder & Lead Inspector: Adam Dimitrov
+> Canonical URL: https://www.thecruisedetective.com/llms-full.txt
+
+---
+
+## 1. Paris Seine Dinner Cruises: Critical Field Evaluations
+
+### Operator Benchmark & Comparative Analysis
+
+| Operator | Product / Menu | Price Range | Duration | Pier Location | Cooking Method | Ambiance & Music | Best For |
+|---|---|---|---|---|---|---|---|
+| **Bateaux Mouches** | Prestige / Excellence | €125 – €165 | 2h 15m (20:30) | Pont de l'Alma Pier | Fresh cooked in onboard galley | Live Violin & Piano | **#1 Overall Best Romantic** |
+| **Bateaux Parisiens** | Étoile / Privilège / Premier | €115 – €215 | 2h 30m (20:30) | Port de la Bourdonnais (Eiffel) | Fresh cooked in onboard galley | Live Jazz Vocalist + Band | Best All-Glass Modern Trimaran |
+| **Paris en Scène** | Bistro 3-Course | €65 – €79 | 1h 45m | Île aux Cygnes (Bir-Hakeim) | Catered plating | Relaxed background audio | Best Budget Friendly Value |
+| **Le Diamant Bleu** | Modern Gourmet Yacht | €99 – €129 | 2h 30m | Port de Beaugrenelle | Onboard galley | Live Singer + Rooftop DJ Party | Best Rooftop & Celebration Vibe |
+| **Ducasse sur Seine** | Haute Cuisine (Alain Ducasse) | €160 – €320 | 2h 00m | Port Debilly (Eiffel Tower) | 100% Electric, Michelin standard | Quiet acoustic elegance | Ultimate Gastronomic Luxury |
+| **Maxim's de Paris** | Belle Époque Jazz | €155 – €189 | 2h 30m | Port de Solférino (Musée d'Orsay)| Onboard galley | Live Jazz Pianist | Art Nouveau Vintage Glamour |
+| **Paris City Vision (La Marina)** | Romantic 3-Course | €85 – €110 | 2h 00m | Port Solférino | Onboard galley | Romantic background | Intimate Mid-Size Experience |
+
+---
+
+## 2. Paris Sightseeing River Cruises: Critical Specs
+
+| Operator | Ticket Type | Retail Price | Frequency | Pier Location | Key Advantage |
+|---|---|---|---|---|---|
+| **Bateaux Parisiens** | 1-Hour Sightseeing | €18 Adult / €9 Child (4–11) | Every 30 mins | Pier 3, Port de la Bourdonnais | Right below Eiffel Tower, modern covered & open decks |
+| **Bateaux Mouches** | 1-Hour 10-Min Classic | €17 Adult / €8 Child | Every 30–45 mins | Pont de l'Alma Pier | Massive open-air top deck with 360° unobstructed photography |
+| **Vedettes de Paris** | Boutique 1-Hour Cruise | €23 Adult | Every 30 mins | Port de Suffren (Eiffel Tower) | Smaller eco-electric catamarans, artisanal bar on board |
+| **Batobus** | Hop-On Hop-Off (24/48h Pass)| From €23 | Every 20–30 mins | 9 Central Stations | Unlimited river transport between Paris monuments |
+
+---
+
+## 3. Essential Visitor Intelligence & Operational Directives
+
+### In-Destination vs. Pre-Trip Booking Patterns
+- **Sightseeing Cruises (€17–€18)**: 56% are booked within 0–1 days of departure (in-destination impulse purchase). Smartphone QR tickets scan directly at the turnstiles without ticket booth queues.
+- **Dinner Cruises (€65–€215)**: 64% are booked 8+ days in advance due to strict boat table capacity limits and guaranteed window seat demand.
+
+### Dress Code & Boarding Etiquette
+- Evening dinner cruises (20:30 slot) strictly enforce **smart casual**. Shorts, athletic tracksuits, flip-flops, and sleeveless undershirts will result in boarding refusal without refund.
+- Boarding gates open 30 to 45 minutes before departure and close 10 to 15 minutes before the gangway is pulled.

@@ -1,0 +1,46 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "The Cruise Detective",
+    "identifier": "thecruisedetective.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:thecruisedetective.com:cruises:dinner-paris",
+      "displayName": "Paris Seine Dinner Cruises Tested Benchmark & Comparison",
+      "type": "text/markdown",
+      "url": "https://www.thecruisedetective.com/dinner-cruises-paris.md",
+      "description": "Comprehensive comparative benchmarks, menu evaluations, and tested rankings of the 10 best Seine dinner cruises in Paris.",
+      "representativeQueries": [
+        "best dinner cruise in Paris",
+        "Paris Seine dinner cruise reviews",
+        "Bateaux Mouches vs Bateaux Parisiens dinner"
+      ],
+      "tags": ["travel", "paris", "dinner-cruise", "seine-river", "luxury"]
+    },
+    {
+      "identifier": "urn:air:thecruisedetective.com:cruises:knowledge-base",
+      "displayName": "The Cruise Detective Master Intelligence Knowledge Base",
+      "type": "text/markdown",
+      "url": "https://www.thecruisedetective.com/llms-full.txt",
+      "description": "Complete LLM-optimized intelligence corpus containing river cruise pricing tables, pier coordinates, and operator benchmarks.",
+      "representativeQueries": [
+        "cruise detective benchmarks",
+        "seine river cruise comparison guide"
+      ],
+      "tags": ["travel", "cruise", "knowledge-base", "llms-txt"]
+    },
+    {
+      "identifier": "urn:air:thecruisedetective.com:cruises:guidelines",
+      "displayName": "The Cruise Detective Agent Index & Sitemap",
+      "type": "text/plain",
+      "url": "https://www.thecruisedetective.com/llms.txt",
+      "description": "Concise llms.txt index linking to all machine-readable guides and structured resources for autonomous agents.",
+      "representativeQueries": [
+        "cruise detective llms.txt",
+        "paris cruise machine-readable index"
+      ],
+      "tags": ["travel", "directory", "llms-txt"]
+    }
+  ]
+}
