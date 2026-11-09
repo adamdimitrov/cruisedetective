@@ -8050,7 +8050,7 @@ details.ltt-bento-group:not([open]) .ltt-bento-chev {
 
 /* TOC Scrollability, Buyer Guide Group Divider & Active States */
 #toc.toc {
-  max-height: calc(100vh - 205px) !important;
+  max-height: calc(100vh - 120px) !important;
   overflow-y: auto !important;
   scrollbar-width: thin !important;
   padding-right: 4px !important;
@@ -8726,10 +8726,16 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
     if (!cards.length) return;
     var itemsData = getItems();
     var vCenter = window.innerHeight * 0.45;
-    var footer = document.querySelector('footer') || document.querySelector('.ltt-footer') || document.querySelector('.t-footer');
-    var isPastFooter = footer ? (footer.getBoundingClientRect().top < window.innerHeight - 20) : false;
-    var hasPassedHero = (window.scrollY > 300);
-    if (!hasPassedHero || isPastFooter) {
+    var lastRev = reviews.length ? reviews[reviews.length - 1] : cards[cards.length - 1];
+    var lastBottom = lastRev.getBoundingClientRect().bottom;
+
+    var hasPassedHero = (window.scrollY > 350);
+    var isPastReviews = (lastBottom < 100);
+    var deck = document.getElementById(deckId) || document.getElementById('ltt-cards-deck');
+    var brk = document.getElementById('breakdown-header');
+    var isBetweenDeckAndReviews = (deck && brk && deck.getBoundingClientRect().bottom < vCenter && brk.getBoundingClientRect().top > vCenter);
+
+    if (!hasPassedHero || isPastReviews || isBetweenDeckAndReviews) {
       bar.classList.remove('visible', 'is-visible');
       return;
     }

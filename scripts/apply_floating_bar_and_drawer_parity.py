@@ -114,9 +114,14 @@ def update_file(file_path):
                     'if (document.body.classList.contains(\'ltt-drawer-open\')) return;\n    var bar = document.getElementById(\'sticky-bar\') || document.querySelector(\'.hybrid-sticky-bar\');'
                 )
             replacement = (
-                'var footer = document.querySelector(\'footer\') || document.querySelector(\'.ltt-footer\') || document.querySelector(\'.t-footer\');\n'
-                '    var isPastFooter = footer ? (footer.getBoundingClientRect().top < window.innerHeight - 20) : false;\n'
-                '    if (!hasPassedHero || isPastFooter) {\n'
+                'var lastRev = reviews.length ? reviews[reviews.length - 1] : cards[cards.length - 1];\n'
+                '    var lastBottom = lastRev.getBoundingClientRect().bottom;\n'
+                '    var hasPassedHero = (window.scrollY > 350);\n'
+                '    var isPastReviews = (lastBottom < 100);\n'
+                '    var deck = document.getElementById(deckId) || document.getElementById(\'ltt-cards-deck\');\n'
+                '    var brk = document.getElementById(\'breakdown-header\');\n'
+                '    var isBetweenDeckAndReviews = (deck && brk && deck.getBoundingClientRect().bottom < vCenter && brk.getBoundingClientRect().top > vCenter);\n'
+                '    if (!hasPassedHero || isPastReviews || isBetweenDeckAndReviews) {\n'
                 '      bar.classList.remove(\'visible\', \'is-visible\');\n'
                 '      return;\n'
                 '    }'
