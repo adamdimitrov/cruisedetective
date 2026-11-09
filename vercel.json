@@ -172,6 +172,41 @@
   ],
   "redirects": [
     {
+      "source": "/de/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/es/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/it/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ja/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/nl/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/pl/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
+      "source": "/ro/seine-river-cruise-review",
+      "destination": "/seine-river-cruise-review",
+      "permanent": true
+    },
+    {
       "source": "/nl/over-uns",
       "destination": "/nl/over-ons",
       "permanent": true
@@ -218,7 +253,7 @@
     },
     {
       "source": "/fr/seine-river-cruise-review",
-      "destination": "/fr/meilleures-croisieres-seine-paris",
+      "destination": "/seine-river-cruise-review",
       "permanent": true
     },
     {
