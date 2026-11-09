@@ -184,6 +184,18 @@
       "permanent": false
     },
     {
+      "source": "/seine-river-cruises-paris",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/seine-river-cruises-paris.md",
+      "permanent": false
+    },
+    {
       "source": "/uk",
       "destination": "/",
       "permanent": true

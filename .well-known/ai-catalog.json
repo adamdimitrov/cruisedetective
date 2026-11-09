@@ -6,6 +6,19 @@
   },
   "entries": [
     {
+      "identifier": "urn:air:thecruisedetective.com:cruises:sightseeing-paris",
+      "displayName": "Paris Seine River Sightseeing Cruises Tested Guide & Comparison",
+      "type": "text/markdown",
+      "url": "https://www.thecruisedetective.com/seine-river-cruises-paris.md",
+      "description": "Critical field tests, boarding turnaround times, audio guide evaluations, and ticket pricing benchmarks for Paris sightseeing cruises.",
+      "representativeQueries": [
+        "best seine river cruise in Paris",
+        "Paris sightseeing boat tours",
+        "Bateaux Parisiens vs Bateaux Mouches sightseeing"
+      ],
+      "tags": ["travel", "paris", "sightseeing-cruise", "seine-river", "boats"]
+    },
+    {
       "identifier": "urn:air:thecruisedetective.com:cruises:dinner-paris",
       "displayName": "Paris Seine Dinner Cruises Tested Benchmark & Comparison",
       "type": "text/markdown",
