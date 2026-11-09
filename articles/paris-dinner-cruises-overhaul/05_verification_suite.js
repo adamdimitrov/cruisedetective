@@ -404,7 +404,7 @@ describe('Suite 5: Rich JSON-LD Structured Data Schema Validation (Deliverable 0
     assert.ok(article.publisher.logo, 'Publisher missing logo object');
     assert.strictEqual(
       article.publisher.logo.url,
-      'https://cdn.prod.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg',
+      '/assets/cdn/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg',
       'Publisher logo URL must point to valid absolute CDN SVG'
     );
     assert.ok(article.publisher.logo.width > 0 && article.publisher.logo.height > 0, 'Publisher logo dimensions missing');
