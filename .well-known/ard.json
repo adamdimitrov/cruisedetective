@@ -6,6 +6,32 @@
   },
   "entries": [
     {
+      "identifier": "urn:air:thecruisedetective.com:cruises:canal-amsterdam",
+      "displayName": "Amsterdam Canal Cruises Tested Benchmark & Comparison",
+      "type": "text/markdown",
+      "url": "https://www.thecruisedetective.com/canal-cruises-amsterdam.md",
+      "description": "Comprehensive comparative benchmarks, vessel specs, and tested rankings of the 10 best canal cruises in Amsterdam.",
+      "representativeQueries": [
+        "best canal cruise in Amsterdam",
+        "Amsterdam canal boat tours review",
+        "Captain Jack vs Lovers canal cruise"
+      ],
+      "tags": ["travel", "amsterdam", "canal-cruise", "boats"]
+    },
+    {
+      "identifier": "urn:air:thecruisedetective.com:cruises:thames-london",
+      "displayName": "London Thames River Cruises Tested Benchmark & Comparison",
+      "type": "text/markdown",
+      "url": "https://www.thecruisedetective.com/thames-river-cruises-london.md",
+      "description": "Critical field comparisons, speed boat tests, audio commentary evaluations, and pricing benchmarks for Thames river cruises in London.",
+      "representativeQueries": [
+        "best thames river cruise in London",
+        "London river sightseeing boat tours",
+        "Thames River Sightseeing vs City Cruises"
+      ],
+      "tags": ["travel", "london", "thames-cruise", "sightseeing"]
+    },
+    {
       "identifier": "urn:air:thecruisedetective.com:cruises:sightseeing-paris",
       "displayName": "Paris Seine River Sightseeing Cruises Tested Guide & Comparison",
       "type": "text/markdown",

@@ -196,6 +196,30 @@
       "permanent": false
     },
     {
+      "source": "/canal-cruises-amsterdam",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/canal-cruises-amsterdam.md",
+      "permanent": false
+    },
+    {
+      "source": "/thames-river-cruises-london",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/thames-river-cruises-london.md",
+      "permanent": false
+    },
+    {
       "source": "/uk",
       "destination": "/",
       "permanent": true
