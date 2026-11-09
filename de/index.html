@@ -86,7 +86,17 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <meta content="https://www.thecruisedetective.com/assets/cruise_detective_logo.png" property="og:image"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://www.thecruisedetective.com/de/" rel="canonical"/>
+<link href="https://www.thecruisedetective.com/de" rel="canonical"/>
+<link href="https://www.thecruisedetective.com/" hreflang="en" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/fr" hreflang="fr" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/de" hreflang="de" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/es" hreflang="es" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/it" hreflang="it" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/nl" hreflang="nl" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/pl" hreflang="pl" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/ro" hreflang="ro" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/ja" hreflang="ja" rel="alternate"/>
+<link href="https://www.thecruisedetective.com/" hreflang="x-default" rel="alternate"/>
 <!-- Local Favicon Assets -->
 <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
@@ -546,7 +556,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "z1jcuxy2we");
+    })(window, document, "clarity", "script", window.location.hostname.indexOf("deals.") !== -1 ? "z1jcuxy2we" : "zb30xa0bub");
   </script>
 <!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
@@ -883,8 +893,8 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
           </button>
           <div aria-label="Select Language" class="ltt-lang-dropdown" id="lttLangDropdown" role="menu">
             <div class="ltt-lang-dropdown-header">
-              <span>Select Language</span>
-              <span style="font-size:9px; color:#10b981; font-weight:800;">● 9 AVAILABLE</span>
+              <span>Sprache wählen</span>
+              <span style="font-size:9px; color:#10b981; font-weight:800;">● 9 VERFÜGBAR</span>
             </div>
             <div class="ltt-lang-grid-menu">
               <a class="ltt-lang-item" data-lang="en" href="/" role="menuitem">
@@ -919,10 +929,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
                 <span class="lang-native">Română</span>
                 <span class="lang-code-tag">RO</span>
               </a>
-              <a class="ltt-lang-item" data-lang="ja" href="/ja/" role="menuitem" style="grid-column: span 2;">
-                <span class="lang-native">日本語 (Japanese)</span>
-                <span class="lang-code-tag">JA</span>
-              </a>
+              <a class="ltt-lang-item" data-lang="ja" href="/ja/" role="menuitem" style="grid-column: span 2;"><span class="lang-native">日本語 (Japanese)</span> <span class="lang-code-tag">JA</span></a>
             </div>
           </div>
         </div>
@@ -938,10 +945,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
 <div class="ltt-mobile-label">Reiseziele &amp; Guides</div>
-<a class="ltt-mobile-link" href="/de/besten-bootsfahrten-mit-abendessen-paris">
-<span>🍷 Dinner-Kreuzfahrten Paris</span>
-<span style="font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;">TOP-TIPP</span>
-</a>
+<a class="ltt-mobile-link" href="/de/besten-bootsfahrten-mit-abendessen-paris"><span>🍷 Dinner-Kreuzfahrten Paris</span> <span style="font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;">TOP-TIPP</span></a>
 <a class="ltt-mobile-link" href="/de/besten-bootsfahrten-seine-paris">
 <span>🗼 Seine Rundfahrten Paris</span>
 </a>
@@ -1057,13 +1061,13 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <section class="ltt-section" id="guides">
 <div class="ltt-container">
 <div class="ltt-section-header">
-<div class="ltt-section-eyebrow">COMPREHENSIVE BUYER GUIDES</div>
+<div class="ltt-section-eyebrow">UMFASSENDE KAUFRATGEBER</div>
 <h2 class="ltt-section-title">Unsere Praxiserprobten Guides</h2>
 <p class="ltt-section-subtitle">Jeder Guide wird monatlich mit aktuellen Ticketpreisen, Anlegestellen und eigenen Fotos aktualisiert.</p>
 </div>
 <!-- Destination Filter Tabs -->
 <div class="ltt-dest-filter-wrap">
-<span class="ltt-dest-label">Filter Guides:</span>
+<span class="ltt-dest-label">Ratgeber filtern:</span>
 <button class="ltt-dest-btn active" data-filter="all" onclick="filterDestGuides('all', this)" type="button">Alle Guides (5)</button>
 <button class="ltt-dest-btn" data-filter="paris" onclick="filterDestGuides('paris', this)" type="button">Paris (3)</button>
 <button class="ltt-dest-btn" data-filter="amsterdam" onclick="filterDestGuides('amsterdam', this)" type="button">Amsterdam (1)</button>
@@ -1077,12 +1081,12 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 </div>
 <div class="ltt-guide-content">
 <div>
-<div class="ltt-guide-kicker">Paris, France • 10 Operators Tested • Evening Gastronomy</div>
+<div class="ltt-guide-kicker">Paris, Frankreich • 10 Anbieter getestet • Abendliche Gastronomie</div>
 <h3 class="ltt-guide-title">Dinner-Kreuzfahrten Paris</h3>
 <p class="ltt-guide-excerpt">10 getestete Schiffe &amp; Menü-Bewertungen</p>
 </div>
 <div class="ltt-guide-footer">
-<span style="font-size: 13.5px; font-weight: 800; color: #0a192f;">From €70 to €170 / person</span>
+<span style="font-size: 13.5px; font-weight: 800; color: #0a192f;">Von €70 bis €170 / Person</span>
 <span class="ltt-guide-btn">Vollständigen Guide lesen →</span>
 </div>
 </div>
@@ -1096,11 +1100,11 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <img alt="Seine River Sightseeing Cruise boat passing under the Eiffel Tower" class="ltt-guide-img" loading="lazy" src="/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif"/>
 </div>
 <div class="ltt-guide-content">
-<div class="ltt-guide-kicker">Paris, France • 10 Boats Evaluated</div>
+<div class="ltt-guide-kicker">Paris, Frankreich • 10 Boote bewertet</div>
 <h3 class="ltt-guide-title">Sightseeing-Bootsfahrten Paris</h3>
 <p class="ltt-guide-excerpt">Tagesfahrten &amp; Lichtertouren am Abend</p>
 <div class="ltt-guide-footer">
-<span style="font-size: 13px; font-weight: 800; color: #0a192f;">From €17 / person</span>
+<span style="font-size: 13px; font-weight: 800; color: #0a192f;">Ab €17 / Person</span>
 <span class="ltt-guide-btn">Vollständigen Guide lesen →</span>
 </div>
 </div>
@@ -1112,7 +1116,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <img alt="Bateaux Mouches vs Bateaux Parisiens Side-by-Side Duel Comparison" class="ltt-guide-img" loading="lazy" src="/assets/mouches-vs-parisiens-duel-card.webp"/>
 </div>
 <div class="ltt-guide-content">
-<div class="ltt-guide-kicker">Paris Dinner Duel • Side-by-Side</div>
+<div class="ltt-guide-kicker">Pariser Dinner-Duell • Direkter Vergleich</div>
 <h3 class="ltt-guide-title">Mouches vs. Parisiens</h3>
 <p class="ltt-guide-excerpt">Direkter Dinner-Kreuzfahrt-Vergleich</p>
 <div class="ltt-guide-footer">
@@ -1124,15 +1128,15 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <!-- Guide 4: Amsterdam Canal Cruises -->
 <a class="ltt-guide-card" data-destination="amsterdam" href="/de/besten-grachtenfahrten-amsterdam">
 <div class="ltt-guide-img-wrap">
-<span class="ltt-guide-tag">🌷 AMSTERDAM CANALS</span>
+<span class="ltt-guide-tag">🌷 AMSTERDAMER GRACHTEN</span>
 <img alt="Amsterdam Canal Cruise boat passing historic canal houses and bridges" class="ltt-guide-img" loading="lazy" src="/assets/cdn/652d0405192ba076b04f74a3/656b5237222689efacce475b_best-amsterdam-canal-cruises-featured-image.webp"/>
 </div>
 <div class="ltt-guide-content">
-<div class="ltt-guide-kicker">Amsterdam, Netherlands • 10 Operators Tested</div>
+<div class="ltt-guide-kicker">Amsterdam, Niederlande • 10 Anbieter getestet</div>
 <h3 class="ltt-guide-title">Grachtenfahrten Amsterdam</h3>
 <p class="ltt-guide-excerpt">Offene Schaluppen &amp; Salonboote</p>
 <div class="ltt-guide-footer">
-<span style="font-size: 13px; font-weight: 800; color: #0a192f;">From €16 / person</span>
+<span style="font-size: 13px; font-weight: 800; color: #0a192f;">Ab €16 / Person</span>
 <span class="ltt-guide-btn">Vollständigen Guide lesen →</span>
 </div>
 </div>
@@ -1140,15 +1144,15 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <!-- Guide 5: London Thames Cruises -->
 <a class="ltt-guide-card" data-destination="london" href="/de/themse-kreuzfahrten-london">
 <div class="ltt-guide-img-wrap">
-<span class="ltt-guide-tag">🇬🇧 LONDON THAMES</span>
+<span class="ltt-guide-tag">🇬🇧 LONDON THEMSE</span>
 <img alt="London Thames River Cruise passing Westminster Bridge and Big Ben" class="ltt-guide-img" loading="lazy" src="/assets/cdn/652d0405192ba076b04f74a3/656b5269b59a73ed77082a40_best-london-river-cruises-featured-image.webp"/>
 </div>
 <div class="ltt-guide-content">
-<div class="ltt-guide-kicker">London, UK • 10 Routes Evaluated</div>
+<div class="ltt-guide-kicker">London, UK • 10 Routen bewertet</div>
 <h3 class="ltt-guide-title">Themse-Kreuzfahrten London</h3>
 <p class="ltt-guide-excerpt">Sightseeing, Dinner &amp; Speedboote</p>
 <div class="ltt-guide-footer">
-<span style="font-size: 13px; font-weight: 800; color: #0a192f;">From £15 / person</span>
+<span style="font-size: 13px; font-weight: 800; color: #0a192f;">Ab £15 / Person</span>
 <span class="ltt-guide-btn">Vollständigen Guide lesen →</span>
 </div>
 </div>
@@ -1169,28 +1173,22 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <div class="ltt-manifesto-icon-wrap">
 <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
 </div>
-<h3>100% Anonymous Testing</h3>
-<p>
-              We never contact boat operators beforehand or request press comps. We book with personal credit cards, stand in standard boarding lines, and eat the exact food served to paying travelers.
-            </p>
+<h3>100 % anonyme Tests</h3>
+<p>Wir kontaktieren die Bootsanbieter vorher nie und fragen keine Pressefreikarten an. Wir buchen mit privaten Kreditkarten, stehen in den normalen Warteschlangen und essen genau das, was auch zahlenden Gästen serviert wird.</p>
 </div>
 <div class="ltt-manifesto-card">
 <div class="ltt-manifesto-icon-wrap">
 <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
 </div>
-<h3>Candid Course &amp; Table Audits</h3>
-<p>
-              If a sea bream arrives lukewarm or a table is wedged against an engine bulkhead, we state it plainly. We audit course preparation quality, wine pours, and acoustic piano volumes without compromise.
-            </p>
+<h3>Ehrliche Bewertung von Gängen &amp; Tischen</h3>
+<p>Kommt eine Dorade lauwarm an oder klemmt ein Tisch an der Wand zum Maschinenraum, sagen wir das klar. Wir prüfen die Zubereitung der Gänge, die ausgeschenkten Weinmengen und die Lautstärke des Klaviers ohne Kompromisse.</p>
 </div>
 <div class="ltt-manifesto-card">
 <div class="ltt-manifesto-icon-wrap">
 <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="22"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
 </div>
-<h3>Zero Pay-to-Play Rankings</h3>
-<p>
-              No operator can buy rank #1 or sponsor a favorable review. All affiliate links use transparent partner tracking that matches or beats direct dock prices.
-            </p>
+<h3>Keine gekauften Rankings</h3>
+<p>Kein Anbieter kann sich Platz 1 kaufen oder eine positive Bewertung sponsern. Alle Affiliate-Links nutzen transparentes Partner-Tracking, dessen Preise den Preisen direkt am Anleger entsprechen oder darunter liegen.</p>
 </div>
 </div>
 <div style="text-align: center; margin-top: 36px;">

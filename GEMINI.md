@@ -60,7 +60,7 @@
   - **Basket Composition**: On Sightseeing (`973977`), **49.4% buy 2 tickets (Couples)** and **43.1% buy 3+ tickets (Families/Groups)**. On Dinner Cruises, **98% have no kids** (`65%` buy exactly 2 tickets).
 - **Buyer Nationalities (n=761)**: `US` (311 — 40.9%; 56.9% of Dinner Cruises), `GB` (137 — 18.0%), `NL` (36 — 4.7%), `FR` (33 — 4.3%), `PL` / `CA` / `DE` (23 each — 3.0%), `AU` (17 — 2.2%), `JP` (15 — 2.0%), `IE` (13 — 1.7%). Combined Anglosphere = **65.8%**.
 - **Active Pixels & Custom Audiences**:
-  - Meta Pixel: `1355732169631751` | Google Ads Tag: `AW-16782417237` (`4899321613`) | GA4: `G-RN34XFKPQ6` | Clarity: `z1jcuxy2we`
+  - Meta Pixel: `1355732169631751` | Google Ads Tag: `AW-16782417237` (`4899321613`) | GA4: `G-RN34XFKPQ6` | Clarity (SEO / Main): `zb30xa0bub` | Clarity (Paid LP / Deals): `z1jcuxy2we`
   - `SEO & LP Visitors - Paris Sightseeing Cruises (30D Retargeting)`: `120251645526940010`
   - `SEO Visitors - Paris Dinner Cruises (30D Retargeting)`: `120251645527150010`
   - `SEO Historical Pool - Paris Sightseeing Cruises (180D Lookalike Seed)`: `120251645527340010`

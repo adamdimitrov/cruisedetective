@@ -311,7 +311,7 @@ def run_dinner_cruises():
         c[a]=c[a]||function(){{(c[a].q=c[a].q||[]).push(arguments)}};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    }})(window, document, "clarity", "script", "z1jcuxy2we");
+    }})(window, document, "clarity", "script", window.location.hostname.indexOf("deals.") !== -1 ? "z1jcuxy2we" : "zb30xa0bub");
   </script>
 </head>
 <body>
