@@ -172,6 +172,26 @@
   ],
   "redirects": [
     {
+      "source": "/:lang/privacy-policy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/terms-of-service",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/seine-cruise-deal",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/seine-cruise-deal",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
       "source": "/dinner-cruises-paris",
       "has": [
         {
@@ -1300,126 +1320,6 @@
       "permanent": true
     },
     {
-      "source": "/uk/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/fa/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/hr/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/ca/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/pt/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/zh/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/vi/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/ar/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/tr/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/th/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/sv/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/ko/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/sk/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/sr/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/ru/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/he/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/hi/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/hu/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/el/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/fi/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/da/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/cs/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/bg/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
-      "source": "/no/seine-cruise-deal",
-      "destination": "/seine-cruise-deal",
-      "permanent": true
-    },
-    {
       "source": "/uk/seine-river-cruise-review",
       "destination": "/seine-river-cruise-review",
       "permanent": true
@@ -1537,246 +1437,6 @@
     {
       "source": "/no/seine-river-cruise-review",
       "destination": "/seine-river-cruise-review",
-      "permanent": true
-    },
-    {
-      "source": "/uk/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/fa/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/hr/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/ca/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/pt/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/zh/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/vi/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/ar/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/tr/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/th/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/sv/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/ko/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/sk/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/sr/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/ru/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/he/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/hi/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/hu/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/el/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/fi/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/da/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/cs/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/bg/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/no/privacy-policy",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/uk/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/fa/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/hr/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/ca/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/pt/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/zh/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/vi/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/ar/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/tr/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/th/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/sv/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/ko/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/sk/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/sr/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/ru/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/he/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/hi/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/hu/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/el/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/fi/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/da/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/cs/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/bg/terms-of-service",
-      "destination": "/terms-of-service",
-      "permanent": true
-    },
-    {
-      "source": "/no/terms-of-service",
-      "destination": "/terms-of-service",
       "permanent": true
     },
     {
