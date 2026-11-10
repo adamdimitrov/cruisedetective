@@ -97,6 +97,564 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
+    },
+    {
+      "source": "/amsterdam-comparison",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/amsterdam-comparison/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/amsterdam-comparison/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/amsterdam-comparison/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/02_semantic_comparison_table",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/02_semantic_comparison_table/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/03_rich_json_ld_schema",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/03_rich_json_ld_schema/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/live_page_template",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/articles/paris-dinner-cruises-overhaul/live_page_template/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/bateaux-parisiens-landing",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/bateaux-parisiens-landing/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-advertorial",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-advertorial/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-advertorial/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-advertorial/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-comparison",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-comparison/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-comparison/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/dinner-comparison/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/language_switcher_mockup",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/language_switcher_mockup/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-couples-pass",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-couples-pass/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-couples-pass/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-couples-pass/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-dinner-cruise",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-dinner-cruise/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-compare",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-compare/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-compare/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-compare/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-cruise",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-cruise/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-cruise/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-cruise/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-pass",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-pass/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-pass/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-family-pass/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-fast-booking",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-fast-booking/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-fast-booking/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/paris-fast-booking/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/romantic-quiz",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/romantic-quiz/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/romantic-quiz/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/romantic-quiz/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-advertorial",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-advertorial/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-advertorial/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-advertorial/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-comparison",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-comparison/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-comparison/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-comparison/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-deal",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-deal/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-deal/bundled",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seine-deal/bundled/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
     }
   ],
   "functions": {
@@ -171,6 +729,56 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/de/seine-river-cruises-paris-1",
+      "destination": "/de/besten-bootsfahrten-seine-paris",
+      "permanent": true
+    },
+    {
+      "source": "/es/seine-river-cruises-paris-1",
+      "destination": "/es/mejores-cruceros-sena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fr/seine-river-cruises-paris-1",
+      "destination": "/fr/meilleures-croisieres-seine-paris",
+      "permanent": true
+    },
+    {
+      "source": "/it/seine-river-cruises-paris-1",
+      "destination": "/it/migliori-crociere-senna-parigi",
+      "permanent": true
+    },
+    {
+      "source": "/ja/seine-river-cruises-paris-1",
+      "destination": "/ja/パリのベスト-セーヌ川クルーズ",
+      "permanent": true
+    },
+    {
+      "source": "/nl/seine-river-cruises-paris-1",
+      "destination": "/nl/beste-boottochten-seine-parijs",
+      "permanent": true
+    },
+    {
+      "source": "/pl/seine-river-cruises-paris-1",
+      "destination": "/pl/najlepsze-rejsy-po-sekwanie-paryz",
+      "permanent": true
+    },
+    {
+      "source": "/ro/seine-river-cruises-paris-1",
+      "destination": "/ro/cele-mai-bune-croaziere-sena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/seine-river-cruises-paris-ltt",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
     {
       "source": "/:path((?!api/).*)",
       "has": [
@@ -1312,122 +1920,122 @@
     },
     {
       "source": "/uk/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/fa/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hr/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ca/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/pt/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/zh/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/vi/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ar/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/tr/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/th/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sv/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ko/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sk/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sr/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ru/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/he/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hi/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hu/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/el/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/fi/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/da/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/cs/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/bg/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/no/seine-river-cruises-paris-1",
-      "destination": "/seine-river-cruises-paris-1",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
