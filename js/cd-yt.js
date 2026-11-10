@@ -5,19 +5,19 @@
  *   <a class="cd-yt" href="https://www.youtube.com/watch?v=ID&t=161s"
  *      data-yt="ID" data-start="161" data-title="…"> <img …> <span class="cd-yt-play">…</span> </a>
  *
- * On click the anchor is swapped for a youtube-nocookie iframe (autoplay), so no
+ * On click the anchor is swapped for a youtube.com iframe (autoplay), so no
  * YouTube JS, cookies or third-party requests load until the visitor asks for the video.
  */
 (function () {
   'use strict';
 
-  var EMBED = 'https://www.youtube-nocookie.com/embed/';
+  var EMBED = 'https://www.youtube.com/embed/';
   var warmed = false;
 
   function warm() {
     if (warmed) return;
     warmed = true;
-    ['https://www.youtube-nocookie.com', 'https://www.google.com', 'https://i.ytimg.com'].forEach(function (href) {
+    ['https://www.youtube.com', 'https://www.google.com', 'https://i.ytimg.com'].forEach(function (href) {
       var l = document.createElement('link');
       l.rel = 'preconnect';
       l.href = href;
