@@ -18,6 +18,10 @@ STATE_FILE = os.environ.get('SYNC_STATE_FILE', os.path.join(REPO_DIR, 'uploaded_
 # redact order IDs, click IDs, amounts and addresses before they are printed.
 IN_CI = os.environ.get('GITHUB_ACTIONS') == 'true'
 
+# Organic (non-ad) sales get a booking alert too, but only those created after this
+# UTC moment, so enabling it does not e-mail every older organic sale.
+ORGANIC_ALERTS_SINCE = '2026-11-11T18:30:00'
+
 
 def mask(*values):
     if IN_CI:
@@ -166,10 +170,11 @@ def send_booking_email_alert(order, attribution, google_sync_note):
     click_info = attribution['click_info']
     click_str = f"{click_info['type']}={click_info['value']}" if click_info else "None (Direct on Paid LP)"
 
-    subject = f"💰 New Tiqets Ad Booking: +€{commission:.2f} Profit (Order #{order_id} | {tickets}x Tickets)"
+    kind = "Ad Booking" if attribution.get('is_ad') else "Organic Booking"
+    subject = f"💰 New Tiqets {kind}: +€{commission:.2f} Profit (Order #{order_id} | {tickets}x Tickets)"
 
     text_body = (
-        f"New Tiqets Ad Booking Detected!\n"
+        f"New Tiqets {kind} Detected!\n"
         f"========================================\n"
         f"Order Reference : #{order_id}\n"
         f"Order Status    : {status.upper()}\n"
@@ -189,7 +194,7 @@ def send_booking_email_alert(order, attribution, google_sync_note):
     html_body = f"""
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 560px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;">
       <div style="background: #0f172a; color: #ffffff; padding: 20px 24px;">
-        <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #38bdf8; font-weight: 700;">Cruise Detective • Ad Conversion Alert</div>
+        <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #38bdf8; font-weight: 700;">Cruise Detective • {"Ad Conversion" if attribution.get('is_ad') else "Organic Sale"} Alert</div>
         <h2 style="margin: 6px 0 0; font-size: 22px; color: #ffffff;">+€{commission:.2f} Net Commission</h2>
         <div style="font-size: 13px; color: #94a3b8; margin-top: 4px;">Order #{order_id} • {status.upper()}</div>
       </div>
@@ -366,6 +371,19 @@ def sync():
 
         attribution = classify_ad_attribution(order)
         if not attribution['is_ad']:
+            # Organic / SEO sale: no Google upload, just the booking alert (once).
+            record = uploaded_orders.get(order_id, {})
+            created = (order.get('order_created_timestamp') or '')[:19]
+            if record.get('email_sent') or not created or created < ORGANIC_ALERTS_SINCE:
+                continue
+            if send_booking_email_alert(order, attribution, "N/A (organic sale)"):
+                record['email_sent'] = True
+                record['email_sent_at'] = datetime.utcnow().isoformat() + 'Z'
+                record['source'] = attribution['source_label']
+                record['placement'] = attribution['placement']
+                record['commission'] = order.get('estimated_commission')
+                uploaded_orders[order_id] = record
+                new_actions += 1
             continue
 
         click_info = attribution['click_info']
