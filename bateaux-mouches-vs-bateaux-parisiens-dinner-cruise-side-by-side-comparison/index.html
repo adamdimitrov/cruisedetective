@@ -169,7 +169,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
 <!-- Google Analytics & GTM -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RN34XFKPQ6"></script>
+<script>if(/(^|\.)thecruisedetective\.com$/.test(location.hostname)){var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-RN34XFKPQ6";document.head.appendChild(s);}</script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -848,7 +848,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        var go=function(){if(c._cdClarity)return;c._cdClarity=1;t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        var go=function(){if(c._cdClarity||!/(^|\.)thecruisedetective\.com$/.test(c.location.hostname))return;c._cdClarity=1;t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);};
         if(/[?&](gclid|gbraid|wbraid|msclkid|fbclid|utm_[a-z]+)=/i.test(c.location.search))go();
         ['scroll','touchstart','mousemove','click','keydown'].forEach(function(e){c.addEventListener(e,go,{once:true,passive:true});});
