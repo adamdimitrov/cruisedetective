@@ -188,6 +188,7 @@ fbq('track', 'PageView');
 dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
 
 function loadAnalytics() {
+  if (!/(^|\.)thecruisedetective\.com$/.test(location.hostname)) return;
   if (window._cdAnalyticsLoaded) return;
   window._cdAnalyticsLoaded = true;
   
