@@ -39,18 +39,6 @@ gtag('set', 'developer_id.dYWYxNW', true);
 gtag('js', new Date());
 gtag('config', 'G-RN34XFKPQ6');
 
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-16782417237/IZ3tCJi0t6MbENW6vcI-',
-      'event_callback': callback
-  });
-  return false;
-}
 
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -105,22 +93,6 @@ if (document.readyState === 'complete') {
   })();
 </script>
 
-<!-- Event snippet for Outbound click conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-16782417237/IZ3tCJi0t6MbENW6vcI-',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 <link rel="alternate" hreflang="en-us" href="https://www.thecruisedetective.com/dinner-cruises-paris"/>
 <link rel="alternate" hreflang="uk" href="https://www.thecruisedetective.com/uk/найкраща-вечеря-круїзи-париж"/>
 <link rel="alternate" hreflang="fa" href="https://www.thecruisedetective.com/fa/بهترین-شام-کروز-پاریس"/>
