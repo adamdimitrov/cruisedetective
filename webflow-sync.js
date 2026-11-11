@@ -114,6 +114,17 @@
         }
     }
 
+    // Google's own conversion linker cookie: "GCL.<timestamp>.<gclid>" (90 days).
+    function getGoogleLinkerGclid() {
+        const raw = getCookie('_gcl_aw');
+        if (!raw) return null;
+        const parts = decodeURIComponent(raw).split('.');
+        return parts.length >= 3 ? parts.slice(2).join('.') : null;
+    }
+
+    // Returns the ad click ID that should travel to Tiqets, persisted for 90 days so
+    // a visitor who clicks an ad, leaves, and comes back later in a new tab is still
+    // attributed. Lookup order: URL > our cookie > localStorage > Google's _gcl_aw.
     function getOrSetClickId() {
         let clickId = getQueryParam('gclid');
         if (clickId) {
@@ -130,7 +141,7 @@
             if (localGclid) return localGclid;
         } catch(e) {}
 
-        return null;
+        return getGoogleLinkerGclid();
     }
 
     // ----------------------------------------------------
@@ -144,11 +155,14 @@
                 // Enforce verified partner ID
                 url.searchParams.set('partner', 'thecruisedetective.com-176436');
                 
-                // If we captured an active click ID, forward it into subid / tq_campaign
+                // Forward the click ID into tq_campaign as "<campaign>--gclid-<id>".
+                // tq_campaign is the only field Tiqets returns per order, and
+                // sync_tiqets_conversions.py parses the gclid out of it for Google Ads.
                 if (clickId) {
                     url.searchParams.set('subid', clickId);
-                    if (!url.searchParams.has('tq_campaign')) {
-                        url.searchParams.set('tq_campaign', 'gads_' + clickId);
+                    const campaign = url.searchParams.get('tq_campaign') || '';
+                    if (campaign.indexOf('gclid-') === -1) {
+                        url.searchParams.set('tq_campaign', (campaign || 'gads') + '--gclid-' + clickId);
                     }
                 }
                 a.href = url.toString();
