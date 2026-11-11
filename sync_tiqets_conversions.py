@@ -10,9 +10,20 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
 
-REPO_DIR = '/Users/adamdimitrov/Development/cruisedetective'
+REPO_DIR = os.environ.get('SYNC_REPO_DIR', '/Users/adamdimitrov/Development/cruisedetective')
 ENV_PATH = os.path.join(REPO_DIR, '.env')
-STATE_FILE = os.path.join(REPO_DIR, 'uploaded_orders.json')
+STATE_FILE = os.environ.get('SYNC_STATE_FILE', os.path.join(REPO_DIR, 'uploaded_orders.json'))
+
+# In GitHub Actions the repo is public, so its logs are too: ask the runner to
+# redact order IDs, click IDs, amounts and addresses before they are printed.
+IN_CI = os.environ.get('GITHUB_ACTIONS') == 'true'
+
+
+def mask(*values):
+    if IN_CI:
+        for v in values:
+            if v not in (None, ''):
+                print(f"::add-mask::{v}")
 
 PRODUCT_NAMES = {
     973977: "Bateaux Parisiens — Seine Sightseeing Cruise",
@@ -36,6 +47,11 @@ if os.path.exists(ENV_PATH):
             if line and not line.startswith('#') and '=' in line:
                 k, v = line.split('=', 1)
                 env_vars[k.strip()] = v.strip()
+
+# Environment variables (e.g. GitHub Actions secrets) override .env values.
+for _k, _v in os.environ.items():
+    if _v and (_k.startswith(('GOOGLE_ADS_', 'GMAIL_', 'TIQETS_')) or _k == 'ALERT_EMAIL'):
+        env_vars[_k] = _v
 
 client_id = env_vars.get('GOOGLE_ADS_CLIENT_ID', '')
 client_secret = env_vars.get('GOOGLE_ADS_CLIENT_SECRET', '')
@@ -339,8 +355,11 @@ def sync():
     new_actions = 0
     token = None
 
+    mask(alert_email, gmail_user)
     for order in orders:
         order_id = str(order.get('order_reference_id'))
+        click = extract_click_id(order.get('campaign_name') or '')
+        mask(order_id, click and click['value'], order.get('estimated_commission'), order.get('sale_order_value'))
         status = order.get('order_status', '')
         if status == 'cancelled':
             continue
