@@ -122,26 +122,42 @@
         return parts.length >= 3 ? parts.slice(2).join('.') : null;
     }
 
-    // Returns the ad click ID that should travel to Tiqets, persisted for 90 days so
-    // a visitor who clicks an ad, leaves, and comes back later in a new tab is still
-    // attributed. Lookup order: URL > our cookie > localStorage > Google's _gcl_aw.
+    // Google Ads click ID types. iOS / app clicks often carry gbraid or wbraid instead
+    // of gclid; sync_tiqets_conversions.py uploads all three.
+    const CLICK_TYPES = ['gclid', 'gbraid', 'wbraid'];
+
+    // Returns {type, value} for the ad click ID that should travel to Tiqets, persisted
+    // for 90 days so a visitor who clicks an ad, leaves, and comes back later in a new
+    // tab is still attributed. Lookup order: URL > our cookies > localStorage > _gcl_aw.
     function getOrSetClickId() {
-        let clickId = getQueryParam('gclid');
-        if (clickId) {
-            setCookie('_cd_gclid', clickId, 90);
-            try { localStorage.setItem('_cd_gclid', clickId); } catch(e) {}
-            return clickId;
+        for (const type of CLICK_TYPES) {
+            const value = getQueryParam(type);
+            if (value) {
+                // Keep only the latest click: drop stored IDs of the other types so an
+                // older gclid can't win over a newer gbraid/wbraid click (or vice versa).
+                CLICK_TYPES.forEach(other => {
+                    if (other === type) return;
+                    setCookie('_cd_' + other, '', -1);
+                    try { localStorage.removeItem('_cd_' + other); } catch(e) {}
+                });
+                setCookie('_cd_' + type, value, 90);
+                try { localStorage.setItem('_cd_' + type, value); } catch(e) {}
+                return { type: type, value: value };
+            }
         }
-
-        let cookieGclid = getCookie('_cd_gclid');
-        if (cookieGclid) return cookieGclid;
-
+        for (const type of CLICK_TYPES) {
+            const value = getCookie('_cd_' + type);
+            if (value) return { type: type, value: value };
+        }
         try {
-            let localGclid = localStorage.getItem('_cd_gclid');
-            if (localGclid) return localGclid;
+            for (const type of CLICK_TYPES) {
+                const value = localStorage.getItem('_cd_' + type);
+                if (value) return { type: type, value: value };
+            }
         } catch(e) {}
 
-        return getGoogleLinkerGclid();
+        const linker = getGoogleLinkerGclid();
+        return linker ? { type: 'gclid', value: linker } : null;
     }
 
     // ----------------------------------------------------
@@ -155,14 +171,14 @@
                 // Enforce verified partner ID
                 url.searchParams.set('partner', 'thecruisedetective.com-176436');
                 
-                // Forward the click ID into tq_campaign as "<campaign>--gclid-<id>".
-                // tq_campaign is the only field Tiqets returns per order, and
-                // sync_tiqets_conversions.py parses the gclid out of it for Google Ads.
+                // Forward the click ID into tq_campaign as "<campaign>--<type>-<id>"
+                // (type = gclid / gbraid / wbraid). tq_campaign is the only field Tiqets
+                // returns per order; sync_tiqets_conversions.py parses it for Google Ads.
                 if (clickId) {
-                    url.searchParams.set('subid', clickId);
+                    url.searchParams.set('subid', clickId.value);
                     const campaign = url.searchParams.get('tq_campaign') || '';
-                    if (campaign.indexOf('gclid-') === -1) {
-                        url.searchParams.set('tq_campaign', (campaign || 'gads') + '--gclid-' + clickId);
+                    if (!/(gclid|gbraid|wbraid)-/.test(campaign)) {
+                        url.searchParams.set('tq_campaign', (campaign || 'gads') + '--' + clickId.type + '-' + clickId.value);
                     }
                 }
                 a.href = url.toString();
