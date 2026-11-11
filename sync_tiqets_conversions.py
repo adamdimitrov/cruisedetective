@@ -71,14 +71,21 @@ gmail_client_id = env_vars.get('GMAIL_CLIENT_ID', '')
 gmail_client_secret = env_vars.get('GMAIL_CLIENT_SECRET', '')
 gmail_refresh_token = env_vars.get('GMAIL_REFRESH_TOKEN', '')
 
-# Load state
+# Load state. An unreadable state file must stop the run: carrying on with an
+# empty list would re-send an alert for every recent order.
 uploaded_orders = {}
 if os.path.exists(STATE_FILE):
-    try:
-        with open(STATE_FILE, 'r') as f:
-            uploaded_orders = json.load(f)
-    except Exception:
-        uploaded_orders = {}
+    with open(STATE_FILE, 'r') as f:
+        uploaded_orders = json.load(f)
+
+
+def save_state():
+    # Write to a temp file and rename, so a crash mid-write never leaves a
+    # truncated state file behind.
+    tmp = STATE_FILE + '.tmp'
+    with open(tmp, 'w') as f:
+        json.dump(uploaded_orders, f, indent=2)
+    os.replace(tmp, STATE_FILE)
 
 
 def get_google_access_token():
@@ -383,6 +390,7 @@ def sync():
                 record['placement'] = attribution['placement']
                 record['commission'] = order.get('estimated_commission')
                 uploaded_orders[order_id] = record
+                save_state()
                 new_actions += 1
             continue
 
@@ -423,6 +431,8 @@ def sync():
             if email_ok:
                 existing_record['email_sent'] = True
                 existing_record['email_sent_at'] = datetime.utcnow().isoformat() + 'Z'
+                uploaded_orders[order_id] = existing_record
+                save_state()
 
         existing_record['gross_value'] = order.get('sale_order_value')
         existing_record['commission'] = order.get('estimated_commission')
@@ -432,11 +442,19 @@ def sync():
         uploaded_orders[order_id] = existing_record
         new_actions += 1
 
-    with open(STATE_FILE, 'w') as f:
-        json.dump(uploaded_orders, f, indent=2)
+    save_state()
 
     print(f"Sync complete. {new_actions} ad order(s) processed.")
 
 
 if __name__ == '__main__':
+    # GitHub Actions is the only sender. Its state lives in the Actions cache, so
+    # any other copy (the old launchd job, a manual or test run) has its own state
+    # and would e-mail orders Actions already alerted on. That is how a duplicate
+    # alert for order 681024177 went out on 2026-11-11.
+    if not IN_CI and os.environ.get('SYNC_ALLOW_LOCAL') != '1':
+        print("Refusing to run outside GitHub Actions: the Actions workflow is the only "
+              "Tiqets sync, and a second copy sends duplicate alerts. "
+              "Set SYNC_ALLOW_LOCAL=1 only with the Actions workflow disabled.")
+        raise SystemExit(0)
     sync()
