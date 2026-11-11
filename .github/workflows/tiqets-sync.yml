@@ -1,0 +1,73 @@
+name: Tiqets sales sync
+
+# Pulls recent Tiqets orders, uploads Google Ads click conversions (net commission)
+# and e-mails a booking alert. Replaces the launchd job that only ran while the Mac was awake.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: tiqets-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write # save the state cache
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SYNC_REPO_DIR: ${{ github.workspace }}
+      SYNC_STATE_FILE: ${{ github.workspace }}/state/uploaded_orders.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: sync_tiqets_conversions.py
+          sparse-checkout-cone-mode: false
+
+      # State (which orders were already uploaded / e-mailed) lives in the Actions
+      # cache, not in git: the repo is public and the list holds order data.
+      - name: Restore state
+        id: state
+        uses: actions/cache/restore@v4
+        with:
+          path: state
+          key: tiqets-sync-state-${{ github.run_id }}
+          restore-keys: tiqets-sync-state-
+
+      - name: Seed state when the cache is empty
+        if: steps.state.outputs.cache-matched-key == ''
+        env:
+          SEED: ${{ secrets.SYNC_STATE_SEED }}
+        run: |
+          if [ -z "$SEED" ]; then
+            echo "No cached state and no SYNC_STATE_SEED secret; refusing to run (would re-send old alerts)." >&2
+            exit 1
+          fi
+          mkdir -p state
+          echo "$SEED" | base64 -d > state/uploaded_orders.json
+
+      - name: Sync Tiqets orders
+        env:
+          TIQETS_API_KEY: ${{ secrets.TIQETS_API_KEY }}
+          GOOGLE_ADS_CLIENT_ID: ${{ secrets.GOOGLE_ADS_CLIENT_ID }}
+          GOOGLE_ADS_CLIENT_SECRET: ${{ secrets.GOOGLE_ADS_CLIENT_SECRET }}
+          GOOGLE_ADS_REFRESH_TOKEN: ${{ secrets.GOOGLE_ADS_REFRESH_TOKEN }}
+          GOOGLE_ADS_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
+          GOOGLE_ADS_CONVERSION_ACTION_ID: ${{ secrets.GOOGLE_ADS_CONVERSION_ACTION_ID }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+        run: python3 sync_tiqets_conversions.py
+
+      - name: Save state
+        if: always() && hashFiles('state/uploaded_orders.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: state
+          key: tiqets-sync-state-${{ github.run_id }}
