@@ -297,3 +297,34 @@
     }
     window.addEventListener('load', init);
 })();
+
+// ==========================================
+// Google Ads: "Tiqets click (outbound)" secondary conversion
+// Counts ad visitors who click through to Tiqets (one per ad click),
+// so each campaign's click-through rate to Tiqets shows in Google Ads.
+// Secondary: reported only, never used for bidding (Tiqets Offline Sale is primary).
+// ==========================================
+(function() {
+    var AW_ID = 'AW-16782417237';
+    var SEND_TO = AW_ID + '/QqMXCOeW0bYdENW6vcI-';
+
+    function gtagSafe() {
+        window.dataLayer = window.dataLayer || [];
+        if (typeof window.gtag === 'function') {
+            window.gtag.apply(window, arguments);
+        } else {
+            window.dataLayer.push(arguments);
+        }
+    }
+
+    if (!window._cdAdsConfigured) {
+        window._cdAdsConfigured = true;
+        gtagSafe('config', AW_ID);
+    }
+
+    document.addEventListener('click', function(e) {
+        var a = e.target && e.target.closest && e.target.closest('a[href*="tiqets.com"]');
+        if (!a) return;
+        gtagSafe('event', 'conversion', { send_to: SEND_TO, transport_type: 'beacon' });
+    }, true);
+})();
