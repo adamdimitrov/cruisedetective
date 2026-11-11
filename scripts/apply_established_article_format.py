@@ -371,7 +371,7 @@ def run_dinner_cruises():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
@@ -493,7 +493,7 @@ def run_thames_cruises():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''

@@ -889,7 +889,7 @@ def build_duel_page(lang, rel_path):
 <div class="hybrid-sheet-backdrop" id="hybridBackdrop"></div>
 
 <script src="/js/ltt-nav.js"></script>
-<script src="/webflow-sync.js"></script>
+<script src="/webflow-sync.js?v=20261111"></script>
 <script>
 window.LTT_PAGE_CONFIG = {{
   "deckId": "bm-vs-bp-comparison-deck",
