@@ -167,9 +167,9 @@ for url, status, html in success_pages:
     # 7. Ensure webflow-sync.js tracking script is present before </body>
     if "/webflow-sync.js" not in content and "webflow-sync.js" not in content:
         if "</body>" in content:
-            content = content.replace("</body>", '  <script src="/webflow-sync.js"></script>\n</body>')
+            content = content.replace("</body>", '  <script src="/webflow-sync.js?v=20261111"></script>\n</body>')
         else:
-            content += '\n<script src="/webflow-sync.js"></script>'
+            content += '\n<script src="/webflow-sync.js?v=20261111"></script>'
 
     with open(dest_file, "w", encoding="utf-8") as f:
         f.write(content)

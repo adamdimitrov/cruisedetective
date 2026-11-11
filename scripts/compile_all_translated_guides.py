@@ -1077,7 +1077,7 @@ window.LTT_PAGE_CONFIG = {{
 }};
 </script>
 <script src="/js/ltt-nav.js"></script>
-<script src="/webflow-sync.js"></script>
+<script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''

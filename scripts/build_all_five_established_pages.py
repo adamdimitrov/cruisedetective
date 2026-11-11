@@ -633,7 +633,7 @@ def build_page_skeleton(head_html, hero_img_url, hero_img_alt, breadcrumb_text, 
 
 {sticky_bar_html}
 
-<script src="/webflow-sync.js" defer=""></script>
+<script src="/webflow-sync.js?v=20261111" defer=""></script>
 <script src="/js/ltt-nav.js" defer=""></script>
 </body>
 </html>'''

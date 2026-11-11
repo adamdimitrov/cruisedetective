@@ -34,10 +34,10 @@ def fetch_url(url):
 def normalize_webflow_sync(html):
     # Replace remote jsDelivr CDN reference with local relative script
     pattern = r'<script\s+[^>]*src=[\"\x27]https://cdn\.jsdelivr\.net/gh/adamdimitrov/cruisedetective@main/webflow-sync\.js[\"\x27][^>]*>\s*</script>'
-    replacement = '<script src="/webflow-sync.js" defer></script>'
+    replacement = '<script src="/webflow-sync.js?v=20261111" defer></script>'
     if re.search(pattern, html, flags=re.IGNORECASE):
         html = re.sub(pattern, replacement, html, flags=re.IGNORECASE)
-    elif '<script src="/webflow-sync.js"' not in html and "<script src='/webflow-sync.js'" not in html:
+    elif '<script src="/webflow-sync.js?v=20261111"' not in html and "<script src='/webflow-sync.js'" not in html:
         # Inject before </body>
         if "</body>" in html:
             html = html.replace("</body>", f"{replacement}\n</body>")

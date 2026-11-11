@@ -754,7 +754,7 @@ def enhance_scripts(html):
     if 'ltt-nav.js' not in html:
         html = re.sub(r'(</body>)', '<script src="/js/ltt-nav.js" defer></script>\n\\1', html, count=1, flags=re.IGNORECASE)
     if 'webflow-sync.js' not in html:
-        html = re.sub(r'(</body>)', '<script src="/webflow-sync.js"></script>\n\\1', html, count=1, flags=re.IGNORECASE)
+        html = re.sub(r'(</body>)', '<script src="/webflow-sync.js?v=20261111"></script>\n\\1', html, count=1, flags=re.IGNORECASE)
     return html
 
 def remove_legacy_navs_and_insert_ltt_nav(html, lang, mapping):
@@ -1266,7 +1266,7 @@ def build_homepage_html(lang, mapping):
 {footer_html}
 
 <script src="/js/ltt-nav.js" defer></script>
-<script src="/webflow-sync.js"></script>
+<script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>'''
 

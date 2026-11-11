@@ -216,7 +216,7 @@ def run_suite():
             print(f"  [PASS] {name} is decoupled from jsDelivr main")
 
         total_tests += 1
-        if '<script src="/webflow-sync.js"' not in content and "<script src='/webflow-sync.js'" not in content:
+        if '<script src="/webflow-sync.js' not in content and "<script src='/webflow-sync.js'" not in content:
             failures.append(f"{name}: Missing /webflow-sync.js inclusion!")
         else:
             print(f"  [PASS] {name} includes local /webflow-sync.js")

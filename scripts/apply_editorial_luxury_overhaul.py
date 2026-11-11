@@ -937,7 +937,7 @@ def generate_dinner_cruises_paris():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
@@ -1288,7 +1288,7 @@ def generate_seine_river_cruises_paris():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
@@ -1626,7 +1626,7 @@ def generate_canal_cruises_amsterdam():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
@@ -1933,7 +1933,7 @@ def generate_thames_river_cruises_london():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
@@ -2144,7 +2144,7 @@ def generate_mouches_vs_parisiens():
   <script id="ltt-nav-inline-js">
 {EMBEDDED_JS}
   </script>
-  <script src="/webflow-sync.js"></script>
+  <script src="/webflow-sync.js?v=20261111"></script>
 </body>
 </html>
 '''
