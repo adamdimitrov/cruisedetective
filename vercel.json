@@ -60,20 +60,20 @@
       ]
     },
     {
-      "source": "/(.*\\.(?:js|css|webp|avif|png|jpg|jpeg|gif|svg|woff|woff2|ttf|ico))",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
       "source": "/webflow-sync.js",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=300, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.(?:js|css|webp|avif|png|jpg|jpeg|gif|svg|woff|woff2|ttf|ico))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     },
