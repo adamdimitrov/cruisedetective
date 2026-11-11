@@ -700,6 +700,10 @@
       "destination": "/dinner-cruises-paris/index.html"
     },
     {
+      "source": "/new-years-eve-cruises-paris",
+      "destination": "/new-years-eve-cruises-paris/index.html"
+    },
+    {
       "source": "/dinner-cruise-paris",
       "destination": "/dinner-cruises-paris/index.html"
     },
