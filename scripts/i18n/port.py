@@ -17,6 +17,11 @@ Commands
            Insert (or replace) a contiguous run of EN sections, translated.
   menus    --lang L --en EN_PAGE --tr TR_PAGE [--check]
            Printed-menu modal + templates + scripts (dinner pages).
+  page     --lang L --en EN_PAGE --tr NEW_PAGE --chrome-from TR_PAGE_SAME_LANG [--check]
+           Whole-page translation for a page that has no translation yet: header/footer from an existing
+           page in that language, body text, title/meta/og, JSON-LD strings, page config labels, html lang,
+           canonical/og:url. hreflang: EN page and new page are linked to each other (others removed).
+           Strings: --what page with missing/learn.
   sync     PRESET [--langs de,fr] [--check]
            Everything in scripts/i18n/presets.json for that page group (cards, menus, sections),
            for every language. With --check: report what is missing per language, change nothing.
@@ -308,6 +313,136 @@ def do_menus(a):
     return finish(a, t, apply)
 
 
+# ---------------------------------------------------------------- whole page
+SITE = 'https://www.thecruisedetective.com'
+META = r'(<meta[^>]*(?:name|property)="(?:description|og:title|og:description|twitter:title|twitter:description|og:image:alt)"[^>]*content=")([^"]*)(")|(<meta[^>]*content=")([^"]*)("[^>]*(?:name|property)="(?:description|og:title|og:description|twitter:title|twitter:description|og:image:alt)"[^>]*>)'
+LD_KEYS = {'name', 'description', 'headline', 'text', 'alternativeHeadline', 'caption', 'abstract'}
+
+
+def balanced(h, pat):
+    m = re.search(pat, h)
+    return (m.start(), block_end(h, m.start())) if m else None
+
+
+def page_strings(h):
+    """All translatable strings of a whole page (body without header/footer, head meta, JSON-LD, config)."""
+    out = []
+    t = re.search(r'<title>([^<]*)</title>', h)
+    if t:
+        out.append(t.group(1).strip())
+    for m in re.finditer(META, h):
+        out.append((m.group(2) if m.group(2) is not None else m.group(5)).strip())
+    for m in re.finditer(r'<script[^>]*ld\+json[^>]*>(.*?)</script>', h, re.S):
+        def walk(x):
+            if isinstance(x, dict):
+                for k, v in x.items():
+                    if k in LD_KEYS and isinstance(v, str):
+                        out.append(v.strip())
+                    else:
+                        walk(v)
+            elif isinstance(x, list):
+                for v in x:
+                    walk(v)
+        try:
+            walk(json.loads(m.group(1)))
+        except Exception:
+            pass
+    c = re.search(r'window\.LTT_PAGE_CONFIG = (\{.*?\});', h)
+    if c:
+        cfg = json.loads(c.group(1))
+        out += [v for k, v in cfg.items() if isinstance(v, str) and k.endswith('Label')]
+        out += cfg.get('shortTitles', [])
+    b = h[h.find('<body'):]
+    for pat in (r'<header class="ltt-navbar"', r'<section class="footer-dark">'):
+        r = balanced(b, pat)
+        if r:
+            b = b[:r[0]] + b[r[1]:]
+    out += strings_of(b, ('alt', 'data-cap', 'aria-label', 'title', 'data-toc', 'placeholder'))
+    return [x for x in out if translatable(x)]
+
+
+def do_page(a):
+    en = read(a.en)
+    chrome = read(a.chrome_from)
+    t = T(a.lang, 'page')
+    h = en
+    # header + footer from an existing page in the target language
+    for pat in (r'<header class="ltt-navbar"', r'<section class="footer-dark">'):
+        r_en, r_tr = balanced(h, pat), balanced(chrome, pat)
+        if r_en and r_tr:
+            blk = re.sub(r'\s*aria-current="page"', '', chrome[r_tr[0]:r_tr[1]]).replace('ltt-mega-item active', 'ltt-mega-item')
+            h = h[:r_en[0]] + '\x02' + str(len(blk)) + '\x02' + h[r_en[1]:]
+            h = h.replace('\x02' + str(len(blk)) + '\x02', blk, 1) if False else h.replace('\x02' + str(len(blk)) + '\x02', '\x03' + pat + '\x03', 1)
+            locals().setdefault('_chrome', {})[pat] = blk
+    chrome_blocks = locals().get('_chrome', {})
+    head_end = h.find('<body')
+    head, body = h[:head_end], h[head_end:]
+    # body text
+    body = t.html(body, ('alt', 'data-cap', 'aria-label', 'title', 'data-toc', 'placeholder'))
+    body = localize_links(body, a.lang)
+    for pat, blk in chrome_blocks.items():
+        body = body.replace('\x03' + pat + '\x03', blk, 1)
+    # head
+    head = re.sub(r'<title>([^<]*)</title>', lambda m: '<title>' + t.tr(m.group(1)) + '</title>', head)
+    head = re.sub(META, lambda m: (m.group(1) + t.tr(m.group(2)) + m.group(3)) if m.group(1) else (m.group(4) + t.tr(m.group(5)) + m.group(6)), head)
+    new_url = SITE + '/' + a.tr.strip('/')
+    old_url = SITE + '/' + a.en.strip('/')
+    head = re.sub(r'<html lang="[^"]*"', f'<html lang="{a.lang}"', head)
+    h_all = head + body
+    h_all = re.sub(r'<html lang="[^"]*"', f'<html lang="{a.lang}"', h_all)
+    h_all = re.sub(r'(<link[^>]*rel="canonical"[^>]*href=")[^"]*(")', lambda m: m.group(1) + new_url + m.group(2), h_all)
+    h_all = re.sub(r'(<link[^>]*href=")[^"]*("[^>]*rel="canonical")', lambda m: m.group(1) + new_url + m.group(2), h_all)
+    h_all = re.sub(r'(<meta[^>]*property="og:url"[^>]*content=")[^"]*(")', lambda m: m.group(1) + new_url + m.group(2), h_all)
+    h_all = re.sub(r'(<meta[^>]*content=")[^"]*("[^>]*property="og:url")', lambda m: m.group(1) + new_url + m.group(2), h_all)
+    h_all = re.sub(r'(<meta[^>]*property="og:locale"[^>]*content=")[^"]*(")', lambda m: m.group(1) + LANGS[a.lang].get('locale', a.lang) + m.group(2), h_all)
+    hl = (f'<link href="{old_url}" hreflang="en" rel="alternate"/>\n<link href="{new_url}" hreflang="{a.lang}" rel="alternate"/>\n'
+          f'<link href="{old_url}" hreflang="x-default" rel="alternate"/>')
+    h_all = re.sub(r'(?:<link[^>]*hreflang="[^"]*"[^>]*>\s*)+', lambda m: hl + '\n', h_all, count=1)
+
+    # JSON-LD
+    def ld(m):
+        try:
+            data = json.loads(m.group(2))
+        except Exception:
+            return m.group(0)
+
+        def walk(x):
+            if isinstance(x, dict):
+                for k, v in list(x.items()):
+                    if k in LD_KEYS and isinstance(v, str):
+                        x[k] = t.tr(v)
+                    elif k in ('url', '@id', 'mainEntityOfPage', 'item') and isinstance(v, str) and v.startswith(old_url) and '#' not in v.replace(old_url, ''):
+                        x[k] = v.replace(old_url, new_url)
+                    elif k == 'inLanguage':
+                        x[k] = a.lang
+                    else:
+                        walk(v)
+            elif isinstance(x, list):
+                for v in x:
+                    walk(v)
+        walk(data)
+        return m.group(1) + json.dumps(data, ensure_ascii=False, indent=2) + m.group(3)
+    h_all = re.sub(r'(<script[^>]*ld\+json[^>]*>)(.*?)(</script>)', ld, h_all, flags=re.S)
+    # page config
+    c = re.search(r'window\.LTT_PAGE_CONFIG = (\{.*?\});', h_all)
+    if c:
+        cfg = json.loads(c.group(1))
+        for k, v in cfg.items():
+            if isinstance(v, str) and k.endswith('Label'):
+                cfg[k] = t.tr(v)
+        cfg['shortTitles'] = [t.tr(x) for x in cfg.get('shortTitles', [])]
+        h_all = h_all[:c.start(1)] + json.dumps(cfg, ensure_ascii=False) + h_all[c.end(1):]
+
+    def apply():
+        os.makedirs(os.path.dirname(page(a.tr)), exist_ok=True)
+        write(a.tr, h_all)
+        # link the EN page back to the new page
+        e = read(a.en)
+        e = re.sub(r'(?:<link[^>]*hreflang="[^"]*"[^>]*>\s*)+', lambda m: hl + '\n', e, count=1)
+        write(a.en, e)
+    return finish(a, t, apply)
+
+
 # ---------------------------------------------------------------- missing / learn / harvest
 def collect(a, html):
     if a.what == 'cards':
@@ -318,6 +453,8 @@ def collect(a, html):
             s, e = section(html, sid)
             out += strings_of(html[s:e])
         return out
+    if a.what == 'page':
+        return page_strings(html)
     if a.what == 'menus':
         i = html.find('<div class="dc-modal"')
         j = html.find('</template>', html.rfind('<template id="dc-menu-')) + len('</template>')
@@ -407,7 +544,8 @@ def finish(a, t, apply):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=['missing', 'learn', 'harvest', 'cards', 'sections', 'menus', 'sync'])
+    ap.add_argument('cmd', choices=['missing', 'learn', 'harvest', 'cards', 'sections', 'menus', 'sync', 'page'])
+    ap.add_argument('--chrome-from')
     ap.add_argument('preset', nargs='?')
     ap.add_argument('--langs')
     for x in ('--lang', '--en', '--tr', '--what', '--ids', '--place', '--out', '--todo', '--done'):
@@ -416,7 +554,7 @@ def main():
     ap.add_argument('--force', action='store_true', help='apply even with untranslated strings (they stay English)')
     a = ap.parse_args()
     return {'missing': do_missing, 'learn': do_learn, 'harvest': do_harvest,
-            'cards': do_cards, 'sections': do_sections, 'menus': do_menus, 'sync': do_sync}[a.cmd](a) or 0
+            'cards': do_cards, 'sections': do_sections, 'menus': do_menus, 'sync': do_sync, 'page': do_page}[a.cmd](a) or 0
 
 
 if __name__ == '__main__':
