@@ -6,6 +6,7 @@
 | `ship/preflight.py [--fix]` | Pre-merge checks: em dashes, JS `?v=` bumps, cache-rule order, sitemap lastmod, affiliate links | `/ship` |
 | `qa/mobile_overflow.py [pages…]` | 375px horizontal-overflow check with popovers open | `/mobile-qa` |
 | `cards/cards.py extract/drift/links/all` | Card data layer: facts per card, translation drift vs EN, affiliate link rules | `/port-card-feature`, `/verify-ota-facts` |
+| `i18n/port.py sync <preset>` | Port EN cards, sections and dinner menus to every translation from the translation memory (`i18n/memory/`); `missing`/`learn` for new strings, `harvest` from already translated pages | `/port-i18n` |
 | `preview_server.py [port]` | Local server with Vercel rewrites and cleanUrls | |
 | `generate_sitemap.py` | Rebuild `sitemap.xml` | |
 | `gsc_anomaly_monitor.py` | GSC anomaly alerts (launchd `com.adamdimitrov.gsc-monitor`) | |

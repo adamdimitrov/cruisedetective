@@ -1,0 +1,10 @@
+{
+ "de": {"count": "(v==='veg'?'Vegetarisch':'Gluten-/laktosefrei')+' auf diesem Menü: '+n", "none": "'Nichts als '+(v==='veg'?'vegetarisch':'gluten-/laktosefrei')+' markiert, bitte die Crew fragen'", "hide": "Menü ausblenden ▴", "open": "Menü öffnen ▾"},
+ "es": {"count": "(v==='veg'?'Vegetarianos':'Sin gluten/lactosa')+' en este menú: '+n", "none": "'Nada marcado como '+(v==='veg'?'vegetariano':'sin gluten/lactosa')+', pregunta a la tripulación'", "hide": "Ocultar menú ▴", "open": "Ver menú ▾"},
+ "fr": {"count": "(v==='veg'?'Végétarien':'Sans gluten/lactose')+' sur ce menu : '+n", "none": "'Rien de marqué '+(v==='veg'?'végétarien':'sans gluten/lactose')+', demandez à l\\'équipage'", "hide": "Masquer le menu ▴", "open": "Voir le menu ▾"},
+ "it": {"count": "(v==='veg'?'Vegetariani':'Senza glutine/lattosio')+' in questo menù: '+n", "none": "'Niente segnato come '+(v==='veg'?'vegetariano':'senza glutine/lattosio')+', chiedi all\\'equipaggio'", "hide": "Nascondi menù ▴", "open": "Apri menù ▾"},
+ "ja": {"count": "(v==='veg'?'ベジタリアン':'グルテン・乳製品不使用')+'の料理：'+n+'品'", "none": "(v==='veg'?'ベジタリアン':'グルテン・乳製品不使用')+'の表示なし。スタッフにお尋ねください'", "hide": "メニューを閉じる ▴", "open": "メニューを開く ▾"},
+ "nl": {"count": "(v==='veg'?'Vegetarisch':'Gluten-/lactosevrij')+' op dit menu: '+n", "none": "'Niets gemarkeerd als '+(v==='veg'?'vegetarisch':'gluten-/lactosevrij')+', vraag het de crew'", "hide": "Menu verbergen ▴", "open": "Menu openen ▾"},
+ "pl": {"count": "(v==='veg'?'Wegetariańskie':'Bez glutenu/laktozy')+' w tym menu: '+n", "none": "'Nic nie oznaczono jako '+(v==='veg'?'wegetariańskie':'bez glutenu/laktozy')+', zapytaj obsługę'", "hide": "Ukryj menu ▴", "open": "Otwórz menu ▾"},
+ "ro": {"count": "(v==='veg'?'Vegetariene':'Fără gluten/lactoză')+' în acest meniu: '+n", "none": "'Nimic marcat '+(v==='veg'?'vegetarian':'fără gluten/lactoză')+', întreabă echipajul'", "hide": "Ascunde meniul ▴", "open": "Deschide meniul ▾"}
+}

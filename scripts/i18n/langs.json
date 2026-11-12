@@ -1,0 +1,18 @@
+{
+  "de": {"names": {"en":"Englisch","fr":"Französisch","es":"Spanisch","de":"Deutsch","it":"Italienisch","pt":"Portugiesisch","nl":"Niederländisch","pl":"Polnisch","ru":"Russisch","ar":"Arabisch","hi":"Hindi","zh":"Chinesisch","ja":"Japanisch","ko":"Koreanisch"},
+         "audio_label_js": "'Audio auf '+N[code]+' \\u2713'", "dinner_alt": "Dinner-Kreuzfahrt mit {brand}: {text}"},
+  "es": {"names": {"en":"inglés","fr":"francés","es":"español","de":"alemán","it":"italiano","pt":"portugués","nl":"neerlandés","pl":"polaco","ru":"ruso","ar":"árabe","hi":"hindi","zh":"chino","ja":"japonés","ko":"coreano"},
+         "audio_label_js": "'Audio en '+N[code]+' \\u2713'", "dinner_alt": "Crucero con cena de {brand}: {text}"},
+  "it": {"names": {"en":"inglese","fr":"francese","es":"spagnolo","de":"tedesco","it":"italiano","pt":"portoghese","nl":"olandese","pl":"polacco","ru":"russo","ar":"arabo","hi":"hindi","zh":"cinese","ja":"giapponese","ko":"coreano"},
+         "audio_label_js": "'Audio in '+N[code]+' \\u2713'", "dinner_alt": "Crociera con cena {brand}: {text}"},
+  "ja": {"names": {"en":"英語","fr":"フランス語","es":"スペイン語","de":"ドイツ語","it":"イタリア語","pt":"ポルトガル語","nl":"オランダ語","pl":"ポーランド語","ru":"ロシア語","ar":"アラビア語","hi":"ヒンディー語","zh":"中国語","ja":"日本語","ko":"韓国語"},
+         "audio_label_js": "N[code]+'\\u306e\\u97f3\\u58f0 \\u2713'", "dinner_alt": "{brand}のディナークルーズ：{text}"},
+  "nl": {"names": {"en":"Engels","fr":"Frans","es":"Spaans","de":"Duits","it":"Italiaans","pt":"Portugees","nl":"Nederlands","pl":"Pools","ru":"Russisch","ar":"Arabisch","hi":"Hindi","zh":"Chinees","ja":"Japans","ko":"Koreaans"},
+         "audio_label_js": "'Audio in het '+N[code]+' \\u2713'", "dinner_alt": "Dinercruise van {brand}: {text}"},
+  "pl": {"names": {"en":"angielski","fr":"francuski","es":"hiszpański","de":"niemiecki","it":"włoski","pt":"portugalski","nl":"niderlandzki","pl":"polski","ru":"rosyjski","ar":"arabski","hi":"hindi","zh":"chiński","ja":"japoński","ko":"koreański"},
+         "audio_label_js": "'Audio: '+N[code]+' \\u2713'", "dinner_alt": "Rejs z kolacją {brand}: {text}"},
+  "ro": {"names": {"en":"engleză","fr":"franceză","es":"spaniolă","de":"germană","it":"italiană","pt":"portugheză","nl":"neerlandeză","pl":"poloneză","ru":"rusă","ar":"arabă","hi":"hindi","zh":"chineză","ja":"japoneză","ko":"coreeană"},
+         "audio_label_js": "'Audio în '+N[code]+' \\u2713'", "dinner_alt": "Croazieră cu cină {brand}: {text}"},
+  "fr": {"names": {"en":"anglais","fr":"français","es":"espagnol","de":"allemand","it":"italien","pt":"portugais","nl":"néerlandais","pl":"polonais","ru":"russe","ar":"arabe","hi":"hindi","zh":"chinois","ja":"japonais","ko":"coréen"},
+         "audio_label_js": "'Audio en '+N[code]+' \\u2713'", "dinner_alt": "Dîner-croisière {brand} : {text}"}
+}
