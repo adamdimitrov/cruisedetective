@@ -669,12 +669,19 @@
   "functions": {
     "api/tiqets-webhook.js": {
       "maxDuration": 15
+    },
+    "api/go-tiqets.js": {
+      "maxDuration": 5
     }
   },
   "rewrites": [
     {
       "source": "/api/tiqets-webhook",
       "destination": "/api/tiqets-webhook.js"
+    },
+    {
+      "source": "/go/tiqets",
+      "destination": "/api/go-tiqets"
     },
     {
       "source": "/",
