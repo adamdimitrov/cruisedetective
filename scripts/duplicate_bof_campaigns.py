@@ -95,10 +95,11 @@ def duplicate_campaign(src_camp_id, new_camp_name, new_final_url, status="PAUSED
         },
         "containsEuPoliticalAdvertising": "DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING"
     }
+    # Always bid for sales (Tiqets Offline Sale = account's only biddable goal),
+    # never copy the source's Maximize Clicks (targetSpend) setting.
+    c_create["maximizeConversions"] = {}
     if cpc_ceiling:
-        c_create["targetSpend"] = {"cpcBidCeilingMicros": cpc_ceiling}
-    else:
-        c_create["targetSpend"] = {}
+        print(f"  ! Source used Max Clicks (cap {int(cpc_ceiling)/1e6:.2f}); clone uses Maximize Conversions instead")
 
     c_payload = {"operations": [{"create": c_create}]}
     c_res = api_call('campaigns:mutate', c_payload)
