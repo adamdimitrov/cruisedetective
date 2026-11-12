@@ -924,14 +924,16 @@ html.bpa-lang-on .bpa-lang .bpa-lang-pop{display:none}
 html.bpa-lang-on .bpa-lang.is-open .bpa-lang-chev{transform:rotate(180deg)}
 html.bpa-lang-on .bpa-lang.is-open>summary{background:#e2e8f0 !important}
 html.bpa-lang-on .bpa-lang.is-match.is-open>summary{background:#bbf7d0 !important}
-#bpa-lang-float{position:absolute;z-index:9990;max-width:290px;box-sizing:border-box;background:#fff;border:1px solid #e2e8f0;border-radius:10px;box-shadow:0 10px 30px rgba(15,23,42,.14);padding:10px 12px;font-size:12px;line-height:1.5;color:#334155;opacity:0;transform:translateY(-4px);transition:opacity .12s ease,transform .12s ease;pointer-events:none}
-#bpa-lang-float.is-visible{opacity:1;transform:none;pointer-events:auto}
+#bpa-lang-float{position:absolute;z-index:9990;max-width:290px;box-sizing:border-box;background:#fff;border:1px solid #e2e8f0;border-radius:10px;box-shadow:0 10px 30px rgba(15,23,42,.14);padding:10px 12px;font-size:12px;line-height:1.5;color:#334155;opacity:0;transform:translateY(-4px);transition:opacity .06s ease,transform .06s ease;pointer-events:none}
+#bpa-lang-float.is-visible{opacity:1;transform:none;pointer-events:auto;transition:opacity .12s ease,transform .12s ease}
 #bpa-lang-float.is-above{transform:translateY(4px)}
 #bpa-lang-float.is-above.is-visible{transform:none}
 #bpa-lang-float strong{color:#0f172a}
 #bpa-lang-float .bpa-lang-names b{color:#166534}
 #bpa-lang-float::before{content:"";position:absolute;left:var(--ax,20px);top:-6px;width:10px;height:10px;background:#fff;border-left:1px solid #e2e8f0;border-top:1px solid #e2e8f0;transform:translateX(-50%) rotate(45deg)}
 #bpa-lang-float.is-above::before{top:auto;bottom:-6px;transform:translateX(-50%) rotate(225deg)}
+#bpa-lang-float::after{content:"";position:absolute;left:0;right:0;top:-12px;height:12px}
+#bpa-lang-float.is-above::after{top:auto;bottom:-12px}
 </style>
 </head><body><header class="ltt-navbar" role="banner">
 <div class="ltt-nav-inner">
@@ -10085,7 +10087,7 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
       current=null; pinned=false;
       pop.classList.remove('is-visible');
     }
-    function softHide(){ if(pinned) return; clearTimeout(hideTimer); hideTimer=setTimeout(hide,150); }
+    function softHide(){ if(pinned) return; clearTimeout(hideTimer); hideTimer=setTimeout(hide,40); }
 
     boxes.forEach(function(d){
       var sum=d.querySelector('summary');
