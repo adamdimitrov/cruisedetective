@@ -3303,6 +3303,10 @@ details.bpa-tested.bpa-proof-mobile { display: none; }
   .bpa-via { width: 100%; text-align: right; margin-top: -4px; }
   .bpa-trust2 { flex-direction: row; flex-wrap: wrap; gap: 4px 12px; width: 100%; }
 }
+/* Neutralise the leftover Webflow a:hover (red/pink text, tinted background, 0.75 opacity) */
+a:hover { color: #9a6b0c; background-color: transparent; opacity: 1; -webkit-text-fill-color: currentColor; text-decoration: underline; text-underline-offset: 2px; }
+a.ltt-mega-item:hover { color: inherit; text-decoration: none; }
+a.cd-yt:hover { text-decoration: none; }
 .bpa-time-flex > summary.bpa-sp {
   background: #dcfce7 !important;
   color: #166534 !important;
@@ -4733,8 +4737,18 @@ footer.ltt-footer .legal-text {
 <div class="bpa-main">
 <div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">👑 #5 Best Private Yacht</span>
-<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery">
-<img alt="Paris Seine River Private Boat Cruise with Champagne" loading="lazy" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp 853w"/>
+<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
+<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
+<span class="bpa-pill">1 / 8</span><span class="bpa-cap" aria-hidden="true"></span>
+<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery" onscroll="bpaCount(this)">
+<img alt="Paris Seine River Private Boat Cruise with Champagne" loading="eager" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp 853w"/>
+<img alt="Champagne on board the private boat" data-src="/assets/ota/seine/private-boat-1.avif" data-srcset="/assets/ota/seine/private-boat-1-p-500.avif 500w, /assets/ota/seine/private-boat-1.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Private boat passing under a bridge by the Conciergerie" data-src="/assets/ota/seine/private-boat-2.avif" data-srcset="/assets/ota/seine/private-boat-2-p-500.avif 500w, /assets/ota/seine/private-boat-2.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Couple on the private boat with the Eiffel Tower behind" data-src="/assets/ota/seine/private-boat-3.avif" data-srcset="/assets/ota/seine/private-boat-3-p-500.avif 500w, /assets/ota/seine/private-boat-3.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Inside the private boat" data-src="/assets/ota/seine/private-boat-4.avif" data-srcset="/assets/ota/seine/private-boat-4-p-500.avif 500w, /assets/ota/seine/private-boat-4.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Seating on the private boat" data-src="/assets/ota/seine/private-boat-5.avif" data-srcset="/assets/ota/seine/private-boat-5-p-500.avif 500w, /assets/ota/seine/private-boat-5.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Sunset over Notre-Dame from the river" data-src="/assets/ota/seine/private-boat-6.avif" data-srcset="/assets/ota/seine/private-boat-6-p-500.avif 500w, /assets/ota/seine/private-boat-6.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Family on the private boat" data-src="/assets/ota/seine/private-boat-7.avif" data-srcset="/assets/ota/seine/private-boat-7-p-500.avif 500w, /assets/ota/seine/private-boat-7.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
 </div>
 <div class="bpa-info">
@@ -4768,8 +4782,18 @@ footer.ltt-footer .legal-text {
 <div class="bpa-main">
 <div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#6 Best Night &amp; Waffle</span>
-<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery">
-<img alt="Paris Night Cruise with River Views &amp; Waffle Tasting" loading="lazy" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp 853w"/>
+<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
+<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
+<span class="bpa-pill">1 / 8</span><span class="bpa-cap" aria-hidden="true"></span>
+<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery" onscroll="bpaCount(this)">
+<img alt="Paris Night Cruise with River Views &amp; Waffle Tasting" loading="eager" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp 853w"/>
+<img alt="Waffle held up in front of the lit Eiffel Tower" data-src="/assets/ota/seine/waffle-cruise-1.avif" data-srcset="/assets/ota/seine/waffle-cruise-1-p-500.avif 500w, /assets/ota/seine/waffle-cruise-1.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="The Eiffel Tower at night from the deck" data-src="/assets/ota/seine/waffle-cruise-2.avif" data-srcset="/assets/ota/seine/waffle-cruise-2-p-500.avif 500w, /assets/ota/seine/waffle-cruise-2.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Cruise boat by Notre-Dame at sunset" data-src="/assets/ota/seine/waffle-cruise-3.avif" data-srcset="/assets/ota/seine/waffle-cruise-3-p-500.avif 500w, /assets/ota/seine/waffle-cruise-3.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Passengers looking out from the cabin" data-src="/assets/ota/seine/waffle-cruise-4.avif" data-srcset="/assets/ota/seine/waffle-cruise-4-p-500.avif 500w, /assets/ota/seine/waffle-cruise-4.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Pont Alexandre III lit up at night" data-src="/assets/ota/seine/waffle-cruise-5.avif" data-srcset="/assets/ota/seine/waffle-cruise-5-p-500.avif 500w, /assets/ota/seine/waffle-cruise-5.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Notre-Dame Cathedral from the river" data-src="/assets/ota/seine/waffle-cruise-6.avif" data-srcset="/assets/ota/seine/waffle-cruise-6-p-500.avif 500w, /assets/ota/seine/waffle-cruise-6.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="A Seine bridge at night" data-src="/assets/ota/seine/waffle-cruise-7.avif" data-srcset="/assets/ota/seine/waffle-cruise-7-p-500.avif 500w, /assets/ota/seine/waffle-cruise-7.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
 </div>
 <div class="bpa-info">
@@ -4803,8 +4827,18 @@ footer.ltt-footer .legal-text {
 <div class="bpa-main">
 <div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#7 Best Crêpe Combo</span>
-<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery">
-<img alt="Seine River Sightseeing Cruise with French Crêpe Tasting" loading="lazy" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp 960w"/>
+<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
+<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
+<span class="bpa-pill">1 / 8</span><span class="bpa-cap" aria-hidden="true"></span>
+<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery" onscroll="bpaCount(this)">
+<img alt="Seine River Sightseeing Cruise with French Crêpe Tasting" loading="eager" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp 960w"/>
+<img alt="A crêpe being made at the crêpe stand" data-src="/assets/ota/seine/crepe-cruise-1.avif" data-srcset="/assets/ota/seine/crepe-cruise-1-p-500.avif 500w, /assets/ota/seine/crepe-cruise-1.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="The Eiffel Tower from the boat deck" data-src="/assets/ota/seine/crepe-cruise-2.avif" data-srcset="/assets/ota/seine/crepe-cruise-2-p-500.avif 500w, /assets/ota/seine/crepe-cruise-2.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Top deck passing the Conciergerie" data-src="/assets/ota/seine/crepe-cruise-3.avif" data-srcset="/assets/ota/seine/crepe-cruise-3-p-500.avif 500w, /assets/ota/seine/crepe-cruise-3.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Pont Alexandre III from the river" data-src="/assets/ota/seine/crepe-cruise-4.avif" data-srcset="/assets/ota/seine/crepe-cruise-4-p-500.avif 500w, /assets/ota/seine/crepe-cruise-4.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Notre-Dame Cathedral from the river" data-src="/assets/ota/seine/crepe-cruise-5.avif" data-srcset="/assets/ota/seine/crepe-cruise-5-p-500.avif 500w, /assets/ota/seine/crepe-cruise-5.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Cruise boat at the Eiffel Tower pier" data-src="/assets/ota/seine/crepe-cruise-6.avif" data-srcset="/assets/ota/seine/crepe-cruise-6-p-500.avif 500w, /assets/ota/seine/crepe-cruise-6.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Cruise boat on the Seine" data-src="/assets/ota/seine/crepe-cruise-7.avif" data-srcset="/assets/ota/seine/crepe-cruise-7-p-500.avif 500w, /assets/ota/seine/crepe-cruise-7.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
 </div>
 <div class="bpa-info">
@@ -4838,8 +4872,18 @@ footer.ltt-footer .legal-text {
 <div class="bpa-main">
 <div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">🍽️ #8 Best Lunch Cruise</span>
-<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery">
-<img alt="Paris 3-Course Gourmet Lunch Cruise with Live Music" loading="lazy" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp 960w"/>
+<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
+<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
+<span class="bpa-pill">1 / 8</span><span class="bpa-cap" aria-hidden="true"></span>
+<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery" onscroll="bpaCount(this)">
+<img alt="Paris 3-Course Gourmet Lunch Cruise with Live Music" loading="eager" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp 960w"/>
+<img alt="Lunch on board with the Eiffel Tower behind" data-src="/assets/ota/seine/lunch-cruise-1.avif" data-srcset="/assets/ota/seine/lunch-cruise-1-p-500.avif 500w, /assets/ota/seine/lunch-cruise-1.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Glass-roofed dining room on the lunch boat" data-src="/assets/ota/seine/lunch-cruise-2.avif" data-srcset="/assets/ota/seine/lunch-cruise-2-p-500.avif 500w, /assets/ota/seine/lunch-cruise-2.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Plated dishes from the lunch menu" data-src="/assets/ota/seine/lunch-cruise-3.avif" data-srcset="/assets/ota/seine/lunch-cruise-3-p-500.avif 500w, /assets/ota/seine/lunch-cruise-3.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Chocolate dessert on the lunch cruise" data-src="/assets/ota/seine/lunch-cruise-4.avif" data-srcset="/assets/ota/seine/lunch-cruise-4-p-500.avif 500w, /assets/ota/seine/lunch-cruise-4.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Lunch table passing Notre-Dame" data-src="/assets/ota/seine/lunch-cruise-5.avif" data-srcset="/assets/ota/seine/lunch-cruise-5-p-500.avif 500w, /assets/ota/seine/lunch-cruise-5.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Window table with river views" data-src="/assets/ota/seine/lunch-cruise-6.avif" data-srcset="/assets/ota/seine/lunch-cruise-6-p-500.avif 500w, /assets/ota/seine/lunch-cruise-6.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="View from the stern towards the Eiffel Tower" data-src="/assets/ota/seine/lunch-cruise-7.avif" data-srcset="/assets/ota/seine/lunch-cruise-7-p-500.avif 500w, /assets/ota/seine/lunch-cruise-7.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
 </div>
 <div class="bpa-info">
@@ -4873,8 +4917,18 @@ footer.ltt-footer .legal-text {
 <div class="bpa-main">
 <div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#9 Best Summer Treat</span>
-<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery">
-<img alt="Paris River Cruise with Ice Cream, Dessert or Drink" loading="lazy" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp 960w"/>
+<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
+<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
+<span class="bpa-pill">1 / 8</span><span class="bpa-cap" aria-hidden="true"></span>
+<div class="bpa-slider" tabindex="0" aria-label="Photo Gallery" onscroll="bpaCount(this)">
+<img alt="Paris River Cruise with Ice Cream, Dessert or Drink" loading="eager" sizes="420px" src="/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp" srcset="/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp 960w"/>
+<img alt="Family with ice creams by the Eiffel Tower" data-src="/assets/ota/seine/ice-cream-cruise-1.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-1-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-1.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="The Eiffel Tower at sunset from the deck" data-src="/assets/ota/seine/ice-cream-cruise-2.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-2-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-2.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Cruise boat on the Seine" data-src="/assets/ota/seine/ice-cream-cruise-3.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-3-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-3.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="The Eiffel Tower with a cruise boat" data-src="/assets/ota/seine/ice-cream-cruise-4.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-4-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-4.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Glass cabin on the cruise boat" data-src="/assets/ota/seine/ice-cream-cruise-5.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-5-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-5.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Ice cream in front of the Eiffel Tower" data-src="/assets/ota/seine/ice-cream-cruise-6.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-6-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-6.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
+<img alt="Crowded deck passing under a bridge" data-src="/assets/ota/seine/ice-cream-cruise-7.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-7-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-7.avif 800w" decoding="async" loading="lazy" sizes="420px" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
 </div>
 <div class="bpa-info">
