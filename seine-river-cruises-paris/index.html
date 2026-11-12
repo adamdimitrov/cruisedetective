@@ -1570,17 +1570,47 @@ html.bpa-lang-on .bpa-lang.is-match.is-open>summary{background:#bbf7d0 !importan
   object-fit: cover !important;
   display: block !important;
 }
+/* Phones: slim one-row bookmark so the top 10 list starts sooner */
 @media (max-width: 640px) {
+  .cd-bookmark-wrapper {
+    margin: 12px 0 4px 0 !important;
+  }
   .cd-editorial-bookmark {
-    flex-direction: column-reverse !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    min-height: 0 !important;
+    padding: 6px !important;
+    gap: 10px !important;
+    position: relative !important;
   }
   .cd-editorial-thumb {
-    flex: none !important;
-    max-width: 100% !important;
-    height: 150px !important;
+    flex: 0 0 60px !important;
+    max-width: 60px !important;
+    height: 46px !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
   }
   .cd-editorial-body {
-    padding: 14px 16px !important;
+    padding: 0 22px 0 0 !important;
+  }
+  .cd-editorial-title {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0 !important;
+  }
+  .cd-editorial-desc,
+  .cd-editorial-meta {
+    display: none !important;
+  }
+  .cd-editorial-bookmark::after {
+    content: "\203A";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-52%);
+    font-size: 22px;
+    line-height: 1;
+    color: #94a3b8;
   }
 }
 
@@ -4497,7 +4527,6 @@ footer.ltt-footer .legal-text {
 <div class="bpa-specs-row">
 <span class="bpa-vchip bpa-proof-mobile">✓ Personally Tested</span>
 <details class="bpa-lang bpa-time bpa-time-flex"><summary class="bpa-sp">🕒 <span class="bpa-lang-label">Flexible time</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>No time slot needed.</strong> Show up any time on your chosen day and board the next boat. Boats every 30 minutes in summer, every 45 to 60 minutes in winter.<span class="bpa-lang-note">Running late or the plan changes? Your ticket still works later that day.</span><span class="bpa-lang-note bpa-sparkle">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour (until midnight or 1am). Be on the water around the hour to see it.</span></div></details>
-<span class="bpa-sp">🥤 Snacks on Board</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">14-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class="bpa-lang-note">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span></div></details>
 <span class="bpa-sp">☀️ Open-Air Upper Deck</span>
 <details class="bpa-lang bpa-route"><summary class="bpa-sp">🏛️ <span class="bpa-lang-label">Full Seine Circuit</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>A 1-hour loop from the Eiffel Tower and back.</strong> Upstream past the Louvre to Notre-Dame and the islands, then back to the tower. About 20 landmarks, including Pont Alexandre III, Musée d&rsquo;Orsay, the Conciergerie and Hôtel de Ville.<span class="bpa-lang-note"><a href="#cruise-itinerary">See the route map ↓</a></span></div></details>
@@ -4608,7 +4637,6 @@ footer.ltt-footer .legal-text {
 <div class="bpa-specs-row">
 <span class="bpa-vchip bpa-proof-mobile">✓ Personally Tested</span>
 <details class="bpa-lang bpa-time bpa-time-flex"><summary class="bpa-sp">🕒 <span class="bpa-lang-label">Flexible time</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Pick a slot when booking, but you&rsquo;re not tied to it.</strong> In my experience you can board another evening departure that day. Sailings run roughly 16:45 to 22:00.<span class="bpa-lang-note">Free to change your date or time until the day before.</span><span class="bpa-lang-note bpa-sparkle">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour (until midnight or 1am). Be on the water around the hour to see it.</span></div></details>
-<span class="bpa-sp bpa-sp-extra">🥂 Drink Add-On from €7</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,zh,ja"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">9-Language App Guide</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese</span><span class="bpa-lang-note">Via the free audio guide app, so bring earbuds.</span></div></details>
 <span class="bpa-sp">🎶 Curated French Music</span>
 <span class="bpa-sp">🛥️ Cozy Boutique Ship</span>
@@ -4662,7 +4690,7 @@ footer.ltt-footer .legal-text {
 <div class="bpa-specs-row">
 <span class="bpa-vchip bpa-proof-mobile">✓ Personally Tested</span>
 <details class="bpa-lang bpa-time bpa-time-flex"><summary class="bpa-sp">🕒 <span class="bpa-lang-label">Hop on any time</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Unlimited rides for 24 or 48 hours.</strong> Hop on and off at any of the 9 stops whenever you like. Boats come every 25 to 40 minutes.<span class="bpa-lang-note">No time slot to book.</span></div></details>
-<span class="bpa-sp bpa-sp-no">🚫 No Audio or Drinks</span>
+<span class="bpa-sp bpa-sp-no">🚫 No Audio Guide</span>
 <span class="bpa-sp">🔄 9 Hop-On Stops</span>
 <span class="bpa-sp">🪟 Heated Glass Cabin</span>
 </div>
@@ -4928,7 +4956,6 @@ footer.ltt-footer .legal-text {
 <div class="bpa-specs-row">
 <span class="bpa-vchip bpa-proof-mobile">✓ Personally Tested</span>
 <details class="bpa-lang bpa-time"><summary class="bpa-sp">🕒 <span class="bpa-lang-label">Fixed departure</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Set departure time, 2.5-hour cruise.</strong> Runs daily from May to August and on selected days the rest of the year.<span class="bpa-lang-note">Departures were at 10:00 and 14:30 when I tested it.</span></div></details>
-<span class="bpa-sp bpa-sp-extra">🍷 Onboard Bar (Extra)</span>
 <span class="bpa-sp">🎙️ Live Bilingual Guide</span>
 <span class="bpa-sp">🚧 4 Canal Locks</span>
 <span class="bpa-sp">🚇 Bastille Tunnel</span>
