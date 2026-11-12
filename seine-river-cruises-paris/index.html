@@ -924,7 +924,7 @@ html.bpa-lang-on .bpa-lang .bpa-lang-pop{display:none}
 html.bpa-lang-on .bpa-lang.is-open .bpa-lang-chev{transform:rotate(180deg)}
 html.bpa-lang-on .bpa-lang.is-open>summary{background:#e2e8f0 !important}
 html.bpa-lang-on .bpa-lang.is-match.is-open>summary{background:#bbf7d0 !important}
-#bpa-lang-float{position:absolute;z-index:9990;max-width:290px;box-sizing:border-box;background:#fff;border:1px solid #e2e8f0;border-radius:10px;box-shadow:0 10px 30px rgba(15,23,42,.14);padding:10px 12px;font-size:12px;line-height:1.5;color:#334155;opacity:0;transform:translateY(-4px);transition:opacity .06s ease,transform .06s ease;pointer-events:none}
+#bpa-lang-float{position:absolute;z-index:9990;max-width:290px;box-sizing:border-box;background:#fff;border:1px solid #e2e8f0;border-radius:10px;box-shadow:0 10px 30px rgba(15,23,42,.14);padding:10px 12px;font-size:12px;line-height:1.5;color:#334155;opacity:0;transform:translateY(-4px);transition:none;pointer-events:none}
 #bpa-lang-float.is-visible{opacity:1;transform:none;pointer-events:auto;transition:opacity .12s ease,transform .12s ease}
 #bpa-lang-float.is-above{transform:translateY(4px)}
 #bpa-lang-float.is-above.is-visible{transform:none}
@@ -10087,7 +10087,12 @@ window.LTT_PAGE_CONFIG = {"deckId": "seine-cruise-deck", "tocDeckLabel": "Top 10
       current=null; pinned=false;
       pop.classList.remove('is-visible');
     }
-    function softHide(){ if(pinned) return; clearTimeout(hideTimer); hideTimer=setTimeout(hide,40); }
+    function softHide(e){
+      if(pinned) return;
+      var to=e && e.relatedTarget;
+      if(to && to.closest && (to.closest('#bpa-lang-float') || (current && current.contains(to)))) return;
+      hide();
+    }
 
     boxes.forEach(function(d){
       var sum=d.querySelector('summary');
