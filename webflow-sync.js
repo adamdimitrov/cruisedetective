@@ -168,6 +168,8 @@
         anchors.forEach(a => {
             try {
                 const url = new URL(a.href);
+                // Already swapped to our /go/tiqets counter (see the block at the end).
+                if (url.pathname.indexOf('/go/') === 0) return;
                 // Enforce verified partner ID
                 url.searchParams.set('partner', 'thecruisedetective.com-176436');
                 
@@ -326,5 +328,40 @@
         var a = e.target && e.target.closest && e.target.closest('a[href*="tiqets.com"]');
         if (!a) return;
         gtagSafe('event', 'conversion', { send_to: SEND_TO, transport_type: 'beacon' });
+    }, true);
+})();
+
+// ==========================================
+// Server-side Tiqets click counting (/go/tiqets)
+// Just before a Tiqets link is followed, point it at our own /go/tiqets
+// redirect, which counts the click on the server (cookie banners and ad
+// blockers can't hide it) and 302s to the exact Tiqets URL built above.
+// The href is swapped on press, not on page load, so the page HTML and what
+// crawlers see keep the direct Tiqets link. Middle-click, ctrl/cmd-click and
+// target=_blank keep working because the browser follows the swapped href.
+// ==========================================
+(function() {
+    // Only where /go/tiqets exists: production, Vercel previews, local dev.
+    var h = location.hostname;
+    if (h !== 'www.thecruisedetective.com' && h !== 'thecruisedetective.com'
+        && h.slice(-11) !== '.vercel.app' && h !== 'localhost' && h !== '127.0.0.1') return;
+
+    function swap(e) {
+        var a = e.target && e.target.closest && e.target.closest('a[href]');
+        if (!a || a.dataset.cdGo === '1') return;
+        var url;
+        try { url = new URL(a.href); } catch (err) { return; }
+        var host = url.hostname.toLowerCase();
+        if (url.protocol !== 'https:' || (host !== 'tiqets.com' && host.slice(-11) !== '.tiqets.com')) return;
+        a.dataset.cdGo = '1';
+        a.href = '/go/tiqets?u=' + encodeURIComponent(url.toString())
+            + '&p=' + encodeURIComponent(location.pathname);
+    }
+
+    ['pointerdown', 'mousedown', 'touchstart', 'contextmenu', 'click'].forEach(function(type) {
+        document.addEventListener(type, swap, { capture: true, passive: true });
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') swap(e);
     }, true);
 })();
