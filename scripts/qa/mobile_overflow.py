@@ -70,7 +70,7 @@ MONEY = ["seine-river-cruises-paris", "dinner-cruises-paris", "thames-river-crui
 
 
 def changed_pages():
-    cmd = "git diff --name-only origin/main...HEAD; git diff --name-only; git ls-files -o --exclude-standard"
+    cmd = "git -c core.quotePath=false diff --name-only origin/main...HEAD; git -c core.quotePath=false diff --name-only; git -c core.quotePath=false ls-files -o --exclude-standard"
     out = subprocess.run(cmd, shell=True, cwd=ROOT, capture_output=True, text=True).stdout
     pages = sorted({str(Path(f).parent) for f in out.split() if f.endswith("index.html")})
     return [p if p != "." else "" for p in pages]
