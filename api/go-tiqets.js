@@ -114,12 +114,15 @@ export default async function handler(req, res) {
   }
 
   const ev = buildEvent(req, target);
-  console.log('tiqets_click', JSON.stringify(ev));
+  // "stored" shows in the log line whether Redis took the click
+  // (false = KV env vars missing or Redis returned an error).
+  let stored = false;
   try {
-    await record(ev);
+    stored = await record(ev);
   } catch (err) {
     console.error('tiqets_click store failed:', err && err.message);
   }
+  console.log('tiqets_click', JSON.stringify({ ...ev, stored }));
 
   res.statusCode = 302;
   res.setHeader('Location', target.toString());
