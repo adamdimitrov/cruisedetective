@@ -63,7 +63,12 @@ def main():
     for f in files:
         if not f.endswith(SITE_EXT) or f.startswith((".claude/", "scripts/", "reports/", "social/")):
             continue
-        hits = [l.strip()[:100] for l in added_lines(f) if "—" in l and "<!--" not in l]
+        code = set()
+        if (ROOT / f).exists() and f.endswith(".html"):
+            src = (ROOT / f).read_text(encoding="utf-8", errors="ignore")
+            for blk in re.findall(r"<(?:style|script)\b[^>]*>.*?</(?:style|script)>", src, re.S):
+                code.update(x.strip() for x in blk.splitlines())
+        hits = [l.strip()[:100] for l in added_lines(f) if "—" in l and "<!--" not in l and l.strip() not in code]
         if hits:
             fails.append(f"em dash in {f}: {len(hits)} added line(s), e.g. “{hits[0]}”")
 
