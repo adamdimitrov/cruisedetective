@@ -681,7 +681,7 @@
     },
     {
       "source": "/go/tiqets",
-      "destination": "/api/go-tiqets.js"
+      "destination": "/api/go-tiqets"
     },
     {
       "source": "/",
