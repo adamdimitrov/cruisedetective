@@ -10086,9 +10086,13 @@ function open(id,btn){var tpl=document.getElementById('dc-menu-'+id);if(!tpl)ret
  var v=document.body.classList.contains('dc-hl-veg')?'veg':document.body.classList.contains('dc-hl-gfdf')?'gfdf':'';if(v&&window.dcPickTiers)window.dcPickTiers(body,v);
  m.querySelector('.dc-modal-kicker').textContent=tpl.dataset.op;m.querySelector('.dc-modal-title').innerHTML=tpl.dataset.title;
  m.querySelector('.dc-modal-price').innerHTML=tpl.dataset.price+'<small>'+tpl.dataset.sub+'</small>';
- m.querySelector('.dc-modal-cta').href=tpl.dataset.link;sheet.style.transform='';
+ m.querySelector('.dc-modal-cta').href=tpl.dataset.link;cur=tpl;syncPrice();sheet.style.transform='';
  m.hidden=false;document.documentElement.classList.add('dc-modal-open');m.querySelector('.dc-modal-close').focus();}
 window.dcOpenMenu=function(id,btn){open(id,btn);return body};
+var cur=null;function syncPrice(){if(!cur)return;var el=m.querySelector('.dc-modal-price'),cs=body.querySelectorAll('.dc-carte'),on=body.querySelector('.dc-carte.on .price'),pr=cur.dataset.price;
+ if(cs.length>1&&on){var x=on.textContent.match(/(?:From |About )?€\s?\d+(?:[.,]\d+)?/);if(x)pr=x[0].replace(/€\s/,'€');}
+ el.innerHTML=pr+'<small>'+cur.dataset.sub+'</small>';}
+new MutationObserver(syncPrice).observe(body,{subtree:true,attributes:true,attributeFilter:['class']});
 function close(){if(m.hidden)return;m.hidden=true;document.documentElement.classList.remove('dc-modal-open');body.innerHTML='';if(last)last.focus();}
 document.addEventListener('click',function(e){var b=e.target.closest('[data-dc-menu]');if(b){e.preventDefault();e.stopPropagation();open(b.getAttribute('data-dc-menu'),b);return;}
  if(e.target.closest('[data-dc-close]'))close();},true);
