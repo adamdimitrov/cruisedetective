@@ -16,6 +16,9 @@ For each EN money page and each translation this shows:
 - **behind EN**: card features the EN page has and the translation lacks (`rate_popover`, `tested_popover`, `time_pill`, `lang_popover`, `route_popover`, `pick_skip`, `kids_price`, `photo_captions`, `menu_pill`). To register a new feature, add its CSS selector to `FEATURES` in `scripts/cards/cards.py`.
 
 ## 2. Port in one scripted pass, not page by page
+
+**Use `/port-i18n` (`scripts/i18n/port.py sync <preset>`) for this now**: it rebuilds the cards from EN with the translation memory. The manual steps below are only for a feature the tool does not cover yet.
+
 1. Build and get approval on the EN page first.
 2. Write one throwaway script in the session scratchpad. It reads the EN card (BeautifulSoup, `div.bpa-card#card-N`) and the matching translated card, and copies the structure over. It keeps the translated strings, translates only the new strings, and leaves numbers, links and brand names alone.
 3. Order matters: fix ranking and products first (move the whole card block), then facts, then features.
