@@ -10,3 +10,6 @@ uploaded_orders.json
 credentials/
 *service_account*.json
 reports/
+
+# Claude Code worktrees
+.claude/worktrees/
