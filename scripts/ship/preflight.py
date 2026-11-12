@@ -34,13 +34,13 @@ def base():
 
 
 def changed_files():
-    out = sh(f"git diff --name-only {base()}; git ls-files -o --exclude-standard")
+    out = sh(f"git -c core.quotePath=false diff --name-only {base()}; git -c core.quotePath=false ls-files -o --exclude-standard")
     return sorted({f for f in out.splitlines() if f.strip()})
 
 
 def added_lines(path):
     diff = sh(f"git diff -U0 {base()} -- '{path}'")
-    if not diff and (ROOT / path).exists() and path in sh("git ls-files -o --exclude-standard"):
+    if not diff and (ROOT / path).exists() and path in sh("git -c core.quotePath=false ls-files -o --exclude-standard"):
         return (ROOT / path).read_text(encoding="utf-8", errors="ignore").splitlines()
     return [l[1:] for l in diff.splitlines() if l.startswith("+") and not l.startswith("+++")]
 
