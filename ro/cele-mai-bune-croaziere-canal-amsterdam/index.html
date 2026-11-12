@@ -1941,7 +1941,7 @@ window.addEventListener('load', function() {
 .bpa-kicker {
   font-size: 11.5px;
   font-weight: 800;
-  color: #dfa732;
+  color: #8c5800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -2227,10 +2227,11 @@ window.addEventListener('load', function() {
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
+  padding: 6px 8px !important;
+  margin: -4px -4px !important;
+  border-radius: 4px !important;
   font-size: 12px !important;
-  line-height: 1 !important;
+  line-height: 1.2 !important;
   color: #334155 !important;
   text-decoration: none !important;
   transition: all 0.15s ease !important;
@@ -2406,7 +2407,7 @@ window.addEventListener('load', function() {
   gap: 6px !important;
   font-size: 12px !important;
   font-weight: 700 !important;
-  color: #0284c7 !important;
+  color: #0369a1 !important;
   text-transform: none !important;
   letter-spacing: 0 !important;
   margin: 0 !important;
@@ -2414,14 +2415,18 @@ window.addEventListener('load', function() {
 }
 .bpa-details-top-row .bpa-kicker a.bpa-kicker-map-link {
   color: inherit !important;
-  text-decoration: none !important;
-  border-bottom: 1px dotted rgba(2, 132, 199, 0.45) !important;
-  transition: color 0.15s ease, border-bottom-color 0.15s ease !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+  display: inline-block !important;
+  padding: 3px 4px !important;
+  margin: -3px 0 !important;
+  min-height: 24px !important;
+  border-bottom: none !important;
+  transition: color 0.15s ease !important;
   cursor: pointer !important;
 }
 .bpa-details-top-row .bpa-kicker a.bpa-kicker-map-link:hover {
-  color: #0369a1 !important;
-  border-bottom-color: #0369a1 !important;
+  color: #075985 !important;
 }
 .bpa-details-title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
@@ -3054,6 +3059,86 @@ window.addEventListener('load', function() {
   color: #64748b !important;
   margin-top: 2px !important;
 }
+.bpa-kids {
+  font-size: 11px !important;
+  color: #64748b !important;
+  margin-top: 1px !important;
+  white-space: nowrap !important;
+}
+.bpa-psub, .bpa-kids {
+  line-height: 1.3 !important;
+}
+.bpa-lang-note a { color: #0369a1 !important; font-weight: 600; text-decoration: underline; }
+.bpa-sparkle { color: #92400e !important; margin-top: 6px !important; }
+/* Card rating row: weighted average across booking sites, list on tap */
+.bpa-card .bpa-reviews-line { flex-wrap: wrap !important; row-gap: 6px !important; min-width: 0 !important; }
+.bpa-rate { display: flex !important; align-items: center !important; }
+.bpa-rate-sum { display: inline-flex !important; align-items: center !important; gap: 6px !important; cursor: pointer; list-style: none; font-size: 12.5px !important; color: #0f172a !important; padding: 2px 6px 2px 0; }
+.bpa-rate-sum::-webkit-details-marker { display: none; }
+.bpa-rate-sum:hover .bpa-rate-meta, .bpa-rate-more.is-open .bpa-rate-meta { text-decoration: underline; }
+.bpa-rate-score { font-weight: 800 !important; }
+.bpa-rate-meta { color: #475569 !important; }
+.bpa-stars { position: relative; display: inline-block; font-size: 13px; line-height: 1; letter-spacing: 1px; color: #e2e8f0; }
+.bpa-stars::before { content: "\2605\2605\2605\2605\2605"; }
+.bpa-stars::after { content: "\2605\2605\2605\2605\2605"; position: absolute; left: 0; top: 0; width: calc(var(--r) / 5 * 100%); overflow: hidden; white-space: nowrap; color: #f59e0b; }
+#bpa-lang-float .bpa-rate-list { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; }
+#bpa-lang-float .bpa-rev-badge { display: flex !important; align-items: center !important; gap: 6px !important; padding: 4px 2px !important; border-bottom: 1px solid #f1f5f9; text-decoration: none !important; color: #0f172a !important; font-size: 12px !important; background: none !important; }
+#bpa-lang-float .bpa-rev-badge:last-child { border-bottom: 0; }
+#bpa-lang-float .bpa-rev-stars { display: none !important; }
+#bpa-lang-float .bpa-rev-icon { width: 16px !important; height: 16px !important; }
+#bpa-lang-float .bpa-rev-site { min-width: 92px; font-weight: 600; }
+#bpa-lang-float .bpa-rev-score { font-weight: 700 !important; }
+#bpa-lang-float .bpa-rev-count { color: #64748b !important; margin-left: auto; }
+#bpa-lang-float .bpa-rev-badge.is-link { cursor: pointer !important; border-radius: 6px; margin: 0 -4px; padding: 5px 4px !important; }
+#bpa-lang-float .bpa-rev-badge.is-link:hover { background: #f1f5f9 !important; }
+#bpa-lang-float .bpa-rev-badge.is-link .bpa-rev-site { text-decoration: underline; text-underline-offset: 2px; color: #0369a1; }
+#bpa-lang-float .bpa-rev-go { margin-left: 6px; color: #0369a1; font-weight: 700; font-size: 13px; }
+#bpa-lang-float .bpa-rev-badge.is-static, #bpa-lang-float .bpa-rev-badge.is-static * { cursor: default !important; }
+.bpa-tested > summary.bpa-vchip { list-style: none; cursor: pointer; display: inline-flex !important; align-items: center; gap: 4px; }
+.bpa-tested > summary.bpa-vchip::-webkit-details-marker { display: none; }
+.bpa-tested > summary.bpa-vchip:hover, html.bpa-lang-on .bpa-lang.bpa-tested.is-open > summary.bpa-vchip { background: #d1fae5 !important; color: #047857 !important; text-decoration: underline; text-underline-offset: 2px; }
+details.bpa-tested.bpa-proof-mobile { display: none; }
+@media (max-width: 767px) { details.bpa-tested.bpa-proof-mobile { display: inline-flex !important; } .bpa-proof details.bpa-tested { display: none !important; } }
+.bpa-pickskip { line-height: 1.5 !important; }
+.bpa-pickskip .bpa-pick { color: #166534 !important; font-weight: 800 !important; white-space: nowrap; }
+.bpa-pickskip .bpa-skip { color: #9a3412 !important; font-weight: 800 !important; white-space: nowrap; margin-left: 2px; }
+/* Card photo slider: captions, see-all slide */
+.bpa-cap { position: absolute; left: 10px; bottom: 10px; z-index: 3; max-width: calc(100% - 80px); background: rgba(15,23,42,.72); color: #fff; font-size: 11.5px; font-weight: 600; line-height: 1.3; padding: 4px 8px; border-radius: 6px; pointer-events: none; transition: opacity .15s; }
+.bpa-cap:empty { opacity: 0; }
+.bpa-seeall { flex: 0 0 100%; width: 100%; height: 100%; scroll-snap-align: start; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; padding: 16px; box-sizing: border-box; background: #0f172a; color: #e2e8f0 !important; text-decoration: none !important; font-size: 13px; }
+.bpa-seeall b { color: #fbbf24; font-size: 14px; }
+/* Comparison cards: larger text on phones */
+@media (max-width: 767px) {
+  .bpa-card .bpa-kicker { font-size: 13px !important; line-height: 1.35 !important; }
+  .bpa-card .bpa-title { font-size: 18.5px !important; }
+  .bpa-card .bpa-rate-sum { font-size: 13.5px !important; }
+  .bpa-card .bpa-specs-row summary, .bpa-card .bpa-specs-row > span { font-size: 12px !important; }
+  .bpa-card .bpa-pickskip { font-size: 13.5px !important; line-height: 1.5 !important; }
+  .bpa-card .bpa-price + div, .bpa-card .bpa-via, .bpa-card .bpa-trust2, .bpa-card .bpa-was { font-size: 12px !important; }
+  .bpa-card .bpa-sublink { font-size: 13px !important; }
+}
+/* CTA column: was-price, booking site, tidy trust lines */
+.bpa-was { font-size: 12px; color: #64748b; line-height: 1.2; margin-bottom: 2px; }
+.bpa-was s { text-decoration-thickness: 1.5px; }
+.bpa-was span { color: #b91c1c; font-weight: 800; margin-left: 2px; }
+.bpa-via { font-size: 11px; color: #64748b; margin-top: -2px; }
+.bpa-trust2 { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2px; font-size: 11px; font-weight: 600; color: #166534; line-height: 1.3; text-align: left; }
+@media (max-width: 900px) {
+  .bpa-via { width: 100%; text-align: right; margin-top: -4px; }
+  .bpa-trust2 { flex-direction: row; flex-wrap: wrap; gap: 4px 12px; width: 100%; }
+}
+/* Neutralise the leftover Webflow a:hover (red/pink text, tinted background, 0.75 opacity) */
+a:hover { color: #9a6b0c; background-color: transparent; opacity: 1; -webkit-text-fill-color: currentColor; text-decoration: underline; text-underline-offset: 2px; }
+a.ltt-mega-item:hover { color: inherit; text-decoration: none; }
+a.cd-yt:hover { text-decoration: none; }
+.bpa-time-flex > summary.bpa-sp {
+  background: #dcfce7 !important;
+  color: #166534 !important;
+}
+.bpa-time-flex > summary.bpa-sp:hover,
+html.bpa-lang-on .bpa-lang.bpa-time-flex.is-open > summary.bpa-sp {
+  background: #bbf7d0 !important;
+}
 
 .bpa-btn {
   width: 100% !important;
@@ -3443,14 +3528,18 @@ window.addEventListener('load', function() {
    ========================================================================== */
 .bpa-kicker a.bpa-kicker-map-link {
   color: inherit !important;
-  text-decoration: none !important;
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.45) !important;
-  transition: color 0.15s ease, border-color 0.15s ease !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+  display: inline-block !important;
+  padding: 3px 4px !important;
+  margin: -3px 0 !important;
+  min-height: 24px !important;
+  border-bottom: none !important;
+  transition: color 0.15s ease !important;
   cursor: pointer !important;
 }
 .bpa-kicker a.bpa-kicker-map-link:hover {
-  color: #fbbf24 !important;
-  border-bottom-color: #fbbf24 !important;
+  color: #7c5300 !important;
 }
 
 /* Inclusion vs Extra Charge Spec Pills */
@@ -3486,6 +3575,19 @@ window.addEventListener('load', function() {
 }
 .bpa-trust-micro span:nth-child(2) {
   opacity: 0.5;
+}
+/* Desktop: the CTA column is narrow, so stack the trust lines instead of overflowing it */
+@media (min-width: 901px) {
+  .bpa-trust-micro {
+    flex-direction: column !important;
+    gap: 2px !important;
+    white-space: normal !important;
+    text-align: center !important;
+    max-width: 100% !important;
+  }
+  .bpa-trust-micro span:nth-child(2) {
+    display: none !important;
+  }
 }
 
 /* Sticky Bar Active Trust Badge */
@@ -4303,7 +4405,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €40</div>
+<div class="bpa-was"><s>€40</s> <span>−40%</span></div>
+<div class="bpa-price">De la €24</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/amsterdam-all-inclusive-family-friendly-sightseeing-cruise-t412862/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-captain-jack-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>
@@ -4350,6 +4453,7 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
+<div class="bpa-was"><s>€15.50</s> <span>−15%</span></div>
 <div class="bpa-price">De la €13</div>
 <div class="bpa-psub">de persoană</div>
 </div>
@@ -4396,7 +4500,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €21</div>
+<div class="bpa-was"><s>€21</s> <span>−32%</span></div>
+<div class="bpa-price">De la €14</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/amsterdam-90-minute-boat-cruise-with-drinks-and-snacks-t313498/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-flagship-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>
@@ -4441,7 +4546,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €19</div>
+<div class="bpa-was"><s>€19</s> <span>−29%</span></div>
+<div class="bpa-price">De la €14</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/city-canal-cruise-t8271/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-blue-boat-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>
@@ -4488,7 +4594,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €25</div>
+<div class="bpa-was"><s>€25</s> <span>−31%</span></div>
+<div class="bpa-price">De la €17</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/amsterdam-1-hour-gin-tonic-canal-sightseeing-cruise-t420957/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-friendship-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>
@@ -4525,7 +4632,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €29</div>
+<div class="bpa-was"><s>€29</s> <span>−16%</span></div>
+<div class="bpa-price">De la €24</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/amsterdam-light-festival-boat-with-unlimited-drinks-snack-t501688/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-light-festival-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>
@@ -4562,7 +4670,8 @@ footer.ltt-footer .legal-text {
 </div>
 <div class="bpa-cta-cell">
 <div>
-<div class="bpa-price">De la €24</div>
+<div class="bpa-was"><s>€24</s> <span>−28%</span></div>
+<div class="bpa-price">De la €17</div>
 <div class="bpa-psub">de persoană</div>
 </div>
 <a class="bpa-btn" href="https://www.getyourguide.com/amsterdam-l36/amsterdam-covered-booze-cruise-with-unlimited-drinks-option-t290585/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-canal-cruises-amsterdam-booze-cruise-ro" rel="noopener" target="_blank">Verifică disponibilitatea →</a>

@@ -1,29 +1,83 @@
 {
   "seine": {
     "en": "seine-river-cruises-paris",
-    "pages": {"de": "de/besten-bootsfahrten-seine-paris", "es": "es/mejores-cruceros-sena-paris",
-              "it": "it/migliori-crociere-senna-parigi", "ja": "ja/パリのベスト-セーヌ川クルーズ",
-              "nl": "nl/beste-boottochten-seine-parijs", "pl": "pl/najlepsze-rejsy-po-sekwanie-paryz",
-              "ro": "ro/cele-mai-bune-croaziere-sena-paris"},
+    "pages": {
+      "de": "de/besten-bootsfahrten-seine-paris",
+      "es": "es/mejores-cruceros-sena-paris",
+      "it": "it/migliori-crociere-senna-parigi",
+      "ja": "ja/パリのベスト-セーヌ川クルーズ",
+      "nl": "nl/beste-boottochten-seine-parijs",
+      "pl": "pl/najlepsze-rejsy-po-sekwanie-paryz",
+      "ro": "ro/cele-mai-bune-croaziere-sena-paris"
+    },
     "cards": true,
     "menus": false,
     "sections": [
-      {"ids": "nye-promo", "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"},
-      {"ids": "is-it-worth-it,cruise-itinerary,best-for-couples,best-for-families,seine-cruises-explained,standard-features-explained,testing-methodology,how-article-structured",
-       "place": "before-closing-of:Standard-Features"}
+      {
+        "ids": "nye-promo",
+        "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"
+      },
+      {
+        "ids": "is-it-worth-it,cruise-itinerary,best-for-couples,best-for-families,seine-cruises-explained,standard-features-explained,testing-methodology,how-article-structured",
+        "place": "before-closing-of:Standard-Features"
+      }
     ]
   },
   "dinner": {
     "en": "dinner-cruises-paris",
-    "pages": {"de": "de/besten-bootsfahrten-mit-abendessen-paris", "es": "es/mejores-cruceros-con-cena-paris",
-              "fr": "fr/meilleurs-diners-croisieres-paris", "it": "it/migliori-crociere-con-cena-senna-parigi",
-              "ja": "ja/パリのベスト-ディナークルーズ", "nl": "nl/beste-boottochten-seine-met-diner-parijs",
-              "pl": "pl/najlepsze-rejsy-z-obiadem-paryz", "ro": "ro/cele-mai-bune-cina-croaziere-paris"},
+    "pages": {
+      "de": "de/besten-bootsfahrten-mit-abendessen-paris",
+      "es": "es/mejores-cruceros-con-cena-paris",
+      "fr": "fr/meilleurs-diners-croisieres-paris",
+      "it": "it/migliori-crociere-con-cena-senna-parigi",
+      "ja": "ja/パリのベスト-ディナークルーズ",
+      "nl": "nl/beste-boottochten-seine-met-diner-parijs",
+      "pl": "pl/najlepsze-rejsy-z-obiadem-paryz",
+      "ro": "ro/cele-mai-bune-cina-croaziere-paris"
+    },
     "cards": true,
     "menus": true,
     "sections": [
-      {"ids": "nye-promo", "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"},
-      {"ids": "best-for-couples,best-for-families", "place": "before-id:source-guide-section-1"}
+      {
+        "ids": "nye-promo",
+        "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"
+      },
+      {
+        "ids": "best-for-couples,best-for-families",
+        "place": "before-id:source-guide-section-1"
+      }
     ]
+  },
+  "amsterdam": {
+    "en": "canal-cruises-amsterdam",
+    "pages": {
+      "de": "de/besten-grachtenfahrten-amsterdam",
+      "es": "es/mejores-cruceros-canales-amsterdam",
+      "fr": "fr/meilleures-croisieres-amsterdam",
+      "it": "it/migliori-crociere-canali-amsterdam",
+      "ja": "ja/ベスト運河クルーズ-アムステルダム",
+      "nl": "nl/beste-rondvaarten-grachten-amsterdam",
+      "pl": "pl/najlepsze-rejsy-po-kanałach-amsterdam",
+      "ro": "ro/cele-mai-bune-croaziere-canal-amsterdam"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": []
+  },
+  "london": {
+    "en": "thames-river-cruises-london",
+    "pages": {
+      "de": "de/themse-kreuzfahrten-london",
+      "es": "es/mejores-cruceros-tamesis-londres",
+      "fr": "fr/croisières-sur-la-tamise-à-londres",
+      "it": "it/crociere-sul-fiume-tamigi-a-londra",
+      "ja": "ja/ロンドンのテムズ川クルーズ",
+      "nl": "nl/beste-boottochten-theems-londen",
+      "pl": "pl/rejsy-po-tamizie-londyn",
+      "ro": "ro/cele-mai-bune-croaziere-râul-tamisa-londra"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": []
   }
 }
