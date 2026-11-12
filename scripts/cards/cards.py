@@ -23,7 +23,8 @@ ROOT = Path(__file__).resolve().parents[2]
 SITE = "https://www.thecruisedetective.com"
 TIQETS_PARTNER = "thecruisedetective.com-176436"
 GYG_PARTNER = "YS414AJ"
-BOOKING_HOSTS = ("tiqets.com", "getyourguide.com")
+FAREHARBOR_ASN = "cruisedetective-asn"  # FareHarbor affiliate (ASN) ref, e.g. Captain Jack Amsterdam
+BOOKING_HOSTS = ("tiqets.com", "getyourguide.com", "fareharbor.com")
 # Card features shipped on the EN Seine page on 2026-11-11. Drift reports which
 # translations are still missing them.
 FEATURES = {
@@ -176,6 +177,9 @@ def link_problems(path):
             elif "getyourguide.com" in host:
                 if q.get("partner_id", [None])[0] != GYG_PARTNER:
                     probs.append(f"#{i} GYG link without partner_id={GYG_PARTNER}: {href[:90]}")
+            elif "fareharbor.com" in host:
+                if q.get("ref", [None])[0] != FAREHARBOR_ASN:
+                    probs.append(f"#{i} FareHarbor link without ref={FAREHARBOR_ASN}: {href[:90]}")
             elif "viator.com" in host:
                 probs.append(f"#{i} Viator link on a card (Viator is badge-only, no link): {href[:90]}")
             else:
