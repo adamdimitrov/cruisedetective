@@ -958,6 +958,318 @@ body{padding-bottom:0!important}
 .footer-dark{top:0!important;margin-top:3rem!important}
 .footer-dark .legal-wrapper{padding-bottom:84px}
 </style>
+<style id="adv-hybrid-bar">
+/* ==========================================================================
+   HYBRID STICKY BAR & TOC BOTTOM SHEET (BPA DESKTOP & MOBILE SOLUTION)
+   ========================================================================== */
+.hybrid-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99990;
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(245, 158, 11, 0.28);
+  padding: 10px 18px;
+  transform: translateY(115%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.hybrid-sticky-bar.is-visible,
+.hybrid-sticky-bar.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hybrid-bar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.st_wrapper,
+.st_wrapper-2 {
+  display: none !important;
+}
+
+.hybrid-toc-btn,
+.hybrid-top-btn {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  width: auto !important;
+  height: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  color: #f8fafc !important;
+  padding: 9px 14px !important;
+  border-radius: 9999px !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  transition: background 0.15s ease !important;
+}
+
+.hybrid-top-btn {
+  gap: 5px !important;
+  padding: 9px 11px !important;
+}
+
+.hybrid-toc-btn:hover,
+.hybrid-top-btn:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+}
+
+.hybrid-toc-btn svg {
+  display: block !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  width: 16px !important;
+  height: 12px !important;
+  stroke: currentColor !important;
+  stroke-width: 2.2 !important;
+  stroke-linecap: round !important;
+}
+
+.hybrid-top-btn svg {
+  display: block !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  width: 13px !important;
+  height: 13px !important;
+  stroke: currentColor !important;
+  stroke-width: 2.5 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.hybrid-toc-btn span,
+.hybrid-top-btn span {
+  display: inline-block !important;
+  line-height: 1 !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: #f8fafc !important;
+  letter-spacing: normal !important;
+}
+
+.hybrid-active-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  flex: 1;
+  color: #ffffff;
+}
+
+.hybrid-active-badge {
+  background: #1e293b;
+  color: #ffffff;
+  border: 1px solid #334155;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.hybrid-active-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hybrid-active-price {
+  font-size: 13px;
+  font-weight: 800;
+  color: #fbbf24;
+  white-space: nowrap;
+}
+
+.hybrid-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #dfa732 0%, #b88214 100%);
+  color: #ffffff !important;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 10px 18px;
+  border-radius: 9999px !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 3px 12px rgba(223, 167, 50, 0.35);
+}
+
+.hybrid-cta-btn:hover {
+  background: linear-gradient(135deg, #ca9325 0%, #9f6e0d 100%);
+  box-shadow: 0 5px 16px rgba(223, 167, 50, 0.45);
+  transform: translateY(-1px);
+}
+
+/* Hybrid TOC Bottom Sheet Modal */
+.hybrid-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 99995;
+  display: none;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hybrid-sheet-backdrop.is-open,
+.hybrid-sheet-backdrop.open {
+  display: flex;
+}
+
+.hybrid-sheet {
+  background: #ffffff;
+  width: 100%;
+  max-width: 640px;
+  max-height: 80vh;
+  border-radius: 20px 20px 0 0;
+  padding: 22px 24px 30px;
+  overflow-y: auto;
+  box-shadow: 0 -12px 40px rgba(15, 23, 42, 0.25);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+.hybrid-sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 14px;
+}
+
+.hybrid-sheet-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.hybrid-sheet-close {
+  background: #f1f5f9;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #334155;
+  cursor: pointer;
+}
+
+.hybrid-toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hybrid-toc-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #0f172a !important;
+  text-decoration: none !important;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.hybrid-toc-link:hover {
+  border-color: #dfa732;
+  background: #fdfaf2;
+}
+
+.hybrid-toc-link span.toc-price {
+  font-size: 12px;
+  font-weight: 800;
+  color: #dfa732;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .hybrid-bar-inner {
+    padding: 0 10px !important;
+    gap: 8px !important;
+  }
+  .hybrid-active-badge { display: none !important; }
+  .hybrid-toc-btn span,
+  .hybrid-top-btn span { display: none !important; }
+  .hybrid-toc-btn,
+  .hybrid-top-btn {
+    padding: 8px !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    border-radius: 9999px !important;
+    justify-content: center !important;
+  }
+  .hybrid-active-info {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 1px !important;
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+  .hybrid-active-title {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  .hybrid-active-price {
+    font-size: 11.5px !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    color: #fbbf24 !important;
+  }
+  .hybrid-cta-btn {
+    padding: 9px 12px !important;
+    font-size: 12.5px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+}
+.hybrid-toc-btn{text-decoration:none!important}
+</style>
 </head>
 <body>
 
@@ -1230,7 +1542,7 @@ body{padding-bottom:0!important}
 
       <p>I sat on the upper decks and the lower decks, tried every audio guide option, checked the seats, the restrooms and the views, and filmed all of it. Below is the short version: which one won, why, and when one of the other four is the better choice for you. The full data is in <a href="/seine-river-cruises-paris">my complete ranking</a>.</p>
 
-      <h2 class="adv-section-title">How the 5 Cruises I Tested Compare</h2>
+      <h2 class="adv-section-title" id="compare" style="scroll-margin-top:80px">How the 5 Cruises I Tested Compare</h2>
       <div class="adv-table-wrap">
         <table class="adv-compare">
           <thead><tr><th>Cruise</th><th>Price</th><th>Best for</th><th>Main drawback</th></tr></thead>
@@ -1351,13 +1663,28 @@ body{padding-bottom:0!important}
     </div>
   </footer>
 
-<!-- Sticky Floating CTA Bar -->
-<div class="adv-sticky-cta" id="sticky-cta">
-  <div class="adv-sticky-cta-text">Bateaux Parisiens Sightseeing Cruise (€18)</div>
-  <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=adv-sticky" class="adv-sticky-cta-btn" target="_blank" rel="nofollow">
-    Check Availability →
-  </a>
+<!-- Floating bar (same component as /seine-river-cruises-paris) -->
+<aside aria-label="Quick Booking" class="hybrid-sticky-bar" id="sticky-bar">
+<div class="hybrid-bar-inner">
+<a class="hybrid-toc-btn" href="#compare" aria-label="Jump to the comparison of the 5 cruises">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-width="2.2" viewBox="0 0 20 14" width="16"><line x1="2" x2="18" y1="2" y2="2"></line><line x1="2" x2="18" y1="7" y2="7"></line><line x1="2" x2="18" y1="12" y2="12"></line></svg>
+<span>5 Cruises Compared</span>
+</a>
+<button aria-label="Jump to Top" class="hybrid-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Jump to Top" type="button">
+<svg fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="13"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
+<span>Top</span>
+</button>
+<div class="hybrid-active-info">
+<span class="hybrid-active-badge">#1 PICK</span>
+<span class="hybrid-active-title">Bateaux Parisiens: Sightseeing Cruise with Audio Guide</span>
+<span class="hybrid-active-price">€18</span>
+<span class="hybrid-active-trust">🛡️ Free cancellation</span>
 </div>
+<a class="hybrid-cta-btn" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&amp;tq_campaign=adv-sticky" rel="noopener nofollow sponsored" target="_blank">
+      Check Availability →
+    </a>
+</div>
+</aside>
 
 <!-- Scripts -->
 <script src="/js/ltt-nav.js" defer></script>
@@ -1377,15 +1704,7 @@ body{padding-bottom:0!important}
   }
 
   // Sticky CTA Scroll Reveal
-  const stickyCta = document.getElementById('sticky-cta');
-  window.addEventListener('scroll', () => {
-    if (!stickyCta) return;
-    if (window.scrollY > 450) {
-      stickyCta.classList.add('visible');
-    } else {
-      stickyCta.classList.remove('visible');
-    }
-  });
+  // Floating bar visibility is handled by /js/ltt-nav.js (same as the listicle)
 
   // Outbound Affiliate Tracking
   function decorateTiqetsLinks() {
