@@ -704,8 +704,8 @@
       "destination": "/seine-river-cruise-review/index.html"
     },
     {
-      "source": "/seine-dinner-cruise-review",
-      "destination": "/seine-dinner-cruise-review/index.html"
+      "source": "/best-dinner-cruise-paris",
+      "destination": "/best-dinner-cruise-paris/index.html"
     },
     {
       "source": "/seine-river-cruises-paris",
@@ -753,6 +753,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/seine-dinner-cruise-review",
+      "destination": "/best-dinner-cruise-paris",
+      "permanent": true
+    },
     {
       "source": "/de/seine-river-cruises-paris-1",
       "destination": "/de/besten-bootsfahrten-seine-paris",
