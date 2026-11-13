@@ -364,7 +364,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </a>
 <nav aria-label="Primary Navigation" class="ltt-nav-links">
 <div class="ltt-nav-dropdown" id="lttExploreDropdown">
-<button aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn" type="button">
+<button aria-current="true" aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn active" type="button">
 <span>Destinations</span>
 <svg class="ltt-chevron" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
 <polyline points="6 9 12 15 18 9"></polyline>
@@ -387,7 +387,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <p>Visites de jour et illuminations nocturnes</p>
 </div>
 </a>
-<a class="ltt-mega-item" href="/fr/bateaux-mouches-ou-bateaux-parisiens">
+<a aria-current="page" class="ltt-mega-item active" href="/fr/bateaux-mouches-ou-bateaux-parisiens">
 <span class="ltt-mega-icon">⚖️</span>
 <div>
 <strong>Mouches vs. Parisiens</strong>
@@ -482,7 +482,6 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </button>
 </div>
 </div>
-<!-- Mobile Drawer -->
 <div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
@@ -494,7 +493,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <a class="ltt-mobile-link" href="/fr/meilleures-croisieres-seine-paris">
 <span>🗼 Croisières Promenade Paris</span>
 </a>
-<a class="ltt-mobile-link" href="/fr/bateaux-mouches-ou-bateaux-parisiens">
+<a aria-current="page" class="ltt-mobile-link active" href="/fr/bateaux-mouches-ou-bateaux-parisiens">
 <span>⚖️ Mouches vs. Parisiens</span>
 </a>
 <a class="ltt-mobile-link" href="/fr/meilleures-croisieres-amsterdam">
@@ -1030,7 +1029,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </div>
 </div>
 </div>
-<section class="footer-dark">
+<footer class="footer-dark" role="contentinfo">
 <div class="footer-section">
 <div class="container-21">
 <div class="w-layout-grid footer-grid-2">
@@ -1048,14 +1047,14 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <div class="footer-link-title">Guides de Référence</div>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-seine-paris">Croisières Promenade Paris</a>
 <a class="footer-link-3" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner Paris</a>
-<a class="footer-link-3" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner Paris</a>
+<a aria-current="page" class="footer-link-3 w--current" href="/fr/bateaux-mouches-ou-bateaux-parisiens">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-amsterdam">Croisières Canaux Amsterdam</a>
 <a class="footer-link-3" href="/fr/croisières-sur-la-tamise-à-londres">Croisières Tamise Londres</a>
 </div>
 <div class="footer-link-column">
 <div class="footer-link-title">Société &amp; Confiance</div>
 <a class="footer-link-3" href="/fr/a-propos">À Propos</a>
-<a class="footer-link-3" href="/fr/a-propos">À Propos</a>
+<a class="footer-link-3" href="/fr/a-propos#testing-protocol">Tests incognito sur le terrain</a>
 <a class="footer-link-3" href="/fr/contact">Contact</a>
 </div>
 </div>
@@ -1067,7 +1066,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </div>
 </div>
 </div>
-</section>
+</footer>
 <aside class="hybrid-sticky-bar" id="sticky-bar">
 <div class="hybrid-sticky-inner">
 <div class="hybrid-sticky-info">

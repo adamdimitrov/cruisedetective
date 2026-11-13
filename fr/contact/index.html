@@ -464,7 +464,7 @@ window.addEventListener('load', function() {
 <a class="ltt-nav-link" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner</a>
 <a class="ltt-nav-link" href="/fr/meilleures-croisieres-seine-paris">Croisières Promenade</a>
 <a class="ltt-nav-link" href="/fr/a-propos">À Propos</a>
-<a class="ltt-nav-link" href="/fr/contact">Contact</a>
+<a aria-current="page" class="ltt-nav-link active" href="/fr/contact">Contact</a>
 </nav>
 <div class="ltt-nav-right">
 <!-- DESKTOP LANGUAGE SWITCHER -->
@@ -529,7 +529,6 @@ window.addEventListener('load', function() {
 </button>
 </div>
 </div>
-<!-- Mobile Drawer -->
 <div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
@@ -556,7 +555,7 @@ window.addEventListener('load', function() {
 <a class="ltt-mobile-link" href="/fr/a-propos">
 <span>📖 À Propos</span>
 </a>
-<a class="ltt-mobile-link" href="/fr/contact">
+<a aria-current="page" class="ltt-mobile-link active" href="/fr/contact">
 <span>✉️ Contact</span>
 </a>
 </div>
@@ -718,12 +717,13 @@ window.addEventListener('load', function() {
     }
   })();
 </script>
+<footer class="footer-dark" role="contentinfo">
 <div class="footer-section">
 <div class="container-21">
 <div class="w-layout-grid footer-grid-2">
 <div class="logo-wrap">
 <p class="footer-logo-paragraph paragraph-17 paragraph-18">
-<a class="footer-logo-text-link" href="/fr/" style="display: inline-flex; align-items: center; gap: 10px;">
+<a class="footer-logo-text-link" href="/" style="display: inline-flex; align-items: center; gap: 10px;">
 <img alt="THE CRUISE DETECTIVE Logo" height="28" src="/assets/cruise_detective_logo.png" style="border-radius: 50%; display: inline-block; flex-shrink: 0;" width="28"/>
 <span>THE CRUISE DETECTIVE</span>
 </a>
@@ -735,30 +735,26 @@ window.addEventListener('load', function() {
 <div class="footer-link-title">Guides de Référence</div>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-seine-paris">Croisières Promenade Paris</a>
 <a class="footer-link-3" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner Paris</a>
-<a class="footer-link-3" href="/fr/bateaux-mouches-ou-bateaux-parisiens">Mouches vs. Parisiens</a>
+<a class="footer-link-3" href="/fr/bateaux-mouches-ou-bateaux-parisiens">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-amsterdam">Croisières Canaux Amsterdam</a>
 <a class="footer-link-3" href="/fr/croisières-sur-la-tamise-à-londres">Croisières Tamise Londres</a>
 </div>
 <div class="footer-link-column">
 <div class="footer-link-title">Société &amp; Confiance</div>
 <a class="footer-link-3" href="/fr/a-propos">À Propos</a>
-<a class="footer-link-3" href="/fr/a-propos">À Propos</a>
-<a class="footer-link-3" href="/fr/contact">Contact</a>
+<a class="footer-link-3" href="/fr/a-propos#testing-protocol">Tests incognito sur le terrain</a>
+<a aria-current="page" class="footer-link-3 w--current" href="/fr/contact">Contact</a>
 </div>
 </div>
 </div>
-<div class="footer-social-wrap">
-<div class="legal-wrap">
-<p class="legal-paragraph">© 2026 TheCruiseDetective.com. Tous droits réservés.</p>
-<div class="legal-links-wrap">
-<a class="legal-link" href="/privacy-policy">Politique de confidentialité</a>
-<span class="legal-divider">•</span>
-<a class="legal-link" href="/terms-of-service">Conditions d'utilisation</a>
+<div class="grey-divider"></div>
+<div class="legal-wrapper">
+<div class="legal-text">© 2026 TheCruiseDetective.com. Tous droits réservés. · <a class="cd-legal-link" href="/privacy-policy" style="color: inherit; text-decoration: underline;">Politique de confidentialité</a> · <a class="cd-legal-link" href="/terms-of-service" style="color: inherit; text-decoration: underline;">Conditions d'utilisation</a></div>
+<div class="legal-text" style="color: rgba(255,255,255,0.45); font-size: 13px;">Tests incognito sur le terrain • Avis éditoriaux 100% indépendants</div>
 </div>
 </div>
 </div>
-</div>
-</div><div class="add-to-footer w-embed w-script"><!--This is for the code boxes-->
+</footer><div class="add-to-footer w-embed w-script"><!--This is for the code boxes-->
 <script crossorigin="anonymous" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {

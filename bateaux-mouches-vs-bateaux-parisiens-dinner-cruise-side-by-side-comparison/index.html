@@ -181,7 +181,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><style id="ltt-nav-styles">
 /* ==========================================================================
-   LUXURY TRAVEL TESTER — MODERN VANILLA NAVIGATION SYSTEM
+   LUXURY TRAVEL TESTER: MODERN VANILLA NAVIGATION SYSTEM
    Zero-dependency, semantic, responsive, WCAG-compliant (Desktop & Mobile)
    ========================================================================== */
 .ltt-navbar {
@@ -920,6 +920,13 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <p>Head-to-head dinner cruise comparison</p>
 </div>
 </a>
+<a class="ltt-mega-item" href="/paris-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>Paris Tourism Statistics</strong>
+<p>Official arrivals, nights &amp; spending</p>
+</div>
+</a>
 </div>
 <div class="ltt-mega-col">
 <div class="ltt-mega-head">EUROPEAN WATERWAYS</div>
@@ -937,6 +944,13 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <p>The one I would book after testing the top 5</p>
 </div>
 </a>
+<a class="ltt-mega-item" href="/amsterdam-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>Amsterdam Tourism Statistics</strong>
+<p>Official CBS visitor &amp; tax data</p>
+</div>
+</a>
 <a class="ltt-mega-item" href="/thames-river-cruises-london">
 <span class="ltt-mega-icon">🇬🇧</span>
 <div>
@@ -949,6 +963,13 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <div>
 <strong>Best Thames Cruise: My Pick</strong>
 <p>The one I would book after testing the top 5</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/london-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>London Tourism Statistics</strong>
+<p>Official ONS visits &amp; spending</p>
 </div>
 </a>
 </div>
@@ -1040,10 +1061,13 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <span>🗼 Paris Sightseeing Cruises</span>
 </a>
 <a class="ltt-mobile-link" href="/seine-river-cruise-review">
-  <span>🏆 Best Seine Cruise: My Pick</span>
+<span>🏆 Best Seine Cruise: My Pick</span>
 </a>
 <a aria-current="page" class="ltt-mobile-link active" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">
 <span>⚖️ Mouches vs. Parisiens</span>
+</a>
+<a class="ltt-mobile-link" href="/paris-tourism-statistics">
+<span>📊 Paris Tourism Statistics</span>
 </a>
 <a class="ltt-mobile-link" href="/canal-cruises-amsterdam">
 <span>🌷 Amsterdam Canal Cruises</span>
@@ -1051,11 +1075,17 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <a class="ltt-mobile-link" href="/best-canal-cruise-amsterdam">
 <span>🏆 Best Canal Cruise: My Pick</span>
 </a>
+<a class="ltt-mobile-link" href="/amsterdam-tourism-statistics">
+<span>📊 Amsterdam Tourism Statistics</span>
+</a>
 <a class="ltt-mobile-link" href="/thames-river-cruises-london">
 <span>🇬🇧 London Thames Cruises</span>
 </a>
 <a class="ltt-mobile-link" href="/best-thames-cruise-london">
 <span>🏆 Best Thames Cruise: My Pick</span>
+</a>
+<a class="ltt-mobile-link" href="/london-tourism-statistics">
+<span>📊 London Tourism Statistics</span>
 </a>
 </div>
 <div class="ltt-mobile-section">
@@ -1117,7 +1147,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </header>
 <script id="ltt-nav-script">
 /* ==========================================================================
-   LUXURY EDITORIAL SYSTEM — MODERN VANILLA NAVIGATION CONTROLLER
+   LUXURY EDITORIAL SYSTEM: MODERN VANILLA NAVIGATION CONTROLLER
    Zero-dependency, semantic, responsive, WCAG-compliant (Desktop & Mobile)
    ========================================================================== */
 (function() {
@@ -1127,7 +1157,8 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
     var dropdown = document.getElementById('lttDestinationsDropdown') || document.getElementById('lttExploreDropdown');
     var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
 
-    if (toggle && drawer) {
+    if (toggle && drawer && !toggle._bound) {
+      toggle._bound = true;
       toggle.addEventListener('click', function(e) {
         e.stopPropagation();
         var isOpen = drawer.classList.contains('is-open');
@@ -1157,33 +1188,48 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
       });
     }
 
-    if (dropBtn && dropdown) {
-      dropBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        var open = dropdown.classList.toggle('is-open');
-        dropBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      });
-    }
+    if (dropdown && !dropdown._bound) {
+      dropdown._bound = true;
+      var closeTimeout = null;
 
-    document.addEventListener('click', function(e) {
-      if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {
-        drawer.classList.remove('is-open');
-        if (toggle) {
-          toggle.classList.remove('is-active');
-          toggle.setAttribute('aria-expanded', 'false');
+      function openMenu() {
+        if (closeTimeout) {
+          clearTimeout(closeTimeout);
+          closeTimeout = null;
         }
-        drawer.setAttribute('aria-hidden', 'true');
-          drawer.setAttribute('inert', '');
+        dropdown.classList.add('is-open');
+        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'true');
       }
-      if (dropdown && dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {
-        dropdown.classList.remove('is-open');
-        if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
-      }
-    });
 
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        if (drawer && drawer.classList.contains('is-open')) {
+      function closeMenuWithGrace(delay) {
+        if (closeTimeout) clearTimeout(closeTimeout);
+        closeTimeout = setTimeout(function() {
+          dropdown.classList.remove('is-open');
+          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+        }, delay !== undefined ? delay : 350);
+      }
+
+      dropdown.addEventListener('mouseenter', openMenu);
+      dropdown.addEventListener('mouseleave', function() {
+        closeMenuWithGrace(350);
+      });
+
+      if (dropBtn) {
+        dropBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          if (dropdown.classList.contains('is-open')) {
+            closeMenuWithGrace(0);
+          } else {
+            openMenu();
+          }
+        });
+      }
+
+      document.addEventListener('click', function(e) {
+        if (dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {
+          closeMenuWithGrace(0);
+        }
+        if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {
           drawer.classList.remove('is-open');
           if (toggle) {
             toggle.classList.remove('is-active');
@@ -1192,12 +1238,26 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
           drawer.setAttribute('aria-hidden', 'true');
           drawer.setAttribute('inert', '');
         }
-        if (dropdown && dropdown.classList.contains('is-open')) {
-          dropdown.classList.remove('is-open');
-          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          if (drawer && drawer.classList.contains('is-open')) {
+            drawer.classList.remove('is-open');
+            if (toggle) {
+              toggle.classList.remove('is-active');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+            drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+          }
+          if (dropdown && dropdown.classList.contains('is-open')) {
+            dropdown.classList.remove('is-open');
+            if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+          }
         }
-      }
-    });
+      });
+    }
   }
 
   if (document.readyState === 'loading') {
@@ -1205,8 +1265,8 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
   } else {
     initNav();
   }
+  window.addEventListener('load', initNav);
 })();
-
 </script>
 <style id="ltt-hero-card-styles">
 /* ==========================================================================
@@ -4950,7 +5010,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 </div>
-<section class="footer-dark">
+<footer class="footer-dark" role="contentinfo">
 <div class="footer-section">
 <div class="container-21">
 <div class="w-layout-grid footer-grid-2">
@@ -4968,14 +5028,20 @@ footer.ltt-footer .legal-text {
 <div class="footer-link-title">Popular Flagship Guides</div>
 <a class="footer-link-3" href="/seine-river-cruises-paris">10 Best Seine River Cruises in Paris</a>
 <a class="footer-link-3" href="/dinner-cruises-paris">Best Paris Dinner Cruises on the Seine</a>
-<a class="footer-link-3" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">Bateaux Mouches vs. Bateaux Parisiens</a>
+<a aria-current="page" class="footer-link-3 w--current" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/canal-cruises-amsterdam">Best Canal Cruises in Amsterdam</a>
 <a class="footer-link-3" href="/thames-river-cruises-london">Best Thames River Cruises in London</a>
 </div>
 <div class="footer-link-column">
+<div class="footer-link-title">Tourism Statistics</div>
+<a class="footer-link-3" href="/paris-tourism-statistics">Paris Tourism Statistics</a>
+<a class="footer-link-3" href="/amsterdam-tourism-statistics">Amsterdam Tourism Statistics</a>
+<a class="footer-link-3" href="/london-tourism-statistics">London Tourism Statistics</a>
+</div>
+<div class="footer-link-column">
 <div class="footer-link-title">Company &amp; Trust</div>
 <a class="footer-link-3" href="/about">About &amp; Manifesto</a>
-<a class="footer-link-3" href="/about#methodology">Undercover Field Testing</a>
+<a class="footer-link-3" href="/about#testing-protocol">Undercover Field Testing</a>
 <a class="footer-link-3" href="/contact">Contact</a>
 </div>
 </div>
@@ -4987,7 +5053,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 </div>
-</section>
+</footer>
 <script defer="" src="/webflow-sync.js?v=20261111"></script>
 <style>
 

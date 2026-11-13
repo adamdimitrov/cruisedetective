@@ -21,6 +21,12 @@ python3 scripts/ship/preflight.py --fix
 ```
 It checks em dashes in added copy, `?v=` bumps for changed JS, the `webflow-sync.js` cache rule order in `vercel.json`, sitemap `lastmod` for changed pages (bumps them with `--fix`), and affiliate links on changed card pages. Fix every ✗ before going on.
 
+## 2b. Menu and footer
+```bash
+python3 scripts/sync_layout.py
+```
+Gives every published page the menu and footer of its language master (the Seine listicle of each language, see `MASTERS` in the script). To change the menu or footer, edit the master, then run it. New pages must be in `sitemap.xml` (or in `AD_LANDINGS`), retired pages need a `vercel.json` redirect and their files deleted. The `Layout check` GitHub Action runs `--check` on every PR and fails on drift.
+
 ## 3. Phone check
 ```bash
 python3 scripts/qa/mobile_overflow.py

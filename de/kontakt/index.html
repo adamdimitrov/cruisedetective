@@ -464,7 +464,7 @@ window.addEventListener('load', function() {
 <a class="ltt-nav-link" href="/de/besten-bootsfahrten-mit-abendessen-paris">Dinner-Fahrten</a>
 <a class="ltt-nav-link" href="/de/besten-bootsfahrten-seine-paris">Rundfahrten</a>
 <a class="ltt-nav-link" href="/de/uber-uns">Über uns</a>
-<a class="ltt-nav-link" href="/de/kontakt">Kontakt</a>
+<a aria-current="page" class="ltt-nav-link active" href="/de/kontakt">Kontakt</a>
 </nav>
 <div class="ltt-nav-right">
 <!-- DESKTOP LANGUAGE SWITCHER -->
@@ -529,7 +529,6 @@ window.addEventListener('load', function() {
 </button>
 </div>
 </div>
-<!-- Mobile Drawer -->
 <div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
@@ -553,7 +552,7 @@ window.addEventListener('load', function() {
 <a class="ltt-mobile-link" href="/de/uber-uns">
 <span>📖 Über uns</span>
 </a>
-<a class="ltt-mobile-link" href="/de/kontakt">
+<a aria-current="page" class="ltt-mobile-link active" href="/de/kontakt">
 <span>✉️ Kontakt</span>
 </a>
 </div>
@@ -715,12 +714,13 @@ window.addEventListener('load', function() {
     }
   })();
 </script>
+<section class="footer-dark">
 <div class="footer-section">
 <div class="container-21">
 <div class="w-layout-grid footer-grid-2">
 <div class="logo-wrap">
 <p class="footer-logo-paragraph paragraph-17 paragraph-18">
-<a class="footer-logo-text-link" href="/de/" style="display: inline-flex; align-items: center; gap: 10px;">
+<a class="footer-logo-text-link" href="/" style="display: inline-flex; align-items: center; gap: 10px;">
 <img alt="THE CRUISE DETECTIVE Logo" height="28" src="/assets/cruise_detective_logo.png" style="border-radius: 50%; display: inline-block; flex-shrink: 0;" width="28"/>
 <span>THE CRUISE DETECTIVE</span>
 </a>
@@ -732,30 +732,26 @@ window.addEventListener('load', function() {
 <div class="footer-link-title">Beliebte Guides</div>
 <a class="footer-link-3" href="/de/besten-bootsfahrten-seine-paris">Sightseeing-Bootsfahrten Paris</a>
 <a class="footer-link-3" href="/de/besten-bootsfahrten-mit-abendessen-paris">Dinner-Kreuzfahrten Paris</a>
-<a class="footer-link-3" href="/de/besten-bootsfahrten-mit-abendessen-paris">Dinner-Kreuzfahrten Paris</a>
+<a class="footer-link-3" href="/de/bateaux-mouches-gegen-bateaux-parisiens-dinner-kreuzfahrt-nebeneinander-vergleich">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/de/besten-grachtenfahrten-amsterdam">Grachtenfahrten Amsterdam</a>
 <a class="footer-link-3" href="/de/themse-kreuzfahrten-london">Themse-Kreuzfahrten London</a>
 </div>
 <div class="footer-link-column">
 <div class="footer-link-title">Unternehmen &amp; Vertrauen</div>
 <a class="footer-link-3" href="/de/uber-uns">Über Uns</a>
-<a class="footer-link-3" href="/de/uber-uns">Über Uns</a>
-<a class="footer-link-3" href="/de/kontakt">Kontakt</a>
+<a class="footer-link-3" href="/de/uber-uns#testing-protocol">Verdeckte Praxistests</a>
+<a aria-current="page" class="footer-link-3 w--current" href="/de/kontakt">Kontakt</a>
 </div>
 </div>
 </div>
-<div class="footer-social-wrap">
-<div class="legal-wrap">
-<p class="legal-paragraph">© 2026 TheCruiseDetective.com. Alle Rechte vorbehalten.</p>
-<div class="legal-links-wrap">
-<a class="legal-link" href="/privacy-policy">Datenschutzrichtlinie</a>
-<span class="legal-divider">•</span>
-<a class="legal-link" href="/terms-of-service">Nutzungsbedingungen</a>
+<div class="grey-divider"></div>
+<div class="legal-wrapper">
+<div class="legal-text">© 2026 TheCruiseDetective.com. Alle Rechte vorbehalten. · <a class="cd-legal-link" href="/privacy-policy" style="color: inherit; text-decoration: underline;">Datenschutzrichtlinie</a> · <a class="cd-legal-link" href="/terms-of-service" style="color: inherit; text-decoration: underline;">Nutzungsbedingungen</a></div>
+<div class="legal-text" style="color: rgba(255,255,255,0.45); font-size: 13px;">Verdeckt im Feld getestet • 100% unabhängige redaktionelle Bewertungen</div>
 </div>
 </div>
 </div>
-</div>
-</div><div class="add-to-footer w-embed w-script"><!--This is for the code boxes-->
+</section><div class="add-to-footer w-embed w-script"><!--This is for the code boxes-->
 <script crossorigin="anonymous" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
