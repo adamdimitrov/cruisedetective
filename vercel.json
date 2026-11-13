@@ -766,6 +766,16 @@
   ],
   "redirects": [
     {
+      "source": "/romantic-quiz",
+      "destination": "/paris-cruise-quiz",
+      "permanent": true
+    },
+    {
+      "source": "/romantic-quiz/:path*",
+      "destination": "/paris-cruise-quiz",
+      "permanent": true
+    },
+    {
       "source": "/seine-cruise-quiz",
       "destination": "/paris-cruise-quiz",
       "permanent": true

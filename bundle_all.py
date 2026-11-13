@@ -3,7 +3,6 @@ import re
 
 directories = [
     "paris-cruise-quiz",
-    "romantic-quiz",
     "dinner-comparison",
     "dinner-advertorial",
     "seine-deal",
