@@ -708,6 +708,10 @@
       "destination": "/best-dinner-cruise-paris/index.html"
     },
     {
+      "source": "/best-thames-cruise-london",
+      "destination": "/best-thames-cruise-london/index.html"
+    },
+    {
       "source": "/seine-river-cruises-paris",
       "destination": "/seine-river-cruises-paris/index.html"
     },
