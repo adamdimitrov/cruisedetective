@@ -58,7 +58,7 @@ AD_LANDINGS = {
     "amsterdam-comparison", "bateaux-parisiens-landing", "dinner-advertorial",
     "dinner-comparison", "paris-couples-pass", "paris-dinner-cruise",
     "paris-family-compare", "paris-family-cruise", "paris-family-pass",
-    "paris-fast-booking", "romantic-quiz", "seine-advertorial",
+    "paris-fast-booking", "seine-advertorial",
     "seine-comparison", "seine-deal",
 }
 SKIP_DIRS = {"node_modules", ".git", ".claude", "test", "reports", "menu-lab", "review-lab"}

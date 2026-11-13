@@ -5,7 +5,6 @@ def test_landing_pages():
     base_dir = "/Users/adamdimitrov/Development/cruisedetective"
     pages = [
         "paris-cruise-quiz",
-        "romantic-quiz",
         "dinner-comparison",
         "dinner-advertorial",
         "seine-deal",
