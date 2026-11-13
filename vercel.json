@@ -676,6 +676,18 @@
   },
   "rewrites": [
     {
+      "source": "/paris-cruise-quiz",
+      "destination": "/paris-cruise-quiz/index.html"
+    },
+    {
+      "source": "/seine-cruise-quiz",
+      "destination": "/paris-cruise-quiz/index.html"
+    },
+    {
+      "source": "/cruise-quiz",
+      "destination": "/paris-cruise-quiz/index.html"
+    },
+    {
       "source": "/api/tiqets-webhook",
       "destination": "/api/tiqets-webhook.js"
     },

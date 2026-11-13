@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /go/
+Disallow: /*bundled*
 
 Sitemap: https://www.thecruisedetective.com/sitemap.xml

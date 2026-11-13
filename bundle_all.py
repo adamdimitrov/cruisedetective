@@ -2,6 +2,7 @@ import os
 import re
 
 directories = [
+    "paris-cruise-quiz",
     "romantic-quiz",
     "dinner-comparison",
     "dinner-advertorial",
@@ -44,6 +45,10 @@ for dir_name in directories:
         body_content = html
 
     bundled = f"""<!-- BUNDLED FOR WEBFLOW EMBED OR STANDALONE USE: {dir_name} -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.thecruisedetective.com/{dir_name}">
 <style>
 {css}
 </style>
@@ -54,6 +59,9 @@ for dir_name in directories:
 {js}
 </script>
 """
+
+    # Rewrite any root-relative /assets/ or /css/ to https://www.thecruisedetective.com/ for full Webflow & file:// portability
+    bundled = re.sub(r'([\'"])/(assets|css)/', r'\1https://www.thecruisedetective.com/\2/', bundled)
 
     with open(bundled_path, "w", encoding="utf-8") as f:
         f.write(bundled)
