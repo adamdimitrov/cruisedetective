@@ -18,6 +18,9 @@ What is synced on each page:
   * the inline <style id="ltt-nav-styles"> / <script id="ltt-nav-script"> blocks
     where a page carries them; pages without any nav styling get them.
 
+It also rebuilds the site search index (search/<lang>.json, see
+scripts/search_index.py) that the menu's search button (/js/site-search.js) uses.
+
 --check also fails on:
   * floating bar / table-of-contents links (#anchor) that point at nothing on the page
   * a floating bar CTA whose booking product does not appear anywhere else on the page
@@ -30,6 +33,9 @@ import os
 import re
 import sys
 import urllib.parse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import search_index  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://www.thecruisedetective.com"
@@ -338,6 +344,25 @@ def main():
             if not args.check:
                 with open(os.path.join(ROOT, f), "w", encoding="utf-8") as fh:
                     fh.write(new)
+
+    # Site search index (search/<lang>.json), rebuilt from the published pages.
+    pages = []
+    for f in published:
+        s = read(f)
+        lg = page_lang(s)
+        if lg in masters:
+            pages.append((lg, file_to_path(f), s))
+    for lg, text in search_index.build(pages).items():
+        rel = f"search/{lg}.json"
+        path = os.path.join(ROOT, rel)
+        old = open(path, encoding="utf-8").read() if os.path.exists(path) else None
+        if old != text:
+            drift += 1
+            print(f"{'out of date' if args.check else 'rebuilt'}: {rel}")
+            if not args.check:
+                os.makedirs(os.path.dirname(path), exist_ok=True)
+                with open(path, "w", encoding="utf-8") as fh:
+                    fh.write(text)
 
     orphans = orphan_pages(set(published))
     for o in orphans:
