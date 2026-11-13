@@ -680,14 +680,6 @@
       "destination": "/paris-cruise-quiz/index.html"
     },
     {
-      "source": "/seine-cruise-quiz",
-      "destination": "/paris-cruise-quiz/index.html"
-    },
-    {
-      "source": "/cruise-quiz",
-      "destination": "/paris-cruise-quiz/index.html"
-    },
-    {
       "source": "/api/tiqets-webhook",
       "destination": "/api/tiqets-webhook.js"
     },
@@ -773,6 +765,16 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/seine-cruise-quiz",
+      "destination": "/paris-cruise-quiz",
+      "permanent": true
+    },
+    {
+      "source": "/cruise-quiz",
+      "destination": "/paris-cruise-quiz",
+      "permanent": true
+    },
     {
       "source": "/seine-dinner-cruise-review",
       "destination": "/best-dinner-cruise-paris",
