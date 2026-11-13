@@ -352,7 +352,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 </a>
 <nav aria-label="Primary Navigation" class="ltt-nav-links">
 <div class="ltt-nav-dropdown" id="lttExploreDropdown">
-<button aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn" type="button">
+<button aria-current="true" aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn active" type="button">
 <span>Kierunki</span>
 <svg class="ltt-chevron" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
 <polyline points="6 9 12 15 18 9"></polyline>
@@ -375,7 +375,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <p>Trasy dzienne i nocne iluminacje</p>
 </div>
 </a>
-<a class="ltt-mega-item" href="/pl/porównanie-bateaux-mouches-vs-bateaux-parisiens-rejs-z-kolacją">
+<a aria-current="page" class="ltt-mega-item active" href="/pl/porównanie-bateaux-mouches-vs-bateaux-parisiens-rejs-z-kolacją">
 <span class="ltt-mega-icon">⚖️</span>
 <div>
 <strong>Mouches vs. Parisiens</strong>
@@ -408,6 +408,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <a class="ltt-nav-link" href="/pl/kontakt">Kontakt</a>
 </nav>
 <div class="ltt-nav-right">
+<button aria-label="Szukaj" class="ltt-search-btn" data-ltt-search="" title="Szukaj" type="button"><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="17"><circle cx="11" cy="11" r="7"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg></button>
 <!-- DESKTOP LANGUAGE SWITCHER -->
 <div class="ltt-lang-trigger" id="lttLangTrigger">
 <button aria-expanded="false" aria-haspopup="true" class="ltt-lang-btn" id="lttLangBtn" onclick="window.lttToggleLangDropdown()" type="button">
@@ -470,7 +471,6 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 </button>
 </div>
 </div>
-<!-- Mobile Drawer -->
 <div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
 <div class="ltt-drawer-content">
 <div class="ltt-mobile-section">
@@ -482,7 +482,7 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <a class="ltt-mobile-link" href="/pl/najlepsze-rejsy-po-sekwanie-paryz">
 <span>🗼 Rejsy Wycieczkowe Paryż</span>
 </a>
-<a class="ltt-mobile-link" href="/pl/porównanie-bateaux-mouches-vs-bateaux-parisiens-rejs-z-kolacją">
+<a aria-current="page" class="ltt-mobile-link active" href="/pl/porównanie-bateaux-mouches-vs-bateaux-parisiens-rejs-z-kolacją">
 <span>⚖️ Mouches vs. Parisiens</span>
 </a>
 <a class="ltt-mobile-link" href="/pl/najlepsze-rejsy-po-kanałach-amsterdam">
@@ -548,6 +548,14 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 </div>
 </div>
 </div>
+<style id="ltt-search-btn-styles">
+.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}
+.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}
+.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}
+@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}
+@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}
+</style>
+<script defer src="/js/site-search.js?v=20261113a"></script>
 </header>
 <style id="ltt-hero-card-styles">
 .ltt-hero-wrap {
@@ -1036,14 +1044,14 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
 <div class="footer-link-title">Popularne Przewodniki</div>
 <a class="footer-link-3" href="/pl/najlepsze-rejsy-po-sekwanie-paryz">Rejsy widokowe po Sekwanie</a>
 <a class="footer-link-3" href="/pl/najlepsze-rejsy-z-obiadem-paryz">Rejsy z kolacją w Paryżu</a>
-<a class="footer-link-3" href="/pl/najlepsze-rejsy-z-obiadem-paryz">Rejsy z kolacją w Paryżu</a>
+<a aria-current="page" class="footer-link-3 w--current" href="/pl/porównanie-bateaux-mouches-vs-bateaux-parisiens-rejs-z-kolacją">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/pl/najlepsze-rejsy-po-kanałach-amsterdam">Rejsy kanałami Amsterdamu</a>
 <a class="footer-link-3" href="/pl/rejsy-po-tamizie-londyn">Rejsy po Tamizie w Londynie</a>
 </div>
 <div class="footer-link-column">
 <div class="footer-link-title">Firma i Zaufanie</div>
 <a class="footer-link-3" href="/pl/o-nas">O nas</a>
-<a class="footer-link-3" href="/pl/o-nas">O nas</a>
+<a class="footer-link-3" href="/pl/o-nas#testing-protocol">Testy terenowe incognito</a>
 <a class="footer-link-3" href="/pl/kontakt">Kontakt</a>
 </div>
 </div>

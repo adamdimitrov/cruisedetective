@@ -229,7 +229,7 @@ window.addEventListener('load', function() {
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><style id="ltt-nav-styles">
 /* ==========================================================================
-   LUXURY TRAVEL TESTER : MODERN VANILLA NAVIGATION SYSTEM
+   LUXURY TRAVEL TESTER: MODERN VANILLA NAVIGATION SYSTEM
    Zero-dependency, semantic, responsive, WCAG-compliant (Desktop & Mobile)
    ========================================================================== */
 .ltt-navbar {
@@ -923,7 +923,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </a>
 <nav aria-label="Primary Navigation" class="ltt-nav-links">
 <div class="ltt-nav-dropdown" id="lttExploreDropdown">
-<button aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn" type="button">
+<button aria-current="true" aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn active" type="button">
 <span>Destinations</span>
 <svg class="ltt-chevron" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
 <polyline points="6 9 12 15 18 9"></polyline>
@@ -979,6 +979,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <a class="ltt-nav-link" href="/fr/contact">Contact</a>
 </nav>
 <div class="ltt-nav-right">
+<button aria-label="Rechercher" class="ltt-search-btn" data-ltt-search="" title="Rechercher" type="button"><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="17"><circle cx="11" cy="11" r="7"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg></button>
 <!-- DESKTOP LANGUAGE SWITCHER -->
 <div class="ltt-lang-trigger" id="lttLangTrigger">
 <button aria-expanded="false" aria-haspopup="true" class="ltt-lang-btn" id="lttLangBtn" onclick="window.lttToggleLangDropdown()" type="button">
@@ -1118,10 +1119,18 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 </div>
 </div>
 </div>
+<style id="ltt-search-btn-styles">
+.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}
+.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}
+.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}
+@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}
+@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}
+</style>
+<script defer src="/js/site-search.js?v=20261113a"></script>
 </header>
 <script id="ltt-nav-script">
 /* ==========================================================================
-   LUXURY EDITORIAL SYSTEM : MODERN VANILLA NAVIGATION CONTROLLER
+   LUXURY EDITORIAL SYSTEM: MODERN VANILLA NAVIGATION CONTROLLER
    Zero-dependency, semantic, responsive, WCAG-compliant (Desktop & Mobile)
    ========================================================================== */
 (function() {
@@ -6683,7 +6692,7 @@ footer.ltt-footer .legal-text {
 <p><strong>Avertissement :</strong> si vous trouvez une croisière qui vous convient, vous pouvez la réserver via les liens d'affiliation de cet article. Ils ne vous coûtent rien de plus, mais je peux toucher une petite commission. Ce soutien est très apprécié et m'aide à maintenir la qualité et l'actualité de ce contenu.</p>
 </div>
 <div class="w-layout-blockcontainer container-32 w-container"></div>
-</div></div></div></div></div><section class="footer-dark">
+</div></div></div></div></div><footer class="footer-dark" role="contentinfo">
 <div class="footer-section">
 <div class="container-21">
 <div class="w-layout-grid footer-grid-2">
@@ -6701,14 +6710,14 @@ footer.ltt-footer .legal-text {
 <div class="footer-link-title">Guides de Référence</div>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-seine-paris">Croisières Promenade Paris</a>
 <a aria-current="page" class="footer-link-3 w--current" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner Paris</a>
-<a class="footer-link-3" href="/fr/meilleurs-diners-croisieres-paris">Croisières Dîner Paris</a>
+<a class="footer-link-3" href="/fr/bateaux-mouches-ou-bateaux-parisiens">Bateaux Mouches vs. Bateaux Parisiens</a>
 <a class="footer-link-3" href="/fr/meilleures-croisieres-amsterdam">Croisières Canaux Amsterdam</a>
 <a class="footer-link-3" href="/fr/croisières-sur-la-tamise-à-londres">Croisières Tamise Londres</a>
 </div>
 <div class="footer-link-column">
 <div class="footer-link-title">Société &amp; Confiance</div>
 <a class="footer-link-3" href="/fr/a-propos">À Propos</a>
-<a class="footer-link-3" href="/fr/a-propos">À Propos</a>
+<a class="footer-link-3" href="/fr/a-propos#testing-protocol">Tests incognito sur le terrain</a>
 <a class="footer-link-3" href="/fr/contact">Contact</a>
 </div>
 </div>
@@ -6720,7 +6729,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 </div>
-</section><!-- ==========================================
+</footer><!-- ==========================================
      UNIVERSAL GLOBAL STYLES (For any cloned site)
      ========================================== -->
 <style>
