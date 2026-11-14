@@ -33,6 +33,12 @@ python3 scripts/qa/mobile_overflow.py
 ```
 It tests every changed page at 375px with all popovers open. Any ✗ blocks the ship. See the `mobile-qa` skill.
 
+## 3b. Article check (new or refreshed articles)
+```bash
+python3 scripts/qa/article_lint.py <slug>
+```
+Whole-page house rules for articles: meta, sitemap and search wiring, inbound links, em dashes, JSON-LD and `dateModified`, images, affiliate links. Any ✗ blocks the ship. See the `new-article` skill.
+
 ## 4. Cross-language check (card pages only)
 If an EN money page changed: `python3 scripts/cards/cards.py drift <en-page>`. Product, price or rating mismatches mean the translations need the same fact change (see `port-card-feature`). "behind EN" feature lists are fine to ship but tell the user about them.
 
