@@ -1126,41 +1126,34 @@ body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
   <main id="main-content">
 
     <!-- HERO SECTION -->
-    <section class="ltt-home-hero">
+    <style id="hp-hero-compact">
+.ltt-home-hero{padding:40px 20px 34px!important}
+.ltt-home-hero .ltt-hero-eyebrow{margin-bottom:14px!important;font-size:11px!important;padding:5px 12px!important}
+.ltt-home-hero h1.ltt-hero-title{font-size:clamp(26px,4.2vw,42px)!important;line-height:1.15!important;margin:0 auto 12px!important;max-width:880px}
+.ltt-home-hero .hp-hero-sub{font-size:16px!important;line-height:1.55!important;color:rgba(255,255,255,.82)!important;max-width:660px;margin:0 auto 16px!important}
+.hp-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;list-style:none;margin:0 auto 20px;padding:0;font-size:13px;font-weight:600;color:#cbd5e1}
+.hp-trust li::before{content:"\2713";color:#dfa732;font-weight:800;margin-right:6px}
+.ltt-home-hero .ltt-quick-links{gap:8px!important}
+.ltt-home-hero .ltt-quick-btn{font-size:13px!important;padding:7px 14px!important}
+@media (max-width:700px){
+.ltt-home-hero{padding:26px 16px 22px!important}
+.ltt-home-hero .ltt-hero-eyebrow{font-size:10px!important;letter-spacing:1px!important;margin-bottom:10px!important}
+.ltt-home-hero .hp-hero-sub{font-size:15px!important;margin-bottom:12px!important}
+.hp-trust{font-size:12px;gap:4px 12px;margin-bottom:14px}
+.ltt-home-hero .ltt-quick-links{flex-wrap:nowrap!important;justify-content:flex-start!important;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 2px}
+.ltt-home-hero .ltt-quick-links::-webkit-scrollbar{display:none}
+.ltt-home-hero .ltt-quick-btn{flex:0 0 auto;white-space:nowrap}
+}
+</style>
+<section class="ltt-home-hero">
       <div class="ltt-hero-container">
-        <div class="ltt-hero-eyebrow">
-          <span>🕵️</span> UNDERCOVER RIVER CRUISE AUDITING • 2026 EDITORIAL EDITION
-        </div>
+        <div class="ltt-hero-eyebrow">🕵️ Independent river cruise reviews • 2026</div>
         <h1 class="ltt-hero-title">
           Independent, Field-Tested River Cruise Reviews for <span class="ltt-gold-text">Discerning Travelers.</span>
         </h1>
-        <p class="ltt-hero-subtitle">
-          <strong>We pay our own fares</strong>, reserve window and center tables anonymously, taste every course, and evaluate viewing angles against evening departure times. <strong>Zero sponsored boat passes</strong>, zero promotional fluff—just verified facts, original photos, and candid critique.
-        </p>
+        <p class="ltt-hero-subtitle hp-hero-sub">We pay our own fares, book anonymously and test every boat ourselves. No sponsored passes, just verified facts and our own photos.</p>
 
-        <!-- Trust Stats Strip -->
-        <div class="ltt-stats-strip">
-          <div class="ltt-stat-card">
-            <div class="ltt-stat-number">100%</div>
-            <div class="ltt-stat-label">Anonymous Bookings</div>
-            <div class="ltt-stat-sub">Paid out of pocket</div>
-          </div>
-          <div class="ltt-stat-card">
-            <div class="ltt-stat-number">40+</div>
-            <div class="ltt-stat-label">River Cruises Audited</div>
-            <div class="ltt-stat-sub">Paris • Amsterdam • London</div>
-          </div>
-          <div class="ltt-stat-card">
-            <div class="ltt-stat-number">Zero</div>
-            <div class="ltt-stat-label">Sponsored Freebies</div>
-            <div class="ltt-stat-sub">100% Uncompromised</div>
-          </div>
-          <div class="ltt-stat-card">
-            <div class="ltt-stat-number">4</div>
-            <div class="ltt-stat-label">River Capitals</div>
-            <div class="ltt-stat-sub">Western European Waters</div>
-          </div>
-        </div>
+        <ul class="hp-trust"><li>40+ cruises tested</li><li>100% anonymous bookings</li><li>Zero sponsored freebies</li><li>Paris, Amsterdam, London</li></ul>
 
         <!-- Quick Jump Links -->
         <div class="ltt-quick-links">
