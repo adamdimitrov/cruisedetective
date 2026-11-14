@@ -45,6 +45,10 @@ Copy the structure of `private-cruises-paris/index.html` (the newest article, al
 - buyer's guide: is it worth it, logistics table, best time, FAQ, **methodology** (what was compared, from which listings, on which date)
 - JSON-LD: Article (with `datePublished` and `dateModified`), BreadcrumbList, ItemList, FAQPage
 
+First-hand signal (Google's reviews guidance rewards evidence nobody else has). Every article gets at least one of:
+- the user's own experience or photos, where they really have them (ask, don't assume)
+- a line of first-party booking data from `CRUISEDETECTIVE_BRAND_BRAIN.md` / Tiqets orders, e.g. "readers who booked a dinner cruise through us chose it 8+ days ahead in 64% of cases". Use only real numbers for that product type or city. If there is no data for it, leave it out.
+
 Honesty rules:
 - "Personally tested" or "tested" only where the user really did it (Seine, dinner and so on). Comparison-only articles say "Compared on <date> using live listings" in the methodology and byline area. No invented experiences, quotes or photos.
 - No em dashes anywhere. Brand, ship and operator names stay in their original form.
@@ -60,7 +64,7 @@ Run all of these. Fix every ✗, then run them all again. Repeat until clean. Do
 
 ```bash
 python3 scripts/qa/article_lint.py <slug>       # meta, wiring, em dashes, JSON-LD, images, links
-python3 scripts/qa/article_originality.py <slug>  # cannibalization, duplicate phrasing, check date, methodology, risky claims
+python3 scripts/qa/article_originality.py <slug>  # cannibalization, duplicate phrasing, product overlap, check date, methodology, risky claims
 python3 scripts/cards/cards.py links <slug>     # card affiliate rules
 python3 scripts/ship/preflight.py --fix         # diff-level ship checks + sitemap lastmod
 python3 scripts/sync_layout.py --check          # layout drift

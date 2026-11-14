@@ -31,6 +31,16 @@ from urllib.parse import urlparse, unquote
 from bs4 import BeautifulSoup
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(ROOT, "scripts", "cards"))
+import cards  # noqa: E402
+
+
+def products(slug):
+    try:
+        data = cards.extract(cards.page_path(slug))
+        return {c["product"] for c in data.get("cards", []) if c.get("product")}
+    except Exception:
+        return set()
 NON_ARTICLES = {"", "about", "contact", "privacy-policy", "terms-of-service", "search", "paris-cruise-quiz"}
 RISKY = [r"\btested\b", r"\bpersonally\b", r"\bI (?:tried|took|booked|sailed)\b", r"\bwe (?:tried|took|booked)\b",
          r"price guarantee", r"\bcheapest\b", r"\bguaranteed?\b", r"\bexclusive\b"]
@@ -119,8 +129,8 @@ def main():
             warns.append(f'claim "{m.group(0)}": ...{ctx}...')
 
     # uniqueness against every other EN article
-    me_t, me_s = title_words(title), shingles(text)
-    worst_t, worst_s = (0.0, None), (0.0, None)
+    me_t, me_s, me_p = title_words(title), shingles(text), products(slug)
+    worst_t, worst_s, worst_p = (0.0, None), (0.0, None), (0.0, None)
     for p in en_articles():
         if p == slug:
             continue
@@ -132,10 +142,20 @@ def main():
         if me_t and t2:
             worst_t = max(worst_t, (len(me_t & t2) / len(me_t | t2), p))
         worst_s = max(worst_s, (len(me_s & shingles(body_text(h))) / max(1, len(me_s)), p))
+        if me_p and 'class="bpa-card"' in h:
+            worst_p = max(worst_p, (len(me_p & products(p)) / len(me_p), p))
     (oks if worst_t[0] < 0.6 else fails).append(
         f"title overlap {worst_t[0]:.0%} with /{worst_t[1]} (cannibalization at 60%+)")
     (oks if worst_s[0] < 0.25 else fails).append(
         f"body repeats {worst_s[0]:.0%} of its 5-word phrases from /{worst_s[1]} (max 25%)")
+    if me_p:
+        (oks if worst_p[0] <= 0.5 else fails).append(
+            f"{worst_p[0]:.0%} of its products are already cards on /{worst_p[1]} "
+            "(over 50% = same boats under a new title, make it a section there)")
+
+    # first-party data: something only this site knows
+    if not re.search(r"\bour (?:readers|bookings|data)\b|\breaders who booked\b|\bbooked by\b", text, re.I):
+        warns.append("no first-party data line (e.g. what our readers book, how far ahead, group size)")
 
     for m in oks:
         print(f"  ✓ {m}")
