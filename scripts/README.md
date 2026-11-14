@@ -7,6 +7,8 @@
 | `qa/mobile_overflow.py [pages…]` | 375px horizontal-overflow check with popovers open | `/mobile-qa` |
 | `cards/cards.py extract/drift/links/all` | Card data layer: facts per card, translation drift vs EN, affiliate link rules | `/port-card-feature`, `/verify-ota-facts` |
 | `i18n/port.py sync <preset>` | Port EN cards, sections and dinner menus to every translation from the translation memory (`i18n/memory/`); `missing`/`learn` for new strings, `harvest` from already translated pages | `/port-i18n` |
+| `ideas/gsc_gaps.py [--days 90] [--lang en\|all]` | New-article ideas from GSC: query words no ranking page covers, grouped per city, plus pages that rank 8-20 (refresh) | `/article-ideas` |
+| `qa/article_originality.py <slug>` | Scaled-content gate: cannibalization, repeated phrasing, check date, methodology, risky claims | `/new-article` |
 | `preview_server.py [port]` | Local server with Vercel rewrites and cleanUrls | |
 | `reauth_google.py ads\|gmail` | Get a fresh Google Ads or Gmail refresh token and write it into `.env` (token never printed) | |
 | `generate_sitemap.py` | Rebuild `sitemap.xml` | |

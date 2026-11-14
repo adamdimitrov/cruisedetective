@@ -1,6 +1,6 @@
 ---
 name: new-article
-description: Create a new comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, új cikk, or picks a topic for a new page. New articles only, not refreshes of existing pages.
+description: Create a new comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, új cikk, csináld a következő cikket, or gives no topic at all (then the topic comes from articles/BACKLOG.md via /article-ideas). New articles only, not refreshes of existing pages.
 ---
 
 # /new-article
@@ -11,6 +11,11 @@ The loop runs on its own through step 5 and **stops at the preview link**. Nothi
 
 ## 0. Worktree
 Global rule: `EnterWorktree` first if you are in the main checkout. Branch name `article/<slug>`.
+
+## 0b. No topic given? Pick it yourself
+The user meta-prompts ("csináld a következő cikket") and does not want to research topics. Take the top row of **New** in `articles/BACKLOG.md`. If the table is empty or the row is older than 60 days, run `/article-ideas` first. Tell the user in one line which topic you are building and the evidence (GSC impressions, current position, products). Don't wait for a yes: the approval point is the preview in step 5.
+
+**Cadence:** at most 2 new EN articles per week (check `git log --grep '^article:' --since='7 days ago'`). If the week is full, take the top **Refresh** row instead and improve that page. A burst of new templated pages is exactly the pattern Google's scaled content policy targets.
 
 ## 1. Topic gate (before any drafting)
 Answer these in 3-6 lines to the user. If any is "no", stop and say why, or suggest a section on an existing page instead.
@@ -55,6 +60,7 @@ Run all of these. Fix every ✗, then run them all again. Repeat until clean. Do
 
 ```bash
 python3 scripts/qa/article_lint.py <slug>       # meta, wiring, em dashes, JSON-LD, images, links
+python3 scripts/qa/article_originality.py <slug>  # cannibalization, duplicate phrasing, check date, methodology, risky claims
 python3 scripts/cards/cards.py links <slug>     # card affiliate rules
 python3 scripts/ship/preflight.py --fix         # diff-level ship checks + sitemap lastmod
 python3 scripts/sync_layout.py --check          # layout drift
@@ -74,3 +80,8 @@ Commit (`article: <title>`), push the branch, wait for the Vercel preview, and g
 
 ## 6. After approval
 `/ship` (PR, merge, Search Console indexing). Translations come later via `/port-i18n`, only when the user asks. New pages are EN-first.
+
+Then move the row in `articles/BACKLOG.md` from **New** to **Published** with the date (commit it with the article).
+
+## 7. 28-day check
+On the next `/article-ideas` run after a page is 28+ days old, look at its own GSC queries. Impressions but position 15+: it becomes a **Refresh** row. Almost no impressions after 8 weeks: tell the user and suggest merging it into the closest money page (301) instead of leaving a thin page live. Pruning dead pages is part of not looking like a content farm.
