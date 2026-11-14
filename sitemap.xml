@@ -242,12 +242,28 @@
     <loc>https://www.thecruisedetective.com/france-tourism-statistics</loc>
     <lastmod>2026-11-14T12:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/france-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/statistiques-tourisme-france" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/france-tourism-statistics" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/fr/statistiques-tourisme-france</loc>
+    <lastmod>2026-11-14T12:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/france-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/statistiques-tourisme-france" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/france-tourism-statistics" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/netherlands-tourism-statistics</loc>
     <lastmod>2026-11-14T12:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland</loc>
+    <lastmod>2026-11-14T12:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
   </url>
   <url>
