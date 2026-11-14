@@ -19,6 +19,9 @@ from urllib.parse import urlparse, parse_qs, unquote
 
 from bs4 import BeautifulSoup
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from fix_affiliate_rel import REQUIRED as REL_REQUIRED, is_affiliate  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 SITE = "https://www.thecruisedetective.com"
 TIQETS_PARTNER = "thecruisedetective.com-176436"
@@ -107,6 +110,7 @@ def extract(path):
             "captions": len(c.select(".bpa-slider img[data-cap]")),
             "features": sorted(k for k, sel in FEATURES.items() if c.select_one(sel)),
             "links": [a.get("href") for a in c.select("a[href]")],
+            "link_rels": [a.get("rel") or [] for a in c.select("a[href]")],
         })
     alts = {l.get("hreflang"): l.get("href") for l in soup.select('link[rel="alternate"][hreflang]')}
     return {"page": str(path.relative_to(ROOT)), "alternates": alts, "cards": cards}
@@ -157,10 +161,14 @@ def link_problems(path):
     probs = []
     for i, c in enumerate(data["cards"], 1):
         badge_hrefs = {b["href"] for b in c["badges"] if b["href"]}
-        for href in c["links"]:
+        for href, rel in zip(c["links"], c["link_rels"]):
             if not href or href.startswith("#") or href.startswith("/"):
                 continue
             host = urlparse(href).netloc.lower()
+            if is_affiliate(href):
+                lacking = [t for t in REL_REQUIRED if t not in {r.lower() for r in rel}]
+                if lacking:
+                    probs.append(f"#{i} affiliate link without rel {'/'.join(lacking)}: {href[:90]}")
             if ("maps.google" in host or "goo.gl" in host or "thecruisedetective.com" in host
                     or (host.endswith("google.com") and "/maps" in href)):
                 continue
@@ -239,6 +247,7 @@ def main():
         data = extract(page_path(a.page))
         for c in data["cards"]:
             c.pop("links")
+            c.pop("link_rels")
         js = json.dumps(data, ensure_ascii=False, indent=2)
         Path(a.o).write_text(js + "\n", encoding="utf-8") if a.o else print(js)
         return 0

@@ -10,6 +10,8 @@ Checks (against origin/main, including uncommitted changes):
   3. vercel.json: the /webflow-sync.js cache rule must come after every generic .js rule
   4. sitemap.xml: lastmod bumped for every changed page that is in the sitemap
   5. Affiliate-link rules on changed pages that have comparison cards (scripts/cards/cards.py links)
+  6. Every affiliate / OTA <a> on the whole site has rel nofollow sponsored noopener
+     (scripts/fix_affiliate_rel.py --check; run it without --check to fix)
 Exit 1 when a check fails.
 """
 import json
@@ -45,6 +47,17 @@ def added_lines(path):
     return [l[1:] for l in diff.splitlines() if l.startswith("+") and not l.startswith("+++")]
 
 
+REL_ATTR = re.compile(r"""\s+rel\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>"']+)""", re.I)
+
+
+def rel_only(path):
+    """True when the diff of this file changes nothing but rel attributes (e.g. fix_affiliate_rel.py)."""
+    diff = sh(f"git diff -U0 {base()} -- '{path}'")
+    minus = [l[1:] for l in diff.splitlines() if l.startswith("-") and not l.startswith("---")]
+    plus = [l[1:] for l in diff.splitlines() if l.startswith("+") and not l.startswith("+++")]
+    return bool(plus) and [REL_ATTR.sub("", l) for l in minus] == [REL_ATTR.sub("", l) for l in plus]
+
+
 def page_url(path):
     p = Path(path)
     if p.name != "index.html":
@@ -63,6 +76,8 @@ def main():
     for f in files:
         if not f.endswith(SITE_EXT) or f.startswith((".claude/", "scripts/", "reports/", "social/")):
             continue
+        if rel_only(f):
+            continue  # only rel attributes changed: any em dash on those lines was already there
         code = set()
         if (ROOT / f).exists() and f.endswith(".html"):
             src = (ROOT / f).read_text(encoding="utf-8", errors="ignore")
@@ -101,8 +116,8 @@ def main():
     stale = []
     for f in files:
         url = page_url(f)
-        if not url:
-            continue
+        if not url or rel_only(f):
+            continue  # a rel-only change is not a content change, lastmod stays
         for cand in {url, SITE + "/" + unquote(url[len(SITE) + 1:])} if url != SITE else {url, SITE + "/"}:
             m = re.search(r"<loc>" + re.escape(cand) + r"</loc>\s*<lastmod>([^<]+)</lastmod>", sm)
             if m:
@@ -128,6 +143,14 @@ def main():
                            cwd=ROOT, capture_output=True, text=True)
         if r.returncode:
             fails.append("affiliate link problems:\n" + r.stdout.strip())
+
+    # 6. rel="nofollow sponsored noopener" on every affiliate link, site-wide
+    r = subprocess.run([sys.executable, "scripts/fix_affiliate_rel.py", "--check"],
+                       cwd=ROOT, capture_output=True, text=True)
+    if r.returncode:
+        lines = r.stdout.strip().splitlines()
+        fails.append("affiliate links without rel nofollow/sponsored/noopener "
+                     "(fix: python3 scripts/fix_affiliate_rel.py):\n  " + "\n  ".join(lines[:15]))
 
     for w in warns:
         print("⚠", w)
