@@ -88,3 +88,31 @@
 - **Partner Ecosystem (Aug 20 Leak)**:
   - Legenda relies on ~200 offline B2B accounts: Budapest 5-star concierges (Four Seasons, Ritz-Carlton, Kempinski, Matild Palace, W Budapest, etc.) and global wholesale DMCs (Abercrombie & Kent, Amex GBT, Miki Travel, G2 Travel).
   - Strictly no mass spamming to protect the partnership and avoid alerting them to the leak. Direct concierge contact is reserved for high-ticket private experiences (private boats, VIP wine tours) that Legenda cannot fulfill.
+
+# HARD RULES for editing site pages (read before touching any HTML)
+
+These override anything else in this file. Breaking one of them costs money or rankings.
+
+## Copy
+- **No em dashes (—) anywhere**: body copy, titles, meta descriptions, JSON-LD, alt text. Use a comma, colon, period or parentheses instead. En dashes in number ranges (10–12) are fine.
+- **Never translate brand names**: company, ship, boat, venue and site names stay exactly as in English (Bateaux Mouches, Bateaux Parisiens, Le Diamant Bleu, Captain Jack, The Cruise Detective, etc.).
+- Translate naturally for a native reader, not word for word. Keep prices, durations, ratings and review counts identical to the English source page; never invent facts.
+
+## Affiliate links (never change, add or remove booking URLs unless the English source page has the same one)
+- Only cruises bookable through GetYourGuide or Tiqets get booking links. Exception: Captain Jack Amsterdam uses its FareHarbor link. Viator is used only for review badges, never as a booking link.
+- Keep every affiliate parameter exactly as it is on the English page (partner IDs, `partner_id`, `cmp`, subids). Do not "clean up" query strings.
+- If a translated page links a product the English page does not, stop and leave a note instead of guessing a URL.
+
+## Layout (menu, drawer, footer)
+- Never hand-edit the header, mobile drawer or footer on individual pages. Each language has one MASTER page (see `MASTERS` in `scripts/sync_layout.py`). Edit the master, then run `python3 scripts/sync_layout.py`.
+- Before every commit run `python3 scripts/sync_layout.py --check`. It must exit 0. It also catches broken floating-bar / table-of-contents anchors and stale pages.
+
+## Caching gotchas
+- `.js` files and `/assets` images are served with a 1-year immutable cache. If you change a JS file, bump its `?v=` in every page that loads it. If you replace an image, give it a new filename; never overwrite an existing asset.
+- Do not touch `vercel.json`, GA4 / Google tag snippets, Clarity, or anything under `api/`.
+
+## Workflow
+- Work on a branch cut from `origin/main`, never on `main` directly, never force-push.
+- One language per branch and per PR. Small, reviewable commits.
+- Before each PR: `sync_layout.py --check` passes, `grep -rn "—" <changed files>` returns nothing, every changed page opens without console errors in the local preview (`python3 scripts/preview_server.py` or any static server).
+- Do not merge PRs. Do not deploy to production. Leave PRs open for human review.
