@@ -45,9 +45,16 @@ Copy the structure of `private-cruises-paris/index.html` (the newest article, al
 - buyer's guide: is it worth it, logistics table, best time, FAQ, **methodology** (what was compared, from which listings, on which date)
 - JSON-LD: Article (with `datePublished` and `dateModified`), BreadcrumbList, ItemList, FAQPage
 
-First-hand signal (Google's reviews guidance rewards evidence nobody else has). Every article gets at least one of:
-- the user's own experience or photos, where they really have them (ask, don't assume)
-- a line of first-party booking data from `CRUISEDETECTIVE_BRAND_BRAIN.md` / Tiqets orders, e.g. "readers who booked a dinner cruise through us chose it 8+ days ahead in 64% of cases". Use only real numbers for that product type or city. If there is no data for it, leave it out.
+The core value is the presentation, not testing. Testing every product is not worth it, and the articles don't need it. What makes a page worth more than the GYG search results is original analysis laid out side by side:
+- the decision axes as filters and pills (price per boat vs per person, min group, pier, duration, what is included, toilet, heated)
+- computed numbers nobody lists: price per person at the minimum group, price per hour, what the real total is once the extras are added
+- Pick if / Skip if per card, Cons taken from repeated review complaints
+- one ranking with a reason for each place, and the check date
+This is mandatory on every article. A page that only restates the listings is thin, however well it is formatted.
+
+Bonus first-hand signals, use when they really exist (never invent them):
+- the user's own experience or photos (ask, don't assume)
+- a line of first-party booking data from `CRUISEDETECTIVE_BRAND_BRAIN.md` / Tiqets orders, e.g. "readers who booked a dinner cruise through us chose it 8+ days ahead in 64% of cases", with real numbers for that product type or city only
 
 Honesty rules:
 - "Personally tested" or "tested" only where the user really did it (Seine, dinner and so on). Comparison-only articles say "Compared on <date> using live listings" in the methodology and byline area. No invented experiences, quotes or photos.
