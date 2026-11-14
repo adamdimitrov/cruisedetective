@@ -15,7 +15,7 @@ Global rule: `EnterWorktree` first if you are in the main checkout. Branch name 
 ## 0b. No topic given? Pick it yourself
 The user meta-prompts ("csináld a következő cikket") and does not want to research topics. Take the top row of **New** in `articles/BACKLOG.md`. If the table is empty or the row is older than 60 days, run `/article-ideas` first. Tell the user in one line which topic you are building and the evidence (GSC impressions, current position, products). Don't wait for a yes: the approval point is the preview in step 5.
 
-**Cadence:** at most 2 new EN articles per week (check `git log --grep '^article:' --since='7 days ago'`). If the week is full, take the top **Refresh** row instead and improve that page. A burst of new templated pages is exactly the pattern Google's scaled content policy targets.
+**Pace:** there is no weekly cap. Google does not rank or penalise by publishing frequency, only by the value of each page. The brake is indexing: before starting a new article, check the last 2 published articles in Search Console (URL Inspection in the user's Chrome). If both are older than 14 days and still "Discovered" or "Crawled, currently not indexed", stop writing new pages. Take the top **Refresh** row instead and tell the user why.
 
 ## 1. Topic gate (before any drafting)
 Answer these in 3-6 lines to the user. If any is "no", stop and say why, or suggest a section on an existing page instead.
