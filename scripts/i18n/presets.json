@@ -14,10 +14,6 @@
     "menus": false,
     "sections": [
       {
-        "ids": "nye-promo",
-        "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"
-      },
-      {
         "ids": "is-it-worth-it,cruise-itinerary,best-for-couples,best-for-families,seine-cruises-explained,standard-features-explained,testing-methodology,how-article-structured",
         "place": "before-closing-of:Standard-Features"
       }
@@ -39,10 +35,6 @@
     "menus": true,
     "sections": [
       {
-        "ids": "nye-promo",
-        "place": "before:<div class=\"bpa-breakdown-top-bar\" id=\"breakdown-header\">"
-      },
-      {
         "ids": "best-for-couples,best-for-families",
         "place": "before-id:source-guide-section-1"
       }
@@ -62,7 +54,12 @@
     },
     "cards": true,
     "menus": false,
-    "sections": []
+    "sections": [
+      {
+        "ids": "best-for-couples,best-for-families",
+        "place": "before-closing-of:Standard-Features"
+      }
+    ]
   },
   "london": {
     "en": "thames-river-cruises-london",
@@ -78,6 +75,11 @@
     },
     "cards": true,
     "menus": false,
-    "sections": []
+    "sections": [
+      {
+        "ids": "best-for-couples,best-for-families",
+        "place": "before-closing-of:Standard-Features"
+      }
+    ]
   }
 }
