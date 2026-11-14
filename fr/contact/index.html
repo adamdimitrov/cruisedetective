@@ -182,7 +182,7 @@ window.addEventListener('load', function() {
 </style>
 <style id="ltt-language-switcher-styles">
 /* ==========================================================================
-   THE CRUISE DETECTIVE — CANONICAL LANGUAGE SWITCHER SYSTEM
+   THE CRUISE DETECTIVE - CANONICAL LANGUAGE SWITCHER SYSTEM
    ========================================================================== */
 .ltt-lang-trigger {
   position: relative;
@@ -635,7 +635,7 @@ window.addEventListener('load', function() {
 </div>
 <div class="form-block">
 <form action="https://formsubmit.co/adam.dimitrov.business@gmail.com" id="contact-form" method="POST">
-<input autocomplete="off" name="_gotcha" style="position: absolute; left: -9999px; opacity: 0; pointer-events: none; width: 0; height: 0;" tabindex="-1" type="text"/>
+<input autocomplete="off" name="_gotcha" style="position: absolute; left: -9999px; opacity: 0; pointer-events: none; width: 0; height: 0; padding: 0; border: 0;" tabindex="-1" type="text"/>
 <input name="_subject" type="hidden" value="New Inquiry via The Cruise Detective Contact Desk [FR]"/>
 <input name="_template" type="hidden" value="table"/>
 <input name="_captcha" type="hidden" value="false"/>
@@ -732,7 +732,7 @@ window.addEventListener('load', function() {
 <div class="w-layout-grid footer-grid-2">
 <div class="logo-wrap">
 <p class="footer-logo-paragraph paragraph-17 paragraph-18">
-<a class="footer-logo-text-link" href="/" style="display: inline-flex; align-items: center; gap: 10px;">
+<a class="footer-logo-text-link" href="/fr" style="display: inline-flex; align-items: center; gap: 10px;">
 <img alt="THE CRUISE DETECTIVE Logo" height="28" src="/assets/cruise_detective_logo.png" style="border-radius: 50%; display: inline-block; flex-shrink: 0;" width="28"/>
 <span>THE CRUISE DETECTIVE</span>
 </a>
@@ -758,7 +758,7 @@ window.addEventListener('load', function() {
 </div>
 <div class="grey-divider"></div>
 <div class="legal-wrapper">
-<div class="legal-text">© 2026 TheCruiseDetective.com. Tous droits réservés. · <a class="cd-legal-link" href="/privacy-policy" style="color: inherit; text-decoration: underline;">Politique de confidentialité</a> · <a class="cd-legal-link" href="/terms-of-service" style="color: inherit; text-decoration: underline;">Conditions d'utilisation</a></div>
+<div class="legal-text">© 2026 TheCruiseDetective.com. Tous droits réservés. · <a class="cd-legal-link" href="/fr/politique-de-confidentialite" style="color: inherit; text-decoration: underline;">Politique de confidentialité</a> · <a class="cd-legal-link" href="/fr/conditions-utilisation" style="color: inherit; text-decoration: underline;">Conditions d'utilisation</a></div>
 <div class="legal-text" style="color: rgba(255,255,255,0.45); font-size: 13px;">Tests incognito sur le terrain • Avis éditoriaux 100% indépendants</div>
 </div>
 </div>
@@ -787,7 +787,10 @@ const observer = new IntersectionObserver(entries => {
 }, { rootMargin: '0px 0px -75% 0px' });
 </script>
 <script>
-document.getElementById("content").querySelectorAll("h2").forEach(function(heading, i) { // runs a function for all h2 elements inside your rich text element
+const _cdContent = document.getElementById("content");
+const _cdToc = document.querySelector("#toc");
+if (_cdContent && _cdToc) {
+_cdContent.querySelectorAll("h2").forEach(function(heading, i) { // runs a function for all h2 elements inside your rich text element
   heading.setAttribute("id", "toc-" + i); // gives each h2 a unique id
   observer.observe(heading);
   let str = heading.innerHTML; // adds section titles to slugs
@@ -797,15 +800,16 @@ document.getElementById("content").querySelectorAll("h2").forEach(function(headi
   item.innerHTML = heading.innerHTML // gives each item the text of the corresponding heading
   item.setAttribute("class", "tocitem"); // gives each item the correct class
   item.setAttribute("href", "#" + str); // gives each item the correct anchor link
-  document.querySelector("#toc").appendChild(item); // places each item inside the Table of Contents div
+  _cdToc.appendChild(item); // places each item inside the Table of Contents div
 });
-document.querySelector("#toc").addEventListener("click", function(e) {
+_cdToc.addEventListener("click", function(e) {
   if (e.target.classList.contains("tocitem")) {
     e.preventDefault();
     const targetId = e.target.getAttribute("href").substring(1);
     document.getElementById(targetId).scrollIntoView(false);
   }
 });
+}
 </script></div><script crossorigin="anonymous" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" src="/assets/js/jquery-3.5.1.min.js" type="text/javascript"></script><script crossorigin="anonymous" integrity="sha384-1EO2rSytTTHh41OQgOmPFu0dE3LjLeVBOKsupiyt7z5zZkwxhKo4Q6Cth3sPE63i" src="/assets/cdn/652d0405192ba076b04f74a3/js/webflow.c441f92a.a0ecb658dd14c21d.js" type="text/javascript"></script><!-- ==========================================
      UNIVERSAL GLOBAL STYLES (For any cloned site)
      ========================================== -->

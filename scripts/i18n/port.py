@@ -387,9 +387,9 @@ def do_page(a):
     head = re.sub(META, lambda m: (m.group(1) + t.tr(m.group(2)) + m.group(3)) if m.group(1) else (m.group(4) + t.tr(m.group(5)) + m.group(6)), head)
     new_url = SITE + '/' + a.tr.strip('/')
     old_url = SITE + '/' + a.en.strip('/')
-    head = re.sub(r'<html lang="[^"]*"', f'<html lang="{a.lang}"', head)
+    head = re.sub(r'(<html\b[^>]*\blang=")[^"]*(")', rf'\g<1>{a.lang}\2', head)
     h_all = head + body
-    h_all = re.sub(r'<html lang="[^"]*"', f'<html lang="{a.lang}"', h_all)
+    h_all = re.sub(r'(<html\b[^>]*\blang=")[^"]*(")', rf'\g<1>{a.lang}\2', h_all)
     h_all = re.sub(r'(<link[^>]*rel="canonical"[^>]*href=")[^"]*(")', lambda m: m.group(1) + new_url + m.group(2), h_all)
     h_all = re.sub(r'(<link[^>]*href=")[^"]*("[^>]*rel="canonical")', lambda m: m.group(1) + new_url + m.group(2), h_all)
     h_all = re.sub(r'(<meta[^>]*property="og:url"[^>]*content=")[^"]*(")', lambda m: m.group(1) + new_url + m.group(2), h_all)
