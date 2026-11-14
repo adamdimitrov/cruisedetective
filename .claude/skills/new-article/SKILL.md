@@ -1,6 +1,6 @@
 ---
 name: new-article
-description: Create or refresh a comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, cikk, refresh this article, or picks a topic from the topic finder.
+description: Create a new comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, új cikk, or picks a topic for a new page. New articles only, not refreshes of existing pages.
 ---
 
 # /new-article
@@ -74,6 +74,3 @@ Commit (`article: <title>`), push the branch, wait for the Vercel preview, and g
 
 ## 6. After approval
 `/ship` (PR, merge, Search Console indexing). Translations come later via `/port-i18n`, only when the user asks. New pages are EN-first.
-
-## Refreshing an existing article
-Same loop, starting at step 2 for the cards already on the page (`python3 scripts/cards/cards.py extract <slug>` gives the current claims). Update `dateModified`, prices, ratings and the year. `python3 scripts/qa/article_lint.py --all` lists articles whose `dateModified` is older than 90 days.
