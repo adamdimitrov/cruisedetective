@@ -12,6 +12,7 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -153,6 +154,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/vistula-river-cruises-warsaw" />
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl/rejsy-po-wisle-warszawa" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/vistula-river-cruises-warsaw" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/prague-river-cruises</loc>
+    <lastmod>2026-11-15T12:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/prague-river-cruises" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs/plavba-po-vltave-praha" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/prague-river-cruises" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/cs/plavba-po-vltave-praha</loc>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/prague-river-cruises" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs/plavba-po-vltave-praha" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/prague-river-cruises" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/best-dinner-cruise-paris</loc>
@@ -328,7 +343,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr</loc>
-    <lastmod>2026-11-14T20:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -338,11 +353,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/a-propos</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -356,7 +372,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/contact</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -468,7 +484,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -482,7 +498,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -496,7 +512,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -510,7 +526,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -566,7 +582,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/politique-de-confidentialite</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -580,7 +596,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/fr/conditions-utilisation</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />
@@ -604,6 +620,7 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -867,7 +884,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -877,11 +894,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/acerca</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -895,7 +913,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/contacto</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -1007,7 +1025,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/mejor-crucero-con-cena-paris</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -1021,7 +1039,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/mejor-crucero-tamesis-londres</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -1035,7 +1053,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/mejor-crucero-canales-amsterdam</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -1049,7 +1067,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/opinion-crucero-sena-bateaux-parisiens</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -1105,7 +1123,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/politica-de-privacidad</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -1119,7 +1137,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/terminos-de-servicio</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />
@@ -1133,7 +1151,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -1143,11 +1161,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/su-di-noi</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -1161,7 +1180,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/contatto</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -1273,7 +1292,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/migliore-crociera-con-cena-parigi</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -1287,7 +1306,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/migliore-crociera-tamigi-londra</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -1301,7 +1320,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/migliore-crociera-canali-amsterdam</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -1315,7 +1334,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/recensione-crociera-senna-bateaux-parisiens</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -1371,7 +1390,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/informativa-sulla-privacy</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -1385,7 +1404,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/it/termini-di-servizio</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />
@@ -1399,7 +1418,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl</loc>
-    <lastmod>2026-11-14T20:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -1409,11 +1428,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/over-ons</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -1427,7 +1447,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/contact</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -1539,7 +1559,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/beste-dinercruise-parijs</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -1553,7 +1573,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/beste-theems-boottocht-londen</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -1567,7 +1587,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/beste-rondvaart-amsterdam</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -1581,7 +1601,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/bateaux-parisiens-seine-boottocht-ervaring</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -1637,7 +1657,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/privacybeleid</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -1651,7 +1671,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/nl/gebruiksvoorwaarden</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />
@@ -1675,6 +1695,7 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -1938,7 +1959,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -1948,11 +1969,27 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/cs</loc>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.thecruisedetective.com/it" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/despre</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -1966,7 +2003,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/contact</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -2078,7 +2115,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/cea-mai-buna-croaziera-cu-cina-paris</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -2092,7 +2129,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/cea-mai-buna-croaziera-tamisa-londra</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -2106,7 +2143,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/cea-mai-buna-croaziera-canale-amsterdam</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -2120,7 +2157,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/recenzie-croaziera-sena-bateaux-parisiens</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -2176,7 +2213,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/politica-de-confidentialitate</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -2190,7 +2227,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ro/termeni-si-conditii</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />
@@ -2204,7 +2241,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
@@ -2214,11 +2251,12 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/について</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/about" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/a-propos" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/uber-uns" />
@@ -2232,7 +2270,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/お問い合わせ</loc>
-    <lastmod>2026-11-14T03:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/contact" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/contact" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/kontakt" />
@@ -2344,7 +2382,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/パリのおすすめ-ディナークルーズ</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleur-diner-croisiere-paris" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-dinner-bootsfahrt-paris" />
@@ -2358,7 +2396,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/ロンドンのベスト-テムズ川クルーズ</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-thames-cruise-london" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-tamise-londres" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-themse-bootsfahrt-london" />
@@ -2372,7 +2410,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/アムステルダムのおすすめ-運河クルーズ</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-canal-cruise-amsterdam" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/meilleure-croisiere-canaux-amsterdam" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/beste-grachtenfahrt-amsterdam" />
@@ -2386,7 +2424,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/バトーパリジャン-セーヌ川クルーズ体験レビュー</loc>
-    <lastmod>2026-11-14T21:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/seine-river-cruise-review" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/avis-croisiere-seine-bateaux-parisiens" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/bateaux-parisiens-seine-bootsfahrt-erfahrung" />
@@ -2442,7 +2480,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/プライバシーポリシー</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/politique-de-confidentialite" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/datenschutzerklarung" />
@@ -2456,7 +2494,7 @@
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/ja/利用規約</loc>
-    <lastmod>2026-11-14T05:00:00+00:00</lastmod>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/terms-of-service" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/conditions-utilisation" />
     <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de/nutzungsbedingungen" />

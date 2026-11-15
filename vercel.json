@@ -769,6 +769,10 @@
       "destination": "/vistula-river-cruises-warsaw/index.html"
     },
     {
+      "source": "/prague-river-cruises",
+      "destination": "/prague-river-cruises/index.html"
+    },
+    {
       "source": "/dinner-cruise-paris",
       "destination": "/dinner-cruises-paris/index.html"
     },
@@ -1154,11 +1158,6 @@
     },
     {
       "source": "/da",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/cs",
       "destination": "/",
       "permanent": true
     },
@@ -2273,12 +2272,12 @@
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
+      "source": "/:lang(ar|bg|ca|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
+      "source": "/:lang(ar|bg|ca|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
       "destination": "/",
       "permanent": true
     }

@@ -1,0 +1,75 @@
+0|Destinace
+1|PAŘÍŽ, SEINA
+2|Plavby s večeří v Paříži
+3|10 testovaných lodí a večerní ochutnávky
+4|Nejlepší plavba s večeří: můj tip
+5|Tu bych si zarezervoval po otestování top 5
+6|Vyhlídkové plavby v Paříži
+7|Nejlepší denní a večerní plavby
+8|Nejlepší plavba po Seině: můj tip
+9|Soukromé plavby po Seině
+10|Vlastní loď, od 399 € až pro 4
+11|Mouches vs. Parisiens
+12|Srovnání plaveb s večeří tváří v tvář
+13|Statistiky turismu v Paříži
+14|Oficiální příjezdy, noclehy a útraty
+15|EVROPSKÉ VODNÍ CESTY
+16|Plavby po kanálech v Amsterdamu
+17|Otevřené šalupy a klasické salonní lodě
+18|Nejlepší plavba po kanálech: můj tip
+19|Statistiky turismu v Amsterdamu
+20|Oficiální data CBS o návštěvnících a daních
+21|Plavby po Temži v Londýně
+22|Vyhlídkové plavby, večeře a rychlé čluny
+23|Nejlepší plavba po Temži: můj tip
+24|Statistiky turismu v Londýně
+25|Oficiální data ONS o návštěvách a útratách
+26|Plavby po Vltavě v Praze
+27|10 lodí po Vltavě srovnaných, od 17 €
+28|Plavby s večeří
+29|Vyhlídkové plavby
+30|O nás
+31|EN
+32|Vyberte jazyk
+33|● 10 K DISPOZICI
+34|English
+35|Français
+36|FR
+37|Deutsch
+38|DE
+39|Español
+40|ES
+41|Italiano
+42|IT
+43|Nederlands
+44|NL
+45|Polski
+46|PL
+47|Română
+48|RO
+49|日本語 (Japanese)
+50|JA
+51|Destinace a průvodci
+52|🍷 Plavby s večeří v Paříži
+53|NEJLEPŠÍ TIP
+54|🥂 Nejlepší plavba s večeří: můj tip
+55|🗼 Vyhlídkové plavby v Paříži
+56|🏆 Nejlepší plavba po Seině: můj tip
+57|🛥️ Soukromé plavby po Seině
+58|⚖️ Mouches vs. Parisiens
+59|📊 Statistiky turismu v Paříži
+60|🌷 Plavby po kanálech v Amsterdamu
+61|🏆 Nejlepší plavba po kanálech: můj tip
+62|📊 Statistiky turismu v Amsterdamu
+63|🇬🇧 Plavby po Temži v Londýně
+64|🏆 Nejlepší plavba po Temži: můj tip
+65|📊 Statistiky turismu v Londýně
+66|🇨🇿 Plavby po Vltavě v Praze
+67|Redakce
+68|📖 O nás a manifest
+69|✉️ Kontakt na redakci
+70|Jazyk
+71|Domovská stránka THE CRUISE DETECTIVE
+72|Hlavní navigace
+73|Hledat
+74|Přepnout menu
