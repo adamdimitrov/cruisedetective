@@ -146,6 +146,7 @@
     <lastmod>2026-11-15T20:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
   </url>
   <url>
@@ -993,6 +994,7 @@
     <lastmod>2026-11-15T20:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
     <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
   </url>
   <url>
@@ -2477,5 +2479,13 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto</loc>
+    <lastmod>2026-11-15T20:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
   </url>
 </urlset>

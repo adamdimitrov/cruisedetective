@@ -765,6 +765,10 @@
       "destination": "/douro-river-cruises-porto/index.html"
     },
     {
+      "source": "/pt/cruzeiros-rio-douro-porto",
+      "destination": "/pt/cruzeiros-rio-douro-porto/index.html"
+    },
+    {
       "source": "/es/cruceros-duero-oporto",
       "destination": "/es/cruceros-duero-oporto/index.html"
     },

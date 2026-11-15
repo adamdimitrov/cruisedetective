@@ -85,7 +85,8 @@
   "douro-porto": {
     "en": "douro-river-cruises-porto",
     "pages": {
-      "es": "es/cruceros-duero-oporto"
+      "es": "es/cruceros-duero-oporto",
+      "pt": "pt/cruzeiros-rio-douro-porto"
     },
     "cards": true,
     "menus": false,
