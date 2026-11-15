@@ -222,7 +222,7 @@ if '<h2 id="1-dinner-cruise-bateaux-mouches"' in parsed_article:
         {bm_pros}
         {bm_badge}
         <div style="margin: 1.5rem 0; text-align: center;">
-            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=review-bm-button" class="cd-btn-large btn-gold" target="_blank" rel="noopener">
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=review-bm-button" class="cd-btn-large btn-gold" target="_blank" rel="noopener nofollow sponsored">
                 🏆 Check Live Availability for Bateaux-Mouches (From €130) →
             </a>
         </div>
@@ -238,7 +238,7 @@ if '<h2 id="2-dinner-cruise-bateaux-parisiens"' in parsed_article:
         {bp_pros}
         {bp_badge}
         <div style="margin: 1.5rem 0; text-align: center;">
-            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=review-bp-button" class="cd-btn-large btn-navy" target="_blank" rel="noopener">
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=review-bp-button" class="cd-btn-large btn-navy" target="_blank" rel="noopener nofollow sponsored">
                 ⭐ Reserve Bateaux Parisiens Gourmet Dinner (From €115) →
             </a>
         </div>
@@ -253,7 +253,7 @@ if '<h2 id="3-dinner-cruise-paris-city-vision"' in parsed_article:
         {pcv_pros}
         {pcv_badge}
         <div style="margin: 1.5rem 0; text-align: center;">
-            <a href="https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=review-pcv-button&mkt_cmp=true" class="cd-btn-large btn-wine" target="_blank" rel="noopener">
+            <a href="https://www.getyourguide.com/paris-l16/paris-3-course-dinner-cruise-on-the-river-seine-t53306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=review-pcv-button&mkt_cmp=true" class="cd-btn-large btn-wine" target="_blank" rel="noopener nofollow sponsored">
                 🕯️ Check La Marina Dinner Cruise on GetYourGuide (From €85) →
             </a>
         </div>
@@ -267,7 +267,7 @@ if '<h2 id="4-dinner-cruise-paris-en-scene"' in parsed_article:
         {pes_pros}
         {pes_badge}
         <div style="margin: 1.5rem 0; text-align: center;">
-            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&tq_campaign=review-pes-button" class="cd-btn-large btn-emerald" target="_blank" rel="noopener">
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-en-scene-dinner-cruise-seine-p1052475/?partner=thecruisedetective.com-176436&tq_campaign=review-pes-button" class="cd-btn-large btn-emerald" target="_blank" rel="noopener nofollow sponsored">
                 🎟️ Book Paris en Scène (From €65) →
             </a>
         </div>
@@ -281,7 +281,7 @@ if '<h2 id="5-dinner-cruise-le-diamant-bleu"' in parsed_article:
         {dbleu_tip}
         {dbleu_badge}
         <div style="margin: 1.5rem 0; text-align: center;">
-            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&tq_campaign=review-dbleu-button" class="cd-btn-large btn-indigo" target="_blank" rel="noopener">
+            <a href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-diamond-blue-gourmet-dinner-cruise-p1049009/?partner=thecruisedetective.com-176436&tq_campaign=review-dbleu-button" class="cd-btn-large btn-indigo" target="_blank" rel="noopener nofollow sponsored">
                 💎 Reserve Le Diamant Bleu 70m Mega-Yacht (From €89) →
             </a>
         </div>
