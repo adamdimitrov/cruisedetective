@@ -46,7 +46,7 @@ def tiq(path, key, lang):
 # ---------------------------------------------------------------------------
 PRODUCTS = [
     {
-        "key": "hadynski-glass-roof", "photos": 5, "cats": "hour cancel under20",
+        "key": "hadynski-glass-roof", "photos": 8, "cats": "hour cancel under20",
         "book": ("gyg", "berlin-bilingual-river-cruise-ende-live-guided-heated-t520045"),
         "operator": "Reederei Hadynski", "hours": 1.0,
         "price": 18.06, "was": 21, "cancel": True,
@@ -106,7 +106,7 @@ PRODUCTS = [
                          ("Saison", "Täglich, März bis Dezember"), ("Stornierung", "Kostenlos bis 24 Stunden vorher")]},
     },
     {
-        "key": "bridges-landwehr-canal", "photos": 5, "cats": "long",
+        "key": "bridges-landwehr-canal", "photos": 9, "cats": "long",
         "book": ("tiq", "tickets-for-3-hour-bridges-tour-p1065876"),
         "operator": "Stern und Kreis", "hours": 3.25,
         "price": 32.90, "was": None, "cancel": False,
@@ -163,7 +163,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Essen und Getränke (an Bord erhältlich)"), ("Stornierung", "Nicht erstattbar")]},
     },
     {
-        "key": "stern-und-kreis-1-hour", "photos": 5, "cats": "hour cancel under20",
+        "key": "stern-und-kreis-1-hour", "photos": 10, "cats": "hour cancel under20",
         "book": ("gyg", "1-hour-spree-cruise-from-friedrichstrasse-t21231"),
         "operator": "Stern und Kreis", "hours": 1.0,
         "price": 18.00, "was": 23, "cancel": True,
@@ -222,7 +222,7 @@ PRODUCTS = [
                          ("Stornierung", "Kostenlos bis 24 Stunden vorher")]},
     },
     {
-        "key": "hemingway", "photos": 5, "cats": "hour cancel",
+        "key": "hemingway", "photos": 10, "cats": "hour cancel",
         "book": ("gyg", "berlin-1h-boutique-style-cruise-on-the-historic-hemingway-t616531"),
         "operator": "FLAGSHIP.BERLIN", "hours": 1.0,
         "price": 25.00, "was": None, "cancel": True,
@@ -278,7 +278,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Getränke (am Platz serviert)"), ("Stornierung", "Kostenlos bis 24 Stunden vorher")]},
     },
     {
-        "key": "evening-yacht-aperitif", "photos": 5, "cats": "evening cancel",
+        "key": "evening-yacht-aperitif", "photos": 10, "cats": "evening cancel",
         "book": ("gyg", "berlin-evening-yacht-cruise-with-aperitif-t480108"),
         "operator": "FLAGSHIP.BERLIN", "hours": 1.4,
         "price": 39.00, "was": None, "cancel": True,
@@ -334,7 +334,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Weitere Getränke; 3-Gänge-Menü an manchen Terminen zubuchbar"), ("Stornierung", "Kostenlos bis 24 Stunden vorher")]},
     },
     {
-        "key": "seven-lakes-wannsee", "photos": 6, "cats": "lakes under20",
+        "key": "seven-lakes-wannsee", "photos": 10, "cats": "lakes under20",
         "book": ("tiq", "tickets-for-wannsee-havel-2-hour-7-lake-cruise-p1068753"),
         "operator": "Stern und Kreis", "hours": 1.75,
         "price": 18.90, "was": None, "cancel": False,
@@ -389,7 +389,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Essen und Getränke (an Bord erhältlich)"), ("Stornierung", "Nicht erstattbar")]},
     },
     {
-        "key": "east-side-gallery", "photos": 6, "cats": "long",
+        "key": "east-side-gallery", "photos": 10, "cats": "long",
         "book": ("tiq", "tickets-for-berlin-east-side-tour-on-cruise-p1068188"),
         "operator": "BWSG", "hours": 2.5,
         "price": 30.00, "was": None, "cancel": False,
@@ -447,7 +447,7 @@ PRODUCTS = [
                          ("Stornierung", "Nicht erstattbar")]},
     },
     {
-        "key": "potsdam-world-heritage", "photos": 5, "cats": "lakes long cancel",
+        "key": "potsdam-world-heritage", "photos": 10, "cats": "lakes long cancel",
         "book": ("gyg", "berlin-world-heritage-cruise-to-potsdam-3-hours-t28802"),
         "operator": "Stern und Kreis", "hours": 3.0,
         "price": 21.90, "was": None, "cancel": True,
@@ -503,7 +503,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Essen und Getränke (an Bord erhältlich)"), ("Stornierung", "Kostenlos bis 24 Stunden vorher")]},
     },
     {
-        "key": "muggelsee", "photos": 6, "cats": "lakes long cancel",
+        "key": "muggelsee", "photos": 10, "cats": "lakes long cancel",
         "book": ("tiq", "tickets-for-berlin-boat-trip-to-muggelsee-p1124582"),
         "operator": "Stern und Kreis", "hours": 3.5,
         "price": 21.90, "was": None, "cancel": True,
@@ -556,7 +556,7 @@ PRODUCTS = [
                          ("Nicht inklusive", "Essen und Getränke (an Bord erhältlich)"), ("Stornierung", "Kostenlos bis 24 Stunden vorher, Umbuchung möglich")]},
     },
     {
-        "key": "dinner-cruise", "photos": 6, "cats": "evening long",
+        "key": "dinner-cruise", "photos": 10, "cats": "evening long",
         "book": ("tiq", "tickets-for-berlin-dinner-cruise-p978867"),
         "operator": "Reederei Becker", "hours": 2.5,
         "price": 79.90, "was": None, "cancel": False,
@@ -866,10 +866,11 @@ def details(n, p, lang):
 
 
 PHOTO_SRC = {
-    "dinner-cruise": ["Tiqets"] * 6,
-    "east-side-gallery": ["Tiqets"] * 6,
-    "seven-lakes-wannsee": ["Tiqets"] * 3 + ["GetYourGuide"] * 3,
-    "muggelsee": ["GetYourGuide"] * 5 + ["Tiqets"],
+    "bridges-landwehr-canal": ["GetYourGuide"] * 5 + ["Tiqets"] * 4,
+    "dinner-cruise": ["Tiqets"] * 10,
+    "east-side-gallery": ["Tiqets"] * 6 + ["GetYourGuide"] * 4,
+    "seven-lakes-wannsee": ["Tiqets"] * 3 + ["GetYourGuide"] * 7,
+    "muggelsee": ["GetYourGuide"] * 5 + ["Tiqets"] + ["GetYourGuide"] * 4,
 }
 
 

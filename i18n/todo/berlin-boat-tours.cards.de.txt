@@ -1,9 +1,43 @@
-0|📍 Rolandufer (Jannowitzbrücke)
-1|📍 Alte Börse (Hackescher Markt)
-2|East Side Gallery
-3|DE/EN + 6 Audio
-4|📍 Treptow (S Treptower Park)
-5|Köpenick + Müggelsee
-6|📍 Charlottenburg (U Richard-Wagner-Platz)
-7|Berlin Dinner:
-8|Capital Dinner:
+0|1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 6
+1|1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 7
+2|1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 8
+3|3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 6
+4|3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 7
+5|3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 8
+6|3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 9
+7|1-Hour City Cruise with an Audio Guide in 12 Languages, photo 6
+8|1-Hour City Cruise with an Audio Guide in 12 Languages, photo 7
+9|1-Hour City Cruise with an Audio Guide in 12 Languages, photo 8
+10|1-Hour City Cruise with an Audio Guide in 12 Languages, photo 9
+11|1-Hour City Cruise with an Audio Guide in 12 Languages, photo 10
+12|1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 6
+13|1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 7
+14|1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 8
+15|1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 9
+16|1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 10
+17|Evening Yacht Cruise with a Glass of Crémant, photo 6
+18|Evening Yacht Cruise with a Glass of Crémant, photo 7
+19|Evening Yacht Cruise with a Glass of Crémant, photo 8
+20|Evening Yacht Cruise with a Glass of Crémant, photo 9
+21|Evening Yacht Cruise with a Glass of Crémant, photo 10
+22|Seven Lakes Cruise from Wannsee, photo 7
+23|Seven Lakes Cruise from Wannsee, photo 8
+24|Seven Lakes Cruise from Wannsee, photo 9
+25|Seven Lakes Cruise from Wannsee, photo 10
+26|2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 7
+27|2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 8
+28|2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 9
+29|2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 10
+30|3-Hour World Heritage Cruise to Potsdam, photo 6
+31|3-Hour World Heritage Cruise to Potsdam, photo 7
+32|3-Hour World Heritage Cruise to Potsdam, photo 8
+33|3-Hour World Heritage Cruise to Potsdam, photo 9
+34|3-Hour World Heritage Cruise to Potsdam, photo 10
+35|3.5-Hour Spree Cruise to Müggelsee, photo 7
+36|3.5-Hour Spree Cruise to Müggelsee, photo 8
+37|3.5-Hour Spree Cruise to Müggelsee, photo 9
+38|3.5-Hour Spree Cruise to Müggelsee, photo 10
+39|2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 7
+40|2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 8
+41|2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 9
+42|2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 10
