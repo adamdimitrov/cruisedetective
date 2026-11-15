@@ -50,6 +50,7 @@ MASTERS = {
     "pl": "pl/najlepsze-rejsy-po-sekwanie-paryz/index.html",
     "ro": "ro/cele-mai-bune-croaziere-sena-paris/index.html",
     "ja": "ja/パリのベスト-セーヌ川クルーズ/index.html",
+    "cs": "cs/plavba-po-vltave-praha/index.html",  # until a Czech Seine page exists
 }
 HOMES = {lg: ("/" if lg == "en" else f"/{lg}") for lg in MASTERS}
 

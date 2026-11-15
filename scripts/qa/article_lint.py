@@ -38,7 +38,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "cards"))
 import cards  # noqa: E402
 
 SITE = cards.SITE
-LANG_DIRS = {"fr", "de", "es", "it", "ja", "nl", "pl", "ro"}
+LANG_DIRS = {"fr", "de", "es", "it", "ja", "nl", "pl", "ro", "cs"}
 # hosts that may appear in body copy without an affiliate tag
 NEUTRAL_HOSTS = (
     "thecruisedetective.com", "google.com", "goo.gl", "maps.app.goo.gl", "wikipedia.org",
@@ -155,8 +155,11 @@ def lint(slug, max_age, rewrites, vercel, sitemap, search_en, all_pages):
     # ---- wiring
     if not re.search(r"<loc>" + re.escape(url) + r"</loc>", sitemap):
         rep.fail("wiring", "not in sitemap.xml")
-    if f"/{slug}\"" not in search_en and url + '"' not in search_en:
-        rep.fail("wiring", "not in search/en.json (run python3 scripts/sync_layout.py)")
+    lang = slug.split("/")[0] if slug.split("/")[0] in LANG_DIRS else "en"
+    search_file = ROOT / "search" / f"{lang}.json"
+    search_idx = search_file.read_text(encoding="utf-8") if search_file.is_file() else ""
+    if f"/{slug}\"" not in search_idx and url + '"' not in search_idx:
+        rep.fail("wiring", f"not in search/{lang}.json (run python3 scripts/sync_layout.py)")
     inbound = []
     for other in all_pages:
         if other == path:
@@ -173,7 +176,13 @@ def lint(slug, max_age, rewrites, vercel, sitemap, search_en, all_pages):
         if hit:
             rel = str(other.parent.relative_to(ROOT))
             inbound.append("/" if rel == "." else rel)
-    if len(inbound) < 2:
+    # a translation can only be linked from pages in its own language; a brand-new language
+    # (e.g. cs, whose only other page is the home page) can't reach 2, so require what exists
+    need = 2
+    if lang != "en":
+        same_lang = [p for p in all_pages if p != path and p.relative_to(ROOT).parts[0] == lang]
+        need = min(2, len(same_lang))
+    if len(inbound) < need:
         rep.fail("wiring", f"only {len(inbound)} page(s) link here from body copy "
                            f"({', '.join(inbound) or 'none'}); add contextual links from 2+ related guides")
 

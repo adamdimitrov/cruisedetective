@@ -17,9 +17,9 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VERCEL_JSON_PATH = os.path.join(PROJECT_ROOT, "vercel.json")
 BACKUP_SITEMAP_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sitemap_production_backup.xml")
 
-APPROVED_LANGUAGES = ["en", "ja", "pl", "ro", "fr", "nl", "es", "de", "it"]
+APPROVED_LANGUAGES = ["en", "ja", "pl", "ro", "fr", "nl", "es", "de", "it", "cs"]
 DEAD_LANGUAGES = [
-    "ar", "bg", "ca", "cs", "da", "el", "fa", "fi",
+    "ar", "bg", "ca", "da", "el", "fa", "fi",
     "he", "hi", "hr", "hu", "ko", "no", "pt", "ru", "sk",
     "sr", "sv", "th", "tr", "uk", "vi", "zh"
 ]

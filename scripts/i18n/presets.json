@@ -81,5 +81,19 @@
         "place": "before-closing-of:Standard-Features"
       }
     ]
+  },
+  "prague": {
+    "en": "prague-river-cruises",
+    "pages": {
+      "cs": "cs/plavba-po-vltave-praha"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "prague-cruise-worth-it,prague-cruise-logistics,prague-cruise-piers,prague-cruise-best-time,prague-cruise-faq,prague-cruise-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
   }
 }
