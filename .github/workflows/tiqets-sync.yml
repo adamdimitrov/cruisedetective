@@ -53,6 +53,7 @@ jobs:
       - name: Sync Tiqets orders
         env:
           TIQETS_API_KEY: ${{ secrets.TIQETS_API_KEY }}
+          GA4_API_SECRET: ${{ secrets.GA4_API_SECRET }}
           GOOGLE_ADS_CLIENT_ID: ${{ secrets.GOOGLE_ADS_CLIENT_ID }}
           GOOGLE_ADS_CLIENT_SECRET: ${{ secrets.GOOGLE_ADS_CLIENT_SECRET }}
           GOOGLE_ADS_REFRESH_TOKEN: ${{ secrets.GOOGLE_ADS_REFRESH_TOKEN }}
