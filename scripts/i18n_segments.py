@@ -47,7 +47,7 @@ INJECT = re.compile(r'(content\.innerHTML = )("(?:[^"\\]|\\.)*")')
 META = re.compile(r'(<title>)([^<]+)(</title>)|(<meta content=")([^"]+)("\s+(?:name|property)="(?:description|og:title|og:description|twitter:title|twitter:description)")')
 
 DATE_LOCALE = {"pl": "pl-PL", "ja": "ja-JP", "de": "de-DE", "fr": "fr-FR", "es": "es-ES",
-               "it": "it-IT", "nl": "nl-NL", "ro": "ro-RO"}
+               "it": "it-IT", "nl": "nl-NL", "ro": "ro-RO", "pt": "pt-PT"}
 CJK = re.compile(r"[぀-ヿ一-鿿]")
 
 

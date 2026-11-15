@@ -6,5 +6,6 @@
  "ja": {"count": "(v==='veg'?'ベジタリアン':'グルテン・乳製品不使用')+'の料理：'+n+'品'", "none": "(v==='veg'?'ベジタリアン':'グルテン・乳製品不使用')+'の表示なし。スタッフにお尋ねください'", "hide": "メニューを閉じる ▴", "open": "メニューを開く ▾"},
  "nl": {"count": "(v==='veg'?'Vegetarisch':'Gluten-/lactosevrij')+' op dit menu: '+n", "none": "'Niets gemarkeerd als '+(v==='veg'?'vegetarisch':'gluten-/lactosevrij')+', vraag het de crew'", "hide": "Menu verbergen ▴", "open": "Menu openen ▾"},
  "pl": {"count": "(v==='veg'?'Wegetariańskie':'Bez glutenu/laktozy')+' w tym menu: '+n", "none": "'Nic nie oznaczono jako '+(v==='veg'?'wegetariańskie':'bez glutenu/laktozy')+', zapytaj obsługę'", "hide": "Ukryj menu ▴", "open": "Otwórz menu ▾"},
- "ro": {"count": "(v==='veg'?'Vegetariene':'Fără gluten/lactoză')+' în acest meniu: '+n", "none": "'Nimic marcat '+(v==='veg'?'vegetarian':'fără gluten/lactoză')+', întreabă echipajul'", "hide": "Ascunde meniul ▴", "open": "Deschide meniul ▾"}
+ "ro": {"count": "(v==='veg'?'Vegetariene':'Fără gluten/lactoză')+' în acest meniu: '+n", "none": "'Nimic marcat '+(v==='veg'?'vegetarian':'fără gluten/lactoză')+', întreabă echipajul'", "hide": "Ascunde meniul ▴", "open": "Deschide meniul ▾"},
+ "pt": {"count": "(v==='veg'?'Vegetarianos':'Sem glúten/lactose')+' neste menu: '+n", "none": "'Nada marcado como '+(v==='veg'?'vegetariano':'sem glúten/lactose')+', pergunte à tripulação'", "hide": "Ocultar menu ▴", "open": "Ver menu ▾"}
 }

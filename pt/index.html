@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<style id="cd-kill-webflow-badge">
+.w-webflow-badge, a.w-webflow-badge, [class*="w-webflow-badge"], a[href*="webflow.com?utm_campaign=brandjs"], a[href*="webflow.com/?utm_campaign=brandjs"] {
+  display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important;
+  position: absolute !important; top: -99999px !important; left: -99999px !important; width: 0 !important; height: 0 !important; z-index: -99999 !important;
+}
+
+/* Navigation & Mobile Drawer z-index hierarchy */
+.ltt-navbar {
+  z-index: 100000 !important;
+}
+.ltt-mobile-drawer {
+  z-index: 100000 !important;
+}
+.ltt-drawer-content {
+  padding-bottom: 50px !important;
+}
+
+/* Floating Sticky Bottom Bar z-index & Mobile Drawer conflict suppression */
+.hybrid-sticky-bar,
+.sticky-mobile-bar,
+#sticky-bar {
+  z-index: 9990 !important;
+}
+
+body.ltt-drawer-open #sticky-bar,
+body.ltt-drawer-open .hybrid-sticky-bar,
+body.ltt-drawer-open .sticky-mobile-bar,
+body:has(.ltt-mobile-drawer.is-open) #sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .hybrid-sticky-bar,
+body:has(.ltt-mobile-drawer.is-open) .sticky-mobile-bar {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+  transform: translateY(150%) !important;
+}
+
+/* Mobile Toggle Hamburger Button & Symmetrical X Animation */
+.ltt-hamburger {
+  width: 42px !important;
+  height: 42px !important;
+  padding: 10px 8px !important;
+  background: transparent !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+}
+.ltt-hamburger:hover {
+  background: #f8fafc !important;
+}
+.ltt-hamburger-bar {
+  display: block !important;
+  width: 22px !important;
+  height: 2px !important;
+  background: #0f172a !important;
+  border-radius: 2px !important;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease !important;
+  transform-origin: center !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(1) {
+  transform: translateY(10px) rotate(45deg) !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(2) {
+  opacity: 0 !important;
+  transform: scaleX(0) !important;
+}
+.ltt-hamburger.is-active .ltt-hamburger-bar:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg) !important;
+}
+
+</style>
+  <meta charset="utf-8"/>
+  <title>The Cruise Detective: análises independentes de cruzeiros fluviais e com jantar testados no terreno</title>
+  <meta content="A The Cruise Detective publica análises sinceras e anónimas de cruzeiros fluviais na Europa. Testamos barcos com jantar no Sena, canais de Amesterdão e cruzeiros no Tamisa, pagando do nosso bolso." name="description"/>
+  <meta content="The Cruise Detective: análises independentes de cruzeiros fluviais e com jantar testados no terreno" property="og:title"/>
+  <meta content="Análises sinceras e anónimas de cruzeiros fluviais. Menus, vistas dos lugares e preços transparentes, testados pessoalmente em Paris, Amesterdão e Londres." property="og:description"/>
+  <meta content="https://www.thecruisedetective.com/assets/cruise_detective_logo.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://www.thecruisedetective.com/pt" rel="canonical"/>
+  <link href="https://www.thecruisedetective.com/" hreflang="en" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/fr" hreflang="fr" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/de" hreflang="de" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/es" hreflang="es" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/it" hreflang="it" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/nl" hreflang="nl" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/pl" hreflang="pl" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/ro" hreflang="ro" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/ja" hreflang="ja" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/pt" hreflang="pt" rel="alternate"/>
+  <link href="https://www.thecruisedetective.com/" hreflang="x-default" rel="alternate"/>
+<!-- Local Favicon Assets -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"/>
+
+  <!-- Google Fonts & Luxury Editorial Stylesheet -->
+  <link rel="stylesheet" href="/css/editorial-luxury.css"/>
+
+  <!-- Homepage Polished Editorial Styles -->
+  <style>
+    /* Hero Gradient & Ambience */
+    .ltt-home-hero {
+      background: radial-gradient(circle at 50% 18%, rgba(2, 132, 199, 0.16) 0%, transparent 60%), linear-gradient(180deg, #0a192f 0%, #0f172a 100%) !important;
+      color: #ffffff;
+      padding: 76px 20px 88px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .ltt-gold-text {
+      background: linear-gradient(135deg, #dfa732 0%, #fef08a 50%, #b88214 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    .ltt-hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(223, 167, 50, 0.12);
+      border: 1px solid rgba(223, 167, 50, 0.35);
+      color: #dfa732;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      margin-bottom: 22px;
+    }
+    .ltt-stats-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto 36px auto;
+    }
+    .ltt-stat-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 14px;
+      padding: 18px 14px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .ltt-stat-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(223, 167, 50, 0.4);
+    }
+    .ltt-stat-number {
+      font-size: 26px;
+      font-weight: 800;
+      color: #dfa732;
+      margin-bottom: 4px;
+      font-family: var(--font-serif);
+      line-height: 1.1;
+    }
+    .ltt-stat-label {
+      font-size: 11px;
+      color: var(--slate-300);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    .ltt-stat-sub {
+      font-size: 10px;
+      color: var(--slate-400);
+      margin-top: 3px;
+    }
+    .ltt-quick-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .ltt-quick-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #f8fafc;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: var(--radius-full);
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+    .ltt-quick-btn:hover {
+      background: rgba(223, 167, 50, 0.2);
+      border-color: #dfa732;
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+    @media (max-width: 768px) {
+      .ltt-stats-strip {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+    }
+
+    /* Destination Filter Bar */
+    .ltt-dest-filter-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 0 auto 36px auto;
+      flex-wrap: wrap;
+    }
+    .ltt-dest-label {
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--slate-500);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-right: 4px;
+    }
+    .ltt-dest-btn {
+      background: #ffffff;
+      border: 1px solid var(--slate-200);
+      color: var(--slate-700);
+      font-family: var(--font-sans);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 7px 16px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+    }
+    .ltt-dest-btn:hover {
+      background: var(--slate-50);
+      border-color: var(--slate-300);
+      color: var(--slate-900);
+    }
+    .ltt-dest-btn.active {
+      background: #0a192f;
+      border-color: #0a192f;
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(10, 25, 47, 0.25);
+    }
+
+    /* Featured Spotlight Guide Card */
+    .ltt-guide-featured {
+      background: #ffffff;
+      border: 1px solid var(--slate-200);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      text-decoration: none;
+      color: var(--slate-900);
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      margin-bottom: 28px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+      position: relative;
+    }
+    .ltt-guide-featured:hover {
+      transform: translateY(-3px);
+      border-color: var(--slate-300);
+      box-shadow: var(--shadow-hover);
+    }
+    .ltt-guide-featured .ltt-guide-img-wrap {
+      height: 100%;
+      min-height: 340px;
+    }
+    .ltt-guide-featured .ltt-guide-content {
+      padding: 32px 36px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .ltt-guide-featured .ltt-guide-title {
+      font-size: 25px;
+      line-height: 1.22;
+      margin-bottom: 12px;
+    }
+    .ltt-guide-featured .ltt-guide-excerpt {
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: var(--slate-600);
+      margin-bottom: 18px;
+    }
+    @media (max-width: 900px) {
+      .ltt-guide-featured {
+        grid-template-columns: 1fr;
+      }
+      .ltt-guide-featured .ltt-guide-img-wrap {
+        height: 240px;
+        min-height: 240px;
+      }
+      .ltt-guide-featured .ltt-guide-content {
+        padding: 24px;
+      }
+      .ltt-guide-featured .ltt-guide-title {
+        font-size: 21px;
+      }
+    }
+
+    /* 2x2 Grid of Guides */
+    .ltt-guides-grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+    @media (max-width: 768px) {
+      .ltt-guides-grid-2x2 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    /* Guide Spec Chips */
+    .ltt-guide-specs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+    .ltt-guide-sp {
+      background: var(--slate-50);
+      border: 1px solid var(--slate-200);
+      padding: 5px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--slate-700);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Guide Card CTA Button */
+    .ltt-guide-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #dfa732 0%, #b88214 100%) !important;
+      color: #ffffff !important;
+      font-size: 13px !important;
+      font-weight: 800 !important;
+      padding: 9px 18px !important;
+      border-radius: 9999px !important;
+      box-shadow: 0 3px 10px rgba(223, 167, 50, 0.35) !important;
+      transition: all 0.15s ease !important;
+      text-decoration: none !important;
+      white-space: nowrap !important;
+    }
+    .ltt-guide-btn:hover {
+      background: linear-gradient(135deg, #ca9325 0%, #9f6e0d 100%) !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 5px 14px rgba(223, 167, 50, 0.45) !important;
+    }
+    .ltt-guide-card:hover .ltt-guide-btn,
+    .ltt-guide-featured:hover .ltt-guide-btn {
+      transform: translateY(-1px);
+      box-shadow: 0 5px 14px rgba(223, 167, 50, 0.45);
+    }
+
+    /* Tag badge on card */
+    .ltt-guide-tag {
+      background: rgba(10, 25, 47, 0.9) !important;
+      color: #dfa732 !important;
+      border: 1px solid rgba(223, 167, 50, 0.3) !important;
+    }
+
+    /* Clickable Guide Cards */
+    .ltt-guide-featured,
+    .ltt-guide-card {
+      cursor: pointer;
+      text-decoration: none !important;
+    }
+    .ltt-guide-featured .ltt-guide-title,
+    .ltt-guide-card .ltt-guide-title {
+      transition: color 0.2s ease;
+    }
+    .ltt-guide-featured:hover .ltt-guide-title,
+    .ltt-guide-card:hover .ltt-guide-title {
+      color: #b88214;
+    }
+    .ltt-guide-featured .ltt-guide-img {
+      transition: transform 0.4s ease;
+    }
+    .ltt-guide-featured:hover .ltt-guide-img {
+      transform: scale(1.04);
+    }
+
+    /* Packed Author Box Section */
+    .ltt-author-section {
+      background: #ffffff;
+      padding: 64px 20px;
+      border-top: 1px solid var(--slate-200);
+    }
+    .ltt-author-box {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--slate-50);
+      border: 1px solid var(--slate-200);
+      border-radius: 20px;
+      padding: 36px 40px;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+    }
+    .ltt-author-avatar-wrap {
+      flex-shrink: 0;
+    }
+    .ltt-author-avatar {
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffffff;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+      display: block;
+    }
+    .ltt-author-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .ltt-author-name {
+      font-family: var(--font-serif);
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin: 0 0 4px 0;
+    }
+    .ltt-author-role {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--gold-primary);
+      margin-bottom: 12px;
+    }
+    .ltt-vbadge-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .ltt-vbadge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: #ecfdf5;
+      color: #047857;
+      border: 1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 9999px;
+    }
+    .ltt-author-bio {
+      font-size: 14.5px;
+      line-height: 1.65;
+      color: var(--slate-600);
+      margin: 0 0 14px 0;
+    }
+    .ltt-author-links a {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #0f172a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.15s ease;
+    }
+    .ltt-author-links a:hover {
+      color: var(--gold-primary);
+    }
+    @media (max-width: 768px) {
+      .ltt-author-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 28px 20px;
+        gap: 20px;
+      }
+      .ltt-vbadge-row {
+        justify-content: center;
+      }
+    }
+
+    /* Navbar Brand & Hover Animation (Standardized with Seine River Cruises) */
+    .ltt-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #0f172a;
+      flex-shrink: 0;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: opacity 0.15s ease;
+    }
+    .ltt-brand-logo {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      display: block;
+      flex-shrink: 0;
+      border-radius: 50% !important;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .ltt-brand:hover,
+    .ltt-brand:hover .ltt-brand-text {
+      color: #0f172a !important;
+      opacity: 0.82 !important;
+    }
+    .ltt-brand:hover .ltt-brand-logo {
+      transform: scale(1.04) !important;
+    }
+
+  </style>
+
+  <!-- Tracking & Analytics -->
+  <!-- Google tag (gtag.js) -->
+  <script>if(/(^|\.)thecruisedetective\.com$/.test(location.hostname)){var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-RN34XFKPQ6";document.head.appendChild(s);}</script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RN34XFKPQ6');
+    gtag('config', 'AW-16782417237');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    if(/(^|\.)thecruisedetective\.com$/.test(f.location.hostname))s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1355732169631751');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img alt="" height="1" src="https://www.facebook.com/tr?id=1355732169631751&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        var go=function(){if(c._cdClarity||!/(^|\.)thecruisedetective\.com$/.test(c.location.hostname))return;c._cdClarity=1;t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);};
+        if(/[?&](gclid|gbraid|wbraid|msclkid|fbclid|utm_[a-z]+)=/i.test(c.location.search))go();
+        ['scroll','touchstart','mousemove','click','keydown'].forEach(function(e){c.addEventListener(e,go,{once:true,passive:true});});
+        c.addEventListener('load',function(){setTimeout(go,7000);});
+    })(window, document, "clarity", "script", window.location.hostname.indexOf("deals.") !== -1 ? "z1jcuxy2we" : "zb30xa0bub");
+  </script>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thecruisedetective.com/#website",
+      "url": "https://www.thecruisedetective.com/pt",
+      "name": "The Cruise Detective",
+      "description": "A The Cruise Detective publica análises sinceras e anónimas de cruzeiros fluviais na Europa. Testamos a comida, as vistas do barco, os audioguias e o valor do bilhete para que não pague a mais.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.thecruisedetective.com/#organization",
+        "name": "The Cruise Detective",
+        "url": "https://www.thecruisedetective.com/pt",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.thecruisedetective.com/ptassets/cruise_detective_logo.png",
+          "width": 256,
+          "height": 256
+        },
+        "founder": {
+          "@type": "Person",
+          "@id": "https://www.thecruisedetective.com/about/#adam-dimitrov",
+          "name": "Adam Dimitrov",
+          "jobTitle": "Founder & Head Cruise Detective",
+          "url": "https://www.thecruisedetective.com/ptabout",
+          "sameAs": [
+            "https://www.youtube.com/channel/UCBEbDg9BiHUkppqseY5Oc7w",
+            "https://www.instagram.com/adamdimitro/",
+            "https://www.facebook.com/adam.dimitrov.39",
+            "https://budapestadventures.com/",
+            "https://luxurytraveltester.com/"
+          ]
+        }
+      }
+    }
+  ]
+}</script>
+<style id="ltt-language-switcher-styles">
+/* ==========================================================================
+   THE CRUISE DETECTIVE — CANONICAL LANGUAGE SWITCHER SYSTEM
+   ========================================================================== */
+.ltt-lang-trigger {
+  position: relative;
+  display: inline-block;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.ltt-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  font-family: inherit;
+  line-height: 1;
+}
+.ltt-lang-btn:hover, .ltt-lang-btn.is-active {
+  background: #ffffff;
+  border-color: #dfa732;
+  box-shadow: 0 4px 12px rgba(223, 167, 50, 0.18);
+  color: #0b1320;
+}
+.ltt-lang-globe {
+  color: #64748b;
+  transition: color 0.15s ease;
+}
+.ltt-lang-btn:hover .ltt-lang-globe, .ltt-lang-btn.is-active .ltt-lang-globe {
+  color: #dfa732;
+}
+.ltt-lang-code {
+  letter-spacing: 0.04em;
+  font-weight: 800;
+}
+.ltt-lang-chevron {
+  color: #94a3b8;
+  transition: transform 0.2s ease;
+}
+.ltt-lang-btn.is-active .ltt-lang-chevron {
+  transform: rotate(180deg);
+  color: #dfa732;
+}
+.ltt-lang-dropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 280px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  padding: 8px;
+  z-index: 10000;
+  display: none;
+  animation: lttLangFade 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.ltt-lang-dropdown.show {
+  display: block;
+}
+@keyframes lttLangFade {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.ltt-lang-dropdown-header {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  padding: 6px 10px 4px;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ltt-lang-grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+.ltt-lang-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background 0.12s ease;
+}
+.ltt-lang-item:hover {
+  background: #f8fafc;
+  color: #0b1320;
+}
+.ltt-lang-item.current {
+  background: rgba(223, 167, 50, 0.12);
+  color: #8b6508;
+  font-weight: 700;
+}
+.ltt-lang-item .lang-native {
+  display: block;
+}
+.ltt-lang-item .lang-code-tag {
+  font-size: 10px;
+  font-weight: 800;
+  color: #94a3b8;
+  background: #f1f5f9;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.ltt-lang-item.current .lang-code-tag {
+  background: #dfa732;
+  color: #ffffff;
+}
+.ltt-mobile-lang-box {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+.ltt-mobile-lang-title {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ltt-mobile-lang-chips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.ltt-mobile-lang-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  color: #1e293b;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.ltt-mobile-lang-chip:hover {
+  border-color: #cbd5e1;
+  background: #ffffff;
+}
+.ltt-mobile-lang-chip.current {
+  background: #0b1320;
+  border-color: #0b1320;
+  color: #ffffff;
+}
+.ltt-mobile-lang-chip.current .chip-code {
+  color: #dfa732;
+}
+.ltt-mobile-lang-chip .chip-code {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.ltt-mobile-lang-chip .chip-name {
+  font-size: 10px;
+  opacity: 0.75;
+  font-weight: 500;
+}
+.ltt-nav-right {
+  margin-left: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  height: 100% !important;
+  gap: 12px !important;
+}
+@media (max-width: 991px) {
+  .ltt-nav-inner {
+    justify-content: space-between !important;
+    gap: 12px !important;
+  }
+  .ltt-nav-right {
+    margin-left: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 100% !important;
+  }
+  .ltt-hamburger {
+    display: flex !important;
+    align-self: center !important;
+    margin: 0 !important;
+  }
+  .ltt-lang-trigger {
+    display: none !important;
+  }
+}
+</style>
+<style id="qz-promo-css">.qz-promo .nye-promo-in,.qz-promo .nye-promo-in:hover,.qz-promo .nye-promo-in:focus{background:linear-gradient(135deg,#fffaf0 0%,#fdf1d8 100%)!important;border:1px solid #ecd49a;box-shadow:0 8px 24px -12px rgba(184,130,20,.35)}.qz-promo .nye-promo-kick,.qz-promo .nye-promo-in:hover .nye-promo-kick{color:#9f6e0d!important}.qz-promo .nye-promo-h,.qz-promo .nye-promo-in:hover .nye-promo-h{color:#0a192f!important}.qz-promo .nye-promo-p,.qz-promo .nye-promo-in:hover .nye-promo-p{color:#475569!important}</style>
+<style id="nye-promo-css">
+.nye-promo{max-width:1240px;margin:18px auto 0;padding:0 16px;box-sizing:border-box}
+.nye-promo-in{display:flex;align-items:center;gap:18px;background:linear-gradient(135deg,#0a192f 0%,#13294b 100%);border-radius:18px;padding:18px 22px;color:#fff;box-shadow:0 10px 30px -10px rgba(10,25,47,.45);text-decoration:none!important}
+.nye-promo-ico{font-size:34px;line-height:1;flex:0 0 auto}
+.nye-promo-txt{flex:1;min-width:0}
+.nye-promo-kick{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#f3c969;font-weight:700}
+.nye-promo-h{font-family:'Playfair Display',Georgia,serif;font-size:21px;line-height:1.25;font-weight:700;color:#fff;margin:3px 0 4px}
+.nye-promo-p{font-size:14px;line-height:1.5;color:#cbd5e1;margin:0}
+.nye-promo-btn{box-sizing:border-box;flex:0 0 auto;max-width:100%;background:linear-gradient(135deg,#dfa732 0%,#b88214 100%);color:#fff;font-weight:700;font-size:14px;border-radius:999px;padding:12px 20px;white-space:nowrap;box-shadow:0 6px 16px rgba(184,130,20,.35)}
+.nye-promo-in:hover,.nye-promo-in:focus{background:linear-gradient(135deg,#0a192f 0%,#13294b 100%)!important;color:#fff!important;opacity:1!important;text-decoration:none!important}
+.nye-promo-in:hover .nye-promo-h{color:#fff!important}.nye-promo-in:hover .nye-promo-p{color:#cbd5e1!important}.nye-promo-in:hover .nye-promo-kick{color:#f3c969!important}
+.nye-promo-in:hover .nye-promo-btn{background:linear-gradient(135deg,#ca9325 0%,#9f6e0d 100%)}
+@media (max-width:700px){.nye-promo-in{flex-wrap:wrap;gap:10px 14px;padding:16px}.nye-promo-ico{font-size:28px}.nye-promo-h{font-size:18px}.nye-promo-btn{width:100%;text-align:center}}
+</style></head>
+<body>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="ltt-navbar" role="banner">
+<div class="ltt-nav-inner">
+<a aria-label="Página inicial da THE CRUISE DETECTIVE" class="ltt-brand" href="/">
+<img alt="Logótipo da THE CRUISE DETECTIVE" class="ltt-brand-logo" height="36" src="/assets/cdn/652d0405192ba076b04f74a3/6570a89c8c97ba4e084ac5d5_webclip-cruise-detective.png" width="36"/>
+<span class="ltt-brand-text">THE CRUISE DETECTIVE</span>
+</a>
+<nav aria-label="Navegação principal" class="ltt-nav-links">
+<div class="ltt-nav-dropdown" id="lttExploreDropdown">
+<button aria-expanded="false" aria-haspopup="true" class="ltt-nav-link ltt-dropdown-btn" type="button">
+<span>Destinos</span>
+<svg class="ltt-chevron" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+<div class="ltt-mega-menu" role="menu">
+<div class="ltt-mega-col">
+<div class="ltt-mega-head">PARIS, RIO SENA</div>
+<a class="ltt-mega-item" href="/dinner-cruises-paris">
+<span class="ltt-mega-icon">🍷</span>
+<div>
+<strong>Cruzeiros com jantar em Paris</strong>
+<p>10 barcos testados e notas de degustação</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/best-dinner-cruise-paris">
+  <span class="ltt-mega-icon">🥂</span>
+  <div>
+    <strong>Melhor cruzeiro com jantar: a minha escolha</strong>
+    <p>O que eu reservaria depois de testar os 5 melhores</p>
+  </div>
+</a>
+<a class="ltt-mega-item" href="/seine-river-cruises-paris">
+<span class="ltt-mega-icon">🗼</span>
+<div>
+<strong>Cruzeiros turísticos em Paris</strong>
+<p>Os melhores passeios de dia e iluminações</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/seine-river-cruise-review">
+  <span class="ltt-mega-icon">🏆</span>
+  <div>
+    <strong>Melhor cruzeiro no Sena: a minha escolha</strong>
+    <p>O que eu reservaria depois de testar os 5 melhores</p>
+  </div>
+</a>
+<a class="ltt-mega-item" href="/private-cruises-paris">
+  <span class="ltt-mega-icon">🛥️</span>
+  <div>
+    <strong>Cruzeiros privados no Sena</strong>
+    <p>O seu próprio barco, desde €399 para até 4</p>
+  </div>
+</a>
+<a class="ltt-mega-item" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">
+<span class="ltt-mega-icon">⚖️</span>
+<div>
+<strong>Mouches vs. Parisiens</strong>
+<p>Comparação frente a frente de cruzeiros com jantar</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/paris-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>Estatísticas de turismo de Paris</strong>
+<p>Chegadas, noites e gastos oficiais</p>
+</div>
+</a>
+</div>
+<div class="ltt-mega-col">
+<div class="ltt-mega-head">VIAS NAVEGÁVEIS DA EUROPA</div>
+<a class="ltt-mega-item" href="/canal-cruises-amsterdam">
+<span class="ltt-mega-icon">🌷</span>
+<div>
+<strong>Cruzeiros nos canais de Amesterdão</strong>
+<p>Barcos abertos e salões clássicos</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/best-canal-cruise-amsterdam">
+<span class="ltt-mega-icon">🏆</span>
+<div>
+<strong>Melhor cruzeiro nos canais: a minha escolha</strong>
+<p>O que eu reservaria depois de testar os 5 melhores</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/amsterdam-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>Estatísticas de turismo de Amesterdão</strong>
+<p>Dados oficiais de visitantes e taxas do CBS</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/thames-river-cruises-london">
+<span class="ltt-mega-icon">🇬🇧</span>
+<div>
+<strong>Cruzeiros no Tamisa em Londres</strong>
+<p>Passeios turísticos, jantares e lanchas rápidas</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/best-thames-cruise-london">
+<span class="ltt-mega-icon">🏆</span>
+<div>
+<strong>Melhor cruzeiro no Tamisa: a minha escolha</strong>
+<p>O que eu reservaria depois de testar os 5 melhores</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/london-tourism-statistics">
+<span class="ltt-mega-icon">📊</span>
+<div>
+<strong>Estatísticas de turismo de Londres</strong>
+<p>Visitas e gastos oficiais do ONS</p>
+</div>
+</a>
+<a class="ltt-mega-item" href="/douro-river-cruises-porto">
+<span class="ltt-mega-icon">🇵🇹</span>
+<div>
+<strong>Cruzeiros no Douro no Porto</strong>
+<p>Seis pontes, barcos ao pôr do sol e Vale do Douro</p>
+</div>
+</a>
+</div>
+</div>
+</div>
+<a class="ltt-nav-link" href="/dinner-cruises-paris">Cruzeiros com jantar</a>
+<a class="ltt-nav-link" href="/seine-river-cruises-paris">Cruzeiros turísticos</a>
+<a class="ltt-nav-link" href="/about">Sobre</a>
+<a class="ltt-nav-link" href="/contact">Contacto</a>
+</nav>
+<div class="ltt-nav-right">
+<button aria-label="Pesquisar" class="ltt-search-btn" data-ltt-search="" title="Pesquisar" type="button"><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="17"><circle cx="11" cy="11" r="7"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg></button>
+<!-- DESKTOP LANGUAGE SWITCHER -->
+<div class="ltt-lang-trigger" id="lttLangTrigger">
+<button aria-expanded="false" aria-haspopup="true" class="ltt-lang-btn" id="lttLangBtn" onclick="window.lttToggleLangDropdown()" type="button">
+<svg class="ltt-lang-globe" fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="13">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="2" x2="22" y1="12" y2="12"></line>
+<path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+<span class="ltt-lang-code" id="lttActiveLangLabel">PT</span>
+<svg class="ltt-lang-chevron" fill="none" height="10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="10">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</button>
+<div aria-label="Selecionar idioma" class="ltt-lang-dropdown" id="lttLangDropdown" role="menu">
+<div class="ltt-lang-dropdown-header">
+<span>Selecionar idioma</span>
+<span style="font-size:9px; color:#10b981; font-weight:800;">● 10 DISPONÍVEIS</span>
+</div>
+<div class="ltt-lang-grid-menu">
+<a class="ltt-lang-item" data-lang="en" href="/" role="menuitem">
+<span class="lang-native">English</span>
+<span class="lang-code-tag">EN</span>
+</a>
+<a class="ltt-lang-item" data-lang="fr" href="/fr" role="menuitem">
+<span class="lang-native">Français</span>
+<span class="lang-code-tag">FR</span>
+</a>
+<a class="ltt-lang-item" data-lang="de" href="/de" role="menuitem">
+<span class="lang-native">Deutsch</span>
+<span class="lang-code-tag">DE</span>
+</a>
+<a class="ltt-lang-item" data-lang="es" href="/es" role="menuitem">
+<span class="lang-native">Español</span>
+<span class="lang-code-tag">ES</span>
+</a>
+<a class="ltt-lang-item" data-lang="it" href="/it" role="menuitem">
+<span class="lang-native">Italiano</span>
+<span class="lang-code-tag">IT</span>
+</a>
+<a class="ltt-lang-item" data-lang="nl" href="/nl" role="menuitem">
+<span class="lang-native">Nederlands</span>
+<span class="lang-code-tag">NL</span>
+</a>
+<a class="ltt-lang-item" data-lang="pl" href="/pl" role="menuitem">
+<span class="lang-native">Polski</span>
+<span class="lang-code-tag">PL</span>
+</a>
+<a class="ltt-lang-item" data-lang="ro" href="/ro" role="menuitem">
+<span class="lang-native">Română</span>
+<span class="lang-code-tag">RO</span>
+</a>
+<a class="ltt-lang-item current" data-lang="pt" href="/pt" role="menuitem">
+<span class="lang-native">Português</span>
+<span class="lang-code-tag">PT</span>
+</a>
+<a class="ltt-lang-item" data-lang="ja" href="/ja" role="menuitem" style="grid-column: span 2;">
+<span class="lang-native">日本語 (Japanese)</span>
+<span class="lang-code-tag">JA</span>
+</a>
+</div>
+</div>
+</div>
+<button aria-controls="lttMobileDrawer" aria-expanded="false" aria-label="Abrir menu" class="ltt-hamburger" id="lttNavToggle" type="button">
+<span class="ltt-hamburger-bar"></span>
+<span class="ltt-hamburger-bar"></span>
+<span class="ltt-hamburger-bar"></span>
+</button>
+</div>
+</div>
+<div aria-hidden="true" inert class="ltt-mobile-drawer" id="lttMobileDrawer">
+<div class="ltt-drawer-content">
+<div class="ltt-mobile-section">
+<div class="ltt-mobile-label">Destinos e guias</div>
+<a class="ltt-mobile-link" href="/dinner-cruises-paris">
+<span>🍷 Cruzeiros com jantar em Paris</span>
+<span style="font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;">A MELHOR ESCOLHA</span>
+</a>
+<a class="ltt-mobile-link" href="/best-dinner-cruise-paris">
+  <span>🥂 Melhor cruzeiro com jantar: a minha escolha</span>
+</a>
+<a class="ltt-mobile-link" href="/seine-river-cruises-paris">
+<span>🗼 Cruzeiros turísticos em Paris</span>
+</a>
+<a class="ltt-mobile-link" href="/seine-river-cruise-review">
+<span>🏆 Melhor cruzeiro no Sena: a minha escolha</span>
+</a>
+<a class="ltt-mobile-link" href="/private-cruises-paris">
+<span>🛥️ Cruzeiros privados no Sena</span>
+</a>
+<a class="ltt-mobile-link" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">
+<span>⚖️ Mouches vs. Parisiens</span>
+</a>
+<a class="ltt-mobile-link" href="/paris-tourism-statistics">
+<span>📊 Estatísticas de turismo de Paris</span>
+</a>
+<a class="ltt-mobile-link" href="/canal-cruises-amsterdam">
+<span>🌷 Cruzeiros nos canais de Amesterdão</span>
+</a>
+<a class="ltt-mobile-link" href="/best-canal-cruise-amsterdam">
+<span>🏆 Melhor cruzeiro nos canais: a minha escolha</span>
+</a>
+<a class="ltt-mobile-link" href="/amsterdam-tourism-statistics">
+<span>📊 Estatísticas de turismo de Amesterdão</span>
+</a>
+<a class="ltt-mobile-link" href="/thames-river-cruises-london">
+<span>🇬🇧 Cruzeiros no Tamisa em Londres</span>
+</a>
+<a class="ltt-mobile-link" href="/best-thames-cruise-london">
+<span>🏆 Melhor cruzeiro no Tamisa: a minha escolha</span>
+</a>
+<a class="ltt-mobile-link" href="/london-tourism-statistics">
+<span>📊 Estatísticas de turismo de Londres</span>
+</a>
+<a class="ltt-mobile-link" href="/douro-river-cruises-porto">
+<span>🇵🇹 Cruzeiros no Douro no Porto</span>
+</a>
+</div>
+<div class="ltt-mobile-section">
+<div class="ltt-mobile-label">Editorial</div>
+<a class="ltt-mobile-link" href="/about">
+<span>📖 Sobre e manifesto</span>
+</a>
+<a class="ltt-mobile-link" href="/contact">
+<span>✉️ Contactar a redação</span>
+</a>
+</div>
+<!-- MOBILE DRAWER LANGUAGE SECTION -->
+<div class="ltt-mobile-lang-box">
+<div class="ltt-mobile-lang-title">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="2" x2="22" y1="12" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path></svg>
+<span>Idioma</span>
+</div>
+<div class="ltt-mobile-lang-chips">
+<a class="ltt-mobile-lang-chip" data-m-lang="en" href="/">
+<span class="chip-code">EN</span>
+<span class="chip-name">English</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="fr" href="/fr">
+<span class="chip-code">FR</span>
+<span class="chip-name">Français</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="de" href="/de">
+<span class="chip-code">DE</span>
+<span class="chip-name">Deutsch</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="es" href="/es">
+<span class="chip-code">ES</span>
+<span class="chip-name">Español</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="it" href="/it">
+<span class="chip-code">IT</span>
+<span class="chip-name">Italiano</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="nl" href="/nl">
+<span class="chip-code">NL</span>
+<span class="chip-name">Nederlands</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="pl" href="/pl">
+<span class="chip-code">PL</span>
+<span class="chip-name">Polski</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="ro" href="/ro">
+<span class="chip-code">RO</span>
+<span class="chip-name">Română</span>
+</a>
+<a class="ltt-mobile-lang-chip current" data-m-lang="pt" href="/pt">
+<span class="chip-code">PT</span>
+<span class="chip-name">Português</span>
+</a>
+<a class="ltt-mobile-lang-chip" data-m-lang="ja" href="/ja">
+<span class="chip-code">JA</span>
+<span class="chip-name">日本語</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<style id="ltt-search-btn-styles">
+.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}
+.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}
+.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}
+@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}
+@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}
+</style>
+<script defer src="/js/site-search.js?v=20261113a"></script>
+</header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <style id="hp-hero-compact">
+.ltt-home-hero{padding:40px 20px 34px!important}
+.ltt-home-hero .ltt-hero-eyebrow{margin-bottom:14px!important;font-size:11px!important;padding:5px 12px!important}
+.ltt-home-hero h1.ltt-hero-title{font-size:clamp(26px,4.2vw,42px)!important;line-height:1.15!important;margin:0 auto 12px!important;max-width:880px}
+.ltt-home-hero .hp-hero-sub{font-size:16px!important;line-height:1.55!important;color:rgba(255,255,255,.82)!important;max-width:660px;margin:0 auto 16px!important}
+.hp-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;list-style:none;margin:0 auto 20px;padding:0;font-size:13px;font-weight:600;color:#cbd5e1}
+.hp-trust li::before{content:"\2713";color:#dfa732;font-weight:800;margin-right:6px}
+.ltt-home-hero .ltt-quick-links{gap:8px!important}
+.ltt-home-hero .ltt-quick-btn{font-size:13px!important;padding:7px 14px!important}
+@media (max-width:700px){
+.ltt-home-hero{padding:26px 16px 22px!important}
+.ltt-home-hero .ltt-hero-eyebrow{font-size:10px!important;letter-spacing:1px!important;margin-bottom:10px!important}
+.ltt-home-hero .hp-hero-sub{font-size:15px!important;margin-bottom:12px!important}
+.hp-trust{font-size:12px;gap:4px 12px;margin-bottom:14px}
+.ltt-home-hero .ltt-quick-links{flex-wrap:nowrap!important;justify-content:flex-start!important;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:0 16px 2px}
+.ltt-home-hero .ltt-quick-links::-webkit-scrollbar{display:none}
+.ltt-home-hero .ltt-quick-btn{flex:0 0 auto;white-space:nowrap}
+}
+</style>
+<section class="ltt-home-hero">
+      <div class="ltt-hero-container">
+        <div class="ltt-hero-eyebrow">🕵️ Análises independentes de cruzeiros fluviais • 2026</div>
+        <h1 class="ltt-hero-title">
+          Análises independentes de cruzeiros fluviais, testadas no terreno, para <span class="ltt-gold-text">viajantes exigentes.</span>
+        </h1>
+        <p class="ltt-hero-subtitle hp-hero-sub">Pagamos os nossos bilhetes, reservamos de forma anónima e testamos cada barco nós mesmos. Sem passes patrocinados, só factos verificados e fotos nossas.</p>
+
+        <ul class="hp-trust"><li>Mais de 40 cruzeiros testados</li><li>100% reservas anónimas</li><li>Zero ofertas patrocinadas</li><li>Paris, Amesterdão, Londres, Porto</li></ul>
+
+        <!-- Quick Jump Links -->
+        <div class="ltt-quick-links">
+          <a class="ltt-quick-btn" href="/paris-cruise-quiz">🧭 Que cruzeiro em Paris? Quiz</a>
+          <a class="ltt-quick-btn" href="/dinner-cruises-paris">🍷 Cruzeiros com jantar em Paris</a>
+          <a class="ltt-quick-btn" href="/seine-river-cruises-paris">🗼 Passeios em Paris</a>
+          <a class="ltt-quick-btn" href="/private-cruises-paris">🛥️ Barcos privados</a>
+          <a class="ltt-quick-btn" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">⚖️ Mouches vs Parisiens</a>
+          <a class="ltt-quick-btn" href="/canal-cruises-amsterdam">🌷 Canais de Amesterdão</a>
+          <a class="ltt-quick-btn" href="/thames-river-cruises-london">🇬🇧 Tamisa em Londres</a>
+          <a class="ltt-quick-btn" href="/douro-river-cruises-porto">🇵🇹 Douro no Porto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLAGSHIP GUIDES SECTION -->
+    <section class="ltt-section" id="guides">
+      <div class="ltt-container">
+        <div class="ltt-section-header">
+          <div class="ltt-section-eyebrow">GUIAS DE COMPRA COMPLETOS</div>
+          <h2 class="ltt-section-title">Os nossos principais guias editoriais</h2>
+          <p class="ltt-section-subtitle">Cada ranking assenta em degustações na primeira pessoa, comparações de lugares lado a lado e dados de reservas verificados.</p>
+        </div>
+
+        <!-- Destination Filter Tabs -->
+        <style id="hp-guides-css">
+.hp-guides-group{margin:0 0 22px}
+.hp-guides-gh{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9f6e0d;font-weight:800;margin:0 0 10px}
+.hp-guides{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:12px;list-style:none;margin:0;padding:0}
+.hp-guides>li{min-width:0}
+.hp-guide{min-width:0;display:flex;align-items:center;gap:14px;background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:10px 14px 10px 10px;text-decoration:none!important;color:inherit;transition:border-color .2s,box-shadow .2s}
+.hp-guide:hover,.hp-guide:focus-visible{border-color:#dfa732;box-shadow:0 6px 18px -10px rgba(10,25,47,.35);outline:none}
+.hp-guide img{flex:0 0 auto;width:84px;height:84px;border-radius:10px;object-fit:cover;background:#f1f5f9}
+.hp-guide-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.hp-guide-k{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#64748b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hp-guides .hp-guide h3{font-family:'Playfair Display',Georgia,serif;font-size:17px!important;line-height:1.3!important;font-weight:700;color:#0a192f;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hp-guide-m{font-size:13px;font-weight:700;color:#334155}
+.hp-guide-go{flex:0 0 auto;font-size:20px;line-height:1;color:#b88214}
+@media (max-width:420px){.hp-guides{grid-template-columns:1fr}.hp-guide img{width:72px;height:72px}.hp-guides .hp-guide h3{font-size:16px!important}}
+</style><ul class="hp-guides"><li data-until="2027-01-01T00:00:00+01:00"><a class="hp-guide" href="/new-years-eve-cruises-paris"><img alt="Cruzeiro de Passagem de Ano no Sena" loading="lazy" decoding="async" src="/assets/nye-paris-2026/paris-new-years-eve-cruise-bateaux-parisiens-01.avif" width="64" height="64"/><span class="hp-guide-txt"><h3>Os 5 melhores cruzeiros de Passagem de Ano em Paris (2026/27)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/paris-cruise-quiz"><img alt="Barco turístico no Sena perto da Torre Eiffel" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp" width="64" height="64" style="object-position:62% 50%"/><span class="hp-guide-txt"><h3>Quiz: que cruzeiro no Sena em Paris é o ideal para si?</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/dinner-cruises-paris"><img alt="Barco de vidro de cruzeiro com jantar no Sena em Paris" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/65562265e60663a885093897_paris-dinner-cruises-featured-image.webp" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 10 melhores cruzeiros com jantar no Sena em Paris (2026, classificados e testados)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/seine-river-cruises-paris"><img alt="Barco de cruzeiro turístico no Sena a passar junto à Torre Eiffel" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 10 melhores cruzeiros no Sena em Paris (2026, classificados e testados)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/private-cruises-paris"><img alt="Família a brindar num barco privado em frente à Torre Eiffel" loading="lazy" decoding="async" src="/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-01.avif" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 6 melhores cruzeiros privados em Paris (2026)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison"><img alt="Comparação lado a lado Bateaux Mouches vs Bateaux Parisiens" loading="lazy" decoding="async" src="/assets/mouches-vs-parisiens-duel-card.webp" width="84" height="84"/><span class="hp-guide-txt"><h3>Bateaux Mouches vs. Bateaux Parisiens: cruzeiro com jantar</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/canal-cruises-amsterdam"><img alt="Barco de cruzeiro nos canais de Amesterdão a passar por casas e pontes históricas" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5237222689efacce475b_best-amsterdam-canal-cruises-featured-image.webp" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 10 melhores cruzeiros nos canais de Amesterdão (2026, classificados e testados)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/thames-river-cruises-london"><img alt="Cruzeiro no Tamisa em Londres a passar pela Ponte de Westminster e o Big Ben" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5269b59a73ed77082a40_best-london-river-cruises-featured-image.webp" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 10 melhores cruzeiros no Tamisa em Londres (testados pessoalmente)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/douro-river-cruises-porto"><img alt="Iate no Douro sob a ponte Dom Luís I ao pôr do sol" loading="lazy" decoding="async" src="/assets/douro-river-cruises-porto/douro-river-cruise-porto-atalaia-gold-yacht-01.avif" width="84" height="84"/><span class="hp-guide-txt"><h3>Os 10 melhores cruzeiros no Rio Douro no Porto (2026)</h3></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li></ul><style id="hp-rows-only">
+.hp-guides .hp-guide{padding:8px 12px 8px 8px;gap:12px;min-height:80px}
+.hp-guides .hp-guide img,.hp-guide-ico{width:64px!important;height:64px!important;border-radius:10px;flex:0 0 auto}
+.hp-guide-ico{display:flex;align-items:center;justify-content:center;font-size:30px;background:linear-gradient(135deg,#fef3c7,#fde68a)}
+.hp-guides .hp-guide h3{font-size:16px!important}
+.hp-guide-d{font-size:13px;line-height:1.4;color:#64748b;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+</style>
+<script>(function(){try{var n=new Date();document.querySelectorAll('.hp-guides li[data-until]').forEach(function(li){if(n>=new Date(li.getAttribute('data-until')))li.remove();});}catch(_){}})();</script>
+      </div>
+    </section>
+
+    <!-- TESTING MANIFESTO HIGHLIGHT -->
+    <section class="ltt-section" style="background: var(--slate-100); border-top: 1px solid var(--slate-200); border-bottom: 1px solid var(--slate-200);">
+      <div class="ltt-container">
+        <div class="ltt-section-header">
+          <div class="ltt-section-eyebrow">ÉTICA EDITORIAL E METODOLOGIA</div>
+          <h2 class="ltt-section-title">Porque existe a The Cruise Detective</h2>
+          <p class="ltt-section-subtitle">As férias não têm política de devolução. Quando gasta €300 num cruzeiro com jantar de aniversário, <strong>não pode comprar a sua noite de volta</strong>.</p>
+        </div>
+
+        <div class="ltt-manifesto-grid">
+          <div class="ltt-manifesto-card">
+            <div class="ltt-manifesto-icon-wrap">
+              <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3>Testes 100% anónimos</h3>
+            <p>
+              <strong>Nunca contactamos os operadores antes</strong> nem pedimos convites de imprensa. Reservamos com cartões pessoais, esperamos nas filas normais de embarque e comemos exatamente o que é servido aos passageiros pagantes.
+            </p>
+          </div>
+          <div class="ltt-manifesto-card">
+            <div class="ltt-manifesto-icon-wrap">
+              <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
+            </div>
+            <h3>Avaliação sincera de pratos e mesas</h3>
+            <p>
+              Se uma dourada chega morna ou uma mesa fica encostada à casa das máquinas, <strong>dizemo-lo claramente</strong>. Avaliamos a qualidade dos pratos, o serviço de vinho e o volume do piano sem concessões.
+            </p>
+          </div>
+          <div class="ltt-manifesto-card">
+            <div class="ltt-manifesto-icon-wrap">
+              <svg fill="none" height="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="22"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <h3>Rankings sem pagamento</h3>
+            <p>
+              <strong>Nenhum operador pode comprar o primeiro lugar</strong> nem patrocinar uma análise favorável. Todos os links de afiliado usam um rastreio de parceiro transparente que <strong>iguala ou melhora os preços diretos no cais</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px;">
+          <a class="ltt-guide-btn" href="/about">Leia o nosso Sobre e metodologia completos →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTHOR SECTION -->
+    <section class="ltt-author-section">
+      <div class="ltt-container">
+        <div class="ltt-author-box">
+          <div class="ltt-author-avatar-wrap">
+            <img alt="Adam Dimitrov, fundador e detetive-chefe de cruzeiros" class="ltt-author-avatar" height="104" loading="lazy" src="/assets/adam-dimitrov.webp" width="104"/>
+          </div>
+          <div class="ltt-author-content">
+            <h3 class="ltt-author-name">Adam Dimitrov</h3>
+            <div class="ltt-author-role">Fundador e detetive-chefe de cruzeiros</div>
+            <div class="ltt-vbadge-row">
+              <span class="ltt-vbadge">✓ Avaliações anónimas de cruzeiros</span>
+              <span class="ltt-vbadge">✓ Mais de 40 barcos avaliados</span>
+              <span class="ltt-vbadge">✓ Paris • Amesterdão • Londres</span>
+            </div>
+            <p class="ltt-author-bio">
+              Adam Dimitrov fundou a The Cruise Detective para oferecer avaliações objetivas e em primeira mão de cruzeiros fluviais na Europa. <strong>Depois de testar dezenas de barcos</strong> em Paris, Amesterdão, Londres e Budapeste, avalia as vistas dos lugares, a qualidade das refeições e a logística de embarque para que os viajantes saibam exatamente o que esperar antes de reservar.
+            </p>
+            <div class="ltt-author-links">
+              <a href="/about">Saiba mais sobre a nossa metodologia de testes anónimos e a nossa história →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER ARTICLES & RESEARCH -->
+    <section class="ltt-section" style="padding: 44px 0 48px; background: #ffffff; border-top: 1px solid var(--slate-200);">
+      <div class="ltt-container">
+        <div class="ltt-section-header" style="margin-bottom: 16px; text-align: left; max-width: none;">
+          <div class="ltt-section-eyebrow">INVESTIGAÇÃO E REFERÊNCIAS</div>
+          <h2 class="ltt-section-title" style="font-size: 22px; margin-bottom: 6px;">Outros artigos</h2>
+        </div>
+
+        <ul class="hp-guides"><li><a class="hp-guide" href="/paris-tourism-statistics"><img alt="O rio Sena em Paris" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo de Paris (2026)</h3><span class="hp-guide-d">18,49 milhões de chegadas a hotéis, sazonalidade mensal e principais países de origem.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/france-tourism-statistics"><img alt="Mont-Saint-Michel na Normandia, França" loading="lazy" decoding="async" src="/assets/tourism-stats/france-mont-saint-michel.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo de França (2026)</h3><span class="hp-guide-d">189,3 milhões de entradas, 471,7 milhões de dormidas e €77,5 mil milhões em receitas turísticas.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/eiffel-tower-visitor-statistics"><img alt="A Torre Eiffel vista do Sena" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5108d54edc5c99f86b14_best-river-cruises-paris-featured-image.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de visitantes da Torre Eiffel (2026)</h3><span class="hp-guide-d">6,74 milhões de visitantes em 2025, visitantes por dia, nacionalidades e receita por visitante.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/amsterdam-tourism-statistics"><img alt="Canais de Amesterdão" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5237222689efacce475b_best-amsterdam-canal-cruises-featured-image.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo de Amesterdão (2026)</h3><span class="hp-guide-d">9,55 milhões de hóspedes em hotéis, receita da taxa turística e mercados de origem.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/netherlands-tourism-statistics"><img alt="Moinhos de Kinderdijk, Países Baixos" loading="lazy" decoding="async" src="/assets/tourism-stats/netherlands-kinderdijk-windmills.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo dos Países Baixos (2026)</h3><span class="hp-guide-d">52,1 milhões de entradas, 146,5 milhões de dormidas, sazonalidade e províncias.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/london-tourism-statistics"><img alt="O Tamisa em Londres" loading="lazy" decoding="async" src="/assets/cdn/652d0405192ba076b04f74a3/656b5269b59a73ed77082a40_best-london-river-cruises-featured-image.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo de Londres (2026)</h3><span class="hp-guide-d">22,0 milhões de visitas do estrangeiro, £18,0 mil milhões de gastos e duração da estadia.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li><li><a class="hp-guide" href="/uk-tourism-statistics"><img alt="Stonehenge em Wiltshire, Inglaterra" loading="lazy" decoding="async" src="/assets/tourism-stats/uk-stonehenge.webp" width="64" height="64"/><span class="hp-guide-txt"><h3>Estatísticas de turismo do Reino Unido (2026)</h3><span class="hp-guide-d">40,8 milhões de visitas do estrangeiro, £29,8 mil milhões de gastos e o peso de Londres.</span></span><span class="hp-guide-go" aria-hidden="true">›</span></a></li></ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-dark" role="contentinfo">
+<div class="footer-section">
+<div class="container-21">
+<div class="w-layout-grid footer-grid-2">
+<div class="logo-wrap">
+<p class="footer-logo-paragraph paragraph-17 paragraph-18">
+<a class="footer-logo-text-link" href="/" style="display: inline-flex; align-items: center; gap: 10px;">
+<img alt="Logótipo da THE CRUISE DETECTIVE" height="28" src="/assets/cruise_detective_logo.png" style="border-radius: 50%; display: inline-block; flex-shrink: 0;" width="28"/>
+<span>THE CRUISE DETECTIVE</span>
+</a>
+</p>
+<p class="footer-paragraph">TheCruiseDetective.com é o seu guia independente, testado no terreno, para escolher os melhores cruzeiros fluviais, nos canais e com jantar na Europa.</p>
+</div>
+<div class="w-layout-grid footer-links-grid">
+<div class="footer-link-column">
+<div class="footer-link-title">Guias principais</div>
+<a class="footer-link-3" href="/seine-river-cruises-paris">Os 10 melhores cruzeiros no Sena em Paris</a>
+<a class="footer-link-3" href="/dinner-cruises-paris">Os melhores cruzeiros com jantar no Sena em Paris</a>
+<a class="footer-link-3" href="/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison">Bateaux Mouches vs. Bateaux Parisiens</a>
+<a class="footer-link-3" href="/canal-cruises-amsterdam">Os melhores cruzeiros nos canais de Amesterdão</a>
+<a class="footer-link-3" href="/thames-river-cruises-london">Os melhores cruzeiros no Tamisa em Londres</a>
+<a class="footer-link-3" href="/douro-river-cruises-porto">Os melhores cruzeiros no Rio Douro no Porto</a>
+</div>
+<div class="footer-link-column">
+<div class="footer-link-title">Empresa e confiança</div>
+<a class="footer-link-3" href="/about">Sobre e manifesto</a>
+<a class="footer-link-3" href="/about#testing-protocol">Testes anónimos no terreno</a>
+<a class="footer-link-3" href="/contact">Contacto</a>
+</div>
+</div>
+</div>
+<div class="grey-divider"></div>
+<div class="legal-wrapper">
+<div class="legal-text">© 2026 TheCruiseDetective.com. Todos os direitos reservados. · <a class="cd-legal-link" href="/privacy-policy" style="color: inherit; text-decoration: underline;">Política de privacidade</a> · <a class="cd-legal-link" href="/terms-of-service" style="color: inherit; text-decoration: underline;">Termos de serviço</a></div>
+<div class="legal-text" style="color: rgba(255,255,255,0.45); font-size: 13px;">Testado pessoalmente de forma anónima • Análises editoriais independentes</div>
+</div>
+</div>
+</div>
+</footer>
+
+  <!-- CLIENT RUNTIME CONTROLLER -->
+  <script>
+    (function() {
+      'use strict';
+
+      // 1. Navigation Header & Mobile Drawer
+      var toggle = document.getElementById('lttNavToggle');
+      var drawer = document.getElementById('lttMobileDrawer');
+      var dropdown = document.getElementById('lttExploreDropdown');
+      var dropBtn = dropdown ? dropdown.querySelector('.ltt-dropdown-btn') : null;
+
+      if (toggle && drawer) {
+        toggle.addEventListener('click', function(e) {
+          e.stopPropagation();
+          var isOpen = drawer.classList.contains('is-open');
+          if (isOpen) {
+            drawer.classList.remove('is-open');
+            toggle.classList.remove('is-active');
+            toggle.setAttribute('aria-expanded', 'false');
+            drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+          } else {
+            drawer.classList.add('is-open');
+            toggle.classList.add('is-active');
+            toggle.setAttribute('aria-expanded', 'true');
+            drawer.setAttribute('aria-hidden', 'false');
+          drawer.removeAttribute('inert');
+          }
+        });
+
+        drawer.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            drawer.classList.remove('is-open');
+            toggle.classList.remove('is-active');
+            toggle.setAttribute('aria-expanded', 'false');
+            drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+          });
+        });
+      }
+
+      if (dropdown && !dropdown._bound) {
+        dropdown._bound = true;
+        var closeTimeout = null;
+
+        function openMenu() {
+          if (closeTimeout) {
+            clearTimeout(closeTimeout);
+            closeTimeout = null;
+          }
+          dropdown.classList.add('is-open');
+          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'true');
+        }
+
+        function closeMenuWithGrace(delay) {
+          if (closeTimeout) clearTimeout(closeTimeout);
+          closeTimeout = setTimeout(function() {
+            dropdown.classList.remove('is-open');
+            if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+          }, delay !== undefined ? delay : 350);
+        }
+
+        dropdown.addEventListener('mouseenter', openMenu);
+        dropdown.addEventListener('mouseleave', function() {
+          closeMenuWithGrace(350);
+        });
+
+        if (dropBtn) {
+          dropBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (dropdown.classList.contains('is-open')) {
+              closeMenuWithGrace(0);
+            } else {
+              openMenu();
+            }
+          });
+        }
+      }
+
+      document.addEventListener('click', function(e) {
+        if (drawer && drawer.classList.contains('is-open') && !drawer.contains(e.target) && (!toggle || !toggle.contains(e.target))) {
+          drawer.classList.remove('is-open');
+          if (toggle) {
+            toggle.classList.remove('is-active');
+            toggle.setAttribute('aria-expanded', 'false');
+          }
+          drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+        }
+        if (dropdown && dropdown.classList.contains('is-open') && !dropdown.contains(e.target)) {
+          dropdown.classList.remove('is-open');
+          if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          if (drawer && drawer.classList.contains('is-open')) {
+            drawer.classList.remove('is-open');
+            if (toggle) {
+              toggle.classList.remove('is-active');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+            drawer.setAttribute('aria-hidden', 'true');
+          drawer.setAttribute('inert', '');
+          }
+          if (dropdown && dropdown.classList.contains('is-open')) {
+            dropdown.classList.remove('is-open');
+            if (dropBtn) dropBtn.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+
+      // 2. Destination Filter Tabs
+      window.filterDestGuides = function(dest, btn) {
+        var buttons = document.querySelectorAll('.ltt-dest-btn');
+        buttons.forEach(function(b) { b.classList.remove('active'); });
+        if (btn) btn.classList.add('active');
+
+        var featured = document.getElementById('featured-guide');
+        var cards = document.querySelectorAll('.ltt-guide-card');
+
+        if (featured) {
+          var featDest = featured.getAttribute('data-destination') || '';
+          if (dest === 'all' || featDest === dest) {
+            featured.style.display = 'grid';
+          } else {
+            featured.style.display = 'none';
+          }
+        }
+
+        cards.forEach(function(card) {
+          var cardDest = card.getAttribute('data-destination') || '';
+          if (dest === 'all' || cardDest === dest) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      };
+
+    })();
+  </script>
+  <script defer src="/webflow-sync.js?v=20261111"></script>
+<script id="ltt-language-switcher-logic">
+(function() {
+  window.lttToggleLangDropdown = function() {
+    var dd = document.getElementById('lttLangDropdown');
+    var btn = document.getElementById('lttLangBtn');
+    if (!dd || !btn) return;
+    var isOpen = dd.classList.contains('show');
+    if (isOpen) {
+      dd.classList.remove('show');
+      btn.classList.remove('is-active');
+      btn.setAttribute('aria-expanded', 'false');
+    } else {
+      dd.classList.add('show');
+      btn.classList.add('is-active');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  };
+
+  document.addEventListener('click', function(e) {
+    var trigger = document.getElementById('lttLangTrigger');
+    var dd = document.getElementById('lttLangDropdown');
+    var btn = document.getElementById('lttLangBtn');
+    if (trigger && dd && !trigger.contains(e.target)) {
+      dd.classList.remove('show');
+      if (btn) {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      var dd = document.getElementById('lttLangDropdown');
+      var btn = document.getElementById('lttLangBtn');
+      if (dd && dd.classList.contains('show')) {
+        dd.classList.remove('show');
+        if (btn) {
+          btn.classList.remove('is-active');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>
