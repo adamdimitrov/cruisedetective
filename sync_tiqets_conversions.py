@@ -54,7 +54,7 @@ if os.path.exists(ENV_PATH):
 
 # Environment variables (e.g. GitHub Actions secrets) override .env values.
 for _k, _v in os.environ.items():
-    if _v and (_k.startswith(('GOOGLE_ADS_', 'GMAIL_', 'TIQETS_')) or _k == 'ALERT_EMAIL'):
+    if _v and (_k.startswith(('GOOGLE_ADS_', 'GMAIL_', 'TIQETS_', 'GA4_')) or _k == 'ALERT_EMAIL'):
         env_vars[_k] = _v
 
 client_id = env_vars.get('GOOGLE_ADS_CLIENT_ID', '')
@@ -63,6 +63,14 @@ refresh_token = env_vars.get('GOOGLE_ADS_REFRESH_TOKEN', '')
 customer_id = env_vars.get('GOOGLE_ADS_CUSTOMER_ID', '').replace('-', '')
 conversion_action_id = env_vars.get('GOOGLE_ADS_CONVERSION_ACTION_ID', '7715980036')
 tiqets_api_key = env_vars.get('TIQETS_API_KEY', '')
+
+# GA4 Measurement Protocol: every Tiqets sale (ad + organic) becomes a GA4
+# "purchase", so Reports snapshot Purchases / Purchase revenue / Best sellers fill.
+# Revenue = our commission (what we earn), item price = gross ticket value.
+ga4_measurement_id = env_vars.get('GA4_MEASUREMENT_ID', 'G-RN34XFKPQ6')
+ga4_api_secret = env_vars.get('GA4_API_SECRET', '')
+# MP only backdates events up to 72h, and older orders must not flood GA4.
+GA4_PURCHASES_SINCE = '2026-11-15T00:00:00'
 
 alert_email = env_vars.get('ALERT_EMAIL', 'adam.dimitrov.business@gmail.com')
 gmail_user = env_vars.get('GMAIL_USER', 'adam.dimitrov.business@gmail.com')
@@ -361,7 +369,85 @@ def upload_to_data_manager(order, click_info, access_token):
         return False, err
 
 
+def ga4_purchase_payload(order, attribution, now=None):
+    """GA4 Measurement Protocol body for one Tiqets order, or None if too old."""
+    order_id = str(order.get('order_reference_id'))
+    created = (order.get('order_created_timestamp') or '')[:19]
+    now = now or datetime.utcnow()
+    ts = None
+    try:
+        created_dt = datetime.strptime(created, '%Y-%m-%dT%H:%M:%S')
+        age_h = (now - created_dt).total_seconds() / 3600
+        if age_h > 71:
+            return None
+        if age_h >= 0:
+            ts = int((created_dt - datetime(1970, 1, 1)).total_seconds() * 1_000_000)
+    except ValueError:
+        pass
+
+    product_id = order.get('product_id')
+    gross = round(float(order.get('sale_order_value') or 0.0), 2)
+    commission = order.get('estimated_commission')
+    value = round(float(commission), 2) if commission is not None else gross
+    params = {
+        'transaction_id': order_id,
+        'currency': order.get('currency', 'EUR'),
+        'value': value,
+        'affiliation': 'Tiqets',
+        'affiliate_platform': 'Tiqets',
+        'traffic_source': attribution.get('source_label', ''),
+        'placement': attribution.get('placement', '') or '',
+        'items': [{
+            'item_id': f"tiqets:{product_id}",
+            'item_name': PRODUCT_NAMES.get(product_id, f"Tiqets Product #{product_id}"),
+            'item_brand': 'Tiqets',
+            'price': gross,
+            'quantity': 1,
+        }],
+    }
+    body = {
+        # Server-side sale: no browser client id, so a stable one per order.
+        'client_id': f"tiqets.{order_id}",
+        'non_personalized_ads': True,
+        'events': [{'name': 'purchase', 'params': params}],
+    }
+    if ts:
+        body['timestamp_micros'] = ts
+    return body
+
+
+def send_ga4_purchase(body):
+    url = ('https://www.google-analytics.com/mp/collect?'
+           + urllib.parse.urlencode({'measurement_id': ga4_measurement_id, 'api_secret': ga4_api_secret}))
+    req = urllib.request.Request(url, data=json.dumps(body).encode('utf-8'),
+                                 headers={'Content-Type': 'application/json'}, method='POST')
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return 200 <= resp.status < 300
+    except urllib.error.URLError as e:
+        print(f"[GA4] purchase send failed: {getattr(e, 'code', '')} {e}")
+        return False
+
+
+def sync_ga4_purchase(order, attribution):
+    if not ga4_api_secret:
+        return
+    order_id = str(order.get('order_reference_id'))
+    record = uploaded_orders.get(order_id, {})
+    created = (order.get('order_created_timestamp') or '')[:19]
+    if record.get('ga4_sent') or not created or created < GA4_PURCHASES_SINCE:
+        return
+    body = ga4_purchase_payload(order, attribution)
+    if body and send_ga4_purchase(body):
+        print("[GA4] purchase sent.")
+        record['ga4_sent'] = True
+        uploaded_orders[order_id] = record
+        save_state()
+
+
 def sync():
+    if not ga4_api_secret:
+        print("[GA4] GA4_API_SECRET not set: Tiqets sales are not sent to GA4.")
     orders = fetch_recent_tiqets_orders()
     print(f"Fetched {len(orders)} recent orders from Tiqets.")
     new_actions = 0
@@ -377,6 +463,7 @@ def sync():
             continue
 
         attribution = classify_ad_attribution(order)
+        sync_ga4_purchase(order, attribution)
         if not attribution['is_ad']:
             # Organic / SEO sale: no Google upload, just the booking alert (once).
             record = uploaded_orders.get(order_id, {})

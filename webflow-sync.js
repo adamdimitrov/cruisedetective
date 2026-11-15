@@ -365,3 +365,81 @@
         if (e.key === 'Enter') swap(e);
     }, true);
 })();
+
+// ==========================================
+// GA4 ecommerce: affiliate click = add_to_cart
+// Every click on a booking link (Tiqets, GetYourGuide, Viator, FareHarbor)
+// is sent to GA4 as add_to_cart with the cruise name, platform and card
+// price, so the Reports snapshot "Add to carts" / "Best sellers" and
+// Monetization > Ecommerce purchases show which cruises people try to book.
+// Tiqets sales come in server-side as GA4 purchase (api/tiqets-webhook.js).
+// ==========================================
+(function() {
+    var GA4_ID = 'G-RN34XFKPQ6';
+    var HOSTS = { 'tiqets.com': 'Tiqets', 'getyourguide.com': 'GetYourGuide', 'viator.com': 'Viator', 'fareharbor.com': 'FareHarbor' };
+    var CUR = { '€': 'EUR', '£': 'GBP', '$': 'USD' };
+    var lastKey = '', lastAt = 0;
+
+    function platformOf(href) {
+        var host;
+        try { host = new URL(href, location.href).hostname.toLowerCase(); } catch (e) { return null; }
+        for (var h in HOSTS) {
+            if (host === h || host.slice(-(h.length + 1)) === '.' + h) return HOSTS[h];
+        }
+        return null;
+    }
+
+    function realHref(a) {
+        // After the server-side click swap the href is /go/tiqets?u=<tiqets url>
+        var href = a.getAttribute('href') || '';
+        if (href.indexOf('/go/tiqets') === 0) {
+            try { return new URL(href, location.href).searchParams.get('u') || ''; } catch (e) { return ''; }
+        }
+        return a.href;
+    }
+
+    function clean(t) { return (t || '').replace(/\s+/g, ' ').trim().slice(0, 100); }
+
+    function onClick(e) {
+        var a = e.target && e.target.closest && e.target.closest('a[href]');
+        if (!a) return;
+        var href = realHref(a);
+        var platform = platformOf(href);
+        if (!platform) return;
+
+        var card = a.closest('.bpa-card, .bpa-details-card, [class*="card"]');
+        var titleEl = card && card.querySelector('.bpa-title, h2, h3, h4');
+        var name = clean(titleEl ? titleEl.textContent : '') || clean(a.textContent) || platform;
+        var priceEl = card && card.querySelector('.bpa-price, .bpa-details-price');
+        var m = (priceEl ? priceEl.textContent : '').match(/([€£$])\s*(\d+(?:[.,]\d{1,2})?)|(\d+(?:[.,]\d{1,2})?)\s*([€£$])/);
+        var price = m ? parseFloat((m[2] || m[3]).replace(',', '.')) : 0;
+        var currency = m ? CUR[m[1] || m[4]] : 'EUR';
+
+        // click + auxclick can both fire for one press: one event per link per 2s
+        var key = href + '|' + name;
+        if (key === lastKey && Date.now() - lastAt < 2000) return;
+        lastKey = key; lastAt = Date.now();
+
+        var slug = href.split('?')[0].split('/').filter(Boolean).pop() || name;
+        window.dataLayer = window.dataLayer || [];
+        var g = typeof window.gtag === 'function' ? window.gtag : function() { window.dataLayer.push(arguments); };
+        g('event', 'add_to_cart', {
+            send_to: GA4_ID,
+            currency: currency,
+            value: price,
+            affiliate_platform: platform,
+            transport_type: 'beacon',
+            items: [{
+                item_id: (platform.toLowerCase() + ':' + slug).slice(0, 100),
+                item_name: name,
+                item_brand: platform,
+                item_category: location.pathname,
+                price: price,
+                quantity: 1
+            }]
+        });
+    }
+
+    document.addEventListener('click', onClick, true);
+    document.addEventListener('auxclick', function(e) { if (e.button === 1) onClick(e); }, true);
+})();
