@@ -81,5 +81,57 @@
         "place": "before-closing-of:Standard-Features"
       }
     ]
+  },
+  "berlin": {
+    "en": "berlin-boat-tours",
+    "pages": {
+      "de": "de/spreefahrt-berlin"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "bt-worth-it,bt-logistics,bt-best-time,bt-faq,bt-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
+  },
+  "warsaw": {
+    "en": "vistula-river-cruises-warsaw",
+    "pages": {
+      "pl": "pl/rejsy-po-wisle-warszawa"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "vistula-worth-it,vistula-piers,vistula-best-time,vistula-faq,vistula-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
+  },
+  "prague": {
+    "en": "prague-river-cruises",
+    "pages": {
+      "cs": "cs/plavba-po-vltave-praha"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "prague-cruise-worth-it,prague-cruise-logistics,prague-cruise-piers,prague-cruise-best-time,prague-cruise-faq,prague-cruise-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
+  },
+  "douro-porto": {
+    "en": "douro-river-cruises-porto",
+    "pages": {
+      "es": "es/cruceros-duero-oporto",
+      "pt": "pt/cruzeiros-rio-douro-porto"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": []
   }
 }

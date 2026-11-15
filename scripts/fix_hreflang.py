@@ -25,7 +25,7 @@ from urllib.parse import unquote, urlparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://www.thecruisedetective.com"
-LANGS = ["en", "fr", "de", "es", "it", "nl", "pl", "ro", "ja"]
+LANGS = ["en", "fr", "de", "es", "it", "nl", "pl", "ro", "ja", "cs", "pt"]
 SITEMAP = os.path.join(ROOT, "sitemap.xml")
 
 HREFLANG_TAG = re.compile(r'(?:^[ \t]*)?<link\b[^>]*\bhreflang="[^"]*"[^>]*>[ \t]*\n?', re.M)

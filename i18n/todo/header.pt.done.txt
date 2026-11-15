@@ -1,0 +1,80 @@
+0|THE CRUISE DETECTIVE
+1|Destinos
+2|PARIS, RIO SENA
+3|Cruzeiros com jantar em Paris
+4|10 barcos testados e notas de degustação
+5|Melhor cruzeiro com jantar: a minha escolha
+6|O que eu reservaria depois de testar os 5 melhores
+7|Cruzeiros turísticos em Paris
+8|Os melhores passeios de dia e iluminações
+9|Melhor cruzeiro no Sena: a minha escolha
+10|Cruzeiros privados no Sena
+11|O seu próprio barco, desde €399 para até 4
+12|Mouches vs. Parisiens
+13|Comparação frente a frente de cruzeiros com jantar
+14|Estatísticas de turismo de Paris
+15|Chegadas, noites e gastos oficiais
+16|VIAS NAVEGÁVEIS DA EUROPA
+17|Cruzeiros nos canais de Amesterdão
+18|Barcos abertos e salões clássicos
+19|Melhor cruzeiro nos canais: a minha escolha
+20|Estatísticas de turismo de Amesterdão
+21|Dados oficiais de visitantes e taxas do CBS
+22|Cruzeiros no Tamisa em Londres
+23|Passeios turísticos, jantares e lanchas rápidas
+24|Melhor cruzeiro no Tamisa: a minha escolha
+25|Estatísticas de turismo de Londres
+26|Visitas e gastos oficiais do ONS
+27|Cruzeiros no Douro no Porto
+28|Seis pontes, barcos ao pôr do sol e Vale do Douro
+29|Cruzeiros com jantar
+30|Cruzeiros turísticos
+31|Sobre
+32|Contacto
+33|EN
+34|Selecionar idioma
+35|● 10 DISPONÍVEIS
+36|English
+37|Français
+38|FR
+39|Deutsch
+40|DE
+41|Español
+42|ES
+43|Italiano
+44|IT
+45|Nederlands
+46|NL
+47|Polski
+48|PL
+49|Română
+50|RO
+51|Português
+52|PT
+53|日本語 (Japanese)
+54|JA
+55|Destinos e guias
+56|🍷 Cruzeiros com jantar em Paris
+57|A MELHOR ESCOLHA
+58|🥂 Melhor cruzeiro com jantar: a minha escolha
+59|🗼 Cruzeiros turísticos em Paris
+60|🏆 Melhor cruzeiro no Sena: a minha escolha
+61|🛥️ Cruzeiros privados no Sena
+62|⚖️ Mouches vs. Parisiens
+63|📊 Estatísticas de turismo de Paris
+64|🌷 Cruzeiros nos canais de Amesterdão
+65|🏆 Melhor cruzeiro nos canais: a minha escolha
+66|📊 Estatísticas de turismo de Amesterdão
+67|🇬🇧 Cruzeiros no Tamisa em Londres
+68|🏆 Melhor cruzeiro no Tamisa: a minha escolha
+69|📊 Estatísticas de turismo de Londres
+70|🇵🇹 Cruzeiros no Douro no Porto
+71|Editorial
+72|📖 Sobre e manifesto
+73|✉️ Contactar a redação
+74|Idioma
+75|Página inicial da THE CRUISE DETECTIVE
+76|Logótipo da THE CRUISE DETECTIVE
+77|Navegação principal
+78|Pesquisar
+79|Abrir menu

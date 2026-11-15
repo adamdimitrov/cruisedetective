@@ -1,0 +1,75 @@
+0|Destinations
+1|PARIS SEINE RIVER
+2|Paris Dinner Cruises
+3|10 tested boats &amp; evening tasting notes
+4|Best Dinner Cruise: My Pick
+5|The one I would book after testing the top 5
+6|Paris Sightseeing Cruises
+7|Top daytime &amp; illuminations tours
+8|Best Seine Cruise: My Pick
+9|Private Seine Cruises
+10|Your own boat, from €399 for up to 4
+11|Mouches vs. Parisiens
+12|Head-to-head dinner cruise comparison
+13|Paris Tourism Statistics
+14|Official arrivals, nights &amp; spending
+15|EUROPEAN WATERWAYS
+16|Amsterdam Canal Cruises
+17|Open sloops &amp; classic salon boats
+18|Best Canal Cruise: My Pick
+19|Amsterdam Tourism Statistics
+20|Official CBS visitor &amp; tax data
+21|London Thames Cruises
+22|Sightseeing, dining &amp; speedboat tours
+23|Best Thames Cruise: My Pick
+24|London Tourism Statistics
+25|Official ONS visits &amp; spending
+26|Prague River Cruises
+27|10 Vltava boats compared, from €17
+28|Dinner Cruises
+29|Sightseeing Cruises
+30|About
+31|EN
+32|Select Language
+33|● 9 AVAILABLE
+34|English
+35|Français
+36|FR
+37|Deutsch
+38|DE
+39|Español
+40|ES
+41|Italiano
+42|IT
+43|Nederlands
+44|NL
+45|Polski
+46|PL
+47|Română
+48|RO
+49|日本語 (Japanese)
+50|JA
+51|Destinations &amp; Guides
+52|🍷 Paris Dinner Cruises
+53|TOP PICK
+54|🥂 Best Dinner Cruise: My Pick
+55|🗼 Paris Sightseeing Cruises
+56|🏆 Best Seine Cruise: My Pick
+57|🛥️ Private Seine Cruises
+58|⚖️ Mouches vs. Parisiens
+59|📊 Paris Tourism Statistics
+60|🌷 Amsterdam Canal Cruises
+61|🏆 Best Canal Cruise: My Pick
+62|📊 Amsterdam Tourism Statistics
+63|🇬🇧 London Thames Cruises
+64|🏆 Best Thames Cruise: My Pick
+65|📊 London Tourism Statistics
+66|🇨🇿 Prague River Cruises
+67|Editorial
+68|📖 About &amp; Manifesto
+69|✉️ Contact Editorial Desk
+70|Language
+71|THE CRUISE DETECTIVE Homepage
+72|Primary Navigation
+73|Search
+74|Toggle Menu

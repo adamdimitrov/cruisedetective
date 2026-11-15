@@ -761,6 +761,30 @@
       "destination": "/private-cruises-paris/index.html"
     },
     {
+      "source": "/berlin-boat-tours",
+      "destination": "/berlin-boat-tours/index.html"
+    },
+    {
+      "source": "/vistula-river-cruises-warsaw",
+      "destination": "/vistula-river-cruises-warsaw/index.html"
+    },
+    {
+      "source": "/prague-river-cruises",
+      "destination": "/prague-river-cruises/index.html"
+    },
+    {
+      "source": "/douro-river-cruises-porto",
+      "destination": "/douro-river-cruises-porto/index.html"
+    },
+    {
+      "source": "/pt/cruzeiros-rio-douro-porto",
+      "destination": "/pt/cruzeiros-rio-douro-porto/index.html"
+    },
+    {
+      "source": "/es/cruceros-duero-oporto",
+      "destination": "/es/cruceros-duero-oporto/index.html"
+    },
+    {
       "source": "/dinner-cruise-paris",
       "destination": "/dinner-cruises-paris/index.html"
     },
@@ -1065,11 +1089,6 @@
       "permanent": true
     },
     {
-      "source": "/pt",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/zh",
       "destination": "/",
       "permanent": true
@@ -1146,11 +1165,6 @@
     },
     {
       "source": "/da",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/cs",
       "destination": "/",
       "permanent": true
     },
@@ -2265,12 +2279,12 @@
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
+      "source": "/:lang(ar|bg|ca|da|el|fa|fi|he|hi|hr|hu|ko|no|ru|sk|sr|sv|th|tr|uk|vi|zh)/:slug*",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/:lang(ar|bg|ca|cs|da|el|fa|fi|he|hi|hr|hu|ko|no|pt|ru|sk|sr|sv|th|tr|uk|vi|zh)",
+      "source": "/:lang(ar|bg|ca|da|el|fa|fi|he|hi|hr|hu|ko|no|ru|sk|sr|sv|th|tr|uk|vi|zh)",
       "destination": "/",
       "permanent": true
     }
