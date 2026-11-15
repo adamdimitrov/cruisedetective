@@ -451,7 +451,7 @@ PRODUCTS = [
         "book": ("gyg", "berlin-world-heritage-cruise-to-potsdam-3-hours-t28802"),
         "operator": "Stern und Kreis", "hours": 3.0,
         "price": 21.90, "was": None, "cancel": True,
-        "ratings": [("GetYourGuide", 4.55, 1906)],
+        "ratings": [("GetYourGuide", 4.549, 1906)],
         "pier": "Kronprinzessinnenweg 5, 14109 Berlin",
         "pier_short": {"en": "Wannsee pier (S Wannsee)", "de": "Anleger Wannsee (S Wannsee)"},
         "dur": {"en": "3 Hours", "de": "3 Stunden"},
@@ -707,7 +707,7 @@ def weighted(ratings):
 
 def score(v, lang):
     # site convention: rating scores use a dot in every language (cards.py drift compares them)
-    return f"{v:.1f}"
+    return f"{int(v * 10 + 0.5 + 1e-9) / 10:.1f}"  # half-up, so 4.55 shows 4.6 like the listing
 
 
 def esc(s):
