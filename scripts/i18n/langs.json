@@ -16,5 +16,7 @@
   "fr": {"names": {"en":"anglais","fr":"français","es":"espagnol","de":"allemand","it":"italien","pt":"portugais","nl":"néerlandais","pl":"polonais","ru":"russe","ar":"arabe","hi":"hindi","zh":"chinois","ja":"japonais","ko":"coréen"},
          "audio_label_js": "'Audio en '+N[code]+' \\u2713'", "dinner_alt": "Dîner-croisière {brand} : {text}"},
   "cs": {"names": {"en": "angličtina", "fr": "francouzština", "es": "španělština", "de": "němčina", "it": "italština", "pt": "portugalština", "nl": "nizozemština", "pl": "polština", "ru": "ruština", "ar": "arabština", "hi": "hindština", "zh": "čínština", "ja": "japonština", "ko": "korejština"}, 
-         "audio_label_js": "'Audio: '+N[code]+' \\u2713'", "dinner_alt": "Plavba s večeří {brand}: {text}"}
+         "audio_label_js": "'Audio: '+N[code]+' \\u2713'", "dinner_alt": "Plavba s večeří {brand}: {text}"},
+  "pt": {"names": {"en":"inglês","fr":"francês","es":"espanhol","de":"alemão","it":"italiano","pt":"português","nl":"neerlandês","pl":"polaco","ru":"russo","ar":"árabe","hi":"hindi","zh":"chinês","ja":"japonês","ko":"coreano"},
+         "audio_label_js": "'Áudio em '+N[code]+' \\u2713'", "dinner_alt": "Cruzeiro com jantar {brand}: {text}"}
 }

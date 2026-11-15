@@ -19,6 +19,7 @@
     pl: ['Szukaj rejsów, miast i przewodników', 'Brak wyników dla', 'Popularne przewodniki', 'Zamknij', 'aby otworzyć', 'aby przejść'],
     ro: ['Caută croaziere, orașe și ghiduri', 'Niciun rezultat pentru', 'Ghiduri populare', 'Închide', 'pentru a deschide', 'pentru a naviga'],
     cs: ['Hledat plavby, města a průvodce', 'Žádné výsledky pro', 'Oblíbení průvodci', 'Zavřít', 'otevřít', 'přesun'],
+    pt: ['Pesquisar cruzeiros, cidades e guias', 'Sem resultados para', 'Guias populares', 'Fechar', 'para abrir', 'para navegar'],
     ja: ['クルーズ・都市・ガイドを検索', '該当する結果はありません：', '人気のガイド', '閉じる', '開く', '移動']
   }[LANG];
   if (!T) {

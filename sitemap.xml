@@ -13,6 +13,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -170,6 +171,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/prague-river-cruises" />
   </url>
   <url>
+    <loc>https://www.thecruisedetective.com/douro-river-cruises-porto</loc>
+    <lastmod>2026-11-15T20:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
+  </url>
+  <url>
     <loc>https://www.thecruisedetective.com/best-dinner-cruise-paris</loc>
     <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/best-dinner-cruise-paris" />
@@ -281,21 +290,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/france-tourism-statistics" />
   </url>
   <url>
-    <loc>https://www.thecruisedetective.com/fr/statistiques-tourisme-france</loc>
-    <lastmod>2026-11-15T04:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/france-tourism-statistics" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/statistiques-tourisme-france" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/france-tourism-statistics" />
-  </url>
-  <url>
     <loc>https://www.thecruisedetective.com/netherlands-tourism-statistics</loc>
-    <lastmod>2026-11-15T04:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
-    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
-  </url>
-  <url>
-    <loc>https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland</loc>
     <lastmod>2026-11-15T04:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
     <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland" />
@@ -354,6 +349,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -581,6 +577,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/london-tourism-statistics" />
   </url>
   <url>
+    <loc>https://www.thecruisedetective.com/fr/statistiques-tourisme-france</loc>
+    <lastmod>2026-11-15T04:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/france-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr/statistiques-tourisme-france" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/france-tourism-statistics" />
+  </url>
+  <url>
     <loc>https://www.thecruisedetective.com/fr/politique-de-confidentialite</loc>
     <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
@@ -621,6 +624,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -895,6 +899,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -1022,6 +1027,14 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro/croaziere-private-paris" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja/パリのプライベートクルーズ" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/private-cruises-paris" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/es/cruceros-duero-oporto</loc>
+    <lastmod>2026-11-15T20:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
   </url>
   <url>
     <loc>https://www.thecruisedetective.com/es/mejor-crucero-con-cena-paris</loc>
@@ -1162,6 +1175,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -1429,6 +1443,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -1656,6 +1671,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/london-tourism-statistics" />
   </url>
   <url>
+    <loc>https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland</loc>
+    <lastmod>2026-11-15T04:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl/toerisme-statistieken-nederland" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/netherlands-tourism-statistics" />
+  </url>
+  <url>
     <loc>https://www.thecruisedetective.com/nl/privacybeleid</loc>
     <lastmod>2026-11-15T22:00:00+00:00</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/privacy-policy" />
@@ -1696,6 +1718,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -1985,6 +2008,9 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+  </url>
+  <url>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -2252,6 +2278,7 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.thecruisedetective.com/cs" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
   </url>
   <url>
@@ -2505,5 +2532,28 @@
     <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro/termeni-si-conditii" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja/利用規約" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/terms-of-service" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/pt</loc>
+    <lastmod>2026-11-15T22:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.thecruisedetective.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.thecruisedetective.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.thecruisedetective.com/it" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.thecruisedetective.com/nl" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.thecruisedetective.com/pl" />
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.thecruisedetective.com/ro" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.thecruisedetective.com/ja" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/" />
+  </url>
+  <url>
+    <loc>https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto</loc>
+    <lastmod>2026-11-15T20:00:00+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.thecruisedetective.com/es/cruceros-duero-oporto" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.thecruisedetective.com/pt/cruzeiros-rio-douro-porto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.thecruisedetective.com/douro-river-cruises-porto" />
   </url>
 </urlset>

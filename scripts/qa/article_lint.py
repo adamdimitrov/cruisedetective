@@ -38,7 +38,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "cards"))
 import cards  # noqa: E402
 
 SITE = cards.SITE
-LANG_DIRS = {"fr", "de", "es", "it", "ja", "nl", "pl", "ro", "cs"}
+LANG_DIRS = {"fr", "de", "es", "it", "ja", "nl", "pl", "ro", "cs", "pt"}
 # hosts that may appear in body copy without an affiliate tag
 NEUTRAL_HOSTS = (
     "thecruisedetective.com", "google.com", "goo.gl", "maps.app.goo.gl", "wikipedia.org",

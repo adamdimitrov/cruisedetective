@@ -7,5 +7,6 @@
  "nl": {"count": "(v==='veg'?'Vegetarisch':'Gluten-/lactosevrij')+' op dit menu: '+n", "none": "'Niets gemarkeerd als '+(v==='veg'?'vegetarisch':'gluten-/lactosevrij')+', vraag het de crew'", "hide": "Menu verbergen ▴", "open": "Menu openen ▾"},
  "pl": {"count": "(v==='veg'?'Wegetariańskie':'Bez glutenu/laktozy')+' w tym menu: '+n", "none": "'Nic nie oznaczono jako '+(v==='veg'?'wegetariańskie':'bez glutenu/laktozy')+', zapytaj obsługę'", "hide": "Ukryj menu ▴", "open": "Otwórz menu ▾"},
  "ro": {"count": "(v==='veg'?'Vegetariene':'Fără gluten/lactoză')+' în acest meniu: '+n", "none": "'Nimic marcat '+(v==='veg'?'vegetarian':'fără gluten/lactoză')+', întreabă echipajul'", "hide": "Ascunde meniul ▴", "open": "Deschide meniul ▾"},
- "cs": {"count": "(v==='veg'?'Vegetariánské':'Bez lepku/laktózy')+' v tomto menu: '+n", "none": "'Nic není označeno jako '+(v==='veg'?'vegetariánské':'bez lepku/laktózy')+', zeptejte se posádky'", "hide": "Skrýt menu ▴", "open": "Zobrazit menu ▾"}
+ "cs": {"count": "(v==='veg'?'Vegetariánské':'Bez lepku/laktózy')+' v tomto menu: '+n", "none": "'Nic není označeno jako '+(v==='veg'?'vegetariánské':'bez lepku/laktózy')+', zeptejte se posádky'", "hide": "Skrýt menu ▴", "open": "Zobrazit menu ▾"},
+ "pt": {"count": "(v==='veg'?'Vegetarianos':'Sem glúten/lactose')+' neste menu: '+n", "none": "'Nada marcado como '+(v==='veg'?'vegetariano':'sem glúten/lactose')+', pergunte à tripulação'", "hide": "Ocultar menu ▴", "open": "Ver menu ▾"}
 }

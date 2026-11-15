@@ -42,6 +42,7 @@ LABELS = {
     "ro": ("Încorporează graficul", "Copiază codul", "Copiat!", "Liber de folosit pe site, în articole sau rapoarte. Păstrează linkul către sursă.", "Sursa", "de la The Cruise Detective", "Grafic: The Cruise Detective"),
     "cs": ("Vložit graf", "Kopírovat kód", "Zkopírováno!", "Můžete ho volně použít na webu, v článku nebo zprávě. Ponechte prosím odkaz na zdroj.", "Zdroj", "od The Cruise Detective", "Graf: The Cruise Detective"),
     "ja": ("グラフを埋め込む", "コードをコピー", "コピーしました", "サイト、記事、レポートで自由に使えます。出典リンクは残してください。", "出典", "The Cruise Detective", "グラフ：The Cruise Detective"),
+    "pt": ("Incorporar este gráfico", "Copiar código", "Copiado!", "Uso livre no seu site, artigo ou relatório. Mantenha o link para a fonte.", "Fonte", "da The Cruise Detective", "Gráfico: The Cruise Detective"),
 }
 
 MARK_START = "<!--cd-embed-->"

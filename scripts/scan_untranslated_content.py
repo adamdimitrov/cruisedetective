@@ -3,7 +3,7 @@ import os
 import re
 from bs4 import BeautifulSoup
 
-LANGS = ['fr', 'de', 'es', 'it', 'ja', 'nl', 'pl', 'ro', 'cs']
+LANGS = ['fr', 'de', 'es', 'it', 'ja', 'nl', 'pl', 'ro', 'cs', 'pt']
 BASE_DIR = '/Users/adamdimitrov/Development/cruisedetective'
 
 FORBIDDEN_ENGLISH_PHRASES = [
