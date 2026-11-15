@@ -81,5 +81,19 @@
         "place": "before-closing-of:Standard-Features"
       }
     ]
+  },
+  "warsaw": {
+    "en": "vistula-river-cruises-warsaw",
+    "pages": {
+      "pl": "pl/rejsy-po-wisle-warszawa"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "vistula-worth-it,vistula-piers,vistula-best-time,vistula-faq,vistula-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
   }
 }

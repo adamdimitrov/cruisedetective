@@ -761,6 +761,10 @@
       "destination": "/private-cruises-paris/index.html"
     },
     {
+      "source": "/vistula-river-cruises-warsaw",
+      "destination": "/vistula-river-cruises-warsaw/index.html"
+    },
+    {
       "source": "/dinner-cruise-paris",
       "destination": "/dinner-cruises-paris/index.html"
     },
