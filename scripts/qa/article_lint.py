@@ -155,8 +155,10 @@ def lint(slug, max_age, rewrites, vercel, sitemap, search_en, all_pages):
     # ---- wiring
     if not re.search(r"<loc>" + re.escape(url) + r"</loc>", sitemap):
         rep.fail("wiring", "not in sitemap.xml")
-    if f"/{slug}\"" not in search_en and url + '"' not in search_en:
-        rep.fail("wiring", "not in search/en.json (run python3 scripts/sync_layout.py)")
+    lang = slug.split("/")[0] if slug.split("/")[0] in LANG_DIRS else "en"
+    search_idx = search_en if lang == "en" else (ROOT / "search" / f"{lang}.json").read_text(encoding="utf-8")
+    if f"/{slug}\"" not in search_idx and url + '"' not in search_idx:
+        rep.fail("wiring", f"not in search/{lang}.json (run python3 scripts/sync_layout.py)")
     inbound = []
     for other in all_pages:
         if other == path:
