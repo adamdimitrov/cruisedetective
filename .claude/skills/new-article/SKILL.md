@@ -30,7 +30,11 @@ Then collect the **logistics that make the comparison**, the part other sites sk
 - max group size, private vs shared, kids policy
 - which products overlap (same boat or operator sold twice) and which to skip
 
-Photos: 5-8 of the best listing photos per product, saved as AVIF in `assets/<slug>/` with descriptive filenames. Never hotlink.
+Photos: **9-10 listing photos per product** (fewer only when the listing's whole gallery is smaller), saved as AVIF in `assets/<slug>/` with descriptive filenames. Never hotlink.
+- GYG only puts 5 gallery images in the page HTML. Click "View all", then collect `tour_img/<file>` from inside the `[role=dialog]` element only; images elsewhere on the page are related products. Download from `https://cdn.getyourguide.com/image/fit=crop,width=1200,height=800/tour_img/<file>`.
+- Tiqets HTML lists `images/content/<hash>` for related products too: drop hashes that show up on other products' pages.
+- If one site's gallery is short, top it up from the same boat's listing on the other site.
+- Build a contact sheet and look at it before saving: no maps, menus, other operators' boats or unrelated attractions.
 
 ## 3. Draft from the template
 Copy the structure of `private-cruises-paris/index.html` (the newest article, already in the layout master system):
