@@ -81,5 +81,19 @@
         "place": "before-closing-of:Standard-Features"
       }
     ]
+  },
+  "berlin": {
+    "en": "berlin-boat-tours",
+    "pages": {
+      "de": "de/spreefahrt-berlin"
+    },
+    "cards": true,
+    "menus": false,
+    "sections": [
+      {
+        "ids": "bt-worth-it,bt-logistics,bt-best-time,bt-faq,bt-methodology",
+        "place": "before:</div></div></div></div></div></main>"
+      }
+    ]
   }
 }
