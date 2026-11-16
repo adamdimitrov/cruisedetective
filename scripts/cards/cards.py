@@ -27,7 +27,8 @@ SITE = "https://www.thecruisedetective.com"
 TIQETS_PARTNER = "thecruisedetective.com-176436"
 GYG_PARTNER = "YS414AJ"
 FAREHARBOR_ASN = "cruisedetective-asn"  # FareHarbor affiliate (ASN) ref, e.g. Captain Jack Amsterdam
-BOOKING_HOSTS = ("tiqets.com", "getyourguide.com", "fareharbor.com")
+TOURRADAR_PARTNER = "partner-traveller-1464745"  # TourRadar affiliate utm_source (multi-day river cruises)
+BOOKING_HOSTS = ("tiqets.com", "getyourguide.com", "fareharbor.com", "tourradar.com")
 # Card features shipped on the EN Seine page on 2026-11-11. Drift reports which
 # translations are still missing them.
 FEATURES = {
@@ -59,7 +60,8 @@ def text(el):
 def product_id(href):
     if not href:
         return None
-    m = re.search(r"-(p\d{5,})/", href) or re.search(r"-(t\d{3,})/?", href)
+    m = (re.search(r"-(p\d{5,})/", href) or re.search(r"-(t\d{3,})/?", href)
+         or re.search(r"tourradar\.com/(t/\d+)", href))
     return m.group(1) if m else urlparse(href).netloc or href
 
 
@@ -188,6 +190,9 @@ def link_problems(path):
             elif "fareharbor.com" in host:
                 if q.get("ref", [None])[0] != FAREHARBOR_ASN:
                     probs.append(f"#{i} FareHarbor link without ref={FAREHARBOR_ASN}: {href[:90]}")
+            elif "tourradar.com" in host:
+                if q.get("utm_source", [None])[0] != TOURRADAR_PARTNER:
+                    probs.append(f"#{i} TourRadar link without utm_source={TOURRADAR_PARTNER}: {href[:90]}")
             elif "viator.com" in host:
                 probs.append(f"#{i} Viator link on a card (Viator is badge-only, no link): {href[:90]}")
             else:
