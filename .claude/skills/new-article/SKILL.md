@@ -1,6 +1,6 @@
 ---
 name: new-article
-description: Create a new comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, új cikk, or picks a topic for a new page. New articles only, not refreshes of existing pages.
+description: Create a new comparison article on thecruisedetective.com in one loop - topic gate, live-listing research, draft from the article template, fix until scripts/qa/article_lint.py and the ship checks pass, then stop at a preview link for approval. Use when the user says write an article about X, new article, új cikk, csináld a következő cikket, or gives no topic at all (then the topic comes from articles/BACKLOG.md via /article-ideas). New articles only, not refreshes of existing pages.
 ---
 
 # /new-article
@@ -11,6 +11,11 @@ The loop runs on its own through step 5 and **stops at the preview link**. Nothi
 
 ## 0. Worktree
 Global rule: `EnterWorktree` first if you are in the main checkout. Branch name `article/<slug>`.
+
+## 0b. No topic given? Pick it yourself
+The user meta-prompts ("csináld a következő cikket") and does not want to research topics. Take the top row of **New** in `articles/BACKLOG.md`. If the table is empty or the row is older than 60 days, run `/article-ideas` first. Tell the user in one line which topic you are building and the evidence (GSC impressions, current position, products). Don't wait for a yes: the approval point is the preview in step 5.
+
+**Pace:** there is no weekly cap. Google does not rank or penalise by publishing frequency, only by the value of each page. The brake is indexing: before starting a new article, check the last 2 published articles in Search Console (URL Inspection in the user's Chrome). If both are older than 14 days and still "Discovered" or "Crawled, currently not indexed", stop writing new pages. Take the top **Refresh** row instead and tell the user why.
 
 ## 1. Topic gate (before any drafting)
 Answer these in 3-6 lines to the user. If any is "no", stop and say why, or suggest a section on an existing page instead.
@@ -40,6 +45,17 @@ Copy the structure of `private-cruises-paris/index.html` (the newest article, al
 - buyer's guide: is it worth it, logistics table, best time, FAQ, **methodology** (what was compared, from which listings, on which date)
 - JSON-LD: Article (with `datePublished` and `dateModified`), BreadcrumbList, ItemList, FAQPage
 
+The core value is the presentation, not testing. Testing every product is not worth it, and the articles don't need it. What makes a page worth more than the GYG search results is original analysis laid out side by side:
+- the decision axes as filters and pills (price per boat vs per person, min group, pier, duration, what is included, toilet, heated)
+- computed numbers nobody lists: price per person at the minimum group, price per hour, what the real total is once the extras are added
+- Pick if / Skip if per card, Cons taken from repeated review complaints
+- one ranking with a reason for each place, and the check date
+This is mandatory on every article. A page that only restates the listings is thin, however well it is formatted.
+
+Bonus first-hand signals, use when they really exist (never invent them):
+- the user's own experience or photos (ask, don't assume)
+- a line of first-party booking data from `CRUISEDETECTIVE_BRAND_BRAIN.md` / Tiqets orders, e.g. "readers who booked a dinner cruise through us chose it 8+ days ahead in 64% of cases", with real numbers for that product type or city only
+
 Honesty rules:
 - "Personally tested" or "tested" only where the user really did it (Seine, dinner and so on). Comparison-only articles say "Compared on <date> using live listings" in the methodology and byline area. No invented experiences, quotes or photos.
 - No em dashes anywhere. Brand, ship and operator names stay in their original form.
@@ -55,6 +71,7 @@ Run all of these. Fix every ✗, then run them all again. Repeat until clean. Do
 
 ```bash
 python3 scripts/qa/article_lint.py <slug>       # meta, wiring, em dashes, JSON-LD, images, links
+python3 scripts/qa/article_originality.py <slug>  # cannibalization, duplicate phrasing, product overlap, check date, methodology, risky claims
 python3 scripts/cards/cards.py links <slug>     # card affiliate rules
 python3 scripts/ship/preflight.py --fix         # diff-level ship checks + sitemap lastmod
 python3 scripts/sync_layout.py --check          # layout drift
@@ -74,3 +91,8 @@ Commit (`article: <title>`), push the branch, wait for the Vercel preview, and g
 
 ## 6. After approval
 `/ship` (PR, merge, Search Console indexing). Translations come later via `/port-i18n`, only when the user asks. New pages are EN-first.
+
+Then move the row in `articles/BACKLOG.md` from **New** to **Published** with the date (commit it with the article).
+
+## 7. 28-day check
+On the next `/article-ideas` run after a page is 28+ days old, look at its own GSC queries. Impressions but position 15+: it becomes a **Refresh** row. Almost no impressions after 8 weeks: tell the user and suggest merging it into the closest money page (301) instead of leaving a thin page live. Pruning dead pages is part of not looking like a content farm.
