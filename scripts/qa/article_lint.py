@@ -107,6 +107,9 @@ def check_affiliate(href, where, rep):
     elif "fareharbor.com" in host:
         if q.get("ref", [None])[0] != cards.FAREHARBOR_ASN:
             rep.fail("links", f"{where}: FareHarbor link without ref={cards.FAREHARBOR_ASN}: {href[:90]}")
+    elif "tourradar.com" in host:
+        if q.get("utm_source", [None])[0] != cards.TOURRADAR_PARTNER:
+            rep.fail("links", f"{where}: TourRadar link without utm_source={cards.TOURRADAR_PARTNER}: {href[:90]}")
     elif "viator.com" in host:
         rep.fail("links", f"{where}: Viator link (Viator is review-badge only): {href[:90]}")
     elif not any(host == h or host.endswith("." + h) for h in NEUTRAL_HOSTS):

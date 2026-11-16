@@ -28,7 +28,7 @@ from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = ("nofollow", "sponsored", "noopener")
-OTA_HOSTS = ("getyourguide.com", "tiqets.com", "viator.com", "tp.media", "tp.st")
+OTA_HOSTS = ("getyourguide.com", "tiqets.com", "viator.com", "tp.media", "tp.st", "tourradar.com")
 OWN_HOSTS = ("thecruisedetective.com",)
 AFF_PARAMS = {"partner", "partner_id", "aid", "pid", "marker", "ref", "affiliate", "affiliate_id",
               "aff_id", "affid", "subid", "sub_id", "clickref", "awc", "irclickid", "asn"}
