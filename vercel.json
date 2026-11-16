@@ -761,10 +761,6 @@
       "destination": "/private-cruises-paris/index.html"
     },
     {
-      "source": "/budapest-amsterdam-river-cruises",
-      "destination": "/budapest-amsterdam-river-cruises/index.html"
-    },
-    {
       "source": "/berlin-boat-tours",
       "destination": "/berlin-boat-tours/index.html"
     },
@@ -818,6 +814,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/budapest-amsterdam-river-cruises",
+      "destination": "https://www.budapestadventures.com/budapest-amsterdam-river-cruises",
+      "permanent": true
+    },
     {
       "source": "/romantic-quiz",
       "destination": "/paris-cruise-quiz",
