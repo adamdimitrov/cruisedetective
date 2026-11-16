@@ -2,6 +2,7 @@
 
 Kept by `/article-ideas`, consumed by `/new-article` (top row of **New** first).
 Demand = GSC impressions in 90 days (EN pages). Pos = our current weighted position.
+Rows marked "KP" are new locations: demand = Keyword Planner monthly topic total (worldwide, English, close variants deduped, boat intent only); no position yet.
 A row is **validated** only once the SERP and inventory columns are filled.
 
 ## New
@@ -14,6 +15,18 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 5 | Amsterdam canal dinner cruises | dinner-cruises-amsterdam | 1,260 / 37 | amsterdam canal cruise and dinner (420), dinner canal cruises in amsterdam (263) | not checked | not checked | dinner money page format, Amsterdam version | GSC 2026-11-14 |
 | 6 | Night canal cruises Amsterdam | night-canal-cruises-amsterdam | 986 / 23 | amsterdam night canal cruise (254), amsterdam canal night cruise (123) | not checked | not checked | could be a section on /canal-cruises-amsterdam instead | GSC 2026-11-14 |
 | 7 | Sunset cruises Paris | sunset-cruises-paris | 541 / 36 | sunset river cruise paris (96), sunset cruise paris (80) | not checked | not checked | sunset times by month, which boats sail then | GSC 2026-11-14 |
+| 8 | Venice boat tours + gondola rides | boat-tours-venice | KP ~121k / – | gondola ride venice (40.5k), venice gondola (18.1k), venice water taxi (14.8k) | not checked | not checked | new city; gondola price per boat vs shared, water taxi vs tour | KP 2026-11-15 |
+| 9 | Lake Como boat tours | boat-tours-lake-como | KP ~71k / – | lake como boat tour (22.2k), Bellagio boat tours, boat rental lake como | not checked | not checked | new city; tours only (112k incl. public ferry), private vs shared | KP 2026-11-15 |
+| 10 | Bosphorus cruises Istanbul | bosphorus-cruises-istanbul | KP ~55k / – | bosphorus cruise (14.8k), bosphorus tour (8.1k), dinner cruise | not checked | not checked | new city; sightseeing vs dinner vs public Şehir Hatları | KP 2026-11-15 |
+| 11 | Malta boat trips | boat-trips-malta | KP ~42k / – | blue grotto malta (12.1k), comino blue lagoon boat trips | not checked | not checked | new destination; Blue Lagoon / Comino day trips, Blue Grotto | KP 2026-11-15 |
+| 12 | Bruges canal boat tours | canal-boat-tours-bruges | KP ~28k / – | bruges boat tour (18.1k) | not checked | not checked | new city; one dominant query, short guide | KP 2026-11-15 |
+| 13 | Copenhagen canal tours | canal-tours-copenhagen | KP ~28k / – | copenhagen boat tour (5.4k), goboat (5.4k), strömma (4.4k) | not checked | not checked | new city; guided tour vs self-drive GoBoat | KP 2026-11-15 |
+| 14 | Chicago architecture boat tours | chicago-architecture-boat-tours | KP ~265k / – | chicago architecture boat tour (60.5k), chicago boat tour (40.5k), chicago river cruise (18.1k) | not checked | not checked | outside EU languages; Wendella vs Shoreline vs CAC | KP 2026-11-15 |
+| 15 | Niagara Falls boat tours | niagara-falls-boat-tours | KP ~229k / – | maid of the mist (74k), niagara falls boat tour (27.1k) | not checked | not checked | outside EU languages; US vs Canada side, combo tickets | KP 2026-11-15 |
+| 16 | Boston boat tours | boat-tours-boston | KP ~180k / – | boston duck tours (~60k), boston whale watching (18.1k), boston harbor cruise (14.8k) | not checked | not checked | outside EU languages; duck vs harbor vs whale watching | KP 2026-11-15 |
+| 17 | Ha Long Bay cruises | ha-long-bay-cruises | KP ~234k / – | ha long bay cruise (90.5k), lan ha bay cruise | not checked | not checked | outside Europe; day trip vs overnight, mostly multi-day | KP 2026-11-15 |
+| 18 | Chao Phraya cruises Bangkok | river-cruises-bangkok | KP ~72k / – | chao phraya cruise (14.8k), bangkok dinner cruise (8.1k) | not checked | not checked | outside Europe; dinner cruise money page format | KP 2026-11-15 |
+| 19 | Dubai dhow and yacht cruises | dhow-cruises-dubai | KP ~60k / – | dubai marina dhow cruise (9.9k), dubai dinner cruise (5.4k) | not checked | not checked | outside Europe; Marina vs Creek dhow, dinner | KP 2026-11-15 |
 
 ## Refresh (existing page covers it, improve the page instead)
 | page | topic | demand / pos | what to add | noted |
