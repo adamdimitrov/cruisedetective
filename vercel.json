@@ -725,22 +725,6 @@
       "destination": "/paris-family-cruise/index.html"
     },
     {
-      "source": "/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review/index.html"
-    },
-    {
-      "source": "/best-dinner-cruise-paris",
-      "destination": "/best-dinner-cruise-paris/index.html"
-    },
-    {
-      "source": "/best-thames-cruise-london",
-      "destination": "/best-thames-cruise-london/index.html"
-    },
-    {
-      "source": "/best-canal-cruise-amsterdam",
-      "destination": "/best-canal-cruise-amsterdam/index.html"
-    },
-    {
       "source": "/seine-river-cruises-paris",
       "destination": "/seine-river-cruises-paris/index.html"
     },
@@ -815,6 +799,186 @@
   ],
   "redirects": [
     {
+      "source": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/de/bateaux-parisiens-seine-bootsfahrt-erfahrung",
+      "destination": "/de/besten-bootsfahrten-seine-paris",
+      "permanent": true
+    },
+    {
+      "source": "/es/opinion-crucero-sena-bateaux-parisiens",
+      "destination": "/es/mejores-cruceros-sena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fr/avis-croisiere-seine-bateaux-parisiens",
+      "destination": "/fr/meilleures-croisieres-seine-paris",
+      "permanent": true
+    },
+    {
+      "source": "/it/recensione-crociera-senna-bateaux-parisiens",
+      "destination": "/it/migliori-crociere-senna-parigi",
+      "permanent": true
+    },
+    {
+      "source": "/ja/%E3%83%90%E3%83%88%E3%83%BC%E3%83%91%E3%83%AA%E3%82%B8%E3%83%A3%E3%83%B3-%E3%82%BB%E3%83%BC%E3%83%8C%E5%B7%9D%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA%E4%BD%93%E9%A8%93%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC",
+      "destination": "/ja/%E3%83%91%E3%83%AA%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88-%E3%82%BB%E3%83%BC%E3%83%8C%E5%B7%9D%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "permanent": true
+    },
+    {
+      "source": "/nl/bateaux-parisiens-seine-boottocht-ervaring",
+      "destination": "/nl/beste-boottochten-seine-parijs",
+      "permanent": true
+    },
+    {
+      "source": "/pl/opinia-rejs-po-sekwanie-bateaux-parisiens",
+      "destination": "/pl/najlepsze-rejsy-po-sekwanie-paryz",
+      "permanent": true
+    },
+    {
+      "source": "/ro/recenzie-croaziera-sena-bateaux-parisiens",
+      "destination": "/ro/cele-mai-bune-croaziere-sena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/best-dinner-cruise-paris",
+      "destination": "/dinner-cruises-paris",
+      "permanent": true
+    },
+    {
+      "source": "/de/beste-dinner-bootsfahrt-paris",
+      "destination": "/de/besten-bootsfahrten-mit-abendessen-paris",
+      "permanent": true
+    },
+    {
+      "source": "/es/mejor-crucero-con-cena-paris",
+      "destination": "/es/mejores-cruceros-con-cena-paris",
+      "permanent": true
+    },
+    {
+      "source": "/fr/meilleur-diner-croisiere-paris",
+      "destination": "/fr/meilleurs-diners-croisieres-paris",
+      "permanent": true
+    },
+    {
+      "source": "/it/migliore-crociera-con-cena-parigi",
+      "destination": "/it/migliori-crociere-con-cena-senna-parigi",
+      "permanent": true
+    },
+    {
+      "source": "/ja/%E3%83%91%E3%83%AA%E3%81%AE%E3%81%8A%E3%81%99%E3%81%99%E3%82%81-%E3%83%87%E3%82%A3%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "destination": "/ja/%E3%83%91%E3%83%AA%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88-%E3%83%87%E3%82%A3%E3%83%8A%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "permanent": true
+    },
+    {
+      "source": "/nl/beste-dinercruise-parijs",
+      "destination": "/nl/beste-boottochten-seine-met-diner-parijs",
+      "permanent": true
+    },
+    {
+      "source": "/pl/najlepszy-rejs-z-kolacja-paryz",
+      "destination": "/pl/najlepsze-rejsy-z-obiadem-paryz",
+      "permanent": true
+    },
+    {
+      "source": "/ro/cea-mai-buna-croaziera-cu-cina-paris",
+      "destination": "/ro/cele-mai-bune-cina-croaziere-paris",
+      "permanent": true
+    },
+    {
+      "source": "/best-thames-cruise-london",
+      "destination": "/thames-river-cruises-london",
+      "permanent": true
+    },
+    {
+      "source": "/de/beste-themse-bootsfahrt-london",
+      "destination": "/de/themse-kreuzfahrten-london",
+      "permanent": true
+    },
+    {
+      "source": "/es/mejor-crucero-tamesis-londres",
+      "destination": "/es/mejores-cruceros-tamesis-londres",
+      "permanent": true
+    },
+    {
+      "source": "/fr/meilleure-croisiere-tamise-londres",
+      "destination": "/fr/croisi%C3%A8res-sur-la-tamise-%C3%A0-londres",
+      "permanent": true
+    },
+    {
+      "source": "/it/migliore-crociera-tamigi-londra",
+      "destination": "/it/crociere-sul-fiume-tamigi-a-londra",
+      "permanent": true
+    },
+    {
+      "source": "/ja/%E3%83%AD%E3%83%B3%E3%83%89%E3%83%B3%E3%81%AE%E3%83%99%E3%82%B9%E3%83%88-%E3%83%86%E3%83%A0%E3%82%BA%E5%B7%9D%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "destination": "/ja/%E3%83%AD%E3%83%B3%E3%83%89%E3%83%B3%E3%81%AE%E3%83%86%E3%83%A0%E3%82%BA%E5%B7%9D%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "permanent": true
+    },
+    {
+      "source": "/nl/beste-theems-boottocht-londen",
+      "destination": "/nl/beste-boottochten-theems-londen",
+      "permanent": true
+    },
+    {
+      "source": "/pl/najlepszy-rejs-po-tamizie-londyn",
+      "destination": "/pl/rejsy-po-tamizie-londyn",
+      "permanent": true
+    },
+    {
+      "source": "/ro/cea-mai-buna-croaziera-tamisa-londra",
+      "destination": "/ro/cele-mai-bune-croaziere-r%C3%A2ul-tamisa-londra",
+      "permanent": true
+    },
+    {
+      "source": "/best-canal-cruise-amsterdam",
+      "destination": "/canal-cruises-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/de/beste-grachtenfahrt-amsterdam",
+      "destination": "/de/besten-grachtenfahrten-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/es/mejor-crucero-canales-amsterdam",
+      "destination": "/es/mejores-cruceros-canales-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/fr/meilleure-croisiere-canaux-amsterdam",
+      "destination": "/fr/meilleures-croisieres-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/it/migliore-crociera-canali-amsterdam",
+      "destination": "/it/migliori-crociere-canali-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ja/%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0%E3%81%AE%E3%81%8A%E3%81%99%E3%81%99%E3%82%81-%E9%81%8B%E6%B2%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA",
+      "destination": "/ja/%E3%83%99%E3%82%B9%E3%83%88%E9%81%8B%E6%B2%B3%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%A0%E3%82%B9%E3%83%86%E3%83%AB%E3%83%80%E3%83%A0",
+      "permanent": true
+    },
+    {
+      "source": "/nl/beste-rondvaart-amsterdam",
+      "destination": "/nl/beste-rondvaarten-grachten-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/pl/najlepszy-rejs-po-kanalach-amsterdam",
+      "destination": "/pl/najlepsze-rejsy-po-kana%C5%82ach-amsterdam",
+      "permanent": true
+    },
+    {
+      "source": "/ro/cea-mai-buna-croaziera-canale-amsterdam",
+      "destination": "/ro/cele-mai-bune-croaziere-canal-amsterdam",
+      "permanent": true
+    },
+    {
       "source": "/budapest-amsterdam-river-cruises",
       "destination": "https://www.budapestadventures.com/budapest-amsterdam-river-cruises",
       "permanent": true
@@ -841,7 +1005,7 @@
     },
     {
       "source": "/seine-dinner-cruise-review",
-      "destination": "/best-dinner-cruise-paris",
+      "destination": "/dinner-cruises-paris",
       "permanent": true
     },
     {
@@ -907,37 +1071,37 @@
     },
     {
       "source": "/de/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/es/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/it/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ja/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/nl/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/pl/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ro/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
@@ -987,7 +1151,7 @@
     },
     {
       "source": "/fr/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
@@ -2145,122 +2309,122 @@
     },
     {
       "source": "/uk/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/fa/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hr/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ca/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/pt/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/zh/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/vi/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ar/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/tr/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/th/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sv/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ko/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sk/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/sr/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/ru/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/he/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hi/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/hu/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/el/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/fi/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/da/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/cs/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/bg/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
       "source": "/no/seine-river-cruise-review",
-      "destination": "/seine-river-cruise-review",
+      "destination": "/seine-river-cruises-paris",
       "permanent": true
     },
     {
