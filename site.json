@@ -44,5 +44,8 @@
   },
   "own_scripts": [
     "sync_layout.py"
-  ]
+  ],
+  "photo_order": {
+    "slot": "rebuild"
+  }
 }

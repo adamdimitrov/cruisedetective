@@ -54,6 +54,7 @@ A site that still needs its own version of a script lists it in `site.json` as
 | --- | --- |
 | `search_index.py` | Per-language search index (`search/<lang>.json`) for the menu search |
 | `sync_layout.py` | Header, footer, active menu item and language switcher from the master pages, search index, affiliate rel; settings in the site's `scripts/layout_config.json` |
+| `slider_photo_order.py` | Applies the card photo orders in the site's `scripts/slider_photo_order_data.py` to every language version |
 | `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
 
 ## site.json
