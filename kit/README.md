@@ -51,6 +51,7 @@ stub is missing or edited. A shared script reads the site's root from `checks/si
 | Script | What |
 | --- | --- |
 | `search_index.py` | Per-language search index (`search/<lang>.json`) for the menu search |
+| `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
 
 ## site.json
 
