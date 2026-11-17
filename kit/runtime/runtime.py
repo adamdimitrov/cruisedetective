@@ -111,8 +111,10 @@ def migrate(site):
 # EVERY diff hunk against the reference runtime is in compat.json reviewed_hunks.
 
 CFG_RE = re.compile(r"window\.LTT_PAGE_CONFIG\s*=\s*(\{.*?\});", re.S)
-JS_TOKEN = re.compile(r"'(?:[^'\\]|\\.)*'|\(i \+ 1\)|[A-Za-z_][A-Za-z0-9_.]*")
-TEMPLATE_VARS = {"visibleCount": "{visible}", "cards.length": "{total}", "filterLabel": "{filter}", "(i + 1)": "{n}"}
+JS_TOKEN = re.compile(r"labels\.join\(' \+ '\)|'(?:[^'\\]|\\.)*'|\(i \+ 1\)|[A-Za-z_][A-Za-z0-9_.]*")
+TEMPLATE_VARS = {"visibleCount": "{visible}", "cards.length": "{total}", "filterLabel": "{filter}", "(i + 1)": "{n}",
+                 "labels.join(' + ')": "{filter}"}
+DEFAULT_SUMMARY = "Showing {visible} of {total} cruises matching {filter} • All reviews open by default"
 
 
 def _hunks(ref, body):
@@ -152,14 +154,30 @@ def page_options(body):
     m = re.search(r"cfg\.tocBreakdownLabel \|\| '((?:[^'\\]|\\.)*)'", body)
     if m and m.group(1) != "Detailed Breakdown":
         opts["tocBreakdownLabel"] = m.group(1).replace("\\'", "'")
-    m = re.search(r"subEl\.textContent = (visibleCount \+ [^;]*);", body)
+    m = re.search(r"subEl\.textContent = ((?:'|visibleCount)[^;]*);", body)
     if m:
-        opts["filterSummary"] = _concat_to_template(m.group(1))
+        t = _concat_to_template(m.group(1))
+        if t and t != DEFAULT_SUMMARY:
+            opts["filterSummary"] = t
     m = re.search(r"badge: ([^,\n]*),\n", body)
     if m and m.group(1).strip() != "'#' + (i + 1) + ' PICK'":
         opts["pickBadge"] = _concat_to_template(m.group(1))
     if "sec.querySelectorAll('h2[id]')" in body:
         opts["tocSubHeadings"] = True
+    m = re.search(r"cfg\.tocDeckLabel \|\| '((?:[^'\\]|\\.)*)'", body)
+    if m and m.group(1) != "Top 10 Comparison":
+        opts["tocDeckLabel"] = m.group(1).replace("\\'", "'")
+    m = re.search(r'grp\.textContent = ("(?:[^"\\]|\\.)*");', body)
+    if m and json.loads(m.group(1)) != "Buyer's Guide & Methodology" and "tocGuideLabel" not in opts:
+        opts["tocGuideLabel"] = json.loads(m.group(1))
+    if "var isPastFooter" in body:
+        opts["stickyUntil"] = "footer"
+    if "replace('-card-button-', '-sticky-cta-')" in body:
+        opts["stickyCtaRewrite"] = True
+    if "if (active.bt) ctaEl.textContent = active.bt" in body:
+        opts["stickyCtaFromCard"] = True
+    if "rawTag.match(/#\\d+/)" in body:
+        opts["pickBadgeFromTag"] = True
     return {k: v for k, v in opts.items() if v is not None}
 
 
@@ -177,8 +195,16 @@ def adapt(site):
             continue
         rt_m = next((m for m in _script_blocks(s) if RUNTIME_MARK in m.group(2)[:400] and "src=" not in m.group(1)), None)
         pf_m = next((m for m in _script_blocks(s) if PERF_ID in m.group(1)), None)
-        if not rt_m or (pf_m and pf_m.group(2).strip("\n") != perf.strip("\n")):
-            skipped.append((rel, "perf runtime differs"))
+        perf_opts = {}
+        if pf_m and pf_m.group(2).strip("\n") != perf.strip("\n"):
+            ph = hashlib.md5(pf_m.group(2).strip("\n").encode()).hexdigest()
+            known_perf = json.load(open(os.path.join(HERE, "compat.json"), encoding="utf-8")).get("perf_variants", {})
+            hit = next((v for k, v in known_perf.items() if ph.startswith(k)), None)
+            if hit is None:
+                skipped.append((rel, "perf runtime differs"))
+                continue
+            perf_opts = hit.get("options", {})
+        if not rt_m:
             continue
         body = rt_m.group(2)
         bad = [h for h in _hunks(ref, body) if hashlib.md5(h.encode()).hexdigest() not in ok_hunks]
@@ -186,6 +212,7 @@ def adapt(site):
             skipped.append((rel, f"{len(bad)} unreviewed difference(s)"))
             continue
         opts = page_options(body)
+        opts.update(perf_opts)
         out = s
         if pf_m:
             out = out[:pf_m.start()] + out[pf_m.end():]
