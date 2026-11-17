@@ -2,8 +2,10 @@ name: Layout check
 
 # Fails the PR when any published page's menu or footer drifts from its
 # language master, a floating bar links to something not on the page, or a
-# page is live without being in the sitemap. Fix with:
+# page is live without being in the sitemap, or a photo would not show up
+# (lazy data-src with no loader, missing image file). Fix with:
 #   python3 scripts/sync_layout.py
+#   python3 scripts/check_lazy_images.py --fix
 on:
   pull_request:
   push:
@@ -18,3 +20,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 scripts/sync_layout.py --check
+      - run: python3 scripts/check_lazy_images.py
