@@ -12,6 +12,7 @@ Checks (against origin/main, including uncommitted changes):
   5. Affiliate-link rules on changed pages that have comparison cards (scripts/cards/cards.py links)
   6. Every affiliate / OTA <a> on the whole site has rel nofollow sponsored noopener
      (scripts/fix_affiliate_rel.py --check; run it without --check to fix)
+  7. No static Tripadvisor popover row whose listing is on record (scripts/cards/ta_links.py --check)
 Exit 1 when a check fails.
 """
 import json
@@ -151,6 +152,13 @@ def main():
         lines = r.stdout.strip().splitlines()
         fails.append("affiliate links without rel nofollow/sponsored/noopener "
                      "(fix: python3 scripts/fix_affiliate_rel.py):\n  " + "\n  ".join(lines[:15]))
+
+    # 7. Tripadvisor popover rows with a verified listing must be links (scripts/cards/ta_links.py)
+    r = subprocess.run([sys.executable, "scripts/cards/ta_links.py", "--check"],
+                       cwd=ROOT, capture_output=True, text=True)
+    if r.returncode:
+        fails.append("Tripadvisor rows left static although the listing is known "
+                     "(fix: python3 scripts/cards/ta_links.py):\n  " + "\n  ".join(r.stdout.strip().splitlines()[-15:]))
 
     for w in warns:
         print("⚠", w)
