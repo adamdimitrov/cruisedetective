@@ -27,6 +27,10 @@ only where it is stricter. Breaking one of these costs money or rankings.
   - `check_lazy_images.py` – every lazy photo has a loader, the first slide is a real photo,
     every image file exists, no photo hotlinked from another site;
   - `check_filters.py` – every filter pill except "All" has `data-group`, only "All" starts active.
+- After changing any page's text (intro, cards, headings, meta description), run
+  `python3 scripts/sync_layout.py` before the commit: it rebuilds the menu, footer and the
+  site search index (`search/<lang>.json`). Otherwise the CI layout check fails on main and
+  the menu search keeps finding the old text.
 - Open every new or changed page at phone width (375 px) before the PR: filters grey
   except "All", carousels show photos after a swipe and after an arrow tap, nothing
   sticks out sideways, no console errors.
