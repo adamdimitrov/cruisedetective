@@ -1929,20 +1929,7 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
   </a>
 </figure>
 </div>
-<div class="ltt-integrated-filter-bar">
-<span class="ltt-filter-label">Filters:</span>
-<div class="ltt-integrated-pills">
-<button class="ltt-tab-btn active" data-cat="all" onclick="lttFilterSafaris('all', this)" type="button" aria-pressed="true">All <span class="cd-n">(10)</span></button>
-<button class="ltt-tab-btn" data-cat="tested" onclick="lttFilterSafaris('tested', this)" type="button" aria-pressed="false">✓ Personally Tested <span class="cd-n">(5)</span></button>
-<button class="ltt-tab-btn" data-cat="hour" onclick="lttFilterSafaris('hour', this)" type="button" aria-pressed="false">⏱️ 1 hour <span class="cd-n">(5)</span></button>
-<button class="ltt-tab-btn" data-cat="stroller" onclick="lttFilterSafaris('stroller', this)" type="button" aria-pressed="false">👶 Stroller-friendly <span class="cd-n">(5)</span></button>
-<button class="ltt-tab-btn" data-cat="wheelchair" onclick="lttFilterSafaris('wheelchair', this)" type="button" aria-pressed="false">♿ Wheelchair OK <span class="cd-n">(3)</span></button>
-<button class="ltt-tab-btn" data-cat="under20" onclick="lttFilterSafaris('under20', this)" type="button" aria-pressed="false">💶 Under €20 <span class="cd-n">(2)</span></button>
-<button class="ltt-tab-btn" data-cat="food" onclick="lttFilterSafaris('food', this)" type="button" aria-pressed="false">🍽️ Food &amp; drinks <span class="cd-n">(5)</span></button>
-<button class="ltt-tab-btn" data-cat="route" onclick="lttFilterSafaris('route', this)" type="button" aria-pressed="false">🗺️ Hop-On &amp; Canal <span class="cd-n">(2)</span></button>
-<button class="ltt-tab-btn" data-cat="private" onclick="lttFilterSafaris('private', this)" type="button" aria-pressed="false">🛥️ Private Boat <span class="cd-n">(1)</span></button>
-</div>
-</div>
+<div class="ltt-integrated-filter-bar cd-fbox" id="cd-filters" role="group" aria-label="Filter cruises"><div class="cd-frow"><span class="cd-flab">Who is coming</span><div class="cd-fchips"><button class="ltt-tab-btn" data-cat="stroller" onclick="lttFilterSafaris('stroller', this)" type="button" aria-pressed="false">👶 Stroller-friendly <span class="cd-n">(5)</span></button><button class="ltt-tab-btn" data-cat="wheelchair" onclick="lttFilterSafaris('wheelchair', this)" type="button" aria-pressed="false">♿ Wheelchair OK <span class="cd-n">(3)</span></button></div></div><div class="cd-frow"><span class="cd-flab">The trip</span><div class="cd-fchips"><button class="ltt-tab-btn" data-cat="hour" onclick="lttFilterSafaris('hour', this)" type="button" aria-pressed="false">⏱️ 1 hour <span class="cd-n">(5)</span></button><button class="ltt-tab-btn" data-cat="food" onclick="lttFilterSafaris('food', this)" type="button" aria-pressed="false">🍽️ Food &amp; drinks <span class="cd-n">(5)</span></button><button class="ltt-tab-btn" data-cat="route" onclick="lttFilterSafaris('route', this)" type="button" aria-pressed="false">🗺️ Hop-On &amp; Canal <span class="cd-n">(2)</span></button><button class="ltt-tab-btn" data-cat="private" onclick="lttFilterSafaris('private', this)" type="button" aria-pressed="false">🛥️ Private Boat <span class="cd-n">(1)</span></button></div></div><div class="cd-frow"><span class="cd-flab">Budget &amp; proof</span><div class="cd-fchips"><button class="ltt-tab-btn" data-cat="tested" onclick="lttFilterSafaris('tested', this)" type="button" aria-pressed="false">✓ Personally Tested <span class="cd-n">(5)</span></button><button class="ltt-tab-btn" data-cat="under20" onclick="lttFilterSafaris('under20', this)" type="button" aria-pressed="false">💶 Under €20 <span class="cd-n">(2)</span></button></div></div><div class="cd-ffoot"><span class="cd-fcount" aria-live="polite">Showing <b>10</b> of 10 cruises</span><div class="cd-fapplied"></div><button type="button" class="cd-fclear" hidden onclick="lttFilterSafaris('all')">Clear all</button></div></div>
 </div>
 </div><div class="comparison-table"><div class="container-27">
 <style id="ltt-dubai-safari-styles">
@@ -4743,7 +4730,7 @@ footer.ltt-footer .legal-text {
 </style>
 
 <div class="ltt-deck-container" id="seine-cruise-deck">
-<div class="bpa-deck-wrap" id="ltt-cards-deck">
+<div class="bpa-deck-wrap" id="ltt-cards-deck"><div class="cd-fmini" aria-hidden="true"><div class="cd-fmini-in"><button type="button" class="cd-fmini-btn" onclick="cdFiltersJump()">⚙️ Filters <span class="cd-fmini-n" hidden></span></button><span class="cd-fmini-res"><b>10</b> of 10 cruises</span></div></div>
 <!-- #1: Bateaux Parisiens Sightseeing Cruise with Audio Guide -->
 <div class="bpa-card" data-cat="tested under20 hour stroller wheelchair" id="card-1">
 <div class="bpa-main">
@@ -10430,10 +10417,12 @@ a.cd-editorial-bookmark::after{content:"\203A"!important;position:static!importa
 
 <script id="cd-filters-js">
 (function(){
-  /* Multi-select filters (Baymard: let shoppers combine filters, show live counts, never offer a 0-result filter) */
+  /* Multi-select filters, Baymard-based: combinable values, live counts, no 0-result options,
+     an applied-filters overview, and a sticky filter shortcut on phones. */
   var active = [];
   function catsOf(el){ return (el.getAttribute('data-cat')||'').split(/\s+/); }
   function matches(el, list){ var c=catsOf(el); return list.every(function(x){ return c.indexOf(x)!==-1; }); }
+  function labelOf(b){ var t=b.cloneNode(true); var n=t.querySelector('.cd-n'); if(n) n.remove(); return t.textContent.trim(); }
   function apply(){
     var cards=[].slice.call(document.querySelectorAll('#ltt-cards-deck .bpa-card'));
     var dets=[].slice.call(document.querySelectorAll('details.bpa-details-card'));
@@ -10443,14 +10432,23 @@ a.cd-editorial-bookmark::after{content:"\203A"!important;position:static!importa
       var s=matches(d,active); d.style.display=s?'block':'none';
       if(d.id) document.querySelectorAll('#toc a[href="#'+d.id+'"], #hybridSheetList a[href="#'+d.id+'"]').forEach(function(lk){ lk.classList.toggle('is-filtered',!s); });
     });
-    document.querySelectorAll('.ltt-tab-btn').forEach(function(b){
-      var c=b.getAttribute('data-cat'), on = c==='all' ? active.length===0 : active.indexOf(c)!==-1;
+    var applied=[];
+    document.querySelectorAll('.cd-fbox .ltt-tab-btn').forEach(function(b){
+      var c=b.getAttribute('data-cat'), on=active.indexOf(c)!==-1;
       b.classList.toggle('active',on); b.setAttribute('aria-pressed',on?'true':'false');
-      var n = c==='all' ? cards.length : cards.filter(function(card){ return matches(card, on?active:active.concat([c])); }).length;
-      var cn=b.querySelector('.cd-n'); if(cn) cn.textContent='('+(c==='all'?cards.length:n)+')';
-      var dead = c!=='all' && !on && n===0;
-      b.disabled=dead; b.classList.toggle('is-empty',dead);
+      var n=cards.filter(function(card){ return matches(card, on?active:active.concat([c])); }).length;
+      var cn=b.querySelector('.cd-n'); if(cn) cn.textContent='('+n+')';
+      var dead=!on && n===0; b.disabled=dead; b.classList.toggle('is-empty',dead);
+      if(on) applied.push('<button type="button" class="cd-fchip" onclick="lttFilterSafaris(\''+c+'\')" aria-label="Remove filter '+labelOf(b)+'">'+labelOf(b)+' <span aria-hidden="true">×</span></button>');
     });
+    var box=document.querySelector('.cd-fbox');
+    if(box){
+      box.querySelector('.cd-fcount').innerHTML='Showing <b>'+shown+'</b> of '+cards.length+' cruises';
+      box.querySelector('.cd-fapplied').innerHTML=applied.join('');
+      box.querySelector('.cd-fclear').hidden=!active.length;
+    }
+    var mn=document.querySelector('.cd-fmini-n'); if(mn){ mn.hidden=!active.length; mn.textContent=active.length; }
+    var mr=document.querySelector('.cd-fmini-res'); if(mr) mr.innerHTML='<b>'+shown+'</b> of '+cards.length+' cruises';
     var sub=document.querySelector('.bpa-breakdown-sub');
     if(sub){
       if(sub._def==null) sub._def=sub.textContent;
@@ -10462,10 +10460,72 @@ a.cd-editorial-bookmark::after{content:"\203A"!important;position:static!importa
     else { var i=active.indexOf(cat); if(i===-1) active.push(cat); else active.splice(i,1); }
     apply();
   };
+  window.cdFiltersJump = function(){
+    var box=document.getElementById('cd-filters'); if(!box) return;
+    var y=box.getBoundingClientRect().top+window.scrollY-(parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--cd-hdr'))||64)-8;
+    window.scrollTo({top:y,behavior:'smooth'});
+  };
+  // header height for the sticky mini-bar
+  function hdr(){
+    var el=document.elementFromPoint(window.innerWidth/2,4), h=0;
+    while(el && el!==document.body){ var p=getComputedStyle(el).position; if(p==='fixed'||p==='sticky'){ h=el.getBoundingClientRect().bottom; break; } el=el.parentElement; }
+    document.documentElement.style.setProperty('--cd-hdr',(h>0&&h<160?h:64)+'px');
+  }
+  hdr(); window.addEventListener('resize',hdr);
+  // show the mini-bar only once the filter box has scrolled away and while the deck is on screen
+  var box=document.getElementById('cd-filters'), mini=document.querySelector('.cd-fmini');
+  var deck=document.getElementById('ltt-cards-deck'), ticking=false;
+  function upd(){
+    ticking=false; if(!box||!mini||!deck) return;
+    var top=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--cd-hdr'))||64;
+    var bb=box.getBoundingClientRect(), db=deck.getBoundingClientRect();
+    var on = bb.bottom < top && db.bottom > top + 160;
+    if(mini.classList.contains('is-on')!==on){ mini.classList.toggle('is-on',on); mini.setAttribute('aria-hidden',on?'false':'true'); }
+  }
+  window.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(upd); } },{passive:true});
+  window.addEventListener('resize',upd);
+  upd();
+  apply();
 })();
 </script>
 <style id="cd-filters-css">
+/* grouped filter box */
+.ltt-integrated-filter-bar.cd-fbox{display:block!important;overflow:visible!important;flex-wrap:wrap!important;border:1px solid #e2e8f0;border-radius:16px;background:#fff;padding:12px 16px!important;margin-top:18px}
+.cd-frow{display:flex;align-items:center;gap:12px;padding:8px 0;border-top:1px solid #f1f5f9}
+.cd-frow:first-child{border-top:0;padding-top:2px}
+.cd-flab{flex:0 0 128px;font:800 11px/1.2 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#64748b}
+.cd-fchips{display:flex;gap:8px;flex-wrap:wrap}
+.cd-fbox .ltt-tab-btn{flex-shrink:0}
 .ltt-tab-btn.is-empty{opacity:.4;cursor:default}
 .ltt-tab-btn .cd-n{font-weight:500;opacity:.75}
+.cd-ffoot{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin-top:8px;padding-top:10px;border-top:1px solid #e2e8f0;font:500 13px/1.3 'Plus Jakarta Sans',sans-serif;color:#64748b}
+.cd-fcount b{color:#0f172a}
+.cd-fapplied{display:flex;flex-wrap:wrap;gap:6px}
+.cd-fchip{display:inline-flex;align-items:center;gap:6px;border:1px solid #cbd5e1;background:#f1f5f9;color:#0f172a;border-radius:999px;padding:5px 10px;font:600 12px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.cd-fchip:hover{background:#e2e8f0}
+.cd-fchip span{font-weight:800;color:#475569}
+.cd-fclear{border:0;background:none;padding:0;color:#0f172a;font:700 13px/1 'Plus Jakarta Sans',sans-serif;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.cd-fclear:hover{color:#334155}
+.cd-fclear[hidden]{display:none}
+@media (max-width:767px){
+  .cd-frow{flex-direction:column;align-items:flex-start;gap:7px}
+  .cd-flab{flex:none}
+  .ltt-integrated-filter-bar.cd-fbox{padding:12px!important}
+}
+/* sticky mini-bar on phones */
+.cd-fmini{display:none}
+@media (max-width:767px){
+  .cd-fmini{display:block;position:fixed;top:calc(var(--cd-hdr,64px) + 6px);left:12px;right:12px;height:0;z-index:30}
+  .cd-fbox .ltt-tab-btn{padding:6px 10px!important;font-size:12px!important}
+  .cd-fchips{gap:6px}
+  .cd-fmini-in{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0;padding:7px 8px 7px 7px;background:rgba(255,255,255,.97);border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,.12);transform:translateY(-12px);opacity:0;pointer-events:none;transition:opacity .18s,transform .18s}
+  .cd-fmini.is-on .cd-fmini-in{transform:none;opacity:1;pointer-events:auto}
+  .cd-fmini-btn{display:inline-flex;align-items:center;gap:6px;border:0;background:#0a192f;color:#fff;border-radius:9px;padding:9px 12px;font:700 13px/1 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+  .cd-fmini-n{background:#fff;color:#0a192f;border-radius:999px;padding:2px 7px;font-size:11px}
+  .cd-fmini-n[hidden]{display:none}
+  .cd-fmini-res{font:500 13px/1 'Plus Jakarta Sans',sans-serif;color:#64748b;padding-right:4px}
+  .cd-fmini-res b{color:#0f172a}
+}
 </style>
+
 </body></html>
