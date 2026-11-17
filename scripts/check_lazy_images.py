@@ -26,6 +26,8 @@ What it checks, on every .html file that .vercelignore does not exclude:
   4. Any other element with a lazy attribute (data-src, data-srcset, data-bg,
      data-lazy, data-original, ...) is an unknown pattern with no known loader
      and fails, so a new lazy-loading scheme cannot ship without a check here.
+  4b. No photo is hotlinked from someone else's site: <img> src/data-src must be a
+     local file or a host in ALLOWED_IMAGE_HOSTS.
   5. Every local image URL used by a photo (src, data-src, srcset,
      data-srcset) points at a file that exists in the repo.
 
@@ -68,6 +70,15 @@ def vercel_ignored():
     return ignored
 LAZY_ATTRS = ("data-src", "data-srcset", "data-bg", "data-background",
               "data-lazy", "data-lazy-src", "data-original", "data-bg-src")
+# Photos may only come from our own files or these hosts. Anything else is a hotlink
+# to someone else's site: it can vanish or block us any day (and may not be ours to use).
+ALLOWED_IMAGE_HOSTS = {
+    "cdn.prod.website-files.com",    # our own Webflow CDN
+    "www.thecruisedetective.com",    # our own site
+    "aws-tiqets-cdn.imgix.net",      # Tiqets partner images
+    "images.unsplash.com",           # licensed for hotlinking
+    "www.facebook.com",              # tracking pixel, not a photo
+}
 DATA_MORE_CDN = "/assets/cdn/60e43c7d6d05b671dff0dc1a/"
 # the old data-more loader prefixed the CDN folder even onto absolute paths -> /assets/.../\/assets/...
 OLD_DATA_MORE = 'img.src = f.startsWith("http") ? f : BPA_CDN + f;'
@@ -136,6 +147,7 @@ class Scan(HTMLParser):
         self.blank_first = 0
         self.thumbs = 0
         self.data_more = 0
+        self.hotlinks = []
         self.unknown = []
         self.urls = []
 
@@ -148,6 +160,9 @@ class Scan(HTMLParser):
             for k in ("src", "data-src"):
                 if a.get(k):
                     self.urls.append(a[k])
+                    m = re.match(r"(?:https?:)?//([^/]+)", a[k])
+                    if m and m.group(1).lower() not in ALLOWED_IMAGE_HOSTS:
+                        self.hotlinks.append(a[k])
             for k in ("srcset", "data-srcset"):
                 for part in (a.get(k) or "").split(","):
                     if part.strip():
@@ -239,6 +254,11 @@ def page_problems(path, html):
         probs.append(f"{s.thumbs} menu thumbnail(s) use data-src but the page has no thumbnail loader")
     for u in sorted(set(s.unknown))[:5]:
         probs.append(f"lazy attribute with no known loader: {u} (add a loader and a rule in this check)")
+
+    for u in sorted(set(s.hotlinks))[:5]:
+        probs.append(f"photo hotlinked from another site (can break any day): {u}")
+    if len(set(s.hotlinks)) > 5:
+        probs.append(f"... and {len(set(s.hotlinks)) - 5} more hotlinked photo(s)")
 
     missing = set()
     page_dir = os.path.dirname(path)
