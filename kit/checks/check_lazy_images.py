@@ -189,7 +189,15 @@ def page_problems(path, html):
     s.feed(html)
     s.close()
     probs = []
-    scripts = strip_comments("\n".join(re.findall(r"<script\b[^>]*>(.*?)</script>", html, flags=re.S | re.I)))
+    inline = re.findall(r"<script\b[^>]*>(.*?)</script>", html, flags=re.S | re.I)
+    # local external scripts count too (e.g. the shared /js/site-runtime.js)
+    for src in re.findall(r'<script\b[^>]*\bsrc="(/[^"?#]+\.js)[^"]*"', html, flags=re.I):
+        try:
+            with open(os.path.join(ROOT, src.lstrip("/")), encoding="utf-8") as fh:
+                inline.append(fh.read())
+        except OSError:
+            pass
+    scripts = strip_comments("\n".join(inline))
 
     if s.slider_lazy:
         if "function loadSliderImages" not in scripts:
