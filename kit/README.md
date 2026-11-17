@@ -35,10 +35,27 @@ Change the kit: edit this repo, bump `VERSION`, PR, merge, tag `vX.Y.Z`, then ru
 | `ci/layout-check.yml` | The CI workflow every site uses |
 | `runtime/site-runtime.js` | Shared front-end runtime (sliders, filters, TOC, sticky bar, lazy photos), served as `/js/site-runtime.js?v=<hash>` on sites with `"runtime": {"shared": true}` |
 | `runtime/runtime.py` | `migrate`: move a site's pages from their inline runtime to the shared file (only byte-identical copies); `publish`: used by update.py |
+| `scripts/*.py` | Shared site scripts (see below) |
 | `update.py` | Install / update the kit in a site |
 
-Coming in later phases (see the plan): the shared site scripts (layout sync, sitemap,
-affiliate rel, article builder), `templates/`, `new_site.py`.
+Coming in later phases (see the plan): `templates/`, `new_site.py`.
+
+## Shared scripts
+
+The code of a shared script lives in `kit/scripts/<name>.py`. Each site keeps a short stub
+at `scripts/<name>.py` that loads the kit copy, so `python3 scripts/<name>.py ...` and
+`import <name>` work as before. `update.py` writes the stubs; `check_kit.py` fails when a
+stub is missing or edited. A shared script reads the site's root from `checks/sitecfg.py`
+(never from its own `__file__`, which points into `kit/`) and its settings from `site.json`.
+A site that still needs its own version of a script lists it in `site.json` as
+`"own_scripts": ["sync_layout.py"]`; it then gets no stub for it.
+
+| Script | What |
+| --- | --- |
+| `search_index.py` | Per-language search index (`search/<lang>.json`) for the menu search |
+| `sync_layout.py` | Header, footer, active menu item and language switcher from the master pages, search index, affiliate rel; settings in the site's `scripts/layout_config.json` |
+| `slider_photo_order.py` | Applies the card photo orders in the site's `scripts/slider_photo_order_data.py` to every language version |
+| `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
 
 ## site.json
 

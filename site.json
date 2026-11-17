@@ -28,5 +28,24 @@
   ],
   "runtime": {
     "shared": true
+  },
+  "affiliate": {
+    "conditional_hosts": {
+      "fareharbor.com": {
+        "ref": "cruisedetective-asn"
+      }
+    },
+    "json": [
+      "i18n/*.json"
+    ],
+    "skip": [
+      "api/"
+    ]
+  },
+  "own_scripts": [
+    "sync_layout.py"
+  ],
+  "photo_order": {
+    "slot": "rebuild"
   }
 }
