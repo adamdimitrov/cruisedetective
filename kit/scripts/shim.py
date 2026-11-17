@@ -4,6 +4,7 @@ The stub (written by kit/update.py, checked by kit/checks/check_kit.py) loads th
 under its old name, so `python3 scripts/<name>.py ...` and `import <name>` keep working.
 Never edit the stub or kit/scripts/ in a site: change github.com/adamdimitrov/site-kit.
 """
+import json
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -26,8 +27,16 @@ _spec.loader.exec_module(_mod)
 '''
 
 
-def shared():
-    return sorted(f for f in os.listdir(HERE) if f.endswith(".py") and f not in NOT_SHARED)
+def shared(site=None):
+    """Kit scripts this site uses. site.json "own_scripts" lists the ones a site still keeps
+    its own version of (e.g. ["sync_layout.py"]); those get no stub."""
+    own = set()
+    if site:
+        try:
+            own = set(json.load(open(os.path.join(site, "site.json"), encoding="utf-8")).get("own_scripts", []))
+        except (OSError, ValueError):
+            pass
+    return sorted(f for f in os.listdir(HERE) if f.endswith(".py") and f not in NOT_SHARED and f not in own)
 
 
 def stub(name):
@@ -36,14 +45,14 @@ def stub(name):
 
 def write_stubs(site):
     os.makedirs(os.path.join(site, "scripts"), exist_ok=True)
-    for name in shared():
+    for name in shared(site):
         with open(os.path.join(site, "scripts", name), "w", encoding="utf-8") as fh:
             fh.write(stub(name))
 
 
 def stub_problems(site):
     out = []
-    for name in shared():
+    for name in shared(site):
         p = os.path.join(site, "scripts", name)
         try:
             ok = open(p, encoding="utf-8").read() == stub(name)

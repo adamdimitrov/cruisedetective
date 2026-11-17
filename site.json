@@ -41,5 +41,8 @@
     "skip": [
       "api/"
     ]
-  }
+  },
+  "own_scripts": [
+    "sync_layout.py"
+  ]
 }

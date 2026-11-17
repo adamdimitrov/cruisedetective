@@ -47,10 +47,13 @@ at `scripts/<name>.py` that loads the kit copy, so `python3 scripts/<name>.py ..
 `import <name>` work as before. `update.py` writes the stubs; `check_kit.py` fails when a
 stub is missing or edited. A shared script reads the site's root from `checks/sitecfg.py`
 (never from its own `__file__`, which points into `kit/`) and its settings from `site.json`.
+A site that still needs its own version of a script lists it in `site.json` as
+`"own_scripts": ["sync_layout.py"]`; it then gets no stub for it.
 
 | Script | What |
 | --- | --- |
 | `search_index.py` | Per-language search index (`search/<lang>.json`) for the menu search |
+| `sync_layout.py` | Header, footer, active menu item and language switcher from the master pages, search index, affiliate rel; settings in the site's `scripts/layout_config.json` |
 | `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
 
 ## site.json
