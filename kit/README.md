@@ -30,6 +30,7 @@ Change the kit: edit this repo, bump `VERSION`, PR, merge, tag `vX.Y.Z`, then ru
 | `checks/check_all.py` | Runs every check; CI runs exactly this |
 | `checks/check_kit.py` | kit/ untouched, CI file current, local checks present |
 | `checks/check_lazy_images.py` | Photos: loaders, first slide, missing files, hotlinks (`--fix` upgrades old slider runtimes) |
+| `checks/check_archive.py` | Nothing (script, workflow, skill, settings) still calls a script in `scripts/archive/` |
 | `checks/check_filters.py` | Filter pills: `data-group` on every non-"All" pill, only "All" active |
 | `checks/sitecfg.py`, `checks/kittree.py` | Shared helpers |
 | `ci/layout-check.yml` | The CI workflow every site uses |
