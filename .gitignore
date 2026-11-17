@@ -13,3 +13,6 @@ reports/
 
 # Claude Code worktrees
 .claude/worktrees/
+
+__pycache__/
+*.pyc
