@@ -9,6 +9,8 @@ Fails when:
      python3 kit/update.py in the site.
   2. .github/workflows/layout-check.yml differs from kit/ci/layout-check.yml.
   3. a check that site.json lists under local_checks is missing.
+  4. sites with "runtime": {"shared": true}: /js/site-runtime.js differs from the kit copy,
+     a page loads an old ?v=, or a page still carries an inline copy of the runtime.
 """
 import json
 import os
@@ -19,6 +21,37 @@ from kittree import tree_sha256  # noqa: E402
 from sitecfg import ROOT, SITE  # noqa: E402
 
 KIT = os.path.join(ROOT, "kit")
+
+
+def runtime_problems():
+    import hashlib
+    import re
+    from sitecfg import published_html
+    out = []
+    kit_js = os.path.join(KIT, "runtime", "site-runtime.js")
+    pub_js = os.path.join(ROOT, "js", "site-runtime.js")
+    try:
+        if open(kit_js, "rb").read() != open(pub_js, "rb").read():
+            out.append("js/site-runtime.js differs from kit/runtime/site-runtime.js (run kit/update.py)")
+    except FileNotFoundError as e:
+        return [f"missing {os.path.relpath(e.filename, ROOT)}"]
+    v = hashlib.sha256(open(kit_js, "rb").read()).hexdigest()[:10]
+    stale, inline, using = [], [], 0
+    for rel in published_html():
+        s = open(os.path.join(ROOT, rel), encoding="utf-8").read()
+        refs = re.findall(r'/js/site-runtime\.js\?v=([0-9a-f]+)', s)
+        using += bool(refs)
+        if any(r != v for r in refs):
+            stale.append(rel)
+        if "UNIFIED PAGE RUNTIME" in s or 'id="bpa-slider-perf-runtime"' in s:
+            inline.append(rel)
+    if stale:
+        out.append(f"{len(stale)} page(s) load an old site-runtime.js version, e.g. {stale[0]} (run kit/update.py)")
+    if inline:
+        out.append(f"{len(inline)} page(s) still carry an inline runtime copy, e.g. {inline[0]} "
+                   "(python3 kit/runtime/runtime.py migrate)")
+    print(f"shared runtime {v}: {using} page(s) use it")
+    return out
 
 
 def main():
@@ -45,6 +78,8 @@ def main():
         script = cmd.split()[0]
         if not os.path.isfile(os.path.join(ROOT, script)):
             probs.append(f"site.json local_checks lists {script}, which does not exist")
+    if SITE.get("runtime", {}).get("shared"):
+        probs += runtime_problems()
     for p in probs:
         print(f"FAIL {p}")
     print(f"kit {lock.get('version', '?')}: {'OK' if not probs else str(len(probs)) + ' problem(s)'}")

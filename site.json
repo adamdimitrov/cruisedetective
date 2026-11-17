@@ -25,5 +25,8 @@
   "local_checks": [
     "scripts/sync_layout.py --check",
     "scripts/fix_affiliate_rel.py --check"
-  ]
+  ],
+  "runtime": {
+    "shared": true
+  }
 }

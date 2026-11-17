@@ -13,6 +13,9 @@ What it does, per site:
   1. replaces <site>/kit/ with an exact copy of the kit (never edit kit/ by hand),
   2. writes <site>/kit.lock (version, source commit, fingerprint),
   3. copies kit/ci/layout-check.yml to <site>/.github/workflows/layout-check.yml,
+  3b. sites with "runtime": {"shared": true} in site.json: publishes /js/site-runtime.js
+      and points every page at its current ?v= (move pages over once with
+      python3 kit/runtime/runtime.py migrate),
   4. runs kit/checks/check_all.py (skip with --no-check).
 It never commits, pushes or deploys: review the diff, open a PR, merge when approved.
 """
@@ -58,6 +61,12 @@ def install(src, site, check=True):
     with open(os.path.join(site, "kit.lock"), "w", encoding="utf-8") as fh:
         json.dump(lock, fh, indent=2)
         fh.write("\n")
+    if json.load(open(os.path.join(site, "site.json"), encoding="utf-8")).get("runtime", {}).get("shared"):
+        sys.path.insert(0, os.path.join(kit, "runtime"))
+        import runtime  # noqa: E402
+        runtime.publish(site)
+        sys.path.pop(0)
+        sys.modules.pop("runtime", None)
     wf = os.path.join(site, ".github", "workflows")
     os.makedirs(wf, exist_ok=True)
     shutil.copyfile(os.path.join(kit, "ci", "layout-check.yml"), os.path.join(wf, "layout-check.yml"))
