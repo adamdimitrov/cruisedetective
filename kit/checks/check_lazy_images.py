@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Every lazy-loaded photo on every published page actually gets loaded.
 
-    python3 scripts/check_lazy_images.py            # report only, exit 1 on any problem
-    python3 scripts/check_lazy_images.py --fix      # upgrade old slider runtimes in place, then re-check
-    python3 scripts/check_lazy_images.py --report   # per-file counts
+    python3 kit/checks/check_lazy_images.py            # report only, exit 1 on any problem
+    python3 kit/checks/check_lazy_images.py --fix      # upgrade old slider runtimes in place, then re-check
+    python3 kit/checks/check_lazy_images.py --report   # per-file counts
 
 Why: images are often shipped as a blank placeholder (src="data:...") with the
 real URL in data-src / data-srcset, and some JavaScript has to swap it in. If a
@@ -42,44 +42,14 @@ import sys
 import urllib.parse
 from html.parser import HTMLParser
 
-import fnmatch
-
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-
-def vercel_ignored():
-    """Patterns from .vercelignore: those files never reach the live site.
-    Self-contained so the same file works in every site repo."""
-    try:
-        with open(os.path.join(ROOT, ".vercelignore"), encoding="utf-8") as fh:
-            lines = fh.read().splitlines()
-    except OSError:
-        return lambda f: False
-    pats = [ln.strip() for ln in lines if ln.strip() and not ln.startswith("#") and not ln.startswith("!")]
-
-    def ignored(f):
-        for p in pats:
-            anchored = p.startswith("/")
-            p2 = p.strip("/")
-            if anchored and (fnmatch.fnmatch(f, p2) or f.startswith(p2 + "/")):
-                return True
-            if not anchored and (fnmatch.fnmatch(os.path.basename(f), p2) or fnmatch.fnmatch(f, p2)
-                                 or f.startswith(p2 + "/") or ("/" + p2 + "/") in ("/" + f)):
-                return True
-        return False
-    return ignored
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sitecfg import ROOT, SITE, published_html  # noqa: E402
 LAZY_ATTRS = ("data-src", "data-srcset", "data-bg", "data-background",
               "data-lazy", "data-lazy-src", "data-original", "data-bg-src")
-# Photos may only come from our own files or these hosts. Anything else is a hotlink
-# to someone else's site: it can vanish or block us any day (and may not be ours to use).
-ALLOWED_IMAGE_HOSTS = {
-    "cdn.prod.website-files.com",    # our own Webflow CDN
-    "www.thecruisedetective.com",    # our own site
-    "aws-tiqets-cdn.imgix.net",      # Tiqets partner images
-    "images.unsplash.com",           # licensed for hotlinking
-    "www.facebook.com",              # tracking pixel, not a photo
-}
-DATA_MORE_CDN = "/assets/cdn/60e43c7d6d05b671dff0dc1a/"
+# Photos may only come from our own files or the hosts in site.json images.allowed_hosts.
+# Anything else is a hotlink to someone else's site: it can vanish or block us any day.
+ALLOWED_IMAGE_HOSTS = {h.lower() for h in SITE.get("images", {}).get("allowed_hosts", [])}
+DATA_MORE_CDN = SITE.get("images", {}).get("data_more_prefix", "/assets/")
 # the old data-more loader prefixed the CDN folder even onto absolute paths -> /assets/.../\/assets/...
 OLD_DATA_MORE = 'img.src = f.startsWith("http") ? f : BPA_CDN + f;'
 NEW_DATA_MORE = 'img.src = (f.startsWith("http") || f.startsWith("/")) ? f : BPA_CDN + f;'
@@ -276,19 +246,6 @@ def page_problems(path, html):
     return probs, s
 
 
-def published_html():
-    ignored = vercel_ignored()
-    for dirpath, dirnames, filenames in os.walk(ROOT):
-        rel_dir = os.path.relpath(dirpath, ROOT)
-        dirnames[:] = sorted(d for d in dirnames if d not in (".git", "node_modules")
-                             and not ignored(os.path.normpath(os.path.join(rel_dir, d))))
-        for f in sorted(filenames):
-            if f.endswith(".html"):
-                rel = os.path.normpath(os.path.join(rel_dir, f))
-                if not ignored(rel):
-                    yield rel
-
-
 def fix(rel, html):
     html = html.replace(OLD_DATA_MORE, NEW_DATA_MORE)
     if (OLD_COUNT in html and "function loadSliderImages" in html
@@ -332,7 +289,7 @@ def main():
                 print(f"     - {p}")
     print(f"checked {pages} pages, {sliders} carousels: {bad} page(s) with problems")
     if bad:
-        print("Fix the runtime with: python3 scripts/check_lazy_images.py --fix")
+        print("Fix the runtime with: python3 kit/checks/check_lazy_images.py --fix")
         sys.exit(1)
 
 

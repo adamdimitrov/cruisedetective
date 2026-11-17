@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Filter pills on comparison pages render correctly on load.
 
-    python3 scripts/check_filters.py     # report only, exit 1 on any problem (runs in CI)
+    python3 kit/checks/check_filters.py     # report only, exit 1 on any problem (runs in CI)
 
 Why: the shared filter runtime (lttFilterItems + btnGroup) only treats buttons
 that carry data-group as filters. A button without data-group behaves like
@@ -17,7 +17,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from check_lazy_images import ROOT, published_html  # noqa: E402
+from sitecfg import ROOT, published_html  # noqa: E402
 
 BTN = re.compile(r'<button\b[^>]*class="ltt-tab-btn[^"]*"[^>]*>')
 

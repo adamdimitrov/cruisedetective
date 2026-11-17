@@ -1,0 +1,23 @@
+name: Layout check
+
+# Installed by the site kit (github.com/adamdimitrov/site-kit). Do not edit
+# here: change kit/ci/layout-check.yml in the site-kit repo and run
+# python3 kit/update.py. check_kit.py fails when this file differs.
+#
+# Runs every QC check for the site: the kit's integrity, the site's own
+# checks listed in site.json (local_checks), photos (check_lazy_images) and
+# filter pills (check_filters). Same file on every site.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 kit/checks/check_all.py

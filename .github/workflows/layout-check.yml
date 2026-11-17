@@ -1,14 +1,12 @@
 name: Layout check
 
-# Same file on every site (budapestadventures, thecruisedetective,
-# luxurytraveltester, adventuresinnewyork). Fails the PR when:
-#   - a page's menu/footer drifts from its language master, a floating bar
-#     links to something not on the page, or a live page is missing from the
-#     sitemap                                  -> python3 scripts/sync_layout.py
-#   - an affiliate/OTA link lacks its rel tokens -> python3 scripts/fix_affiliate_rel.py
-#   - a photo would not show (lazy data-src with no loader, missing file,
-#     hotlinked from another site)             -> python3 scripts/check_lazy_images.py --fix
-#   - a filter pill would render active on load -> see scripts/check_filters.py
+# Installed by the site kit (github.com/adamdimitrov/site-kit). Do not edit
+# here: change kit/ci/layout-check.yml in the site-kit repo and run
+# python3 kit/update.py. check_kit.py fails when this file differs.
+#
+# Runs every QC check for the site: the kit's integrity, the site's own
+# checks listed in site.json (local_checks), photos (check_lazy_images) and
+# filter pills (check_filters). Same file on every site.
 on:
   pull_request:
   push:
@@ -22,7 +20,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python3 scripts/sync_layout.py --check
-      - run: python3 scripts/fix_affiliate_rel.py --check
-      - run: python3 scripts/check_lazy_images.py
-      - run: python3 scripts/check_filters.py
+      - run: python3 kit/checks/check_all.py
