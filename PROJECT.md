@@ -94,3 +94,11 @@
   - `test/` — Unit and integration tests (`click-id-capture.test.js`, `conversion-upload.test.js`, `e2e-suite.test.js`, etc.)
   - `test_landing_pages.py` — Python landing page affiliate link verification
   - `test_e2e_overhaul.py` / `test/e2e-staging-overhaul.test.js` — E2E test suite covering Tiers 1-4
+
+## Photos and lazy loading (QC: `scripts/check_lazy_images.py`, runs in CI)
+- Carousel photos may ship as placeholders with the real URL in `data-src` / `data-srcset`; the page MUST ship
+  the slider loader (`loadSliderImages()` called from the arrows and wired to swipe/touch), or slides stay blank.
+- Image paths must point at files in the repo (absolute `/assets/...`). Never a local machine path
+  (`/Users/...`) or a root path for a file that lives in a subfolder.
+- Run `python3 scripts/check_lazy_images.py` after any script that rewrites images; `--fix` upgrades old
+  slider runtimes. CI fails the PR on any problem. The same script runs on budapestadventures and luxurytraveltester.
