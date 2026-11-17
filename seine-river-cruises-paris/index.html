@@ -1932,13 +1932,15 @@ html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!import
 <div class="ltt-integrated-filter-bar">
 <span class="ltt-filter-label">Filters:</span>
 <div class="ltt-integrated-pills">
-<button class="ltt-tab-btn active" data-cat="all" onclick="lttFilterSafaris('all', this)" type="button">All (10)</button>
-<button class="ltt-tab-btn" data-cat="tested" onclick="lttFilterSafaris('tested', this)" type="button">✓ Personally Tested (5)</button>
-<button class="ltt-tab-btn" data-cat="under20" onclick="lttFilterSafaris('under20', this)" type="button">💶 Under €20 (2)</button>
-<button class="ltt-tab-btn" data-cat="treats" onclick="lttFilterSafaris('treats', this)" type="button">🥂 Drinks &amp; Treats (4)</button>
-<button class="ltt-tab-btn" data-cat="lunch" onclick="lttFilterSafaris('lunch', this)" type="button">🍽️ Seated Lunch (1)</button>
-<button class="ltt-tab-btn" data-cat="route" onclick="lttFilterSafaris('route', this)" type="button">🗺️ Hop-On &amp; Canal (2)</button>
-<button class="ltt-tab-btn" data-cat="private" onclick="lttFilterSafaris('private', this)" type="button">🛥️ Private Boat (1)</button>
+<button class="ltt-tab-btn active" data-cat="all" onclick="lttFilterSafaris('all', this)" type="button" aria-pressed="true">All <span class="cd-n">(10)</span></button>
+<button class="ltt-tab-btn" data-cat="tested" onclick="lttFilterSafaris('tested', this)" type="button" aria-pressed="false">✓ Personally Tested <span class="cd-n">(5)</span></button>
+<button class="ltt-tab-btn" data-cat="hour" onclick="lttFilterSafaris('hour', this)" type="button" aria-pressed="false">⏱️ 1 hour <span class="cd-n">(5)</span></button>
+<button class="ltt-tab-btn" data-cat="stroller" onclick="lttFilterSafaris('stroller', this)" type="button" aria-pressed="false">👶 Stroller-friendly <span class="cd-n">(5)</span></button>
+<button class="ltt-tab-btn" data-cat="wheelchair" onclick="lttFilterSafaris('wheelchair', this)" type="button" aria-pressed="false">♿ Wheelchair OK <span class="cd-n">(3)</span></button>
+<button class="ltt-tab-btn" data-cat="under20" onclick="lttFilterSafaris('under20', this)" type="button" aria-pressed="false">💶 Under €20 <span class="cd-n">(2)</span></button>
+<button class="ltt-tab-btn" data-cat="food" onclick="lttFilterSafaris('food', this)" type="button" aria-pressed="false">🍽️ Food &amp; drinks <span class="cd-n">(5)</span></button>
+<button class="ltt-tab-btn" data-cat="route" onclick="lttFilterSafaris('route', this)" type="button" aria-pressed="false">🗺️ Hop-On &amp; Canal <span class="cd-n">(2)</span></button>
+<button class="ltt-tab-btn" data-cat="private" onclick="lttFilterSafaris('private', this)" type="button" aria-pressed="false">🛥️ Private Boat <span class="cd-n">(1)</span></button>
 </div>
 </div>
 </div>
@@ -4743,7 +4745,7 @@ footer.ltt-footer .legal-text {
 <div class="ltt-deck-container" id="seine-cruise-deck">
 <div class="bpa-deck-wrap" id="ltt-cards-deck">
 <!-- #1: Bateaux Parisiens Sightseeing Cruise with Audio Guide -->
-<div class="bpa-card" data-cat="tested under20" id="card-1">
+<div class="bpa-card" data-cat="tested under20 hour stroller wheelchair" id="card-1">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">🏆 #1 Best Overall</span>
@@ -4788,7 +4790,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #2: Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise -->
-<div class="bpa-card" data-cat="tested under20" id="card-2">
+<div class="bpa-card" data-cat="tested under20 stroller wheelchair" id="card-2">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-silver">🥈 #2 Runner-Up</span>
@@ -4833,7 +4835,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #3: Vedettes de Paris Seine Cruise with French Music & Bar -->
-<div class="bpa-card" data-cat="tested treats" id="card-3">
+<div class="bpa-card" data-cat="tested food hour stroller wheelchair" id="card-3">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-bronze">🥉 #3 Best Music &amp; Vibe</span>
@@ -4878,7 +4880,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #4: Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass -->
-<div class="bpa-card" data-cat="tested route" id="card-4">
+<div class="bpa-card" data-cat="tested route stroller" id="card-4">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#4 Best Hop-On Hop-Off</span>
@@ -4922,7 +4924,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #5: St. Martin Canal & Seine River Cruise (Paris Canal) -->
-<div class="bpa-card" data-cat="tested route" id="card-10">
+<div class="bpa-card" data-cat="tested route stroller" id="card-10">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#5 Best Canal &amp; Locks</span>
@@ -5010,7 +5012,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #7: Paris Night Cruise with River Views & Waffle Tasting -->
-<div class="bpa-card" data-cat="treats" id="card-6">
+<div class="bpa-card" data-cat="food hour" id="card-6">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#7 Best Night &amp; Waffle</span>
@@ -5052,7 +5054,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #8: Seine River Sightseeing Cruise with French Crêpe Tasting -->
-<div class="bpa-card" data-cat="treats" id="card-7">
+<div class="bpa-card" data-cat="food hour" id="card-7">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#8 Best Crêpe Combo</span>
@@ -5094,7 +5096,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #9: Paris 3-Course Gourmet Lunch Cruise with Live Music -->
-<div class="bpa-card" data-cat="lunch" id="card-8">
+<div class="bpa-card" data-cat="food" id="card-8">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">🍽️ #9 Best Lunch Cruise</span>
@@ -5135,7 +5137,7 @@ footer.ltt-footer .legal-text {
 </div>
 </div>
 <!-- #10: Paris River Cruise with Ice Cream, Dessert or Drink -->
-<div class="bpa-card" data-cat="treats" id="card-9">
+<div class="bpa-card" data-cat="food hour" id="card-9">
 <div class="bpa-main">
 <div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#10 Best Summer Treat</span>
@@ -5190,7 +5192,7 @@ footer.ltt-footer .legal-text {
 <button class="bpa-acc-ctrl-btn" onclick="toggleAllDetails(false)" type="button">Collapse All</button>
 </div>
 </div>
-<details class="bpa-details-card" data-cat="tested under20" id="1-bateaux-parisiens" open="">
+<details class="bpa-details-card" data-cat="tested under20 hour stroller wheelchair" id="1-bateaux-parisiens" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -5357,7 +5359,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="tested under20" id="2-bateaux-mouches" open="">
+</details><details class="bpa-details-card" data-cat="tested under20 stroller wheelchair" id="2-bateaux-mouches" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -5521,7 +5523,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="tested treats" id="3-vedettes-de-paris" open="">
+</details><details class="bpa-details-card" data-cat="tested food hour stroller wheelchair" id="3-vedettes-de-paris" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -5686,7 +5688,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="tested route" id="4-batobus" open="">
+</details><details class="bpa-details-card" data-cat="tested route stroller" id="4-batobus" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -5851,7 +5853,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="tested route" id="10-paris-canal-cruise" open="">
+</details><details class="bpa-details-card" data-cat="tested route stroller" id="10-paris-canal-cruise" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -6133,7 +6135,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="under20 treats" id="6-waffle-tasting-cruise" open="">
+</details><details class="bpa-details-card" data-cat="food hour" id="6-waffle-tasting-cruise" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -6242,7 +6244,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="under20 treats" id="7-bateaux-parisiens-crepe" open="">
+</details><details class="bpa-details-card" data-cat="food hour" id="7-bateaux-parisiens-crepe" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -6354,7 +6356,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="lunch" id="8-bateaux-parisiens-lunch" open="">
+</details><details class="bpa-details-card" data-cat="food" id="8-bateaux-parisiens-lunch" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -6466,7 +6468,7 @@ footer.ltt-footer .legal-text {
 </div>
 </details>
 </div>
-</details><details class="bpa-details-card" data-cat="under20 treats" id="9-global-tours-and-tickets" open="">
+</details><details class="bpa-details-card" data-cat="food hour" id="9-global-tours-and-tickets" open="">
 <summary class="bpa-details-summary">
 <div class="bpa-details-summary-content">
 <div class="bpa-details-top-row">
@@ -10426,4 +10428,44 @@ a.cd-editorial-bookmark::after{content:"\203A"!important;position:static!importa
 })();
 </script>
 
+<script id="cd-filters-js">
+(function(){
+  /* Multi-select filters (Baymard: let shoppers combine filters, show live counts, never offer a 0-result filter) */
+  var active = [];
+  function catsOf(el){ return (el.getAttribute('data-cat')||'').split(/\s+/); }
+  function matches(el, list){ var c=catsOf(el); return list.every(function(x){ return c.indexOf(x)!==-1; }); }
+  function apply(){
+    var cards=[].slice.call(document.querySelectorAll('#ltt-cards-deck .bpa-card'));
+    var dets=[].slice.call(document.querySelectorAll('details.bpa-details-card'));
+    var shown=0;
+    cards.forEach(function(card){ var s=matches(card,active); card.style.display=s?'block':'none'; if(s) shown++; });
+    dets.forEach(function(d){
+      var s=matches(d,active); d.style.display=s?'block':'none';
+      if(d.id) document.querySelectorAll('#toc a[href="#'+d.id+'"], #hybridSheetList a[href="#'+d.id+'"]').forEach(function(lk){ lk.classList.toggle('is-filtered',!s); });
+    });
+    document.querySelectorAll('.ltt-tab-btn').forEach(function(b){
+      var c=b.getAttribute('data-cat'), on = c==='all' ? active.length===0 : active.indexOf(c)!==-1;
+      b.classList.toggle('active',on); b.setAttribute('aria-pressed',on?'true':'false');
+      var n = c==='all' ? cards.length : cards.filter(function(card){ return matches(card, on?active:active.concat([c])); }).length;
+      var cn=b.querySelector('.cd-n'); if(cn) cn.textContent='('+(c==='all'?cards.length:n)+')';
+      var dead = c!=='all' && !on && n===0;
+      b.disabled=dead; b.classList.toggle('is-empty',dead);
+    });
+    var sub=document.querySelector('.bpa-breakdown-sub');
+    if(sub){
+      if(sub._def==null) sub._def=sub.textContent;
+      sub.textContent = active.length ? ('Showing '+shown+' of '+cards.length+' cruises matching your filters') : sub._def;
+    }
+  }
+  window.lttFilterItems = window.lttFilterSafaris = window.lttFilterCruises = function(cat){
+    if(!cat || cat==='all'){ active=[]; }
+    else { var i=active.indexOf(cat); if(i===-1) active.push(cat); else active.splice(i,1); }
+    apply();
+  };
+})();
+</script>
+<style id="cd-filters-css">
+.ltt-tab-btn.is-empty{opacity:.4;cursor:default}
+.ltt-tab-btn .cd-n{font-weight:500;opacity:.75}
+</style>
 </body></html>
