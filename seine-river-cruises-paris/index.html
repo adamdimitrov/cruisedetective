@@ -948,6 +948,46 @@ html body .hybrid-active-title{color:#0f172a!important}
 html body .hybrid-active-price{color:#9f6e0d!important}
 html body .hybrid-active-trust{background:#f0fdf4!important;color:#166534!important;border-color:#bbf7d0!important}
 </style>
+<style id="cd-cards-css">
+/* Card gallery thumbnails (Baymard: thumbnails beat dots/counters) */
+.cd-gal{display:flex;flex-direction:column;gap:6px;min-width:0}
+.cd-gal .bpa-pill,.cd-gal .bpa-arrow{display:none!important}
+.cd-thumbs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:1px}
+.cd-thumbs::-webkit-scrollbar{display:none}
+.cd-thumb{position:relative;flex:0 0 auto;width:calc((100% - 24px)/5);height:auto;aspect-ratio:4/3;border:0;padding:0;margin:0;border-radius:6px;overflow:hidden;cursor:pointer;background:#e2e8f0;outline:2px solid transparent;outline-offset:-2px;opacity:.75;transition:outline-color .15s,opacity .15s}
+.cd-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.cd-thumb:hover,.cd-thumb:focus-visible{opacity:1}
+.cd-thumb.is-on{outline-color:#0f172a;opacity:1}
+.cd-thumb.is-hid{display:none}
+.cd-thumb[data-more]::after{content:attr(data-more);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(15,23,42,.6);color:#fff;font:700 15px/1 'Plus Jakarta Sans',sans-serif}
+.cd-thumbs.is-open .cd-thumb[data-more]::after{display:none}
+/* Price dropdown */
+.cd-pdd{position:relative;display:inline-block;text-align:center}
+.cd-pdd>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 10px;border-radius:10px;transition:background .15s}
+.cd-pdd>summary::-webkit-details-marker{display:none}
+.cd-pdd>summary:hover{background:#f1f5f9}
+.cd-pdd-was{font:600 12px/1 'Plus Jakarta Sans',sans-serif;color:#94a3b8}
+.cd-pdd-was b{color:#b45309}
+.cd-pdd-main{font:800 30px/1 'Plus Jakarta Sans',sans-serif;color:#0f172a;letter-spacing:-.02em}
+.cd-pdd-sub{display:inline-flex;align-items:center;gap:5px;font:600 12px/1.2 'Plus Jakarta Sans',sans-serif;color:#475569;border-bottom:1px dashed #94a3b8;padding-bottom:1px}
+.cd-pdd-chev{font-size:10px;transition:transform .15s}
+.cd-pdd[open] .cd-pdd-chev{transform:rotate(180deg)}
+.cd-pdd-pop{position:absolute;z-index:50;top:calc(100% + 6px);right:-6px;width:250px;background:#fff;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 12px 32px rgba(15,23,42,.16);padding:12px 14px;text-align:left;font:500 13px/1.35 'Plus Jakarta Sans',sans-serif;color:#334155}
+.cd-pdd-h{margin:0 0 8px;font:700 11px/1 'Plus Jakarta Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#64748b}
+.cd-pdd table{width:100%;border-collapse:collapse;margin:0}
+.cd-pdd td{padding:6px 0;border-top:1px solid #f1f5f9;vertical-align:top;font-size:13px}
+.cd-pdd tr:first-child td{border-top:0}
+.cd-pdd td:last-child{text-align:right;font-weight:800;color:#0f172a;white-space:nowrap;padding-left:10px}
+.cd-pdd td small{display:block;color:#94a3b8;font-weight:500;font-size:11.5px}
+.cd-pdd-total{margin-top:8px;padding:8px 10px;background:#f0fdf4;border-radius:8px;color:#166534;font-weight:700;display:flex;justify-content:space-between}
+.cd-pdd-note{margin-top:8px;font-size:11.5px;color:#64748b}
+.bpa-card:has(.cd-pdd[open]){position:relative;z-index:60}
+.bpa-card:has(.cd-pdd[open]),.bpa-card:has(.cd-pdd[open]) *:not(.bpa-slider):not(.cd-thumbs){overflow:visible!important}
+@media (max-width:767px){.cd-pdd-pop{right:auto;left:-4px;width:min(270px,calc(100vw - 56px))}}
+/* Access pill marks */
+.cd-yes{color:#15803d;font-weight:800}.cd-no{color:#b45309;font-weight:800}
+</style>
+
 </head><body><header class="ltt-navbar" role="banner">
 <div class="ltt-nav-inner">
 <a aria-label="THE CRUISE DETECTIVE Homepage" class="ltt-brand" href="/">
@@ -4705,7 +4745,7 @@ footer.ltt-footer .legal-text {
 <!-- #1: Bateaux Parisiens Sightseeing Cruise with Audio Guide -->
 <div class="bpa-card" data-cat="tested under20" id="card-1">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">🏆 #1 Best Overall</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4721,7 +4761,7 @@ footer.ltt-footer .legal-text {
 <img alt="All seats on the top deck are sideways-facing" sizes="420px" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007.avif" data-srcset="/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007-p-500.avif 500w, /assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007.avif 800w" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 <img data-cap="Boarding gates at the Eiffel Tower pier" alt="Boarding gates at Port de la Bourdonnais" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/653a3feafe9dfc29b0e39b63_1-bateaux-parisiens-sighteeing-cruise%20(5).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/653a414852cb182029292fcf_1-bateaux-parisiens-sighteeing-cruise%20(37).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/653a45e0f0af99ac540e8f87_1-bateaux-parisiens-sighteeing-cruise%20(14).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+5" aria-label="Show photo 5 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/6994809779bbf0286c89e95d_bateaux-parisiens-sighteeing-cruise-00009-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/653a4154b89b51259a606e63_1-bateaux-parisiens-sighteeing-cruise%20(22).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="8" aria-label="Show photo 9 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/653a3feafe9dfc29b0e39b63_1-bateaux-parisiens-sighteeing-cruise%20(5).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Bateaux Parisiens • ⏱️ 1 Hour • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Port de la Bourdonnais (Eiffel Tower)</a></div>
 <a class="bpa-title" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-riv-cru-compar-bp" rel="noopener nofollow sponsored" target="_blank">Bateaux Parisiens Sightseeing Cruise with Audio Guide</a>
@@ -4735,16 +4775,11 @@ footer.ltt-footer .legal-text {
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">14-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class="bpa-lang-note">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span></div></details>
 <span class="bpa-sp">📍 Right at the Eiffel Tower</span>
 <details class="bpa-lang bpa-route"><summary class="bpa-sp">🏛️ <span class="bpa-lang-label">Full Seine Circuit</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>A 1-hour loop from the Eiffel Tower and back.</strong> Upstream past the Louvre to Notre-Dame and the islands, then back to the tower. About 20 landmarks, including Pont Alexandre III, Musée d&rsquo;Orsay, the Conciergerie and Hôtel de Ville.<span class="bpa-lang-note">Same loop as most sightseeing cruises here (#2, #3, #7, #8, #10). What differs is the boat, not the route.</span><span class="bpa-lang-note"><a href="#cruise-itinerary">See the route map ↓</a></span></div></details>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Wheelchair: lower deck</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-yes">✓</span> lower deck via ramps. Top deck and toilets are not accessible.</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-yes">✓</span> allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-yes">✓</span></span><span class="bpa-lang-note">🎟️ <b>Kids:</b> free under 4, half price 4-11</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it</span> for your first cruise: boats every 30 min, right at the tower. <span class="bpa-skip">✕ Skip it</span> if you want front-facing seats: top-deck benches face sideways.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-was"><s>€20</s> <span>−10%</span></div>
-<div class="bpa-price">€18</div>
-<div class="bpa-psub">per adult</div>
-<div class="bpa-kids">kids €9 · under 4 free</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-was"><s>€20</s> <b>−10%</b></span><span class="cd-pdd-main">€18</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult<small>was €20</small></td><td>€18</td></tr><tr><td>Kids 4-11</td><td>€9</td></tr><tr><td>Under 4</td><td>Free</td></tr></table><div class="cd-pdd-total"><span>2 adults + 2 kids</span><span>€54</span></div><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-riv-cru-compar-bp" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via Tiqets</div>
 <div class="bpa-trust2"><span>✓ Free cancellation until the day before</span><span>✓ Instant mobile ticket</span></div>
@@ -4755,7 +4790,7 @@ footer.ltt-footer .legal-text {
 <!-- #2: Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise -->
 <div class="bpa-card" data-cat="tested under20" id="card-2">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-silver">🥈 #2 Runner-Up</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4771,7 +4806,7 @@ footer.ltt-footer .legal-text {
 <img data-cap="Covered waiting area" alt="Covered waiting area at Pont de l&#x27;Alma" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/658477b97c7f37d58f3713b3_Bateaux-mouches-sightseeing-cruise-blog-image%20(44).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 <img data-cap="Boarding hall at Pont de l&#x27;Alma" alt="Boarding hall at the Bateaux Mouches pier" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65847828699ad476ca060f45_Bateaux-mouches-sightseeing-cruise-blog-image%20(45).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/68cffc9a8866db331e9230e1_bateaux-mouches-boat-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846bb926ba8bc52ad55bb6_Bateaux-mouches-sightseeing-cruise-blog-image%20(41)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65885fff646aea108e53644f_Bateaux-mouches-sightseeing-cruise-blog-image%20(9)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+5" aria-label="Show photo 5 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846bce83ac586c23ce5a1c_Bateaux-mouches-sightseeing-cruise-blog-image%20(28)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846b865ef221fbe4194b58_Bateaux-mouches-sightseeing-cruise-blog-image%20(10).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846b5e4f5d729443faee76_Bateaux-mouches-sightseeing-cruise-blog-image%20(3)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/658477b97c7f37d58f3713b3_Bateaux-mouches-sightseeing-cruise-blog-image%20(44).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="8" aria-label="Show photo 9 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65847828699ad476ca060f45_Bateaux-mouches-sightseeing-cruise-blog-image%20(45).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Bateaux Mouches • ⏱️ 1h 10m • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Bateaux+Mouches+Pont+de+l%27Alma+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Pont de l'Alma Pier</a></div>
 <a class="bpa-title" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-riv-cru-comparis-bm" rel="noopener nofollow sponsored" target="_blank">Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise</a>
@@ -4785,16 +4820,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">💺 Front-Facing Seats</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,ru,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">10-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean</span><span class="bpa-lang-note">English plays over the loudspeakers. For another language, ask staff before boarding.</span></div></details>
 <span class="bpa-sp">📸 Huge Open-Air Deck</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Wheelchair OK</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-yes">✓</span> room for wheelchairs on the lower deck</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-yes">✓</span> allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-yes">✓</span></span><span class="bpa-lang-note">🎟️ <b>Kids:</b> free under 4, €8 for 4-12</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for photos: front-facing seats on a huge deck. <span class="bpa-skip">✕ Skip it</span> if you want a drink on board: there&rsquo;s no bar.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-was"><s>€20</s> <span>−15%</span></div>
-<div class="bpa-price">€17</div>
-<div class="bpa-psub">per adult</div>
-<div class="bpa-kids">kids €8 · under 4 free</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-was"><s>€20</s> <b>−15%</b></span><span class="cd-pdd-main">€17</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult<small>was €20</small></td><td>€17</td></tr><tr><td>Kids 4-12</td><td>€8</td></tr><tr><td>Under 4</td><td>Free</td></tr></table><div class="cd-pdd-total"><span>2 adults + 2 kids</span><span>€50</span></div><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-riv-cru-comparis-bm" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via Tiqets</div>
 <div class="bpa-trust2"><span>✓ Free cancellation until the day before</span><span>✓ Instant mobile ticket</span></div>
@@ -4805,7 +4835,7 @@ footer.ltt-footer .legal-text {
 <!-- #3: Vedettes de Paris Seine Cruise with French Music & Bar -->
 <div class="bpa-card" data-cat="tested treats" id="card-3">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-bronze">🥉 #3 Best Music &amp; Vibe</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4821,7 +4851,7 @@ footer.ltt-footer .legal-text {
 <img data-cap="Open deck at the front" alt="Open deck at the front of the boat" sizes="420px" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7).webp" data-srcset="/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7).webp 800w" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 <img data-cap="The pier at Port de Suffren" alt="Vedettes de Paris pier at Port de Suffren" sizes="420px" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48).webp" data-srcset="/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48).webp 800w" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848c15b5df26ea46257c3e_Vedettes-de-paris-sightseeing-cruise-blog-image%20(47)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846e1041aea632d9c84087_Vedettes-de-paris-sightseeing-cruise-blog-image%20(13).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848aa4e3a71b9007bce359_Vedettes-de-paris-sightseeing-cruise-blog-image%20(41)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+5" aria-label="Show photo 5 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848ad831b73f6354c18793_Vedettes-de-paris-sightseeing-cruise-blog-image%20(46).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846e603090ee5eab8401bb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(9)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846e4f530a250419def026_Vedettes-de-paris-sightseeing-cruise-blog-image%20(5)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="8" aria-label="Show photo 9 of 9"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Vedettes de Paris • ⏱️ 1 Hour • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Vedettes+de+Paris+Port+de+Suffren" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Port de Suffren (Eiffel Tower)</a></div>
 <a class="bpa-title" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-rcru-comp-vd" rel="noopener nofollow sponsored" target="_blank">Vedettes de Paris Seine Cruise with French Music &amp; Bar</a>
@@ -4835,15 +4865,11 @@ footer.ltt-footer .legal-text {
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,zh,ja"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">9-Language App Guide</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese</span><span class="bpa-lang-note">Via the free audio guide app, so bring earbuds.</span></div></details>
 <span class="bpa-sp">🎶 Curated French Music</span>
 <span class="bpa-sp">🛥️ Cozy Boutique Ship</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Wheelchair OK</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-yes">✓</span> accessible</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-yes">✓</span> allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-yes">✓</span></span><span class="bpa-lang-note">🎟️ <b>Kids:</b> free under 4, €13 for 4-11</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for a calmer evening: smaller boat, French music. <span class="bpa-skip">✕ Skip it</span> if you want spoken commentary: the guide is app-only.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">€25</div>
-<div class="bpa-psub">per adult</div>
-<div class="bpa-kids">kids €13 · under 4 free</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€25</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult</td><td>€25</td></tr><tr><td>Kids 4-11</td><td>€13</td></tr><tr><td>Under 4</td><td>Free</td></tr></table><div class="cd-pdd-total"><span>2 adults + 2 kids</span><span>€76</span></div><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&amp;tq_campaign=paris-rcru-comp-vd" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via Tiqets</div>
 <div class="bpa-trust2"><span>✓ Free cancellation until the day before</span><span>✓ Instant mobile ticket</span></div>
@@ -4854,7 +4880,7 @@ footer.ltt-footer .legal-text {
 <!-- #4: Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass -->
 <div class="bpa-card" data-cat="tested route" id="card-4">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#4 Best Hop-On Hop-Off</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4869,7 +4895,7 @@ footer.ltt-footer .legal-text {
 <img data-cap="Inside the cabin" alt="Inside the Batobus cabin" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 <img data-cap="Inside the cabin" alt="Rear of the Batobus cabin" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+4" aria-label="Show photo 5 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846f7a272db29b1850cff2_Batobu-sightseeing-cruise-blog-image%20(10)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848a795158aebb4706cacc_Batobu-sightseeing-cruise-blog-image%20(17)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Batobus Paris • ⏱️ 24h / 48h Pass • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Batobus+Eiffel+Tower+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 9 Central Seine Stops</a></div>
 <a class="bpa-title" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&amp;tq_campaign=pariv-comp-list-bato" rel="noopener nofollow sponsored" target="_blank">Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass</a>
@@ -4883,15 +4909,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp bpa-sp-no">🚫 No Audio Guide</span>
 <span class="bpa-sp">🔄 9 Hop-On Stops</span>
 <span class="bpa-sp">🪟 Heated Glass Cabin</span>
-</div>
+<span class="bpa-sp">🔇 No commentary</span><details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">No wheelchair access</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-no">✕</span> not accessible</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-yes">✓</span> allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-no">✕</span> none</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> free under 4, €13 for 4-11</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it</span> to get around 9 stops along the Seine. <span class="bpa-skip">✕ Skip it</span> if you want a sightseeing cruise: there&rsquo;s no commentary, and views are limited from its single deck.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">€23</div>
-<div class="bpa-psub">per adult (24h)</div>
-<div class="bpa-kids">kids €13 · under 4 free</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€23</span><span class="cd-pdd-sub">per adult (24h) <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult, 24h pass</td><td>€23</td></tr><tr><td>Kids 4-11, 24h pass</td><td>€13</td></tr><tr><td>Under 4</td><td>Free</td></tr></table><div class="cd-pdd-total"><span>2 adults + 2 kids</span><span>€72</span></div><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&amp;tq_campaign=pariv-comp-list-bato" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via Tiqets</div>
 <div class="bpa-trust2"><span>✓ Free cancellation until the day before</span><span>✓ Instant mobile ticket</span></div>
@@ -4902,7 +4924,7 @@ footer.ltt-footer .legal-text {
 <!-- #5: St. Martin Canal & Seine River Cruise (Paris Canal) -->
 <div class="bpa-card" data-cat="tested route" id="card-10">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#5 Best Canal &amp; Locks</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4919,7 +4941,7 @@ footer.ltt-footer .legal-text {
 <img data-cap="A few seats in the captain&#x27;s cabin" alt="Seats in the captain&#x27;s cabin" sizes="(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65848a084d804452e10d98a7_Paris-canal-sightseeing-cruise-blog-image%20(46).webp" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 <img data-cap="A 500-seat double-decker" alt="The Paris Canal boat at the dock" sizes="420px" loading="lazy" decoding="async" data-src="/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1).webp" data-srcset="/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1).webp 800w" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/658470dd143330e7a2389ab5_Paris-canal-sightseeing-cruise-blog-image%20(15).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/65847201987cd15fbf037392_Paris-canal-sightseeing-cruise-blog-image%20(13)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/658471238fa08153f6049af5_Paris-canal-sightseeing-cruise-blog-image%20(32)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+6" aria-label="Show photo 5 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/658470c86cd6bda23c7c9939_Paris-canal-sightseeing-cruise-blog-image%20(12).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/65847050eaee898abb9eee51_Paris-canal-sightseeing-cruise-blog-image%20(4).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/6584700dfdab6a60e8c81a36_Paris-canal-sightseeing-cruise-blog-image%20(7)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/65847030abacf7fa66feded3_Paris-canal-sightseeing-cruise-blog-image%20(6)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="8" aria-label="Show photo 9 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/65848a084d804452e10d98a7_Paris-canal-sightseeing-cruise-blog-image%20(46).webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="9" aria-label="Show photo 10 of 10"><img src="/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1)-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Paris Canal • ⏱️ 2.5 Hours • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+Solferino+Musee+d%27Orsay+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Musée d'Orsay ↔ Parc de la Villette</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=eng-article-paris-river-cruises-comparison-list-paris-canal-cruise&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">St. Martin Canal &amp; Seine River Cruise (Paris Canal)</a>
@@ -4933,14 +4955,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">🎙️ Live Bilingual Guide</span>
 <span class="bpa-sp">🚧 4 Canal Locks</span>
 <span class="bpa-sp">🚇 Bastille Tunnel</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">No wheelchair access</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-no">✕</span> not accessible</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-yes">✓</span> allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-yes">✓</span></span><span class="bpa-lang-note">🎟️ <b>Kids:</b> free under 4, €15-20 for kids, teens and seniors</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for a second visit: locks and a tunnel under Bastille. <span class="bpa-skip">✕ Skip it</span> if you want the Eiffel Tower: the route doesn&rsquo;t pass it.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €25</div>
-<div class="bpa-psub">per adult</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€25</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult</td><td>€25</td></tr><tr><td>Kids, teens &amp; seniors</td><td>€15-20</td></tr><tr><td>Under 4</td><td>Free</td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=eng-article-paris-river-cruises-comparison-list-paris-canal-cruise&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -4951,7 +4970,7 @@ footer.ltt-footer .legal-text {
 <!-- #6: Paris Seine River Private Boat Cruise with Champagne -->
 <div class="bpa-card" data-cat="private" id="card-5">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">👑 #6 Best Private Yacht</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -4966,7 +4985,7 @@ footer.ltt-footer .legal-text {
 <img alt="Inside the private boat" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/private-boat-4.avif" data-srcset="/assets/ota/seine/private-boat-4-p-500.avif 500w, /assets/ota/seine/private-boat-4.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 <img alt="Seating on the private boat" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/private-boat-5.avif" data-srcset="/assets/ota/seine/private-boat-5-p-500.avif 500w, /assets/ota/seine/private-boat-5.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 8"><img src="/assets/ota/seine/private-boat-1-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 8"><img src="/assets/ota/seine/private-boat-7-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 8"><img src="/assets/ota/seine/private-boat-3-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+4" aria-label="Show photo 5 of 8"><img src="/assets/ota/seine/private-boat-2-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 8"><img src="/assets/ota/seine/private-boat-6-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 8"><img src="/assets/ota/seine/private-boat-4-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 8"><img src="/assets/ota/seine/private-boat-5-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Visite Paris en Bateau • ⏱️ 1.5 Hours • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+Javel+Haut+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Port de Javel Haut</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Paris Seine River Private Boat Cruise with Champagne</a>
@@ -4978,14 +4997,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp bpa-sp-inc">🍾 Free Champagne</span>
 <span class="bpa-sp">🎙️ Private Skipper</span>
 <span class="bpa-sp">🛥️ 100% Private (Up to 8)</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">No wheelchairs or strollers</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-no">✕</span> not accessible</span><span class="bpa-lang-note">👶 <b>Stroller:</b> <span class="cd-no">✕</span> not allowed</span><span class="bpa-lang-note">🚻 <b>Toilet on board:</b> <span class="cd-no">✕</span> none</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> one price for the whole boat</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for a proposal or a group of up to 8. <span class="bpa-skip">✕ Skip it</span> if you&rsquo;ll need a toilet: there&rsquo;s none on board.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €399</div>
-<div class="bpa-psub">per private boat</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€399</span><span class="cd-pdd-sub">per private boat <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Whole boat, up to 8 guests<small>about €50 each when 8 share</small></td><td>€399</td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -4996,7 +5012,7 @@ footer.ltt-footer .legal-text {
 <!-- #7: Paris Night Cruise with River Views & Waffle Tasting -->
 <div class="bpa-card" data-cat="treats" id="card-6">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#7 Best Night &amp; Waffle</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -5011,7 +5027,7 @@ footer.ltt-footer .legal-text {
 <img alt="Notre-Dame Cathedral from the river" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/waffle-cruise-6.avif" data-srcset="/assets/ota/seine/waffle-cruise-6-p-500.avif 500w, /assets/ota/seine/waffle-cruise-6.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 <img alt="A Seine bridge at night" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/waffle-cruise-7.avif" data-srcset="/assets/ota/seine/waffle-cruise-7-p-500.avif 500w, /assets/ota/seine/waffle-cruise-7.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 8"><img src="/assets/ota/seine/waffle-cruise-1-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 8"><img src="/assets/ota/seine/waffle-cruise-2-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 8"><img src="/assets/ota/seine/waffle-cruise-3-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 8"><img src="/assets/ota/seine/waffle-cruise-5-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+4" aria-label="Show photo 5 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 8"><img src="/assets/ota/seine/waffle-cruise-4-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 8"><img src="/assets/ota/seine/waffle-cruise-6-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 8"><img src="/assets/ota/seine/waffle-cruise-7-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Global Tours &amp; Tickets • ⏱️ 1 Hour • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Eiffel Tower Pier</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/paris-l16/paris-night-river-cruise-on-the-siene-with-waffle-tasting-t432295/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-waffle-tasting-global-tours-and-tickets-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Paris Night Cruise with River Views &amp; Waffle Tasting</a>
@@ -5023,14 +5039,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">🧇 1 Waffle Included</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">14-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class="bpa-lang-note">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span></div></details>
 <span class="bpa-sp">✨ Illuminated Views</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Not for wheelchairs</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-no">✕</span> not suitable for wheelchair users</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> price shown in the booking calendar</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> if you&rsquo;d buy a snack anyway: same boats, plus a waffle facing the Eiffel Tower. <span class="bpa-skip">✕ Skip it</span> if you want it on board: you collect it across the river at Trocadéro Square.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €25</div>
-<div class="bpa-psub">per adult</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€25</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult</td><td>€25</td></tr><tr><td>Kids<small>shown in the booking calendar</small></td><td></td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/paris-l16/paris-night-river-cruise-on-the-siene-with-waffle-tasting-t432295/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-waffle-tasting-global-tours-and-tickets-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -5041,7 +5054,7 @@ footer.ltt-footer .legal-text {
 <!-- #8: Seine River Sightseeing Cruise with French Crêpe Tasting -->
 <div class="bpa-card" data-cat="treats" id="card-7">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#8 Best Crêpe Combo</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -5056,7 +5069,7 @@ footer.ltt-footer .legal-text {
 <img alt="Cruise boat on the Seine" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/crepe-cruise-7.avif" data-srcset="/assets/ota/seine/crepe-cruise-7-p-500.avif 500w, /assets/ota/seine/crepe-cruise-7.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 <img alt="Cruise boat at the Eiffel Tower pier" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/crepe-cruise-6.avif" data-srcset="/assets/ota/seine/crepe-cruise-6-p-500.avif 500w, /assets/ota/seine/crepe-cruise-6.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 8"><img src="/assets/ota/seine/crepe-cruise-1-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 8"><img src="/assets/ota/seine/crepe-cruise-2-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 8"><img src="/assets/ota/seine/crepe-cruise-3-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+4" aria-label="Show photo 5 of 8"><img src="/assets/ota/seine/crepe-cruise-4-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 8"><img src="/assets/ota/seine/crepe-cruise-5-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 8"><img src="/assets/ota/seine/crepe-cruise-7-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 8"><img src="/assets/ota/seine/crepe-cruise-6-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Bateaux Parisiens • ⏱️ 1 Hour • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Port de la Bourdonnais (Eiffel Tower)</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-seine-cruises-paris-crepe-en&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Seine River Sightseeing Cruise with French Crêpe Tasting</a>
@@ -5068,14 +5081,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">🥞 1 Crêpe Included</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">14-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class="bpa-lang-note">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span></div></details>
 <span class="bpa-sp">🛳️ Glass Trimaran</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Not for wheelchairs</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> <span class="cd-no">✕</span> not suitable for wheelchair users or people with limited mobility</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> price shown in the booking calendar</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for about €7 more and a fresh crêpe facing the Eiffel Tower. <span class="bpa-skip">✕ Skip it</span> if you want it on board: it&rsquo;s served across the river at Trocadéro Square.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €25</div>
-<div class="bpa-psub">per adult</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€25</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult</td><td>€25</td></tr><tr><td>Kids<small>shown in the booking calendar</small></td><td></td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-seine-cruises-paris-crepe-en&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -5086,7 +5096,7 @@ footer.ltt-footer .legal-text {
 <!-- #9: Paris 3-Course Gourmet Lunch Cruise with Live Music -->
 <div class="bpa-card" data-cat="lunch" id="card-8">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-gold">🍽️ #9 Best Lunch Cruise</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -5100,7 +5110,7 @@ footer.ltt-footer .legal-text {
 <img alt="Window table with river views" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/lunch-cruise-6.avif" data-srcset="/assets/ota/seine/lunch-cruise-6-p-500.avif 500w, /assets/ota/seine/lunch-cruise-6.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 <img alt="View from the stern towards the Eiffel Tower" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/lunch-cruise-7.avif" data-srcset="/assets/ota/seine/lunch-cruise-7-p-500.avif 500w, /assets/ota/seine/lunch-cruise-7.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 7"><img src="/assets/ota/seine/lunch-cruise-1-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 7"><img src="/assets/ota/seine/lunch-cruise-5-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 7"><img src="/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 7"><img src="/assets/ota/seine/lunch-cruise-3-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+3" aria-label="Show photo 5 of 7"><img src="/assets/ota/seine/lunch-cruise-4-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 7"><img src="/assets/ota/seine/lunch-cruise-6-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 7"><img src="/assets/ota/seine/lunch-cruise-7-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Bateaux Parisiens • ⏱️ 2 Hours (12:45 PM) • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Port de la Bourdonnais (Eiffel Tower)</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-lunch-cruise-bateaux-parisiens-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Paris 3-Course Gourmet Lunch Cruise with Live Music</a>
@@ -5112,14 +5122,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">🍽️ 3-Course Lunch + Wine</span>
 <span class="bpa-sp">🎶 Live Music Onboard</span>
 <details class="bpa-lang bpa-route"><summary class="bpa-sp">🏛️ <span class="bpa-lang-label">Full Seine Circuit</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>A 2-hour loop from the Eiffel Tower, longer than the 1-hour cruises.</strong> Past Notre-Dame and further east to the French National Library, then back past Les Invalides and the French Parliament.<span class="bpa-lang-note"><a href="#cruise-itinerary">See the route map ↓</a></span></div></details>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Access &amp; kids</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> not stated by the operator, ask before you book</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> price shown in the booking calendar</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over a dinner cruise</span> for daylight views at nearly half the price. <span class="bpa-skip">✕ Skip it</span> if your plans are loose: one sailing a day, at 12:45.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €79</div>
-<div class="bpa-psub">per person</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€79</span><span class="cd-pdd-sub">per person <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>3-course lunch + drinks</td><td>€79</td></tr><tr><td>Privilege or Premier service<small>adds a cheese course, shown in the booking calendar</small></td><td></td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-lunch-cruise-bateaux-parisiens-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -5130,7 +5137,7 @@ footer.ltt-footer .legal-text {
 <!-- #10: Paris River Cruise with Ice Cream, Dessert or Drink -->
 <div class="bpa-card" data-cat="treats" id="card-9">
 <div class="bpa-main">
-<div class="bpa-media">
+<div class="cd-gal"><div class="bpa-media">
 <span class="bpa-rank-tag bpa-slate">#10 Best Summer Treat</span>
 <button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" type="button">‹</button>
 <button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" type="button">›</button>
@@ -5145,7 +5152,7 @@ footer.ltt-footer .legal-text {
 <img alt="Glass cabin on the cruise boat" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/ice-cream-cruise-5.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-5-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-5.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 <img alt="Crowded deck passing under a bridge" sizes="420px" loading="lazy" decoding="async" data-src="/assets/ota/seine/ice-cream-cruise-7.avif" data-srcset="/assets/ota/seine/ice-cream-cruise-7-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-7.avif 800w" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 </div>
-</div>
+</div><div class="cd-thumbs" aria-label="Photo thumbnails"><button type="button" class="cd-thumb is-on" data-i="0" aria-label="Show photo 1 of 8"><img src="/assets/ota/seine/ice-cream-cruise-1-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="1" aria-label="Show photo 2 of 8"><img src="/assets/ota/seine/ice-cream-cruise-4-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="2" aria-label="Show photo 3 of 8"><img src="/assets/ota/seine/ice-cream-cruise-6-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="3" aria-label="Show photo 4 of 8"><img src="/assets/ota/seine/ice-cream-cruise-2-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb" data-i="4" data-more="+4" aria-label="Show photo 5 of 8"><img src="/assets/ota/seine/ice-cream-cruise-3-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="5" aria-label="Show photo 6 of 8"><img src="/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-500.webp" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="6" aria-label="Show photo 7 of 8"><img src="/assets/ota/seine/ice-cream-cruise-5-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button><button type="button" class="cd-thumb is-hid" data-i="7" aria-label="Show photo 8 of 8"><img src="/assets/ota/seine/ice-cream-cruise-7-p-500.avif" alt="" loading="lazy" decoding="async" width="80" height="60"></button></div></div>
 <div class="bpa-info">
 <div class="bpa-kicker">Global Tours &amp; Tickets • ⏱️ 1 Hour • <a class="bpa-kicker-map-link" href="https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris" onclick="event.stopPropagation()" rel="noopener noreferrer" target="_blank">📍 Eiffel Tower Pier</a></div>
 <a class="bpa-title" href="https://www.getyourguide.com/paris-l16/paris-day-or-sunset-cruise-with-drink-ice-cream-or-dessert-t419454/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-ice-cream-cruise-global-tours-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Paris River Cruise with Ice Cream, Dessert or Drink</a>
@@ -5157,14 +5164,11 @@ footer.ltt-footer .legal-text {
 <span class="bpa-sp">🍦 Ice Cream or Drink</span>
 <details class="bpa-lang" data-langs="en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"><summary class="bpa-sp">🎧 <span class="bpa-lang-label">14-Language Audio</span><span class="bpa-lang-chev" aria-hidden="true">▾</span></summary><div class="bpa-lang-pop"><strong>Audio languages:</strong> <span class="bpa-lang-names">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class="bpa-lang-note">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span></div></details>
 <span class="bpa-sp">☀️ Open-Air Upper Deck</span>
-</div>
+<details class="bpa-lang cd-access"><summary class="bpa-sp">♿ <span class="bpa-lang-label">Access &amp; kids</span> <span class="bpa-lang-chev">▾</span></summary><div class="bpa-lang-pop"><span class="bpa-lang-note">♿ <b>Wheelchair:</b> not stated by the operator, ask before you book</span><span class="bpa-lang-note">🎟️ <b>Kids:</b> price shown in the booking calendar</span></div></details></div>
 <div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">✓ Pick it over #1</span> for an ice cream, waffle or soft drink with the best Eiffel Tower view. <span class="bpa-skip">✕ Skip it</span> if you want it on the boat: you collect it across the river at Trocadéro, and outside food isn&rsquo;t allowed on board.</div>
 </div>
 <div class="bpa-cta-cell">
-<div>
-<div class="bpa-price">From €25</div>
-<div class="bpa-psub">per adult</div>
-</div>
+<div><details class="cd-pdd"><summary><span class="cd-pdd-main">€25</span><span class="cd-pdd-sub">per adult <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop"><div class="cd-pdd-h">All ticket prices</div><table><tr><td>Adult</td><td>€25</td></tr><tr><td>Kids<small>shown in the booking calendar</small></td><td></td></tr></table><div class="cd-pdd-note">Final price shown on the booking page before you pay.</div></div></details></div>
 <a class="bpa-btn" href="https://www.getyourguide.com/paris-l16/paris-day-or-sunset-cruise-with-drink-ice-cream-or-dessert-t419454/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-river-cruises-paris-ice-cream-cruise-global-tours-comparison-list&amp;mkt_cmp=true" rel="noopener nofollow sponsored" target="_blank">Check Availability →</a>
 <div class="bpa-via">Booked securely via GetYourGuide</div>
 <div class="bpa-trust2"><span>✓ Free cancellation up to 24h before</span><span>✓ Instant mobile ticket</span></div>
@@ -10389,4 +10393,37 @@ a.cd-editorial-bookmark .cd-editorial-meta{display:none!important}
 a.cd-editorial-bookmark .cd-editorial-desc{display:-webkit-box!important;-webkit-line-clamp:1!important;-webkit-box-orient:vertical!important;overflow:hidden!important;font-size:13px!important;line-height:1.4!important;color:#64748b!important;margin:3px 0 0!important}
 a.cd-editorial-bookmark .cd-editorial-title{font-family:'Playfair Display',Georgia,serif!important;font-size:16px!important;line-height:1.3!important;margin:0!important;color:#0a192f!important;display:-webkit-box!important;-webkit-line-clamp:2!important;-webkit-box-orient:vertical!important;overflow:hidden!important}
 a.cd-editorial-bookmark::after{content:"\203A"!important;position:static!important;order:2;flex:0 0 auto;font-size:22px;line-height:1;color:#b88214}
-</style><style id="intro-narrow">@media (min-width:840px){.ltt-hero-wrap>.ltt-clean-card{max-width:800px!important;margin-left:auto!important;margin-right:auto!important;background:transparent!important;border:0!important;box-shadow:none!important;padding-left:0!important;padding-right:0!important;overflow:visible!important}.ltt-hero-wrap>.ltt-clean-card .ltt-integrated-filter-bar{position:relative;width:min(1208px,calc(100vw - 32px))!important;max-width:none!important;left:50%;transform:translateX(-50%);box-sizing:border-box}.ltt-hero-wrap>.ltt-clean-card .ltt-integrated-pills{flex-wrap:wrap!important;row-gap:8px!important}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar{flex-wrap:nowrap!important}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar>*{min-width:0}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar>*:last-child{flex-shrink:0}}</style></body></html>
+</style><style id="intro-narrow">@media (min-width:840px){.ltt-hero-wrap>.ltt-clean-card{max-width:800px!important;margin-left:auto!important;margin-right:auto!important;background:transparent!important;border:0!important;box-shadow:none!important;padding-left:0!important;padding-right:0!important;overflow:visible!important}.ltt-hero-wrap>.ltt-clean-card .ltt-integrated-filter-bar{position:relative;width:min(1208px,calc(100vw - 32px))!important;max-width:none!important;left:50%;transform:translateX(-50%);box-sizing:border-box}.ltt-hero-wrap>.ltt-clean-card .ltt-integrated-pills{flex-wrap:wrap!important;row-gap:8px!important}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar{flex-wrap:nowrap!important}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar>*{min-width:0}.ltt-hero-wrap>.ltt-clean-card .ltt-trust-bar>*:last-child{flex-shrink:0}}</style><script id="cd-cards-js">
+(function(){
+  function stepW(sl){var f=sl.firstElementChild;return (f?f.getBoundingClientRect().width+(parseFloat(getComputedStyle(sl).columnGap)||0):sl.clientWidth)||1;}
+  function loadAll(sl){sl.querySelectorAll('img[data-src]').forEach(function(im){if(im.getAttribute('data-srcset')){im.srcset=im.getAttribute('data-srcset');im.removeAttribute('data-srcset');}im.src=im.getAttribute('data-src');im.removeAttribute('data-src');});}
+  document.querySelectorAll('.cd-gal').forEach(function(gal){
+    var slider=gal.querySelector('.bpa-slider'), strip=gal.querySelector('.cd-thumbs');
+    if(!slider||!strip) return;
+    var thumbs=strip.querySelectorAll('.cd-thumb');
+    strip.addEventListener('click',function(e){
+      var b=e.target.closest('.cd-thumb'); if(!b) return;
+      if(b.hasAttribute('data-more') && !strip.classList.contains('is-open')){
+        strip.classList.add('is-open');
+        strip.querySelectorAll('.is-hid').forEach(function(x){x.classList.remove('is-hid');});
+      }
+      loadAll(slider);
+      slider.scrollTo({left:(+b.getAttribute('data-i'))*stepW(slider),behavior:'smooth'});
+    });
+    slider.addEventListener('scroll',function(){
+      var i=Math.min(Math.round(slider.scrollLeft/stepW(slider)),thumbs.length-1);
+      thumbs.forEach(function(x,k){x.classList.toggle('is-on',k===i);});
+      var on=thumbs[i];
+      if(on && strip.classList.contains('is-open')) strip.scrollTo({left:on.offsetLeft-strip.clientWidth/2+on.clientWidth/2,behavior:'smooth'});
+    },{passive:true});
+  });
+  document.addEventListener('click',function(e){
+    document.querySelectorAll('.cd-pdd[open]').forEach(function(d){if(!d.contains(e.target)) d.open=false;});
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape') document.querySelectorAll('.cd-pdd[open]').forEach(function(d){d.open=false;});
+  });
+})();
+</script>
+
+</body></html>
