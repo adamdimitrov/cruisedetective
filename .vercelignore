@@ -15,3 +15,11 @@ scripts/
 uploaded_orders.json
 credentials/
 reports/
+
+# Site kit and agent notes (internal, never served)
+kit/
+kit.lock
+site.json
+CLAUDE.md
+# root-level scripts (one held a hardcoded API key)
+/*.py

@@ -6,7 +6,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 PAGE_ID = "6a68d3bb9bd0297b342845af"
-API_KEY = "a334489d0e8448518e948e004f57b9cb98f77dcb464ebd63aa6a2b4b82dcb4c5"
+API_KEY = os.environ["WEBFLOW_API_KEY"]  # never hardcode keys (kit/RULES.md 8); the old key was public, rotate it
 
 base_dir = "/Users/adamdimitrov/Development/cruisedetective/seine-advertorial"
 
