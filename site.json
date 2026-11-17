@@ -17,7 +17,6 @@
   "images": {
     "allowed_hosts": [
       "aws-tiqets-cdn.imgix.net",
-      "cdn.prod.website-files.com",
       "images.unsplash.com",
       "www.facebook.com",
       "www.thecruisedetective.com"
