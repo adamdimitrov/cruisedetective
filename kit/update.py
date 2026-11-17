@@ -16,6 +16,8 @@ What it does, per site:
   3b. sites with "runtime": {"shared": true} in site.json: publishes /js/site-runtime.js
       and points every page at its current ?v= (move pages over once with
       python3 kit/runtime/runtime.py migrate),
+  3c. writes a stub scripts/<name>.py for every shared script in kit/scripts/ (the stub loads
+      the kit copy, so old commands and imports keep working),
   4. runs kit/checks/check_all.py (skip with --no-check).
 It never commits, pushes or deploys: review the diff, open a PR, merge when approved.
 """
@@ -67,6 +69,11 @@ def install(src, site, check=True):
         runtime.publish(site)
         sys.path.pop(0)
         sys.modules.pop("runtime", None)
+    sys.path.insert(0, os.path.join(kit, "scripts"))
+    import shim  # noqa: E402
+    shim.write_stubs(site)
+    sys.path.pop(0)
+    sys.modules.pop("shim", None)
     wf = os.path.join(site, ".github", "workflows")
     os.makedirs(wf, exist_ok=True)
     shutil.copyfile(os.path.join(kit, "ci", "layout-check.yml"), os.path.join(wf, "layout-check.yml"))
