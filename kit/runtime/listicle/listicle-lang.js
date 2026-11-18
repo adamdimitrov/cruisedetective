@@ -1,6 +1,10 @@
 
 (function(){
   var N={en:'English',fr:'French',es:'Spanish',de:'German',it:'Italian',pt:'Portuguese',nl:'Dutch',pl:'Polish',ru:'Russian',ar:'Arabic',hi:'Hindi',zh:'Chinese',ja:'Japanese',ko:'Korean'};
+  /* UI strings: English defaults; a language page overrides them with <script type="application/json" id="listicle-ui"> (written by listicle.py build-lang) */
+  var UI=(function(){try{var e=document.getElementById('listicle-ui');return e?JSON.parse(e.textContent):{};}catch(x){return {};}})();
+  function tr(k,d,o){var s=UI[k]!=null?UI[k]:d;return o?s.replace(/\{(\w+)\}/g,function(m,n){return o[n]!=null?o[n]:m;}):s;}
+  var LN=UI.lang_names||{}; for(var k in LN) N[k]=LN[k];
   function init(){
     var langs=[];
     try{langs=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'']);}catch(e){}
@@ -12,6 +16,7 @@
     var pop=document.createElement('div');
     pop.id='bpa-lang-float';
     pop.setAttribute('role','tooltip');
+    pop.setAttribute('aria-label',({hu:'Nyelvek',de:'Sprachen',fr:'Langues',es:'Idiomas',it:'Lingue',pt:'Idiomas',nl:'Talen',pl:'Języki'})[(document.documentElement.lang||'').slice(0,2)]||'Languages');
     document.body.appendChild(pop);
     var current=null, pinned=false, hideTimer=null;
     var canHover=window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
@@ -69,7 +74,7 @@
       var list=(d.getAttribute('data-langs')||'').split(',');
       if(list.indexOf(code)===-1) return;
       var label=d.querySelector('.bpa-lang-label');
-      if(label) label.textContent='Audio in '+N[code]+' \u2713';
+      if(label) label.textContent=tr('audio_in','Audio in {lang} \u2713',{lang:N[code]});
       d.classList.add('is-match');
       var names=d.querySelector('.bpa-lang-names');
       if(names) names.innerHTML=names.textContent.split(', ').map(function(n){return n===N[code]?'<b>'+n+'</b>':n;}).join(', ');

@@ -44,7 +44,29 @@ JSON conventions:
 - anything not modelled yet is kept as `raw` / `extras_after_<field>` HTML at its exact
   position, so extract -> build is byte-identical.
 
+Language versions (see "language versions" below for the files):
+  build-lang <english-page> <lang>   the language page (its hreflang link on the English page) gets the
+                                     English cards with text from data/listicles/i18n/<slug>/<lang>.json
+                                     and the kit table runtime/listicle/i18n/<lang>.json; facts, photos
+                                     and links come from English. Refuses while strings are missing
+                                     (--allow-missing builds them in English); --check only compares;
+                                     --page=FILE overrides the target page. Refuses a page still in an
+                                     older design than English (port it first); afterwards measures the
+                                     page in a browser (checks/check_listicle_layout.py; --no-layout skips).
+  missing <english-page> <lang>      untranslated strings, numbers carried over, link/markup differences,
+                                     unused entries; --todo=FILE writes the untranslated strings as
+                                     {"english": ""}; --prune drops unused entries and sorts the file.
+  translate <english-page> <lang>    sends the untranslated strings (--todo=FILE from `missing`, else all
+                                     missing ones) to the Claude API (model: env LISTICLE_TRANSLATE_MODEL,
+                                     default claude-opus-5-5; key: ANTHROPIC_API_KEY or the site's .env) and
+                                     writes each translation that passes validate() (same tags, numbers,
+                                     times, currency, URLs, placeholders, emoji) to the language file;
+                                     failures are reported, never written (--rejects=FILE lists them).
+                                     --dry-run prints the prompt, the batches and the estimated size.
+                                     First harvest what the site already has: scripts/listicle_harvest.py.
+
 Usage: python3 scripts/listicle.py extract|build|stats <page.html> [--data FILE] [--check]
+       python3 scripts/listicle.py build-lang|missing|translate <english-page.html> <lang> [options]
 """
 import html as _html
 import json
@@ -59,6 +81,23 @@ MARKER = "<!-- listicle:cards -->"
 VOID = {"img", "br", "input", "meta", "source", "hr", "wbr", "link"}
 TOKEN = re.compile(r"<!--.*?-->|<(/?)([a-zA-Z][a-zA-Z0-9-]*)((?:[^>\"']|\"[^\"]*\"|'[^']*')*)>", re.S)
 ATTR = re.compile(r' ([^\s="/>]+)="([^"]*)"')
+
+
+# Fixed strings the card template renders itself (not data). English is the default; a language
+# build (build-lang) swaps in the kit table runtime/listicle/i18n/<lang>.json "ui" plus the page's own
+# overrides. Placeholders: {n} count / card number, {i} photo number.
+UI_EN = {
+    "faq_title": "❓ {n} questions travellers ask",
+    "price_heading": "All ticket prices",
+    "pick": "✓ Pick it",
+    "skip": "✕ Skip it",
+    "photo_prev": "Previous photo",
+    "photo_next": "Next photo",
+    "gallery_label": "Photo gallery {n}",
+    "thumbs_label": "Photo thumbnails",
+    "thumb_label": "Show photo {i} of {n}",
+}
+UI = dict(UI_EN)
 
 
 class Unmodelled(Exception):
@@ -213,10 +252,13 @@ def link_tag(cls, f):
 
 
 # ------------------------------------------------------------------ gallery
-ARROW_PREV = ('<button aria-label="Previous photo" class="bpa-arrow prev" onclick="bpaSlide(this,-1)" '
-              'type="button">‹</button>')
-ARROW_NEXT = ('<button aria-label="Next photo" class="bpa-arrow next" onclick="bpaSlide(this,1)" '
-              'type="button">›</button>')
+def arrow(d):
+    """Previous (-1) / next (1) photo button; the aria-label comes from the UI table."""
+    label = UI["photo_prev"] if d < 0 else UI["photo_next"]
+    return (f'<button aria-label="{esc(label)}" class="bpa-arrow {"prev" if d < 0 else "next"}" '
+            f'onclick="bpaSlide(this,{d})" type="button">{"‹" if d < 0 else "›"}</button>')
+
+
 # whitespace before rank tag, prev, next, pill, slider and before </div> of bpa-media
 MEDIA_WS = ["\n", "\n", "", "", "", "\n"]
 THUMB_IMG = ' alt="" loading="lazy" decoding="async" width="80" height="60">'
@@ -234,7 +276,7 @@ def ex_gallery(gal, num):
     if len(items) != 5:
         raise Unmodelled("bpa-media layout")
     rank, prev, nxt, pill, slider = [n for _, n in items]
-    if prev.outer() != ARROW_PREV or nxt.outer() != ARROW_NEXT:
+    if prev.outer() != arrow(-1) or nxt.outer() != arrow(1):
         raise Unmodelled("arrows")
     rcls = expect(rank, "span").cls() or ""
     if not rcls.startswith("bpa-rank-tag ") or len(rank.attrs()) != 1:
@@ -269,7 +311,7 @@ def ex_gallery(gal, num):
         if isinstance(slider.ch[-1], Node):
             out["_photo_sep_end"] = False
     sa = slider.attrs()
-    want = [["aria-label", f"Photo gallery {num}"], ["class", "bpa-slider"],
+    want = [["aria-label", UI["gallery_label"].format(n=num)], ["class", "bpa-slider"],
             ["onscroll", "bpaCount(this)"], ["tabindex", "0"]]
     if sa != want:
         if [k for k, _ in sa] != [k for k, _ in want] or sa[1:] != want[1:]:
@@ -282,7 +324,7 @@ def ex_gallery(gal, num):
             raise Unmodelled("pill")
         out["_pill"] = m.group(1)
     # thumbnails
-    if thumbs.start != '<div class="cd-thumbs" aria-label="Photo thumbnails">':
+    if thumbs.start != thumbs_tag():
         raise Unmodelled("thumbs tag")
     tl = []
     nt = len(thumbs.ch)
@@ -304,7 +346,11 @@ def thumb_tag(i, nt, nimg):
     c = "cd-thumb is-on" if i == 0 else ("cd-thumb is-hid" if i >= 5 else "cd-thumb")
     more = f' data-more="+{nt - 4}"' if (i == 4 and nt > 5) else ""
     return (f'<button type="button" class="{c}" data-i="{i}"{more} '
-            f'aria-label="Show photo {i + 1} of {nt}">')
+            f'aria-label="{esc(UI["thumb_label"].format(i=i + 1, n=nt))}">')
+
+
+def thumbs_tag():
+    return f'<div class="cd-thumbs" aria-label="{esc(UI["thumbs_label"])}">'
 
 
 def render_gallery(g, num):
@@ -314,7 +360,7 @@ def render_gallery(g, num):
     if sep and g.get("_photo_sep_end", True):
         imgs += sep
     pill = g.get("_pill", f"1 / {len(photos)}")
-    label = g.get("_gallery_label", f"Photo gallery {num}")
+    label = g.get("_gallery_label", UI["gallery_label"].format(n=num))
     nt = len(g["thumbs"])
     thumbs = "".join(
         (t.get("_tag") or thumb_tag(i, nt, len(photos)))
@@ -323,11 +369,11 @@ def render_gallery(g, num):
     w = g.get("_media_ws", MEDIA_WS)
     return ('<div class="cd-gal"><div class="bpa-media">' + w[0]
             + el("span", {"class": "bpa-rank-tag " + g["rank"]["medal"]}, g["rank"]["text"]) + w[1]
-            + ARROW_PREV + w[2] + ARROW_NEXT + w[3] + f'<span class="bpa-pill">{pill}</span>' + w[4]
+            + arrow(-1) + w[2] + arrow(1) + w[3] + f'<span class="bpa-pill">{pill}</span>' + w[4]
             + tag("div", [["aria-label", label], ["class", "bpa-slider"],
                           ["onscroll", "bpaCount(this)"], ["tabindex", "0"]])
             + imgs + "</div>" + w[5] + "</div>"
-            + '<div class="cd-thumbs" aria-label="Photo thumbnails">' + thumbs + "</div></div>")
+            + thumbs_tag() + thumbs + "</div></div>")
 
 
 # ------------------------------------------------------------------ kicker / title
@@ -607,10 +653,6 @@ def render_slot(s):
     return tag("div", [[k, vals[k]] for k in order]) + "</div>"
 
 
-PICK = '<span class="bpa-pick">✓ Pick it</span> '
-SKIP = ' <span class="bpa-skip">✕ Skip it</span> '
-
-
 def ex_bestfor(n):
     if n.start != '<div class="bpa-best-for bpa-pickskip">':
         raise Unmodelled("best-for tag")
@@ -619,16 +661,16 @@ def ex_bestfor(n):
     if not m:
         raise Unmodelled("pick/skip shape")
     out = {"pick_html": m.group(2), "skip_html": m.group(4)}
-    if m.group(1) != "✓ Pick it":
+    if m.group(1) != UI["pick"]:
         out["_pick_label"] = m.group(1)
-    if m.group(3) != "✕ Skip it":
+    if m.group(3) != UI["skip"]:
         out["_skip_label"] = m.group(3)
     return out
 
 
 def render_bestfor(b):
-    return ('<div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">' + b.get("_pick_label", "✓ Pick it")
-            + "</span> " + b["pick_html"] + ' <span class="bpa-skip">' + b.get("_skip_label", "✕ Skip it")
+    return ('<div class="bpa-best-for bpa-pickskip"><span class="bpa-pick">' + b.get("_pick_label", UI["pick"])
+            + "</span> " + b["pick_html"] + ' <span class="bpa-skip">' + b.get("_skip_label", UI["skip"])
             + "</span> " + b["skip_html"] + "</div>")
 
 
@@ -636,7 +678,7 @@ FAQ_CHEV = ' <span class="fbm-faq-chev" aria-hidden="true">▾</span>'
 
 
 def faq_title(n):
-    return f"❓ {n} questions travellers ask"
+    return UI["faq_title"].format(n=n)
 
 
 def ex_faq(n):
@@ -739,9 +781,6 @@ def render_info(card, icons):
 
 
 # ------------------------------------------------------------------ price + CTA
-PDD_HEAD = "All ticket prices"
-
-
 def ex_price(n):
     if n.start != "<div>":
         raise Unmodelled("price wrapper")
@@ -760,7 +799,7 @@ def ex_price(n):
         raise Unmodelled("price pop text")
     if kids[0].start != '<div class="cd-pdd-h">':
         raise Unmodelled("price head")
-    if kids[0].inner() != PDD_HEAD:
+    if kids[0].inner() != UI["price_heading"]:
         out["_heading"] = kids[0].inner()
     rest = kids[1:]
     if rest and rest[0].tag == "table":
@@ -805,7 +844,7 @@ def render_price(p):
     return ('<div>\n<details class="cd-pdd"><summary><span class="cd-pdd-main">' + p["main"]
             + '</span><span class="cd-pdd-sub">' + p["sub"]
             + ' <span class="cd-pdd-chev" aria-hidden="true">▾</span></span></summary><div class="cd-pdd-pop">'
-            + f'<div class="cd-pdd-h">{p.get("_heading", PDD_HEAD)}</div>' + rows + total + note
+            + f'<div class="cd-pdd-h">{p.get("_heading", UI["price_heading"])}</div>' + rows + total + note
             + "</div></details>\n</div>")
 
 
@@ -1081,9 +1120,721 @@ def dumps(v, ind=0):
     return json.dumps(v, ensure_ascii=False)
 
 
+# ------------------------------------------------------------------ language versions (i18n)
+# A language version of a listicle page is built from the ENGLISH card data plus translations, so
+# facts (prices, times, ratings, photos, booking links, filter categories) always come from English:
+#
+#   kit table   runtime/listicle/i18n/<lang>.json   {"ui": {...}, "js": {...}, "text": {en: tr}}
+#               shared by every page and site: the template's fixed strings (UI_EN keys), the
+#               strings of the shared JS (JS_UI_EN keys) and phrases many cards repeat
+#               ("Check Availability →", "per adult", "Personally tested", ...)
+#   page file   data/listicles/i18n/<slug>/<lang>.json
+#               {"format": 1, "lang", "ui"?, "js"?, "urls": {en url: lang url},
+#                "text": {English fragment: translation}}
+#               ("js" may also hold strings for the page's own inline scripts, which read the same
+#               #listicle-ui block with English defaults, e.g. the river page's guest-video tiles)
+#
+# "text" is keyed by the English fragment itself, so a translation belongs to one exact English
+# wording. When English changes, its new wording has no translation and `missing` lists it; a change
+# that only touches numbers (a price, a time, a count) is carried into the old translation
+# automatically when every changed number appears in it once ("numbers updated", listed for review).
+# Strings with no words (prices, "4.5", "(10.9k+)", "1 / 9") are facts and pass through as they are.
+# "urls" maps English link targets to the language's (a booking page in that language, an internal
+# page's translated URL); it applies to data URLs and to href="..." inside translated text. Every
+# other URL stays exactly as in English.
+I18N_KIT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "runtime", "listicle", "i18n")
+UI_ELEMENT = "listicle-ui"
+# Strings of the shared JS (runtime/listicle/*.js), English defaults. A language page gets its
+# translations as <script type="application/json" id="listicle-ui"> (written by build-lang).
+JS_UI_EN = {
+    "locale": "en-GB",
+    "more_filters": "More filters",
+    "fewer_filters": "Fewer filters",
+    "remove_filter": "Remove filter {label}",
+    "showing": "Showing <b>{shown}</b> of {total} cruises",
+    "mini_count": "<b>{shown}</b> of {total} cruises",
+    "breakdown_filtered": "Showing {shown} of {total} cruises matching your filters",
+    "other_date": "Other date",
+    "sun_note": "🌇 Sunset {sun}: board about 20 min before ({board}) to catch it  ·  🌃 City lit up {dark} to 22:00 ({date})",
+    "slot_closed": "📅 <b>{date}:</b> this date is not open for booking yet, so its sailing times are not out. "
+                   "It is fully dark from {dark}: pick a sailing after that when you book.",
+    "dur_h": "{h} h",
+    "dur_hm": "{h} h {m} min",
+    "dur_m": "{m} min",
+    "dinner_lit": "🌙 <b>{date}:</b> dark from {dark}, so the last {left} of dinner ({start} to {end}) is under the lights.",
+    "dinner_sunset": "🌇 <b>{date}:</b> sunset ({sun}) happens during dinner; it is fully dark only after you dock ({dark}).",
+    "dinner_day": "☀️ <b>{date}:</b> the cruise ends before sunset ({sun}).",
+    "slot_day": "☀️ <b>{date}:</b> the last sailing ({last}) ends before full dark ({dark}).",
+    "lit_head": "🌃 <b>City lit up on {date}: {dark} to 22:00</b>",
+    "lit_why": "Lights are on from dusk, about 30 minutes after sunset, until the Parliament switches its "
+               "floodlights off at 22:00.",
+    "lit_board": "Board for the lights:",
+    "lit_every": "{first} then every {step} min to {last}",
+    "lit_late": "(later sailings: city lit, Parliament dark)",
+    "lit_after22": "Its sailings start after 22:00: the city is lit, the Parliament is dark.",
+    "lit_none": "No sailing starts after dark on this date.",
+    "audio_in": "Audio in {lang} ✓",
+    "lang_names": {},
+}
+# card keys whose strings are never translated (facts, formatting, brand names)
+FACT_KEYS = {"id", "cats", "attrs", "url", "rel", "target", "onclick", "medal", "stars", "score", "tt",
+             "_tt_raw", "dur", "kind", "icon", "icon_alt", "site", "cls", "data", "emoji", "thumbs", "_order",
+             "_media_ws", "_photo_sep", "_photo_sep_end", "_tag", "_chev", "_nl"}
+PHOTO_TEXT_ATTRS = {"alt", "title"}
+NUM = re.compile(r"\d+(?:[.,:]\d+)*")
+
+
+def translatable(s):
+    """Has words (two letters in a row outside tags): prices, scores and counts do not."""
+    return bool(re.search(r"[^\W\d_]{2}", re.sub(r"<[^>]+>|&[#\w]+;", " ", s)))
+
+
+def text_leaves(data):
+    """(where, getter-path) of every translatable string in the card data, in page order."""
+    out = []
+
+    def walk(v, path, key):
+        if isinstance(v, dict):
+            for k, x in v.items():
+                if k not in FACT_KEYS:
+                    walk(x, path + [k], k)
+        elif isinstance(v, list):
+            if key == "photos":
+                for i, attrs in enumerate(v):
+                    for j, (name, val) in enumerate(attrs):
+                        if name in PHOTO_TEXT_ATTRS and translatable(val):
+                            out.append(path + [i, j, 1])
+                return
+            for i, x in enumerate(v):
+                walk(x, path + [i], key)
+        elif isinstance(v, str) and translatable(v):
+            out.append(path)
+    for n, card in enumerate(data["cards"]):
+        walk(card, ["cards", n], "")
+    return out
+
+
+def get_in(d, path):
+    for k in path:
+        d = d[k]
+    return d
+
+
+def set_in(d, path, v):
+    for k in path[:-1]:
+        d = d[k]
+    d[path[-1]] = v
+
+
+def where(data, path):
+    card = data["cards"][path[1]]
+    rest = "".join(f"[{k}]" if isinstance(k, int) else f".{k}" for k in path[2:]).lstrip(".")
+    return f"{card.get('id', '#%d' % (path[1] + 1))} {rest}"
+
+
+def links_of(h):
+    return sorted(_html.unescape(x) for x in re.findall(r'<a\b[^>]*\bhref="([^"]*)"', h))
+
+
+def tags_of(h):
+    norm = re.sub(r'\b(title|alt|aria-label)="[^"]*"', r'\1=""', h)
+    return sorted(re.findall(r"<[^>]+>", norm))
+
+
+def map_hrefs(h, urls):
+    if not urls:
+        return h
+    return re.sub(r'(\bhref=")([^"]*)(")',
+                  lambda m: m.group(1) + esc(urls.get(_html.unescape(m.group(2)), _html.unescape(m.group(2))))
+                  + m.group(3) if _html.unescape(m.group(2)) in urls else m.group(0), h)
+
+
+class Lang:
+    """Translations for one page and language: page file over the kit table."""
+
+    def __init__(self, en_page, lang):
+        self.lang = lang
+        self.path = i18n_path(en_page, lang)
+        kit = os.path.join(I18N_KIT, lang + ".json")
+        self.kit = json.load(open(kit, encoding="utf-8")) if os.path.exists(kit) else {}
+        self.page = json.load(open(self.path, encoding="utf-8")) if os.path.exists(self.path) else {}
+        self.urls = dict(self.page.get("urls", {}))
+        self.text = dict(self.kit.get("text", {}))
+        self.text.update(self.page.get("text", {}))
+        self.ui = {**UI_EN, **self.kit.get("ui", {}), **self.page.get("ui", {})}
+        self.js = {**self.kit.get("js", {}), **self.page.get("js", {})}
+        if "lang_names" in self.kit.get("js", {}) and "lang_names" in self.page.get("js", {}):
+            self.js["lang_names"] = {**self.kit["js"]["lang_names"], **self.page["js"]["lang_names"]}
+        self.by_shape = {}
+        for en, t in self.text.items():
+            self.by_shape.setdefault(NUM.sub("#", en), []).append((en, t))
+        self.used, self.missing, self.renumbered, self.bad_links, self.bad_tags = set(), [], [], [], []
+        self.too_long = []   # (where, english, translation): one-line labels over FIT_BUDGET
+
+    def renumber(self, s):
+        """Translation of s via an entry that differs from s only in numbers, or None."""
+        new = NUM.findall(s)
+        for en, t in self.by_shape.get(NUM.sub("#", s), []):
+            old = NUM.findall(en)
+            pairs = {}
+            if len(old) != len(new) or any(pairs.setdefault(a, b) != b for a, b in zip(old, new)):
+                continue
+            changed = {a: b for a, b in pairs.items() if a != b}
+            toks = NUM.findall(t)
+            if any(toks.count(a) != 1 for a in changed):
+                continue
+            return en, NUM.sub(lambda m: changed.get(m.group(0), m.group(0)), t)
+        return None
+
+    def get(self, s, at):
+        if s in self.text:
+            self.used.add(s)
+            t = self.text[s]
+        else:
+            hit = self.renumber(s)
+            if not hit:
+                self.missing.append((at, s))
+                return None
+            self.used.add(hit[0])
+            self.renumbered.append((at, hit[0], s))
+            t = hit[1]
+        t = map_hrefs(t, self.urls)
+        if too_long(s, t, at):
+            self.too_long.append((at, s, t))
+        if links_of(t) != links_of(map_hrefs(s, self.urls)):
+            self.bad_links.append((at, s, t))
+        elif tags_of(t) != tags_of(map_hrefs(s, self.urls)):
+            self.bad_tags.append((at, s, t))
+        return t
+
+    def translate(self, data):
+        out = json.loads(json.dumps(data))
+        for path in text_leaves(data):
+            s = get_in(data, path)
+            t = self.get(s, where(data, path))
+            set_in(out, path, map_hrefs(s, self.urls) if t is None else t)
+
+        def urlmap(v):
+            if isinstance(v, dict):
+                for k, x in v.items():
+                    if k == "url" and isinstance(x, str):
+                        v[k] = self.urls.get(x, x)
+                    else:
+                        urlmap(x)
+            elif isinstance(v, list):
+                for x in v:
+                    urlmap(x)
+        urlmap(out["cards"])
+        return out
+
+    def ui_json(self):
+        # kit keys are the shared JS strings; a page file may add keys for the page's own scripts
+        js = {k: v for k, v in self.js.items() if k in JS_UI_EN or k in self.page.get("js", {})}
+        return json.dumps(js, ensure_ascii=False, sort_keys=True).replace("</", "<\\/") if js else ""
+
+
+def slug_of(page):
+    rel = os.path.relpath(os.path.abspath(page), ROOT)
+    return (rel[:-5] if rel.endswith(".html") else rel).replace(os.sep, "--")
+
+
+def i18n_path(en_page, lang):
+    return os.path.join(ROOT, "data", "listicles", "i18n", slug_of(en_page), lang + ".json")
+
+
+def lang_page(en_page, lang):
+    """The language version's file, from the English page's hreflang link."""
+    src = open(en_page, encoding="utf-8").read()
+    m = re.search(r'<link\b(?=[^>]*\bhreflang="%s")[^>]*\bhref="([^"]+)"' % re.escape(lang), src)
+    if not m:
+        raise SystemExit(f"{os.path.relpath(en_page, ROOT)} has no hreflang=\"{lang}\" link")
+    path = _html.unescape(re.sub(r"^https?://[^/]+", "", m.group(1))).strip("/")
+    for c in (path + ".html", os.path.join(path, "index.html"), path):
+        if c and os.path.isfile(os.path.join(ROOT, c)):
+            return os.path.join(ROOT, c)
+    raise SystemExit(f"no file for the {lang} page {m.group(1)}")
+
+
+UI_BLOCK = re.compile(r'<script type="application/json" id="%s">\{.*?\}</script>' % UI_ELEMENT, re.S)
+
+
+def build_lang_page(src, data, tr):
+    """The language page with its card region rendered from data (already translated) and the
+    JS strings block refreshed (inserted just before the cards when the page has none)."""
+    global UI
+    saved, UI = UI, tr.ui
+    try:
+        cards = render_cards(data)
+    finally:
+        UI = saved
+    start, end, _ = region(src)
+    out = src[:start] + cards + src[end:]
+    block = f'<script type="application/json" id="{UI_ELEMENT}">{tr.ui_json()}</script>' if tr.ui_json() else ""
+    m = UI_BLOCK.search(out)
+    if m:
+        out = out[:m.start()] + block + out[m.end():]
+    elif block:
+        out = out[:start] + block + "\n" + out[start:]
+    return out
+
+
+def report(tr, data, verbose=True):
+    """Lines describing what a language build lacks or should be reviewed."""
+    lines = []
+    seen = set()
+    miss = [(a, s) for a, s in tr.missing if not (s in seen or seen.add(s))]
+    if miss:
+        lines.append(f"{len(miss)} untranslated string(s) (built in English until translated):")
+        lines += [f"  {a}: {s[:160]}" for a, s in miss] if verbose else []
+    if tr.renumbered:
+        lines.append(f"{len(tr.renumbered)} translation(s) with numbers carried over from English (review):")
+        lines += [f"  {a}: {old[:70]!r} -> {new[:70]!r}" for a, old, new in tr.renumbered] if verbose else []
+    if tr.bad_links:
+        lines.append(f"{len(tr.bad_links)} translation(s) whose links differ from English (fix or add to \"urls\"):")
+        lines += [f"  {a}: {links_of(s)} vs {links_of(t)}" for a, s, t in tr.bad_links]
+    if tr.too_long:
+        lines.append(f"{len(tr.too_long)} label(s) too long for one line (shorten; `translate` redoes them):")
+        lines += [f"  {a}: {_html.unescape(t)[:90]!r} ({too_long(s, t, a).split(': ', 1)[1].split(' (')[0]})"
+                  for a, s, t in tr.too_long]
+    if tr.bad_tags and verbose:
+        lines.append(f"{len(tr.bad_tags)} translation(s) with other markup than English (check):")
+        lines += [f"  {a}: {s[:90]}" for a, s, t in tr.bad_tags]
+    js_missing = [k for k in JS_UI_EN if k not in tr.js and k != "lang_names"]
+    ui_missing = [k for k in UI_EN if k not in tr.kit.get("ui", {}) and k not in tr.page.get("ui", {})]
+    if ui_missing:
+        lines.append(f"template strings without a {tr.lang} translation: {', '.join(ui_missing)}")
+    if js_missing:
+        lines.append(f"JS strings without a {tr.lang} translation: {', '.join(js_missing)}")
+    unused = [k for k in tr.page.get("text", {}) if k not in tr.used]
+    if unused:
+        lines.append(f"{len(unused)} page translation(s) no longer used by the English cards (prune with --prune)")
+    en_urls = set()
+
+    def collect(v):
+        if isinstance(v, dict):
+            for k, x in v.items():
+                if k == "url" and isinstance(x, str):
+                    en_urls.add(x)
+                else:
+                    collect(x)
+        elif isinstance(v, list):
+            for x in v:
+                collect(x)
+        elif isinstance(v, str):
+            en_urls.update(_html.unescape(u) for u in re.findall(r'\bhref="([^"]*)"', v))
+    collect(data["cards"])
+    stale = [u for u in tr.urls if u not in en_urls]
+    if stale:
+        lines.append(f"{len(stale)} \"urls\" entr(ies) not used by the English cards: " + ", ".join(stale[:5]))
+    internal = sorted(u for u in en_urls if u.startswith("/") and not u.startswith("//") and u not in tr.urls)
+    if internal:
+        lines.append("internal links kept as in English (add a \"urls\" entry if the page has a translation): "
+                     + ", ".join(internal))
+    return lines
+
+
+def filter_cats(html):
+    """The filter pill categories of a page (data-cat of .ltt-tab-btn, without "all")."""
+    cats = set()
+    for t in re.findall(r"<button\b[^>]*>", html):
+        if re.search(r'class="[^"]*\bltt-tab-btn\b', t):
+            m = re.search(r'data-cat="([^"]*)"', t)
+            if m and m.group(1) != "all":
+                cats.add(m.group(1))
+    return cats
+
+
+def lang_main(cmd, en_page, lang, opts):
+    data = json.load(open(opts.get("--data") or data_path(en_page), encoding="utf-8"))
+    tr = Lang(en_page, lang)
+    out_data = tr.translate(data)
+    rel = os.path.relpath(tr.path, ROOT)
+    if cmd == "missing":
+        lines = report(tr, data)
+        print(f"{os.path.relpath(en_page, ROOT)} -> {lang} ({rel}):")
+        print("\n".join("  " + x for x in lines) if lines else "  every card string is translated")
+        if opts.get("--todo"):
+            todo = {s: "" for _, s in tr.missing + [(a, s) for a, s, _ in tr.too_long]}
+            with open(opts["--todo"], "w", encoding="utf-8") as fh:
+                fh.write(dumps(todo) + "\n")
+            print(f"  {len(todo)} untranslated string(s) written to {opts['--todo']}")
+        if opts.get("--prune") and os.path.exists(tr.path):
+            page = json.load(open(tr.path, encoding="utf-8"))
+            order = [get_in(data, p) for p in text_leaves(data)]
+            keep = {k: page["text"][k] for k in dict.fromkeys(order + sorted(tr.used)) if k in page.get("text", {})}
+            dropped = len(page.get("text", {})) - len(keep)
+            page["text"] = keep
+            with open(tr.path, "w", encoding="utf-8") as fh:
+                fh.write(dumps(page) + "\n")
+            print(f"  pruned {dropped} unused translation(s), the rest in English card order")
+        return 1 if (tr.missing or tr.bad_links or tr.too_long) else 0
+    page = opts.get("--page") or lang_page(en_page, lang)
+    if not os.path.isabs(page):
+        page = os.path.join(ROOT, page)
+    src = open(page, encoding="utf-8").read()
+    prel = os.path.relpath(page, ROOT)
+    # build-lang only swaps the cards: on a page still in an older design the new cards would meet an
+    # old filter bar, sticky bar and intro (filters that match no card, outdated facts)
+    en_cats, lang_cats = filter_cats(open(en_page, encoding="utf-8").read()), filter_cats(src)
+    if en_cats != lang_cats and not opts.get("--check"):
+        print(f"{prel}: not built, its page design is older than the English page "
+              f"(filters {sorted(lang_cats) or 'none'} vs English {sorted(en_cats)}).")
+        print(f"  Port the page first: python3 scripts/port_page_i18n.py {os.path.relpath(en_page, ROOT)} "
+              f"--langs {lang} --cache-only --listicle-cards (--dump-todo DIR lists what needs translating), "
+              "then run build-lang again.")
+        return 1
+    out = build_lang_page(src, out_data, tr)
+    problems = report(tr, data, verbose=False)
+    if (tr.missing or tr.bad_links) and not opts.get("--allow-missing"):
+        print(f"{prel}: not built, translations missing or links differ:")
+        print("\n".join("  " + x for x in report(tr, data)))
+        print(f"  (python3 scripts/listicle.py missing {os.path.relpath(en_page, ROOT)} {lang} lists them; "
+              "--allow-missing builds with English in their place)")
+        return 1
+    if opts.get("--check"):
+        if out != src:
+            print(f"{prel}: cards differ from the English data + {rel}")
+            return 1
+        print(f"{prel}: cards match the English data + {rel}")
+        return 0
+    if out != src:
+        with open(page, "w", encoding="utf-8") as fh:
+            fh.write(out)
+        print(f"{prel}: {len(data['cards'])} cards built in {lang}")
+    else:
+        print(f"{prel}: unchanged")
+    for x in problems:
+        print("  " + x)
+    if opts.get("--no-layout"):
+        return 0
+    # longer languages break one-line labels: measure the built page in a browser (skipped without one)
+    import check_listicle_layout
+    return check_listicle_layout.check([prel])
+
+
+# ------------------------------------------------------------------ automatic translation (translate)
+# `translate <english-page> <lang> [--todo=FILE] [--dry-run]` sends the untranslated card strings
+# (the `missing --todo` list, or what `missing` would list) to the Claude API in batches and writes
+# every translation that passes validate() into data/listicles/i18n/<slug>/<lang>.json. A string that
+# fails is reported and never written. Order of work for a language version: harvest what the site
+# already has (listicle_harvest.py), translate the rest, review, then build-lang.
+TRANSLATE_MODEL = "claude-opus-5-5"
+FALLBACK_MODELS = ("claude-opus-5-5", "claude-opus-5", "claude-fable-5", "claude-sonnet-5-5")
+LANG_NAMES = {
+    "hu": "Hungarian", "de": "German", "fr": "French", "it": "Italian", "es": "Spanish", "ro": "Romanian",
+    "pl": "Polish", "nl": "Dutch", "cs": "Czech", "sk": "Slovak", "pt": "Portuguese", "ru": "Russian",
+    "hr": "Croatian", "sr": "Serbian (Cyrillic script)", "bg": "Bulgarian", "el": "Greek", "tr": "Turkish",
+    "uk": "Ukrainian", "he": "Hebrew", "ja": "Japanese", "ko": "Korean", "zh": "Chinese (Simplified)",
+}
+# How the existing pages address the reader (counted on the sites' translations); the prompt also
+# shows existing translations of the page so the model follows their wording.
+REGISTER = {
+    "de": "formal 'Sie'", "fr": "formal 'vous'", "it": "informal 'tu' (vuoi, puoi)",
+    "es": "informal 'tú' (quieres, puedes)", "pt": "'você'", "nl": "informal 'je'",
+    "pl": "informal 'ty' (chcesz, możesz)", "ro": "'tu' (vrei, poți)", "cs": "formal 'vy' (chcete)",
+    "sk": "formal 'vy' (chcete)", "hr": "formal/plural 'vi' (želite)", "sr": "formal/plural 'ви' (желите)",
+    "bg": "formal/plural 'вие' (искате)", "uk": "formal 'ви' (хочете)", "ru": "formal 'вы' (хотите)",
+    "el": "formal/plural (θέλετε)", "tr": "polite 'siz' (isterseniz)", "he": "plural 'אתם'",
+    "ja": "polite です/ます style", "ko": "polite 합니다/해요 style",
+}
+TRANSLATE_SYSTEM = """You translate the comparison cards of a travel site's listicle page (Danube cruises in Budapest) from English into {lang}.
+
+Each item is an HTML fragment from one card ("where" says which part: title, pill label, popover, question, answer, Pick/Skip sentence, price label, photo alt text). Translate it for travellers reading {lang}: natural, concise, same meaning and tone, about the same length (labels must stay short).
+
+Hard rules (a translation that breaks one is rejected automatically):
+- Keep every HTML tag, in the same order, with the same attributes and values. Translate only the text between tags (and title/alt/aria-label values).
+- Keep every number exactly as in English: prices, currencies (€, Ft), times (write 24-hour times like 21:00 exactly as given), durations, counts, ratings, dock numbers. Do not write numbers as words or words as numbers.
+- Keep URLs and placeholders such as {{n}} exactly.
+- Keep emoji (🏆 🥂 ⏱️ 📍 ✓ ...) where they are.
+- Never translate names of boats, operators, companies, docks, streets, places or sites: {names}, Vigadó tér, Jane Haining rakpart, Akadémia, GetYourGuide, Viator, Tripadvisor, Budapest Adventures. Bridges and landmarks (Elizabeth Bridge, Chain Bridge, Parliament) take the form the existing translations use.
+- Address the reader with {register}, as the existing translations below do.
+- No em dashes (—): use a comma, colon or an en dash with spaces.
+- Do not add claims (independent, unsponsored, paid our own tickets, ...) that the English does not make.
+- A fragment that is only a name stays as it is.
+- The rank tag on the photo (where ends in "gallery.rank.text") must fit on one line: at most {fit_rank} characters (or the English length if longer). Shorten it rather than translate word for word; keep the emoji and the "#N".
+
+Existing translations on this site (follow their wording for the same terms):
+{glossary}
+
+Return every id you were given exactly once, with its translation in "html"."""
+TRANSLATE_SCHEMA = {
+    "type": "object",
+    "properties": {"items": {"type": "array", "items": {
+        "type": "object", "properties": {"id": {"type": "string"}, "html": {"type": "string"}},
+        "required": ["id", "html"], "additionalProperties": False}}},
+    "required": ["items"], "additionalProperties": False,
+}
+TIME = re.compile(r"(?<![\d:])\d{1,2}:\d{2}(?![\d:])")
+PLACEHOLDER = re.compile(r"\{[a-z_]+\}")
+CURRENCY_RE = re.compile(r"€|\$|£|\bFt\b|\bHUF\b|\bEUR\b|\bUSD\b")
+URL_RE = re.compile(r"https?://[^\s\"'<>]+")
+TR_ATTRS = r"title|alt|aria-label|placeholder"
+
+
+def tag_sequence(h):
+    """The tags of a fragment in order, translatable attribute values blanked."""
+    return [re.sub(r'\b(%s)="[^"]*"' % TR_ATTRS, r'\1=""', t) for t in re.findall(r"<[^>]+>", h)]
+
+
+def visible(h):
+    """Text a reader sees (tags out, entities decoded), plus translatable attribute values."""
+    attrs = " ".join(_html.unescape(v) for v in re.findall(r'\b(?:%s)="([^"]*)"' % TR_ATTRS, h))
+    import unicodedata
+    return unicodedata.normalize("NFKC", _html.unescape(re.sub(r"<[^>]+>", " ", h)) + " " + attrs)
+
+
+def emoji_of(s):
+    """Emoji and pictographs (✓ ✕ 🏆 ⏱️ ...), not arrows or letters."""
+    return sorted(ch for ch in s if ord(ch) >= 0x1F000 or 0x2600 <= ord(ch) <= 0x27BF or 0x2B00 <= ord(ch) <= 0x2BFF)
+
+
+# Short labels that sit on a photo or a button and must stay on one line (listicle-cards.js shrinks
+# them a little, check_listicle_layout.py measures the result). A translation may be as long as the
+# English or this many visible characters, whichever is more.
+FIT_BUDGET = {"gallery.rank.text": 42}
+
+
+def fit_budget(at):
+    """The one-line character budget for the card part `at` ("card-1 gallery.rank.text"), or None."""
+    part = (at or "").split(" ", 1)[-1]
+    return FIT_BUDGET.get(part)
+
+
+def too_long(en, tr, at):
+    """'too long for one line ...' when a one-line label is over its budget, else None."""
+    budget = fit_budget(at)
+    if budget is None:
+        return None
+    n, limit = len(visible(tr).strip()), max(budget, len(visible(en).strip()))
+    if n > limit:
+        return f"too long for one line: {n} characters, max {limit} (shorten it, keep the meaning)"
+    return None
+
+
+def validate(en, tr, lang=None, where=None):
+    """Problems of a translated fragment against its English source; [] when it may be written.
+    Pure function: same tag sequence, numbers (digit runs; 2.5 -> 2,5 is fine), times, currency
+    signs, URLs, placeholders and emoji; not empty, not plain English, no em dash; one-line labels
+    (FIT_BUDGET, by `where`) within their length."""
+    probs = []
+    if not isinstance(tr, str) or not tr.strip():
+        return ["empty"]
+    if tag_sequence(en) != tag_sequence(tr):
+        probs.append("HTML tags differ")
+    ve, vt = visible(en), visible(tr)
+    if sorted(re.findall(r"\d+", ve)) != sorted(re.findall(r"\d+", vt)):
+        probs.append("numbers differ: %s vs %s" % (re.findall(r"\d+(?:[.,:]\d+)*", ve),
+                                                    re.findall(r"\d+(?:[.,:]\d+)*", vt)))
+    if sorted(TIME.findall(ve)) != sorted(TIME.findall(vt)):
+        probs.append("times differ")
+    if sorted(CURRENCY_RE.findall(ve)) != sorted(CURRENCY_RE.findall(vt)):
+        probs.append("currency differs")
+    if links_of(en) != links_of(tr) or sorted(URL_RE.findall(_html.unescape(en))) != sorted(URL_RE.findall(_html.unescape(tr))):
+        probs.append("URLs differ")
+    if sorted(PLACEHOLDER.findall(en)) != sorted(PLACEHOLDER.findall(tr)):
+        probs.append("placeholders differ")
+    if emoji_of(en) != emoji_of(tr):
+        probs.append("emoji differ")
+    if "—" in tr and "—" not in en:
+        probs.append("em dash")
+    long_ = too_long(en, tr, where)
+    if long_:
+        probs.append(long_)
+    words_en = re.findall(r"[^\W\d_]+", ve)
+    if tr.strip() == en.strip() and len(words_en) >= 3 and not all(w[0].isupper() for w in words_en):
+        probs.append("returned unchanged (English)")
+    return probs
+
+
+def load_api_key():
+    """ANTHROPIC_API_KEY from the environment or the site's .env (in a worktree: the main checkout's)."""
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return os.environ["ANTHROPIC_API_KEY"]
+    import subprocess
+    cands = [os.path.join(ROOT, ".env")]
+    try:
+        common = subprocess.run(["git", "rev-parse", "--git-common-dir"], cwd=ROOT, capture_output=True,
+                                text=True).stdout.strip()
+        if common:
+            cands.append(os.path.join(os.path.dirname(os.path.abspath(os.path.join(ROOT, common))), ".env"))
+    except OSError:
+        pass
+    for env in cands:
+        if os.path.exists(env):
+            for line in open(env, encoding="utf-8"):
+                if line.startswith("ANTHROPIC_API_KEY="):
+                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    if key:
+                        os.environ["ANTHROPIC_API_KEY"] = key
+                        return key
+    return None
+
+
+def glossary(tr, data, limit=120):
+    """Existing translations of this language to show the model: short terms first (labels,
+    pills), then a few full sentences for the register."""
+    seen, short, long_ = set(), [], []
+    texts = list(tr.page.get("text", {}).items()) + list(tr.kit.get("text", {}).items())
+    base = os.path.join(ROOT, "data", "listicles", "i18n")
+    if os.path.isdir(base):
+        for d in sorted(os.listdir(base)):
+            f = os.path.join(base, d, tr.lang + ".json")
+            if os.path.exists(f) and os.path.abspath(f) != os.path.abspath(tr.path):
+                texts += list(json.load(open(f, encoding="utf-8")).get("text", {}).items())
+    for en, t in texts:
+        if en in seen or not translatable(en) or en == t:
+            continue
+        seen.add(en)
+        n = len(re.findall(r"\w+", re.sub(r"<[^>]+>", " ", en)))
+        (short if n <= 5 else long_).append((en, t))
+    pick = short[:limit] + [x for x in long_ if len(x[0]) < 300][:12]
+    return "\n".join(f"- {json.dumps(e, ensure_ascii=False)} -> {json.dumps(t, ensure_ascii=False)}"
+                     for e, t in pick) or "(none yet)"
+
+
+def name_list(data):
+    """Operator / boat names from the cards' kicker (first part), kept untranslated."""
+    names = []
+    for c in data["cards"]:
+        k = c.get("kicker")
+        if isinstance(k, list) and k and isinstance(k[0], str):
+            names.append(re.sub(r"<[^>]+>", "", _html.unescape(k[0])).strip())
+    return ", ".join(dict.fromkeys(n for n in names if n))
+
+
+def todo_items(en_page, lang, data, opts):
+    """[(english, where)] still untranslated: the --todo file's keys (or missing()), minus what the
+    language file has gained since."""
+    tr = Lang(en_page, lang)
+    tr.translate(data)
+    where_of = {s: a for a, s in tr.missing + [(a, s) for a, s, _ in tr.too_long]}
+    if opts.get("--todo"):
+        keys = list(json.load(open(opts["--todo"], encoding="utf-8")))
+    else:
+        keys = list(where_of)
+    keys = [k for k in dict.fromkeys(keys) if k in where_of]
+    return [(k, where_of[k]) for k in keys], tr
+
+
+def batches_of(items, size):
+    out, cur, n = [], [], 0
+    for it in items:
+        if cur and n + len(it[0]) > size:
+            out.append(cur)
+            cur, n = [], 0
+        cur.append(it)
+        n += len(it[0])
+    if cur:
+        out.append(cur)
+    return out
+
+
+def call_model(client, model, system, payload):
+    """One batch -> {id: html}. Raises RuntimeError on a refusal or a cut-off answer."""
+    kw = dict(model=model, max_tokens=64000, system=system,
+              output_config={"effort": os.environ.get("LISTICLE_TRANSLATE_EFFORT", "medium"),
+                             "format": {"type": "json_schema", "schema": TRANSLATE_SCHEMA}},
+              messages=[{"role": "user", "content": json.dumps({"items": payload}, ensure_ascii=False)}])
+    if model in FALLBACK_MODELS:   # a refused batch is retried on the fallback model server-side
+        kw.update(betas=["server-side-fallback-2026-07-01"], fallbacks="default")
+    with client.beta.messages.stream(**kw) as stream:
+        msg = stream.get_final_message()
+    if msg.stop_reason != "end_turn":
+        raise RuntimeError(f"stop_reason={msg.stop_reason}")
+    text = next(b.text for b in msg.content if b.type == "text")
+    return {it["id"]: it["html"] for it in json.loads(text)["items"]}, msg.usage
+
+
+def translate_main(en_page, lang, opts):
+    data = json.load(open(opts.get("--data") or data_path(en_page), encoding="utf-8"))
+    items, tr = todo_items(en_page, lang, data, opts)
+    rel = os.path.relpath(tr.path, ROOT)
+    if not items:
+        print(f"{os.path.relpath(en_page, ROOT)} -> {lang}: nothing to translate ({rel} is complete)")
+        return 0
+    model = os.environ.get("LISTICLE_TRANSLATE_MODEL") or TRANSLATE_MODEL
+    system = TRANSLATE_SYSTEM.format(lang=LANG_NAMES.get(lang, lang), names=name_list(data) or "-",
+                                     fit_rank=FIT_BUDGET["gallery.rank.text"],
+                                     register=REGISTER.get(lang, "the polite form usual on travel sites"),
+                                     glossary=glossary(tr, data))
+    size = int(opts.get("--batch-chars") or 12000)
+    bats = batches_of(items, size)
+    chars = sum(len(e) for e, _ in items)
+    ratio = 1.6 if lang in ("ja", "ko", "he", "el", "bg", "ru", "uk", "sr") else 1.3
+    est_in = (len(system) * len(bats) + chars + 60 * len(items)) // 3
+    est_out = int(chars * ratio) // 3 + 15 * len(items)
+    words = sum(len(re.findall(r"[^\W\d_]+", re.sub(r"<[^>]+>", " ", e))) for e, _ in items)
+    print(f"{os.path.relpath(en_page, ROOT)} -> {lang} with {model}: {len(items)} string(s), {words} words, "
+          f"{chars} chars in {len(bats)} batch(es); about {est_in} input / {est_out} output tokens")
+    if opts.get("--dry-run"):
+        print("--- system prompt ---\n" + system)
+        for i, b in enumerate(bats, 1):
+            payload = [{"id": f"t{j}", "where": w, "html": e} for j, (e, w) in enumerate(b)]
+            print(f"--- batch {i}/{len(bats)}: {len(b)} string(s), {sum(len(e) for e, _ in b)} chars ---")
+            print(json.dumps({"items": payload}, ensure_ascii=False, indent=1))
+        print("(dry run: nothing sent, nothing written)")
+        return 0
+    if not load_api_key():
+        print("ANTHROPIC_API_KEY is not set (environment or the site's .env): nothing was translated or "
+              "changed. Set it, or use --dry-run to see what would be sent.")
+        return 2
+    try:
+        import anthropic
+    except ImportError:
+        print("the anthropic package is not installed (pip install anthropic): nothing changed")
+        return 2
+    client = anthropic.Anthropic()
+    page = json.load(open(tr.path, encoding="utf-8")) if os.path.exists(tr.path) else {"format": 1, "lang": lang}
+    page.setdefault("text", {})
+    side_path = tr.path[:-5] + ".translated.json"
+    side = json.load(open(side_path, encoding="utf-8")) if os.path.exists(side_path) else \
+        {"format": 1, "lang": lang, "comment": "Entries of %s written by `listicle.py translate` "
+         "(machine translation: review before publishing)." % os.path.basename(tr.path), "entries": {}}
+    redo = {s for _, s, _ in tr.too_long}   # over-long labels: the new translation replaces the old one
+    ok, bad = 0, []
+    for i, b in enumerate(bats, 1):
+        payload = [{"id": f"t{j}", "where": w, "html": e} for j, (e, w) in enumerate(b)]
+        try:
+            got, usage = call_model(client, model, system, payload)
+        except (RuntimeError, ValueError, StopIteration, anthropic.APIError) as why:
+            print(f"  batch {i}/{len(bats)}: failed ({why}); its {len(b)} string(s) stay untranslated")
+            bad += [(e, w, [f"batch failed: {why}"]) for e, w in b]
+            continue
+        for j, (e, w) in enumerate(b):
+            t = got.get(f"t{j}")
+            probs = ["no answer for this id"] if t is None else validate(e, t, lang, where=w)
+            if probs:
+                bad.append((e, w, probs))
+            elif e not in page["text"] or e in redo:
+                page["text"][e] = t
+                side["entries"][e] = {"model": model, "where": w}
+                ok += 1
+        os.makedirs(os.path.dirname(tr.path), exist_ok=True)
+        order = [get_in(data, pth) for pth in text_leaves(data)]
+        page["text"] = {**{k: page["text"][k] for k in dict.fromkeys(order) if k in page["text"]}, **page["text"]}
+        with open(tr.path, "w", encoding="utf-8") as fh:
+            fh.write(dumps(page) + "\n")
+        with open(side_path, "w", encoding="utf-8") as fh:
+            fh.write(dumps(side) + "\n")
+        print(f"  batch {i}/{len(bats)}: {len(b)} sent, usage in/out {usage.input_tokens}/{usage.output_tokens}")
+    print(f"  {ok} translation(s) written to {rel}, {len(bad)} rejected")
+    for e, w, probs in bad:
+        print(f"  REJECTED {w}: {'; '.join(probs)}: {e[:100]}")
+    if opts.get("--rejects") and bad:
+        with open(opts["--rejects"], "w", encoding="utf-8") as fh:
+            fh.write(dumps({e: {"where": w, "problems": p} for e, w, p in bad}) + "\n")
+    print(f"  next: review, then python3 scripts/listicle.py missing {os.path.relpath(en_page, ROOT)} {lang}")
+    return 1 if bad else 0
+
+
 def main(argv):
     args = [a for a in argv if not a.startswith("--")]
     opts = {a.split("=")[0]: (a.split("=", 1)[1] if "=" in a else True) for a in argv if a.startswith("--")}
+    if len(args) == 3 and args[0] in ("build-lang", "missing", "translate"):
+        page = args[1] if os.path.isabs(args[1]) or os.path.exists(args[1]) else os.path.join(ROOT, args[1])
+        if args[0] == "translate":
+            return translate_main(page, args[2], opts)
+        return lang_main(args[0], page, args[2], opts)
     if len(args) != 2 or args[0] not in ("extract", "build", "stats"):
         print(__doc__)
         return 2

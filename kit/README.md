@@ -31,10 +31,13 @@ Change the kit: edit this repo, bump `VERSION`, PR, merge, tag `vX.Y.Z`, then ru
 | `checks/check_kit.py` | kit/ untouched, CI file current, local checks present |
 | `checks/check_lazy_images.py` | Photos: loaders, first slide, missing files, hotlinks (`--fix` upgrades old slider runtimes) |
 | `checks/check_archive.py` | Nothing (script, workflow, skill, settings) still calls a script in `scripts/archive/` |
+| `checks/check_listicle_layout.py` | Listicle pages measured in a browser at phone and desktop width: rank tags and booking buttons fit on one line (tag not shrunk below 10 px), no sideways overflow. Skipped without Node + Playwright |
+| `checks/check_gallery_clip.py` | No CSS rule unclips a card photo gallery (.cd-gal, thumbnails, slider) when a popover opens: a `*{overflow:visible}` escape hatch must add `:not(.cd-gal):not(.cd-gal *)` |
 | `checks/check_filters.py` | Filter pills: `data-group` on every non-"All" pill, only "All" active |
 | `checks/sitecfg.py`, `checks/kittree.py` | Shared helpers |
 | `ci/layout-check.yml` | The CI workflow every site uses |
 | `runtime/site-runtime.js` | Shared front-end runtime (sliders, filters, TOC, sticky bar, lazy photos), served as `/js/site-runtime.js?v=<hash>` on sites with `"runtime": {"shared": true}` |
+| `runtime/listicle/i18n/<lang>.json` | Per-language strings of the listicle design: template strings (`ui`), shared JS strings (`js`, written into language pages as `<script type="application/json" id="listicle-ui">`; English pages have none and keep the English defaults), phrases many cards repeat (`text`) |
 | `runtime/listicle/`, `runtime/listicle.py` | Shared listicle card design (river/dinner cruise template): CSS and JS served as `/css/listicle-*.css`, `/js/listicle-*.js?v=<hash>` on the pages listed in site.json `listicle.pages`; `migrate` swaps byte-identical inline copies for the files |
 | `runtime/runtime.py` | `migrate`: move a site's pages from their inline runtime to the shared file (only byte-identical copies); `publish`: used by update.py |
 | `scripts/*.py` | Shared site scripts (see below) |
@@ -67,7 +70,8 @@ A site that still needs its own version of a script lists it in `site.json` as
 | `sync_layout.py` | Header, footer, active menu item and language switcher from the master pages, search index, affiliate rel; settings in the site's `scripts/layout_config.json` |
 | `slider_photo_order.py` | Applies the card photo orders in the site's `scripts/slider_photo_order_data.py` to every language version |
 | `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
-| `listicle.py` | Listicle cards (`bpa-card`, river/dinner cruise design) as data: `extract <page>` writes `data/listicles/<slug>.json`, `build <page>` renders the cards back into the page (only the card region), `stats <page>` shows structured vs raw. Test: `python3 tests/test_listicle_roundtrip.py --site ../budapest-adventures` (extract -> build must be byte-identical) |
+| `listicle.py` | Listicle cards (`bpa-card`, river/dinner cruise design) as data: `extract <page>` writes `data/listicles/<slug>.json`, `build <page>` renders the cards back into the page (only the card region), `stats <page>` shows structured vs raw. Test: `python3 tests/test_listicle_roundtrip.py --site ../budapest-adventures` (extract -> build must be byte-identical). Language versions: `build-lang <english-page> <lang> [--check]` renders the language page's cards (the page its hreflang link names) from the ENGLISH card data plus `data/listicles/i18n/<slug>/<lang>.json` (text keyed by the English fragment, `urls` for localized links) and the kit table `runtime/listicle/i18n/<lang>.json` (template and JS strings, common phrases); `missing <english-page> <lang> [--todo=FILE] [--prune]` lists what is untranslated. Test: `python3 tests/test_listicle_i18n.py` |
+| `listicle_harvest.py` | Reuses translations a language page already has: `<english-page> <lang|all>` aligns the old translated page with the English version it was translated from (found in git history) and reads the port / listicle memories, then adds the pairs whose English is still used by the card data to `data/listicles/i18n/<slug>/<lang>.json` (never overwriting), with provenance and skipped pairs in `<lang>.harvest.json`. See "Listicle language versions" below |
 
 ## site.json
 
@@ -93,3 +97,50 @@ A site that still needs its own version of a script lists it in `site.json` as
   check_kit fails on any page that still carries one or loads an old `?v=`.
 - `local_checks`: the site's own checks that `check_all.py` also runs, until they
   move into the kit.
+
+## Listicle language versions
+
+Facts (prices, times, ratings, photos, booking links) always come from the English card data; a
+language file only holds text. A new or outdated language version goes through these steps:
+
+1. **Harvest** what the site already has: `python3 scripts/listicle_harvest.py <english-page> all`
+   (or one language). It pairs the old translated page with the English version it was made from
+   (git history, matched on photos, link targets, structure and numbers), card by card and element
+   by element, and reuses the page port memories (`data/i18n/port/*/<lang>.json`) and the other
+   listicles' language files. A pair is only kept when its English is still used word for word and
+   it passes the guard: same numbers, currency, links and markup as English (else it belongs to an
+   older fact), looks translated (not English, right script), no added label or dropped brackets, not
+   one translation reused for different English strings. Where each entry came from, and what was
+   skipped and why, is in `data/listicles/i18n/<slug>/<lang>.harvest.json`. `--dry-run` writes nothing.
+2. **Translate** the rest: `python3 scripts/listicle.py missing <english-page> <lang> --todo=todo.json`, then
+   `python3 scripts/listicle.py translate <english-page> <lang> --todo=todo.json`. It sends the strings in
+   batches (about 12,000 characters each, `--batch-chars=N`) to the Claude API: model
+   `LISTICLE_TRANSLATE_MODEL` (default `claude-opus-5-5`), key `ANTHROPIC_API_KEY` or the site's `.env`.
+   The prompt carries the house rules (keep tags, numbers, times, currency, URLs, placeholders, emoji and
+   the names of boats, operators and docks; the reader is addressed as on the existing pages; no em
+   dashes) and the language's existing translations as a glossary; each string comes with where it sits
+   on the card. Every answer goes through `validate()` (same tag sequence and attributes, same digits,
+   24-hour times, currency signs, URLs, `{placeholders}` and emoji; not empty, not English, no em dash):
+   failures are listed (`--rejects=FILE`) and never written. Written entries are listed in
+   `<lang>.translated.json` for the review. `--dry-run` prints the prompt, the batches and the estimated
+   tokens; without a key it stops with a message and changes nothing.
+3. **Review** the language file (the `.harvest.json` / `.translated.json` side files say what to look at),
+   then delete the side files.
+4. **Port the page design** if the language page is older than the English one (different filter
+   pills, sticky bar, intro): `python3 scripts/port_page_i18n.py <english-page> --langs <lang> --cache-only
+   --listicle-cards` (`--dump-todo DIR` lists the page texts still to translate into
+   `data/i18n/port/<slug>/<lang>.json`). `build-lang` refuses a page whose filter pills differ from English.
+5. **Build**: `python3 scripts/listicle.py build-lang <english-page> <lang>`, then QC as for any page.
+   `build-lang` then measures the page in a browser (`checks/check_listicle_layout.py`, phone and desktop):
+   a rank tag on a photo or a booking button that does not fit on one line fails it.
+
+**Longer languages (one-line labels).** The rank tag on the photo and the booking button stay on one
+line on every page: the CSS keeps them on one line and `listicle-cards.js` shrinks the text a little when
+it does not fit (button: tighter padding first, then down to 12 px; tag: down to 9 px; then an ellipsis).
+So the text has to be short enough: `validate()` rejects a rank tag over 42 visible characters (or the
+English length, if longer), `missing` lists existing ones over the budget (and `translate` redoes them),
+and `check_listicle_layout.py` fails a tag shrunk below 10 px, anything cut off, or sideways overflow.
+The budgets are in `FIT_BUDGET` in `scripts/listicle.py`.
+
+Tests: `python3 tests/test_listicle_translate.py` (validator, harvest guard, no-key run).
+

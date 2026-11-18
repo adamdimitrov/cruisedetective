@@ -35,4 +35,29 @@
   document.addEventListener('keydown',function(e){
     if(e.key==='Escape') document.querySelectorAll('.cd-pdd[open]').forEach(function(d){d.open=false;});
   });
+  // longer languages: keep the rank tag on the photo and the booking button on one line (CSS: nowrap).
+  // Button: tighter side padding first, then a smaller font (min 12px); tag: min 9px. Then the CSS
+  // ellipsis, which listicle.py's length check is there to prevent.
+  function fit(){
+    document.querySelectorAll('.bpa-media .bpa-rank-tag,.bpa-card .bpa-btn').forEach(function(el){
+      if(!el.offsetParent) return;
+      // the button animates 'all': measure without the transition, or the old size is read back
+      el.style.setProperty('transition','none','important');
+      requestAnimationFrame(function(){ el.style.removeProperty('transition'); });
+      ['font-size','letter-spacing','padding-left','padding-right'].forEach(function(p){el.style.removeProperty(p);});
+      if(el.scrollWidth<=el.clientWidth+1) return;
+      var btn=el.classList.contains('bpa-btn'), fs=parseFloat(getComputedStyle(el).fontSize), min=btn?12:9;
+      if(btn){ el.style.setProperty('padding-left','8px','important'); el.style.setProperty('padding-right','8px','important'); }
+      else el.style.setProperty('letter-spacing','0.2px','important');
+      while(el.scrollWidth>el.clientWidth+1 && fs>min){ fs-=0.5; el.style.setProperty('font-size',fs+'px','important'); }
+    });
+  }
+  var fitT; function fitSoon(){ clearTimeout(fitT); fitT=setTimeout(fit,120); }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',fit); else fit();
+  window.addEventListener('load',fit);
+  // the booking column settles after other scripts run: refit whenever a container changes width
+  if('ResizeObserver' in window){ var ro=new ResizeObserver(fitSoon); document.querySelectorAll('.bpa-media,.bpa-card .bpa-btn').forEach(function(el){ ro.observe(el.tagName==='A'?el.parentElement:el); }); }
+  window.addEventListener('resize',fitSoon,{passive:true});
+  document.addEventListener('toggle',fitSoon,true);
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fit);
 })();
