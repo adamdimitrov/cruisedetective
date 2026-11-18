@@ -33,7 +33,7 @@
 .cd-pdd-total{margin-top:8px;padding:8px 10px;background:#f0fdf4;border-radius:8px;color:#166534;font-weight:700;display:flex;justify-content:space-between}
 .cd-pdd-note{margin-top:8px;font-size:11.5px;color:#64748b}
 .bpa-card:has(.cd-pdd[open]){position:relative;z-index:60}
-.bpa-card:has(.cd-pdd[open]),.bpa-card:has(.cd-pdd[open]) *:not(.bpa-slider):not(.cd-thumbs){overflow:visible!important}
+.bpa-card:has(.cd-pdd[open]),.bpa-card:has(.cd-pdd[open]) *:not(.cd-gal):not(.cd-gal *){overflow:visible!important}
 @media (max-width:767px){.cd-pdd-pop{right:auto;left:-4px;width:min(270px,calc(100vw - 56px))}}
 /* Access pill marks */
 .cd-yes{color:#15803d;font-weight:800}.cd-no{color:#b45309;font-weight:800}
@@ -148,3 +148,8 @@
 .cd-ask{color:#b45309;font-weight:800}
 .fbm-mrow .fbm-mnote{font:700 14px/1.45 'Plus Jakarta Sans',sans-serif!important;color:#92400e!important}
 
+/* Longer languages: the rank tag on the photo and the booking button always stay on one line.
+   listicle-cards.js shrinks the text a little when it does not fit; the ellipsis is the last resort,
+   and listicle.py flags translations long enough to need it. */
+.bpa-media .bpa-rank-tag{max-width:calc(100% - 20px)!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;box-sizing:border-box}
+.bpa-card .bpa-btn{white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;max-width:100%;box-sizing:border-box}

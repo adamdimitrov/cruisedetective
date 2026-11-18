@@ -63,26 +63,48 @@
     slider.scrollBy({ left: dir * w * rtl, behavior: 'smooth' });
   };
 
-  window.bpaCount = function(slider, pillOnly) {
-    if (!pillOnly) loadSliderImages(slider);
+  // read phase: which slide is showing (reads layout, writes nothing)
+  function bpaIndex(slider) {
+    var first = slider.firstElementChild;
+    var w = (first ? first.getBoundingClientRect().width + (parseFloat(getComputedStyle(slider).columnGap) || 0) : slider.clientWidth) || 1;
+    return Math.min(Math.round(Math.abs(slider.scrollLeft) / w), slider.children.length - 1);
+  }
+  // write phase: pill "i / N" and caption (writes only when the text changes)
+  function bpaPaint(slider, i) {
     var media = slider.closest('.bpa-media');
     if (!media) return;
     // older guide pages (airport, parliament, things to do, statistics) name it .bpa-counter-pill
     var pill = media.querySelector('.bpa-pill, .bpa-counter-pill');
     if (!pill) return;
-    var first = slider.firstElementChild;
-    var w = (first ? first.getBoundingClientRect().width + (parseFloat(getComputedStyle(slider).columnGap) || 0) : slider.clientWidth) || 1;
     var slides = slider.children;
     var photos = slider.querySelectorAll('img').length;
-    var i = Math.min(Math.round(Math.abs(slider.scrollLeft) / w), slides.length - 1);
-    pill.textContent = Math.min(i + 1, photos) + ' / ' + photos;
+    var t = Math.min(i + 1, photos) + ' / ' + photos;
+    if (pill.textContent !== t) pill.textContent = t;
     var cap = media.querySelector('.bpa-cap');
-    if (cap) cap.textContent = (slides[i] && slides[i].getAttribute('data-cap')) || '';
+    if (cap) {
+      var c = (slides[i] && slides[i].getAttribute('data-cap')) || '';
+      if (cap.textContent !== c) cap.textContent = c;
+    }
+  }
+
+  window.bpaCount = function(slider, pillOnly) {
+    if (!pillOnly) loadSliderImages(slider);
+    var media = slider.closest('.bpa-media');
+    if (!media || !media.querySelector('.bpa-pill, .bpa-counter-pill')) return;
+    bpaPaint(slider, bpaIndex(slider));
   };
 
   // set every pill once on load without fetching lazy photos (they load on first swipe/tap)
   // (single-photo carousels are skipped: their .bpa-pill can be a text label, not a counter)
-  document.querySelectorAll('.bpa-card .bpa-slider').forEach(function(sl) { if (sl.children.length > 1) window.bpaCount(sl, true); });
+  (function() {
+    var sls = Array.prototype.filter.call(document.querySelectorAll('.bpa-card .bpa-slider'), function(sl) {
+      var m = sl.closest('.bpa-media');
+      return sl.children.length > 1 && m && m.querySelector('.bpa-pill, .bpa-counter-pill');
+    });
+    // on load every carousel is at its first photo, so no measuring is needed (measuring here
+    // forced a full layout of the page before it had rendered); a real swipe re-counts via onscroll
+    sls.forEach(function(sl) { bpaPaint(sl, 0); });
+  })();
 
   // 1b. Bento Filmstrip Desktop & Mobile Slider Controls
   window.lttFilmSync = function(strip) {
@@ -473,7 +495,8 @@
 
     var leftCol = toc.closest('.content-left');
     if (leftCol) leftCol.style.display = 'block';
-    updateActiveTOC();
+    // highlight in the next frame instead of measuring right after building the TOC (forced layout)
+    scheduleLayoutSync();
   }
 
   function updateActiveTOC() {
