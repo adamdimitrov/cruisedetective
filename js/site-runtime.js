@@ -316,7 +316,7 @@
       var head = card.querySelector('.bpa-title');
       var btn = card.querySelector('.bpa-btn');
       var tag = card.querySelector('.bpa-rank-tag');
-      var p = card.querySelector('.bpa-price');
+      var p = card.querySelector('.bpa-price, .cd-pdd-main');
       var psub = card.querySelector('.bpa-psub');
       var kp = kicker ? kicker.textContent.split('•') : [];
       var rawTag = tag ? tag.textContent.trim() : '';

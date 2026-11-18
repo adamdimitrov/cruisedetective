@@ -1173,6 +1173,15 @@ JS_UI_EN = {
     "lit_late": "(later sailings: city lit, Parliament dark)",
     "lit_after22": "Its sailings start after 22:00: the city is lit, the Parliament is dark.",
     "lit_none": "No sailing starts after dark on this date.",
+    # a page that names its own landmark / end time (.fbm-mrow data-lit-what, data-lit-end)
+    "sun_note_end": "🌇 Sunset {sun}: board about 20 min before ({board}) to catch it  ·  🌃 City lit up {dark} to {end} ({date})",
+    "sun_note_open": "🌇 Sunset {sun}: board about 20 min before ({board}) to catch it  ·  🌃 City lit up from {dark} ({date})",
+    "lit_head_end": "🌃 <b>City lit up on {date}: {dark} to {end}</b>",
+    "lit_head_open": "🌃 <b>City lit up on {date}: from {dark}</b>",
+    "lit_why_end": "Lights are on from dusk, about 30 minutes after sunset, until {what} goes dark at {end}.",
+    "lit_why_open": "Lights are on from dusk, about 30 minutes after sunset, when the city and {what} light up.",
+    "lit_late_end": "(later sailings: city lit, {what} dark)",
+    "lit_after_end": "Its sailings start after {end}: the city is lit, {what} is dark.",
     "audio_in": "Audio in {lang} ✓",
     "lang_names": {},
 }
