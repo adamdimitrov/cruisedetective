@@ -11,8 +11,9 @@ publish(site)  copies the files to <site>/css/ and <site>/js/ and points every p
 migrate(site)  on each listed page, replaces each group of inline blocks with one tag at the same
                place, ONLY when the inline code is byte-identical to the kit file. Anything else is
                reported and left alone.
-problems(site) used by check_kit.py: published copies current, pages on the current ?v=, and no
-               listed page carrying an inline copy next to (or instead of) the shared file.
+problems(site) used by check_kit.py: published copies current, pages on the current ?v=, no
+               listed page carrying an inline copy next to (or instead of) the shared file, and
+               every card with exactly 5 "questions travellers ask" (house rule).
 
     python3 kit/runtime/listicle.py migrate|publish [site]
 """
@@ -24,6 +25,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "listicle")
+FAQ_PER_CARD = 5
 MANIFEST = json.load(open(os.path.join(SRC, "manifest.json"), encoding="utf-8"))["groups"]
 
 
@@ -142,6 +144,18 @@ def problems(site):
                                "remove it (python3 kit/runtime/listicle.py migrate)")
             if not m:
                 out.append(f"{rel}: does not load /{dest(g)}")
+        # house rule: every card answers exactly FAQ_PER_CARD "questions travellers ask"
+        starts = [x.start() for x in re.finditer(r'<div class="bpa-card[" ]', s)]
+        for k, a in enumerate(starts):
+            card = s[a:starts[k + 1] if k + 1 < len(starts) else len(s)]
+            if k + 1 == len(starts):
+                end = card.find('class="bpa-cta-cell"')
+                card = card[:end if end > 0 else len(card)]
+            n = card.count('class="fbm-qa"')
+            cid = re.search(r'id="([^"]+)"', card)
+            if n != FAQ_PER_CARD:
+                out.append(f"{rel}: {cid.group(1) if cid else 'card %d' % (k + 1)} has {n} questions travellers ask; "
+                           f"every card needs exactly {FAQ_PER_CARD}")
     return out
 
 

@@ -44,5 +44,10 @@
   },
   "photo_order": {
     "slot": "rebuild"
+  },
+  "listicle": {
+    "pages": [
+      "seine-river-cruises-paris/index.html"
+    ]
   }
 }
