@@ -1,0 +1,39 @@
+/* Shared article look for main-template pages (hero card + breakdown + article).
+   Lives on each language master; scripts/sync_layout.py copies it to every page of that language.
+   Scoped to pages with .ltt-hero-wrap; product cards, FAQs and one-off components are left alone. */
+body:has(.ltt-hero-wrap){background-color:#f8fafc!important}
+body:has(.ltt-hero-wrap) h2.bpa-breakdown-heading{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:24px!important;line-height:1.25!important;letter-spacing:-0.01em!important;text-align:start!important;color:#0f172a!important}
+body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) :is(h2:not([class]),h2.ltt-sec-title,h2.heading-33):not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *){font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:38px!important;line-height:1.2!important;letter-spacing:-0.01em!important;text-align:start!important;color:#0f172a!important}
+body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) h3:not([class]):not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *){font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:700!important;font-size:22px!important;line-height:1.35!important;color:#0f172a!important}
+body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) .w-richtext:not(.cf-faq-content-2) > p:not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *),body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) .w-richtext:not(.cf-faq-content-2) > ul > li:not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *),body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) .w-richtext:not(.cf-faq-content-2) > ol > li:not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *){font-size:18px!important;line-height:1.7!important;color:#334155!important}
+body:has(.ltt-hero-wrap) .ltt-card-body p{font-size:16px!important;line-height:1.65!important;color:#334155!important}
+@media (max-width:767px){
+body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) :is(h2:not([class]),h2.ltt-sec-title,h2.heading-33):not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *){font-size:28px!important}
+body:has(.ltt-hero-wrap) :is(.content-right_blog,.ltt-editorial-wrapper) h3:not([class]):not(details *,.ltt-card *,.cf-faq-plus-card *,.ltt-hero-wrap *){font-size:20px!important}
+body:has(.ltt-hero-wrap) h2.bpa-breakdown-heading{font-size:22px!important}
+}
+/* Same H1 on every hero card */
+body:has(.ltt-hero-wrap) .ltt-hero-wrap h1.ltt-editorial-h1{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:36px!important;color:#0f172a!important}
+/* Product card main copy */
+body:has(.ltt-hero-wrap) .ltt-bento-group-body .w-richtext > p{font-size:16px!important;line-height:1.7!important}
+/* Single-review template (article.review-article) */
+body:has(article.review-article){background-color:#f8fafc!important}
+article.review-article h2.adv-section-title{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:38px!important;line-height:1.2!important;letter-spacing:-0.01em!important;text-align:start!important;color:#0f172a!important}
+article.review-article h3.adv-feature-subhead{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:700!important;font-size:22px!important;line-height:1.35!important;color:#0f172a!important}
+article.review-article .article-body > p:not([class]),article.review-article .article-body > ul > li,article.review-article .adv-expanded-features > p:not([class]),article.review-article .adv-tldr-box p:not([class]){font-size:18px!important;line-height:1.7!important}
+@media (max-width:767px){
+body:has(.ltt-hero-wrap) .ltt-hero-wrap h1.ltt-editorial-h1{font-size:26px!important}
+article.review-article h2.adv-section-title{font-size:28px!important}
+article.review-article h3.adv-feature-subhead{font-size:20px!important}
+}
+/* Editorial pages (home, about, contact, Budapest Card): same background, fonts and sizes as the article pages */
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)){--ivory-warm:#f8fafc;--font-sans:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background-color:#f8fafc!important}
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) :is(h1.ltt-about-h1,h1.form-header-title),body:has(.calc-title) main.container h1{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:36px!important;line-height:1.2!important;letter-spacing:-0.01em!important;color:#0f172a!important}
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) h2.ltt-section-title,body:has(.calc-title) main.container h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;font-weight:800!important;font-size:38px!important;line-height:1.2!important;color:#0f172a!important}
+body:is(:has(.ltt-guide-featured),:has(.hp-guides),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) :is(h1,h2,h3,h4,.ltt-gold-text,.nye-promo-h):not(.ltt-navbar *,.ltt-footer *){font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif!important;letter-spacing:-0.01em}
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) :is(p.ltt-guide-excerpt,.ltt-manifesto-card p,p.ltt-reality-body,p.ltt-ethic-body,p.ltt-author-bio,p.form-header-sub,p.ltt-section-subtitle,p.ltt-section-sub,.ltt-founder-bio p),body:has(.calc-title) main.container section p{font-size:16px!important;line-height:1.65!important}
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) .ltt-yellow-callout-body,body:has(.calc-title) main.container section li{font-size:15px!important;line-height:1.6!important}
+@media (max-width:767px){
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) :is(h1.ltt-about-h1,h1.form-header-title),body:has(.calc-title) main.container h1{font-size:26px!important}
+body:is(:has(.ltt-guide-featured),:has(.ltt-about-header),:has(.form-header-title),:has(.calc-title)) h2.ltt-section-title,body:has(.calc-title) main.container h2{font-size:28px!important}
+}

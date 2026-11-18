@@ -1,0 +1,309 @@
+{
+  "lang": "es",
+  "master": "es/mejores-cruceros-sena-paris/index.html",
+  "brand": {
+    "name": "THE CRUISE DETECTIVE",
+    "href": "/es/",
+    "logo": "/assets/cdn/652d0405192ba076b04f74a3/6570a89c8c97ba4e084ac5d5_webclip-cruise-detective.png"
+  },
+  "nav_label": "Primary Navigation",
+  "nav": [
+    {
+      "type": "dropdown",
+      "label": "Destinos",
+      "columns": [
+        {
+          "groups": [
+            {
+              "head": "SENA EN PARÍS",
+              "items": [
+                {
+                  "href": "/es/mejores-cruceros-con-cena-paris",
+                  "icon": "🍷",
+                  "title": "Cruceros con Cena París",
+                  "desc": "10 barcos probados y notas de cata"
+                },
+                {
+                  "href": "/es/mejores-cruceros-sena-paris",
+                  "active": true,
+                  "icon": "🗼",
+                  "title": "Cruceros Panorámicos París",
+                  "desc": "Tours diurnos e iluminaciones nocturnas"
+                },
+                {
+                  "href": "/es/comparación-de-crucero-con-cena-bateaux-mouches-vs-bateaux-parisiens-lado-a-lado",
+                  "icon": "⚖️",
+                  "title": "Mouches vs. Parisiens",
+                  "desc": "Comparativa directa de cruceros con cena"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groups": [
+            {
+              "head": "VÍAS NAVEGABLES EUROPEAS",
+              "items": [
+                {
+                  "href": "/es/mejores-cruceros-canales-amsterdam",
+                  "icon": "🌷",
+                  "title": "Cruceros Canales Ámsterdam",
+                  "desc": "Barcos abiertos y salones clásicos"
+                },
+                {
+                  "href": "/es/mejores-cruceros-tamesis-londres",
+                  "icon": "🇬🇧",
+                  "title": "Cruceros Támesis Londres",
+                  "desc": "Paseos turísticos, cenas y lanchas rápidas"
+                },
+                {
+                  "href": "/es/cruceros-duero-oporto",
+                  "icon": "🇵🇹",
+                  "title": "Cruceros Duero Oporto",
+                  "desc": "Seis puentes, atardeceres y valle del Duero"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Cruceros con Cena",
+      "href": "/es/mejores-cruceros-con-cena-paris"
+    },
+    {
+      "type": "link",
+      "label": "Paseos en Barco",
+      "href": "/es/mejores-cruceros-sena-paris",
+      "active": true
+    },
+    {
+      "type": "link",
+      "label": "Acerca de",
+      "href": "/es/acerca"
+    },
+    {
+      "type": "link",
+      "label": "Contacto",
+      "href": "/es/contacto"
+    }
+  ],
+  "search": {
+    "label": "Buscar"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "href": "/seine-river-cruises-paris",
+      "name": "English"
+    },
+    {
+      "lang": "fr",
+      "href": "/fr/meilleures-croisieres-seine-paris",
+      "name": "Français"
+    },
+    {
+      "lang": "de",
+      "href": "/de/besten-bootsfahrten-seine-paris",
+      "name": "Deutsch"
+    },
+    {
+      "lang": "es",
+      "href": "/es/mejores-cruceros-sena-paris",
+      "current": true,
+      "name": "Español"
+    },
+    {
+      "lang": "it",
+      "href": "/it/migliori-crociere-senna-parigi",
+      "name": "Italiano"
+    },
+    {
+      "lang": "nl",
+      "href": "/nl/beste-boottochten-seine-parijs",
+      "name": "Nederlands"
+    },
+    {
+      "lang": "pl",
+      "href": "/pl/najlepsze-rejsy-po-sekwanie-paryz",
+      "name": "Polski"
+    },
+    {
+      "lang": "ro",
+      "href": "/ro/cele-mai-bune-croaziere-sena-paris",
+      "name": "Română"
+    },
+    {
+      "lang": "cs",
+      "href": "/cs",
+      "name": "Čeština"
+    },
+    {
+      "lang": "pt",
+      "href": "/pt",
+      "name": "Português"
+    },
+    {
+      "lang": "ja",
+      "href": "/ja/パリのベスト-セーヌ川クルーズ",
+      "name": "日本語 (Japanese)",
+      "attrs": {
+        "style": "grid-column: span 2;"
+      },
+      "_fmt": {"0": {"e": ""}, "0.0": {"p": ""}, "0.1": {"p": " "}}
+    }
+  ],
+  "lang_switcher": {
+    "button_label": null,
+    "menu_label": "Select Language",
+    "heading": "Seleccionar idioma",
+    "count": "● 11 DISPONIBLES",
+    "_fmt": {"0": {"p": "\n<!-- DESKTOP LANGUAGE SWITCHER -->\n"}}
+  },
+  "hamburger": {
+    "label": "Toggle Menu"
+  },
+  "drawer": [
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Destinos y Guías",
+          "items": [
+            {
+              "href": "/es/mejores-cruceros-con-cena-paris",
+              "title": "🍷 Cruceros con Cena París",
+              "tag": "TOP PICK",
+              "tag_attrs": {
+                "style": "font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;"
+              }
+            },
+            {
+              "href": "/es/mejores-cruceros-sena-paris",
+              "active": true,
+              "title": "🗼 Cruceros Panorámicos París"
+            },
+            {
+              "href": "/es/comparación-de-crucero-con-cena-bateaux-mouches-vs-bateaux-parisiens-lado-a-lado",
+              "title": "⚖️ Mouches vs. Parisiens"
+            },
+            {
+              "href": "/es/mejores-cruceros-canales-amsterdam",
+              "title": "🌷 Cruceros Canales Ámsterdam"
+            },
+            {
+              "href": "/es/mejores-cruceros-tamesis-londres",
+              "title": "🇬🇧 Cruceros Támesis Londres"
+            },
+            {
+              "href": "/es/cruceros-duero-oporto",
+              "title": "🇵🇹 Cruceros Duero Oporto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Editorial y Confianza",
+          "items": [
+            {
+              "href": "/es/acerca",
+              "title": "📖 Acerca de"
+            },
+            {
+              "href": "/es/contacto",
+              "title": "✉️ Contacto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "label": "Language",
+      "chips": [
+        {
+          "lang": "en",
+          "href": "/seine-river-cruises-paris",
+          "name": "English"
+        },
+        {
+          "lang": "fr",
+          "href": "/fr/meilleures-croisieres-seine-paris",
+          "name": "Français"
+        },
+        {
+          "lang": "de",
+          "href": "/de/besten-bootsfahrten-seine-paris",
+          "name": "Deutsch"
+        },
+        {
+          "lang": "es",
+          "href": "/es/mejores-cruceros-sena-paris",
+          "name": "Español",
+          "current": true
+        },
+        {
+          "lang": "it",
+          "href": "/it/migliori-crociere-senna-parigi",
+          "name": "Italiano"
+        },
+        {
+          "lang": "nl",
+          "href": "/nl/beste-boottochten-seine-parijs",
+          "name": "Nederlands"
+        },
+        {
+          "lang": "pl",
+          "href": "/pl/najlepsze-rejsy-po-sekwanie-paryz",
+          "name": "Polski"
+        },
+        {
+          "lang": "ro",
+          "href": "/ro/cele-mai-bune-croaziere-sena-paris",
+          "name": "Română"
+        },
+        {
+          "lang": "cs",
+          "href": "/cs",
+          "name": "Čeština"
+        },
+        {
+          "lang": "pt",
+          "href": "/pt",
+          "name": "Português"
+        },
+        {
+          "lang": "ja",
+          "href": "/ja/パリのベスト-セーヌ川クルーズ",
+          "name": "日本語"
+        }
+      ],
+      "_fmt": {"0": {"p": "\n<!-- MOBILE DRAWER LANGUAGE SECTION -->\n"}}
+    }
+  ],
+  "after": [
+    {
+      "raw": "<style id=\"ltt-search-btn-styles\">\n.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}\n.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}\n.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}\n@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}\n@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}\n</style>"
+    },
+    {
+      "raw": "<script defer src=\"/js/site-search.js?v=20261113a\"></script>"
+    }
+  ],
+  "icons": {
+    "chevron": "<svg class=\"ltt-chevron\" fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\" viewbox=\"0 0 24 24\" width=\"12\">\n<polyline points=\"6 9 12 15 18 9\"></polyline>\n</svg>",
+    "mobile_globe": "<svg fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"12\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"2\" x2=\"22\" y1=\"12\" y2=\"12\"></line><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z\"></path></svg>"
+  },
+  "layout": {
+    "nav_button": "b",
+    "mega_item": "b",
+    "mega_item_body": "b"
+  },
+  "_fmt": {"0.1": {"b": ["inert"], "o": ["aria-hidden", "inert", "class", "id"]}}
+}

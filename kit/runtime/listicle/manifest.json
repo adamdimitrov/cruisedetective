@@ -1,0 +1,76 @@
+{
+ "comment": "Shared listicle card design (river/dinner cruise template). Each entry replaces these inline blocks, in this order, with one file.",
+ "groups": [
+  {
+   "file": "listicle-base.css",
+   "kind": "style",
+   "ids": [
+    "bpa-lang-css",
+    "bpa-card2-css"
+   ]
+  },
+  {
+   "file": "listicle-cards.css",
+   "kind": "style",
+   "ids": [
+    "cd-cards-css",
+    "cd-tested-css",
+    "cd-filters-css",
+    "fbm-css",
+    "fbm-hide-slot",
+    "fbm-lights-css",
+    "cd-fmore-css",
+    "fbm-days-css"
+   ]
+  },
+  {
+   "file": "listicle-lang.js",
+   "kind": "script",
+   "ids": [
+    "bpa-lang-js"
+   ]
+  },
+  {
+   "file": "listicle-cards.js",
+   "kind": "script",
+   "ids": [
+    "cd-cards-js"
+   ]
+  },
+  {
+   "file": "listicle-filters.js",
+   "kind": "script",
+   "ids": [
+    "cd-filters-js"
+   ]
+  },
+  {
+   "file": "listicle-fbm.js",
+   "kind": "script",
+   "ids": [
+    "fbm-js"
+   ]
+  },
+  {
+   "file": "listicle-fmore.js",
+   "kind": "script",
+   "ids": [
+    "cd-fmore-js"
+   ]
+  },
+  {
+   "file": "listicle-days.js",
+   "kind": "script",
+   "ids": [
+    "fbm-days-js"
+   ]
+  },
+  {
+   "file": "listicle-peek.js",
+   "kind": "script",
+   "ids": [
+    "pill-peek-js"
+   ]
+  }
+ ]
+}

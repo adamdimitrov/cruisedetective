@@ -27,3 +27,7 @@ CLAUDE.md
 # Archived scripts and design drafts (never served)
 scripts/archive/
 drafts/
+
+# Menu and card data for the kit generators (never served)
+data/menu/
+data/listicles/

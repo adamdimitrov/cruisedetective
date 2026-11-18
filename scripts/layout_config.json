@@ -1,0 +1,83 @@
+{
+  "site": "https://www.thecruisedetective.com",
+  "default_lang": "en",
+  "masters": {
+    "en": "seine-river-cruises-paris/index.html",
+    "fr": "fr/meilleures-croisieres-seine-paris/index.html",
+    "de": "de/besten-bootsfahrten-seine-paris/index.html",
+    "es": "es/mejores-cruceros-sena-paris/index.html",
+    "it": "it/migliori-crociere-senna-parigi/index.html",
+    "nl": "nl/beste-boottochten-seine-parijs/index.html",
+    "pl": "pl/najlepsze-rejsy-po-sekwanie-paryz/index.html",
+    "ro": "ro/cele-mai-bune-croaziere-sena-paris/index.html",
+    "ja": "ja/パリのベスト-セーヌ川クルーズ/index.html",
+    "cs": "cs/plavba-po-vltave-praha/index.html",
+    "pt": "pt/cruzeiros-rio-douro-porto/index.html"
+  },
+  "footer_starts": [
+    "<footer class=\"footer-dark\"[^>]*>",
+    "<section class=\"footer-dark\"[^>]*>",
+    "<footer class=\"main-footer\"[^>]*>",
+    "<div class=\"footer-section\"[^>]*>"
+  ],
+  "footer_marker": "class=\"footer-dark",
+  "footer_link_class": "footer-link-3",
+  "sync_blocks": [
+    {
+      "name": "nav-css",
+      "open": "<style id=\"ltt-nav-styles\">",
+      "insert": "head",
+      "skip_if": [
+        "/css/editorial-luxury\\.css"
+      ]
+    },
+    {
+      "name": "nav-js",
+      "open": "<script id=\"ltt-nav-script\">",
+      "insert": "after-header",
+      "skip_if": [
+        "getElementById\\(['\"]lttNavToggle['\"]\\)",
+        "/js/ltt-nav\\.js"
+      ]
+    },
+    {
+      "name": "lang-css",
+      "open": "<style id=\"ltt-language-switcher-styles\">",
+      "insert": "head",
+      "replace": false
+    },
+    {
+      "name": "lang-js",
+      "open": "<script id=\"ltt-language-switcher-logic\">",
+      "insert": "body",
+      "replace": false
+    }
+  ],
+  "unlisted_ok": [
+    "404.html",
+    "amsterdam-comparison/",
+    "articles/",
+    "bateaux-parisiens-landing/",
+    "dinner-advertorial/",
+    "dinner-comparison/",
+    "embed/",
+    "paris-couples-pass/",
+    "paris-cruise-quiz/bundled.html",
+    "paris-dinner-cruise/",
+    "paris-family-compare/",
+    "paris-family-cruise/",
+    "paris-family-pass/",
+    "paris-fast-booking/",
+    "seine-advertorial/",
+    "seine-comparison/",
+    "seine-deal/"
+  ],
+  "skip_dirs": [
+    "menu-lab",
+    "node_modules",
+    "reports",
+    "review-lab",
+    "test",
+    "drafts"
+  ]
+}

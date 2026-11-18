@@ -252,7 +252,8 @@ def sync_page(s, master, path, lang):
             continue
         block = mb.group()
         if pat.search(s):
-            s2 = pat.sub(lambda _m: block, s, count=1)
+            # "replace": false keeps a page's own copy (only pages missing the block get it)
+            s2 = pat.sub(lambda _m: block, s, count=1) if b.get("replace", True) else s
         elif any(re.search(x, s) for x in b.get("skip_if", [])):
             s2 = s
         elif b["insert"] == "head":
