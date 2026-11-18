@@ -1,0 +1,2652 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg==",
+  "Tiqets": "data:image/png;base64,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",
+  "Viator": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQUlEQVR4nO2WTUhUURSAv3OfkwtDQipcSrSqRVCLyE1BiG1atEhoV0g5BppCMIOEPAhUIkiKRmcyipKK9oWFQdEqiKiF/YGrWgjW0tQZe0euQTbNveM09Fb67d4595778X7OebDBekdKIuGZrWwKusrsmaRv5KU3ezF5iIT0E0UHEAoIzyC6QPrGVGUClsHkW2APLkTfkM7uc+aGkm0o94CgOKFzqB6mL/fq7y3GWQiGPXFQ2ctA58GSeNhVD5otPXzFug6Rm65yxnlIXeI+MOOVEO0tidUWWlDZ4t2D7OZyx67KBLqvLQIZfzGOMti+s7g+21mLvNlWmYBFF0dRXcCNgcS5oogEnymPEhSmHYU89N2axchdXxo4Sdizesvnp14AH8usf0Rq7GvlApYaHQZV3GymdvH076vw+RIStTnfHdX3BGZ17Zqf4Z8MJCcQWnGhfCHfuIMwXCrqI7WmE5VmJCqgMkk+GiPM/ahOYCjZijLhzQsnSI8+oErMmivSo09BnV1sBdWeag+vTMDeaIy/MSH7GTrbHKcANM6PA7P+BVFvvAKnbi+gMuLNqx5jMNkUn4AlvyJgO6QDCRC6iVUgzMyA2hnhRmnnqh1IcQlYCmWmJNQzV2gnVoH+7DvU/mB46ebh8SA+AYuRK/hpYrqhhVgFUiOPgU+e7DwJfR2vgNjGZIeUA2Wc87lv8QpYGvQO8J0iVAlMucfzHwU67GSTXPH55gmpzId/LVVDtfzU6wQcQfTXRI3MpaprbbCuWQYVHqj3/7MhXAAAAABJRU5ErkJggg==",
+  "Tripadvisor": "data:image/png;base64,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"
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": ["sightsee", "kids", "audio", "eiffel", "flex", "toilet", "wheel", "under20", "tested"],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      ["alt", "Bateaux Parisiens boat passing Pont Alexandre III with the Eiffel Tower behind"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["fetchpriority", "high"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif"],
+      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002-p-500.avif 500w, /assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002.avif 800w"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower from the river"],
+      ["alt", "The Eiffel Tower seen from the Seine"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/653a414852cb182029292fcf_1-bateaux-parisiens-sighteeing-cruise%20(37).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Passing Pont Alexandre III"],
+      ["alt", "Pont Alexandre III seen from the top deck"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/653a45e0f0af99ac540e8f87_1-bateaux-parisiens-sighteeing-cruise%20(14).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Top deck: open-air, 360° views"],
+      ["alt", "Open-air top deck of the Bateaux Parisiens boat"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Views of the Louvre from the boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6994809779bbf0286c89e95d_bateaux-parisiens-sighteeing-cruise-00009.avif"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6994809779bbf0286c89e95d_bateaux-parisiens-sighteeing-cruise-00009-p-500.avif 500w, /assets/cdn/652d0405192ba076b04f74a3/6994809779bbf0286c89e95d_bateaux-parisiens-sighteeing-cruise-00009.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Notre-Dame, still under repair when I tested"],
+      ["alt", "Notre-Dame Cathedral under repair, seen from the boat"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/653a4154b89b51259a606e63_1-bateaux-parisiens-sighteeing-cruise%20(22).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Lower deck: window and middle seats"],
+      ["alt", "Lower deck seating on the Bateaux Parisiens boat"],
+      ["sizes", "(max-width: 479px) 100vw, 456px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10)-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10).webp 949w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "All seats on the top deck are sideways-facing"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007.avif"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007-p-500.avif 500w, /assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Boarding gates at the Eiffel Tower pier"],
+      ["alt", "Boarding gates at Port de la Bourdonnais"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/653a3feafe9dfc29b0e39b63_1-bateaux-parisiens-sighteeing-cruise%20(5).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/699480970fd56c513a2749e0_bateaux-parisiens-sighteeing-cruise-00002-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/653a414852cb182029292fcf_1-bateaux-parisiens-sighteeing-cruise%20(37).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/653a45e0f0af99ac540e8f87_1-bateaux-parisiens-sighteeing-cruise%20(14).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658343456e576281bed9f072_bateaux-parisiens-sighteeing-cruise%20(11).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/6994809779bbf0286c89e95d_bateaux-parisiens-sighteeing-cruise-00009-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/653a4154b89b51259a606e63_1-bateaux-parisiens-sighteeing-cruise%20(22).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/653a40c21889f4f91e8b7f7f_1-bateaux-parisiens-sighteeing-cruise%20(10)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/699480973bf5a60684dd2a08_bateaux-parisiens-sighteeing-cruise-00007-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/653a3feafe9dfc29b0e39b63_1-bateaux-parisiens-sighteeing-cruise%20(5).webp"
+     }
+    ]
+   },
+   "kicker": [
+    "Bateaux Parisiens",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Port de la Bourdonnais (Eiffel Tower)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-compar-bp",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bateaux Parisiens Sightseeing Cruise with Audio Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.36",
+     "score": "4.4",
+     "meta": "106k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(92.5k+)",
+       "url": "https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-paris-river-cruises-h3-reviews-paris-canal-cruise&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.3",
+       "count": "(10k+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-reviews-bp",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "3.7",
+       "count": "(2.7k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Sightseeing-Cruise%2Fd479-5756SIGHTSEEING",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "3.5",
+       "count": "(1k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11452714-Paris_Seine_River_Sightseeing_Cruise_with_Commentary_by_Bateaux_Parisiens-Paris_Il.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    },
+    "tested": {
+     "chip": "Personally Tested",
+     "pop_html": "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>"
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>No time slot needed.</strong> Show up any time on your chosen day and board the next boat. Boats every 30 minutes in summer, every 45 to 60 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"
+     },
+     "emoji": "🎧",
+     "label": "14-Language Audio",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Right at the Eiffel Tower",
+     "pop_html": "<strong>Port de la Bourdonnais, next to the Eiffel Tower.</strong> Go to Zone 3.1 for the bag check, then wait in the covered area with vending machines."
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Wheelchair: lower deck",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> ramps to the lower deck; the top deck and the toilets are not accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on the lower deck</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, half price for 4–11</span>"
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🏛️",
+     "label": "Full Seine Circuit",
+     "pop_html": "<strong>A 1-hour loop from the Eiffel Tower and back.</strong> Upstream past the Louvre to Notre-Dame and the islands, then back to the tower. About 20 landmarks, including Pont Alexandre III, Musée d&rsquo;Orsay, the Conciergerie and Hôtel de Ville.<span class=\"bpa-lang-note\">Same loop as most sightseeing cruises here (#2, #3, #7, #8, #10). What differs is the boat, not the route.</span><span class=\"bpa-lang-note\"><a href=\"#cruise-itinerary\">See the route map ↓</a></span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for your first cruise: boats every 30 min, right at the tower.",
+    "skip_html": "if you want front-facing seats: top-deck benches face sideways."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which deck has the best view?",
+      "a": "The open top deck, with 360° views, but its benches face sideways and have no backrests. Downstairs, take a window seat: you see little from the middle seats."
+     },
+     {
+      "q": "Which audio guide should I use?",
+      "a": "The free smartphone guide in your browser (11 languages, no app to download), so bring earbuds. The wired seat handsets sound like an old phone, and the live commentary is hard to follow outside French."
+     },
+     {
+      "q": "Do I need to book a time?",
+      "a": "No. Show up any time on your chosen day and board the next boat: every 30 minutes in summer, every 45 to 60 minutes in winter."
+     },
+     {
+      "q": "Can I get food or drinks?",
+      "a": "Only from the vending machines on the lower deck, next to the toilet."
+     },
+     {
+      "q": "Is it wheelchair friendly?",
+      "a": "Partly. Ramps reach the lower deck, but the top deck and the toilets are not accessible, and the lower deck has a few single steps."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "€18"
+     },
+     {
+      "label": "Child",
+      "small": "4–11",
+      "price": "€9"
+     },
+     {
+      "label": "Under 4",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (4–11)",
+     "price": "€54"
+    },
+    "note": "Was €20, now 10% off. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-sightseeing-cruise-on-the-seine-p973977/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-compar-bp",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": ["<b>Free cancellation</b> until the day before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#1-bateaux-parisiens",
+     "text": "Full review &amp; video ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #2: Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise -->\n",
+   "id": "card-2",
+   "cats": ["sightsee", "kids", "audio", "flex", "toilet", "wheel", "under20", "tested"],
+   "gallery": {
+    "rank": {
+     "text": "🥈 #2 Runner-Up",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      ["data-cap", "The huge open top deck"],
+      ["alt", "Bateaux Mouches boat with its large open top deck"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["fetchpriority", "high"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/68cffc9a8866db331e9230e1_bateaux-mouches-boat.avif"],
+      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/68cffc9a8866db331e9230e1_bateaux-mouches-boat-p-500.avif 500w, /assets/cdn/652d0405192ba076b04f74a3/68cffc9a8866db331e9230e1_bateaux-mouches-boat.avif 800w"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower lit up"],
+      ["alt", "The Eiffel Tower lit up at night from the boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846bb926ba8bc52ad55bb6_Bateaux-mouches-sightseeing-cruise-blog-image%20(41).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846bb926ba8bc52ad55bb6_Bateaux-mouches-sightseeing-cruise-blog-image%20(41)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846bb926ba8bc52ad55bb6_Bateaux-mouches-sightseeing-cruise-blog-image%20(41).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Front-facing seats on the top deck"],
+      ["alt", "Front-facing seats on the top deck at dusk"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Evening on the top deck"],
+      ["alt", "Passengers on the top deck in the evening"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65885fff646aea108e53644f_Bateaux-mouches-sightseeing-cruise-blog-image%20(9).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65885fff646aea108e53644f_Bateaux-mouches-sightseeing-cruise-blog-image%20(9)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65885fff646aea108e53644f_Bateaux-mouches-sightseeing-cruise-blog-image%20(9).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Notre-Dame at night"],
+      ["alt", "Notre-Dame Cathedral at night from the Seine"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846bce83ac586c23ce5a1c_Bateaux-mouches-sightseeing-cruise-blog-image%20(28).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846bce83ac586c23ce5a1c_Bateaux-mouches-sightseeing-cruise-blog-image%20(28)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846bce83ac586c23ce5a1c_Bateaux-mouches-sightseeing-cruise-blog-image%20(28).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "A full boat after dark"],
+      ["alt", "A full Bateaux Mouches boat after dark"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846b865ef221fbe4194b58_Bateaux-mouches-sightseeing-cruise-blog-image%20(10).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Lower deck: front-facing indoor seats"],
+      ["alt", "Indoor lower deck with front-facing seats"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846b5e4f5d729443faee76_Bateaux-mouches-sightseeing-cruise-blog-image%20(3).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846b5e4f5d729443faee76_Bateaux-mouches-sightseeing-cruise-blog-image%20(3)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846b5e4f5d729443faee76_Bateaux-mouches-sightseeing-cruise-blog-image%20(3).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Covered waiting area"],
+      ["alt", "Covered waiting area at Pont de l'Alma"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/658477b97c7f37d58f3713b3_Bateaux-mouches-sightseeing-cruise-blog-image%20(44).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Boarding hall at Pont de l'Alma"],
+      ["alt", "Boarding hall at the Bateaux Mouches pier"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65847828699ad476ca060f45_Bateaux-mouches-sightseeing-cruise-blog-image%20(45).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/68cffc9a8866db331e9230e1_bateaux-mouches-boat-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846bb926ba8bc52ad55bb6_Bateaux-mouches-sightseeing-cruise-blog-image%20(41)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846b42ada659711ad555cf_Bateaux-mouches-sightseeing-cruise-blog-image%20(2)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65885fff646aea108e53644f_Bateaux-mouches-sightseeing-cruise-blog-image%20(9)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846bce83ac586c23ce5a1c_Bateaux-mouches-sightseeing-cruise-blog-image%20(28)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846b865ef221fbe4194b58_Bateaux-mouches-sightseeing-cruise-blog-image%20(10).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846b5e4f5d729443faee76_Bateaux-mouches-sightseeing-cruise-blog-image%20(3)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658477b97c7f37d58f3713b3_Bateaux-mouches-sightseeing-cruise-blog-image%20(44).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65847828699ad476ca060f45_Bateaux-mouches-sightseeing-cruise-blog-image%20(45).webp"
+     }
+    ]
+   },
+   "kicker": [
+    "Bateaux Mouches",
+    "⏱️ 1h 10m",
+    {
+     "url": "https://maps.google.com/?q=Bateaux+Mouches+Pont+de+l%27Alma+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Pont de l'Alma Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-comparis-bm",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.34",
+     "score": "4.3",
+     "meta": "18k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.4",
+       "count": "(10.2k+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-reviews-bm",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(6.2k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-sightseeing-cruise-by-bateaux-mouches-t735394/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=seine-river-cruises-paris-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "3.7",
+       "count": "(920+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Mouches-1-Hour-Seine-River-Cruise-with-optional-Champagne%2Fd479-23561P1",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "3.6",
+       "count": "(640+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11469156-Paris_Seine_River_Sightseeing_Cruise_by_Bateaux_Mouches-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    },
+    "tested": {
+     "chip": "Personally Tested",
+     "pop_html": "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>"
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>No time slot needed.</strong> Show up any time on your chosen day and board the next boat. Boats leave every 30 minutes (every 45 minutes before 16:00 from October to March).<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💺",
+     "label": "Front-Facing Seats",
+     "pop_html": "<strong>Every seat faces forward.</strong> Upstairs: rows of chairs three wide, with backrests and 360° views. Downstairs: indoor and outdoor rows, with less of a panorama."
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,ru,zh,ja,ko"
+     },
+     "emoji": "🎧",
+     "label": "10-Language Audio",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">English plays over the loudspeakers. For another language, ask staff before boarding.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Wheelchair: lower deck",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> the lower deck has room for wheelchairs</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €8 for 4–12</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📸",
+     "label": "Huge Open-Air Deck",
+     "pop_html": "<strong>A huge open top deck with 360° views.</strong> The boats take up to 1,000 passengers, so they can get crowded, but there is room for everyone."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for photos: front-facing seats on a huge deck.",
+    "skip_html": "if you want a drink on board: there&rsquo;s no bar.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Are the seats front-facing?",
+      "a": "Yes, on both decks. Upstairs you get rows of chairs with backrests and 360° views, so no turning your head as on the sideways benches of #1."
+     },
+     {
+      "q": "How far is it from the Eiffel Tower?",
+      "a": "About 15 minutes on foot. The pier is at Pont de l'Alma (Port de la Conférence), next to Alma-Marceau metro."
+     },
+     {
+      "q": "Is there a long security check?",
+      "a": "There was none when I went. You queue in the large building, scan your ticket and wait in a covered area or an air-conditioned lounge."
+     },
+     {
+      "q": "Day or evening?",
+      "a": "Both work. After dark the crew switches off the cabin lights, so there is no glare on the windows downstairs. The Eiffel Tower sparkles for 5 minutes at the start of every hour after dark."
+     },
+     {
+      "q": "Is it good with kids?",
+      "a": "It is my best-value family pick: kids 4–12 pay €8, under 4 ride free, and there is a toilet and stroller access on board."
+     }
+    ]
+   },
+   "price": {
+    "main": "€17",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "€17"
+     },
+     {
+      "label": "Child",
+      "small": "4–12",
+      "price": "€8"
+     },
+     {
+      "label": "Under 4",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (4–12)",
+     "price": "€50"
+    },
+    "note": "Was €20, now 15% off. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-seine-river-cruise-by-bateaux-mouches-p982823/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-comparis-bm",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": ["<b>Free cancellation</b> until the day before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#2-bateaux-mouches",
+     "text": "Full review &amp; video ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #3: Vedettes de Paris Seine Cruise with French Music & Bar -->\n",
+   "id": "card-3",
+   "cats": ["sightsee", "couples", "treats", "audio", "eiffel", "toilet", "wheel", "tested"],
+   "gallery": {
+    "rank": {
+     "text": "🥉 #3 Best Music &amp; Vibe",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      ["data-cap", "Smaller boat, calmer ride"],
+      ["alt", "Vedettes de Paris boat on the Seine"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["fetchpriority", "high"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/65848c15b5df26ea46257c3e_Vedettes-de-paris-sightseeing-cruise-blog-image%20(47).webp"],
+      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848c15b5df26ea46257c3e_Vedettes-de-paris-sightseeing-cruise-blog-image%20(47)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848c15b5df26ea46257c3e_Vedettes-de-paris-sightseeing-cruise-blog-image%20(47).webp 800w"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower from the water"],
+      ["alt", "The Eiffel Tower seen from the Vedettes de Paris boat"],
+      ["sizes", "(max-width: 479px) 100vw, 384px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower lit up"],
+      ["alt", "The Eiffel Tower lit up at night"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846e1041aea632d9c84087_Vedettes-de-paris-sightseeing-cruise-blog-image%20(13).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Outdoor deck at dusk"],
+      ["alt", "Outdoor deck at dusk"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848aa4e3a71b9007bce359_Vedettes-de-paris-sightseeing-cruise-blog-image%20(41).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848aa4e3a71b9007bce359_Vedettes-de-paris-sightseeing-cruise-blog-image%20(41)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848aa4e3a71b9007bce359_Vedettes-de-paris-sightseeing-cruise-blog-image%20(41).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Top deck at night"],
+      ["alt", "Passengers on the top deck at night"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848ad831b73f6354c18793_Vedettes-de-paris-sightseeing-cruise-blog-image%20(46).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "The bar on the lower deck"],
+      ["alt", "Bar on the lower deck"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846e603090ee5eab8401bb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(9).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846e603090ee5eab8401bb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(9)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846e603090ee5eab8401bb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(9).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Indoor seats at the front"],
+      ["alt", "Indoor seating at the front of the boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846e4f530a250419def026_Vedettes-de-paris-sightseeing-cruise-blog-image%20(5).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846e4f530a250419def026_Vedettes-de-paris-sightseeing-cruise-blog-image%20(5)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846e4f530a250419def026_Vedettes-de-paris-sightseeing-cruise-blog-image%20(5).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Open deck at the front"],
+      ["alt", "Open deck at the front of the boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "The pier at Port de Suffren"],
+      ["alt", "Vedettes de Paris pier at Port de Suffren"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848c15b5df26ea46257c3e_Vedettes-de-paris-sightseeing-cruise-blog-image%20(47)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848ac74d92341e4edbaccb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(37)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846e1041aea632d9c84087_Vedettes-de-paris-sightseeing-cruise-blog-image%20(13).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848aa4e3a71b9007bce359_Vedettes-de-paris-sightseeing-cruise-blog-image%20(41)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848ad831b73f6354c18793_Vedettes-de-paris-sightseeing-cruise-blog-image%20(46).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846e603090ee5eab8401bb_Vedettes-de-paris-sightseeing-cruise-blog-image%20(9)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846e4f530a250419def026_Vedettes-de-paris-sightseeing-cruise-blog-image%20(5)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846d81feca5d5213f021ec_Vedettes-de-paris-sightseeing-cruise-blog-image%20(7)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848c7ce80ab66f989795f9_Vedettes-de-paris-sightseeing-cruise-blog-image%20(48)-p-500.webp"
+     }
+    ]
+   },
+   "kicker": [
+    "Vedettes de Paris",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://maps.google.com/?q=Vedettes+de+Paris+Port+de+Suffren",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Port de Suffren (Eiffel Tower)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&tq_campaign=paris-rcru-comp-vd",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Vedettes de Paris Seine Cruise with French Music &amp; Bar"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.39",
+     "score": "4.4",
+     "meta": "29k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(26.2k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-night-cruise-on-the-seine-river-with-aperitif-t405257/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=seine-river-cruises-paris-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.3",
+       "count": "(2.5k+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&tq_campaign=paris-riv-cru-reviews-vdp",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "static",
+       "site": "Viator",
+       "score": "3.9",
+       "count": "(150+)"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "3.7",
+       "count": "(50+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d28150848-Seine_River_Evening_Cruise_with_Music_Drink_Options-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    },
+    "tested": {
+     "chip": "Personally Tested",
+     "pop_html": "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>"
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>Pick a slot when booking, but you&rsquo;re not tied to it.</strong> In my experience you can board another evening departure that day. Sailings run from 19:30 to about 23:00 in season, with fewer departures in winter.<span class=\"bpa-lang-note\">Free to change your date or time until the day before.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,nl,zh,ja"
+     },
+     "emoji": "🎧",
+     "label": "9-Language App Guide",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese</span><span class=\"bpa-lang-note\">Via the free audio guide app, so bring earbuds.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Curated French Music",
+     "pop_html": "<strong>French songs play over the loudspeakers instead of spoken commentary.</strong> For commentary, use the free app and bring earbuds."
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Wheelchair access",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on the lower deck</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €13 for 4–11</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Cozy Boutique Ship",
+     "pop_html": "<strong>A medium-sized double-decker for about 220 passengers.</strong> Open top deck with 360° views and forward-facing chairs; indoor seats and a bar downstairs."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a calmer evening: smaller boat, French music.",
+    "skip_html": "if you want spoken commentary: the guide is app-only.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there a guide on board?",
+      "a": "No spoken commentary on this sailing: French songs play instead. A free app in 9 languages plays commentary at each sight using your phone's GPS, so bring earbuds."
+     },
+     {
+      "q": "Can I get a drink?",
+      "a": "Yes, there is a bar in the indoor middle section of the boat."
+     },
+     {
+      "q": "Is it calmer than the big boats?",
+      "a": "Yes. The boats take about 220 people, against 400 on Bateaux Parisiens (#1) and up to 1,000 on Bateaux Mouches (#2)."
+     },
+     {
+      "q": "Can I change my time?",
+      "a": "You pick a slot when booking, but in my experience you can board another evening departure that day. Changing the date or time is free until the day before."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "Port de Suffren, right next to Bateaux Parisiens at the Eiffel Tower. Find the ticket office: the boarding area is next to it."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "€25"
+     },
+     {
+      "label": "Child",
+      "small": "4–11",
+      "price": "€13"
+     },
+     {
+      "label": "Under 4",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (4–11)",
+     "price": "€76"
+    },
+    "note": "Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-aperitif-cruise-on-the-seine-p1003911/?partner=thecruisedetective.com-176436&tq_campaign=paris-rcru-comp-vd",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": ["<b>Free cancellation</b> until the day before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#3-vedettes-de-paris",
+     "text": "Full review &amp; video ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #4: Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass -->\n",
+   "id": "card-4",
+   "cats": ["route", "flex", "tested"],
+   "gallery": {
+    "rank": {
+     "text": "#4 Best Hop-On Hop-Off",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      ["data-cap", "A Batobus stop on the Seine"],
+      ["alt", "Batobus boat at a stop on the Seine"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["fetchpriority", "high"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp"],
+      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp 800w"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower"],
+      ["alt", "The Eiffel Tower near a Batobus stop"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Notre-Dame from the boat"],
+      ["alt", "Notre-Dame seen from the Batobus"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Heated glass cabin"],
+      ["alt", "Glass cabin of the Batobus"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Seats face every direction"],
+      ["alt", "Batobus seats facing different directions"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846f7a272db29b1850cff2_Batobu-sightseeing-cruise-blog-image%20(10).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846f7a272db29b1850cff2_Batobu-sightseeing-cruise-blog-image%20(10)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846f7a272db29b1850cff2_Batobu-sightseeing-cruise-blog-image%20(10).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Single deck, no open top"],
+      ["alt", "Inside the single-deck Batobus"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848a795158aebb4706cacc_Batobu-sightseeing-cruise-blog-image%20(17).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848a795158aebb4706cacc_Batobu-sightseeing-cruise-blog-image%20(17)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848a795158aebb4706cacc_Batobu-sightseeing-cruise-blog-image%20(17).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Inside the cabin"],
+      ["alt", "Inside the Batobus cabin"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Inside the cabin"],
+      ["alt", "Rear of the Batobus cabin"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846f7a272db29b1850cff2_Batobu-sightseeing-cruise-blog-image%20(10)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848a795158aebb4706cacc_Batobu-sightseeing-cruise-blog-image%20(17)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp"
+     }
+    ]
+   },
+   "kicker": [
+    "Batobus Paris",
+    "⏱️ 24h / 48h Pass",
+    {
+     "url": "https://maps.google.com/?q=Batobus+Eiffel+Tower+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 9 Central Seine Stops"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=pariv-comp-list-bato",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.24",
+     "score": "4.2",
+     "meta": "13k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(6.6k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-hop-on-hop-off-seine-cruise-pass-with-9-stops-t38938/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=seine-river-cruises-paris-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "4.0",
+       "count": "(3.6k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSeine-River-Hop-On-Hop-Off-Sightseeing-Cruise-in-Paris%2Fd479-6025BATOBUS",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "4.0",
+       "count": "(1.7k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11453295-Paris_Seine_River_Hop_On_Hop_Off_Sightseeing_Cruise-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.4",
+       "count": "(1.1k+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=pariv-comp-reviews-bato",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    },
+    "tested": {
+     "chip": "Personally Tested",
+     "pop_html": "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>"
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Hop on any time",
+     "pop_html": "<strong>Unlimited rides for 24 or 48 hours.</strong> Hop on and off at any of the 9 stops whenever you like. Boats come every 25 to 40 minutes.<span class=\"bpa-lang-note\">No time slot to book.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No Audio Guide",
+     "pop_html": "<strong>No commentary on board.</strong> A crew member announces the stops in English and French."
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not wheelchair accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-no\">✕</span> no toilet on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €13 for 4–11</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔄",
+     "label": "9 Hop-On Stops",
+     "pop_html": "<strong>9 stops along the Seine, each near a major sight.</strong> Get on and off as often as you like while your pass is valid."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Heated Glass Cabin",
+     "pop_html": "<strong>One deck: a glass cabin plus a small open-air area at the back.</strong> On sunny days it can get hot and glary inside; the windows open in the warmer months."
+    }
+   ],
+   "best_for": {
+    "pick_html": "to get around 9 stops along the Seine.",
+    "skip_html": "if you want a sightseeing cruise: there&rsquo;s no commentary, and views are limited from its single deck."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is it a sightseeing cruise?",
+      "a": "Not really. It is a river shuttle: no commentary, one deck, and many seats face sideways or inward. For sightseeing, #1 or #2 is the better ticket."
+     },
+     {
+      "q": "How often do boats come?",
+      "a": "Every 25 to 40 minutes. When I checked, they ran from 10:00 to 19:00."
+     },
+     {
+      "q": "Is there a toilet on board?",
+      "a": "No, and there is no bar or vending machine either."
+     },
+     {
+      "q": "Where can I get on?",
+      "a": "At any of the 9 stops. I boarded at Notre-Dame, which has an indoor ticket office; the pass works at every stop."
+     },
+     {
+      "q": "Can I bring a stroller?",
+      "a": "Yes, strollers are fine. Wheelchairs are not: the boat is not wheelchair accessible."
+     }
+    ]
+   },
+   "price": {
+    "main": "€23",
+    "sub": "per adult (24h)",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "24h",
+      "price": "€23"
+     },
+     {
+      "label": "Child",
+      "small": "4–11",
+      "price": "€13"
+     },
+     {
+      "label": "Under 4",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (4–11)",
+     "price": "€72"
+    },
+    "note": "24-hour pass. Pick 24h or 48h on the booking page. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=pariv-comp-list-bato",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": ["<b>Free cancellation</b> until the day before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#4-batobus",
+     "text": "Full review &amp; video ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #5: St. Martin Canal & Seine River Cruise (Paris Canal) -->\n",
+   "id": "card-10",
+   "cats": ["couples", "route", "audio", "toilet", "tested"],
+   "gallery": {
+    "rank": {
+     "text": "#5 Best Canal &amp; Locks",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      ["data-cap", "Going through a canal lock"],
+      ["alt", "Water rushing through a canal lock"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "eager"],
+      ["fetchpriority", "high"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/658470dd143330e7a2389ab5_Paris-canal-sightseeing-cruise-blog-image%20(15).webp"]
+     ],
+     [
+      ["data-cap", "Lock gates on the Canal Saint-Martin"],
+      ["alt", "Lock gates on the Canal Saint-Martin"],
+      ["sizes", "(max-width: 479px) 100vw, 384px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65847201987cd15fbf037392_Paris-canal-sightseeing-cruise-blog-image%20(13).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65847201987cd15fbf037392_Paris-canal-sightseeing-cruise-blog-image%20(13)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65847201987cd15fbf037392_Paris-canal-sightseeing-cruise-blog-image%20(13).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Through the tunnel under Bastille"],
+      ["alt", "The underground tunnel beneath Bastille"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/658471238fa08153f6049af5_Paris-canal-sightseeing-cruise-blog-image%20(32).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/658471238fa08153f6049af5_Paris-canal-sightseeing-cruise-blog-image%20(32)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/658471238fa08153f6049af5_Paris-canal-sightseeing-cruise-blog-image%20(32).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Canal Saint-Martin footbridges"],
+      ["alt", "Iron footbridge over the Canal Saint-Martin"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "The view from the bow"],
+      ["alt", "View from the front of the Paris Canal boat"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/658470c86cd6bda23c7c9939_Paris-canal-sightseeing-cruise-blog-image%20(12).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Top deck: benches along the sides"],
+      ["alt", "Top deck benches on the Paris Canal boat"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65847050eaee898abb9eee51_Paris-canal-sightseeing-cruise-blog-image%20(4).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Lower deck: indoor seating"],
+      ["alt", "Indoor lower deck seating"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6584700dfdab6a60e8c81a36_Paris-canal-sightseeing-cruise-blog-image%20(7).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6584700dfdab6a60e8c81a36_Paris-canal-sightseeing-cruise-blog-image%20(7)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/6584700dfdab6a60e8c81a36_Paris-canal-sightseeing-cruise-blog-image%20(7).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "Small bar on the lower deck"],
+      ["alt", "Small bar on the lower deck"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65847030abacf7fa66feded3_Paris-canal-sightseeing-cruise-blog-image%20(6).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65847030abacf7fa66feded3_Paris-canal-sightseeing-cruise-blog-image%20(6)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65847030abacf7fa66feded3_Paris-canal-sightseeing-cruise-blog-image%20(6).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "A few seats in the captain's cabin"],
+      ["alt", "Seats in the captain's cabin"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848a084d804452e10d98a7_Paris-canal-sightseeing-cruise-blog-image%20(46).webp"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "A 500-seat double-decker"],
+      ["alt", "The Paris Canal boat at the dock"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658470dd143330e7a2389ab5_Paris-canal-sightseeing-cruise-blog-image%20(15).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65847201987cd15fbf037392_Paris-canal-sightseeing-cruise-blog-image%20(13)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658471238fa08153f6049af5_Paris-canal-sightseeing-cruise-blog-image%20(32)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658470f5b89b0333b19ae37b_Paris-canal-sightseeing-cruise-blog-image%20(23)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/658470c86cd6bda23c7c9939_Paris-canal-sightseeing-cruise-blog-image%20(12).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65847050eaee898abb9eee51_Paris-canal-sightseeing-cruise-blog-image%20(4).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/6584700dfdab6a60e8c81a36_Paris-canal-sightseeing-cruise-blog-image%20(7)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65847030abacf7fa66feded3_Paris-canal-sightseeing-cruise-blog-image%20(6)-p-500.webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65848a084d804452e10d98a7_Paris-canal-sightseeing-cruise-blog-image%20(46).webp"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65847001bfeeb7fb07e28494_Paris-canal-sightseeing-cruise-blog-image%20(1)-p-500.webp"
+     }
+    ]
+   },
+   "kicker": [
+    "Paris Canal",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://maps.google.com/?q=Port+de+Solferino+Musee+d%27Orsay+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Musée d'Orsay ↔ Parc de la Villette"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-paris-river-cruises-comparison-list-paris-canal-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "St. Martin Canal &amp; Seine River Cruise (Paris Canal)"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.06",
+     "score": "4.1",
+     "meta": "4k+ reviews · 3 sites",
+     "heading": "Average of 3 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(2.5k+)",
+       "url": "https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-paris-river-cruises-h3-reviews-paris-canal-cruise&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "static",
+       "site": "Viator",
+       "score": "3.6",
+       "count": "(1.2k+)"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "4.0",
+       "count": "(290+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11448243-Seine_River_Cruise_and_Paris_Canals_Tour-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    },
+    "tested": {
+     "chip": "Personally Tested",
+     "pop_html": "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>"
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Fixed departure",
+     "pop_html": "<strong>Set departure time, 2.5-hour cruise.</strong> Runs daily from May to August and on selected days the rest of the year.<span class=\"bpa-lang-note\">Departures were at 10:00 and 14:30 when I tested it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎙️",
+     "label": "Live Bilingual Guide",
+     "pop_html": "<strong>A live guide in English and French</strong> who also answers questions."
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not wheelchair accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> a clean toilet downstairs</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4; children, teens and seniors €15–20</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚧",
+     "label": "4 Canal Locks",
+     "pop_html": "<strong>Locks on the Canal Saint-Martin.</strong> Expect some waiting at each one while the water level changes."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚇",
+     "label": "Bastille Tunnel",
+     "pop_html": "<strong>A mile-long underground tunnel under Bastille.</strong> The cruise ends on the Seine by the Musée d'Orsay, or starts there if you book the other direction."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a second visit: locks and a tunnel under Bastille.",
+    "skip_html": "if you want the Eiffel Tower: the route doesn&rsquo;t pass it.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Does it pass the Eiffel Tower?",
+      "a": "No. It runs between Parc de la Villette and the Musée d'Orsay, so you see the canal, not the tower."
+     },
+     {
+      "q": "Which direction should I book?",
+      "a": "Either: from Parc de la Villette to Orsay or the other way round. The ticket is one-way, so plan your trip back."
+     },
+     {
+      "q": "When does it sail?",
+      "a": "Fixed departures, at 10:00 and 14:30 when I tested it. It runs daily from May to August and on selected days the rest of the year."
+     },
+     {
+      "q": "Is 2.5 hours too long?",
+      "a": "It can feel long: there is real waiting at the locks. The top-deck seats face sideways, and a few heated seats are in the captain's cabin."
+     },
+     {
+      "q": "Can I get food or drinks?",
+      "a": "Yes. A small bar downstairs sells hot drinks and snacks."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "From €25"
+     },
+     {
+      "label": "Child, teen, senior",
+      "price": "€15–20"
+     },
+     {
+      "label": "Under 4",
+      "price": "Free"
+     }
+    ],
+    "note": "Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/paris-l16/river-seine-canal-st-martin-morning-cruise-t24450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=eng-article-paris-river-cruises-comparison-list-paris-canal-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#10-paris-canal-cruise",
+     "text": "Full review &amp; video ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #6: Paris Seine River Private Boat Cruise with Champagne -->\n",
+   "id": "card-5",
+   "cats": ["couples", "private", "champagne"],
+   "gallery": {
+    "rank": {
+     "text": "👑 #6 Best Private Yacht",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      ["alt", "Champagne on board the private boat"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["src", "/assets/ota/seine/private-boat-1.avif"],
+      ["srcset", "/assets/ota/seine/private-boat-1-p-500.avif 500w, /assets/ota/seine/private-boat-1.avif 800w"]
+     ],
+     [
+      ["alt", "Family on the private boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-7.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-7-p-500.avif 500w, /assets/ota/seine/private-boat-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Couple on the private boat with the Eiffel Tower behind"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-3.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-3-p-500.avif 500w, /assets/ota/seine/private-boat-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris Seine River Private Boat Cruise with Champagne"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp 853w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Private boat passing under a bridge by the Conciergerie"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-2.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-2-p-500.avif 500w, /assets/ota/seine/private-boat-2.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Sunset over Notre-Dame from the river"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-6.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-6-p-500.avif 500w, /assets/ota/seine/private-boat-6.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Inside the private boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-4.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-4-p-500.avif 500w, /assets/ota/seine/private-boat-4.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Seating on the private boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-5.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-5-p-500.avif 500w, /assets/ota/seine/private-boat-5.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ota/seine/private-boat-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-7-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-3-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-2-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-6-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-5-p-500.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Visite Paris en Bateau",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://maps.google.com/?q=Port+de+Javel+Haut+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Port de Javel Haut"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Paris Seine River Private Boat Cruise with Champagne"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "5.00",
+     "score": "5.0",
+     "meta": "3.3k+ reviews · 3 sites",
+     "heading": "Average of 3 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "5.0",
+       "count": "(1.8k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FPrivate-Boat-Trip-on-the-Seine-in-Paris%2Fd479-318691P2",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "5.0",
+       "count": "(1k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d23829547-Top_Private_Cruises_in_Paris_with_French_Champagne_and_surprises-Paris_Ile_de_Fran.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "5.0",
+       "count": "(410+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-reviews&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Pick a start time",
+     "pop_html": "<strong>You book a private start time.</strong> The boat is yours for the full cruise from that time.<span class=\"bpa-lang-note\">Running late? The skipper waits up to 60 minutes, though the cruise gets shorter.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍾",
+     "label": "Free Champagne",
+     "pop_html": "<strong>A bottle of Champagne or wine is included.</strong> You can also bring your own snacks and drinks."
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "🚻",
+     "label": "No toilet on board",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-no\">✕</span> no strollers</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-no\">✕</span> no toilet on board</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎙️",
+     "label": "Private Skipper",
+     "pop_html": "<strong>Your own captain and no other passengers.</strong> Play your own music on the Bluetooth sound system."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "100% Private (Up to 8)",
+     "pop_html": "<strong>The boat is yours: €399 for 1–4 guests, €520 to €660 for 5–8.</strong> All boats now have a roof against sun or rain."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a proposal or a group of up to 8.",
+    "skip_html": "if you&rsquo;ll need a toilet: there&rsquo;s none on board.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people fit?",
+      "a": "Up to 8. You pay per boat: €399 for 1–4 guests, €520 to €660 for 5–8."
+     },
+     {
+      "q": "Is there a toilet?",
+      "a": "No. The boats are small, so there is no restroom on board."
+     },
+     {
+      "q": "What if we are late?",
+      "a": "The skipper waits up to 60 minutes, but the cruise gets shorter."
+     },
+     {
+      "q": "Can we bring food and drinks?",
+      "a": "Yes, bring your own snacks and drinks. A bottle of Champagne or wine is included."
+     },
+     {
+      "q": "Where does it start and end?",
+      "a": "At Port de Javel Haut in the 15th arrondissement. You come back there or get off near the Louvre."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €399",
+    "sub": "per private boat",
+    "rows": [
+     {
+      "label": "Boat",
+      "small": "1–4 guests",
+      "price": "€399"
+     },
+     {
+      "label": "Boat",
+      "small": "5–8 guests",
+      "price": "€520–660"
+     }
+    ],
+    "note": "The price is for the whole boat, not per person. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#5-visite-paris-en-bateau",
+     "text": "Full review ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #7: Paris Night Cruise with River Views & Waffle Tasting -->\n",
+   "id": "card-6",
+   "cats": ["sightsee", "treats", "audio", "eiffel", "flex"],
+   "gallery": {
+    "rank": {
+     "text": "#7 Best Night &amp; Waffle",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      ["alt", "Waffle held up in front of the lit Eiffel Tower"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["src", "/assets/ota/seine/waffle-cruise-1.avif"],
+      ["srcset", "/assets/ota/seine/waffle-cruise-1-p-500.avif 500w, /assets/ota/seine/waffle-cruise-1.avif 800w"]
+     ],
+     [
+      ["alt", "The Eiffel Tower at night from the deck"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-2.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-2-p-500.avif 500w, /assets/ota/seine/waffle-cruise-2.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Cruise boat by Notre-Dame at sunset"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-3.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-3-p-500.avif 500w, /assets/ota/seine/waffle-cruise-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Pont Alexandre III lit up at night"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-5.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-5-p-500.avif 500w, /assets/ota/seine/waffle-cruise-5.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris Night Cruise with River Views & Waffle Tasting"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting.webp 853w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Passengers looking out from the cabin"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-4.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-4-p-500.avif 500w, /assets/ota/seine/waffle-cruise-4.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Notre-Dame Cathedral from the river"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-6.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-6-p-500.avif 500w, /assets/ota/seine/waffle-cruise-6.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "A Seine bridge at night"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/waffle-cruise-7.avif"],
+      ["data-srcset", "/assets/ota/seine/waffle-cruise-7-p-500.avif 500w, /assets/ota/seine/waffle-cruise-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ota/seine/waffle-cruise-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-2-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-3-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-5-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/673e9b0b9ee78f1508963a84_Paris%20Night%20Cruise%20with%20River%20Views%2C%20Waffle%20Tasting-p-500.webp"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-6-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/waffle-cruise-7-p-500.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Global Tours &amp; Tickets",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Eiffel Tower Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/paris-l16/paris-night-river-cruise-on-the-siene-with-waffle-tasting-t432295/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-waffle-tasting-global-tours-and-tickets-comparison-list&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Paris Night Cruise with River Views &amp; Waffle Tasting"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "4.4k+ reviews · 1 site",
+     "heading": "Average of 1 booking site, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(4.4k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-night-river-cruise-on-the-siene-with-waffle-tasting-t432295/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-global-tours-and-tickets-reviews&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧇",
+     "label": "1 Waffle Included",
+     "pop_html": "<strong>One waffle per ticket, collected at Place du Trocadéro</strong>, across the river from the pier."
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"
+     },
+     "emoji": "🎧",
+     "label": "14-Language Audio",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "✨",
+     "label": "Illuminated Views",
+     "pop_html": "<strong>Take an evening sailing to see the city lit up:</strong> the Louvre, Notre-Dame and the Musée d'Orsay are lit at night. The Eiffel Tower sparkles for 5 minutes at the start of every hour after dark."
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you&rsquo;d buy a snack anyway: same boats, plus a waffle facing the Eiffel Tower.",
+    "skip_html": "if you want it on board: you collect it across the river at Trocadéro Square.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the waffle served on the boat?",
+      "a": "No. You collect it at Place du Trocadéro, across the river from the pier."
+     },
+     {
+      "q": "Is it a night-only cruise?",
+      "a": "No. Despite the name, the ticket works on any sailing from 10:00 to 22:00. Go after dark for the lights."
+     },
+     {
+      "q": "Which boat is it?",
+      "a": "The same sightseeing boats as #1, from the Eiffel Tower pier, with the 14-language audio guide."
+     },
+     {
+      "q": "How long is the ticket valid?",
+      "a": "A month. Board any sailing during opening hours: every 30 minutes in summer, every 45 minutes in winter."
+     },
+     {
+      "q": "When does the Eiffel Tower sparkle?",
+      "a": "After dark, for 5 minutes at the start of every hour. Be on the water around the hour to see it."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "From €25"
+     }
+    ],
+    "note": "Child prices are shown on the booking page. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/paris-l16/paris-night-river-cruise-on-the-siene-with-waffle-tasting-t432295/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-waffle-tasting-global-tours-and-tickets-comparison-list&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#6-waffle-tasting-cruise",
+     "text": "Full review ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #8: Seine River Sightseeing Cruise with French Crêpe Tasting -->\n",
+   "id": "card-7",
+   "cats": ["sightsee", "treats", "audio", "eiffel", "flex"],
+   "gallery": {
+    "rank": {
+     "text": "#8 Best Crêpe Combo",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      ["alt", "Seine River Sightseeing Cruise with French Crêpe Tasting"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["src", "/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp"],
+      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp 960w"]
+     ],
+     [
+      ["alt", "A crêpe being made at the crêpe stand"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-1.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-1-p-500.avif 500w, /assets/ota/seine/crepe-cruise-1.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "The Eiffel Tower from the boat deck"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-2.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-2-p-500.avif 500w, /assets/ota/seine/crepe-cruise-2.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Top deck passing the Conciergerie"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-3.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-3-p-500.avif 500w, /assets/ota/seine/crepe-cruise-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Pont Alexandre III from the river"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-4.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-4-p-500.avif 500w, /assets/ota/seine/crepe-cruise-4.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Notre-Dame Cathedral from the river"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-5.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-5-p-500.avif 500w, /assets/ota/seine/crepe-cruise-5.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Cruise boat on the Seine"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-7.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-7-p-500.avif 500w, /assets/ota/seine/crepe-cruise-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Cruise boat at the Eiffel Tower pier"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-6.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-6-p-500.avif 500w, /assets/ota/seine/crepe-cruise-6.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-2-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-3-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-5-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-7-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-6-p-500.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bateaux Parisiens",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Port de la Bourdonnais (Eiffel Tower)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-seine-cruises-paris-crepe-en&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Seine River Sightseeing Cruise with French Crêpe Tasting"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.38",
+     "score": "4.4",
+     "meta": "13k+ reviews · 3 sites",
+     "heading": "Average of 3 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(12.9k+)",
+       "url": "https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-global-tours-and-tickets-reviews&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "3.7",
+       "count": "(390+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSeine-River-Cruise-and-French-Crepe-Tasting-At-The-Foot-of-Eiffel-Tower%2Fd479-7832P146",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "4.0",
+       "count": "(130+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d19260933-Seine_River_Cruise_French_Crepe_Tasting_by_the_Eiffel_Tower-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Do the cruise and the crêpe in either order. Boats every 30 minutes (every 45 minutes from October to March). The crêpe is made at Trocadéro Square, across the river, open 10:00 to 23:30.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥞",
+     "label": "1 Crêpe Included",
+     "pop_html": "<strong>A warm crêpe: sugar, lemon, or chocolate/Nutella.</strong> It is made at Trocadéro Square, open 10:00 to 23:30, before or after the cruise."
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"
+     },
+     "emoji": "🎧",
+     "label": "14-Language Audio",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛳️",
+     "label": "Glass Trimaran",
+     "pop_html": "<strong>Sails on Bateaux Parisiens' panoramic trimarans</strong>, with the 14-language audio guide."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for about €7 more and a fresh crêpe facing the Eiffel Tower.",
+    "skip_html": "if you want it on board: it&rsquo;s served across the river at Trocadéro Square.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do I get the crêpe?",
+      "a": "At Trocadéro Square, across the river from the pier, open 10:00 to 23:30. Have it before or after the cruise."
+     },
+     {
+      "q": "Which crêpe can I pick?",
+      "a": "Sugar, lemon, or chocolate/Nutella."
+     },
+     {
+      "q": "How much more than a plain ticket?",
+      "a": "About €7 more than a plain Bateaux Parisiens ticket (#1), crêpe included."
+     },
+     {
+      "q": "Do I need to book a time?",
+      "a": "No. The ticket is valid for a month; boats leave every 30 minutes (every 45 minutes from October to March)."
+     },
+     {
+      "q": "Is there an audio guide?",
+      "a": "Yes, in 14 languages, on the seat handsets or on your smartphone."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "From €25"
+     }
+    ],
+    "note": "Child prices are shown on the booking page. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-seine-cruises-paris-crepe-en&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#7-bateaux-parisiens-crepe",
+     "text": "Full review ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #9: Paris 3-Course Gourmet Lunch Cruise with Live Music -->\n",
+   "id": "card-8",
+   "cats": ["lunch", "champagne", "eiffel"],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #9 Best Lunch Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      ["alt", "Lunch on board with the Eiffel Tower behind"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["src", "/assets/ota/seine/lunch-cruise-1.avif"],
+      ["srcset", "/assets/ota/seine/lunch-cruise-1-p-500.avif 500w, /assets/ota/seine/lunch-cruise-1.avif 800w"]
+     ],
+     [
+      ["alt", "Lunch table passing Notre-Dame"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-5.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-5-p-500.avif 500w, /assets/ota/seine/lunch-cruise-5.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris 3-Course Gourmet Lunch Cruise with Live Music"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp 960w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Plated dishes from the lunch menu"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-3.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-3-p-500.avif 500w, /assets/ota/seine/lunch-cruise-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Chocolate dessert on the lunch cruise"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-4.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-4-p-500.avif 500w, /assets/ota/seine/lunch-cruise-4.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Window table with river views"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-6.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-6-p-500.avif 500w, /assets/ota/seine/lunch-cruise-6.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "View from the stern towards the Eiffel Tower"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-7.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-7-p-500.avif 500w, /assets/ota/seine/lunch-cruise-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ota/seine/lunch-cruise-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-5-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-3-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-6-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-7-p-500.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bateaux Parisiens",
+    "⏱️ 2 Hours (12:45 PM)",
+    {
+     "url": "https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Port de la Bourdonnais (Eiffel Tower)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-lunch-cruise-bateaux-parisiens-comparison-list&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Paris 3-Course Gourmet Lunch Cruise with Live Music"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.74",
+     "score": "4.7",
+     "meta": "9.6k+ reviews · 3 sites",
+     "heading": "Average of 3 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(5.4k+)",
+       "url": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-bateaux-parisiens-reviews&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Viator",
+       "score": "4.7",
+       "count": "(2.9k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Cruise-with-Lunch-and-Live-Music%2Fd479-5836LUNCHCRUISE",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tripadvisor",
+       "score": "4.6",
+       "count": "(1.2k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=seine_river_cruises_paris_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11979679-Bateaux_Parisiens_Seine_River_Gourmet_Lunch_Sightseeing_Cruise-Paris_Ile_de_France.html",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Fixed time · 12:45",
+     "pop_html": "<strong>One sailing a day.</strong> Check-in 12:15, departure 12:45, back at the quay 14:45.<span class=\"bpa-lang-note\">Plan to arrive by 12:15 for check-in.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-Course Lunch + Wine",
+     "pop_html": "<strong>A freshly prepared 3-course French lunch at white-tablecloth tables</strong>, with a kir aperitif, wine, water and coffee. Champagne and cheese depend on the package (Premier, Privilege or Étoile)."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Live Music Onboard",
+     "pop_html": "<strong>A live singer with an accordionist</strong> plays during lunch."
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🏛️",
+     "label": "Full Seine Circuit",
+     "pop_html": "<strong>A 2-hour loop from the Eiffel Tower, longer than the 1-hour cruises.</strong> Past Notre-Dame and further east to the French National Library, then back past Les Invalides and the French Parliament.<span class=\"bpa-lang-note\"><a href=\"#cruise-itinerary\">See the route map ↓</a></span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for daylight views at nearly half the price.",
+    "skip_html": "if your plans are loose: one sailing a day, at 12:45.",
+    "_pick_label": "✓ Pick it over a dinner cruise"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What time is it?",
+      "a": "One sailing a day: check-in 12:15, departure 12:45, back at the quay at 14:45."
+     },
+     {
+      "q": "What is included?",
+      "a": "Three courses with a kir aperitif, wine, water and coffee. Champagne and cheese depend on the package you book."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Smart casual."
+     },
+     {
+      "q": "Why lunch instead of dinner?",
+      "a": "Daylight views at nearly half the price of a dinner cruise."
+     },
+     {
+      "q": "How far does it go?",
+      "a": "Further than the 1-hour cruises: past Notre-Dame to the French National Library, then back past Les Invalides and the French Parliament."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €79",
+    "sub": "per person",
+    "rows": [
+     {
+      "label": "Lunch",
+      "price": "From €79"
+     }
+    ],
+    "note": "The price depends on the package (Premier, Privilege or Étoile). Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-lunch-cruise-bateaux-parisiens-comparison-list&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#8-bateaux-parisiens-lunch",
+     "text": "Full review ↓"
+    }
+   }
+  },
+  {
+   "before": "\n<!-- #10: Paris River Cruise with Ice Cream, Dessert or Drink -->\n",
+   "id": "card-9",
+   "cats": ["sightsee", "kids", "treats", "audio", "eiffel", "flex"],
+   "gallery": {
+    "rank": {
+     "text": "#10 Best Summer Treat",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      ["alt", "Family with ice creams by the Eiffel Tower"],
+      ["sizes", "420px"],
+      ["loading", "eager"],
+      ["src", "/assets/ota/seine/ice-cream-cruise-1.avif"],
+      ["srcset", "/assets/ota/seine/ice-cream-cruise-1-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-1.avif 800w"]
+     ],
+     [
+      ["alt", "The Eiffel Tower with a cruise boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-4.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-4-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-4.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Ice cream in front of the Eiffel Tower"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-6.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-6-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-6.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "The Eiffel Tower at sunset from the deck"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-2.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-2-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-2.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Cruise boat on the Seine"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-3.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-3-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris River Cruise with Ice Cream, Dessert or Drink"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats.webp 960w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Glass cabin on the cruise boat"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-5.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-5-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-5.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Crowded deck passing under a bridge"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/ice-cream-cruise-7.avif"],
+      ["data-srcset", "/assets/ota/seine/ice-cream-cruise-7-p-500.avif 500w, /assets/ota/seine/ice-cream-cruise-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-6-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-2-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-3-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/673ea9fc3711fbda1938d41c_Paris%20River%20Cruise%20with%20Iconic%20Views%20and%20Parisian%20Treats-p-500.webp"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-5-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/ice-cream-cruise-7-p-500.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Global Tours &amp; Tickets",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://maps.google.com/?q=Port+de+la+Bourdonnais+Paris",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "onclick": "event.stopPropagation()",
+     "map": "📍 Eiffel Tower Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/paris-l16/paris-day-or-sunset-cruise-with-drink-ice-cream-or-dessert-t419454/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-ice-cream-cruise-global-tours-comparison-list&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Paris River Cruise with Ice Cream, Dessert or Drink"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "4.7k+ reviews · 1 site",
+     "heading": "Average of 1 booking site, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(4.7k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-day-or-sunset-cruise-with-drink-ice-cream-or-dessert-t419454/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-global-tours-and-tickets-reviews-ice-cream-dessert-cruise&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time bpa-time-flex",
+     "emoji": "🕒",
+     "label": "Flexible time",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍦",
+     "label": "Ice Cream or Drink",
+     "pop_html": "<strong>Pick ice cream, a waffle or a soft drink</strong>, collected at Place du Trocadéro across the river."
+    },
+    {
+     "cls": "bpa-lang",
+     "data": {
+      "langs": "en,fr,es,de,it,pt,nl,pl,ru,ar,hi,zh,ja,ko"
+     },
+     "emoji": "🎧",
+     "label": "14-Language Audio",
+     "pop_html": "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☀️",
+     "label": "Open-Air Upper Deck",
+     "pop_html": "<strong>An open-air upper deck for views and photos.</strong> On an evening sailing you see the Eiffel Tower light up."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an ice cream, waffle or soft drink with the best Eiffel Tower view.",
+    "skip_html": "if you want it on the boat: you collect it across the river at Trocadéro, and outside food isn&rsquo;t allowed on board.",
+    "_pick_label": "✓ Pick it over #1"
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Can we eat it on the boat?",
+      "a": "No. You collect it at Trocadéro, and outside food is not allowed on board."
+     },
+     {
+      "q": "Which treat can I choose?",
+      "a": "Ice cream, a waffle or a soft drink."
+     },
+     {
+      "q": "Which sailing can I take?",
+      "a": "Any sailing from 10:00 to 22:00. The ticket is valid for a month."
+     },
+     {
+      "q": "Is it good with kids?",
+      "a": "Yes, it is my pick for families who want a treat: it is included, and you can take any sailing of the day."
+     },
+     {
+      "q": "Is there an audio guide?",
+      "a": "Yes, in 14 languages, on the seat handsets or on your smartphone."
+     }
+    ]
+   },
+   "price": {
+    "main": "From €25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "price": "From €25"
+     }
+    ],
+    "note": "Child prices are shown on the booking page. Final price shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/paris-l16/paris-day-or-sunset-cruise-with-drink-ice-cream-or-dessert-t419454/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-ice-cream-cruise-global-tours-comparison-list&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": ["<b>Free cancellation</b> up to 24 h before, full refund", "<b>Instant mobile ticket</b>, a QR code on your phone"],
+    "sublink": {
+     "url": "#9-global-tours-and-tickets",
+     "text": "Full review ↓"
+    }
+   }
+  }
+ ]
+}
