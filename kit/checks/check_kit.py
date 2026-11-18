@@ -11,6 +11,8 @@ Fails when:
   3. a check that site.json lists under local_checks is missing.
   4. sites with "runtime": {"shared": true}: /js/site-runtime.js differs from the kit copy,
      a page loads an old ?v=, or a page still carries an inline copy of the runtime.
+  4b. pages listed under "listicle" in site.json: the shared card design files are current,
+     loaded at their current ?v=, and not also pasted inline.
   5. a shared script's stub in scripts/ is missing or was edited (the code lives in kit/scripts/).
 """
 import json
@@ -81,6 +83,10 @@ def main():
             probs.append(f"site.json local_checks lists {script}, which does not exist")
     if SITE.get("runtime", {}).get("shared"):
         probs += runtime_problems()
+    if SITE.get("listicle", {}).get("pages"):
+        sys.path.insert(0, os.path.join(KIT, "runtime"))
+        import listicle  # noqa: E402
+        probs += listicle.problems(ROOT)
     if os.path.isfile(os.path.join(KIT, "scripts", "shim.py")):
         sys.path.insert(0, os.path.join(KIT, "scripts"))
         import shim  # noqa: E402

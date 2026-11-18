@@ -35,6 +35,7 @@ Change the kit: edit this repo, bump `VERSION`, PR, merge, tag `vX.Y.Z`, then ru
 | `checks/sitecfg.py`, `checks/kittree.py` | Shared helpers |
 | `ci/layout-check.yml` | The CI workflow every site uses |
 | `runtime/site-runtime.js` | Shared front-end runtime (sliders, filters, TOC, sticky bar, lazy photos), served as `/js/site-runtime.js?v=<hash>` on sites with `"runtime": {"shared": true}` |
+| `runtime/listicle/`, `runtime/listicle.py` | Shared listicle card design (river/dinner cruise template): CSS and JS served as `/css/listicle-*.css`, `/js/listicle-*.js?v=<hash>` on the pages listed in site.json `listicle.pages`; `migrate` swaps byte-identical inline copies for the files |
 | `runtime/runtime.py` | `migrate`: move a site's pages from their inline runtime to the shared file (only byte-identical copies); `publish`: used by update.py |
 | `scripts/*.py` | Shared site scripts (see below) |
 | `update.py` | Install / update the kit in a site |

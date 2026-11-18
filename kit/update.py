@@ -16,6 +16,8 @@ What it does, per site:
   3b. sites with "runtime": {"shared": true} in site.json: publishes /js/site-runtime.js
       and points every page at its current ?v= (move pages over once with
       python3 kit/runtime/runtime.py migrate),
+  3b'. sites with "listicle": {"pages": [...]}: publishes the shared card design files
+      (/css/listicle-*.css, /js/listicle-*.js) and points those pages at their current ?v=,
   3c. writes a stub scripts/<name>.py for every shared script in kit/scripts/ (the stub loads
       the kit copy, so old commands and imports keep working),
   4. runs kit/checks/check_all.py (skip with --no-check).
@@ -69,6 +71,12 @@ def install(src, site, check=True):
         runtime.publish(site)
         sys.path.pop(0)
         sys.modules.pop("runtime", None)
+    if json.load(open(os.path.join(site, "site.json"), encoding="utf-8")).get("listicle", {}).get("pages"):
+        sys.path.insert(0, os.path.join(kit, "runtime"))
+        import listicle  # noqa: E402
+        listicle.publish(site)
+        sys.path.pop(0)
+        sys.modules.pop("listicle", None)
     sys.path.insert(0, os.path.join(kit, "scripts"))
     import shim  # noqa: E402
     shim.write_stubs(site)
