@@ -4462,7 +4462,7 @@ footer.ltt-footer .legal-text {
 
 </style>
 <link rel="stylesheet" href="/css/listicle-base.css?v=9274f4ab72">
-<link rel="stylesheet" href="/css/listicle-cards.css?v=478df8b48f">
+<link rel="stylesheet" href="/css/listicle-cards.css?v=f4baaa5885">
 <div class="ltt-deck-container" id="cruise-comparison-deck">
 <div class="bpa-deck-wrap" id="ltt-cards-deck"><div class="cd-fmini" aria-hidden="true"><div class="cd-fmini-in"><button type="button" class="cd-fmini-btn" onclick="cdFiltersJump()">⚙️ Filters <span class="cd-fmini-n" hidden></span></button><span class="cd-fmini-res"><b>10</b> of 10 cruises</span></div></div>
 <div class="bpa-card" data-cat="romantic kids unlimited open live audio central tested" id="card-1">
@@ -9738,24 +9738,17 @@ window.LTT_PAGE_CONFIG = {
 .bpa-card .bpa-via{line-height:1.35!important}
 </style>
 <style id="cd-gal-one-css">.cd-gal-one .bpa-slider{overflow:hidden}.cd-gal-one .bpa-slider img{width:100%}</style>
-<script id="cd-sticky-price-js">
-/* The shared runtime reads the old .bpa-price; listicle cards show the price in .cd-pdd-main. */
-(function(){ var r=document.getElementById('sticky-rank'), p=document.getElementById('sticky-price'); if(!r||!p) return;
-  function upd(){ var n=(r.textContent.match(/#(\d+)/)||[])[1], c=n&&document.getElementById('card-'+n), m=c&&c.querySelector('.cd-pdd-main'); if(m&&p.textContent!=='From '+m.textContent) p.textContent='From '+m.textContent; }
-  new MutationObserver(upd).observe(r,{childList:true,characterData:true,subtree:true});
-  new MutationObserver(upd).observe(p,{childList:true,characterData:true,subtree:true}); upd(); })();
-</script>
 <script id="cd-sticky-trust-js">
 (function(){ var r=document.getElementById('sticky-rank'), t=document.getElementById('sticky-trust'); if(!r||!t) return;
   function upd(){ var n=(r.textContent.match(/#(\d+)/)||[])[1], c=n&&document.getElementById('card-'+n), bs=c?[].slice.call(c.querySelectorAll('.bpa-trust2 b')):[], b=bs.filter(function(x){return /Free cancellation/.test(x.textContent);})[0]||bs[0]; if(b) t.textContent=b.textContent; }
   new MutationObserver(upd).observe(r,{childList:true,characterData:true,subtree:true}); upd(); })();
 </script>
-<script src="/js/listicle-lang.js?v=a59628318f"></script>
-<script src="/js/listicle-cards.js?v=6a797452a6"></script>
-<script src="/js/listicle-filters.js?v=8f246b3a01"></script>
-<script src="/js/listicle-fbm.js?v=2f113c957a"></script>
-<script src="/js/listicle-fmore.js?v=3f8064b325"></script>
-<script src="/js/listicle-days.js?v=bc4478d141"></script>
+<script src="/js/listicle-lang.js?v=f5be00535c"></script>
+<script src="/js/listicle-cards.js?v=17954a28f6"></script>
+<script src="/js/listicle-filters.js?v=78060172db"></script>
+<script src="/js/listicle-fbm.js?v=6d991a649b"></script>
+<script src="/js/listicle-fmore.js?v=9670249abb"></script>
+<script src="/js/listicle-days.js?v=01bea18ba7"></script>
 <script src="/js/listicle-peek.js?v=32ada60842"></script>
 <script id="pdd-hover-js">
 /* Price dropdown opens on hover like the pills (desktop with a mouse only); a click pins it open. */
