@@ -693,6 +693,11 @@
     },
     "api/go-tiqets.js": {
       "maxDuration": 5
+    },
+    "api/cruise-finder.py": {
+      "maxDuration": 30,
+      "includeFiles": "seine-river-cruises-paris/index.html",
+      "excludeFiles": "{assets/**,ads/**,data/**,scripts/**,kit/**,search/**,js/**,css/**,i18n/**,test/**,articles/**,drafts/**,embed/**,[a-z][a-z]/**,*.png,*.jpg,*.avif,*.webp,*.log}"
     }
   },
   "rewrites": [
