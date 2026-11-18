@@ -31,3 +31,7 @@ drafts/
 # Menu and card data for the kit generators (never served)
 data/menu/
 data/listicles/
+
+# Card and menu data for the kit generators (never served)
+data/listicles/
+data/menu/
