@@ -53,6 +53,19 @@ only where it is stricter. Breaking one of these costs money or rankings.
 - Every affiliate/OTA link carries `rel="nofollow sponsored noopener"` (the site's
   affiliate check enforces it). Official ticket sites that pay nothing: `rel="nofollow noopener"`.
 
+## 5b. Listicle cards (river/dinner cruise design)
+- Every card has exactly 5 "questions travellers ask", each answered from facts already on
+  the page or the live listing. `check_kit.py` fails on any other count.
+- The intro follows the river cruise page (best-budapest-river-cruises), two short paragraphs:
+  1. Hook: "The right <thing> is the one that fits your <evening/trip>:" then 3-4 kinds of
+     evening in the reader's words (bold), the ones another guide covers better linked to it,
+     then "This page gets you to that <boat/tour> in under a minute."
+  2. Proof: "To make the choice easy, I <rode/booked/tried> N of these M myself" and what all M
+     were compared on (the 5-6 things that decide it), "checked on each seller's own page"
+     (plus the review count only if it was really counted), then the next step: the finder,
+     the filters, or "scroll straight to the ranking".
+  No dates in the intro (the "Last updated" pill carries it), no claims the cards don't back.
+
 ## 6. Layout
 - Never hand-edit the header, mobile drawer or footer on a page. Edit the language's
   master page, then run the site's layout sync (`scripts/sync_layout.py`).
