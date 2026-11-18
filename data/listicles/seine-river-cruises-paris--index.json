@@ -199,8 +199,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
-     "pop_html": "<strong>No time slot needed.</strong> Show up any time on your chosen day and board the next boat. Boats every 30 minutes in summer, every 45 to 60 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+     "label": "Every 30–60 min · 10:00–22:00",
+     "pop_html": "<strong>No time slot needed.</strong> Boats run from 10:00 to 22:00. Show up any time on your chosen day and board the next boat. Boats every 30 minutes in summer, every 45 to 60 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -495,8 +495,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
-     "pop_html": "<strong>No time slot needed.</strong> Show up any time on your chosen day and board the next boat. Boats leave every 30 minutes (every 45 minutes before 16:00 from October to March).<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+     "label": "Every 30–45 min · 10:00–22:00",
+     "pop_html": "<strong>No time slot needed.</strong> Boats run from 10:00 to 22:00. Show up any time on your chosen day and board the next boat. Boats leave every 30 minutes (every 45 minutes before 16:00 from October to March).<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -790,7 +790,7 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
+     "label": "Evenings · 19:30–23:00",
      "pop_html": "<strong>Pick a slot when booking, but you&rsquo;re not tied to it.</strong> In my experience you can board another evening departure that day. Sailings run from 19:30 to about 23:00 in season, with fewer departures in winter.<span class=\"bpa-lang-note\">Free to change your date or time until the day before.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
@@ -1075,8 +1075,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Hop on any time",
-     "pop_html": "<strong>Unlimited rides for 24 or 48 hours.</strong> Hop on and off at any of the 9 stops whenever you like. Boats come every 25 to 40 minutes.<span class=\"bpa-lang-note\">No time slot to book.</span>"
+     "label": "Every 25–40 min · 10:00–19:00",
+     "pop_html": "<strong>Unlimited rides for 24 or 48 hours.</strong> Boats run from 10:00 to 19:00. Hop on and off at any of the 9 stops whenever you like. Boats come every 25 to 40 minutes.<span class=\"bpa-lang-note\">No time slot to book.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1369,7 +1369,7 @@
     {
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
-     "label": "Fixed departure",
+     "label": "2 sailings · 10:00–14:30",
      "pop_html": "<strong>Set departure time, 2.5-hour cruise.</strong> Runs daily from May to August and on selected days the rest of the year.<span class=\"bpa-lang-note\">Departures were at 10:00 and 14:30 when I tested it.</span>"
     },
     {
@@ -1626,8 +1626,8 @@
     {
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
-     "label": "Pick a start time",
-     "pop_html": "<strong>You book a private start time.</strong> The boat is yours for the full cruise from that time.<span class=\"bpa-lang-note\">Running late? The skipper waits up to 60 minutes, though the cruise gets shorter.</span>"
+     "label": "Any start · 11:30–21:30",
+     "pop_html": "<strong>You book a private start time.</strong> Start times from 11:30 to 21:30, every day. The boat is yours for the full cruise from that time.<span class=\"bpa-lang-note\">Running late? The skipper waits up to 60 minutes, though the cruise gets shorter.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1863,8 +1863,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
-     "pop_html": "<strong>Ticket valid for a month.</strong> Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+     "label": "Every 30–45 min · 10:00–22:00",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Sailings from 10:00 to 22:00. Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -2109,8 +2109,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
-     "pop_html": "<strong>Ticket valid for a month.</strong> Do the cruise and the crêpe in either order. Boats every 30 minutes (every 45 minutes from October to March). The crêpe is made at Trocadéro Square, across the river, open 10:00 to 23:30.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+     "label": "Every 30–45 min · 10:00–22:00",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Sailings from 10:00 to 22:00. Do the cruise and the crêpe in either order. Boats every 30 minutes (every 45 minutes from October to March). The crêpe is made at Trocadéro Square, across the river, open 10:00 to 23:30.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -2343,7 +2343,7 @@
     {
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
-     "label": "Fixed time · 12:45",
+     "label": "12:45 · 2 h",
      "pop_html": "<strong>One sailing a day.</strong> Check-in 12:15, departure 12:45, back at the quay 14:45.<span class=\"bpa-lang-note\">Plan to arrive by 12:15 for check-in.</span>"
     },
     {
@@ -2568,8 +2568,8 @@
     {
      "cls": "bpa-lang bpa-time bpa-time-flex",
      "emoji": "🕒",
-     "label": "Flexible time",
-     "pop_html": "<strong>Ticket valid for a month.</strong> Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
+     "label": "Every 30–45 min · 10:00–22:00",
+     "pop_html": "<strong>Ticket valid for a month.</strong> Sailings from 10:00 to 22:00. Board any time during opening hours. Boats leave every 30 minutes in summer and every 45 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>"
     },
     {
      "cls": "bpa-lang",
