@@ -23,3 +23,7 @@ site.json
 CLAUDE.md
 # root-level scripts (one held a hardcoded API key)
 /*.py
+
+# Archived scripts and design drafts (never served)
+scripts/archive/
+drafts/

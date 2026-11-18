@@ -27,6 +27,7 @@ only where it is stricter. Breaking one of these costs money or rankings.
   - `check_lazy_images.py` – every lazy photo has a loader, the first slide is a real photo,
     every image file exists, no photo hotlinked from another site;
   - `check_filters.py` – every filter pill except "All" has `data-group`, only "All" starts active.
+  - `check_archive.py` – nothing calls a one-off script in `scripts/archive/` (never run those).
 - After changing any page's text (intro, cards, headings, meta description), run
   `python3 scripts/sync_layout.py` before the commit: it rebuilds the menu, footer and the
   site search index (`search/<lang>.json`). Otherwise the CI layout check fails on main and

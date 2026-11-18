@@ -11,7 +11,7 @@
 | `qa/article_originality.py <slug>` | Scaled-content gate: cannibalization, repeated phrasing, check date, methodology, risky claims | `/new-article` |
 | `preview_server.py [port]` | Local server with Vercel rewrites and cleanUrls | |
 | `reauth_google.py ads\|gmail` | Get a fresh Google Ads or Gmail refresh token and write it into `.env` (token never printed) | |
-| `generate_sitemap.py` | Rebuild `sitemap.xml` | |
+| ~~`generate_sitemap.py`~~ | Archived (it filtered an old sitemap copy and no longer ran). Edit `sitemap.xml` directly; the ship skill updates lastmod. | |
 | `gsc_anomaly_monitor.py` | GSC anomaly alerts (launchd `com.adamdimitrov.gsc-monitor`) | |
 | `scan_untranslated_content.py` | Find English left on translated pages | |
 | `fix_hreflang.py`, `generate_301_redirects.py` | hreflang and redirect maintenance | |
