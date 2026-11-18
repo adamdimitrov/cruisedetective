@@ -1,0 +1,12 @@
+.ltt-footer.footer-dark{background-color:#0a192f !important;color:#fff;padding:64px 20px 32px !important;border-top:1px solid rgba(255,255,255,0.08);font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+.ltt-footer .footer-wrapper{max-width:1240px;margin:0 auto;}
+.ltt-footer .footer-content{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;margin-bottom:48px;}
+@media (max-width:800px){.ltt-footer .footer-content{grid-template-columns:1fr;gap:32px;}}
+.ltt-footer .footer-brand-title{font-family:'Playfair Display',Georgia,Cambria,'Times New Roman',serif;font-size:20px;font-weight:800;color:#fff;margin-bottom:12px;}
+.ltt-footer .footer-brand-desc{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.6;max-width:380px;margin:0;}
+.ltt-footer .footer-col-title{font-size:13px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:#dfa732;margin-bottom:16px;}
+.ltt-footer .footer-links-list{display:flex;flex-direction:column;gap:10px;}
+.ltt-footer a.footer-link-item{color:rgba(255,255,255,0.8) !important;font-size:14px;text-decoration:none;transition:color 0.15s ease;}
+.ltt-footer a.footer-link-item:hover{color:#dfa732 !important;}
+.ltt-footer .grey-divider{height:1px;background:rgba(255,255,255,0.12);margin:32px 0 24px;}
+.ltt-footer .legal-wrapper{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:13px;color:rgba(255,255,255,0.5);}

@@ -40,7 +40,15 @@ Change the kit: edit this repo, bump `VERSION`, PR, merge, tag `vX.Y.Z`, then ru
 | `scripts/*.py` | Shared site scripts (see below) |
 | `update.py` | Install / update the kit in a site |
 
-Coming in later phases (see the plan): `templates/`, `new_site.py`.
+## Starting a new site
+
+`python3 new_site.py --dir ../new-site --name "Rome Adventures" --domain https://www.romeadventures.com
+--tagline "..." --email ...` writes a complete starter site into an empty folder (usually the freshly
+cloned empty repo): site.json, CLAUDE.md, menu data (`data/menu/en.json`), layout config, starter pages
+(home, about, contact, privacy, 404) from `templates/site/`, the shared look (`css/site.css`,
+`js/site-chrome.js`, `js/site-search.js`: Budapest Adventures' menu, language switcher, search, footer
+and article styles), sitemap, robots, vercel.json; then installs the kit, runs the layout sync and
+`check_all.py`, which must pass. It never commits or deploys.
 
 ## Shared scripts
 
@@ -55,9 +63,11 @@ A site that still needs its own version of a script lists it in `site.json` as
 | Script | What |
 | --- | --- |
 | `search_index.py` | Per-language search index (`search/<lang>.json`) for the menu search |
+| `menu.py` | The menu as data: `extract` writes each master page's header to `data/menu/<lang>.json` (content as fields, formatting as small `_fmt` hints), `build [--lang xx] [--check]` renders it back into the master (then run `sync_layout.py`); `render_header(menu)` for other kit code. Round-trip test: `tests/test_menu_roundtrip.py` |
 | `sync_layout.py` | Header, footer, active menu item and language switcher from the master pages, search index, affiliate rel; settings in the site's `scripts/layout_config.json` |
 | `slider_photo_order.py` | Applies the card photo orders in the site's `scripts/slider_photo_order_data.py` to every language version |
 | `fix_affiliate_rel.py` | Every affiliate link carries `rel="nofollow sponsored noopener"`; settings under `affiliate` in site.json |
+| `listicle.py` | Listicle cards (`bpa-card`, river/dinner cruise design) as data: `extract <page>` writes `data/listicles/<slug>.json`, `build <page>` renders the cards back into the page (only the card region), `stats <page>` shows structured vs raw. Test: `python3 tests/test_listicle_roundtrip.py --site ../budapest-adventures` (extract -> build must be byte-identical) |
 
 ## site.json
 

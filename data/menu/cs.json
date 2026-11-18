@@ -1,0 +1,344 @@
+{
+  "lang": "cs",
+  "master": "cs/plavba-po-vltave-praha/index.html",
+  "brand": {
+    "name": "THE CRUISE DETECTIVE",
+    "href": "/cs",
+    "aria": "Domovská stránka THE CRUISE DETECTIVE",
+    "logo": {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/6570a89c8c97ba4e084ac5d5_webclip-cruise-detective.png",
+      "alt": "Logo THE CRUISE DETECTIVE",
+      "width": "36",
+      "height": "36"
+    }
+  },
+  "nav_label": "Hlavní navigace",
+  "nav": [
+    {
+      "type": "dropdown",
+      "label": "Destinace",
+      "active": true,
+      "columns": [
+        {
+          "groups": [
+            {
+              "head": "PAŘÍŽ, SEINA",
+              "items": [
+                {
+                  "href": "/dinner-cruises-paris",
+                  "icon": "🍷",
+                  "title": "Plavby s večeří v Paříži",
+                  "desc": "10 testovaných lodí a večerní ochutnávky"
+                },
+                {
+                  "href": "/seine-river-cruises-paris",
+                  "icon": "🗼",
+                  "title": "Vyhlídkové plavby v Paříži",
+                  "desc": "Nejlepší denní a večerní plavby"
+                },
+                {
+                  "href": "/private-cruises-paris",
+                  "icon": "🛥️",
+                  "title": "Soukromé plavby po Seině",
+                  "desc": "Vlastní loď, od 399 € až pro 4",
+                  "_fmt": {"0.0": {"p": "\n  "}, "0.1": {"e": "\n  ", "p": "\n  "}, "0.1.0": {"p": "\n    "}, "0.1.1": {"p": "\n    "}}
+                },
+                {
+                  "href": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+                  "icon": "⚖️",
+                  "title": "Mouches vs. Parisiens",
+                  "desc": "Srovnání plaveb s večeří tváří v tvář"
+                },
+                {
+                  "href": "/paris-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Statistiky turismu v Paříži",
+                  "desc": "Oficiální příjezdy, noclehy a útraty"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groups": [
+            {
+              "head": "EVROPSKÉ VODNÍ CESTY",
+              "items": [
+                {
+                  "href": "/canal-cruises-amsterdam",
+                  "icon": "🌷",
+                  "title": "Plavby po kanálech v Amsterdamu",
+                  "desc": "Otevřené šalupy a klasické salonní lodě"
+                },
+                {
+                  "href": "/amsterdam-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Statistiky turismu v Amsterdamu",
+                  "desc": "Oficiální data CBS o návštěvnících a daních"
+                },
+                {
+                  "href": "/thames-river-cruises-london",
+                  "icon": "🇬🇧",
+                  "title": "Plavby po Temži v Londýně",
+                  "desc": "Vyhlídkové plavby, večeře a rychlé čluny"
+                },
+                {
+                  "href": "/london-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Statistiky turismu v Londýně",
+                  "desc": "Oficiální data ONS o návštěvách a útratách"
+                },
+                {
+                  "href": "/cs/plavba-po-vltave-praha",
+                  "icon": "🇨🇿",
+                  "title": "Plavby po Vltavě v Praze",
+                  "desc": "10 lodí po Vltavě srovnaných, od 17 €"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Plavby s večeří",
+      "href": "/dinner-cruises-paris"
+    },
+    {
+      "type": "link",
+      "label": "Vyhlídkové plavby",
+      "href": "/seine-river-cruises-paris"
+    },
+    {
+      "type": "link",
+      "label": "O nás",
+      "href": "/about"
+    },
+    {
+      "type": "link",
+      "label": "Kontakt",
+      "href": "/contact"
+    }
+  ],
+  "search": {
+    "label": "Hledat"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "href": "/prague-river-cruises",
+      "name": "English"
+    },
+    {
+      "lang": "fr",
+      "href": "/fr",
+      "name": "Français"
+    },
+    {
+      "lang": "de",
+      "href": "/de",
+      "name": "Deutsch"
+    },
+    {
+      "lang": "es",
+      "href": "/es",
+      "name": "Español"
+    },
+    {
+      "lang": "it",
+      "href": "/it",
+      "name": "Italiano"
+    },
+    {
+      "lang": "nl",
+      "href": "/nl",
+      "name": "Nederlands"
+    },
+    {
+      "lang": "pl",
+      "href": "/pl",
+      "name": "Polski"
+    },
+    {
+      "lang": "ro",
+      "href": "/ro",
+      "name": "Română"
+    },
+    {
+      "lang": "cs",
+      "href": "/cs/plavba-po-vltave-praha",
+      "current": true,
+      "name": "Čeština"
+    },
+    {
+      "lang": "ja",
+      "href": "/ja",
+      "name": "日本語 (Japanese)"
+    }
+  ],
+  "lang_switcher": {
+    "button_label": null,
+    "menu_label": "Vyberte jazyk",
+    "heading": "Vyberte jazyk",
+    "count": "● 11 K DISPOZICI",
+    "_fmt": {"0": {"p": "\n<!-- DESKTOP LANGUAGE SWITCHER -->\n"}}
+  },
+  "hamburger": {
+    "label": "Přepnout menu"
+  },
+  "drawer": [
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Destinace a průvodci",
+          "items": [
+            {
+              "href": "/dinner-cruises-paris",
+              "title": "🍷 Plavby s večeří v Paříži",
+              "tag": "NEJLEPŠÍ TIP",
+              "tag_attrs": {
+                "style": "font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;"
+              }
+            },
+            {
+              "href": "/seine-river-cruises-paris",
+              "title": "🗼 Vyhlídkové plavby v Paříži"
+            },
+            {
+              "href": "/private-cruises-paris",
+              "title": "🛥️ Soukromé plavby po Seině"
+            },
+            {
+              "href": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+              "title": "⚖️ Mouches vs. Parisiens"
+            },
+            {
+              "href": "/paris-tourism-statistics",
+              "title": "📊 Statistiky turismu v Paříži"
+            },
+            {
+              "href": "/canal-cruises-amsterdam",
+              "title": "🌷 Plavby po kanálech v Amsterdamu"
+            },
+            {
+              "href": "/amsterdam-tourism-statistics",
+              "title": "📊 Statistiky turismu v Amsterdamu"
+            },
+            {
+              "href": "/thames-river-cruises-london",
+              "title": "🇬🇧 Plavby po Temži v Londýně"
+            },
+            {
+              "href": "/london-tourism-statistics",
+              "title": "📊 Statistiky turismu v Londýně"
+            },
+            {
+              "href": "/cs/plavba-po-vltave-praha",
+              "active": true,
+              "title": "🇨🇿 Plavby po Vltavě v Praze",
+              "attrs": {
+                "aria-current": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Redakce",
+          "items": [
+            {
+              "href": "/about",
+              "title": "📖 O nás a manifest"
+            },
+            {
+              "href": "/contact",
+              "title": "✉️ Kontakt na redakci"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "label": "Jazyk",
+      "chips": [
+        {
+          "lang": "en",
+          "href": "/prague-river-cruises",
+          "name": "English"
+        },
+        {
+          "lang": "fr",
+          "href": "/fr",
+          "name": "Français"
+        },
+        {
+          "lang": "de",
+          "href": "/de",
+          "name": "Deutsch"
+        },
+        {
+          "lang": "es",
+          "href": "/es",
+          "name": "Español"
+        },
+        {
+          "lang": "it",
+          "href": "/it",
+          "name": "Italiano"
+        },
+        {
+          "lang": "nl",
+          "href": "/nl",
+          "name": "Nederlands"
+        },
+        {
+          "lang": "pl",
+          "href": "/pl",
+          "name": "Polski"
+        },
+        {
+          "lang": "ro",
+          "href": "/ro",
+          "name": "Română"
+        },
+        {
+          "lang": "cs",
+          "href": "/cs/plavba-po-vltave-praha",
+          "name": "Čeština",
+          "current": true
+        },
+        {
+          "lang": "ja",
+          "href": "/ja",
+          "name": "日本語"
+        }
+      ],
+      "_fmt": {"0": {"p": "\n<!-- MOBILE DRAWER LANGUAGE SECTION -->\n"}}
+    }
+  ],
+  "after": [
+    {
+      "raw": "<style id=\"ltt-search-btn-styles\">\n.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}\n.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}\n.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}\n@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}\n@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}\n</style>"
+    },
+    {
+      "raw": "<script defer src=\"/js/site-search.js?v=20261115cs\"></script>"
+    }
+  ],
+  "icons": {
+    "chevron": "<svg class=\"ltt-chevron\" fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\" viewbox=\"0 0 24 24\" width=\"12\">\n<polyline points=\"6 9 12 15 18 9\"></polyline>\n</svg>",
+    "mobile_globe": "<svg fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"12\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"2\" x2=\"22\" y1=\"12\" y2=\"12\"></line><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z\"></path></svg>"
+  },
+  "layout": {
+    "nav_button": "b",
+    "mega_item": "b",
+    "mega_item_body": "b"
+  },
+  "_fmt": {"0.1": {"b": ["inert"], "o": ["aria-hidden", "inert", "class", "id"]}}
+}

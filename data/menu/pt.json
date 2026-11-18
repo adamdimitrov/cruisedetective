@@ -1,0 +1,345 @@
+{
+  "lang": "pt",
+  "master": "pt/cruzeiros-rio-douro-porto/index.html",
+  "brand": {
+    "name": "THE CRUISE DETECTIVE",
+    "href": "/",
+    "aria": "Página inicial da THE CRUISE DETECTIVE",
+    "logo": {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/6570a89c8c97ba4e084ac5d5_webclip-cruise-detective.png",
+      "alt": "Logótipo da THE CRUISE DETECTIVE",
+      "width": "36",
+      "height": "36"
+    }
+  },
+  "nav_label": "Navegação principal",
+  "nav": [
+    {
+      "type": "dropdown",
+      "label": "Destinos",
+      "active": true,
+      "columns": [
+        {
+          "groups": [
+            {
+              "head": "PARIS, RIO SENA",
+              "items": [
+                {
+                  "href": "/dinner-cruises-paris",
+                  "icon": "🍷",
+                  "title": "Cruzeiros com jantar em Paris",
+                  "desc": "10 barcos testados e notas de degustação"
+                },
+                {
+                  "href": "/seine-river-cruises-paris",
+                  "icon": "🗼",
+                  "title": "Cruzeiros turísticos em Paris",
+                  "desc": "Os melhores passeios de dia e iluminações"
+                },
+                {
+                  "href": "/private-cruises-paris",
+                  "active": true,
+                  "icon": "🛥️",
+                  "title": "Cruzeiros privados no Sena",
+                  "desc": "O seu próprio barco, desde €399 para até 4",
+                  "_fmt": {"0.0": {"p": "\n  "}, "0.1": {"e": "\n  ", "p": "\n  "}, "0.1.0": {"p": "\n    "}, "0.1.1": {"p": "\n    "}}
+                },
+                {
+                  "href": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+                  "icon": "⚖️",
+                  "title": "Mouches vs. Parisiens",
+                  "desc": "Comparação frente a frente de cruzeiros com jantar"
+                },
+                {
+                  "href": "/paris-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Estatísticas de turismo de Paris",
+                  "desc": "Chegadas, noites e gastos oficiais"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groups": [
+            {
+              "head": "VIAS NAVEGÁVEIS DA EUROPA",
+              "items": [
+                {
+                  "href": "/canal-cruises-amsterdam",
+                  "icon": "🌷",
+                  "title": "Cruzeiros nos canais de Amesterdão",
+                  "desc": "Barcos abertos e salões clássicos"
+                },
+                {
+                  "href": "/amsterdam-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Estatísticas de turismo de Amesterdão",
+                  "desc": "Dados oficiais de visitantes e taxas do CBS"
+                },
+                {
+                  "href": "/thames-river-cruises-london",
+                  "icon": "🇬🇧",
+                  "title": "Cruzeiros no Tamisa em Londres",
+                  "desc": "Passeios turísticos, jantares e lanchas rápidas"
+                },
+                {
+                  "href": "/london-tourism-statistics",
+                  "icon": "📊",
+                  "title": "Estatísticas de turismo de Londres",
+                  "desc": "Visitas e gastos oficiais do ONS"
+                },
+                {
+                  "href": "/pt/cruzeiros-rio-douro-porto",
+                  "icon": "🇵🇹",
+                  "title": "Cruzeiros no Douro no Porto",
+                  "desc": "Seis pontes, barcos ao pôr do sol e Vale do Douro"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Cruzeiros com jantar",
+      "href": "/dinner-cruises-paris"
+    },
+    {
+      "type": "link",
+      "label": "Cruzeiros turísticos",
+      "href": "/seine-river-cruises-paris"
+    },
+    {
+      "type": "link",
+      "label": "Sobre",
+      "href": "/about"
+    },
+    {
+      "type": "link",
+      "label": "Contacto",
+      "href": "/contact"
+    }
+  ],
+  "search": {
+    "label": "Pesquisar"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "href": "/private-cruises-paris",
+      "name": "English"
+    },
+    {
+      "lang": "fr",
+      "href": "/fr/croisieres-privees-paris",
+      "name": "Français"
+    },
+    {
+      "lang": "de",
+      "href": "/de/private-bootsfahrten-paris",
+      "name": "Deutsch"
+    },
+    {
+      "lang": "es",
+      "href": "/es/cruceros-privados-paris",
+      "name": "Español"
+    },
+    {
+      "lang": "it",
+      "href": "/it/crociere-private-parigi",
+      "name": "Italiano"
+    },
+    {
+      "lang": "nl",
+      "href": "/nl/prive-boottochten-parijs",
+      "name": "Nederlands"
+    },
+    {
+      "lang": "pl",
+      "href": "/pl/prywatne-rejsy-paryz",
+      "name": "Polski"
+    },
+    {
+      "lang": "ro",
+      "href": "/ro/croaziere-private-paris",
+      "name": "Română"
+    },
+    {
+      "lang": "pt",
+      "href": "/pt",
+      "current": true,
+      "name": "Português"
+    },
+    {
+      "lang": "ja",
+      "href": "/ja/パリのプライベートクルーズ",
+      "name": "日本語 (Japanese)",
+      "attrs": {
+        "style": "grid-column: span 2;"
+      }
+    }
+  ],
+  "lang_switcher": {
+    "button_label": null,
+    "menu_label": "Selecionar idioma",
+    "heading": "Selecionar idioma",
+    "count": "● 11 DISPONÍVEIS",
+    "_fmt": {"0": {"p": "\n<!-- DESKTOP LANGUAGE SWITCHER -->\n"}}
+  },
+  "hamburger": {
+    "label": "Abrir menu"
+  },
+  "drawer": [
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Destinos e guias",
+          "items": [
+            {
+              "href": "/dinner-cruises-paris",
+              "title": "🍷 Cruzeiros com jantar em Paris",
+              "tag": "A MELHOR ESCOLHA",
+              "tag_attrs": {
+                "style": "font-size:10px; font-weight:800; background:#dfa732; color:#fff; padding:2px 7px; border-radius:9999px;"
+              }
+            },
+            {
+              "href": "/seine-river-cruises-paris",
+              "title": "🗼 Cruzeiros turísticos em Paris"
+            },
+            {
+              "href": "/private-cruises-paris",
+              "active": true,
+              "title": "🛥️ Cruzeiros privados no Sena"
+            },
+            {
+              "href": "/bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison",
+              "title": "⚖️ Mouches vs. Parisiens"
+            },
+            {
+              "href": "/paris-tourism-statistics",
+              "title": "📊 Estatísticas de turismo de Paris"
+            },
+            {
+              "href": "/canal-cruises-amsterdam",
+              "title": "🌷 Cruzeiros nos canais de Amesterdão"
+            },
+            {
+              "href": "/amsterdam-tourism-statistics",
+              "title": "📊 Estatísticas de turismo de Amesterdão"
+            },
+            {
+              "href": "/thames-river-cruises-london",
+              "title": "🇬🇧 Cruzeiros no Tamisa em Londres"
+            },
+            {
+              "href": "/london-tourism-statistics",
+              "title": "📊 Estatísticas de turismo de Londres"
+            },
+            {
+              "href": "/pt/cruzeiros-rio-douro-porto",
+              "title": "🇵🇹 Cruzeiros no Douro no Porto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "groups": [
+        {
+          "head": "Editorial",
+          "items": [
+            {
+              "href": "/about",
+              "title": "📖 Sobre e manifesto"
+            },
+            {
+              "href": "/contact",
+              "title": "✉️ Contactar a redação"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "languages",
+      "label": "Idioma",
+      "chips": [
+        {
+          "lang": "en",
+          "href": "/private-cruises-paris",
+          "name": "English"
+        },
+        {
+          "lang": "fr",
+          "href": "/fr/croisieres-privees-paris",
+          "name": "Français"
+        },
+        {
+          "lang": "de",
+          "href": "/de/private-bootsfahrten-paris",
+          "name": "Deutsch"
+        },
+        {
+          "lang": "es",
+          "href": "/es/cruceros-privados-paris",
+          "name": "Español"
+        },
+        {
+          "lang": "it",
+          "href": "/it/crociere-private-parigi",
+          "name": "Italiano"
+        },
+        {
+          "lang": "nl",
+          "href": "/nl/prive-boottochten-parijs",
+          "name": "Nederlands"
+        },
+        {
+          "lang": "pl",
+          "href": "/pl/prywatne-rejsy-paryz",
+          "name": "Polski"
+        },
+        {
+          "lang": "ro",
+          "href": "/ro/croaziere-private-paris",
+          "name": "Română"
+        },
+        {
+          "lang": "pt",
+          "href": "/pt",
+          "name": "Português",
+          "current": true
+        },
+        {
+          "lang": "ja",
+          "href": "/ja/パリのプライベートクルーズ",
+          "name": "日本語"
+        }
+      ],
+      "_fmt": {"0": {"p": "\n<!-- MOBILE DRAWER LANGUAGE SECTION -->\n"}}
+    }
+  ],
+  "after": [
+    {
+      "raw": "<style id=\"ltt-search-btn-styles\">\n.ltt-search-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0;border-radius:9999px;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;cursor:pointer;flex-shrink:0;transition:all .2s cubic-bezier(.16,1,.3,1)}\n.ltt-search-btn:hover,.ltt-search-btn:focus-visible{background:#fff;border-color:#dfa732;box-shadow:0 4px 12px rgba(223,167,50,.18);outline:none}\n.ltt-search-btn svg{color:#64748b}.ltt-search-btn:hover svg{color:#9f6e0d}\n@media (max-width:991px){.ltt-search-btn{width:42px;height:42px;border-radius:10px;border-color:#e2e8f0;background:transparent}}\n@media (max-width:420px){.ltt-search-btn{width:36px;height:36px}.ltt-nav-right{gap:8px!important}}\n</style>"
+    },
+    {
+      "raw": "<script defer src=\"/js/site-search.js?v=20261113a\"></script>"
+    }
+  ],
+  "icons": {
+    "chevron": "<svg class=\"ltt-chevron\" fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.5\" viewbox=\"0 0 24 24\" width=\"12\">\n<polyline points=\"6 9 12 15 18 9\"></polyline>\n</svg>",
+    "mobile_globe": "<svg fill=\"none\" height=\"12\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewbox=\"0 0 24 24\" width=\"12\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"2\" x2=\"22\" y1=\"12\" y2=\"12\"></line><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z\"></path></svg>"
+  },
+  "layout": {
+    "nav_button": "b",
+    "mega_item": "b",
+    "mega_item_body": "b"
+  },
+  "_fmt": {"0.1": {"b": ["inert"], "o": ["aria-hidden", "inert", "class", "id"]}}
+}
