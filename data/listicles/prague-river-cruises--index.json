@@ -1,0 +1,4637 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg==",
+  "Viator": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQUlEQVR4nO2WTUhUURSAv3OfkwtDQipcSrSqRVCLyE1BiG1atEhoV0g5BppCMIOEPAhUIkiKRmcyipKK9oWFQdEqiKiF/YGrWgjW0tQZe0euQTbNveM09Fb67d4595778X7OebDBekdKIuGZrWwKusrsmaRv5KU3ezF5iIT0E0UHEAoIzyC6QPrGVGUClsHkW2APLkTfkM7uc+aGkm0o94CgOKFzqB6mL/fq7y3GWQiGPXFQ2ctA58GSeNhVD5otPXzFug6Rm65yxnlIXeI+MOOVEO0tidUWWlDZ4t2D7OZyx67KBLqvLQIZfzGOMti+s7g+21mLvNlWmYBFF0dRXcCNgcS5oogEnymPEhSmHYU89N2axchdXxo4Sdizesvnp14AH8usf0Rq7GvlApYaHQZV3GymdvH076vw+RIStTnfHdX3BGZ17Zqf4Z8MJCcQWnGhfCHfuIMwXCrqI7WmE5VmJCqgMkk+GiPM/ahOYCjZijLhzQsnSI8+oErMmivSo09BnV1sBdWeag+vTMDeaIy/MSH7GTrbHKcANM6PA7P+BVFvvAKnbi+gMuLNqx5jMNkUn4AlvyJgO6QDCRC6iVUgzMyA2hnhRmnnqh1IcQlYCmWmJNQzV2gnVoH+7DvU/mB46ebh8SA+AYuRK/hpYrqhhVgFUiOPgU+e7DwJfR2vgNjGZIeUA2Wc87lv8QpYGvQO8J0iVAlMucfzHwU67GSTXPH55gmpzId/LVVDtfzU6wQcQfTXRI3MpaprbbCuWQYVHqj3/7MhXAAAAABJRU5ErkJggg==",
+  "Tripadvisor": "data:image/png;base64,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"
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "sight",
+    "day",
+    "drinks",
+    "devil",
+    "under25",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall Prague Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pražské Benátky boat on the Vltava by Charles Bridge, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Historic canal boat by the Old Town Bridge Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden canal boat under the Charles Bridge arches"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Charles Bridge tower through the boat's window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-charles-bridge-canal-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Pražské Benátky",
+    "⏱️ 45 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Křižovnické+náměstí+3+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Charles Bridge (Old Town side)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-boat-cruise-charles-bridge-museum-entry-p1118452/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-canal",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Charles Bridge Canal Cruise with Drinks & Museum Entry"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "4.4k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.8",
+       "count": "(25)",
+       "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-boat-cruise-charles-bridge-museum-entry-p1118452/?partner=thecruisedetective.com-176436&tq_campaign=prague-river-cruises-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(4.4k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-canal-cruise-around-charles-bridge-t382608/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Every 15 min",
+     "pop_html": "<strong>No fixed slot to plan around.</strong> Boats leave every 15 minutes from the pier at the Old Town end of Charles Bridge; daytime departures.<span class=\"bpa-lang-note\">Arrive, show the ticket, board the next boat.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Drinks + snack",
+     "pop_html": "<strong>Included:</strong> a drink of beer, lemonade, tea or coffee (mulled wine in winter) plus traditional gingerbread, or ice cream in summer.<span class=\"bpa-lang-note\">One of only two cruises here where a drink is in the base price for under €25.</span>"
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🌉",
+     "label": "Devil's Channel",
+     "pop_html": "<strong>A 45-minute loop under Charles Bridge</strong> into the Čertovka (Devil's Channel) on Kampa Island, past the Grand Priory Mill, then along the Malá Strana bank.<span class=\"bpa-lang-note\">Small wooden boats, so you sit close to the water.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Museum ticket",
+     "pop_html": "<strong>Charles Bridge Museum entry included,</strong> next to the pier at Křižovnické náměstí. Use it before or after the cruise."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "19-language audio",
+     "pop_html": "<strong>Audio commentary in 19 languages,</strong> on your own headphones.<span class=\"bpa-lang-note\">English, Spanish, German, French, Italian, Chinese, Japanese, Korean and more.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not step-free",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> small open boats, not suitable for wheelchair users</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a first hour on the water: drinks, gingerbread and a museum for €22.",
+    "skip_html": "if you want views of Prague Castle at night: these are daytime boats."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Do I need to book a time?",
+      "a": "No. Boats leave every 15 minutes in the daytime from the pier at the Old Town end of Charles Bridge: show your ticket and board the next one."
+     },
+     {
+      "q": "What is included?",
+      "a": "The cruise, a drink (beer, lemonade, tea or coffee, mulled wine in winter), gingerbread or ice cream in summer, Charles Bridge Museum entry and audio in 19 languages."
+     },
+     {
+      "q": "Where is the pier?",
+      "a": "Křižovnické náměstí 3, Prague 1, at the Old Town end of Charles Bridge, next to the Charles Bridge Museum. Tram stop Karlovy lázně."
+     },
+     {
+      "q": "Does it run in the evening?",
+      "a": "No, these are daytime boats. For the lit-up Castle, book the evening cruise (#2)."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€22",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, drink, museum entry",
+      "price": "€22"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€44"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-boat-cruise-charles-bridge-museum-entry-p1118452/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-canal",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-charles-bridge-canal-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "sight",
+    "evening",
+    "under25",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌙 #2 Best Evening Cruise",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats evening cruise with Prague Castle lit up, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Castle and Charles Bridge lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Illuminated cruise boat on the Vltava at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening cruise boat passing the riverbank"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-evening-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Boats",
+    "⏱️ 50 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Čechův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Čech Bridge pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-50-minute-sightseeing-evening-cruise-t357390/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-evening&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "50-Minute Evening Cruise Past the Lit-Up Castle"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "44k+ reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(44k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-50-minute-sightseeing-evening-cruise-t357390/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Evening departures",
+     "pop_html": "<strong>Fixed evening slots.</strong> The listing says the 20:00 to 22:00 departures are the busiest.<span class=\"bpa-lang-note\">If your boat is full, the same ticket is valid on the next departure, with no rebooking.</span>"
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🏰",
+     "label": "Castle by night",
+     "pop_html": "<strong>Past Rudolfinum, Charles Bridge, Kampa Island and Prague Castle,</strong> all lit up, then back to Dvořákovo nábřeží.<span class=\"bpa-lang-note\">Electric boats, covered sundeck, air-conditioned inside.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "3-language audio",
+     "pop_html": "<strong>Audio commentary in Czech, English and German,</strong> plus a printed guide in 16 languages and an app in 13.<span class=\"bpa-lang-note\">No drinks included; there is a bar on board.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not step-free",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Mobility:</b> not step-free, not suitable for people with mobility impairments</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic night view of the Castle at the lowest price.",
+    "skip_html": "if you want food or a drink in the ticket price."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When should I go?",
+      "a": "Before 20:00 if you can. Between 20:00 and 22:00 boats fill up, and a full boat means you take the next one on the same ticket."
+     },
+     {
+      "q": "Is a drink included?",
+      "a": "No, nothing beyond the cruise. There is a bar on board."
+     },
+     {
+      "q": "What do I see?",
+      "a": "The Rudolfinum, Charles Bridge, Kampa Island and Prague Castle, all floodlit, in 50 minutes on a quiet electric boat."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes: audio in Czech, English and German, a printed guide in 16 languages and an app in 13."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "50 min, evening",
+      "price": "€18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-50-minute-sightseeing-evening-cruise-t357390/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-evening&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-evening-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "dining",
+    "evening",
+    "music"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎷 #3 Best Dinner Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live jazz band playing on the Jazz Boat in Prague, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waiter serving guests in the jazz boat's dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Main course and dessert from the jazz boat menu"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests applauding the band from their tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-jazz-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Jazzboat",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Jazz+Boat+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Central Prague pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-jazz-boat-cruise-with-live-concert-and-optional-meal-t13460/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-jazz&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Jazz Boat: Live Jazz Cruise with Optional 3-Course Dinner"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "2.2k+ reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2.2k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-jazz-boat-cruise-with-live-concert-and-optional-meal-t13460/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Departs 19:30",
+     "pop_html": "<strong>Evening cruise, 2.5 hours.</strong> Boarding starts about 15 minutes before departure.<span class=\"bpa-lang-note\">Some tables are shared with other guests.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎷",
+     "label": "Live jazz band",
+     "pop_html": "<strong>Three live sets with two breaks,</strong> and a different band most nights.<span class=\"bpa-lang-note\">This is a concert on the water, not a commentary cruise.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course dinner",
+     "pop_html": "<strong>With the dinner ticket (€80):</strong> Caprese salad, then salmon, vegetarian lasagne, pork tenderloin or chicken, then apple strudel or chocolate brownie.<span class=\"bpa-lang-note\">Pick your main course at checkout. Drinks are extra.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a night out: live jazz, dinner and the river in one booking.",
+    "skip_html": "if you want sightseeing commentary or a cheap hour on the water."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Do I have to take the dinner?",
+      "a": "No: €49 is the cruise and concert, €80 adds a 3-course dinner. You pick your main course at checkout."
+     },
+     {
+      "q": "What is on the menu?",
+      "a": "Caprese salad, then salmon, vegetarian lasagne, pork tenderloin or chicken, then apple strudel or chocolate brownie."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, drinks are ordered on board, even with the dinner ticket."
+     },
+     {
+      "q": "Is there commentary on the sights?",
+      "a": "No. It is a concert on the water: three live jazz sets over 2.5 hours."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "At 19:30, with boarding from about 15 minutes before. The exact pier is on your booking confirmation."
+     }
+    ]
+   },
+   "price": {
+    "main": "€49",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Cruise + concert",
+      "small": "2.5 hours, live jazz",
+      "price": "€49"
+     },
+     {
+      "label": "With 3-course dinner",
+      "small": "drinks extra",
+      "price": "€80"
+     }
+    ],
+    "total": {
+     "label": "2 adults with dinner",
+     "price": "€160"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-jazz-boat-cruise-with-live-concert-and-optional-meal-t13460/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-jazz&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-jazz-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "dining",
+    "evening",
+    "drinks",
+    "music"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #4 Best Buffet Dinner Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass boat dinner cruise on the Vltava in Prague, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests dining under the glass roof in daylight"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass roof passing under the lit Charles Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Live trio playing on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-glass-dinner-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Boats",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Čechův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Čech Bridge pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-sightseeing-dinner-cruise-on-open-top-glass-boat-t390094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-glass-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Glass Boat Dinner Cruise with Buffet & Live Music"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "7.2k+ reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(7.2k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-sightseeing-dinner-cruise-on-open-top-glass-boat-t390094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Departs 19:00",
+     "pop_html": "<strong>Fixed evening slot, 3 hours.</strong> Back on the pier around 22:00."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Buffet + welcome drink",
+     "pop_html": "<strong>Buffet dinner of hot and cold Czech and international dishes,</strong> salads and desserts, plus a welcome drink and live music.<span class=\"bpa-lang-note\">Vegetarian and vegan options. Other drinks are paid on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Glass boat",
+     "pop_html": "<strong>Sails on one of four glass-roofed boats:</strong> Grand Bohemia, Bohemia Rhapsody, Agnes de Bohemia or Anna Carolina.<span class=\"bpa-lang-note\">Middle seat €79, guaranteed window seat €99.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed 3-hour dinner with views from every table.",
+    "skip_html": "if a buffet isn't your thing: the Jazz Boat plates a 3-course menu."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is a window seat worth it?",
+      "a": "It costs €20 more (€99 instead of €79). With glass all round, the middle seats lose less of the view than on an ordinary boat."
+     },
+     {
+      "q": "What is on the buffet?",
+      "a": "Hot and cold Czech and international dishes, salads and desserts, with vegetarian and vegan options. A welcome drink is included."
+     },
+     {
+      "q": "Are other drinks included?",
+      "a": "No, only the welcome drink. Other drinks are paid on board."
+     },
+     {
+      "q": "How long is it?",
+      "a": "3 hours, the longest dinner cruise here: it leaves the Čech Bridge pier at 19:00 and is back around 22:00."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 72 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€79",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Middle seat",
+      "small": "buffet, welcome drink",
+      "price": "€79"
+     },
+     {
+      "label": "Window seat",
+      "small": "guaranteed",
+      "price": "€99"
+     }
+    ],
+    "total": {
+     "label": "2 adults, window seats",
+     "price": "€198"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-sightseeing-dinner-cruise-on-open-top-glass-boat-t390094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-glass-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 72 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-glass-dinner-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "dining",
+    "day",
+    "drinks",
+    "music",
+    "wheelchair"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "☀️ #5 Best Lunch Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on a glass boat cruise in Prague, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Open sun deck tables with Charles Bridge behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch boat cruising past Charles Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Accordion player on deck during lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet table with salads and fruit"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-lunch-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Boats",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Čechův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Čech Bridge, Pier 3"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-2-hour-lunch-cruise-on-the-vltava-river-t71030/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-lunch&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "2-Hour Lunch Cruise on a Glass Boat with Live Music"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "3.3k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.5",
+       "count": "(33)",
+       "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-buffet-lunch-cruise-with-live-music-audio-guide-app-p981804/?partner=thecruisedetective.com-176436&tq_campaign=prague-river-cruises-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(3.2k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-2-hour-lunch-cruise-on-the-vltava-river-t71030/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Departs 12:00",
+     "pop_html": "<strong>Fixed midday slot, 2 hours.</strong> Back on the pier around 14:00, with the afternoon free."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Buffet + aperitif",
+     "pop_html": "<strong>Buffet lunch and an aperitif,</strong> with an accordionist playing on board.<span class=\"bpa-lang-note\">Other drinks are paid on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "6-language app",
+     "pop_html": "<strong>Online audio commentary and map in 6 languages</strong> (Czech, English, Spanish, German, Chinese, Russian), paper map in 16.<span class=\"bpa-lang-note\">Most of the boats are wheelchair-accessible.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Mostly accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> most of the boats on this cruise are wheelchair-accessible</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a sit-down meal with daylight views of the Castle.",
+    "skip_html": "if you want the city lights: book the glass dinner (#4) instead."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A buffet lunch, an aperitif, live accordion music, app audio in 6 languages and Wi-Fi. Other drinks are extra."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "Once a day at 12:00 from Pier 3 under Čech Bridge, back around 14:00."
+     },
+     {
+      "q": "Is it wheelchair accessible?",
+      "a": "Mostly: most of the boats on this cruise are wheelchair-accessible, which is rare on the Vltava."
+     },
+     {
+      "q": "How is it different from the dinner?",
+      "a": "Same glass boats and buffet style, €30 cheaper, with daylight views that are better for photos."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€49",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 hours, buffet lunch",
+      "price": "€49"
+     },
+     {
+      "label": "Window seat",
+      "small": "€10 extra",
+      "price": "€59"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€98"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-2-hour-lunch-cruise-on-the-vltava-river-t71030/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-lunch&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-lunch-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "sight",
+    "day",
+    "live",
+    "devil",
+    "under25",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🗣️ #6 Best Live-Guided Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats sightseeing boat by Charles Bridge, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Small boat in the Devil's Channel by old houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat passing a Charles Bridge arch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Open boat below the Charles Bridge tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-devils-channel-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Boats",
+    "⏱️ 45 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Čechův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Čech Bridge, Pier 3"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-devils-channel-cruise-p976124/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-devils",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Devil's Channel Cruise with a Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "3k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.4",
+       "count": "(60)",
+       "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-devils-channel-cruise-p976124/?partner=thecruisedetective.com-176436&tq_campaign=prague-river-cruises-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(2.9k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-1-hour-sightseeing-cruise-to-devils-channel-t70403/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Daytime slots",
+     "pop_html": "<strong>Fixed departure times.</strong> Pick a slot when you book.<span class=\"bpa-lang-note\">In winter it sails on a heated, closed-top boat.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A live guide on board,</strong> speaking Czech and English.<span class=\"bpa-lang-note\">The only live commentary in this top 10 apart from the private boat.</span>"
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🌉",
+     "label": "Devil's Channel",
+     "pop_html": "<strong>From Čech Bridge upstream to Charles Bridge</strong> and into the Devil's Channel past the Grand Priory Mill, with views of Prague Castle on the way."
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you want a person, not a recording, explaining what you see.",
+    "skip_html": "if you'd rather have a drink included: #1 does the same channel with one."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the guide live?",
+      "a": "Yes, a live guide on board speaks Czech and English, so you can ask questions."
+     },
+     {
+      "q": "How is it different from #1?",
+      "a": "Same Devil&rsquo;s Channel route and price (€22), from the bigger Čech Bridge pier, with a live guide but no drink, snack or museum ticket."
+     },
+     {
+      "q": "Does it run in winter?",
+      "a": "Yes, on a heated, closed-top boat."
+     },
+     {
+      "q": "Do I need a time slot?",
+      "a": "Yes, it sails at fixed daytime times: pick a slot when you book."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€22",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, live guide",
+      "price": "€22"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€44"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-devils-channel-cruise-p976124/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-devils",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-devils-channel-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "sight",
+    "day",
+    "evening",
+    "under25",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌐 #7 Cheapest Ticket, Most Languages",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Premiant panoramic cruise boat on the Vltava in Prague, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the open deck heading upriver"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passenger relaxing on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Panoramic cruise boat below Prague Castle"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-panoramic-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Premiant City Tour",
+    "⏱️ 50 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Štefánikův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 17, Štefánik Bridge"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-panoramic-river-cruise-audio-guide-p977940/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-panoramic",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Panoramic Vltava Cruise with a 24-Language Audio Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.09",
+     "score": "4.1",
+     "meta": "10k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "3.7",
+       "count": "(147)",
+       "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-panoramic-river-cruise-audio-guide-p977940/?partner=thecruisedetective.com-176436&tq_campaign=prague-river-cruises-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(9.8k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-panoramic-vltava-river-cruise-t52534/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Daytime and evening",
+     "pop_html": "<strong>Several departures a day.</strong> Pick a slot when you book."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌐",
+     "label": "24-language audio",
+     "pop_html": "<strong>Online audio guide in 24 languages,</strong> including Polish, Hungarian, Japanese, Korean, Hindi, Arabic, Hebrew and Ukrainian.<span class=\"bpa-lang-note\">It works through the boat's Wi-Fi and a QR code on the table, so bring your phone and headphones.</span>"
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🏰",
+     "label": "Castle and Metronome",
+     "pop_html": "<strong>From Štefánik Bridge past the Prague Metronome,</strong> Prague Castle and the Rudolfinum and back.<span class=\"bpa-lang-note\">Strollers and wheelchairs must be foldable.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Foldable only",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Strollers and wheelchairs:</b> must be foldable</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest hour with commentary in your own language.",
+    "skip_html": "if you want to start at Charles Bridge: this pier is 15 minutes' walk north."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which languages is the audio in?",
+      "a": "24, including Polish, Hungarian, Japanese, Korean, Hindi, Arabic, Hebrew and Ukrainian."
+     },
+     {
+      "q": "What do I need for the audio?",
+      "a": "Your phone and headphones: it plays through the boat&rsquo;s Wi-Fi via a QR code on the table."
+     },
+     {
+      "q": "Where is Pier 17?",
+      "a": "On Dvořákovo nábřeží near Štefánik Bridge, about 15 minutes&rsquo; walk north of Charles Bridge. Check the number: several operators share this stretch."
+     },
+     {
+      "q": "Is it good with small kids?",
+      "a": "Yes, it is short (50 minutes) and easy. Strollers must be foldable."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€17",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "50 min, 24-language audio",
+      "price": "€17"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€34"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-panoramic-river-cruise-audio-guide-p977940/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-panoramic",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-panoramic-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "sight",
+    "day"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏳ #8 Longest Sightseeing Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prague Boats 2-hour cruise boat near Vyšehrad, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruise boat near the Old Town water tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cruising past the Lesser Town riverside"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat moored beneath Prague Castle at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-two-hour-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Boats",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Čechův+most+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Čech Bridge pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-2-hour-river-cruise-p1076748/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-2-hour",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "2-Hour Vltava Cruise to Vyšehrad Through the Smíchov Lock"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "3.90",
+     "score": "3.9",
+     "meta": "2.3k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "3.9",
+       "count": "(49)",
+       "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-2-hour-river-cruise-p1076748/?partner=thecruisedetective.com-176436&tq_campaign=prague-river-cruises-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "3.9",
+       "count": "(2.2k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-2-hour-vltava-river-cruise-with-coffee-and-cake-t66653/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Daytime slots",
+     "pop_html": "<strong>Fixed departure times, 2 hours.</strong> Pick a slot when you book."
+    },
+    {
+     "cls": "bpa-lang bpa-route",
+     "emoji": "🔒",
+     "label": "Smíchov lock",
+     "pop_html": "<strong>The only cruise here that goes through a lock:</strong> the Smíchov lock, then upstream to Vyšehrad Rock and back past Charles Bridge and the Castle.<span class=\"bpa-lang-note\">Lock traffic can change the route, but not the length.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Map + online audio",
+     "pop_html": "<strong>Online commentary and map,</strong> a handheld paper map and an info booklet.<span class=\"bpa-lang-note\">Bar on board; drinks are extra.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most river for your money: €14 an hour.",
+    "skip_html": "if 2 hours with small kids sounds long: take a 50-minute cruise."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What makes it different?",
+      "a": "It is the only cruise here that goes through a lock: the Smíchov lock, then up to Vyšehrad Rock and back past Charles Bridge and the Castle."
+     },
+     {
+      "q": "Is it good value?",
+      "a": "The best per hour for sightseeing: €28 for 2 hours, €14 an hour."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No live guide: online commentary and a map, plus a paper map and an info booklet."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, drinks are from the bar on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 hours, through the lock",
+      "price": "€28"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€56"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/prague-attractions-c64162/tickets-for-prague-2-hour-river-cruise-p1076748/?partner=thecruisedetective.com-176436&tq_campaign=prague-riv-cru-2-hour",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-two-hour-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "party",
+    "evening",
+    "drinks"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎉 #9 Best Party Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat on the Vltava in Prague at night, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Packed dance floor inside the party boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with sparklers on the open deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat deck full of guests at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-boat-party-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-07.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-08.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-09.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-boat-party-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Prague Party Cruise",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dvořákovo+nábřeží+Prague",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dvořákovo nábřeží"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-boat-party-with-afterparty-at-epic-t888739/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-party&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boat Party with DJs and Free Entry to EPIC Club"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "2.5k+ reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2.5k+)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-boat-party-with-afterparty-at-epic-t888739/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Departs 20:00",
+     "pop_html": "<strong>Evening party, 2 hours on the boat.</strong> Then on to EPIC Club for the afterparty."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥃",
+     "label": "Welcome shot",
+     "pop_html": "<strong>A welcome shot, international DJs,</strong> a party guide, sparklers and a photographer.<span class=\"bpa-lang-note\">Other drinks from the bar on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪩",
+     "label": "Club entry",
+     "pop_html": "<strong>Entry to EPIC Club after the cruise.</strong> Dress code smart casual; bring a valid ID.<span class=\"bpa-lang-note\">18+ only.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a night out with other travellers, ending in a club.",
+    "skip_html": "if you want to see the sights: it's a party, not a tour."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there an age limit?",
+      "a": "Yes, 18+ only. Bring a valid ID."
+     },
+     {
+      "q": "What is included?",
+      "a": "A welcome shot, international DJs, a party guide, sparklers, a photographer and entry to EPIC Club after the cruise."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Smart casual, for the club."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "At 20:00 from Dvořákovo nábřeží, for 2 hours on the boat before the club."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, 18+",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 hours + EPIC Club",
+      "price": "€26"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-boat-party-with-afterparty-at-epic-t888739/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-party&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-boat-party",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "private",
+    "live",
+    "drinks",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🔒 #10 Best Private Boat",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private boat tour on the Vltava in Prague, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/prague-river-cruises/prague-river-cruise-private-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-01.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-02.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-03.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-04.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-05.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-06.avif"
+     },
+     {
+      "src": "/assets/prague-river-cruises/prague-river-cruise-private-boat-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "LucyTours Prague",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Prague+Vltava",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel transfer to the boat"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/prague-l10/prague-private-boat-tour-t666539/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-private&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Private Boat Tour with a Captain-Guide and Czech Sparkling Wine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "5.00",
+     "score": "5.0",
+     "meta": "38 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "5.0",
+       "count": "(38)",
+       "url": "https://www.getyourguide.com/prague-l10/prague-private-boat-tour-t666539/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=prague-river-cruises-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang bpa-time",
+     "emoji": "🕒",
+     "label": "Your own time",
+     "pop_html": "<strong>Private booking:</strong> pick the start time when you book."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚗",
+     "label": "Hotel transfer",
+     "pop_html": "<strong>A driver takes you from your hotel to the boat</strong> (one-way transfer)."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍾",
+     "label": "Sparkling wine",
+     "pop_html": "<strong>A bottle of Czech sparkling wine and other drinks</strong> on board, with music on request.<span class=\"bpa-lang-note\">Food is not included.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Group price",
+     "pop_html": "<strong>The per-person price falls as the group grows:</strong> €303 for a solo booking on a Saturday, from €156 per person for more guests."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a proposal or a small group that wants the boat to itself.",
+    "skip_html": "if you're on a budget: #1 costs €22."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is hotel pickup included?",
+      "a": "Yes, a driver takes you from your hotel to the boat. It is one-way, so you make your own way back."
+     },
+     {
+      "q": "What is included?",
+      "a": "The private boat, an English-speaking captain-guide, a bottle of Czech sparkling wine and other drinks, and music on request. Food is not included."
+     },
+     {
+      "q": "How much does it cost?",
+      "a": "It is priced per person and gets cheaper as the group grows: €303 for a solo booking on a Saturday, from €156 each for more guests."
+     },
+     {
+      "q": "Is it good for a proposal?",
+      "a": "Yes: you have the boat and the captain to yourselves for 1 hour, with sparkling wine on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€156",
+    "sub": "per person, from",
+    "rows": [
+     {
+      "label": "Group booking",
+      "small": "per person",
+      "price": "From €156"
+     },
+     {
+      "label": "Solo booking",
+      "small": "Saturday",
+      "price": "€303"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/prague-l10/prague-private-boat-tour-t666539/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-prague-river-cruises-private&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24 hours before",
+     "<b>Mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#pr-private-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}
