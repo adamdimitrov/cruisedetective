@@ -1,0 +1,4582 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg==",
+  "Viator": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACQUlEQVR4nO2WTUhUURSAv3OfkwtDQipcSrSqRVCLyE1BiG1atEhoV0g5BppCMIOEPAhUIkiKRmcyipKK9oWFQdEqiKiF/YGrWgjW0tQZe0euQTbNveM09Fb67d4595778X7OebDBekdKIuGZrWwKusrsmaRv5KU3ezF5iIT0E0UHEAoIzyC6QPrGVGUClsHkW2APLkTfkM7uc+aGkm0o94CgOKFzqB6mL/fq7y3GWQiGPXFQ2ctA58GSeNhVD5otPXzFug6Rm65yxnlIXeI+MOOVEO0tidUWWlDZ4t2D7OZyx67KBLqvLQIZfzGOMti+s7g+21mLvNlWmYBFF0dRXcCNgcS5oogEnymPEhSmHYU89N2axchdXxo4Sdizesvnp14AH8usf0Rq7GvlApYaHQZV3GymdvH076vw+RIStTnfHdX3BGZ17Zqf4Z8MJCcQWnGhfCHfuIMwXCrqI7WmE5VmJCqgMkk+GiPM/ahOYCjZijLhzQsnSI8+oErMmivSo09BnV1sBdWeag+vTMDeaIy/MSH7GTrbHKcANM6PA7P+BVFvvAKnbi+gMuLNqx5jMNkUn4AlvyJgO6QDCRC6iVUgzMyA2hnhRmnnqh1IcQlYCmWmJNQzV2gnVoH+7DvU/mB46ebh8SA+AYuRK/hpYrqhhVgFUiOPgU+e7DwJfR2vgNjGZIeUA2Wc87lv8QpYGvQO8J0iVAlMucfzHwU67GSTXPH55gmpzId/LVVDtfzU6wQcQfTXRI3MpaprbbCuWQYVHqj3/7MhXAAAAABJRU5ErkJggg==",
+  "Tripadvisor": "data:image/png;base64,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"
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "city",
+    "live",
+    "heated",
+    "cancel",
+    "hour",
+    "under20"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hadynski-glass-roof-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Reederei Hadynski",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Anna-Louisa-Karsch-Stra%C3%9Fe+2%2C+10178+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Opposite Berlin Cathedral"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/berlin-l17/berlin-bilingual-river-cruise-ende-live-guided-heated-t520045/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hadynski-glass-roof&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.72",
+     "score": "4.7",
+     "meta": "7,465 reviews",
+     "heading": "Rating on the booking site",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(7.4k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-bilingual-river-cruise-ende-live-guided-heated-t520045/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hadynski-glass-roof&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎙️",
+     "label": "Live Guide DE/EN",
+     "pop_html": "<strong>A real guide, not a recording.</strong> The commentary is given live in German and English on every departure.<span class=\"bpa-lang-note\">No audio guide in other languages. For French, Spanish or Italian, pick #3.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☔",
+     "label": "Glass Roof + Heating",
+     "pop_html": "<strong>Weatherproof.</strong> The glass roof opens on sunny days and closes in rain; the cabin is heated when it is cold. Toilet on board.<span class=\"bpa-lang-note\">Sails daily from March to December on MS Carola or MS Franziska.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Classic City Loop",
+     "pop_html": "<strong>The 1-hour central loop:</strong> Humboldt Forum, Nikolaiviertel, Museum Island, Tränenpalast, Reichstag, Hauptbahnhof, Chancellery and Haus der Kulturen der Welt, then back.<span class=\"bpa-lang-note\">Same route as #3 and #4. The difference is the boat and the guide.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not wheelchair accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users or guests with limited mobility</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best 1-hour cruise in any weather: live guide, glass roof, €18.",
+    "skip_html": "if you need a wheelchair-accessible boat: the listing says it is not suitable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the guide live?",
+      "a": "Yes, a live guide on every departure switches between German and English. There is no audio guide in other languages."
+     },
+     {
+      "q": "Is it good in bad weather?",
+      "a": "Yes: the glass roof closes in rain, the cabin is heated when it is cold, and there is a toilet on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Reederei Hadynski, Anna-Louisa-Karsch-Straße 2, 10178 Berlin, opposite Berlin Cathedral, near S Hackescher Markt."
+     },
+     {
+      "q": "When does it sail?",
+      "a": "Daily from March to December, on MS Carola or MS Franziska."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18.06",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 hour, live guide",
+      "price": "€18.06"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€36.12"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/berlin-l17/berlin-bilingual-river-cruise-ende-live-guided-heated-t520045/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hadynski-glass-roof&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-hadynski-glass-roof",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "long",
+    "audio"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌉 #2 Best Full City Tour",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-bridges-landwehr-canal-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern und Kreis",
+    "⏱️ 3.25 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Rolandufer+4%2C+10179+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rolandufer (Jannowitzbrücke)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-3-hour-bridges-tour-p1065876/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-bridges-landwehr-canal",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "3.25-Hour Bridges Tour on the Spree and Landwehr Canal"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.63",
+     "score": "4.6",
+     "meta": "4.8k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(4.8k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-325-hour-spree-landwehrkanal-boat-tour-t53191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=berlin-boat-tours-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "2.5",
+       "count": "(4)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-3-hour-bridges-tour-p1065876/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-bridges-landwehr-canal",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Spree + Landwehr Canal",
+     "pop_html": "<strong>A full circle through Berlin:</strong> under about 40 bridges, along the Spree through the centre and back through the Landwehr Canal past the Technikmuseum and Potsdamer Platz.<span class=\"bpa-lang-note\">The only cruise here that shows Kreuzberg and the canal side of the city.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio Guide, 11 Languages",
+     "pop_html": "<strong>Audio guide:</strong> English, Chinese, Dutch, French, Hebrew, Italian, Polish, Portuguese, Russian, Spanish, Swedish. Commentary on board in German."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€10 per Hour",
+     "pop_html": "<strong>€32.90 for 3.25 hours</strong> works out at about €10 per hour, half the hourly price of a 1-hour cruise.<span class=\"bpa-lang-note\">Food and drinks can be ordered on board.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you have an afternoon and want to see more than the government quarter.",
+    "skip_html": "if your plans may change: this ticket is non-refundable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which route does it take?",
+      "a": "Through the centre on the Spree, then back along the Landwehr Canal through Kreuzberg, under about 40 bridges, past the Technikmuseum and Potsdamer Platz."
+     },
+     {
+      "q": "Which languages is the commentary in?",
+      "a": "German on board, plus an audio guide in 11 languages."
+     },
+     {
+      "q": "Is it good with small children?",
+      "a": "3 hours 15 minutes is long for small children; a 1-hour loop (#1 or #3) is easier."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Rolandufer 4, 10179 Berlin, near S+U Jannowitzbrücke. Window seats are not guaranteed, so arrive early."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, the ticket is non-refundable, so book once your plans are fixed."
+     }
+    ]
+   },
+   "price": {
+    "main": "€32.90",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.25 hours, Spree and canal",
+      "price": "€32.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€65.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-3-hour-bridges-tour-p1065876/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-bridges-landwehr-canal",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-bridges-landwehr-canal",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "city",
+    "audio",
+    "cancel",
+    "hour",
+    "under20"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎧 #3 Most Languages",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-stern-und-kreis-1-hour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern und Kreis",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Reichstagufer%2C+10117+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Friedrichstraße or Nikolaiviertel"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/berlin-l17/1-hour-spree-cruise-from-friedrichstrasse-t21231/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-stern-und-kreis-1-hour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "1-Hour City Cruise with an Audio Guide in 12 Languages"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.27",
+     "score": "4.3",
+     "meta": "18.1k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(18k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/1-hour-spree-cruise-from-friedrichstrasse-t21231/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-stern-und-kreis-1-hour&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.3",
+       "count": "(69)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-historical-city-tour-from-friedrichstrasse-p1068750/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-en-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "12-Language Audio",
+     "pop_html": "<strong>Audio guide device:</strong> English, French, Spanish, Portuguese, Italian, Dutch, Russian, Polish, Swedish, Chinese, Hebrew, Finnish. German commentary over the speakers.<span class=\"bpa-lang-note\">The pick for families who don't speak German or English.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Two Piers",
+     "pop_html": "<strong>Board at Friedrichstraße (Reichstagufer) or Nikolaiviertel</strong>, whichever is closer. You pick the pier when you book.<span class=\"bpa-lang-note\">Missed your boat? Staff put you on a later departure.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐕",
+     "label": "Dogs + Pushchairs OK",
+     "pop_html": "<strong>Pushchairs can come on board</strong> and dogs on a lead are welcome.<span class=\"bpa-lang-note\">Not wheelchair accessible. Own food and drink are not allowed.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not wheelchair accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest classic loop, with audio in your own language.",
+    "skip_html": "if you want a live guide: #1 has one for the same price."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which languages does the audio guide cover?",
+      "a": "12, the widest choice here; German plays over the speakers."
+     },
+     {
+      "q": "Which pier do I use?",
+      "a": "Friedrichstraße (Reichstagufer, 10117 Berlin) or the Nikolaiviertel: you choose when you book."
+     },
+     {
+      "q": "Can I bring a dog or a pushchair?",
+      "a": "Yes, pushchairs and dogs on a lead are allowed. It is not wheelchair accessible."
+     },
+     {
+      "q": "Is there a live guide?",
+      "a": "No, the commentary is recorded. #1 has a live guide for the same price."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 hour, 12-language audio",
+      "price": "€18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/berlin-l17/1-hour-spree-cruise-from-friedrichstrasse-t21231/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-stern-und-kreis-1-hour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-stern-und-kreis-1-hour",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "city",
+    "cancel",
+    "hour"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💑 #4 Best for Couples",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-hemingway-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "FLAGSHIP.BERLIN",
+    "⏱️ 1 to 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Anlegestelle+Paul-L%C3%B6be-Haus%2C+10117+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By the Reichstag"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/berlin-l17/berlin-1h-boutique-style-cruise-on-the-historic-hemingway-t616531/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hemingway&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.66",
+     "score": "4.7",
+     "meta": "1,077 reviews",
+     "heading": "Rating on the booking site",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-1h-boutique-style-cruise-on-the-historic-hemingway-t616531/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hemingway&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚡",
+     "label": "Silent Electric Boat",
+     "pop_html": "<strong>Built in 1908, now electric.</strong> No engine noise, white tablecloths, fresh flowers and a mahogany salon instead of plastic chairs."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Commentary + Music",
+     "pop_html": "<strong>A mix of sightseeing commentary in German and English</strong> and quiet background music.<span class=\"bpa-lang-note\">Drinks are served at your seat and cost extra.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier by the Reichstag",
+     "pop_html": "<strong>From the Reichstag walk down to the river and turn left.</strong> After about 150 m you see the yellow FLAGSHIP.BERLIN flags.<span class=\"bpa-lang-note\">Arrive 20 minutes early to choose your seat.</span>"
+    },
+    {
+     "cls": "bpa-lang cd-access",
+     "emoji": "♿",
+     "label": "Not wheelchair accessible",
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a date: the quietest, most stylish boat on the 1-hour loop.",
+    "skip_html": "if price matters most: #1 and #3 cost €7 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What makes this boat different?",
+      "a": "The Hemingway was built in 1908 and restored with a silent electric engine, white tablecloths and a mahogany salon."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, drinks are not in the ticket; they are served at your seat."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, in German and English, with background music."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The FLAGSHIP.BERLIN pier at Paul-Löbe-Haus, just below the Reichstag (U Bundestag)."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 to 1.5 hours, electric steamship",
+      "price": "€25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/berlin-l17/berlin-1h-boutique-style-cruise-on-the-historic-hemingway-t616531/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-hemingway&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-hemingway",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "city",
+    "evening",
+    "drink",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌙 #5 Best Evening Cruise",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening Yacht Cruise with a Glass of Crémant, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-evening-yacht-aperitif-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "FLAGSHIP.BERLIN",
+    "⏱️ 75 to 90 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Anlegestelle+Paul-L%C3%B6be-Haus%2C+10117+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By the Reichstag"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/berlin-l17/berlin-evening-yacht-cruise-with-aperitif-t480108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-evening-yacht-aperitif&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Evening Yacht Cruise with a Glass of Crémant"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.55",
+     "score": "4.6",
+     "meta": "625 reviews",
+     "heading": "Rating on the booking site",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(625)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-evening-yacht-cruise-with-aperitif-t480108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-evening-yacht-aperitif&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Crémant Included",
+     "pop_html": "<strong>One glass of Crémant or alcohol-free sparkling wine</strong> on boarding. Long drinks and more wine from the bar cost extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌆",
+     "label": "Sunset, No Lecture",
+     "pop_html": "<strong>Not a guided tour.</strong> Music, lounge furniture on the sundeck and the city lighting up as it gets dark.<span class=\"bpa-lang-note\">The salon has room for everyone if it rains.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Dinner Add-On",
+     "pop_html": "<strong>On some dates you can add a 3-course dinner:</strong> the yacht drops you one way at the Patio restaurant ship, where the evening ends.<span class=\"bpa-lang-note\">Check the options for your date.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed start to the evening, drink in hand.",
+    "skip_html": "if you want to learn about the sights: there is no commentary."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "One glass of Crémant or alcohol-free sparkling wine, music and lounge seating on the sundeck. Extra drinks cost more."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "No, just music and views of the central loop past Museum Island and the Berlin Cathedral."
+     },
+     {
+      "q": "Can I add dinner?",
+      "a": "On some dates: a 3-course dinner, with the yacht taking you one way to the Patio restaurant ship."
+     },
+     {
+      "q": "Can I bring my dog?",
+      "a": "Yes, dogs are allowed, but you lose your choice of seat."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€39",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 to 90 min, glass of Crémant",
+      "price": "€39"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/berlin-l17/berlin-evening-yacht-cruise-with-aperitif-t480108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-evening-yacht-aperitif&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-evening-yacht-aperitif",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "lakes",
+    "under20"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌳 #6 Best Lake Cruise",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seven Lakes Cruise from Wannsee, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-seven-lakes-wannsee-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern und Kreis",
+    "⏱️ About 1h 45",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kronprinzessinnenweg+5%2C+14109+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Wannsee pier (S Wannsee)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-wannsee-havel-2-hour-7-lake-cruise-p1068753/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-seven-lakes-wannsee",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Seven Lakes Cruise from Wannsee"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.59",
+     "score": "4.6",
+     "meta": "2.7k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(2.6k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-seven-lakes-tour-from-berlin-s-wannsee-t16825/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=berlin-boat-tours-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.3",
+       "count": "(139)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-wannsee-havel-2-hour-7-lake-cruise-p1068753/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-seven-lakes-wannsee",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "7 Lakes, No City",
+     "pop_html": "<strong>A loop through the south-western Havel lakes:</strong> Kleiner Wannsee, Pohlesee, Stölpchensee, Griebnitzsee, Glienicker See and Jungfernsee, back to Wannsee.<span class=\"bpa-lang-note\">Villas, Babelsberg Palace and the Heilandskirche in Sacrow along the way.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚆",
+     "label": "5 Min from S Wannsee",
+     "pop_html": "<strong>The pier is a 5-minute walk from Wannsee station</strong> (S1, S7 and regional trains), about 25 minutes from the centre.<span class=\"bpa-lang-note\">Combine it with a walk on Peacock Island or in the Grunewald.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€10.80 per Hour",
+     "pop_html": "<strong>€18.90 for about 1 hour 45 minutes.</strong> Food and drinks are sold on board."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a calm, green half-day out of the city for under €20.",
+    "skip_html": "if it is your first day in Berlin: you won't see a single landmark of the centre."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which lakes does it pass?",
+      "a": "Wannsee, Pohlesee, Stölpchensee, Griebnitzsee, Glienicker See and Jungfernsee, past lakeside villas, Babelsberg Palace and the Heilandskirche in Sacrow."
+     },
+     {
+      "q": "How do I get there?",
+      "a": "The Wannsee pier, Kronprinzessinnenweg 5, is a 5-minute walk from S Wannsee, about 25 minutes by S-Bahn from the centre."
+     },
+     {
+      "q": "When is it best?",
+      "a": "In summer: in winter the lakes are grey and quiet."
+     },
+     {
+      "q": "Are food and drinks included?",
+      "a": "No, they are sold on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, the ticket is non-refundable, so book once your plans are fixed."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18.90",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "about 1h 45, seven lakes",
+      "price": "€18.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€37.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-wannsee-havel-2-hour-7-lake-cruise-p1068753/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-seven-lakes-wannsee",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-seven-lakes-wannsee",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "long",
+    "audio"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎨 #7 Best for East Berlin",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-east-side-gallery-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "BWSG",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Burgstra%C3%9Fe+27%2C+10178+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Alte Börse (Hackescher Markt)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-east-side-tour-on-cruise-p1068188/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-east-side-gallery",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "2.5-Hour East Side Cruise past the Oberbaumbrücke"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "36 reviews",
+     "heading": "Rating on the booking site",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.5",
+       "count": "(36)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-east-side-tour-on-cruise-p1068188/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-east-side-gallery",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎨",
+     "label": "East Side Gallery",
+     "pop_html": "<strong>The only cruise here that goes east:</strong> under the Oberbaumbrücke into the Osthafen, past the East Side Gallery, the Molecule Man and the arena.<span class=\"bpa-lang-note\">It also covers the centre: Berliner Dom, Humboldt Forum, Reichstag and Hauptbahnhof.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "DE/EN + 6 Audio",
+     "pop_html": "<strong>German and English over the speakers</strong>, plus an audio guide in Spanish, French, Italian, Russian, Polish and Hebrew."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier at Hackescher Markt",
+     "pop_html": "<strong>Board at the Alte Börse pier</strong> opposite Burgstraße 27, next to Friedrichsbrücke and Museum Island, a few minutes from S Hackescher Markt.<span class=\"bpa-lang-note\">Arrive 15 minutes early to swap your ticket for a boarding pass.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "to see the East Side Gallery and Oberbaumbrücke from the water.",
+    "skip_html": "if you want flexibility: non-refundable, and only 36 reviews so far."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What does it see that other cruises miss?",
+      "a": "It keeps going east past the Mühlendamm lock: under the Oberbaumbrücke, along the East Side Gallery and into the Osthafen past the Molecule Man."
+     },
+     {
+      "q": "Which languages is the commentary in?",
+      "a": "German and English on board, plus an audio guide in Spanish, French, Italian, Russian, Polish and Hebrew."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Alte Börse, opposite Burgstraße 27, 10178 Berlin, near S Hackescher Markt."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2.5 hours, ending back west at the Reichstag and the Hauptbahnhof."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, the ticket is non-refundable, so book once your plans are fixed."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 hours, East Side",
+      "price": "€30"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-east-side-tour-on-cruise-p1068188/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-east-side-gallery",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-east-side-gallery",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "lakes",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏰 #8 Best for Palaces",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3-Hour World Heritage Cruise to Potsdam, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-potsdam-world-heritage-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern und Kreis",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kronprinzessinnenweg+5%2C+14109+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Wannsee pier (S Wannsee)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/berlin-l17/berlin-world-heritage-cruise-to-potsdam-3-hours-t28802/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-potsdam-world-heritage&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "3-Hour World Heritage Cruise to Potsdam"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.55",
+     "score": "4.5",
+     "meta": "1,906 reviews",
+     "heading": "Rating on the booking site",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(1.9k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-world-heritage-cruise-to-potsdam-3-hours-t28802/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-potsdam-world-heritage&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏰",
+     "label": "UNESCO Palaces",
+     "pop_html": "<strong>Wannsee to Potsdam and back:</strong> Peacock Island, Nikolskoe, Cecilienhof Palace, Glienicke Bridge, Babelsberg Palace and Potsdam's Lange Brücke.<span class=\"bpa-lang-note\">Glienicke Bridge is the Cold War 'bridge of spies'.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎙️",
+     "label": "Info DE/EN",
+     "pop_html": "<strong>Commentary in German and English</strong> over the onboard system.<span class=\"bpa-lang-note\">Food and drinks are sold on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€7.30 per Hour",
+     "pop_html": "<strong>€21.90 for 3 hours</strong>, with free cancellation up to 24 hours before."
+    }
+   ],
+   "best_for": {
+    "pick_html": "to see Potsdam's palaces without a day trip by train and bus.",
+    "skip_html": "if you want to visit the palaces: the boat passes them, it doesn't stop."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "Peacock Island, the church at Nikolskoe, Cecilienhof Palace, the Glienicke Bridge, Babelsberg Palace and the Lange Brücke in Potsdam."
+     },
+     {
+      "q": "Does it stop in Potsdam?",
+      "a": "No, you see the palaces from the water; to visit Sanssouci, take the train instead."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Wannsee pier, Kronprinzessinnenweg 5, 14109 Berlin, 25 minutes by S-Bahn from the centre."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, in German and English over the onboard system."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€21.90",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 hours, to Potsdam",
+      "price": "€21.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€43.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/berlin-l17/berlin-world-heritage-cruise-to-potsdam-3-hours-t28802/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-berlin-boat-tours-potsdam-world-heritage&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-potsdam-world-heritage",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "lakes",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #9 Most Hours per Euro",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "3.5-Hour Spree Cruise to Müggelsee, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-muggelsee-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern und Kreis",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Puschkinallee+15%2C+12435+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Treptow (S Treptower Park)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-boat-trip-to-muggelsee-p1124582/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-muggelsee",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "3.5-Hour Spree Cruise to Müggelsee"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.58",
+     "score": "4.6",
+     "meta": "2.4k+ reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(2.4k+)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-35-hour-spree-boat-tour-to-muggelsee-t55787/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=berlin-boat-tours-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.7",
+       "count": "(12)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-boat-trip-to-muggelsee-p1124582/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-muggelsee",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌲",
+     "label": "Köpenick + Müggelsee",
+     "pop_html": "<strong>Up the Spree to Berlin's largest lake:</strong> Treptower Park, the old factories of Oberschöneweide, Köpenick Palace and old town, Friedrichshagen, then Müggelsee with a view of the Müggelturm."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€6.30 per Hour",
+     "pop_html": "<strong>€21.90 for 3.5 hours</strong>, the lowest price per hour of all 10 cruises.<span class=\"bpa-lang-note\">Food is sold on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "✅",
+     "label": "Free Cancellation",
+     "pop_html": "<strong>Cancel for free or reschedule up to 24 hours before</strong> your date."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a long, cheap, green day on the water in the east of the city.",
+    "skip_html": "if you only have a few hours in Berlin: it skips the centre entirely."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which route does it take?",
+      "a": "From Treptow harbour south-east past Oberschöneweide, Köpenick Palace and Friedrichshagen to Müggelsee, Berlin&rsquo;s largest lake."
+     },
+     {
+      "q": "Is it good value?",
+      "a": "The cheapest hour on the water in this list: €21.90 for 3.5 hours, about €6.30 an hour."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Treptow harbour, Puschkinallee 15, 12435 Berlin, near S Treptower Park."
+     },
+     {
+      "q": "Does it pass the city-centre sights?",
+      "a": "No, it skips the centre entirely."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before, and you can reschedule."
+     }
+    ]
+   },
+   "price": {
+    "main": "€21.90",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 hours, to Müggelsee",
+      "price": "€21.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "€43.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-boat-trip-to-muggelsee-p1124582/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-muggelsee",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-muggelsee",
+     "text": "Read review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "dinner",
+    "evening",
+    "drink"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #10 Best Dinner Cruise",
+     "medal": "bpa-slate"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 1"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 2"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 3"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 4"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 5"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 6"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 7"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 8"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 9"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 10"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-01.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-02.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-03.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-04.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-05.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-06.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-07.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-08.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-09.avif"
+     },
+     {
+      "src": "/assets/berlin-boat-tours/berlin-boat-tour-dinner-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Reederei Becker",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Wintersteinstra%C3%9Fe+24%2C+10587+Berlin",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Charlottenburg (U Richard-Wagner-Platz)"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-dinner-cruise-p978867/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-dinner-cruise",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.49",
+     "score": "4.5",
+     "meta": "382 reviews · 2 sites",
+     "heading": "Average of 2 booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(371)",
+       "url": "https://www.getyourguide.com/berlin-l17/berlin-dinner-cruise-t442854/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=berlin-boat-tours-en-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.2",
+       "count": "(11)",
+       "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-dinner-cruise-p978867/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-dinner-cruise",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3 or 4 Courses",
+     "pop_html": "<strong>Berlin Dinner:</strong> welcome Prosecco, 3-course menu and one drink with dinner. <strong>Capital Dinner:</strong> 4 courses, all drinks included (beer, wine, Prosecco, soft drinks) and a guaranteed window seat.<span class=\"bpa-lang-note\">Meat and vegetarian options; the 3-course menu has no fish.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕡",
+     "label": "18:30 Departure",
+     "pop_html": "<strong>One departure, 18:30.</strong> Arrive 15 minutes early and show your phone ticket at the pier.<span class=\"bpa-lang-note\">Audio guide in English and German during the cruise.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier in Charlottenburg",
+     "pop_html": "<strong>The pier has no street address</strong>; it is by Wintersteinstraße 24 in Charlottenburg. Nearest U-Bahn: Richard-Wagner-Platz (U7).<span class=\"bpa-lang-note\">Card payments: the bar on board takes cash only.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a sit-down dinner with the Reichstag and Museum Island going by.",
+    "skip_html": "if you want flexibility: non-refundable, and the pier is out in Charlottenburg."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which menu should I book?",
+      "a": "Berlin Dinner (from €79.90): a welcome Prosecco, three courses and one drink. Capital Dinner: a fourth course, all drinks and a guaranteed window seat."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "At 18:30 from Charlottenburg, for 2.5 hours past Bellevue Palace, the Reichstag, Museum Island and Alexanderplatz."
+     },
+     {
+      "q": "Where is the pier?",
+      "a": "By Wintersteinstraße 24, 10587 Berlin, near U Richard-Wagner-Platz, west of the centre."
+     },
+     {
+      "q": "Can I pay by card on board?",
+      "a": "No, the bar takes cash only."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, the ticket is non-refundable, so book once your plans are fixed."
+     }
+    ]
+   },
+   "price": {
+    "main": "€79.90",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Berlin Dinner",
+      "small": "Prosecco, 3 courses, 1 drink",
+      "price": "€79.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults, Berlin Dinner",
+     "price": "€159.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/berlin-attractions-c65144/tickets-for-berlin-dinner-cruise-p978867/?partner=thecruisedetective.com-176436&tq_campaign=berlin-boat-tours-dinner-cruise",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>"
+    ],
+    "sublink": {
+     "url": "#bt-dinner-cruise",
+     "text": "Read review ↓"
+    }
+   }
+  }
+ ]
+}
