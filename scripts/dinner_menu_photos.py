@@ -4,8 +4,11 @@ Budapest dinner page (budapest-adventures scripts/dinner_set_menu_photos.py): a 
 dish we have a photo of, in both the breakdown cartes and the #dc-menu-* modal templates, plus a
 photo button (thumbnails + "N dish photos" + Full menu) in each card's Food box.
 
-Photos are my own test-cruise photos (assets/cdn), cropped to one plate each, and only where the
-plate clearly is a dish on the current menu. Placed by brand + carte tier + course + position.
+Photos: my own test-cruise photos (assets/cdn), plus the Diamant Bleu fish starter from its Tiqets
+listing gallery (p1049009, the same dish in daylight). Each is cropped to one plate, and used only where the
+plate clearly is a dish on the menu as printed on the page. Operator sites (Fracasse, Paris en Scène,
+Bateaux Mouches) and the other Tiqets galleries had no photo of a current menu dish; Bateaux Parisiens'
+site and GetYourGuide block automated access. Placed by brand + carte tier + course + position.
 Idempotent: re-running strips and re-adds.
     python3 scripts/dinner_menu_photos.py          # apply
     python3 scripts/dinner_menu_photos.py --check  # exit 1 if photos are missing
