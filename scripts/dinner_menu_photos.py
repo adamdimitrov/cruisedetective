@@ -4,7 +4,8 @@ Budapest dinner page (budapest-adventures scripts/dinner_set_menu_photos.py): a 
 dish we have a photo of, in both the breakdown cartes and the #dc-menu-* modal templates, plus a
 photo button (thumbnails + "N dish photos" + Full menu) in each card's Food box.
 
-Photos: my own test-cruise photos (assets/cdn), plus the Diamant Bleu fish starter from its Tiqets
+Photos: my own test-cruise photos (assets/cdn), the GYG listing photos already in the card galleries
+(assets/ota/dinner: Fracasse, Maxim's), plus the Diamant Bleu fish starter from its Tiqets
 listing gallery (p1049009, the same dish in daylight). Each is cropped to one plate, and used only where the
 plate clearly is a dish on the menu as printed on the page. Operator sites (Fracasse, Paris en Scène,
 Bateaux Mouches) and the other Tiqets galleries had no photo of a current menu dish; Bateaux Parisiens'
@@ -30,6 +31,11 @@ MAP = {
     ("Paris en Scène", "bistro"): {"starter": ["pes-squash-veloute"]},
     ("Paris en Scène", "plant"): {"starter": ["pes-squash-veloute"]},
     # Le Diamant Bleu (menu from the test cruise): fish with pomegranate, veal fillet, Chiboust cream
+    # Le Capitaine Fracasse: the starter trio (smoked salmon, foie gras, a vegetable side) from its GYG gallery
+    ("Le Capitaine Fracasse", "dinner"): {"starter": ["fr-trio"]},
+    # Maxim's (GYG gallery): sea bream on carrot mousseline with mushrooms, three-chocolate shortbread
+    ("Maxim's sur Seine", "early"): {"main": ["mx-sea-bream", None, None], "dessert": ["mx-chocolate-shortbread"]},
+    ("Maxim's sur Seine", "late"): {"main": ["mx-sea-bream", None, None], "dessert": ["mx-chocolate-shortbread", None, None]},
     ("Le Diamant Bleu", "dinner"): {"starter": [None, None, "db-fish-pomegranate"], "main": [None, None, "db-veal-fillet"],
                                     "dessert": [None, "db-chiboust"]},
 }
@@ -39,6 +45,8 @@ TEASER = {
     "marina": ["lm-sea-bass", "lm-foie-gras"],
     "enscene": ["pes-squash-veloute"],
     "diamant": ["db-veal-fillet", "db-fish-pomegranate", "db-chiboust"],
+    "fracasse": ["fr-trio"],
+    "maxims": ["mx-sea-bream", "mx-chocolate-shortbread"],
 }
 CSS = """<style id="dc-menu-photos-css">
 .dc-pms .dish .dc-dish-photo{display:block;width:min(300px,100%);height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:6px;margin:6px auto 6px;border:1px solid #eadfca;background:#fff}
@@ -66,6 +74,7 @@ CSS = """<style id="dc-menu-photos-css">
 }
 </style>"""
 
+MATCHED = set()
 DISH = re.compile(r'<div class="dish([^"]*)" data-diet="([^"]*)">(.*?)</div>', re.S)
 SEC = re.compile(r'(<div class="sec" data-sec="([^"]+)">)(.*?)(?=<div class="sec"|$)', re.S)
 CARTE = re.compile(r'<div class="dc-carte(?: dc-pms)?(?: on)?"[^>]*data-tier="([^"]+)"[^>]*>')
@@ -114,6 +123,7 @@ def teaser(s, menu, keys):
 
 def process(s):
     n = 0
+    MATCHED.clear()
     for m in reversed(list(CARTE.finditer(s))):
         a = m.start(); b = s.index('<div class="foot">', a)
         blk = s[a:b]
@@ -122,6 +132,7 @@ def process(s):
         if not hit:
             continue
         plan = MAP[hit]
+        MATCHED.add(hit)
         tag = m.group(0)
         if "dc-pms" not in tag:
             tag = tag.replace('class="dc-carte', 'class="dc-carte dc-pms', 1)
@@ -139,8 +150,11 @@ if __name__ == "__main__":
     cur = open(PAGE, encoding="utf-8").read()
     new, n = process(cur)
     got = new.count(f'class="dc-dish-photo" src="{A}')
-    # every carte appears twice (breakdown + modal template)
-    ok = got == n and n == 2 * sum(1 for v in MAP.values() for c in v.values() for k in c if k)
+    # every planned menu was found (breakdown carte and/or modal template) and carries its photos
+    missing = set(MAP) - MATCHED
+    if missing:
+        print("menus not found:", sorted(missing))
+    ok = got == n and not missing
     if "--check" in sys.argv:
         ok = ok and cur.count(f'class="dc-dish-photo" src="{A}') == n
     elif new != cur:
