@@ -1,0 +1,538 @@
+{
+ "format": 1,
+ "lang": "fr",
+ "comment": "Where each harvested entry of fr.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "fr/croisières-sur-la-tamise-à-londres/index.html",
+ "english_version": "worktree",
+ "match_score": 0.0,
+ "entries": {
+  "Thames River Sightseeing": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[0]/div[0]/div[1]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 1 Hour": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[0]/div[0]/div[1]/text()[0]•1",
+   "seen": 1
+  },
+  "📍 Westminster Pier": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[0]/div[0]/div[1]/a[0]/text()[0]",
+   "seen": 10
+  },
+  "31k+ reviews · 4 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "Average of 4 booking sites, weighted by number of reviews": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[0]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["Moyenne de 4 sites de réservation, pondérée par le nombre d'avis"]
+  },
+  "Personally tested": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 3
+  },
+  "Access &amp; kids": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 2
+  },
+  "Free Wi-Fi": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 1
+  },
+  "Do I need earbuds?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [22dc2272d1a9]",
+   "seen": 1
+  },
+  "Only for the audio app in 6 languages. The live English commentary from a crew member plays over the loudspeakers, so it needs none.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [c98088899967]",
+   "seen": 1
+  },
+  "How far does it go?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1,
+   "alternatives": ["Jusqu'où va-t-elle ?"]
+  },
+  "Westminster to Greenwich: 1 hour one-way, 2 hours return. The current route also stops at Embankment and St Katharine&rsquo;s, by Tower Bridge.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [bcb098efa9a4]",
+   "seen": 1
+  },
+  "Can kids come?": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 3
+  },
+  "Yes: under 5s ride free and ages 5 to 15 pay £11.30. Strollers are welcome on board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [3af4f99e04bb]",
+   "seen": 1
+  },
+  "What if it rains?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [bf8463dc7658]",
+   "seen": 1
+  },
+  "The top deck has covered seats as well as open-air ones, and the cabin below is heated and air-conditioned.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [504051cfef80]",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 4
+  },
+  "Yes, for free up to 24 hours before, with a full refund.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [5426a03eabc5]",
+   "seen": 1
+  },
+  "Adult": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "From £17": {
+   "source": "fr page vs EN worktree #content/div[0]/details[2]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["À partir de 17 £"]
+  },
+  "Child": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 4
+  },
+  "Free": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 4
+  },
+  "Check Availability →": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 6
+  },
+  "Booked securely via Tiqets": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 4
+  },
+  "<b>Free cancellation</b> up to 24 h before, full refund": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 2
+  },
+  "Read Review ↓": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/fr.json",
+   "seen": 4
+  },
+  "London Eye": {
+   "source": "fr page vs EN worktree #content/div[0]/div[0]/ul[5]/li[6]/text()[0]",
+   "seen": 7
+  },
+  "📍 London Eye Pier": {
+   "source": "fr page vs EN worktree #content/div[0]/details[3]/summary[0]/div[0]/div[0]/div[1]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "8.2k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[3]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "Average of 3 booking sites, weighted by number of reviews": {
+   "source": "fr page vs EN worktree #content/div[0]/details[3]/summary[0]/div[0]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 18,
+   "alternatives": ["Moyenne de 3 sites de réservation, pondérée par le nombre d'avis"]
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 2
+  },
+  "About 45 minutes on a circular route from the London Eye as far as Tower Bridge. You can also get off at Tower Bridge Pier. It does not go to Greenwich.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [c5591ba5a2ab]",
+   "seen": 1
+  },
+  "For the built-in audio guide, yes: bring your own. The live English commentary needs none.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [a798d76b8abf]",
+   "seen": 1
+  },
+  "Can I bring a stroller?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "No, strollers are not allowed. Under 2s ride free and ages 2 to 15 pay £12.50.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [1b522285d205]",
+   "seen": 1
+  },
+  "Where do I board?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "London Eye Pier, right below the wheel and opposite Westminster Pier. It has a weather-proof waiting area.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [77211ee67d28]",
+   "seen": 1
+  },
+  "Should I book ahead?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [c335c35fb8ec]",
+   "seen": 1
+  },
+  "It is worth it to be sure of a place, though the pier also sells tickets. Cancellation is free up to 24 hours before.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [9b5cc9c2f6cc]",
+   "seen": 1
+  },
+  "From £16": {
+   "source": "fr page vs EN worktree #content/div[0]/details[3]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Booked securely via GetYourGuide": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 5
+  },
+  "London City Cruises": {
+   "source": "fr page vs EN worktree #content/div[0]/details[4]/summary[0]/div[0]/div[0]/div[1]/text()[0]•0",
+   "seen": 9
+  },
+  "5.3k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[4]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "24-hour hop-on hop-off": {
+   "source": "fr page vs EN worktree #content/div[0]/details[4]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "How does the 24-hour ticket work?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [35fcb1912b42]",
+   "seen": 1
+  },
+  "It is valid for 24 hours, and you can hop on and off as often as you like between Westminster, the London Eye, Tower Bridge and Greenwich.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [028249ade23b]",
+   "seen": 1
+  },
+  "Which boat should I take?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [fea4f9867494]",
+   "seen": 1
+  },
+  "City Cruises has several types of boat. Skip the catamaran: it has no top deck.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [73ecaca4b6b5]",
+   "seen": 1
+  },
+  "Are the seats comfortable?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [3930385922ea]",
+   "seen": 1
+  },
+  "The padded chairs on the lower deck are. The metal seats on the open top deck were uncomfortable when I rode it.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [a7216cdf280a]",
+   "seen": 1
+  },
+  "Is food included?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [8a5efcb1a788]",
+   "seen": 1
+  },
+  "No. Soft drinks and snacks are sold at the bar on board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [2cfc3fd751fe]",
+   "seen": 1
+  },
+  "Yes: under 5s ride free, ages 5 to 15 pay £16.95, and strollers are welcome.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [fbad95e636dd]",
+   "seen": 1
+  },
+  "From £25": {
+   "source": "fr page vs EN worktree #content/div[0]/details[4]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Thames Rockets": {
+   "source": "fr page vs EN worktree #content/div[0]/details[5]/summary[0]/div[0]/div[0]/div[1]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 50 Min": {
+   "source": "fr page vs EN worktree #content/div[0]/details[5]/summary[0]/div[0]/div[0]/div[1]/text()[0]•1",
+   "seen": 1
+  },
+  "9.1k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[5]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "How fast does it go?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [5f808e5cce14]",
+   "seen": 1
+  },
+  "Up to 30 knots (55 km/h). The fast part starts after Tower Bridge; before that it is a slow, guided cruise.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [da7a0518cbec]",
+   "seen": 1
+  },
+  "Will I get wet?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [4d385cd57673]",
+   "seen": 1
+  },
+  "You stay mostly dry: waterproof jackets are provided, along with life jackets.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [13dbafa0077a]",
+   "seen": 1
+  },
+  "Who should skip it?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [2344ce4de4d9]",
+   "seen": 1
+  },
+  "Anyone pregnant or with back or neck problems. It is not wheelchair accessible, and there is no toilet on board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [a2f7e1fc25fd]",
+   "seen": 1
+  },
+  "Where does it go?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [ad2a7f2e0c89]",
+   "seen": 1
+  },
+  "From the London Eye past Tower Bridge and Canary Wharf towards Greenwich, then back to the London Eye.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [9cacc442325c]",
+   "seen": 1
+  },
+  "Yes, ages 1 to 14 get £10 off. Book ahead: the 12-seat boats sell out quickly.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [30f08da70ccb]",
+   "seen": 1
+  },
+  "per person, from": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "From £65": {
+   "source": "fr page vs EN worktree #content/div[0]/details[5]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Thames Ribs": {
+   "source": "fr page vs EN worktree #content/div[0]/details[6]/summary[0]/div[0]/div[0]/div[1]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 70 Min": {
+   "source": "fr page vs EN worktree #content/div[0]/details[6]/summary[0]/div[0]/div[0]/div[1]/text()[0]•1",
+   "seen": 1
+  },
+  "1.7k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[6]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "How is it different from Thames Rockets?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [f495852bde0b]",
+   "seen": 1
+  },
+  "The same kind of 12-seat boat, but 70 minutes instead of 50, and it runs on past Greenwich to the Thames Barrier.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [a39cb2c322dc]",
+   "seen": 1
+  },
+  "Expect spray on breezy days. Ponchos and life jackets are on board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [42a628f9c877]",
+   "seen": 1
+  },
+  "Embankment Pier, not Westminster Pier.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [c11ae841f120]",
+   "seen": 1
+  },
+  "Ages 2 to 13 pay £62.22, but there are strict minimum age and height rules.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [901db9810784]",
+   "seen": 1
+  },
+  "Can I get off on the way?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [aba3869ece28]",
+   "seen": 1
+  },
+  "No, there are no stops: it runs to the Thames Barrier and back.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [b838e899d25c]",
+   "seen": 1
+  },
+  "From £75": {
+   "source": "fr page vs EN worktree #content/div[0]/details[6]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "📍 Tower Millennium Pier": {
+   "source": "fr page vs EN worktree #content/div[0]/details[7]/summary[0]/div[0]/div[0]/div[1]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "3.8k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[7]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 3,
+   "alternatives": ["Qu'est-ce qui est inclus ?"]
+  },
+  "A 2-course lunch with tea and coffee. Other drinks are sold at the bar.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [5147b90566c2]",
+   "seen": 1
+  },
+  "From Tower Millennium Pier, next to Tower Bridge, to Westminster and back.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [997b25455ac6]",
+   "seen": 1
+  },
+  "105 minutes, with one sailing a day at 11:45.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [51ecd974b061]",
+   "seen": 1
+  },
+  "Yes: under 2s ride free and ages 2 to 12 get £10 off. Strollers and wheelchairs are fine on board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [8566c955c2b5]",
+   "seen": 1
+  },
+  "Yes, for free up to 3 days before, with a full refund.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [5b9ec5803b85]",
+   "seen": 1
+  },
+  "From £53": {
+   "source": "fr page vs EN worktree #content/div[0]/details[7]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "⏱️ 2 hours": {
+   "source": "fr page vs EN worktree #content/div[0]/details[8]/summary[0]/div[0]/div[0]/div[1]/text()[0]•1",
+   "seen": 3
+  },
+  "3.6k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[8]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "Is it a dinner cruise?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [57108c30d289]",
+   "seen": 1
+  },
+  "No: you get canapés and one glass of sparkling wine. For a full meal, see the jazz or Showboat dinner cruises below.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [15238079646a]",
+   "seen": 1
+  },
+  "What time does it leave?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 1,
+   "alternatives": ["À quelle heure part-il ?"]
+  },
+  "18:30 from Tower Millennium Pier, back at the same pier 2 hours later.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [cdaa0d42979b]",
+   "seen": 1
+  },
+  "Past the London Eye, the Tower of London and Tower Bridge, then back to Tower Millennium Pier.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [69a5dbb32595]",
+   "seen": 1
+  },
+  "How are the reviews?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [882c57f33317]",
+   "seen": 1
+  },
+  "Mixed: 4.4 on GetYourGuide, but 3.9 on Viator and 3.7 on Tripadvisor.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [2f057192935f]",
+   "seen": 1
+  },
+  "From £40": {
+   "source": "fr page vs EN worktree #content/div[0]/details[8]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "470+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[9]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "Live jazz band": {
+   "source": "fr page vs EN worktree #content/div[0]/details[9]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "3-course dinner": {
+   "source": "fr page vs EN worktree #content/div[0]/details[9]/div[1]/details[1]/div[1]/div[0]/p[0]/strong[0]/text()[0]",
+   "seen": 4
+  },
+  "Who plays?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [58e4f22734ab]",
+   "seen": 1
+  },
+  "The ChiJazz band, with jazz standards and pop hits such as At Last, Cry Me a River and Summertime.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [519684f9bfcd]",
+   "seen": 1
+  },
+  "When does it get back?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [c9f9915a9171]",
+   "seen": 1
+  },
+  "It leaves Westminster Pier at 20:00 and docks around 23:00.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [3e9750418dcc]",
+   "seen": 1
+  },
+  "Is a drink included?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [2cfedd942b13]",
+   "seen": 1
+  },
+  "A glass of sparkling wine when you board.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [fe0020e607af]",
+   "seen": 1
+  },
+  "The lowest here: 4.0 on GetYourGuide and 3.8 on Viator and Tripadvisor.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [972c166e6808]",
+   "seen": 1
+  },
+  "From £109": {
+   "source": "fr page vs EN worktree #content/div[0]/details[9]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Thames Clippers": {
+   "source": "fr page vs EN worktree #content/div[0]/details[10]/summary[0]/div[0]/div[0]/div[1]/text()[0]•0",
+   "seen": 1
+  },
+  "1.8k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[10]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "No commentary": {
+   "source": "fr page vs EN worktree #content/div[0]/details[10]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Is there commentary?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 2,
+   "alternatives": ["Y a-t-il des commentaires ?"]
+  },
+  "No, it is public transport. There is a free online river guide instead.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [f87b93d990f8]",
+   "seen": 1
+  },
+  "How often do boats run?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [ed50428f2ed9]",
+   "seen": 1
+  },
+  "Every 10 to 20 minutes from key piers such as Westminster, London Bridge and Greenwich; times vary by pier.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [d02126951c14]",
+   "seen": 1
+  },
+  "Do kids pay?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [e7137b5738b8]",
+   "seen": 1
+  },
+  "Under 5s travel free, and kids go free with the Family Pass.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [51d1e6f195e1]",
+   "seen": 1
+  },
+  "When is it busiest?": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [77f77f064475]",
+   "seen": 1
+  },
+  "At rush hour, when commuters use the boats.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [eff47e9ad61a]",
+   "seen": 1
+  },
+  "1-day pass": {
+   "source": "fr page vs EN worktree #content/div[0]/details[10]/div[1]/details[1]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "From £28": {
+   "source": "fr page vs EN worktree #content/div[0]/details[10]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "5k+ reviews · 3 sites": {
+   "source": "fr page vs EN worktree #content/div[0]/details[11]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 2
+  },
+  "From Westminster towards the Thames Barrier and back, past the O2, Canary Wharf and City Hall.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [81f7a975feff]",
+   "seen": 1
+  },
+  "A welcome glass of sparkling wine, a 3-course dinner and live music.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [d74deb7ad0db]",
+   "seen": 1
+  },
+  "3 hours, leaving Westminster Pier at 19:45.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [51fea9b15fc8]",
+   "seen": 1
+  },
+  "4.3 on GetYourGuide and 4.1 on Viator and Tripadvisor.": {
+   "source": "port memory thames-river-cruises-london__index/fr.json [a20bb89405ed]",
+   "seen": 1
+  },
+  "From £79": {
+   "source": "fr page vs EN worktree #content/div[0]/details[11]/summary[0]/div[1]/span[0]/text()[0]",
+   "seen": 4
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "⏱️ 45 min",
+   "tr": "⏱️ 45 min",
+   "why": "identical to English",
+   "source": "fr page vs EN worktree #content/div[0]/details[3]/summary[0]/div[0]/div[0]/div[1]/text()[0]•1"
+  }
+ ]
+}

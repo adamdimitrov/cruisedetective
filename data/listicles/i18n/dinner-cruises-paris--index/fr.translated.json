@@ -1,0 +1,891 @@
+{
+ "format": 1,
+ "lang": "fr",
+ "comment": "Entries of fr.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "Bateaux Mouches 4-Course Gourmet Dinner Cruise with Live Music": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 title.text"
+  },
+  "<strong>I did this dinner cruise myself</strong> during 12 days of testing Paris cruises. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: food, service, live entertainment, views from my table and value for money. <a href=\"/about#methodology\">How I test →</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.tested.pop_html"
+  },
+  "<strong>A violin and piano duo plays through dinner.</strong> It sets the mood without taking over: you can talk easily.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €45 for ages 4-12 (starter, main, dessert, soft drink); free under 4, no meal</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "Kir &amp; wine included": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].label"
+  },
+  "<strong>Harmonie: a glass of kir, 1 glass of wine or a soft drink, water, coffee or tea.</strong> Prestige adds sparkling wine and half a bottle of wine per person; Excellence adds Champagne.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "Romantic and elegant": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].label"
+  },
+  "<strong>Sophisticated and romantic: violin and piano, unusually friendly and fast service.</strong> My pick for a date, an anniversary or a proposal.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "Open rooftop deck": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[5].label"
+  },
+  "<strong>A large open-air rooftop deck, open to you at any time of the cruise.</strong> Tables can't be reserved: they are first come, first served, and Excellence gets window priority.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "Vegan &amp; GF dishes": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[7].label"
+  },
+  "<strong>A vegetarian starter and main that are also vegan, gluten-free, lactose-free, egg-free and nut-free.</strong> Tell Bateaux Mouches when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[7].pop_html"
+  },
+  "Which menu should I book?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].q"
+  },
+  "Harmonie (€114) for the classic dinner with kir and a glass of wine. Prestige (€135) adds sparkling wine, half a bottle of wine per person and a cheese option. Excellence (€170) adds Champagne, a cheese course and window-table priority.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Can I reserve a window table?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].q"
+  },
+  "Not on Harmonie or Prestige: tables are first come, first served. Excellence gets window priority, and when the boat is not full every guest gets a window seat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Yes, best with older kids: ages 4 to 12 pay €45 for starter, main, dessert and a soft drink, and under 4s go free (no meal). There is a restroom and stroller access; you are back around 22:45.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Does it leave from the Eiffel Tower?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "No. It leaves from Pont de l&rsquo;Alma (Port de la Conférence), a 15-minute walk from the Eiffel Tower, with free parking at the pier during the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Yes: free cancellation up to 72 hours before, with a full refund.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"3\" title=\"Food level 3 of 3: Fine dining\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"3\">Fine dining</span><span class=\"dc-food-lvl\">4-course à la carte · menus from €114 to €170</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"bmouches\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Prawn tartare or beef carpaccio<span class=\"sep\">›</span>Lamb, veal or sea bream<span class=\"sep\">›</span>Cheese or profiteroles</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 3 choices\"><b>Starter</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"v\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Main course: 3 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Cheese or dessert: 4 choices\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>4</em></button></div><div class=\"dc-sets\"><span class=\"dc-sets-lbl\">Pick a menu</span><button class=\"dc-set\" data-go=\"harmonie\" type=\"button\">Harmonie</button><button class=\"dc-set\" data-go=\"prestige\" type=\"button\">Prestige</button><button class=\"dc-set\" data-go=\"excellence\" type=\"button\">Excellence</button></div><button class=\"dc-food-photos\" data-dc-menu=\"bmouches\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n3\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/bm-sea-bream-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/bm-beef-carpaccio-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/bm-profiterole-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 3 dish photos</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 extras_after_faq"
+  },
+  "Harmonie menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].label"
+  },
+  "kir, 1 glass of wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "Prestige menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[1].label"
+  },
+  "half a bottle of wine pp": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[1].small"
+  },
+  "Excellence menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[2].label"
+  },
+  "Champagne, window priority": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[2].small"
+  },
+  "4-12, 3 courses": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[3].small"
+  },
+  "no meal": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[3].small"
+  },
+  "2 adults + 2 kids (4-12), Harmonie": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.total.label"
+  },
+  "Prices as listed on the booking page in Nov 2026. The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "<b>Instant mobile ticket</b> to show on your phone": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[1]"
+  },
+  "Bateaux Parisiens Prestige Dinner Cruise with Live Singer &amp; All-Glass Salon": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 title.text"
+  },
+  "<strong>One sailing a night at 20:30</strong>, from the Eiffel Tower pier (Port de la Bourdonnais, docks 5 to 7). Check in 30 to 45 minutes before.<span class=\"bpa-lang-note\"><b>📍 Port de la Bourdonnais:</b> right at the foot of the Eiffel Tower, with free parking for dinner guests.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ The Eiffel Tower sparkles for 5 minutes at the start of every hour after dark.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].pop_html"
+  },
+  "<strong>A live singer with backing tracks.</strong> Pleasant background music: you can talk without raising your voice.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible (except the top deck and the toilets)</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €40 Étoile ticket for children up to 11</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "<strong>Étoile: a glass of kir, 1 bottle of wine per 4 guests, water and coffee.</strong> Découverte adds Champagne; Privilège adds cheese, petits fours and a window table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "Elegant, all-glass": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].label"
+  },
+  "<strong>Elegant and romantic, with a stylish crowd under a curved glass roof.</strong> With hundreds of guests, service can be slow.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "Window: Privilège": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].label"
+  },
+  "<strong>Étoile and Découverte sit in the centre of the boat</strong> (off-peak you may still get a window). Privilège guarantees a window table; Premier the front of the salon.<span class=\"bpa-lang-note\">Only a small open-air area at the back, no rooftop deck.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].pop_html"
+  },
+  "Diet options": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[7].label"
+  },
+  "<strong>A vegetarian option at every course.</strong> Gluten-free, lactose-free and diabetic meals when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[7].pop_html"
+  },
+  "Yes: Port de la Bourdonnais, docks 5 to 7, at the foot of the Eiffel Tower. Check in 30 to 45 minutes before the 20:30 sailing.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Which ticket should I book?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Étoile (€115): 3 courses, kir and wine (1 bottle per 4). Découverte (€139) adds Champagne. Privilège (€185) adds cheese and a guaranteed window table. Premier (€215): 5 courses and the front tables.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Can I go outside?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "Only a little: there is a small open-air area at the back, but no rooftop deck. You spend most of the evening at your table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Is the food good?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].q"
+  },
+  "Mostly. The scallop starter and chocolate tart were excellent on my test dinner; my duck main was chewy. Desserts are by Lenôtre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "Étoile": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].label"
+  },
+  "3 courses, kir, wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "Découverte": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[1].label"
+  },
+  "adds Champagne": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[1].small"
+  },
+  "Privilège": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[2].label"
+  },
+  "cheese, window table": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[2].small"
+  },
+  "Premier": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[3].label"
+  },
+  "5 courses, front tables": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[3].small"
+  },
+  "up to 11, Étoile": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[4].small"
+  },
+  "2 adults + 2 kids (up to 11), Étoile": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.total.label"
+  },
+  "Paris City Vision La Marina Romantic 3-Course Seine Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 title.text"
+  },
+  "<strong>Departs 21:15, about 2 hours</strong>, back around 23:15. Boarding from 20:45 at Port de Solférino. An earlier, shorter sitting is #10 on this list.<span class=\"bpa-lang-note\"><b>📍 Port de Solférino:</b> at the foot of the Musée d'Orsay. The Tuileries gates close before the 21:15 sailing, so walk round via Quai Anatole France.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].pop_html"
+  },
+  "<strong>A live singer performs French chanson.</strong> The best live music of the 5 boats I tested.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].pop_html"
+  },
+  "No wheelchair access": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[1].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €40 for ages 3-11; under 3 free (no meal); a kids' menu</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "Wine extra": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].label"
+  },
+  "<strong>Water and coffee or tea are included; wine and other drinks are extra.</strong> The €160 Champagne ticket adds 2 glasses of Champagne and a window table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "Romantic, tables for two": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].label"
+  },
+  "<strong>Romantic tables for two, soft lighting and window views.</strong> My best-value pick for a date.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "Enclosed boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[4].label"
+  },
+  "<strong>No open-air deck:</strong> you see the Eiffel Tower through large side windows and the glass ceiling.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].pop_html"
+  },
+  "Veg &amp; kids' menus": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[6].label"
+  },
+  "<strong>A vegetarian menu and a kids' menu</strong>, both chosen when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[7].pop_html"
+  },
+  "Are drinks included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "Water and coffee or tea only. Wine is extra; the €160 Champagne ticket adds 2 glasses of Champagne and a window table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "No. The boat is fully enclosed: you see the Eiffel Tower through the windows and the glass roof.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "How is the live music?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "The best of the boats I tested: a live singer of French chanson.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Can kids come?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[4].q"
+  },
+  "Yes: €40 for ages 3 to 11, under 3 free (no meal), and there is a kids' menu. It ends around 23:15, so the 18:45 early sailing (#10) suits young kids better.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "How do I get to the pier?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].q"
+  },
+  "Port de Solférino, at the foot of the Musée d'Orsay. The Tuileries gates close before the 21:15 sailing, so walk round via Quai Anatole France.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"2\" title=\"Food level 2 of 3: Full dinner\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"2\">Full dinner</span><span class=\"dc-food-lvl\">3-course menu · 2 to 3 choices per course</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"marina\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Burrata or foie gras mi-cuit<span class=\"sep\">›</span>Sea bass, poultry or beef<span class=\"sep\">›</span>Lemon crème brûlée</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 2 choices\"><b>Starter</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i></span><em>2</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Main course: 3 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Dessert: 2 choices\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i></span><em>2</em></button></div><div class=\"dc-sets\"><span class=\"dc-sets-lbl\">Pick a menu</span><button class=\"dc-set\" data-go=\"adult\" type=\"button\">Adult</button><button class=\"dc-set veg\" data-go=\"veg\" type=\"button\">Vegetarian</button><button class=\"dc-set\" data-go=\"kids\" type=\"button\">Kids</button></div><button class=\"dc-food-photos\" data-dc-menu=\"marina\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n2\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/lm-sea-bass-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/lm-foie-gras-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 2 dish photos</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 extras_after_faq"
+  },
+  "3 courses, water, coffee": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "Champagne ticket": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[1].label"
+  },
+  "2 glasses, window table": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[1].small"
+  },
+  "2 adults + 2 kids (3-11)": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.total.label"
+  },
+  "Paris en Scène 3-Course Bistro Dinner Cruise with Leather Club Chairs": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 title.text"
+  },
+  "Recorded music": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].label"
+  },
+  "<strong>No live musicians:</strong> pop and French acoustic music plays through the speakers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €39 for ages 4-12</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "Water included": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].label"
+  },
+  "<strong>50 cl of mineral water per person is included; there is no free drinking water beyond that.</strong> The wine formula with half a bottle of wine is €68 on Tiqets; on board a glass costs €8 to €15.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "Relaxed bistro": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].label"
+  },
+  "<strong>A relaxed, casual bistro evening</strong> in pairs of leather club chairs, all facing the floor-to-ceiling windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "<strong>An open rooftop deck with 360° views</strong>, free to use during the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[5].pop_html"
+  },
+  "Veggie menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[7].label"
+  },
+  "<strong>A veggie menu, chosen when you book.</strong> One dessert (pineapple with agave syrup) is vegan and gluten-free.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[7].pop_html"
+  },
+  "Which sitting is cheaper?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "The 21:30 sitting, from €55. The 18:45 sitting costs about €75 and is back around 20:30.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "The pumpkin soup and chocolate mousse were very good; the guinea fowl and fish mains were bland. Dishes are catered and plated on board, not cooked from scratch.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Only 50 cl of mineral water per person. Wine is extra: the wine formula is €68 on Tiqets, or €8 to €15 a glass on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Is there live music?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "No. Music plays through the speakers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"2\" title=\"Food level 2 of 3: Full dinner\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"2\">Full dinner</span><span class=\"dc-food-lvl\">3-course bistro menu · veggie menu available</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"enscene\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Red kuri squash velouté<span class=\"sep\">›</span>Veal or salmon<span class=\"sep\">›</span>Panna cotta or rice pudding</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 1 choice\"><b>Starter</b><span class=\"dc-dots\"><i class=\"v\"></i></span><em>1</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Casserole: 2 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i></span><em>2</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Dessert: 2 choices\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i></span><em>2</em></button></div><div class=\"dc-sets\"><span class=\"dc-sets-lbl\">Pick a menu</span><button class=\"dc-set\" data-go=\"bistro\" type=\"button\">Bistro</button><button class=\"dc-set veg\" data-go=\"plant\" type=\"button\">Veggie</button></div><button class=\"dc-food-photos one\" data-dc-menu=\"enscene\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n1\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/pes-squash-veloute-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 1 dish photo</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 extras_after_faq"
+  },
+  "21:30 sitting": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].label"
+  },
+  "3 courses, water": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "18:45 sitting": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].label"
+  },
+  "back about 20:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[1].small"
+  },
+  "about €75": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[1].price"
+  },
+  "Wine formula": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[2].label"
+  },
+  "half a bottle of wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[2].small"
+  },
+  "2 adults + 2 kids (4-12), 21:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.label"
+  },
+  "Le Diamant Bleu Modern Luxury Dinner Cruise with Live Singer &amp; DJ": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 title.text"
+  },
+  "Singer &amp; DJ": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].label"
+  },
+  "<strong>A live singer and guitarist, then a DJ set.</strong> On my test night the vocals were too loud for easy talk.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €59 for ages 3-8</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>The base ticket includes a bottle of water.</strong> The Wine (€99) and Sparkling (€119) tickets add half a bottle per person; VIP (€134) adds a window table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "Club-lit lounge": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].label"
+  },
+  "<strong>A modern, wide boat with club lighting, a singer and a DJ after dinner.</strong> On my test night the mood was quieter than the photos suggest.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "<strong>A big open rooftop deck.</strong> On my test night the crew opened it only once the main courses were cleared.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[5].pop_html"
+  },
+  "Diets on request": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[7].label"
+  },
+  "<strong>Vegetarian and other diets on request when you book.</strong> Dishes are cooked on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[7].pop_html"
+  },
+  "for a modern boat with a live singer, a DJ after dinner and a big rooftop deck, from €79.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.pick_html"
+  },
+  "if you want a quiet romantic dinner: the singer is loud, and on my test night the mood was subdued.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.skip_html"
+  },
+  "Is it a party?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "It is the liveliest format here: a live singer, then a DJ. On my test night the mood was quieter than the photos suggest, and the vocals were loud.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "The veal main and the dessert were very good; the starters fell flat. Dishes are cooked on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Only a bottle of water. The Wine (€99) and Sparkling (€119) tickets add half a bottle per person; VIP (€134) adds a guaranteed window table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Where does it leave from?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].q"
+  },
+  "2 Rue du Ranelagh (16th), next to Pont de Grenelle, 5 to 10 minutes on foot from RER C Avenue du Président Kennedy or Metro Passy. When I tested it, it left from Quai d'Austerlitz.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "Yes: €59 for ages 3 to 8, and the boat is wheelchair and stroller accessible.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"2\" title=\"Food level 2 of 3: Full dinner\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"2\">Full dinner</span><span class=\"dc-food-lvl\">3-course chef menu · 2 to 3 dishes per course</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"diamant\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Pumpkin soup or egg parfait<span class=\"sep\">›</span>Lamb, cod or veal<span class=\"sep\">›</span>Molten chocolate tart</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 3 choices\"><b>Starter</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Main course: 3 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Dessert: 2 choices\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i></span><em>2</em></button></div><button class=\"dc-food-photos\" data-dc-menu=\"diamant\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n3\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/db-veal-fillet-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/db-fish-pomegranate-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/db-chiboust-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 3 dish photos</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 extras_after_faq"
+  },
+  "Standard": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].label"
+  },
+  "Wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].label"
+  },
+  "half a bottle pp": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[2].small"
+  },
+  "Sparkling": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[2].label"
+  },
+  "VIP": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[3].label"
+  },
+  "window table": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[3].small"
+  },
+  "2 adults + 2 kids (3-8), Standard": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.total.label"
+  },
+  "Trattoria en Seine Italian 3-Course Gourmet Dinner Cruise on Le Théo": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 title.text"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €49 for ages 3-8; not suitable for babies under 1</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[2].pop_html"
+  },
+  "Italian, soft music": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[3].label"
+  },
+  "<strong>An elegant, intimate setting with soft music</strong>, for couples, friends or families.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[3].pop_html"
+  },
+  "<strong>An open-air panoramic terrace</strong> for photos between courses.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[4].pop_html"
+  },
+  "Window: VIP only": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[5].label"
+  },
+  "<strong>Window seats are guaranteed only with the VIP ticket.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[5].pop_html"
+  },
+  "What is on the menu?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].q"
+  },
+  "Seasonal Italian dishes such as lasagna, truffle rigatoni and tiramisu, over 3 courses. The menu changes with the seasons.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "Vegetarian or vegan?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].q"
+  },
+  "Yes: vegetarian, vegan and lactose-free dishes on request.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "Can I get a window seat?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "Only guaranteed with the VIP ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "2 Rue du Ranelagh, by Pont de Grenelle in the southwest, further from the centre than the Eiffel Tower piers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "Yes: €49 for ages 3 to 8. It is not suitable for babies under 1.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[4].a"
+  },
+  "3 courses": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].small"
+  },
+  "Not suitable": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[2].price"
+  },
+  "2 adults + 2 kids (3-8)": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.total.label"
+  },
+  "Capitaine Fracasse 3-Course French Gastronomic Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 title.text"
+  },
+  "<strong>Evenings at 19:30 (from €90); Saturdays also at 17:30 (from €80).</strong> About 2 hours. Your voucher shows the exact time.<span class=\"bpa-lang-note\"><b>📍 202 Port de Javel Haut:</b> about 20 minutes on foot from the Eiffel Tower.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[0].pop_html"
+  },
+  "<strong>A classic 3-course French dinner cooked by the chef in the boat's kitchen.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[2].pop_html"
+  },
+  "<strong>Wine and cocktails are ordered and paid at the bar.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].pop_html"
+  },
+  "Glass boat, terrace": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[4].label"
+  },
+  "<strong>A glass-enclosed dining room and an open terrace</strong> for clear views of the city.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[4].pop_html"
+  },
+  "No. Wine and cocktails are ordered and paid at the bar.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "What time does it sail?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Evenings at 19:30, from €90. On Saturdays there is also a 17:30 sailing, from €80.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "202 Port de Javel Haut (15th), about 20 minutes on foot from the Eiffel Tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "Is the food cooked on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].q"
+  },
+  "Yes: a chef cooks the 3-course French menu in the boat's kitchen.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "Is it wheelchair accessible?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].q"
+  },
+  "No, it is not wheelchair accessible.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"2\" title=\"Food level 2 of 3: Full dinner\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"2\">Full dinner</span><span class=\"dc-food-lvl\">3-course menu · 3 choices per course</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"fracasse\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Foie gras, salmon and coleslaw trio<span class=\"sep\">›</span>Chicken, sea bass or beef<span class=\"sep\">›</span>Panna cotta or chocolate crunch</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 1 choice\"><b>Starter</b><span class=\"dc-dots\"><i class=\"\"></i></span><em>1</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Main course: 3 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Dessert: 3 choices\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button></div><button class=\"dc-food-photos one\" data-dc-menu=\"fracasse\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n1\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/fr-trio-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 1 dish photo</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 extras_after_faq"
+  },
+  "Saturday 17:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].label"
+  },
+  "Evening 19:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[1].label"
+  },
+  "Maxim's de Paris Belle Époque Romantic Dinner Cruise with Live Jazz Pianist": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 title.text"
+  },
+  "<strong>Early sitting at 18:45 (75 min, €165) or a later one at 21:15 (2 h, €195).</strong> Times shift with the season. Your voucher shows the exact time.<span class=\"bpa-lang-note\"><b>📍 Port de Solférino:</b> at the foot of the Musée d'Orsay.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[0].pop_html"
+  },
+  "<strong>A live jazz pianist plays through dinner</strong>, without being intrusive.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[1].pop_html"
+  },
+  "Champagne welcome": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[2].label"
+  },
+  "<strong>The evening starts with a Champagne welcome.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[2].pop_html"
+  },
+  "Belle Époque": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[3].label"
+  },
+  "<strong>A Belle Époque dining room in Maxim's style, with Maxim's china.</strong> The most old-world evening on the river.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[3].pop_html"
+  },
+  "<strong>No open deck:</strong> window seating gives views of the Eiffel Tower and the Louvre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[4].pop_html"
+  },
+  "Vegetarian menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[6].label"
+  },
+  "<strong>A vegetarian menu is available.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[6].pop_html"
+  },
+  "Which sitting should I book?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "The 18:45 sitting is 75 minutes for €165; the 21:15 sitting is 2 hours for €195.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "Yes: a live jazz pianist, quiet enough to talk.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Is it worth the price?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].q"
+  },
+  "For a special occasion: Belle Époque decor, live jazz and a Champagne welcome. On a budget, pick another boat: this is the priciest on the list.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "No. The boat is enclosed; the views are through the windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "Is there a vegetarian menu?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[4].q"
+  },
+  "Yes, a vegetarian menu is available.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[4].a"
+  },
+  "<div class=\"dc-food\"><div class=\"dc-food-head\"><span class=\"dc-food-lbl\">🍽️ Food</span><span aria-hidden=\"true\" class=\"dc-meter\" data-l=\"3\" title=\"Food level 3 of 3: Fine dining\"><i></i><i></i><i></i></span><span class=\"dc-food-tier\" data-l=\"3\">Fine dining</span><span class=\"dc-food-lvl\">Gourmet menu · early or later sitting</span><button aria-haspopup=\"dialog\" class=\"dc-food-btn\" data-dc-menu=\"maxims\" type=\"button\">Full menu ↗</button></div><div class=\"dc-food-strip\">Butternut velouté to start<span class=\"sep\">›</span>Sea bream, chicken or beef fillet<span class=\"sep\">›</span>Three-chocolate dessert</div><div class=\"dc-dna\"><button class=\"dc-c\" data-sec=\"starter\" type=\"button\" aria-label=\"Starter: 1 choice\"><b>Starter</b><span class=\"dc-dots\"><i class=\"\"></i></span><em>1</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"main\" type=\"button\" aria-label=\"Main course: 3 choices\"><b>Main</b><span class=\"dc-dots\"><i class=\"\"></i><i class=\"\"></i><i class=\"\"></i></span><em>3</em></button><span class=\"dc-arrow\">›</span><button class=\"dc-c\" data-sec=\"dessert\" type=\"button\" aria-label=\"Dessert: 1 choice\"><b>Dessert</b><span class=\"dc-dots\"><i class=\"\"></i></span><em>1</em></button></div><div class=\"dc-sets\"><span class=\"dc-sets-lbl\">Pick a menu</span><button class=\"dc-set\" data-go=\"early\" type=\"button\">Early 1h15 · €165</button><button class=\"dc-set\" data-go=\"late\" type=\"button\">Later 2h · €195</button><button class=\"dc-set veg\" data-go=\"veg\" type=\"button\">Vegetarian</button></div><button class=\"dc-food-photos\" data-dc-menu=\"maxims\" aria-haspopup=\"dialog\" type=\"button\"><span class=\"th n2\" aria-hidden=\"true\"><span><img src=\"/assets/dinner-cruises-paris/menu-photos/mx-sea-bream-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span><span><img src=\"/assets/dinner-cruises-paris/menu-photos/mx-chocolate-shortbread-sq.webp\" alt=\"\" width=\"240\" height=\"240\" loading=\"lazy\" decoding=\"async\"></span></span><span class=\"tx\"><span>📷 2 dish photos</span> <b>Full menu ↗</b></span></button></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 extras_after_faq"
+  },
+  "75 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].small"
+  },
+  "21:15 sitting": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[1].label"
+  },
+  "💶 #9 Budget Late Sailing": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 gallery.rank.text"
+  },
+  "⏱️ 1.5 to 2 Hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 kicker[1]"
+  },
+  "Eiffel Croisières Bistronomic 3-Course Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 title.text"
+  },
+  "<strong>A glass dining room and an outdoor terrace</strong> to step out on between courses.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[3].pop_html"
+  },
+  "<strong>The 21:15 sailing passes the Eiffel Tower around 23:00</strong>, during its hourly sparkle.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[4].pop_html"
+  },
+  "if you want a longer evening: the cruise is 1.5 to 2 hours.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 best_for.skip_html"
+  },
+  "18:30 for 1.5 hours from €59, or 21:15 for 2 hours at €69. The late one passes the Eiffel Tower around 23:00, when it sparkles.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "No. All drinks are paid on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "8 Port des Invalides, on the Left Bank at Pont Alexandre III.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "What do guests complain about?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "Service speed is the most common complaint in its 6,000+ GetYourGuide reviews (4.2 out of 5).": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "18:30 sitting": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].label"
+  },
+  "Marina de Paris Early Evening Sunset Dinner Cruise with 3-Course Menu": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 title.text"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €40 for ages 3-11; under 3 free</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[1].pop_html"
+  },
+  "<strong>Coffee or tea is included</strong>; other drinks are bought on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[2].pop_html"
+  },
+  "Early, family friendly": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[3].label"
+  },
+  "<strong>Every table has a view, rain or shine.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[4].pop_html"
+  },
+  "<strong>A vegetarian menu and a kids' menu.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[6].pop_html"
+  },
+  "Will I see the Eiffel Tower lit up?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "Not from spring to early autumn: you are back by 20:00, before dark. From October to March every sailing is after dark.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "Yes: under 3s go free, ages 3 to 11 pay €40, and you are done before bedtime.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "Coffee or tea only; other drinks are bought on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "When should I arrive?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "Boarding starts at 18:15 at Port de Solférino, by the Musée d'Orsay, for the 18:45 departure.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  }
+ }
+}

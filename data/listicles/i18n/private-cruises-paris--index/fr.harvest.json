@@ -1,0 +1,299 @@
+{
+ "format": 1,
+ "lang": "fr",
+ "comment": "Where each harvested entry of fr.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "fr/croisieres-privees-paris/index.html",
+ "english_version": "7d212528 2026-11-18",
+ "match_score": 3.0,
+ "entries": {
+  "Private Seine Cruise with Champagne on a Small Boat": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Visite Paris En Bateau": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 1.5 Hours": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 12,
+   "alternatives": ["⏱️ 1,5 heure", "⏱️ 1.5 heure"]
+  },
+  "Rating on GetYourGuide": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "1.5 hours": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[1]/div[1]/details[2]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 10
+  },
+  "Bring your own food": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Bluetooth speaker": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[3]/div[1]/details[2]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["Enceinte Bluetooth"]
+  },
+  "Can we bring food and drinks?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1,
+   "alternatives": ["Pouvons-nous apporter à manger et à boire ?"]
+  },
+  "What if we are late?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 3
+  },
+  "per boat, up to 4": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "Check Availability →": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[2]/a[1]/text()[0]",
+   "seen": 24
+  },
+  "Booked securely via GetYourGuide": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 4
+  },
+  "Read Review ↓": {
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[2]/a[3]/text()[0]",
+   "seen": 24
+  },
+  "Private Small-Boat Cruise with Rosé & Macarons": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Private Small-Boat Cruise with Rosé &amp; Macarons": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Rosé &amp; macarons": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Eiffel Tower photo stop": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "per boat, up to 6": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 10
+  },
+  "From €490": {
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 18
+  },
+  "2-Hour Private Pontoon Boat Cruise with Skipper-Guide": {
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 27
+  },
+  "MyParisRiver": {
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2 Hours": {
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3,
+   "alternatives": ["⏱️ 2 heures"]
+  },
+  "2 hours": {
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[2]/div[0]/div[1]/text()[0]•1",
+   "seen": 4
+  },
+  "Bring your own drinks": {
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Up to 6 people": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[3]/div[1]/div[3]/div[1]/div[1]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 1
+  },
+  "Where does it leave from?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3,
+   "alternatives": ["D'où part-il ?"]
+  },
+  "Are drinks included?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "Is there commentary?": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 1,
+   "alternatives": ["Y a-t-il des commentaires ?"]
+  },
+  "Private Seine Cruise with a Live Guide & Soft Drinks": {
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "⏱️ 1.5 to 2 Hours": {
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3,
+   "alternatives": ["⏱️ 1,5 à 2 heures"]
+  },
+  "Private Seine Cruise with a Live Guide &amp; Soft Drinks": {
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Live guide 5.0/5": {
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Soft drinks included": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[4]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[1]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 2,
+   "alternatives": ["Qu'est-ce qui est inclus ?"]
+  },
+  "Private Electric Pontoon Cruise from the Louvre (6 People)": {
+   "source": "fr page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 24
+  },
+  "Paris Water Way": {
+   "source": "fr page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "📍 Quai François Mitterrand": {
+   "source": "fr page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Wheelchair accessible": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 2
+  },
+  "Quiet electric boat": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[2]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Minimum 6 people": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 4
+  },
+  "Is it wheelchair accessible?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "The final price is shown before you pay.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "VIP Limousine Boat for up to 12 with Champagne & Macarons": {
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "VIP Limousine Boat for up to 12 with Champagne &amp; Macarons": {
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "Up to 12 people": {
+   "source": "fr page vs EN 7d212528 #content/div[0]/details[6]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 4
+  },
+  "Heated, convertible roof": {
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Champagne &amp; macarons": {
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "How many people fit?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Is there a toilet?": {
+   "source": "listicle file seine-river-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "per boat, up to 12": {
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "🏆 #1 Best Overall Private Cruise",
+   "tr": "🏆 N° 1 : Meilleure croisière privée dans l'ensemble",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[0]/span[3]/text()[0]"
+  },
+  {
+   "en": "📍 Port de Javel Haut",
+   "tr": "📍 Port de Javel Haut",
+   "why": "identical to English",
+   "source": "fr page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "💍 #2 Best for Couples &amp; Proposals",
+   "tr": "💍 N° 2 : Idéale pour les couples et demandes en mariage",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[0]/span[3]/text()[0]"
+  },
+  {
+   "en": "Boat in Paris",
+   "tr": "Boat in Paris",
+   "why": "identical to English",
+   "source": "fr page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "⏱️ #3 Most Time on the Water",
+   "tr": "⏱️ N° 3 : La plus longue durée sur l'eau",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[0]/span[3]/text()[0]"
+  },
+  {
+   "en": "📍 Issy-les-Moulineaux",
+   "tr": "📍 Issy-les-Moulineaux",
+   "why": "identical to English",
+   "source": "fr page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "🎙️ #4 Best Live Guide",
+   "tr": "🎙️ N° 4 : Meilleur guide en direct",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[0]/span[3]/text()[0]"
+  },
+  {
+   "en": "📍 Port de Javel",
+   "tr": "📍 Port de Javel",
+   "why": "identical to English",
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Jp's boat",
+   "tr": "Jp's boat",
+   "why": "identical to English",
+   "source": "fr page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "📍 #5 Most Central Pier",
+   "tr": "📍 N° 5 : Embarcadère le plus central",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-5/div[0]/div[0]/span[3]/text()[0]"
+  },
+  {
+   "en": "🎉 #6 Best for Groups up to 12",
+   "tr": "🎉 N° 6 : Idéale pour les groupes jusqu'à 12",
+   "why": "colon added or dropped (old label?)",
+   "source": "fr page vs EN 7d212528 card-6/div[0]/div[0]/span[3]/text()[0]"
+  }
+ ]
+}
