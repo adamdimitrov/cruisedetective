@@ -58,6 +58,22 @@
       "berlin-boat-tours/index.html",
       "vistula-river-cruises-warsaw/index.html",
       "bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison/index.html"
-    ]
+    ],
+    "translate": {
+      "topic": "river, canal and dinner cruises in Paris, London, Amsterdam, Prague, Porto, Berlin and Warsaw",
+      "names": [
+        "GetYourGuide",
+        "Tiqets",
+        "Viator",
+        "Tripadvisor",
+        "The Cruise Detective"
+      ],
+      "landmarks": [
+        "Eiffel Tower",
+        "Tower Bridge",
+        "Charles Bridge",
+        "Pont Neuf"
+      ]
+    }
   }
 }
