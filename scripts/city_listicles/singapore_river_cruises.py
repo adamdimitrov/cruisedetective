@@ -2,7 +2,7 @@
 # Garden Rhapsody and Spectra light shows. Facts from the live GetYourGuide listings, 20 Nov 2026.
 
 SPEC = dict(
-    related=["chao-phraya-river-cruises-bangkok", "ha-long-bay-cruises", "mekong-delta-tours", "sydney-harbour-cruises"],
+    related=["chao-phraya-river-cruises-bangkok", "ha-long-bay-cruises", "mekong-delta-tours", "harbour-cruises-hong-kong"],
     prefix="sgp",
     photo_stem="singapore-river-cruise",
     year="2026",

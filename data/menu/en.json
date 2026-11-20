@@ -146,7 +146,7 @@
        ]
       },
       {
-       "head": "MEDITERRANEAN & NORDICS",
+       "head": "MORE OF EUROPE",
        "items": [
         {
          "href": "/gondola-rides-venice",
@@ -189,6 +189,30 @@
          "icon": "🏔️",
          "title": "Bergen Fjord Cruises",
          "desc": "Fjord trips & Mostraumen"
+        },
+        {
+         "href": "/boat-tours-stockholm",
+         "icon": "🏝️",
+         "title": "Stockholm Boat Tours",
+         "desc": "Archipelago, canals & icebreaker"
+        },
+        {
+         "href": "/fjord-cruises-oslo",
+         "icon": "⛵",
+         "title": "Oslo Fjord Cruises",
+         "desc": "Sailing ships, electric boats, prawns"
+        },
+        {
+         "href": "/boat-tours-lisbon",
+         "icon": "🌅",
+         "title": "Lisbon Boat Tours",
+         "desc": "Tagus sunset sails from €19"
+        },
+        {
+         "href": "/lake-geneva-cruises",
+         "icon": "🇨🇭",
+         "title": "Lake Geneva Cruises",
+         "desc": "Geneva, Montreux & Lavaux"
         }
        ]
       }
@@ -281,6 +305,12 @@
          "icon": "🌏",
          "title": "Sydney Harbour Cruises",
          "desc": "Opera House views, lunch & dinner"
+        },
+        {
+         "href": "/harbour-cruises-hong-kong",
+         "icon": "🌃",
+         "title": "Hong Kong Harbour Cruises",
+         "desc": "Victoria Harbour night yachts"
         }
        ]
       }

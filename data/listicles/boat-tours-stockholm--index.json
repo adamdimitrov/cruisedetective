@@ -1,0 +1,4738 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "archipelago",
+    "guide",
+    "food"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Archipelago Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Cruise boat at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain with binoculars"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Golden-hour cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends laughing on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with fika"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Coffee and pastries"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sks-fika-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "SKS Tours",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Skeppsbron+101%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skeppsbron"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-boat-tour-to-fjaderholmarna-t719216/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sks-fika&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Archipelago Cruise with Swedish Fika &amp; Live Guided Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "1,953 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(1,953)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-boat-tour-to-fjaderholmarna-t719216/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sks-fika-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Swedish fika",
+     "pop_html": "<strong>Coffee and a pastry on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Stories about the islands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Fjäderholmarna route",
+     "pop_html": "<strong>Via the Djurgården canal, past Höggarn and Tegelön.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Skeppsbron",
+     "pop_html": "<strong>Old Town waterfront; arrive 15 to 25 min early.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated archipelago cruise with coffee and a pastry included.",
+    "skip_html": "if you want the longest route: #2 goes up to 3 hours."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Through the Djurgården canal to Fjäderholmarna, Höggarn and Tegelön."
+     },
+     {
+      "q": "What's included?",
+      "a": "The 2-hour cruise, a live English guide and Swedish fika."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Skeppsbron 101 in Gamla Stan."
+     },
+     {
+      "q": "Can I buy more on board?",
+      "a": "Yes, pastries, snacks and drinks."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€31",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h with fika",
+      "price": "From €31"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €62"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-boat-tour-to-fjaderholmarna-t719216/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sks-fika&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-sks-fika",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "archipelago",
+    "guide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👍 #2 Most-Booked",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Classic archipelago ship"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ship in autumn"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest filming the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Old Town from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Summer houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fortress island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family selfie on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ship by the islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-stromma-archipelago-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 1.5 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Str%C3%B6mkajen%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strömkajen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-sightseeing-tour-t33191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-stromma-archipelago&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Guided Archipelago Cruise Aboard a Premium Ship"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "12,156 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(12,156)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-sightseeing-tour-t33191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-stromma-archipelago-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Pick your length",
+     "pop_html": "<strong>1.5, 2.5 or 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Classic archipelago ship",
+     "pop_html": "<strong>Café on the main deck, Wi-Fi, toilets.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Commentary all the way.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👶",
+     "label": "Pushchair OK",
+     "pop_html": "<strong>Foldable, on the main deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strömkajen",
+     "pop_html": "<strong>Strömkajen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic steamer and the choice of a longer trip.",
+    "skip_html": "if you want a small boat: #3 or #4."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "1.5, 2.5 or 3 hours, depending on the option."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live in English."
+     },
+     {
+      "q": "Is there food on board?",
+      "a": "A cafeteria on the main deck."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Depends on the option; check the booking page."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "from 1.5 h",
+      "price": "From €26"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-sightseeing-tour-t33191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-stromma-archipelago&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-stromma-archipelago",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "archipelago",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #3 Most Charming Boat",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Wooden boat on a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest filming the view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden launch at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden boat by the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden boat on the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-wooden-boat-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sightseeing Ride",
+    "⏱️ 105 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Skeppsbron+2%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skeppsbron"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-tour-by-classic-wooden-boat-t1030725/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-wooden-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Guided Archipelago Tour by Classic Wooden Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "894 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(894)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-tour-by-classic-wooden-boat-t1030725/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-wooden-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 45",
+     "pop_html": "<strong>1 hour 45.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Classic wooden boat",
+     "pop_html": "<strong>Partly open, closes in rain.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Royal Palace, Opera, National Museum, islands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Bar on board",
+     "pop_html": "<strong>Soft drinks for sale; toilet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gamla Stan",
+     "pop_html": "<strong>Skeppsbron 2.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a smaller, prettier boat with a live guide.",
+    "skip_html": "if you get seasick: it's a small open boat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the boat like?",
+      "a": "A classic wooden boat, partly open, closed on rainy days."
+     },
+     {
+      "q": "Is it crowded?",
+      "a": "No, the operator keeps numbers down."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live in English."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Skeppsbron 2, Gamla Stan."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h 45 guided",
+      "price": "From €27"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-guided-archipelago-tour-by-classic-wooden-boat-t1030725/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-wooden-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-wooden-boat",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "8 photos on the listing, one is a map"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "archipelago",
+    "guide",
+    "budget",
+    "food"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #4 Best Value Archipelago",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sightseeing boat on the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with fika"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red cottages on an island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront buildings"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat passing the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Harbour houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fika box"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in the archipelago"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-red-archipelago-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "RED Sightseeing",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Gustav+III+statue%2C+Skeppsbron%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skeppsbron"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-guided-archipelago-boat-tour-p1116726/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-red-archipelago",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Guided Archipelago Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "6,605 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(6,601)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-boat-tour-t811343/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-red-archipelago-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.2",
+       "count": "(4)",
+       "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-guided-archipelago-boat-tour-p1116726/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-red-archipelago-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Fjäderholmarna and Tegelön.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍩",
+     "label": "Fika or hot dog",
+     "pop_html": "<strong>As an add-on.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👶",
+     "label": "Under-7s free",
+     "pop_html": "<strong>With a paying adult.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gustav III statue",
+     "pop_html": "<strong>Check in at the RED booth, Skeppsbron.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest live-guided archipelago trip, €25.",
+    "skip_html": "if you need step-free boarding: not wheelchair-accessible."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 2-hour cruise and a live English guide; fika or a hot dog as an option."
+     },
+     {
+      "q": "Where do I check in?",
+      "a": "The RED Sightseeing booth by the Gustav III statue, Skeppsbron, 15 minutes early."
+     },
+     {
+      "q": "Do kids pay?",
+      "a": "Under-7s go free with a paying adult."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h guided",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-guided-archipelago-boat-tour-p1116726/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-red-archipelago",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-red-archipelago",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "city",
+    "guide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌉 #5 Best City Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat under a bridge in autumn"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "City Hall from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront buildings"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grand Hôtel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Royal Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-city-highlights-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 135 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dra+Blasieholmshamnen+11%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strömkajen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-highlights-boat-tour-t63533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-city-highlights&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: The Ultimate City Highlights Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "3,033 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(3,033)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-highlights-boat-tour-t63533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-city-highlights-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h 15",
+     "pop_html": "<strong>2 hours 15.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "12 bridges + a lock",
+     "pop_html": "<strong>The fullest city route.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "Old Town to Hammarby",
+     "pop_html": "<strong>Södermalm, Djurgården, Hammarby Sjöstad.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Wi-Fi on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "One accessible boat",
+     "pop_html": "<strong>For manual wheelchairs; ask first.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strömkajen",
+     "pop_html": "<strong>Södra Blasieholmshamnen 11.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most complete city route by water.",
+    "skip_html": "if you'd rather see islands and nature: #1 to #4."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Under 12 bridges and through a lock, past Old Town, Södermalm, Djurgården and Hammarby Sjöstad."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2 hours 15."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live in English."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "One of the boats takes manual wheelchairs; contact the operator."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h 15 guided",
+      "price": "From €26"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-highlights-boat-tour-t63533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-city-highlights&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-city-highlights",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "city",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏱️ #6 Cheapest 1-Hour Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Red boat in Stockholm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal through the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by grand buildings"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront palaces"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the Royal Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gröna Lund from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vasa Museum from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Djurgården canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-bridges-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "RED Sightseeing",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Skeppsbron%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Old Town"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-royal-bridges-canal-boat-tour-with-audio-guide-p1119612/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-royal-bridges",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Royal Bridges &amp; Canal Boat Tour with Audio Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "1,287 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(1,283)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-the-royal-bridges-canal-boat-tour-t61240/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-royal-bridges-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.2",
+       "count": "(4)",
+       "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-royal-bridges-canal-boat-tour-with-audio-guide-p1119612/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-royal-bridges-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>14 languages, earphones included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Djurgården canal",
+     "pop_html": "<strong>Royal Game Park, Gamla Stan views.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👶",
+     "label": "Under-6s free",
+     "pop_html": "<strong>With a paying adult.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Café on board",
+     "pop_html": "<strong>Fika for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Old Town",
+     "pop_html": "<strong>Old Town.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a cheap hour on the water with commentary in your language.",
+    "skip_html": "if you want a live guide: #7."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "1 hour."
+     },
+     {
+      "q": "Is it guided?",
+      "a": "By audio guide in 14 languages, earphones included."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "From Gamla Stan along the Djurgården canal and the bays."
+     },
+     {
+      "q": "Do kids pay?",
+      "a": "Under-6s free with a paying adult."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h, audio guide",
+      "price": "From €18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/stockholm-attractions-c1638/tickets-for-stockholm-royal-bridges-canal-boat-tour-with-audio-guide-p1119612/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-stockholm-royal-bridges",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-royal-bridges",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "city",
+    "guide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌳 #7 Best Short Live-Guided Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Canal boat in autumn colours"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Djurgården canal from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Footbridge over the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal in autumn"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in summer"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-royal-canal-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 50 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dra+Blasieholmshamnen+11%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strömkajen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-royal-djurgarden-boat-tour-t32549/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-royal-canal&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Original Royal Canal Boat Tour with Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "717 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(717)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-royal-djurgarden-boat-tour-t32549/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-royal-canal-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "50 min",
+     "pop_html": "<strong>50 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>The original Royal Canal tour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Royal Djurgården",
+     "pop_html": "<strong>The national city park and museums.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📶",
+     "label": "Wi-Fi",
+     "pop_html": "<strong>Café and bar on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strömkajen",
+     "pop_html": "<strong>Opposite the Grand Hôtel.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic short tour with a live guide.",
+    "skip_html": "if you want islands: #1 to #4."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "About 50 minutes."
+     },
+     {
+      "q": "Is it live-guided?",
+      "a": "Yes, in English."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "Around Djurgården and the Royal National City Park."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "No; wheelchairs can be left on the quay."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "50 min, live guide",
+      "price": "From €18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-royal-djurgarden-boat-tour-t32549/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-royal-canal&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-royal-canal",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "winter",
+    "archipelago",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "❄️ #8 Best Winter Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Couple on deck in winter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snowy Old Town"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from the door"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with blankets"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snowy quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fur-covered seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with mulled wine"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cosy saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ice in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-icebreaker-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 75 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=S%C3%B6dra+Blasieholmshamnen+11%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strömkajen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-winter-boat-tour-with-guide-t33338/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-icebreaker&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Archipelago Icebreaker Boat Tour with Mulled Wine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "1,477 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(1,477)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-winter-boat-tour-with-guide-t33338/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-icebreaker-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 15",
+     "pop_html": "<strong>75 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧊",
+     "label": "Historic icebreaker",
+     "pop_html": "<strong>Breaks through ice when the bay freezes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Mulled wine option",
+     "pop_html": "<strong>With a gingerbread biscuit.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧣",
+     "label": "Blankets + pelts",
+     "pop_html": "<strong>Indoor seats and a large outdoor deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>English and Swedish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strömkajen",
+     "pop_html": "<strong>Södra Blasieholmshamnen 11.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the archipelago in winter, warm and with mulled wine.",
+    "skip_html": "with a pushchair: it stays on the quay."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When does it run?",
+      "a": "In winter, when the regular archipelago cruises stop."
+     },
+     {
+      "q": "Is mulled wine included?",
+      "a": "With the mulled wine ticket option, plus a gingerbread biscuit."
+     },
+     {
+      "q": "Is it warm?",
+      "a": "Yes, indoor seating, fleece blankets and pelts."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "Royal Djurgården and Fjäderholmarna."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€31",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min + mulled wine option",
+      "price": "From €31"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €62"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-winter-boat-tour-with-guide-t33338/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-icebreaker&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-icebreaker",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "archipelago",
+    "food",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #9 Best Lunch Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Historic steamer M/S Östanå I"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ship in autumn"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Plated lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Main course"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fish main course"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-lunch-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandv%C3%A4gen+8%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandvägen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-cruise-with-lunch-guided-t1158822/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-lunch-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Archipelago Lunch Cruise with Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "361 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(361)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-cruise-with-lunch-guided-t1158822/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-lunch-cruise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Main-course lunch",
+     "pop_html": "<strong>Meat, fish or vegetarian.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "M/S Östanå I (1906)",
+     "pop_html": "<strong>Historic ship, restaurant upper deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>English and Swedish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandvägen",
+     "pop_html": "<strong>Berth 15, opposite the Diplomat Hotel.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for lunch on a 1906 steamer while the islands go by.",
+    "skip_html": "if drinks matter: they're extra."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's for lunch?",
+      "a": "One main course: meat, fish or vegetarian."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, they're sold on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Strandvägen berth 15, opposite the Diplomat Hotel."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2.5 hours."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h + main course",
+      "price": "From €50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-cruise-with-lunch-guided-t1158822/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-lunch-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-lunch-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "archipelago",
+    "guide",
+    "food"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛳️ #10 Best Longer Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "White steamer by the city"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide with a microphone"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide in folk costume"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain at the gangway"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at a window table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining area"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Restaurant saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-stockholm/stockholm-boat-tour-sightseeing-ride-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sightseeing Ride",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Gustav+III+statue%2C+Skeppsbron%2C+Stockholm",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skeppsbron"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/stockholm-l50/stockholm-midsummer-archipelago-boat-tour-live-guide-deen-t935996/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sightseeing-ride&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Stockholm: Archipelago Boat Tour with a Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "258 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(258)",
+       "url": "https://www.getyourguide.com/stockholm-l50/stockholm-midsummer-archipelago-boat-tour-live-guide-deen-t935996/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sightseeing-ride-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>History, culture and wildlife.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Bar + restaurant",
+     "pop_html": "<strong>Food and drinks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📶",
+     "label": "Toilets + Wi-Fi",
+     "pop_html": "<strong>Seats for everyone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gustav III statue",
+     "pop_html": "<strong>Skeppsbron.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a longer, unhurried archipelago trip with a restaurant on board.",
+    "skip_html": "on value: #1 includes fika for less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "2.5 hours."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live in English."
+     },
+     {
+      "q": "Can I eat on board?",
+      "a": "Yes, there's a bar and restaurant."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Skeppsbron, by the Gustav III statue; arrive 15 minutes early."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h guided",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/stockholm-l50/stockholm-midsummer-archipelago-boat-tour-live-guide-deen-t935996/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-stockholm-sightseeing-ride&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sto-sightseeing-ride",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

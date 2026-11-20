@@ -1,0 +1,2403 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "riviera",
+    "steamer"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Scenery",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Lavaux vineyards from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Château de Chillon from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Montreux waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck view of the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddle steamer below the Alps"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddle steamer deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lavaux shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crew on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wood-panelled saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-04.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-05.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-06.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-07.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-08.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-09.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-lausanne-lavaux-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "CGN",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+Jean-Pascal+Delamuraz+1%2C+Lausanne",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lausanne-Ouchy"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lausanne-l463/lausanne-3-hour-riviera-and-lavaux-region-cruise-t372775/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-lausanne-lavaux&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lausanne: 3-Hour Riviera and Lavaux Region Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "254 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(254)",
+       "url": "https://www.getyourguide.com/lausanne-l463/lausanne-3-hour-riviera-and-lavaux-region-cruise-t372775/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-lausanne-lavaux-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍇",
+     "label": "Lavaux + Chillon",
+     "pop_html": "<strong>UNESCO vineyards, Montreux, Vevey and Château de Chillon.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Lake steamer",
+     "pop_html": "<strong>1st-class upper deck as an option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Lunch on board",
+     "pop_html": "<strong>Reserve a table for the 11:55 departure.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "App audio guide",
+     "pop_html": "<strong>Download before you board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lausanne-Ouchy",
+     "pop_html": "<strong>Lausanne-Ouchy, Quai Jean-Pascal Delamuraz 1.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most beautiful stretch of the lake, with lunch on board if you book a table.",
+    "skip_html": "if you only have an hour: #3."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "From Lausanne-Ouchy along the Lavaux vineyards to Vevey, Montreux and Château de Chillon."
+     },
+     {
+      "q": "How long is it?",
+      "a": "3 hours."
+     },
+     {
+      "q": "Can I eat on board?",
+      "a": "Yes; reserve a table for the 11:55 departure."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "An audio guide in the app; download it before the cruise."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€59",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h, 2nd class",
+      "price": "From €59"
+     },
+     {
+      "label": "1st class",
+      "small": "upper deck",
+      "price": "option"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €118"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lausanne-l463/lausanne-3-hour-riviera-and-lavaux-region-cruise-t372775/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-lausanne-lavaux&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-lausanne-lavaux",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "riviera",
+    "steamer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏰 #2 Best for Chillon",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Paddle steamer by the Alps"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer by Château de Chillon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer at full speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer below the mountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Chillon from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer with the Swiss flag"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-04.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-05.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-montreux-riviera-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "CGN",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+Edouard-Jaccoud%2C+Montreux",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Montreux"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/montreux-l32355/from-montreux-2-hour-riviera-cruise-t372795/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-montreux-riviera&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Montreux: 2-Hour Riviera Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "712 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(712)",
+       "url": "https://www.getyourguide.com/montreux-l32355/from-montreux-2-hour-riviera-cruise-t372795/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-montreux-riviera-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>About 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏰",
+     "label": "Château de Chillon",
+     "pop_html": "<strong>From the water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Belle Époque steamer",
+     "pop_html": "<strong>Swiss Riviera route.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Lunch option",
+     "pop_html": "<strong>Reserve for the 12:05 departure.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Montreux",
+     "pop_html": "<strong>Quai Edouard-Jaccoud.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you're in Montreux: Chillon and the Riviera in 2 hours.",
+    "skip_html": "if you want Lavaux too: #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Along the Swiss Riviera past Château de Chillon."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 2 hours."
+     },
+     {
+      "q": "Can I eat on board?",
+      "a": "Yes, reserve a table for the 12:05 departure."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Quai Edouard-Jaccoud, Montreux."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€38",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h",
+      "price": "From €38"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €76"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/montreux-l32355/from-montreux-2-hour-riviera-cruise-t372795/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-montreux-riviera&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-montreux-riviera",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 6 photos"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "geneva",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏱️ #3 Best Quick Cruise",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat by the old town"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jet d'Eau and Swiss flag"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on blue water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under clouds"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat with the Alps"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailboats and mountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jet d'Eau"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-04.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-05.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-06.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-07.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-08.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-geneva-50-min-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "CGN",
+    "⏱️ 50 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+du+Mont-Blanc+1%2C+Geneva",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Mont-Blanc pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/geneva-l54/geneva-50-minute-lake-geneva-cruise-t292285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-geneva-50-min&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Geneva: 50-Minute Lake Geneva Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "4,827 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(4,827)",
+       "url": "https://www.getyourguide.com/geneva-l54/geneva-50-minute-lake-geneva-cruise-t292285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-geneva-50-min-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛲",
+     "label": "Jet d'Eau",
+     "pop_html": "<strong>Plus the lakeside villas and parks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "50 minutes",
+     "pop_html": "<strong>Skip-the-line ticket.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "App audio guide",
+     "pop_html": "<strong>Bring headphones.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Mont-Blanc pier",
+     "pop_html": "<strong>Quai du Mont-Blanc 1.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€27 an hour",
+     "pop_html": "<strong>€22 for 50 min,</strong> about €27 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a quick, cheap look at Geneva from the water.",
+    "skip_html": "if you want the Riviera: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "50 minutes."
+     },
+     {
+      "q": "What do you see?",
+      "a": "The Jet d'Eau, the old town skyline and lakeside villas."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "An audio guide in the app; bring headphones and a charged phone."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Mont-Blanc pier, Quai du Mont-Blanc 1."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€22",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "50 min",
+      "price": "From €22"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €44"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/geneva-l54/geneva-50-minute-lake-geneva-cruise-t292285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-geneva-50-min&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-geneva-50-min",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "geneva",
+    "drinks",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #4 Best with Drinks",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boats at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jet d'Eau with a rainbow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the lakefront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jet d'Eau from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jet d'Eau and the city"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-04.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-05.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-wine-snacks-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Swiss Sightseeing Tour",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+du+Mont-Blanc+18%2C+Geneva",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Quai du Mont-Blanc 18"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/geneva-l54/geneva-scenic-lake-cruise-with-snacks-and-wine-t424767/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-wine-snacks&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Geneva: Scenic Lake Cruise with Snacks and Wine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "2,002 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(2,002)",
+       "url": "https://www.getyourguide.com/geneva-l54/geneva-scenic-lake-cruise-with-snacks-and-wine-t424767/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-wine-snacks-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Wine + snacks",
+     "pop_html": "<strong>Included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☀️",
+     "label": "Open boat",
+     "pop_html": "<strong>Stays open in rain; dress for the weather.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💨",
+     "label": "Wind rule",
+     "pop_html": "<strong>Cancelled if too windy.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Quai du Mont-Blanc 18",
+     "pop_html": "<strong>Route Verte boarding point.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an hour on an open boat with a glass of wine.",
+    "skip_html": "if it's cold or wet: the boat is open."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 1-hour cruise, snacks and drinks including wine."
+     },
+     {
+      "q": "Is the boat covered?",
+      "a": "No, it's open, and runs in rain."
+     },
+     {
+      "q": "What about wind?",
+      "a": "It may be cancelled if the wind is too strong."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€31",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h, snacks + wine",
+      "price": "From €31"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €62"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/geneva-l54/geneva-scenic-lake-cruise-with-snacks-and-wine-t424767/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-wine-snacks&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-wine-snacks",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "8 photos on the listing, 2 are not of the lake"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "geneva",
+    "steamer"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚢 #5 Best Steamer from Geneva",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Jet d'Eau from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Steamer by the Jet d'Eau"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lake and mountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-grand-cruise-04.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "CGN",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+du+Mont-Blanc%2C+Geneva",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Geneva"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/geneva-l54/geneva-grand-tour-2-hour-cruise-on-lake-geneva-t613940/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-grand-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Geneva: Grand Cruise on Lake Geneva"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "192 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(192)",
+       "url": "https://www.getyourguide.com/geneva-l54/geneva-grand-tour-2-hour-cruise-on-lake-geneva-t613940/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-grand-cruise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Historic paddle steamer",
+     "pop_html": "<strong>Main and upper decks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 hours",
+     "pop_html": "<strong>Further along the shore.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📱",
+     "label": "CGN Tours app",
+     "pop_html": "<strong>Commentary on your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Food for sale",
+     "pop_html": "<strong>On board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Geneva",
+     "pop_html": "<strong>Geneva.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a paddle steamer without leaving Geneva.",
+    "skip_html": "for scenery: the Riviera (#1, #2) beats the Geneva end."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the boat?",
+      "a": "A historic paddle steamer."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2 hours."
+     },
+     {
+      "q": "Which decks?",
+      "a": "Main deck (2nd class) and upper deck (1st class)."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "In the CGN Tours app."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€43",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h",
+      "price": "From €43"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €86"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/geneva-l54/geneva-grand-tour-2-hour-cruise-on-lake-geneva-t613940/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-grand-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-grand-cruise",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 4 photos"
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "geneva",
+    "drinks"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍾 #6 Best Private Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Glass-sided boat by the Jet d'Eau"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rosé on the table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Table with a view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rainbow over the Jet d'Eau"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmer in the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lake view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a moustache prop"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Birthday group"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-01.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-02.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-03.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-04.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-05.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-06.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-07.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-08.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-09.avif"
+     },
+     {
+      "src": "/assets/lake-geneva-cruises/lake-geneva-cruise-private-aperitif-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Geneva Tour",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Quai+Gustave-Ador+52%2C+Geneva",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Quai Gustave-Ador"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/geneva-l54/geneva-private-360deg-lake-cruise-with-aperitif-t643647/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-private-aperitif&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Geneva: Private 360° Lake Cruise with Aperitif"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "81 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(81)",
+       "url": "https://www.getyourguide.com/geneva-l54/geneva-private-360deg-lake-cruise-with-aperitif-t643647/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-private-aperitif-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍾",
+     "label": "Aperitif",
+     "pop_html": "<strong>Drinks included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Private group",
+     "pop_html": "<strong>Just your party.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide + captain",
+     "pop_html": "<strong>French and English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Quai Gustave-Ador 52",
+     "pop_html": "<strong>Eaux-Vives side.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a birthday or date on a private boat with drinks.",
+    "skip_html": "on a budget: #4 has wine for a third of the price."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is it private?",
+      "a": "Yes, only your group."
+     },
+     {
+      "q": "What's included?",
+      "a": "The 1.5-hour cruise, a guide and captain, and drinks."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Quai Gustave-Ador 52."
+     },
+     {
+      "q": "Languages?",
+      "a": "French and English."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€94",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h, private",
+      "price": "From €94"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €188"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/geneva-l54/geneva-private-360deg-lake-cruise-with-aperitif-t643647/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-lake-geneva-cruises-private-aperitif&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#gva-private-aperitif",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 # trips and 2-day tours. Facts from the live GetYourGuide listings, 20 Nov 2026.
 
 SPEC = dict(
-    related=["ha-long-bay-cruises", "chao-phraya-river-cruises-bangkok", "singapore-river-cruises", "sydney-harbour-cruises"],
+    related=["ha-long-bay-cruises", "chao-phraya-river-cruises-bangkok", "singapore-river-cruises", "harbour-cruises-hong-kong"],
     prefix="mkg",
     photo_stem="mekong-delta-tour",
     year="2026",
