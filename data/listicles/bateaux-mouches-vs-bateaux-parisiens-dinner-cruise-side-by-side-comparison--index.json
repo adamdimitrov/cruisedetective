@@ -322,7 +322,7 @@
     }
    ],
    "title": {
-    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches",
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches",
     "rel": "noopener nofollow sponsored",
     "target": "_blank",
     "text": "Bateaux Mouches Dinner Cruise"
@@ -331,15 +331,15 @@
     "ratings": {
      "stars": "4.44",
      "score": "4.4",
-     "meta": "9.9k+ reviews · 4 sites",
-     "heading": "Average of the booking sites, weighted by number of reviews",
+     "meta": "12k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
      "sites": [
       {
        "kind": "link",
        "site": "Tiqets",
-       "score": "4.7",
-       "count": "(300+)",
-       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches",
+       "score": "4.6",
+       "count": "(400+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches-reviews",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
@@ -347,8 +347,8 @@
        "kind": "link",
        "site": "GetYourGuide",
        "score": "4.5",
-       "count": "(3,470+)",
-       "url": "https://www.getyourguide.com/paris-l16/paris-4-course-dinner-cruise-on-the-seine-river-with-live-music-t2738/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=vs-deck-mouches&mkt_cmp=true",
+       "count": "(4.8k+)",
+       "url": "https://www.getyourguide.com/paris-l16/paris-4-course-dinner-cruise-on-seine-river-with-live-music-t465480/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=vs-deck-mouches&mkt_cmp=vs-deck-mouches",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
@@ -356,17 +356,17 @@
        "kind": "link",
        "site": "Viator",
        "score": "4.4",
-       "count": "(4,590+)",
-       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Mouches-Seine-River-Dinner-Cruise-with-Live-Music%2Fd479-2512DINNER",
+       "count": "(5.3k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Mouches-3-Hour-Seine-River-Cruise-Including-Dinner-and-Live-Music%2Fd479-23561P3",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
       {
        "kind": "link",
        "site": "Tripadvisor",
-       "score": "4.4",
-       "count": "(1,550+)",
-       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches-reviews",
+       "score": "4.3",
+       "count": "(1.7k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11469157-Bateaux_MouchesR_Dinner_Cruise_on_the_Seine_River_in_Paris-Paris_Ile_de_France.html",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       }
@@ -392,9 +392,9 @@
     },
     {
      "cls": "bpa-lang",
-     "emoji": "🍾",
-     "label": "Wine &amp; Champagne",
-     "pop_html": "<strong>A glass of Champagne, 1 L of water and a bottle of wine per 2 people.</strong> The Excellence tier adds a welcome drink and a bottle of Champagne."
+     "emoji": "🥂",
+     "label": "Kir &amp; wine included",
+     "pop_html": "<strong>Harmonie: a glass of kir, 1 glass of wine or a soft drink, water, coffee or tea.</strong> Prestige adds sparkling wine and half a bottle of wine per person; Excellence adds Champagne and window-table priority."
     },
     {
      "cls": "bpa-lang",
@@ -412,7 +412,7 @@
      "cls": "bpa-lang cd-access",
      "emoji": "♿",
      "label": "Access &amp; kids",
-     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> 0 to 3 free (no meal); child menu €37 for ages 4 to 12</span>"
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €45 for ages 4 to 12 (starter, main, dessert, soft drink); free under 4, no meal</span>"
     },
     {
      "cls": "bpa-lang",
@@ -436,8 +436,8 @@
       "a": "Consistently excellent across all courses on my test dinner: beef carpaccio, sea bream and profiteroles stood out, all freshly prepared on board."
      },
      {
-      "q": "What drinks are included?",
-      "a": "A glass of Champagne, 1 L of water and a bottle of wine per 2 people. The Excellence tier adds a welcome drink and a bottle of Champagne."
+      "q": "Which menu should I book?",
+      "a": "Harmonie (€114) for the classic dinner with kir and a glass of wine. Prestige (€135) adds sparkling wine, half a bottle of wine per person and a cheese option. Excellence (€170) adds Champagne, a cheese course and window-table priority."
      },
      {
       "q": "Can I go outside?",
@@ -445,18 +445,49 @@
      },
      {
       "q": "Can kids come?",
-      "a": "Yes: 0 to 3 year olds go free (no meal), and the child menu for ages 4 to 12 is €37."
+      "a": "Yes: ages 4 to 12 pay €45 for starter, main, dessert and a soft drink, and under 4s go free (no meal)."
      }
     ]
    },
    "price": {
-    "main": "€125",
-    "sub": "per person, from",
-    "note": "Seating tiers and prices are compared in the matrix below. The final price is shown before you pay."
+    "main": "€114",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Harmonie menu",
+      "small": "kir, 1 glass of wine",
+      "price": "€114"
+     },
+     {
+      "label": "Prestige menu",
+      "small": "half a bottle of wine pp",
+      "price": "€135"
+     },
+     {
+      "label": "Excellence menu",
+      "small": "Champagne, window priority",
+      "price": "€170"
+     },
+     {
+      "label": "Child",
+      "small": "4-12, 3 courses",
+      "price": "€45"
+     },
+     {
+      "label": "Under 4",
+      "small": "no meal",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (4-12), Harmonie",
+     "price": "€318"
+    },
+    "note": "Seat and menu tiers are compared in the matrix below. The final price is shown before you pay."
    },
    "cta": {
     "btn": {
-     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches",
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-by-bateaux-mouches-p982924/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-mouches",
      "rel": "noopener nofollow sponsored",
      "target": "_blank",
      "text": "Check Availability →"
@@ -476,8 +507,7 @@
    "id": "card-2",
    "cats": [
     "eiffel",
-    "glass",
-    "early"
+    "glass"
    ],
    "gallery": {
     "rank": {
@@ -787,24 +817,24 @@
     }
    ],
    "title": {
-    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-river-bateaux-parisiens-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens",
+    "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens",
     "rel": "noopener nofollow sponsored",
     "target": "_blank",
     "text": "Bateaux Parisiens Dinner Cruise"
    },
    "reviews": {
     "ratings": {
-     "stars": "4.52",
+     "stars": "4.51",
      "score": "4.5",
-     "meta": "16k+ reviews · 4 sites",
-     "heading": "Average of the booking sites, weighted by number of reviews",
+     "meta": "20k+ reviews · 4 sites",
+     "heading": "Average of 4 booking sites, weighted by number of reviews",
      "sites": [
       {
        "kind": "link",
        "site": "Tiqets",
-       "score": "4.6",
-       "count": "(310+)",
-       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-river-bateaux-parisiens-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens",
+       "score": "4.7",
+       "count": "(350+)",
+       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens-reviews",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
@@ -812,8 +842,8 @@
        "kind": "link",
        "site": "GetYourGuide",
        "score": "4.7",
-       "count": "(6,570+)",
-       "url": "https://www.getyourguide.com/paris-l16/paris-seine-river-dinner-cruise-with-live-music-t2735/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=vs-deck-parisiens&mkt_cmp=true",
+       "count": "(9k+)",
+       "url": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-dinner-cruise-t51059/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=vs-deck-parisiens&mkt_cmp=vs-deck-parisiens",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
@@ -821,17 +851,17 @@
        "kind": "link",
        "site": "Viator",
        "score": "4.4",
-       "count": "(6,630+)",
-       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FBateaux-Parisiens-Seine-River-Dinner-Cruise-and-Live-Music%2Fd479-2512PARIS",
+       "count": "(7.5k+)",
+       "url": "https://tp.media/r?campaign_id=47&marker=404154&p=1922&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.viator.com%2Ftours%2FParis%2FSeine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music%2Fd479-5836DINNERCRUISE",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       },
       {
        "kind": "link",
        "site": "Tripadvisor",
-       "score": "4.4",
-       "count": "(2,830+)",
-       "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-river-bateaux-parisiens-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens-reviews",
+       "score": "4.3",
+       "count": "(3.1k+)",
+       "url": "https://tp.media/r?campaign_id=149&marker=404154&p=4456&sub_id=bateaux_mouches_vs_bateaux_p_en_pop&trs=327188&u=https%3A%2F%2Fwww.tripadvisor.com%2FAttractionProductReview-g187147-d11979678-Bateaux_Parisiens_Seine_River_Gourmet_Dinner_Sightseeing_Cruise-Paris_Ile_de_Franc.html",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       }
@@ -846,8 +876,8 @@
     {
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
-     "label": "20:30 or 18:15",
-     "pop_html": "<strong>2h30 at 8:30 PM</strong>, or 1h15 on the early 6:15 PM sailing.<span class=\"bpa-lang-note\"><b>📍 Port de la Bourdonnais, Pier 5/7:</b> 7th arrondissement, right under the Eiffel Tower. Free parking during the cruise.</span>"
+     "label": "20:30 · 2h 30m",
+     "pop_html": "<strong>One sailing a night at 8:30 PM, for 2 hours 30 minutes.</strong><span class=\"bpa-lang-note\"><b>📍 Port de la Bourdonnais, Pier 5/7:</b> 7th arrondissement, right under the Eiffel Tower. Free parking during the cruise.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -865,7 +895,7 @@
      "cls": "bpa-lang",
      "emoji": "🪑",
      "label": "Window by tier",
-     "pop_html": "<strong>Seats depend on the tier:</strong> Étoile tables are in the centre; Privilège and Premier get the windows."
+     "pop_html": "<strong>Seats depend on the tier:</strong> Étoile and Découverte sit in the centre of the boat; Privilège guarantees a window table and Premier the front of the salon."
     },
     {
      "cls": "bpa-lang",
@@ -883,7 +913,7 @@
      "cls": "bpa-lang cd-access",
      "emoji": "♿",
      "label": "Access &amp; kids",
-     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> 0 to 3 free; 66% off the Étoile ticket for ages 0 to 11</span>"
+     "pop_html": "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €40 Étoile ticket for children up to 11</span>"
     }
    ],
    "best_for": {
@@ -898,7 +928,7 @@
      },
      {
       "q": "Will I get a window table?",
-      "a": "Only on the higher tiers: Étoile tables are in the centre, Privilège and Premier are by the windows."
+      "a": "Only on the higher tiers: Étoile and Découverte sit in the centre, Privilège guarantees a window table and Premier the front of the salon."
      },
      {
       "q": "How was the food?",
@@ -909,19 +939,50 @@
       "a": "Only a little: there is a small open-air section at the back, and no roof deck during dinner."
      },
      {
-      "q": "Is there an earlier sailing?",
-      "a": "Yes, a 1h15 sailing at 6:15 PM, as well as the 2h30 cruise at 8:30 PM."
+      "q": "Which ticket should I book?",
+      "a": "Étoile (€115): 3 courses, kir and wine (1 bottle per 4). Découverte (€139) adds Champagne. Privilège (€185) adds cheese and a guaranteed window table. Premier (€215): 5 courses and the front tables."
      }
     ]
    },
    "price": {
-    "main": "€85",
-    "sub": "per person, from",
-    "note": "Seating tiers and prices are compared in the matrix below. The final price is shown before you pay."
+    "main": "€115",
+    "sub": "per adult",
+    "rows": [
+     {
+      "label": "Étoile",
+      "small": "3 courses, kir, wine",
+      "price": "€115"
+     },
+     {
+      "label": "Découverte",
+      "small": "adds Champagne",
+      "price": "€139"
+     },
+     {
+      "label": "Privilège",
+      "small": "cheese, window table",
+      "price": "€185"
+     },
+     {
+      "label": "Premier",
+      "small": "5 courses, front tables",
+      "price": "€215"
+     },
+     {
+      "label": "Child",
+      "small": "up to 11, Étoile",
+      "price": "€40"
+     }
+    ],
+    "total": {
+     "label": "2 adults + 2 kids (up to 11), Étoile",
+     "price": "€310"
+    },
+    "note": "Seat and menu tiers are compared in the matrix below. The final price is shown before you pay."
    },
    "cta": {
     "btn": {
-     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-dinner-cruise-on-the-seine-river-bateaux-parisiens-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens",
+     "url": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-gourmet-dinner-cruise-on-the-seine-p974358/?partner=thecruisedetective.com-176436&tq_campaign=vs-deck-parisiens",
      "rel": "noopener nofollow sponsored",
      "target": "_blank",
      "text": "Check Availability →"
