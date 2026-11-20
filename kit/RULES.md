@@ -81,11 +81,20 @@ only where it is stricter. Breaking one of these costs money or rankings.
   master page, then run the site's layout sync (`scripts/sync_layout.py`).
 
 ## 7. Photos
-- Only our own photos (local files) or hosts listed in `site.json` `images.allowed_hosts`.
-  Never hotlink a photo from someone else's site, never copy someone else's photos in.
+- Only local files (`/assets/...`) or hosts listed in `site.json` `images.allowed_hosts`.
+  Never hotlink a photo from someone else's site.
+- A card's photos come only from the exact product the card books (its own listing on
+  GetYourGuide, Tiqets, TourRadar, Hostelworld, the operator's product page) or are our own.
+  Never another tour's photos, never the same operator's other product.
 - Image paths are absolute (`/assets/...`), never relative (`assets/...`) and never a
   local machine path (`/Users/...`).
-- Carousels: never cap, pad or reorder a product's photos. One photo → no arrows, no pill.
+- Card sliders hold 9-10 photos where the listing has them: top up with
+  `scripts/photo_topup.py` (new articles: put the whole product gallery in the spec's
+  `gallery`). If the listing has fewer, the card stays short and `photo_topup.py skip`
+  records why. Keep our own photos.
+- Order each slider to sell the card's promise: first photo = the money shot, then the
+  story. Drop off-topic shots, menus, maps, text boards and near-duplicates. Pick from the
+  contact sheet, never by filename. One photo → no arrows, no pill.
 - Replacing an image: new filename, never overwrite an existing asset (1-year cache).
 
 ## 8. Caching and infrastructure
