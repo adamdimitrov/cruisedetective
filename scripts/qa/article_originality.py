@@ -130,7 +130,7 @@ def main():
 
     # uniqueness against every other EN article
     me_t, me_s, me_p = title_words(title), shingles(text), products(slug)
-    worst_t, worst_s, worst_p = (0.0, None), (0.0, None), (0.0, None)
+    worst_t, worst_s, worst_p = (0.0, ""), (0.0, ""), (0.0, "")
     for p in en_articles():
         if p == slug:
             continue

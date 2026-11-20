@@ -1,0 +1,4240 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "mansions",
+    "bilingual",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Bayride boat on Biscayne Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront palms and mansions"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bayride boat cruising"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mansion on Star Island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island homes from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Miami skyline at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the SkyViews wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-bayride-millionaires-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bayride Tours",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bayside+Marketplace%2C+401+Biscayne+Blvd%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bayside Marketplace"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-millionaire-s-homes-sightseeing-cruise-t643959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-bayride-millionaires&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami: Biscayne Bay Millionaires' Homes Sightseeing Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "9,621 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(9,621)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-millionaire-s-homes-sightseeing-cruise-t643959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-bayride-millionaires-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Star Island + more",
+     "pop_html": "<strong>Star, Hibiscus, Sunset and the Venetian Islands,</strong> and the homes of the rich and famous."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide, EN/ES",
+     "pop_html": "<strong>Bilingual commentary from a live guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Cruise ships",
+     "pop_html": "<strong>Look out for the giant ships at PortMiami.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Open voucher",
+     "pop_html": "<strong>Miss your departure and the ticket becomes an open voucher</strong> for another tour.<span class=\"bpa-lang-note\">Bayside parking from about $10 for 2 hours.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bayside Marketplace",
+     "pop_html": "<strong>Bayside Marketplace, 401 Biscayne Blvd.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Miami boat ride at the lowest price: €18, 9,621 reviews.",
+    "skip_html": "if you want a smaller boat or kayaking: see #3 or #7."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "Star, Hibiscus, Sunset and the Venetian Islands with celebrity homes, the skyline and PortMiami."
+     },
+     {
+      "q": "Is the guide bilingual?",
+      "a": "Yes, live commentary in English and Spanish."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Bayside Marketplace, 401 Biscayne Blvd."
+     },
+     {
+      "q": "What if I miss it?",
+      "a": "Your ticket becomes an open voucher for another tour."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, live bilingual guide",
+      "price": "From €18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-millionaire-s-homes-sightseeing-cruise-t643959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-bayride-millionaires&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-bayride-millionaires",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "mansions",
+    "bilingual"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛳️ #2 The Original",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Island Queen boat with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the SkyViews wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests looking at a waterfront mansion"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Island Queen's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island Queen on Biscayne Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing a mansion"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat passing the islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island Queen cruising"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-island-queen-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-island-queen-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Island Queen Cruises",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Island+Queen+Cruises%2C+401+Biscayne+Blvd%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bayside Marketplace"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/90-minute-sightseeing-cruise-on-miami-s-biscayne-bay-t21738/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-island-queen&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami: The Original Millionaire's Row Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,147 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,147)",
+       "url": "https://www.getyourguide.com/miami-l176/90-minute-sightseeing-cruise-on-miami-s-biscayne-bay-t21738/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-island-queen-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⭐",
+     "label": "Celebrity homes",
+     "pop_html": "<strong>Homes linked to Shaquille O'Neal, Gloria Estefan,</strong> P. Diddy, Thalia and more."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Narrated EN/ES",
+     "pop_html": "<strong>90 minutes with narration in English and Spanish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Cash bar",
+     "pop_html": "<strong>Drinks and light snacks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪑",
+     "label": "First come, first served",
+     "pop_html": "<strong>Seating isn't assigned.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bayside Marketplace",
+     "pop_html": "<strong>Bayside Marketplace, 401 Biscayne Blvd.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the original Millionaire's Row cruise, with the celebrity stories.",
+    "skip_html": "on a budget: #1 covers the same water for €14 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Whose homes will I see?",
+      "a": "Homes linked to Shaquille O'Neal, Gloria Estefan, P. Diddy, Thalia and others."
+     },
+     {
+      "q": "Is it narrated?",
+      "a": "Yes, in Spanish and English."
+     },
+     {
+      "q": "Can I buy drinks?",
+      "a": "Yes, at the cash bar."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Island Queen Cruises, Bayside Marketplace, 401 Biscayne Blvd."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€32",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min narrated",
+      "price": "From €32"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €64"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/90-minute-sightseeing-cruise-on-miami-s-biscayne-bay-t21738/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-island-queen&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-island-queen",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "mansions",
+    "bilingual",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛥️ #3 Best Double-Decker",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Star Island from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest looking at the mansions"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Miami On The Water double-decker"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Aerial view of the islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Downtown skyline from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dolphin by the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-celebrity-homes-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Miami On The Water",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bayside+Marketplace%2C+401+Biscayne+Blvd%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bayside Marketplace"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-celebrity-homes-boat-tour-with-guide-t632188/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-celebrity-homes&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami: Celebrity Homes Boat Tour with Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "241 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(241)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-celebrity-homes-boat-tour-with-guide-t632188/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-celebrity-homes-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Star Island + Millionaire's Row",
+     "pop_html": "<strong>Celebrity homes, PortMiami and the Venetian Islands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Double-decker",
+     "pop_html": "<strong>Two decks for the views.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "EN/ES guide",
+     "pop_html": "<strong>Local guide narration in English and Spanish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Arrive 40 min early",
+     "pop_html": "<strong>Check-in 40 minutes before; bring the card you paid with and ID.</strong> Not wheelchair accessible."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bayside Marketplace",
+     "pop_html": "<strong>Bayside Marketplace, 401 Biscayne Blvd.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a double-decker view of Millionaire's Row at €27.",
+    "skip_html": "if you're often late: check-in closes 40 minutes before."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "Star Island and Millionaire's Row, the skyline, PortMiami and the Venetian Islands."
+     },
+     {
+      "q": "Is it narrated?",
+      "a": "Yes, by a local guide in English and Spanish."
+     },
+     {
+      "q": "When should I arrive?",
+      "a": "40 minutes early, with the card you booked with and a photo ID."
+     },
+     {
+      "q": "Is it wheelchair accessible?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, live guide",
+      "price": "From €27"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-celebrity-homes-boat-tour-with-guide-t632188/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-celebrity-homes&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-celebrity-homes",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 6 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "mansions",
+    "bilingual",
+    "toilet",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍾 #4 Best with Drinks Options",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Two-level boat on Biscayne Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront mansion with a dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at the marina at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands at night from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Miami skyline at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests toasting"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide with a microphone"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-skyline-aqua-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Miami Aqua Tours",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bayside+Marketplace%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option, Miami"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-skyline-sightseeing-cruise-millionaire-hou-t440094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-skyline-aqua&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Skyline Sightseeing Cruise and Millionaire's Homes"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "542 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(542)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-skyline-sightseeing-cruise-millionaire-hou-t440094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-skyline-aqua-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍾",
+     "label": "Champagne or open bar",
+     "pop_html": "<strong>Options with a bottle of champagne for 2</strong> or an open bar."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Bilingual guide",
+     "pop_html": "<strong>Live commentary in English and Spanish, music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚻",
+     "label": "Toilet + upper deck",
+     "pop_html": "<strong>Two-level boat with an open-air upper deck and a toilet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Check in 30 min early",
+     "pop_html": "<strong>Seating is first come, first served;</strong> if full, you go on the next departure."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option, Miami",
+     "pop_html": "<strong>By option, Miami.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a celebration: the classic route with champagne or an open bar added.",
+    "skip_html": "if ratings matter: 4.2 is a notch below #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Are drinks included?",
+      "a": "Only on the champagne (1 bottle for 2) or open-bar options; otherwise drinks are for sale."
+     },
+     {
+      "q": "Is it bilingual?",
+      "a": "Yes, live commentary in English and Spanish."
+     },
+     {
+      "q": "Is there a toilet?",
+      "a": "Yes."
+     },
+     {
+      "q": "When should I arrive?",
+      "a": "30 minutes early; seating is first come, first served."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min",
+      "price": "From €27"
+     },
+     {
+      "label": "Upgrades",
+      "small": "bottle of champagne for 2, or open bar",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-skyline-sightseeing-cruise-millionaire-hou-t440094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-skyline-aqua&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-skyline-aqua",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "sunset",
+    "mansions",
+    "bilingual",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌇 #5 Cheapest Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guest at the rail at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Downtown at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront home at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront homes lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mansion with a lit dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests watching the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Palms and mansions at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfront at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-water-taxi-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Water Taxi Miami",
+    "⏱️ 75 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bayside+Marketplace%2C+401+Biscayne+Blvd%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bayside Marketplace"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-sunset-boat-cruise-millionair-t476714/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-water-taxi-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami Biscayne Bay: Sunset Boat Cruise &amp; Millionaire Homes"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "3.70",
+     "score": "3.7",
+     "meta": "736 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "3.7",
+       "count": "(736)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-sunset-boat-cruise-millionair-t476714/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-water-taxi-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "60 to 75 min",
+     "pop_html": "<strong>60 to 75 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌇",
+     "label": "Sunset",
+     "pop_html": "<strong>75 minutes between Miami and Miami Beach at sunset,</strong> with both skylines."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "EN/ES commentary",
+     "pop_html": "<strong>Captain and crew commentary in English and Spanish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No toilets",
+     "pop_html": "<strong>There are no toilets on board.</strong> No outside food or drinks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Check-in closes 10 min before",
+     "pop_html": "<strong>Departs from Bayside Marketplace.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bayside Marketplace",
+     "pop_html": "<strong>Bayside Marketplace.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest sunset on Biscayne Bay: €23.",
+    "skip_html": "if comfort matters: no toilets, and the lowest rating here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "60 to 75 minutes at sunset."
+     },
+     {
+      "q": "Is there a toilet?",
+      "a": "No, use one before you board."
+     },
+     {
+      "q": "Can I bring drinks?",
+      "a": "No outside food or drinks; drinks are for sale."
+     },
+     {
+      "q": "Is it bilingual?",
+      "a": "Yes, English and Spanish."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€23",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min at sunset",
+      "price": "From €23"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €46"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-sunset-boat-cruise-millionair-t476714/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-water-taxi-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-water-taxi-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "sunset",
+    "mansions",
+    "toilet"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #6 Best Sunset Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Biscayne Bay at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat anchored on blue water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Party boat at the marina"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-sunset-party-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Aqua Party Boat",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1635+N+Bayshore+Dr%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Venetian Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-floating-happy-hour-cruise-skyline-river-v-t1216733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-sunset-party-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami Sunset Boat Tour: Celebrity Mansions &amp; Skyline"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "39 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(39)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-floating-happy-hour-cruise-skyline-river-v-t1216733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-sunset-party-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Bay + Miami River",
+     "pop_html": "<strong>Two hours through Biscayne Bay and the Miami River at sunset.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Music + bar",
+     "pop_html": "<strong>Music on board; beer, wine and seltzers for sale.</strong> Unlimited open bar upgrade at check-in."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚻",
+     "label": "Toilet + water",
+     "pop_html": "<strong>Bottled water and a toilet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💵",
+     "label": "$10 cash tip",
+     "pop_html": "<strong>A $10 cash tip per person for the crew is expected.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Venetian Marina",
+     "pop_html": "<strong>Venetian Marina, 1635 N Bayshore Dr.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a longer, livelier sunset: 2 hours, music and the Miami River.",
+    "skip_html": "if you hate surprise extras: budget the $10 tip."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the route?",
+      "a": "Biscayne Bay and the Miami River, past the skyline and celebrity mansions."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Bottled water; beer, wine and seltzers are for sale, with an open-bar upgrade at check-in."
+     },
+     {
+      "q": "Is a tip expected?",
+      "a": "Yes, $10 cash per person is customary."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Venetian Marina, 1635 N Bayshore Dr."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€54",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h sunset",
+      "price": "From €54"
+     },
+     {
+      "label": "Crew tip",
+      "small": "customary, cash",
+      "price": "$10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €108"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-floating-happy-hour-cruise-skyline-river-v-t1216733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-sunset-party-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-sunset-party-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "eco",
+    "toilet"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛶 #7 Best Nature Trip",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Kayaking in the mangroves"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayakers in a mangrove channel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group with kayaks and paddleboards"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Raccoon in a tree"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Raccoon on Raccoon Island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddleboarder in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayakers in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking over clear shallows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Egret on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pelicans in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-boat-kayak-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Soflo Water Adventures",
+    "⏱️ 4.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Venetian+Marina+%26+Yacht+Club%2C+1635+N+Bayshore+Dr%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Venetian Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-ultimate-boat-tour-with-kayak-t1043052/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-boat-kayak&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami: Biscayne Bay Ultimate Boat Tour with Kayak Experience"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "496 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(496)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-ultimate-boat-tour-with-kayak-t1043052/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-boat-kayak-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4.5 h",
+     "pop_html": "<strong>4.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Mangrove kayak",
+     "pop_html": "<strong>A guided kayak tour through mangrove tunnels.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🦝",
+     "label": "Raccoon + Bird Island",
+     "pop_html": "<strong>Raccoon Island and the Bird Island rookery,</strong> with views of Indian Creek Island.<span class=\"bpa-lang-note\">Don't touch the raccoons.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Swim + snorkel",
+     "pop_html": "<strong>Swimming and snorkelling stops.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍉",
+     "label": "Drinks + fruit",
+     "pop_html": "<strong>Cold drinks and a fresh fruit snack.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Venetian Marina",
+     "pop_html": "<strong>Venetian Marina, 1635 N Bayshore Dr.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most memorable half day: mangroves, wildlife and a swim, not just mansions.",
+    "skip_html": "if you only have 90 minutes: take #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A boat tour, a guided mangrove kayak, Bird Island, Raccoon Island, swimming and snorkelling, cold drinks and fruit."
+     },
+     {
+      "q": "Will I see wildlife?",
+      "a": "Often dolphins, manatees, birds and the raccoons of Raccoon Island."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Venetian Marina & Yacht Club, 1635 N Bayshore Dr."
+     },
+     {
+      "q": "Is transport included?",
+      "a": "No, you get to the marina yourself."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€67",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4.5 h boat + guided kayak",
+      "price": "From €67"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €134"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-biscayne-bay-ultimate-boat-tour-with-kayak-t1043052/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-boat-kayak&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-boat-kayak",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "combo",
+    "mansions",
+    "bilingual"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚌 #8 Best First-Day Combo",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat on Biscayne Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Downtown from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat deck view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Miami Beach sign"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Street art in Little Havana"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Street art murals"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-city-and-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Key West Sightseeing Tours",
+    "⏱️ 6 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bayside+Marketplace%2C+401+Biscayne+Blvd%2C+Miami",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bayside Marketplace"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-5-in-1-city-tour-and-biscayne-bay-boat-cru-t1089433/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-city-and-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami: 5-in-1 City Tour and Biscayne Bay Boat Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "624 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(624)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-5-in-1-city-tour-and-biscayne-bay-boat-cru-t1089433/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-city-and-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "6 h",
+     "pop_html": "<strong>6 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Semi-private city tour",
+     "pop_html": "<strong>Max 13 passengers, air-conditioned,</strong> with a live guide in English and Spanish."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "5 sights in one",
+     "pop_html": "<strong>Ocean Drive's Art Deco, Little Havana's Cuban culture</strong> and more, plus the Biscayne Bay cruise."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Cuban coffee",
+     "pop_html": "<strong>Cuban coffee and unlimited water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bayside",
+     "pop_html": "<strong>Check in 15 minutes early at Bayside Marketplace.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a first day: the city's highlights by van and the bay by boat, €41.",
+    "skip_html": "if you're short on time: it's 6 hours."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What does it include?",
+      "a": "A semi-private city tour (max 13), a sightseeing boat cruise, transport, a bilingual guide, Cuban coffee and water."
+     },
+     {
+      "q": "Which areas?",
+      "a": "Including Ocean Drive's Art Deco and Little Havana."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Bayside Marketplace, 401 Biscayne Blvd."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€41",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "city tour + boat",
+      "price": "From €41"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €82"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-5-in-1-city-tour-and-biscayne-bay-boat-cru-t1089433/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-city-and-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-city-and-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "everglades"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🐊 #9 Best Day Out of Town",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Airboat in the Everglades"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat with alligators nearby"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat skimming the grass"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat in a channel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat among trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Young alligator"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Everglades waterway"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the airboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat under trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-miami/miami-boat-tour-everglades-airboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "US2U Tours",
+    "⏱️ 5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Everglades%2C+Florida",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Miami / Miami Beach pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/miami-l176/miami-everglades-airboat-gator-experience-with-t-t644959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-everglades-airboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Miami Beach: Everglades Gator Spotting Tour &amp; Free Pickup"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "44 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(44)",
+       "url": "https://www.getyourguide.com/miami-l176/miami-everglades-airboat-gator-experience-with-t-t644959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-everglades-airboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐊",
+     "label": "Airboat + gators",
+     "pop_html": "<strong>An airboat ride with commentary</strong> and an alligator experience."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Transport included",
+     "pop_html": "<strong>Return bus from central Miami or Miami Beach meeting points.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Park fees included",
+     "pop_html": "<strong>All Everglades park fees for US and non-US citizens.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 to 6 hours",
+     "pop_html": "<strong>Depending on your meeting point and traffic.</strong> Not for under-3s or pregnancy."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Miami / Miami Beach pick-up",
+     "pop_html": "<strong>Central Miami or Miami Beach meeting point.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Everglades without a car: transport, airboat and fees in one price.",
+    "skip_html": "if you want Miami's skyline: this is out of town."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is transport included?",
+      "a": "Yes, from central meeting points in Miami or Miami Beach."
+     },
+     {
+      "q": "Are park fees included?",
+      "a": "Yes, for US and non-US citizens."
+     },
+     {
+      "q": "Is the airboat covered?",
+      "a": "It depends on weather, heat, season and occupancy."
+     },
+     {
+      "q": "How long does it take?",
+      "a": "About 4 to 6 hours in total."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€64",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "transport + airboat + park fees",
+      "price": "From €64"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €128"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/miami-l176/miami-everglades-airboat-gator-experience-with-t-t644959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-miami-everglades-airboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mia-everglades-airboat",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

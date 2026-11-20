@@ -758,6 +758,46 @@
       "destination": "/vistula-river-cruises-warsaw/index.html"
     },
     {
+      "source": "/chicago-architecture-boat-tours",
+      "destination": "/chicago-architecture-boat-tours/index.html"
+    },
+    {
+      "source": "/niagara-falls-boat-tours",
+      "destination": "/niagara-falls-boat-tours/index.html"
+    },
+    {
+      "source": "/boat-tours-boston",
+      "destination": "/boat-tours-boston/index.html"
+    },
+    {
+      "source": "/boat-tours-san-diego",
+      "destination": "/boat-tours-san-diego/index.html"
+    },
+    {
+      "source": "/boat-tours-miami",
+      "destination": "/boat-tours-miami/index.html"
+    },
+    {
+      "source": "/boat-tours-new-orleans",
+      "destination": "/boat-tours-new-orleans/index.html"
+    },
+    {
+      "source": "/gondola-rides-venice",
+      "destination": "/gondola-rides-venice/index.html"
+    },
+    {
+      "source": "/boat-tours-lake-como",
+      "destination": "/boat-tours-lake-como/index.html"
+    },
+    {
+      "source": "/ha-long-bay-cruises",
+      "destination": "/ha-long-bay-cruises/index.html"
+    },
+    {
+      "source": "/chao-phraya-river-cruises-bangkok",
+      "destination": "/chao-phraya-river-cruises-bangkok/index.html"
+    },
+    {
       "source": "/prague-river-cruises",
       "destination": "/prague-river-cruises/index.html"
     },

@@ -1,0 +1,3977 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "shared",
+    "prosecco",
+    "budget",
+    "stops"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Lake Como villa from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain Mario at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The lake from the boat's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests taking in the view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa del Balbianello from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over Lake Como"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lakeside villa and gardens"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A grand villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-captain-mario-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Captain Mario",
+    "⏱️ 1 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Viale+Geno+12%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Viale Geno, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/laglio-l192175/lake-como-boat-experience-with-aperitif-and-t1267321/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-captain-mario&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Como: Comfortable Spacious Boat Tour (1 to 4 Hours, Bellagio/Varenna) with Prosecco"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "267 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(267)",
+       "url": "https://www.getyourguide.com/laglio-l192175/lake-como-boat-experience-with-aperitif-and-t1267321/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-captain-mario-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1, 2 or 4 h",
+     "pop_html": "<strong>1, 2 or 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "1, 2 or 4 hours",
+     "pop_html": "<strong>Pick 1 or 2 hours past the villas near Como,</strong> or 4 hours with Bellagio and Varenna."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Captain's stories",
+     "pop_html": "<strong>Captain Mario and crew tell the stories</strong> of the villas and villages you pass."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Prosecco aperitif",
+     "pop_html": "<strong>An aperitif on board</strong> with Italian Prosecco and soft drinks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👟",
+     "label": "Shoes off on board",
+     "pop_html": "<strong>Remove your shoes on the jetty</strong> to keep the boat clean.<span class=\"bpa-lang-note\">Not for pregnant travellers or motion sickness.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Viale Geno, Como",
+     "pop_html": "<strong>Viale Geno 12, Como.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated shared boat from Como: a small group, a captain who talks, Prosecco included.",
+    "skip_html": "if you want to get off and visit villas: stops and villa tickets aren't included."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "1, 2 or 4 hours; the 4-hour option includes Bellagio and Varenna."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Viale Geno 12, on the Como waterfront."
+     },
+     {
+      "q": "Is a drink included?",
+      "a": "Yes, an aperitif with Italian Prosecco and soft drinks."
+     },
+     {
+      "q": "Are villa visits included?",
+      "a": "No: stops with landing and villa tickets are extra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€49",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 hour, small group",
+      "price": "From €49"
+     },
+     {
+      "label": "4-hour option",
+      "small": "with Bellagio and Varenna",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €98"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/laglio-l192175/lake-como-boat-experience-with-aperitif-and-t1267321/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-captain-mario&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-captain-mario",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "shared",
+    "wooden",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🪵 #2 Best Wooden Boat",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Venetian wooden taxi on Lake Como"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests boarding the wooden taxi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden boat by a lakeside villa"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden taxi cruising past the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden taxi speeding on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden taxi at the jetty"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests waving from the wooden taxi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hostess and guests on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lakeside village from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-venetian-taxi-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Urban Emotions",
+    "⏱️ 75 Min to 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Como+lakefront+jetty%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Como jetty (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/como-boat-experience-shared-boat-tour-t994021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-venetian-taxi&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como: Premium Shared Boat Tour on a Venetian Wooden Taxi"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "445 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(445)",
+       "url": "https://www.getyourguide.com/como-l101235/como-boat-experience-shared-boat-tour-t994021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-venetian-taxi-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "75 min to 2 h",
+     "pop_html": "<strong>75 minutes to 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪵",
+     "label": "Venetian wooden taxi",
+     "pop_html": "<strong>An authentic varnished wooden water taxi,</strong> the most photogenic boat on the lake."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide, 10 languages",
+     "pop_html": "<strong>An audio guide in 10 languages</strong> plus an English-speaking hostess."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Min. 5 to sail",
+     "pop_html": "<strong>The tour runs once 5 people have booked.</strong> No toilet on board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Meet at the jetty",
+     "pop_html": "<strong>Meet staff in Gimbus uniform 15 minutes early</strong> at the Experience Point by the jetty."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the wooden-boat look at a shared price, with commentary in your language.",
+    "skip_html": "with a toddler: it isn't suitable for under-3s, and there's no toilet."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What boat is it?",
+      "a": "An authentic Venetian wooden taxi boat."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, an audio guide in 10 languages and an English-speaking hostess."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "At the Gimbus Experience Point by the jetty in Como, 15 minutes before departure."
+     },
+     {
+      "q": "Is there a toilet?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€49",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min, shared",
+      "price": "From €49"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €98"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/como-boat-experience-shared-boat-tour-t994021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-venetian-taxi&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-venetian-taxi",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "shared",
+    "wooden",
+    "prosecco",
+    "stops"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "✨ #3 Best Small Wooden Boat",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Restored wooden boat on Lake Como"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden boat at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden boat from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat's leather seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the wooden deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grand hotel at night from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A lit villa at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa garden from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests cruising at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-classic-wooden-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The View Lake Como",
+    "⏱️ 1 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pontile+Villa+Margherita%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Villa Margherita jetty"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/lake-maggiore-classic-wooden-boat-cruise-shared-t1166733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-classic-wooden&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como: Classic Wooden Boat Cruise Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "554 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(554)",
+       "url": "https://www.getyourguide.com/como-l101235/lake-maggiore-classic-wooden-boat-cruise-shared-t1166733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-classic-wooden-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 4 h",
+     "pop_html": "<strong>1 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪵",
+     "label": "Restored classic boat",
+     "pop_html": "<strong>A beautifully restored vintage wooden boat,</strong> space for only 8 guests."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Glass of Prosecco",
+     "pop_html": "<strong>Included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "1 to 4 hours",
+     "pop_html": "<strong>The 1-hour tour stays near Como;</strong> the 4-hour tour stops in Bellagio and Varenna."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Villa Margherita jetty",
+     "pop_html": "<strong>Board at the Villa Margherita jetty in Como,</strong> 15 minutes before departure.<span class=\"bpa-lang-note\">Weekend departures can run late.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most intimate shared ride: 8 guests on a restored classic boat, Prosecco in hand.",
+    "skip_html": "if you want Bellagio on a short trip: the 1-hour tour doesn't go that far."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many guests?",
+      "a": "Up to 8 on the boat."
+     },
+     {
+      "q": "Is a drink included?",
+      "a": "Yes, a glass of Prosecco."
+     },
+     {
+      "q": "Does it stop in Bellagio?",
+      "a": "Only the 4-hour option, which stops in Bellagio and Varenna."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "The Villa Margherita jetty in Como, 15 minutes early."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€63",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 hour, max 8 guests",
+      "price": "From €63"
+     },
+     {
+      "label": "4-hour option",
+      "small": "with Bellagio and Varenna",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €126"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/lake-maggiore-classic-wooden-boat-cruise-shared-t1166733/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-classic-wooden&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-classic-wooden",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "shared",
+    "stops"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏘️ #4 Best Half Day with Stops",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat on Lake Como below Bellagio"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bellagio's waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cruising the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Varenna from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa among the cypresses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooded shore of the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-bellagio-varenna-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Around the Lake",
+    "⏱️ 3 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Lungo+Lario+Trieste+28%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lungo Lario Trieste, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/lake-como-3-hour-shared-boat-tour-como-bellagio-t625877/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-bellagio-varenna&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como: Boat Tour with a Visit to Bellagio and Varenna"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "216 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(216)",
+       "url": "https://www.getyourguide.com/como-l101235/lake-como-3-hour-shared-boat-tour-como-bellagio-t625877/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-bellagio-varenna-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 to 4 h",
+     "pop_html": "<strong>3 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏘️",
+     "label": "Bellagio + Varenna",
+     "pop_html": "<strong>Arrive in Bellagio by boat and visit Varenna,</strong> the two prettiest villages on the lake."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Villas on the way",
+     "pop_html": "<strong>Villa d'Este, George Clooney's summer home,</strong> Villa Pliniana and the Nesso waterfall."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Swim stop",
+     "pop_html": "<strong>Swim in the lake and relax on the sun deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Shared boat",
+     "pop_html": "<strong>With travellers from all over the world,</strong> from Lungo Lario Trieste in Como."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lungo Lario Trieste, Como",
+     "pop_html": "<strong>Lungo Lario Trieste 28, Como.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for one day that does it all from Como: the villas, Bellagio and Varenna, with no ferry timetables.",
+    "skip_html": "on a budget: the public ferry and #5 are far cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which villages do you visit?",
+      "a": "Bellagio and Varenna, reached directly from the lake."
+     },
+     {
+      "q": "Which villas do you see?",
+      "a": "Villa d'Este, George Clooney's summer home, Villa Pliniana and the Nesso waterfall."
+     },
+     {
+      "q": "Can I swim?",
+      "a": "Yes, there is a swim stop."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Lungo Lario Trieste 28, on the Como waterfront."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€119",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 to 4 h, shared, with stops",
+      "price": "From €119"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €238"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/lake-como-3-hour-shared-boat-tour-como-bellagio-t625877/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-bellagio-varenna&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-bellagio-varenna",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 6 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "shared",
+    "stops",
+    "varenna",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #5 Cheapest Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Villa del Balbianello from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa on the point from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa Carlotta from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lakeside villa and gardens"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bellagio on its point"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Varenna's colourful houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Garden villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-varenna-bellagio-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bellagio Boat Service",
+    "⏱️ 160 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Riva+dei+Marmisti+26%2C+Varenna",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Varenna"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/tremezzo-italy-l144420/from-varenna-lake-como-boat-tour-wit-t1511310/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-varenna-bellagio&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Varenna: Lake Como Boat Tour with Bellagio Stop"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "29 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(29)",
+       "url": "https://www.getyourguide.com/tremezzo-italy-l144420/from-varenna-lake-como-boat-tour-wit-t1511310/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-varenna-bellagio-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h 40",
+     "pop_html": "<strong>2 hours 40 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Balbianello + Carlotta",
+     "pop_html": "<strong>Villa del Balbianello and Villa Carlotta from the water,</strong> past Menaggio, Tremezzo and Lenno."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "50 min in Bellagio",
+     "pop_html": "<strong>Free time to walk Bellagio's lanes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide app",
+     "pop_html": "<strong>Commentary on your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Varenna",
+     "pop_html": "<strong>Starts at Riva dei Marmisti 26, Varenna.</strong> Bring the QR code; arrive 10 minutes early."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for staying in Varenna or Bellagio: the central lake's best villas and Bellagio for €25.",
+    "skip_html": "if you are based in Como: it starts in Varenna, an hour up the lake."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it start?",
+      "a": "Riva dei Marmisti 26 in Varenna, on the eastern shore of the central lake."
+     },
+     {
+      "q": "Which villas will I see?",
+      "a": "Villa del Balbianello and Villa Carlotta, past Menaggio, Tremezzo and Lenno."
+     },
+     {
+      "q": "How long is the stop in Bellagio?",
+      "a": "50 minutes of free time."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, through an audio guide app."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h 40 incl. 50 min in Bellagio",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/tremezzo-italy-l144420/from-varenna-lake-como-boat-tour-wit-t1511310/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-varenna-bellagio&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-varenna-bellagio",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "shared",
+    "prosecco"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚡 #6 Best Combo",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests on the boat on Lake Como"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends toasting on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View over Lake Como from Brunate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lakeside villa from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Brunate funicular"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Brunate's lighthouse"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Como's rooftops from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-brunate-funicular-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Salimar",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Viale+Geno+12%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Viale Geno, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/lake-como-christmas-boat-tour-brunate-funicular-t1143408/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-brunate-funicular&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como Boat Tour with Brunate Funicular and Scenic Views"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "208 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(208)",
+       "url": "https://www.getyourguide.com/como-l101235/lake-como-christmas-boat-tour-brunate-funicular-t1143408/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-brunate-funicular-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h boat + funicular",
+     "pop_html": "<strong>1-hour boat tour + free time for the funicular.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "1-hour boat tour",
+     "pop_html": "<strong>A shared hour on the Como branch,</strong> past villas and villages."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚡",
+     "label": "Brunate funicular",
+     "pop_html": "<strong>Priority funicular ticket up to Brunate</strong> for the view over the lake. Brunate is self-guided."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Drink on board",
+     "pop_html": "<strong>Prosecco or a soft drink.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Viale Geno, Como",
+     "pop_html": "<strong>Starts and ends at Viale Geno 12.</strong><span class=\"bpa-lang-note\">Not for people with vertigo.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a half day in Como town: the lake from the water, then from 500 m above.",
+    "skip_html": "with vertigo: the funicular climbs steeply."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A 1-hour shared boat tour, Prosecco or a soft drink, and a priority Brunate funicular ticket."
+     },
+     {
+      "q": "Is Brunate guided?",
+      "a": "No, you explore Brunate on your own."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Viale Geno 12, Como, where the boat tour starts and ends."
+     },
+     {
+      "q": "Is it OK with vertigo?",
+      "a": "No, the listing says it isn't suitable."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€59",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h boat + funicular ticket",
+      "price": "From €59"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €118"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/lake-como-christmas-boat-tour-brunate-funicular-t1143408/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-brunate-funicular&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-brunate-funicular",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "shared",
+    "prosecco",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "❄️ #7 Best for Cooler Months",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Motorboat by a lakeside villa"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa del Balbianello from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the calm lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Garden villa on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-winter-cover-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Around the Lake",
+    "⏱️ 1 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Lungo+Lario+Trieste+28%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lungo Lario Trieste, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/lake-como-boat-tour-share-prosecco-and-winter-t624824/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-winter-cover&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como Shared Boat Tour with Prosecco and Winter Cover"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "158 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(158)",
+       "url": "https://www.getyourguide.com/como-l101235/lake-como-boat-tour-share-prosecco-and-winter-t624824/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-winter-cover-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 4 h",
+     "pop_html": "<strong>1 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Bottle of Prosecco",
+     "pop_html": "<strong>A bottle of Prosecco and water on board,</strong> plus a fridge with refreshments."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛡️",
+     "label": "Winter cover + shade",
+     "pop_html": "<strong>Covered against cold and rain,</strong> with shade awnings for hot days."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Captain-guide",
+     "pop_html": "<strong>The captain explains the villas.</strong> Music on the sound system."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Swim stop",
+     "pop_html": "<strong>Swim in summer from the sun deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lungo Lario Trieste, Como",
+     "pop_html": "<strong>Lungo Lario Trieste 28, Como.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a shared tour in spring, autumn or winter: covered boat, Prosecco bottle, €46.",
+    "skip_html": "if you want a famous wooden boat: this is a modern motorboat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is it covered?",
+      "a": "Yes, it has a winter cover, plus shade awnings for hot days."
+     },
+     {
+      "q": "What drinks are included?",
+      "a": "A bottle of Prosecco and water, plus refreshments in the fridge."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "The captain explains the villas as you go."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Lungo Lario Trieste 28, on the Como waterfront."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€46",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "from 1 hour, shared",
+      "price": "From €46"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €92"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/lake-como-boat-tour-share-prosecco-and-winter-t624824/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-winter-cover&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-winter-cover",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "private",
+    "prosecco"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🔒 #8 Best Private Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Private boat at sunset on Lake Como"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple toasting at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cruising at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple with flowers on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat's cockpit"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cushioned sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grand hotel from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa among the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa del Balbianello"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-private-prosecco-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Viemme Service",
+    "⏱️ 1 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Lungo+Lario+Trieste+46%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lungo Lario Trieste, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/como-shared-boat-tour-t772183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-private-prosecco&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como: Private Boat Tour with Prosecco"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "155 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(155)",
+       "url": "https://www.getyourguide.com/como-l101235/como-shared-boat-tour-t772183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-private-prosecco-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 4 h",
+     "pop_html": "<strong>1 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Your own boat",
+     "pop_html": "<strong>Private, for small groups:</strong> up to 7 people."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛽",
+     "label": "+€50/hour fuel",
+     "pop_html": "<strong>Fuel is not included:</strong> €50 an hour, paid on board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Prosecco or soft drinks",
+     "pop_html": "<strong>Included, with music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛡️",
+     "label": "Weather covers",
+     "pop_html": "<strong>Protective covers keep you comfortable</strong> in any weather."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lungo Lario Trieste, Como",
+     "pop_html": "<strong>Lungo Lario Trieste 46, Como.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for couples and small groups who want the lake to themselves: the best-rated boat here.",
+    "skip_html": "if you forgot the fuel: budget €230 for the first hour, not €180."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What does it really cost?",
+      "a": "From €180 for the boat plus €50 an hour for fuel, paid on board: about €230 for one hour."
+     },
+     {
+      "q": "How many people fit?",
+      "a": "Up to 7."
+     },
+     {
+      "q": "Is a drink included?",
+      "a": "Yes, Prosecco or soft drinks."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Lungo Lario Trieste 46, on the Como waterfront."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€180",
+    "sub": "per boat, plus fuel",
+    "rows": [
+     {
+      "label": "Private boat",
+      "small": "from 1 hour",
+      "price": "From €180"
+     },
+     {
+      "label": "Fuel",
+      "small": "paid on board",
+      "price": "€50 / hour"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/como-shared-boat-tour-t772183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-private-prosecco&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-private-prosecco",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "private",
+    "wooden",
+    "prosecco"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⚓ #9 Most Unusual Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The MAS 28 wooden boat on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "MAS 28 moored at the jetty"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the wooden boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The captain at the wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "MAS 28 cruising past the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The varnished cockpit"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lakeside village from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grand villa on the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa on the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Villa del Balbianello from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lake-como/lake-como-boat-tour-mas28-private-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Around the Lake",
+    "⏱️ 1 to 8 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Lungo+Lario+Trieste+28%2C+Como",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lungo Lario Trieste, Como"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/como-l101235/lake-como-luxury-private-wooden-boat-tour-t672900/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-mas28-private&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lake Como: Luxury Private Wooden Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "210 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(210)",
+       "url": "https://www.getyourguide.com/como-l101235/lake-como-luxury-private-wooden-boat-tour-t672900/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-mas28-private-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 8 h",
+     "pop_html": "<strong>1 to 8 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚓",
+     "label": "The MAS 28",
+     "pop_html": "<strong>A wooden boat modelled on the Italian Navy's</strong> MAS motor torpedo boats."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Private, up to 5",
+     "pop_html": "<strong>Just your group and the captain.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛽",
+     "label": "+€50/hour fuel",
+     "pop_html": "<strong>Fuel is extra, paid on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Prosecco + swim",
+     "pop_html": "<strong>A bottle of Prosecco, water and a swim stop.</strong><span class=\"bpa-lang-note\">Not for pregnant travellers or anyone prone to seasickness.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lungo Lario Trieste, Como",
+     "pop_html": "<strong>Lungo Lario Trieste 28, Como.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a private tour on a boat with a story: the varnished MAS 28.",
+    "skip_html": "for groups over 5: #8 takes up to 7."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is the MAS 28?",
+      "a": "A wooden motorboat modelled on the Italian Navy's MAS motor torpedo boats."
+     },
+     {
+      "q": "What does it really cost?",
+      "a": "From €180 plus €50 an hour for fuel, so about €230 for the first hour."
+     },
+     {
+      "q": "How many people fit?",
+      "a": "Up to 5."
+     },
+     {
+      "q": "Is a drink included?",
+      "a": "Yes, a bottle of Prosecco and water."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€180",
+    "sub": "per boat, plus fuel",
+    "rows": [
+     {
+      "label": "Private boat",
+      "small": "from 1 hour, up to 5",
+      "price": "From €180"
+     },
+     {
+      "label": "Fuel",
+      "small": "paid on board",
+      "price": "€50 / hour"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/como-l101235/lake-como-luxury-private-wooden-boat-tour-t672900/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lake-como-mas28-private&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#como-mas28-private",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}
