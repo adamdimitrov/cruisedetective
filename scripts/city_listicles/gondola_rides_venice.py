@@ -5,7 +5,7 @@
 PRIV = dict(unit="gondola", total=False)
 
 SPEC = dict(
-    related=['boat-tours-lake-como', 'chao-phraya-river-cruises-bangkok', 'ha-long-bay-cruises', 'chicago-architecture-boat-tours'],
+    related=['boat-tours-lake-como', 'chao-phraya-river-cruises-bangkok', 'ha-long-bay-cruises', 'lake-geneva-cruises'],
     prefix="ven",
     photo_stem="venice-gondola",
     year="2026",

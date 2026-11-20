@@ -349,6 +349,11 @@ NAMES = {
     "canal-tours-copenhagen": "Copenhagen canal tours",
     "singapore-river-cruises": "Singapore river cruises",
     "mekong-delta-tours": "Mekong Delta tours",
+    "boat-tours-stockholm": "Stockholm boat tours",
+    "boat-tours-lisbon": "Lisbon boat tours",
+    "fjord-cruises-oslo": "Oslo fjord cruises",
+    "lake-geneva-cruises": "Lake Geneva cruises",
+    "harbour-cruises-hong-kong": "Hong Kong harbour cruises",
 }
 
 

@@ -1,0 +1,2660 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "night",
+    "alcohol",
+    "refund",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Night Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht lit up in the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht deck at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Night skyline from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lounge on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun deck by day"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset from the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boarding at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-05.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-06.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-07.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-08.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-09.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-starlight-yacht-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Elegant Boating",
+    "⏱️ 45 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kowloon+Public+Pier+No.+3%2C+Tsim+Sha+Tsui%2C+Hong+Kong",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kowloon Public Pier 3"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/starlight-victoria-harbour-night-yacht-tour-stunning-view-t558058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-starlight-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hong Kong: Victoria Harbour Evening Cruise with Drinks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "1,881 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(1,881)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/starlight-victoria-harbour-night-yacht-tour-stunning-view-t558058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-starlight-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "45 min",
+     "pop_html": "<strong>45 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Unlimited beer + soft drinks",
+     "pop_html": "<strong>All through the cruise.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Luxury yacht",
+     "pop_html": "<strong>Indoor lounge and open deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Skip-the-line ticket.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kowloon Public Pier 3",
+     "pop_html": "<strong>By the Cultural Centre, Tsim Sha Tsui.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€13 an hour",
+     "pop_html": "<strong>€10 for 45 min,</strong> about €13 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated night cruise you can still cancel, €10.",
+    "skip_html": "if you want spirits and wine: #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 45-minute cruise and unlimited beer and soft drinks."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Kowloon Public Pier No. 3, by the Cultural Centre in Tsim Sha Tsui."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     },
+     {
+      "q": "Is it a yacht?",
+      "a": "Yes, with an indoor lounge and outdoor decks."
+     },
+     {
+      "q": "Which time is best?",
+      "a": "The 8 pm sailing, during the Symphony of Lights."
+     }
+    ]
+   },
+   "price": {
+    "main": "€10",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, drinks",
+      "price": "From €10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €20"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/starlight-victoria-harbour-night-yacht-tour-stunning-view-t558058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-starlight-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-starlight-yacht",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "night",
+    "alcohol",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍸 #2 Best Open Bar",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Junk-style boat with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "M+ museum facade lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar inside the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-symphony-drinks-05.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Watertours",
+    "⏱️ 55 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kowloon+Public+Pier+No.+3%2C+Hong+Kong",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kowloon Pier 3 / Central Pier 9"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-symphony-unlimited-drink-cruise-t194297/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-symphony-drinks&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hong Kong: Victoria Harbour Night Cruise Unlimited Drinks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "2,489 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(2,489)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-symphony-unlimited-drink-cruise-t194297/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-symphony-drinks-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "55 min",
+     "pop_html": "<strong>55 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Unlimited drinks",
+     "pop_html": "<strong>Spirits, wine, beer and soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Yellow 'Wing On Travel' boat",
+     "pop_html": "<strong>Board via the crew; no counter.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Two piers",
+     "pop_html": "<strong>Kowloon Public Pier 3 or Central Pier 9.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>Can't be cancelled.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€10 an hour",
+     "pop_html": "<strong>€9 for 55 min,</strong> about €10 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an open bar with spirits and wine for €9.",
+    "skip_html": "if your plans may change: non-refundable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's in the open bar?",
+      "a": "Spirits, wine, beer and soft drinks."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "Kowloon Public Pier No. 3 or Central Pier No. 9, landing steps 3; look for the yellow boat 'Wing On Travel'."
+     },
+     {
+      "q": "Is there a ticket counter?",
+      "a": "No, go to the crew when the boat arrives; there's no final call."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, it's non-refundable."
+     }
+    ]
+   },
+   "price": {
+    "main": "€9",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "55 min, open bar",
+      "price": "From €9"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €18"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-symphony-unlimited-drink-cruise-t194297/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-symphony-drinks&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Instant confirmation</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-symphony-drinks",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "7 photos on the listing, 2 are maps"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "geopark",
+    "refund"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🪨 #3 Best Day Trip",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Family on the yacht by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest relaxing on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mother and daughter on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sandbar from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea cave entrance"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea arch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rocky coast"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-05.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-06.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-07.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-08.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-09.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-geopark-yacht-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Splitdyboat",
+    "⏱️ 2.5 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+UNESCO+Global+Geopark",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-unesco-geopark-four-sea-arches-volcano-yacht-tour-t1134090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-geopark-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hong Kong UNESCO Geopark Four Sea Arches Volcano Yacht Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "150 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(150)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-unesco-geopark-four-sea-arches-volcano-yacht-tour-t1134090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-geopark-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 to 4 h",
+     "pop_html": "<strong>2.5 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪨",
+     "label": "Volcanic columns",
+     "pop_html": "<strong>The world's largest hexagonal rock columns.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌊",
+     "label": "Four sea arches",
+     "pop_html": "<strong>10 stops including Little Taiwan Cave.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide + photos",
+     "pop_html": "<strong>Snacks and soft drinks included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Up to 24 hours before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for Hong Kong's wild side: sea arches and volcanic columns by yacht.",
+    "skip_html": "if you only want the skyline: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "Hexagonal volcanic columns, four large sea arches and 10 Geopark sights."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 4 hours including meeting time; 2.5 to 4 hours on the water by option."
+     },
+     {
+      "q": "What's included?",
+      "a": "Guide, photography help, insurance, licensed yacht, snacks and soft drinks."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Depends on the option; check the booking page."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€37",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "Geopark yacht day",
+      "price": "From €37"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €74"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-unesco-geopark-four-sea-arches-volcano-yacht-tour-t1134090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-geopark-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-geopark-yacht",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "sunset",
+    "alcohol"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #4 Best Sunset Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yellow boat in the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saloon with windows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Convention Centre from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Central skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "IFC and the wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Palace Museum from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Observation wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-05.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-06.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-07.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-08.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-09.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-day-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Watertours",
+    "⏱️ 55 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kowloon+Public+Pier+No.+3%2C+Hong+Kong",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kowloon Pier 3 / Central Pier 9"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/victoria-harbour-day-or-sunset-cruise-t194306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-day-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hong Kong: Victoria Harbour Day or Sunset Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "274 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(274)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/victoria-harbour-day-or-sunset-cruise-t194306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-day-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "55 min",
+     "pop_html": "<strong>55 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Day or sunset",
+     "pop_html": "<strong>Watch the skyline turn from blue to orange.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Unlimited drinks",
+     "pop_html": "<strong>Spirits, wine, beer, soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Eastern Harbour",
+     "pop_html": "<strong>Local life along the shore.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>Can't be cancelled.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kowloon Pier 3 / Central Pier 9",
+     "pop_html": "<strong>Kowloon Public Pier 3 or Central Pier 9.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a sunset drink on the water before dinner.",
+    "skip_html": "if plans may change: non-refundable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Day or sunset?",
+      "a": "Both; the sunset sailing is the one to book."
+     },
+     {
+      "q": "What's included?",
+      "a": "Boarding pass and unlimited drinks: spirits, wine, beer, soft drinks."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "Kowloon Public Pier 3 or Central Pier 9; look for 'Wing On Travel'."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, it's non-refundable."
+     }
+    ]
+   },
+   "price": {
+    "main": "€19",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "55 min, open bar",
+      "price": "From €19"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/victoria-harbour-day-or-sunset-cruise-t194306/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-day-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Instant confirmation</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-day-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "night",
+    "refund"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "📸 #5 Best for Photos",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht by the lit skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lounge on deck at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht interior"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lounge seating"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline by day"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck lounge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-05.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-06.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-07.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-08.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-09.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-dreamer-yacht-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Dreamer Tours",
+    "⏱️ 45 to 100 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Victoria+Harbour%2C+Hong+Kong",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-cruise-live-tourphotos-t546336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-dreamer-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hong Kong: Victoria Harbour Cruise (Photo, snacks &amp; Drinks)"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "311 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(311)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-cruise-live-tourphotos-t546336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-dreamer-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "45 to 100 min",
+     "pop_html": "<strong>45 to 100 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📸",
+     "label": "Free pro photos",
+     "pop_html": "<strong>Taken by the host, soft copies included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live host",
+     "pop_html": "<strong>Introduces the views.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍿",
+     "label": "Unlimited snacks + soft drinks",
+     "pop_html": "<strong>Water and soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎄",
+     "label": "Light show in winter",
+     "pop_html": "<strong>Winter Wonderland show on 7 and 8 pm sailings.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for couples and families who want good photos taken for them.",
+    "skip_html": "if you want alcohol: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Cruise, unlimited water, soft drinks and snacks, a live host and free professional photos."
+     },
+     {
+      "q": "Is alcohol included?",
+      "a": "No."
+     },
+     {
+      "q": "Is there a light show?",
+      "a": "In winter, the Winter Wonderland show on the 7 and 8 pm sailings."
+     },
+     {
+      "q": "How long is it?",
+      "a": "45 to 100 minutes by option."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€14",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 to 100 min",
+      "price": "From €14"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €28"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/hong-kong-victoria-harbour-cruise-live-tourphotos-t546336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-dreamer-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-dreamer-yacht",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "night",
+    "alcohol",
+    "refund",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #6 Budget Yacht Alternative",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht deck by day"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht lounge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Drink with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lounge interior"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-01.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-02.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-03.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-04.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-05.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-06.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-07.avif"
+     },
+     {
+      "src": "/assets/harbour-cruises-hong-kong/hong-kong-harbour-cruise-skyline-yacht-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Skyline Cruise",
+    "⏱️ 45 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kowloon+Public+Pier+No.+4%2C+Tsim+Sha+Tsui%2C+Hong+Kong",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kowloon Public Pier 4"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hong-kong-l174/hk-victoria-harbour-tour-symphony-of-lights-free-drinks-t853057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-skyline-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "HK: Victoria Harbour Night Tour (Free Drinks &amp; Snacks)"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "762 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(762)",
+       "url": "https://www.getyourguide.com/hong-kong-l174/hk-victoria-harbour-tour-symphony-of-lights-free-drinks-t853057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-skyline-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "45 min",
+     "pop_html": "<strong>45 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Beer, drinks + snacks",
+     "pop_html": "<strong>Included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📸",
+     "label": "Photos by staff",
+     "pop_html": "<strong>The crew takes your photos.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Yacht with open raft deck",
+     "pop_html": "<strong>Open-air deck for photos.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kowloon Public Pier 4",
+     "pop_html": "<strong>By the Cultural Centre.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "as a backup when #1 is full.",
+    "skip_html": "if ratings matter: 4.1 is the lowest here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 45-minute cruise, beer, drinks and snacks, and photos by staff."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Kowloon Public Pier No. 4."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     },
+     {
+      "q": "How long is it?",
+      "a": "45 minutes."
+     },
+     {
+      "q": "Is it a yacht?",
+      "a": "Yes, with an open-air deck."
+     }
+    ]
+   },
+   "price": {
+    "main": "€11",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, drinks + snacks",
+      "price": "From €11"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €22"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hong-kong-l174/hk-victoria-harbour-tour-symphony-of-lights-free-drinks-t853057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-harbour-cruises-hong-kong-skyline-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hkg-skyline-yacht",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "13 photos on the listing, 5 are ad banners with text"
+   }
+  }
+ ]
+}

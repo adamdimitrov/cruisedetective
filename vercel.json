@@ -850,6 +850,26 @@
       "destination": "/mekong-delta-tours/index.html"
     },
     {
+      "source": "/boat-tours-stockholm",
+      "destination": "/boat-tours-stockholm/index.html"
+    },
+    {
+      "source": "/fjord-cruises-oslo",
+      "destination": "/fjord-cruises-oslo/index.html"
+    },
+    {
+      "source": "/boat-tours-lisbon",
+      "destination": "/boat-tours-lisbon/index.html"
+    },
+    {
+      "source": "/lake-geneva-cruises",
+      "destination": "/lake-geneva-cruises/index.html"
+    },
+    {
+      "source": "/harbour-cruises-hong-kong",
+      "destination": "/harbour-cruises-hong-kong/index.html"
+    },
+    {
       "source": "/prague-river-cruises",
       "destination": "/prague-river-cruises/index.html"
     },

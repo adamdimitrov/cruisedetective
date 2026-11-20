@@ -1,0 +1,4511 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "sail",
+    "openbar",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Vintage sailboat under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Toast at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red sails by Praça do Comércio"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailboat on the Tagus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tapas and Belém Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailboat by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-vintage-sailboat-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Furanai Sailboat Tours",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Doca+de+Santo+Amaro%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Doca de Santo Amaro"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-daylight-or-sunset-on-a-vintage-sailboat-t144255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-vintage-sailboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Wine &amp; Sunset Cruise on a Vintage Sailing Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,328 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,328)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-daylight-or-sunset-on-a-vintage-sailboat-t144255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-vintage-sailboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Vintage sailing boat",
+     "pop_html": "<strong>Red sails, 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Wine + tasting",
+     "pop_html": "<strong>White and rosé wine, water or juice, and a food tasting.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Day or sunset",
+     "pop_html": "<strong>Pick the time.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Doca de Santo Amaro",
+     "pop_html": "<strong>Under the 25 de Abril bridge.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated sunset sail with wine and tapas, €30.",
+    "skip_html": "if you want to party: #3."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 2-hour sail, a food tasting, and white and rosé wine, water or juice."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Doca de Santo Amaro, by the Clube de Padel."
+     },
+     {
+      "q": "Day or sunset?",
+      "a": "Both; the sunset slot sells first."
+     },
+     {
+      "q": "What should I bring?",
+      "a": "Comfortable shoes and a warm layer for after sunset."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h with wine + tasting",
+      "price": "From €30"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-daylight-or-sunset-on-a-vintage-sailboat-t144255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-vintage-sailboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-vintage-sailboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "yacht",
+    "openbar",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛥️ #2 Best Yacht",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sailing yacht at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sail at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht galley"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht saloon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belém Tower at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belém at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset sky"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-yacht-open-bar-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Terra Incógnita",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Doca+de+Santo+Amaro%2C+Armaz%C3%A9m+17%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Doca de Santo Amaro"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-catamaran-cruise-music-and-open-bar-t168107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-yacht-open-bar&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Sunset Cruise With Drinks on Spacious Yacht"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,102 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,102)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-catamaran-cruise-music-and-open-bar-t168107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-yacht-open-bar-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Open bar",
+     "pop_html": "<strong>White and rosé wine, beer, soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>Crew explains the monuments.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧣",
+     "label": "Blankets",
+     "pop_html": "<strong>Thermal blankets on request.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Doca de Santo Amaro",
+     "pop_html": "<strong>Armazém 17; arrive 20 min early.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a comfortable small yacht with the drinks sorted.",
+    "skip_html": "on a budget: #1 has wine for €13 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's in the open bar?",
+      "a": "White and rosé wine, beer and soft drinks."
+     },
+     {
+      "q": "Is it a small group?",
+      "a": "Yes."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Doca de Santo Amaro, Armazém 17, by the Mercedes-Benz Oceanic Lounge."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€43",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h, open bar",
+      "price": "From €43"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €86"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-catamaran-cruise-music-and-open-bar-t168107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-yacht-open-bar&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-yacht-open-bar",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "party",
+    "openbar",
+    "big",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎉 #3 Best Party",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Party boat at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat party with fireworks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends dancing at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests partying"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dance floor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Open bar"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Barman"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-boat-party-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stern Wind Cruises",
+    "⏱️ 1.5 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Terreiro+do+Pa%C3%A7o%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Terreiro do Paço"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-boat-party-cruise-with-dj-and-open-bar-t469243/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-boat-party&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Sunset Boat Party Cruise with DJ and Open Bar"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "14,463 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(14,463)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-boat-party-cruise-with-dj-and-open-bar-t469243/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-boat-party-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 to 4 h",
+     "pop_html": "<strong>1.5 to 4 hours, by option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "DJ on board",
+     "pop_html": "<strong>A floating party.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Open bar",
+     "pop_html": "<strong>White wine, beer, sangria, soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€19 + €1.30 tax",
+     "pop_html": "<strong>Boarding tax paid at check-in.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Terreiro do Paço",
+     "pop_html": "<strong>Ticket booth 1; arrive 30 to 40 min early.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a cheap night out with a DJ and an open bar.",
+    "skip_html": "for a quiet sunset: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's in the open bar?",
+      "a": "White wine, beer, sangria and soft drinks."
+     },
+     {
+      "q": "Is there an extra fee?",
+      "a": "A €1.30 boarding tax at check-in."
+     },
+     {
+      "q": "When should I arrive?",
+      "a": "30 to 40 minutes early at the ticket booth to avoid queues."
+     },
+     {
+      "q": "Does it run all year?",
+      "a": "Yes, unless the weather is unsafe."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€19",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "boat party, open bar",
+      "price": "From €19"
+     },
+     {
+      "label": "Boarding tax",
+      "small": "at check-in",
+      "price": "From €1.30"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-boat-party-cruise-with-dj-and-open-bar-t469243/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-boat-party&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-boat-party",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "sail",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #4 Best Small Sailboat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Skipper at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the sailboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sails and bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset on the Tagus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-saildreams-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Saildreams",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Doca+de+Alc%C3%A2ntara%2C+Gate+2%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Doca de Alcântara"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/small-group-sailboat-sunset-tour-in-lisbon-with-a-drink-t450015/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-saildreams&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Sailboat Sunset Tour with a Drink"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,756 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,756)",
+       "url": "https://www.getyourguide.com/lisbon-l42/small-group-sailboat-sunset-tour-in-lisbon-with-a-drink-t450015/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-saildreams-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>Live guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Welcome drink + snacks",
+     "pop_html": "<strong>Toilet on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Real sailboat",
+     "pop_html": "<strong>Weather-dependent.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Doca de Alcântara",
+     "pop_html": "<strong>Gate 2.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a true small-group sail with a skipper who talks you through the sights.",
+    "skip_html": "if you want unlimited drinks: #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A welcome drink and snacks, with a toilet on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Doca de Alcântara, Gate 2."
+     },
+     {
+      "q": "What if the weather is bad?",
+      "a": "You're offered another date or a full refund."
+     },
+     {
+      "q": "Is it a small group?",
+      "a": "Yes."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€34",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h small group",
+      "price": "From €34"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €68"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/small-group-sailboat-sunset-tour-in-lisbon-with-a-drink-t450015/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-saildreams&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-saildreams",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "sail",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌙 #5 Most Flexible Times",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sailboat with waving guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailboat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge and sailboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-bloo-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bloo Boat Charter",
+    "⏱️ 2 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Doca+do+Bom+Sucesso%2C+gate+3%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Doca do Bom Sucesso"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-tagus-river-cruise-morning-day-sunset-or-night-t401438/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-bloo-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Tagus River Cruise, Morning, Day, Sunset or Night"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "852 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(852)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-tagus-river-cruise-morning-day-sunset-or-night-t401438/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-bloo-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 to 3 h",
+     "pop_html": "<strong>2 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕐",
+     "label": "4 times a day",
+     "pop_html": "<strong>Morning, day, sunset or night.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥜",
+     "label": "Drink + snacks",
+     "pop_html": "<strong>Welcome drink, nuts and crunchy corn.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Belém",
+     "pop_html": "<strong>Doca do Bom Sucesso, gate 3.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live crew",
+     "pop_html": "<strong>Portuguese, English, French, Spanish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "when sunset is sold out: night and morning sails are just as good.",
+    "skip_html": "if you want a big boat with a bar: #9 or #10."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When does it sail?",
+      "a": "Morning, daytime, sunset or night."
+     },
+     {
+      "q": "What's included?",
+      "a": "Crew, fuel, insurance, a welcome drink and savoury snacks."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Doca do Bom Sucesso, gate 3, in Belém."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2 to 3 hours by option."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 to 3 h",
+      "price": "From €28"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €56"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-tagus-river-cruise-morning-day-sunset-or-night-t401438/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-bloo-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-bloo-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "yacht",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌇 #6 Best Relaxed Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "LisbonFlow catamaran"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset from the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest watching the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends chatting"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran by the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-lisbonflow-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "LisbonFlow",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Lisbon%2C+Portugal",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lisbon riverside"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-exclusive-sunset-golden-hour-reflection-boat-cruise-t1134436/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-lisbonflow&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Golden Hour Sunset Boat Cruise with Portuguese Wine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "770 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(770)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-exclusive-sunset-golden-hour-reflection-boat-cruise-t1134436/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-lisbonflow-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 30 guests",
+     "pop_html": "<strong>Calm, LGBTQ+ friendly.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Welcome drink",
+     "pop_html": "<strong>Local wine, beer or soft drink.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Gentle music",
+     "pop_html": "<strong>Not a commentary tour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Leaves on time",
+     "pop_html": "<strong>Arrive 10 minutes early.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lisbon riverside",
+     "pop_html": "<strong>Lisbon riverside.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a calm golden-hour cruise without commentary or a party.",
+    "skip_html": "if you want to learn about the sights: no guide."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many guests?",
+      "a": "Up to 30."
+     },
+     {
+      "q": "What's included?",
+      "a": "A welcome drink (local wine, beer or soft drink) and music."
+     },
+     {
+      "q": "Is it guided?",
+      "a": "No, it's a relaxed cruise."
+     },
+     {
+      "q": "What if I'm late?",
+      "a": "The boat leaves on time and can't wait."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h, welcome drink",
+      "price": "From €28"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €56"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-exclusive-sunset-golden-hour-reflection-boat-cruise-t1134436/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-lisbonflow&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-lisbonflow",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "big",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #7 Cheapest Sightseeing Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests on the top deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Praça do Comércio from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ship at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ship at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belém Tower from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with drinks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-veltagus-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Veltagus",
+    "⏱️ 1 h 40",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Avenida+Infante+Dom+Henrique+1B%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Terreiro do Paço"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/lisbon-attractions-c76528/tickets-for-lisbon-tagus-river-boat-tour-drinks-p1099559/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-lisbon-veltagus",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Tagus River Boat Tour + Drink"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "57 reviews · Tiqets",
+     "heading": "Rating on Tiqets",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.4",
+       "count": "(57)",
+       "url": "https://www.tiqets.com/en/lisbon-attractions-c76528/tickets-for-lisbon-tagus-river-boat-tour-drinks-p1099559/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-lisbon-veltagus-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 40",
+     "pop_html": "<strong>1 hour 40.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>English and 3 more languages.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Muscatel + coffee",
+     "pop_html": "<strong>Muscatel wine, coffee, tea and orange juice.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "Big boat",
+     "pop_html": "<strong>Bar on board for food.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Terreiro do Paço",
+     "pop_html": "<strong>Sul e Sueste river station.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a cheap daytime sightseeing cruise with a glass of muscatel.",
+    "skip_html": "if you want the sunset on a small boat: #1 to #6."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The cruise, an audio guide, coffee, tea, orange juice and muscatel wine."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 1 hour 40."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Sul e Sueste river station, Avenida Infante Dom Henrique 1B, by Terreiro do Paço."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, the bar sells food."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€19",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h 40 + drinks",
+      "price": "From €19"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/lisbon-attractions-c76528/tickets-for-lisbon-tagus-river-boat-tour-drinks-p1099559/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-lisbon-veltagus",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-veltagus",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "big",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎶 #8 Best Cheap Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge through a porthole"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends toasting"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Selfie on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Padrão through the porthole"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends laughing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saloon on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a cocktail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests filming the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sardinha do Tejo",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Cais+Rocha+Conde+de+%C3%93bidos%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Cais Rocha Conde de Óbidos"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunsetafternoon-boat-tour-with-music-and-drinks-t482293/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon: Sunset Boat Tour with music and free welcome drink"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "4,280 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(4,280)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunsetafternoon-boat-tour-with-music-and-drinks-t482293/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Music on board",
+     "pop_html": "<strong>Bar by card or cash.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Welcome drink",
+     "pop_html": "<strong>One per person.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€20",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Cais Rocha",
+     "pop_html": "<strong>Conde de Óbidos.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a cheap 2-hour sunset with music, without the party crowd.",
+    "skip_html": "if you want a guide: there isn't one."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The boat tour, a welcome drink, music, toilets and life jackets."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Cais Rocha Conde de Óbidos."
+     },
+     {
+      "q": "Can I buy drinks?",
+      "a": "Yes, at the bar, card or cash."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€20",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h, welcome drink",
+      "price": "From €20"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €40"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunsetafternoon-boat-tour-with-music-and-drinks-t482293/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-sardinha-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "yacht"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #9 Best Short Catamaran",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Catamaran by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the catamaran net"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with drinks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends laughing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belém Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-sardinha-catamaran-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sardinha do Tejo",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Doca+de+Santo+Amaro%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Doca de Santo Amaro"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-tour-with-music-and-a-drink-t433303/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-catamaran&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon Sunset Boat Tour on a Catamaran with 1 Welcome Drink"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "3,637 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(3,637)",
+       "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-tour-with-music-and-a-drink-t433303/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-catamaran-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Catamaran",
+     "pop_html": "<strong>Lie on the nets.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Welcome drink",
+     "pop_html": "<strong>Bar on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Music",
+     "pop_html": "<strong>Background music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Doca de Santo Amaro",
+     "pop_html": "<strong>Under the 25 de Abril bridge.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a short catamaran sunset from Santo Amaro.",
+    "skip_html": "if you're late: no-shows aren't refunded, only rescheduled."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The 1.5-hour tour, a welcome drink and music."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Doca de Santo Amaro."
+     },
+     {
+      "q": "What if I'm late?",
+      "a": "No refund; you can reschedule."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h, welcome drink",
+      "price": "From €28"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €56"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/lisbon-sunset-tour-with-music-and-a-drink-t433303/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-sardinha-catamaran&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-sardinha-catamaran",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "sail"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏺 #10 Most Traditional Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Traditional sail at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the old boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Praça do Comércio arch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Traditional boat on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Night on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sail by Belém Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-lisbon/lisbon-boat-tour-traditional-boats-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Nosso Tejo",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Esta%C3%A7%C3%A3o+Sul+Sueste%2C+Av.+Infante+Dom+Henrique+1B%2C+Lisbon",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Terreiro do Paço"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/lisbon-l42/river-tagus-sunset-cruise-in-lisbon-t175017/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-traditional-boats&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Lisbon Traditional Boats – Sunset Cruise with White Wine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "208 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(208)",
+       "url": "https://www.getyourguide.com/lisbon-l42/river-tagus-sunset-cruise-in-lisbon-t175017/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-traditional-boats-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏺",
+     "label": "Museum-piece boat",
+     "pop_html": "<strong>A restored traditional Tagus boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "White wine",
+     "pop_html": "<strong>Live guide in 4 languages.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Terreiro do Paço",
+     "pop_html": "<strong>Sul e Sueste station.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👶",
+     "label": "Kids with an adult",
+     "pop_html": "<strong>Children must be accompanied.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a sail on a restored traditional Tagus boat.",
+    "skip_html": "on value: #1 is €5 less with tapas."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's special?",
+      "a": "The boats are restored traditional Tagus vessels."
+     },
+     {
+      "q": "What's included?",
+      "a": "The 2-hour sunset cruise and white wine."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, in Spanish, English, Portuguese and French."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Estação Sul e Sueste, Av. Infante Dom Henrique 1B."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h + white wine",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/lisbon-l42/river-tagus-sunset-cruise-in-lisbon-t175017/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-lisbon-traditional-boats&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#lis-traditional-boats",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  }
+ ]
+}
