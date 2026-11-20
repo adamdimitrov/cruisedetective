@@ -949,7 +949,10 @@
      "text": "Read Review ↓"
     }
    },
-   "extras_after_faq": "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">Seated NYE dinner</span></div><div class=\"nye-food-strip\">Champagne &amp; amuse-bouches<span class=\"sep\">•</span>Festive NYE menu<span class=\"mid\">🕛 On the water</span></div></div>"
+   "extras_after_faq": "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">Seated NYE dinner</span></div><div class=\"nye-food-strip\">Champagne &amp; amuse-bouches<span class=\"sep\">•</span>Festive NYE menu<span class=\"mid\">🕛 On the water</span></div></div>",
+   "_photo_topup": {
+    "skip": "listing has 5 photos, all on the card"
+   }
   },
   {
    "id": "card-3",
@@ -1815,7 +1818,10 @@
      "text": "Read Review ↓"
     }
    },
-   "extras_after_faq": "<div class=\"nye-opts\"><a class=\"nye-opt\" href=\"https://www.getyourguide.com/paris-l16/paris-new-year-s-eve-dinner-cruise-early-service-t857678/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-nye-cruises-paris-diamant-bleu&amp;mkt_cmp=true\" onclick=\"event.stopPropagation()\" rel=\"noopener nofollow sponsored\" target=\"_blank\"><span class=\"nye-opt-name\">🌆 Early Service</span><span class=\"nye-opt-meta\">18:00–20:00 • 3 courses • singer</span><span class=\"nye-opt-price\">€207<small>Book →</small></span></a></div><div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">3 courses + welcome cocktail</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-diamant-bleu\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Foie gras<span class=\"sep\">•</span>Veal &amp; truffle<span class=\"sep\">•</span>Dessert<span class=\"mid\">🕛 Back by 20:00</span></div></div>"
+   "extras_after_faq": "<div class=\"nye-opts\"><a class=\"nye-opt\" href=\"https://www.getyourguide.com/paris-l16/paris-new-year-s-eve-dinner-cruise-early-service-t857678/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-nye-cruises-paris-diamant-bleu&amp;mkt_cmp=true\" onclick=\"event.stopPropagation()\" rel=\"noopener nofollow sponsored\" target=\"_blank\"><span class=\"nye-opt-name\">🌆 Early Service</span><span class=\"nye-opt-meta\">18:00–20:00 • 3 courses • singer</span><span class=\"nye-opt-price\">€207<small>Book →</small></span></a></div><div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">3 courses + welcome cocktail</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-diamant-bleu\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Foie gras<span class=\"sep\">•</span>Veal &amp; truffle<span class=\"sep\">•</span>Dessert<span class=\"mid\">🕛 Back by 20:00</span></div></div>",
+   "_photo_topup": {
+    "skip": "listing has 7 photos, all on the card"
+   }
   },
   {
    "id": "card-5",
@@ -2098,7 +2104,10 @@
      "text": "Read Review ↓"
     }
    },
-   "extras_after_faq": "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">4-course menu + aperitif</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-eiffel-croisieres\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Amuse-bouches<span class=\"sep\">•</span>Trout<span class=\"sep\">•</span>Veal loin<span class=\"sep\">•</span>Cheese<span class=\"sep\">•</span>Pear &amp; chocolate<span class=\"mid\">🕛 DJ facing the Eiffel Tower</span></div></div>"
+   "extras_after_faq": "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">4-course menu + aperitif</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-eiffel-croisieres\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Amuse-bouches<span class=\"sep\">•</span>Trout<span class=\"sep\">•</span>Veal loin<span class=\"sep\">•</span>Cheese<span class=\"sep\">•</span>Pear &amp; chocolate<span class=\"mid\">🕛 DJ facing the Eiffel Tower</span></div></div>",
+   "_photo_topup": {
+    "skip": "listing has 4 photos, all on the card"
+   }
   }
  ]
 }

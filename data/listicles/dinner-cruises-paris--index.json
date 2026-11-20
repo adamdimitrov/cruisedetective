@@ -1669,6 +1669,14 @@
      ],
      [
       ["alt", "Trattoria en Seine Italian 3-Course Gourmet Dinner Cruise on Le Théo"],
+      ["data-src", "/assets/ota/dinner/trattoria-01.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Trattoria en Seine Italian 3-Course Gourmet Dinner Cruise on Le Théo"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu.webp"],
       ["decoding", "async"],
       ["loading", "lazy"],
@@ -1677,57 +1685,65 @@
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: the dining room"],
-      ["data-cap", "The dining room"],
       ["data-src", "/assets/ota/dinner/trattoria-5.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "The dining room"]
+     ],
+     [
+      ["alt", "Trattoria en Seine Italian 3-Course Gourmet Dinner Cruise on Le Théo"],
+      ["data-src", "/assets/ota/dinner/trattoria-02.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: italian starter"],
-      ["data-cap", "Italian starter"],
       ["data-src", "/assets/ota/dinner/trattoria-3.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
-      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "Italian starter"]
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: fresh pasta from the galley"],
-      ["data-cap", "Fresh pasta from the galley"],
       ["data-src", "/assets/ota/dinner/trattoria-4.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
-      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "Fresh pasta from the galley"]
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: window tables facing the Eiffel Tower"],
-      ["data-cap", "Window tables facing the Eiffel Tower"],
       ["data-src", "/assets/ota/dinner/trattoria-1.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
-      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "Window tables facing the Eiffel Tower"]
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: sailing past the Statue of Liberty"],
-      ["data-cap", "Sailing past the Statue of Liberty"],
       ["data-src", "/assets/ota/dinner/trattoria-7.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
-      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "Sailing past the Statue of Liberty"]
      ],
      [
       ["alt", "Trattoria en Seine dinner cruise: the Eiffel Tower lit up at night"],
-      ["data-cap", "The Eiffel Tower lit up at night"],
       ["data-src", "/assets/ota/dinner/trattoria-6.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "420px"],
-      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="],
+      ["data-cap", "The Eiffel Tower lit up at night"]
      ]
     ],
     "thumbs": [
@@ -1735,10 +1751,16 @@
       "src": "/assets/ota/dinner/trattoria-2-p-500.avif"
      },
      {
+      "src": "/assets/ota/dinner/trattoria-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/673aa1a0a6ff68067bee64cc_Le%20Diamant%20Bleu-p-500.webp"
      },
      {
       "src": "/assets/ota/dinner/trattoria-5-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/dinner/trattoria-02-p-500.avif"
      },
      {
       "src": "/assets/ota/dinner/trattoria-3-p-500.avif"
@@ -1927,6 +1949,9 @@
      "url": "#6-le-diamant-bleu",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-paris-trattoria-dinner-cruise-p1071588/?partner=thecruisedetective.com-176436&tq_campaign=din-cru-par-comp-tratt"
    }
   },
   {
@@ -1945,6 +1970,14 @@
       ["loading", "lazy"],
       ["sizes", "420px"],
       ["src", "/assets/ota/dinner/fracasse-2.avif"]
+     ],
+     [
+      ["alt", "Capitaine Fracasse 3-Course French Gastronomic Dinner Cruise"],
+      ["data-src", "/assets/ota/dinner/fracasse-01.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
       ["alt", "Le Capitaine Fracasse dinner cruise: dining room with river-view windows"],
@@ -1966,10 +1999,18 @@
      ],
      [
       ["alt", "Capitaine Fracasse 3-Course French Gastronomic Dinner Cruise"],
+      ["data-src", "/assets/ota/dinner/fracasse-02.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Capitaine Fracasse 3-Course French Gastronomic Dinner Cruise"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673abf57b32cf03625c0afc7_Capitaine%20Fracasse.webp"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "420px"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2014,10 +2055,16 @@
       "src": "/assets/ota/dinner/fracasse-2-p-500.avif"
      },
      {
+      "src": "/assets/ota/dinner/fracasse-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/dinner/fracasse-1-p-500.avif"
      },
      {
       "src": "/assets/ota/dinner/fracasse-3-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/dinner/fracasse-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/673abf57b32cf03625c0afc7_Capitaine%20Fracasse-p-500.webp"
@@ -2197,6 +2244,9 @@
      "url": "#7-capitaine-fracasse",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-romantic-cruise-with-3-course-dinner-on-seine-river-t178769/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-capitaine-fracasse-comparison-list&mkt_cmp=true"
    }
   },
   {
@@ -2210,16 +2260,32 @@
     },
     "photos": [
      [
-      ["alt", "Maxim's dinner cruise: window table for two"],
-      ["data-cap", "Window table for two"],
+      ["alt", "Maxim's de Paris Belle Époque Romantic Dinner Cruise with Live Jazz Pianist"],
       ["loading", "lazy"],
       ["sizes", "420px"],
-      ["src", "/assets/ota/dinner/maxims-2.avif"]
+      ["src", "/assets/ota/dinner/maxims-01.avif"]
+     ],
+     [
+      ["alt", "Maxim's dinner cruise: window table for two"],
+      ["data-cap", "Window table for two"],
+      ["data-src", "/assets/ota/dinner/maxims-2.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
       ["alt", "Maxim's dinner cruise: celebrating at night"],
       ["data-cap", "Celebrating at night"],
       ["data-src", "/assets/ota/dinner/maxims-4.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Maxim's de Paris Belle Époque Romantic Dinner Cruise with Live Jazz Pianist"],
+      ["data-src", "/assets/ota/dinner/maxims-02.avif"],
       ["decoding", "async"],
       ["loading", "lazy"],
       ["sizes", "420px"],
@@ -2239,7 +2305,7 @@
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673be6fcb2781534f290995e_maxim%20de%20paris.webp"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "420px"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2281,10 +2347,16 @@
     ],
     "thumbs": [
      {
+      "src": "/assets/ota/dinner/maxims-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/dinner/maxims-2-p-500.avif"
      },
      {
       "src": "/assets/ota/dinner/maxims-4-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/dinner/maxims-02-p-500.avif"
      },
      {
       "src": "/assets/ota/dinner/maxims-1-p-500.avif"
@@ -2464,6 +2536,9 @@
      "url": "#8-maxim-de-paris",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-seine-river-cruise-with-3-course-dinner-live-music-t420838/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-maxim-de-paris-comparison-list&mkt_cmp=true"
    }
   },
   {
@@ -2726,6 +2801,14 @@
       ["src", "/assets/ota/dinner/marina-early-2.avif"]
      ],
      [
+      ["alt", "Marina de Paris Early Evening Sunset Dinner Cruise with 3-Course Menu"],
+      ["data-src", "/assets/ota/dinner/marina-early-01.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
       ["alt", "Marina de Paris dinner cruise: window table facing the Eiffel Tower"],
       ["data-cap", "Window table facing the Eiffel Tower"],
       ["data-src", "/assets/ota/dinner/marina-early-1.avif"],
@@ -2736,10 +2819,18 @@
      ],
      [
       ["alt", "Marina de Paris Early Evening Sunset Dinner Cruise with 3-Course Menu"],
+      ["data-src", "/assets/ota/dinner/marina-early-02.avif"],
+      ["decoding", "async"],
+      ["loading", "lazy"],
+      ["sizes", "420px"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Marina de Paris Early Evening Sunset Dinner Cruise with 3-Course Menu"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision.webp"],
       ["decoding", "async"],
       ["loading", "lazy"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "420px"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2793,7 +2884,13 @@
       "src": "/assets/ota/dinner/marina-early-2-p-500.avif"
      },
      {
+      "src": "/assets/ota/dinner/marina-early-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/dinner/marina-early-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/dinner/marina-early-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/673d2204f64c04f3548f3db7_Paris%20City%20Vision-p-500.webp"
@@ -2972,6 +3069,9 @@
      "url": "#10-paris-city-vision",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-early-evening-dinner-cruise-on-the-river-seine-t52073/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-paris-early-evening"
    }
   }
  ]
