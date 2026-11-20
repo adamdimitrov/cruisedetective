@@ -269,7 +269,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "11:00–19:00",
-     "pop_html": "<strong>Rijksmuseum dock, all-inclusive:</strong> 11:00, 13:00, 15:00, 17:00, 19:00. <strong>No-drinks cruise:</strong> 14:00, 16:00. 90 minutes.<span class=\"bpa-lang-note\">Captain Jack&rsquo;s GetYourGuide listing, checked for Saturday 14 November 2026.</span>"
+     "pop_html": "<strong>Rijksmuseum dock, all-inclusive:</strong> 11:00, 13:00, 15:00, 17:00, 19:00. <strong>No-drinks cruise:</strong> 14:00, 16:00. 90 minutes.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -278,7 +278,7 @@
      },
      "emoji": "🎧",
      "label": "9-Language Audio",
-     "pop_html": "<strong>Audio guide:</strong> <span class=\"bpa-lang-names\">Dutch, English, German, French, Italian, Spanish, Portuguese, Japanese, Simplified Chinese</span>. Live commentary from an English-speaking captain.<span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>"
+     "pop_html": "<strong>Audio guide:</strong> <span class=\"bpa-lang-names\">Dutch, English, German, French, Italian, Spanish, Portuguese, Japanese, Simplified Chinese</span>. Live commentary from an English-speaking captain.<span class=\"bpa-lang-note\">As listed on the booking page.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -311,7 +311,7 @@
      },
      {
       "q": "Is there a guide?",
-      "a": "Yes. The captain gives live commentary in English and answers questions. GetYourGuide also lists an audio guide in 9 languages."
+      "a": "Yes. The captain gives live commentary in English and answers questions. The booking page also lists an audio guide in 9 languages."
      },
      {
       "q": "What food and drinks are included?",
@@ -581,13 +581,13 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "Every 20–30 min",
-     "pop_html": "Open 09:30–21:00 on the day checked, with departures every 20 to 30 minutes. 1 hour.<span class=\"bpa-lang-note\">Checked on Tiqets on 12 November 2026; hours change by season.</span>"
+     "pop_html": "Open 09:30–21:00 on the day checked, with departures every 20 to 30 minutes. 1 hour.<span class=\"bpa-lang-note\">Checked on the booking page on 12 November 2026; hours change by season.</span>"
     },
     {
      "cls": "bpa-lang",
      "emoji": "🎧",
      "label": "19-Language Audio",
-     "pop_html": "<strong>Audio guide</strong> in English and 18 other languages; live guide in English.<span class=\"bpa-lang-note\">Tiqets does not list the 18 other languages.</span>"
+     "pop_html": "<strong>Audio guide</strong> in English and 18 other languages; live guide in English.<span class=\"bpa-lang-note\">The booking page does not list the 18 other languages.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -614,7 +614,7 @@
      },
      {
       "q": "Which languages does the audio guide cover?",
-      "a": "Tiqets lists English and 18 other languages. On my ride there were 12, including Dutch, German, French, Spanish, Italian, Japanese and Chinese."
+      "a": "The booking page lists English and 18 other languages. On my ride there were 12, including Dutch, German, French, Spanish, Italian, Japanese and Chinese."
      },
      {
       "q": "Do I need my own earbuds?",
@@ -864,7 +864,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "10:30–21:30",
-     "pop_html": "<strong>Central Station:</strong> 19 sailings from 10:30 to 21:15, plus 23:55. <strong>Anne Frank House:</strong> 19 sailings from 11:00 to 21:30, plus 23:55. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "<strong>Central Station:</strong> 19 sailings from 10:30 to 21:15, plus 23:55. <strong>Anne Frank House:</strong> 19 sailings from 11:00 to 21:30, plus 23:55. 1 hour.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -873,7 +873,7 @@
      },
      "emoji": "🎧",
      "label": "English guide",
-     "pop_html": "<strong>Live guide:</strong> <span class=\"bpa-lang-names\">English</span><span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>"
+     "pop_html": "<strong>Live guide:</strong> <span class=\"bpa-lang-names\">English</span><span class=\"bpa-lang-note\">As listed on the booking page.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1167,7 +1167,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "Every 30 min · 10:00–18:15",
-     "pop_html": "<strong>Hard Rock Cafe dock:</strong> every 30 minutes from 10:00 to 18:00. <strong>Heineken Experience dock:</strong> 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 16:15, 18:15. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "<strong>Hard Rock Cafe dock:</strong> every 30 minutes from 10:00 to 18:00. <strong>Heineken Experience dock:</strong> 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 16:15, 18:15. 75 minutes.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1462,7 +1462,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "Every 15 min · 12:15–21:45",
-     "pop_html": "Old Town departures roughly every 15 minutes from 12:15 to 21:45. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "Old Town departures roughly every 15 minutes from 12:15 to 21:45. 1 hour.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1617,7 +1617,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "16:30–21:45",
-     "pop_html": "16:30, 16:45, 17:00, 18:00, 18:15, 18:30, 19:30, 20:00, 20:15, 21:15, 21:30, 21:45. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 5 December 2026, during the festival.</span>"
+     "pop_html": "16:30, 16:45, 17:00, 18:00, 18:15, 18:30, 19:30, 20:00, 20:15, 21:15, 21:30, 21:45. 75 minutes.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 5 December 2026, during the festival.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1767,7 +1767,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "14 sailings · 13:00–21:00",
-     "pop_html": "From Dam Square: 13:00, 13:30, 15:00, 16:00, 16:30, 17:45, 18:00, 18:45, 19:00, 19:30, 19:45, 20:00, 20:30, 21:00. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "From Dam Square: 13:00, 13:30, 15:00, 16:00, 16:30, 17:45, 18:00, 18:45, 19:00, 19:30, 19:45, 20:00, 20:30, 21:00. 1 hour.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1776,7 +1776,7 @@
      },
      "emoji": "🎧",
      "label": "10-Language Audio",
-     "pop_html": "<strong>QR audio guide:</strong> <span class=\"bpa-lang-names\">English, Dutch, German, Spanish, French, Italian, Portuguese, Chinese, Japanese, Arabic</span>. Bring your own headphones.<span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>"
+     "pop_html": "<strong>QR audio guide:</strong> <span class=\"bpa-lang-names\">English, Dutch, German, Spanish, French, Italian, Portuguese, Chinese, Japanese, Arabic</span>. Bring your own headphones.<span class=\"bpa-lang-note\">As listed on the booking page.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -1926,7 +1926,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "Every 30 min · 12:30–22:00",
-     "pop_html": "<strong>70-minute cruise:</strong> every 30 minutes from 12:30 to 22:00 (no 18:30 or 19:00). <strong>60-minute budget cruise:</strong> 17:15, 18:30, 19:45, 21:15. <strong>80-minute luxury cruise:</strong> 13:00, 14:45, 16:30, 19:00, 20:45.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "<strong>70-minute cruise:</strong> every 30 minutes from 12:30 to 22:00 (no 18:30 or 19:00). <strong>60-minute budget cruise:</strong> 17:15, 18:30, 19:45, 21:15. <strong>80-minute luxury cruise:</strong> 13:00, 14:45, 16:30, 19:00, 20:45.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -2089,7 +2089,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "18:00 · 75 min",
-     "pop_html": "One sailing at 18:00. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "One sailing at 18:00. 75 minutes.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",
@@ -2236,7 +2236,7 @@
      "cls": "bpa-lang bpa-time",
      "emoji": "🕒",
      "label": "19:00 · 2 h",
-     "pop_html": "One sailing at 19:00. 2 hours.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>"
+     "pop_html": "One sailing at 19:00. 2 hours.<span class=\"bpa-lang-note\">Checked on the booking page for Saturday 14 November 2026; times change by season.</span>"
     },
     {
      "cls": "bpa-lang",

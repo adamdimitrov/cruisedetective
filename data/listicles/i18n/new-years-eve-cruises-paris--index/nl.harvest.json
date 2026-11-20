@@ -1,0 +1,227 @@
+{
+ "format": 1,
+ "lang": "nl",
+ "comment": "Where each harvested entry of nl.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "nl/oudejaarsavond-boottochten-parijs/index.html",
+ "english_version": "f39bb346 2026-11-19",
+ "match_score": 3.0,
+ "entries": {
+  "🏆 #1 Best Overall NYE Cruise": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Bateaux Parisiens New Year's Eve: Gala Dinner or Champagne Cruise": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 48
+  },
+  "Bateaux Parisiens": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "Midnight on the Seine": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/span[1]/text()[0]",
+   "seen": 8
+  },
+  "Live orchestra": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[1]/div[1]/details[3]/div[1]/div[0]/div[1]/div[6]/div[3]/text()[0]•0",
+   "seen": 1
+  },
+  "per person, from": {
+   "source": "listicle file thames-river-cruises-london--index/nl.json",
+   "seen": 1
+  },
+  "Champagne Cruise": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/a[1]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Gala Dinner Cruise": {
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/a[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "🕛 #2 Best Midnight on the Water": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "New Year's Eve Dinner Cruise With Live Singer, DJ & Midnight on the Water": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "⏱️ 4 Hours": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "New Year's Eve Dinner Cruise With Live Singer, DJ &amp; Midnight on the Water": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "Midnight on the water": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[2]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Private parking": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[2]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[2]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "<strong>Private parking</strong> at Port de Bercy.": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[2]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[2]",
+   "seen": 1
+  },
+  "What is included?": {
+   "source": "listicle file seine-river-cruises-paris--index/nl.json",
+   "seen": 2
+  },
+  "Where does it leave from?": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 2,
+   "alternatives": ["Waar vertrekt de boot?"]
+  },
+  "From €450": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">Seated NYE dinner</span></div><div class=\"nye-food-strip\">Champagne &amp; amuse-bouches<span class=\"sep\">•</span>Festive NYE menu<span class=\"mid\">🕛 On the water</span></div></div>": {
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[1]/div[5] (outer)",
+   "seen": 2
+  },
+  "🥂 #3 Classic Dinner + Party": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Bateaux Mouches New Year's Eve Dinner Cruise With Onboard Party": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 36
+  },
+  "Bateaux Mouches": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2h15 + party": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "360° upper deck": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "What is on the menu?": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 2
+  },
+  "Is there a vegetarian menu?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "From €480": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">Seated 5-part dinner</span></div><div class=\"nye-food-strip\">Champagne &amp; appetisers<span class=\"sep\">•</span>2 starters<span class=\"sep\">•</span>Main<span class=\"sep\">•</span>Cheese<span class=\"sep\">•</span>Dessert<span class=\"mid\">🕛 Party at the quay</span></div></div>": {
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[1]/div[5] (outer)",
+   "seen": 2
+  },
+  "⏰ #4 Best Early NYE Dinner": {
+   "source": "nl page vs EN f39bb346 card-4/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Le Diamant Bleu New Year's Eve Early Dinner Cruise (18:00–20:00)": {
+   "source": "nl page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 27
+  },
+  "Le Diamant Bleu": {
+   "source": "nl page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2 Hours": {
+   "source": "nl page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Radio France": {
+   "source": "nl page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 3
+  },
+  "Early service": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[4]/div[1]/div[4]/div[1]/div[2]/div[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["Vroege zitting"]
+  },
+  "🗼 #5 Best Party Facing the Eiffel Tower": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "New Year's Eve 4-Course Dinner Cruise + DJ Party Facing the Eiffel Tower": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 18
+  },
+  "Eiffel Croisières": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Port Debilly": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Shared tables of 10": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 4,
+   "alternatives": ["gedeelde tafels voor 10"]
+  },
+  "Outdoor terrace": {
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[2]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Are drinks included?": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 2
+  },
+  "From €425": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "<div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">4-course menu + aperitif</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-eiffel-croisieres\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Amuse-bouches<span class=\"sep\">•</span>Trout<span class=\"sep\">•</span>Veal loin<span class=\"sep\">•</span>Cheese<span class=\"sep\">•</span>Pear &amp; chocolate<span class=\"mid\">🕛 DJ facing the Eiffel Tower</span></div></div>": {
+   "source": "nl page vs EN f39bb346 card-5/div[0]/div[1]/div[5] (outer)",
+   "seen": 2
+  }
+ },
+ "urls": {
+  "/private-cruises-paris": {
+   "to": "/nl/prive-boottochten-parijs",
+   "source": "nl page vs EN f39bb346 #content/div[0]/details[5]/div[1]/details[2]/div[1]/div[0]/p[1]/a[1]@href"
+  }
+ },
+ "skipped": [
+  {
+   "en": "📍 Port de la Bourdonnais",
+   "tr": "📍 Port de la Bourdonnais",
+   "why": "identical to English",
+   "source": "nl page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "📍 Port de Bercy",
+   "tr": "📍 Port de Bercy",
+   "why": "identical to English",
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Marina de Paris",
+   "tr": "Marina de Paris",
+   "why": "identical to English",
+   "source": "nl page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "📍 Pont de l’Alma",
+   "tr": "📍 Pont de l’Alma",
+   "why": "identical to English",
+   "source": "nl page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Smart casual",
+   "tr": "Smart casual",
+   "why": "identical to English",
+   "source": "listicle file dinner-cruises-paris--index/nl.json"
+  }
+ ]
+}

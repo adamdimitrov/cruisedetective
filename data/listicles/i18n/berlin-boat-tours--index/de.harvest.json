@@ -1,0 +1,1040 @@
+{
+ "format": 1,
+ "lang": "de",
+ "comment": "Where each harvested entry of de.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "de/spreefahrt-berlin/index.html",
+ "english_version": "7d212528 2026-11-18",
+ "match_score": 2.998,
+ "entries": {
+  "🏆 #1 Best Overall": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6,
+   "alternatives": ["🏆 #1 Bester Gesamtsieger", "🏆 #1 Gesamtsieger Sightseeing", "🏆 #1 Insgesamt am besten"]
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 1": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 2": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 3": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 4": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 5": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 6": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 7": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide, photo 8": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Reederei Hadynski": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 1 Hour": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "📍 Opposite Berlin Cathedral": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "1-Hour Spree Cruise on a Heated Glass-Roof Boat with a Live Guide": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "7,465 reviews": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Rating on the booking site": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 20
+  },
+  "Live Guide DE/EN": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A real guide, not a recording.</strong> The commentary is given live in German and English on every departure.<span class=\"bpa-lang-note\">No audio guide in other languages. For French, Spanish or Italian, pick #3.</span>": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Glass Roof + Heating": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Weatherproof.</strong> The glass roof opens on sunny days and closes in rain; the cabin is heated when it is cold. Toilet on board.<span class=\"bpa-lang-note\">Sails daily from March to December on MS Carola or MS Franziska.</span>": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Classic City Loop": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The 1-hour central loop:</strong> Humboldt Forum, Nikolaiviertel, Museum Island, Tränenpalast, Reichstag, Hauptbahnhof, Chancellery and Haus der Kulturen der Welt, then back.<span class=\"bpa-lang-note\">Same route as #3 and #4. The difference is the boat and the guide.</span>": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Not wheelchair accessible": {
+   "source": "listicle file seine-river-cruises-paris--index/de.json",
+   "seen": 1
+  },
+  "for the best 1-hour cruise in any weather: live guide, glass roof, €18.": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you need a wheelchair-accessible boat: the listing says it is not suitable.": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is the guide live?": {
+   "source": "listicle file seine-river-cruises-paris--index/de.json",
+   "seen": 1
+  },
+  "Where does it leave from?": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 4
+  },
+  "When does it sail?": {
+   "source": "listicle file seine-river-cruises-paris--index/de.json",
+   "seen": 1,
+   "alternatives": ["Wann fährt es?"]
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/de.json",
+   "seen": 5
+  },
+  "Yes, for free up to 24 hours before.": {
+   "source": "listicle file private-cruises-paris--index/de.json",
+   "seen": 1
+  },
+  "The final price is shown before you pay.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/de.json",
+   "seen": 2
+  },
+  "<b>Instant mobile ticket</b>": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 1
+  },
+  "Read review ↓": {
+   "source": "de page vs EN 7d212528 card-1/div[0]/div[2]/a[4]/text()[0]",
+   "seen": 40
+  },
+  "🌉 #2 Best Full City Tour": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 1": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 2": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 3": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 4": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 5": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 6": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 7": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 8": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal, photo 9": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "⏱️ 3.25 Hours": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Rolandufer (Jannowitzbrücke)": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "3.25-Hour Bridges Tour on the Spree and Landwehr Canal": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "4.8k+ reviews · 2 sites": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Spree + Landwehr Canal": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A full circle through Berlin:</strong> under about 40 bridges, along the Spree through the centre and back through the Landwehr Canal past the Technikmuseum and Potsdamer Platz.<span class=\"bpa-lang-note\">The only cruise here that shows Kreuzberg and the canal side of the city.</span>": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Audio Guide, 11 Languages": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio guide:</strong> English, Chinese, Dutch, French, Hebrew, Italian, Polish, Portuguese, Russian, Spanish, Swedish. Commentary on board in German.": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "€10 per Hour": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>€32.90 for 3.25 hours</strong> works out at about €10 per hour, half the hourly price of a 1-hour cruise.<span class=\"bpa-lang-note\">Food and drinks can be ordered on board.</span>": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "if you have an afternoon and want to see more than the government quarter.": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if your plans may change: this ticket is non-refundable.": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 20
+  },
+  "🎧 #3 Most Languages": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 1": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 2": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 3": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 4": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 5": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 6": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 7": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 8": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 9": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages, photo 10": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "📍 Friedrichstraße or Nikolaiviertel": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "1-Hour City Cruise with an Audio Guide in 12 Languages": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "18.1k+ reviews · 2 sites": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "12-Language Audio": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio guide device:</strong> English, French, Spanish, Portuguese, Italian, Dutch, Russian, Polish, Swedish, Chinese, Hebrew, Finnish. German commentary over the speakers.<span class=\"bpa-lang-note\">The pick for families who don't speak German or English.</span>": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "<strong>Board at Friedrichstraße (Reichstagufer) or Nikolaiviertel</strong>, whichever is closer. You pick the pier when you book.<span class=\"bpa-lang-note\">Missed your boat? Staff put you on a later departure.</span>": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Dogs + Pushchairs OK": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Pushchairs can come on board</strong> and dogs on a lead are welcome.<span class=\"bpa-lang-note\">Not wheelchair accessible. Own food and drink are not allowed.</span>": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the cheapest classic loop, with audio in your own language.": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a live guide: #1 has one for the same price.": {
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Which languages does the audio guide cover?": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 1,
+   "alternatives": ["Welche Sprachen bietet der Audioguide?"]
+  },
+  "💑 #4 Best for Couples": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 1": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 2": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 3": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 4": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 5": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 6": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 7": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 8": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 9": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship, photo 10": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "FLAGSHIP.BERLIN": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "⏱️ 1 to 1.5 Hours": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 By the Reichstag": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 8
+  },
+  "1-Hour Cruise on the Hemingway, a Restored 1908 Steamship": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "1,077 reviews": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Built in 1908, now electric.</strong> No engine noise, white tablecloths, fresh flowers and a mahogany salon instead of plastic chairs.": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Commentary + Music": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A mix of sightseeing commentary in German and English</strong> and quiet background music.<span class=\"bpa-lang-note\">Drinks are served at your seat and cost extra.</span>": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Pier by the Reichstag": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>From the Reichstag walk down to the river and turn left.</strong> After about 150 m you see the yellow FLAGSHIP.BERLIN flags.<span class=\"bpa-lang-note\">Arrive 20 minutes early to choose your seat.</span>": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a date: the quietest, most stylish boat on the 1-hour loop.": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if price matters most: #1 and #3 cost €7 less.": {
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Are drinks included?": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 4
+  },
+  "Is there commentary?": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 3,
+   "alternatives": ["Gibt es Erklärungen?"]
+  },
+  "🌙 #5 Best Evening Cruise": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 1": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 2": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 3": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 4": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 5": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 6": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 7": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 8": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 9": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant, photo 10": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 75 to 90 Min": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "Evening Yacht Cruise with a Glass of Crémant": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "625 reviews": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Crémant Included": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>One glass of Crémant or alcohol-free sparkling wine</strong> on boarding. Long drinks and more wine from the bar cost extra.": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Sunset, No Lecture": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Not a guided tour.</strong> Music, lounge furniture on the sundeck and the city lighting up as it gets dark.<span class=\"bpa-lang-note\">The salon has room for everyone if it rains.</span>": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Dinner Add-On": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>On some dates you can add a 3-course dinner:</strong> the yacht drops you one way at the Patio restaurant ship, where the evening ends.<span class=\"bpa-lang-note\">Check the options for your date.</span>": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a relaxed start to the evening, drink in hand.": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want to learn about the sights: there is no commentary.": {
+   "source": "de page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/de.json",
+   "seen": 4,
+   "alternatives": ["Was ist inbegriffen?"]
+  },
+  "🌳 #6 Best Lake Cruise": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "📍 Wannsee pier (S Wannsee)": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 8
+  },
+  "2.7k+ reviews · 2 sites": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "7 Lakes, No City": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A loop through the south-western Havel lakes:</strong> Kleiner Wannsee, Pohlesee, Stölpchensee, Griebnitzsee, Glienicker See and Jungfernsee, back to Wannsee.<span class=\"bpa-lang-note\">Villas, Babelsberg Palace and the Heilandskirche in Sacrow along the way.</span>": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "5 Min from S Wannsee": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The pier is a 5-minute walk from Wannsee station</strong> (S1, S7 and regional trains), about 25 minutes from the centre.<span class=\"bpa-lang-note\">Combine it with a walk on Peacock Island or in the Grunewald.</span>": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "€10.80 per Hour": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>€18.90 for about 1 hour 45 minutes.</strong> Food and drinks are sold on board.": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a calm, green half-day out of the city for under €20.": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if it is your first day in Berlin: you won't see a single landmark of the centre.": {
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🎨 #7 Best for East Berlin": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 1": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 2": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 3": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 4": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 5": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 6": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 7": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 8": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 9": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke, photo 10": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "BWSG": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2.5 Hours": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "📍 Alte Börse (Hackescher Markt)": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "2.5-Hour East Side Cruise past the Oberbaumbrücke": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "36 reviews": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "East Side Gallery": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>The only cruise here that goes east:</strong> under the Oberbaumbrücke into the Osthafen, past the East Side Gallery, the Molecule Man and the arena.<span class=\"bpa-lang-note\">It also covers the centre: Berliner Dom, Humboldt Forum, Reichstag and Hauptbahnhof.</span>": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "DE/EN + 6 Audio": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>German and English over the speakers</strong>, plus an audio guide in Spanish, French, Italian, Russian, Polish and Hebrew.": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Pier at Hackescher Markt": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Board at the Alte Börse pier</strong> opposite Burgstraße 27, next to Friedrichsbrücke and Museum Island, a few minutes from S Hackescher Markt.<span class=\"bpa-lang-note\">Arrive 15 minutes early to swap your ticket for a boarding pass.</span>": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "to see the East Side Gallery and Oberbaumbrücke from the water.": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want flexibility: non-refundable, and only 36 reviews so far.": {
+   "source": "de page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/de.json",
+   "seen": 3
+  },
+  "🏰 #8 Best for Palaces": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 1": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 2": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 3": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 4": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 5": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 6": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 7": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 8": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 9": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam, photo 10": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 3 Hours": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "3-Hour World Heritage Cruise to Potsdam": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "1,906 reviews": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "UNESCO Palaces": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Wannsee to Potsdam and back:</strong> Peacock Island, Nikolskoe, Cecilienhof Palace, Glienicke Bridge, Babelsberg Palace and Potsdam's Lange Brücke.<span class=\"bpa-lang-note\">Glienicke Bridge is the Cold War 'bridge of spies'.</span>": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Info DE/EN": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Commentary in German and English</strong> over the onboard system.<span class=\"bpa-lang-note\">Food and drinks are sold on board.</span>": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "€7.30 per Hour": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>€21.90 for 3 hours</strong>, with free cancellation up to 24 hours before.": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "to see Potsdam's palaces without a day trip by train and bus.": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want to visit the palaces: the boat passes them, it doesn't stop.": {
+   "source": "de page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "💶 #9 Most Hours per Euro": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 1": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 2": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 3": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 4": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 5": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 6": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 7": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 8": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 9": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "3.5-Hour Spree Cruise to Müggelsee, photo 10": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 3.5 Hours": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Treptow (S Treptower Park)": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "3.5-Hour Spree Cruise to Müggelsee": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "2.4k+ reviews · 2 sites": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Köpenick + Müggelsee": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Up the Spree to Berlin's largest lake:</strong> Treptower Park, the old factories of Oberschöneweide, Köpenick Palace and old town, Friedrichshagen, then Müggelsee with a view of the Müggelturm.": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "€6.30 per Hour": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>€21.90 for 3.5 hours</strong>, the lowest price per hour of all 10 cruises.<span class=\"bpa-lang-note\">Food is sold on board.</span>": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Free Cancellation": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Cancel for free or reschedule up to 24 hours before</strong> your date.": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a long, cheap, green day on the water in the east of the city.": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you only have a few hours in Berlin: it skips the centre entirely.": {
+   "source": "de page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🍽️ #10 Best Dinner Cruise": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 1": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 2": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 3": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 4": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 5": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 6": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 7": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 8": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 9": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer, photo 10": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Reederei Becker": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Charlottenburg (U Richard-Wagner-Platz)": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "2.5-Hour Dinner Cruise on the MS Der Fliegende Holländer": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "382 reviews · 2 sites": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "3 or 4 Courses": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Berlin Dinner:</strong> welcome Prosecco, 3-course menu and one drink with dinner. <strong>Capital Dinner:</strong> 4 courses, all drinks included (beer, wine, Prosecco, soft drinks) and a guaranteed window seat.<span class=\"bpa-lang-note\">Meat and vegetarian options; the 3-course menu has no fish.</span>": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "18:30 Departure": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>One departure, 18:30.</strong> Arrive 15 minutes early and show your phone ticket at the pier.<span class=\"bpa-lang-note\">Audio guide in English and German during the cruise.</span>": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Pier in Charlottenburg": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>The pier has no street address</strong>; it is by Wintersteinstraße 24 in Charlottenburg. Nearest U-Bahn: Richard-Wagner-Platz (U7).<span class=\"bpa-lang-note\">Card payments: the bar on board takes cash only.</span>": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a sit-down dinner with the Reichstag and Museum Island going by.": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want flexibility: non-refundable, and the pier is out in Charlottenburg.": {
+   "source": "de page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Which menu should I book?": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/de.json",
+   "seen": 2
+  },
+  "When does it leave?": {
+   "source": "listicle file private-cruises-paris--index/de.json",
+   "seen": 1
+  },
+  "per adult, from": {
+   "source": "listicle file thames-river-cruises-london--index/de.json",
+   "seen": 1
+  },
+  "Berlin Dinner": {
+   "source": "de page vs EN 7d212528 #content/div[0]/details[10]/div[1]/details[2]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 2
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "Stern und Kreis",
+   "tr": "Stern und Kreis",
+   "why": "identical to English",
+   "source": "de page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "Two Piers",
+   "tr": "Zwei Anleger",
+   "why": "another name",
+   "source": "de page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]"
+  },
+  {
+   "en": "Silent Electric Boat",
+   "tr": "Leises Elektroboot",
+   "why": "another name",
+   "source": "de page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 1",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 1",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 2",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 2",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[1]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 3",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 3",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[2]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 4",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 4",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[3]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 5",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 5",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[4]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 6",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 6",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[5]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 7",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 7",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[6]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 8",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 8",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[7]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 9",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 9",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[8]@alt"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee, photo 10",
+   "tr": "7-Seen-Rundfahrt ab Wannsee, Foto 10",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[9]@alt"
+  },
+  {
+   "en": "⏱️ About 1h 45",
+   "tr": "⏱️ Ca. 1:45 Std.",
+   "why": "colon added or dropped (old label?)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/text()[0]•1"
+  },
+  {
+   "en": "Seven Lakes Cruise from Wannsee",
+   "tr": "7-Seen-Rundfahrt ab Wannsee",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 7d212528 card-6/div[0]/div[1]/a[1]/text()[0]"
+  }
+ ]
+}

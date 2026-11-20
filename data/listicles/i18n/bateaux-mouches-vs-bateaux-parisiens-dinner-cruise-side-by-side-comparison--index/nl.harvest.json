@@ -1,0 +1,176 @@
+{
+ "format": 1,
+ "lang": "nl",
+ "comment": "Where each harvested entry of nl.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "nl/bateaux-mouches-vs-bateaux-parisiens-dinercruise-zij-aan-zij-vergelijking/index.html",
+ "english_version": "worktree",
+ "match_score": 0.0,
+ "entries": {
+  "📍 Pont de l'Alma Pier": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 2
+  },
+  "Violin &amp; piano": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Kir &amp; wine included": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Access &amp; kids": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 2
+  },
+  "Diet options": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Does it leave from the Eiffel Tower?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Which menu should I book?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Harmonie (€114) for the classic dinner with kir and a glass of wine. Prestige (€135) adds sparkling wine, half a bottle of wine per person and a cheese option. Excellence (€170) adds Champagne, a cheese course and window-table priority.": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1,
+   "alternatives": ["Harmonie (€114) voor het klassieke diner met kir en een glas wijn. Prestige (€135) voegt mousserende wijn, een halve fles wijn per persoon en een kaasoptie toe. Excellence (€170) voegt champagne, een kaasgang en voorrang op een tafel aan het raam toe."]
+  },
+  "Can I go outside?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 3
+  },
+  "Harmonie menu": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "kir, 1 glass of wine": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Prestige menu": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "half a bottle of wine pp": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Excellence menu": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Champagne, window priority": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "4-12, 3 courses": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Under 4": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 3
+  },
+  "no meal": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "2 adults + 2 kids (4-12), Harmonie": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Booked securely via Tiqets": {
+   "source": "listicle file canal-cruises-amsterdam--index/nl.json",
+   "seen": 4
+  },
+  "<b>Free cancellation</b> up to 72 h before": {
+   "source": "listicle file new-years-eve-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Bateaux Parisiens": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 3
+  },
+  "Free Wi-Fi": {
+   "source": "listicle file thames-river-cruises-london--index/nl.json",
+   "seen": 1
+  },
+  "Which ticket should I book?": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Étoile (€115): 3 courses, kir and wine (1 bottle per 4). Découverte (€139) adds Champagne. Privilège (€185) adds cheese and a guaranteed window table. Premier (€215): 5 courses and the front tables.": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1,
+   "alternatives": ["Étoile (€115): 3 gangen, kir en wijn (1 fles per 4 personen). Découverte (€139) voegt champagne toe. Privilège (€185) voegt kaas en een gegarandeerde tafel aan het raam toe. Premier (€215): 5 gangen en de tafels voorin."]
+  },
+  "Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "3 courses, kir, wine": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Découverte": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "adds Champagne": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Privilège": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "cheese, window table": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "Premier": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "5 courses, front tables": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "up to 11, Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  },
+  "2 adults + 2 kids (up to 11), Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/nl.json",
+   "seen": 1
+  }
+ },
+ "urls": {
+  "/about#methodology": {
+   "to": "/nl/over-ons#methodology",
+   "source": "listicle file dinner-cruises-paris--index/nl.json"
+  }
+ },
+ "skipped": [
+  {
+   "en": "Smart casual",
+   "tr": "Smart casual",
+   "why": "identical to English",
+   "source": "listicle file dinner-cruises-paris--index/nl.json"
+  },
+  {
+   "en": "Compagnie des Bateaux Mouches",
+   "tr": "Compagnie des Bateaux Mouches",
+   "why": "identical to English",
+   "source": "port memory new-years-eve-cruises-paris__index/nl.json [f1c3df6640c0]"
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "format": 1,
+ "lang": "pl",
+ "comment": "Where each harvested entry of pl.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "pl/rejsy-po-tamizie-londyn/index.html",
+ "english_version": "6783fce8 2026-11-18",
+ "match_score": 3.0,
+ "entries": {
+  "🏆 #1 Best Sightseeing Overall": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Thames River Sightseeing": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 1 Hour": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Westminster Pier": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 30
+  },
+  "31k+ reviews · 4 sites": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "for the classic Westminster to Greenwich route past the Tower of London and Tower Bridge.": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "How far does it go?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/pl.json",
+   "seen": 2,
+   "alternatives": ["Czy mogę anulować?"]
+  },
+  "From £17": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "Booked securely via Tiqets": {
+   "source": "pl page vs EN 6783fce8 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 4
+  },
+  "🥈 #2 Runner-Up Sightseeing": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "London Eye": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3,
+   "alternatives": ["Londyńskie Oko"]
+  },
+  "📍 London Eye Pier": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "8.2k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Hourly 10:45–17:45": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "if you are already at the London Eye and want a short river loop.": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a longer trip: about 45 minutes on a circular route.": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Can I bring a stroller?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "Where do I board?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 1,
+   "alternatives": ["Gdzie się wsiada?"]
+  },
+  "From £16": {
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "🥉 #3 Best Hop-On Hop-Off": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "London City Cruises": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 19
+  },
+  "5.3k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "24-hour hop-on hop-off": {
+   "source": "pl page vs EN 6783fce8 #content/div[0]/details[4]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["Rejs Hop-On Hop-Off 24 h"]
+  },
+  "for a 24-hour hop-on hop-off ticket between Westminster, the London Eye, the Tower and Greenwich.": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in peak summer: popular sailings fill up fast.": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £25": {
+   "source": "pl page vs EN 6783fce8 card-3/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "⚡ #4 Best Speedboat Thrill": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Thames Rockets": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 50 Min": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "9.1k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Hourly 10:00–15:00": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "880bhp speedboat": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Life jackets": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a fast, fun speedboat ride past Tower Bridge.": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you are pregnant or have back or neck issues.": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £65": {
+   "source": "pl page vs EN 6783fce8 card-4/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "⚡ #5 Runner-Up Speedboat": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Thames Ribs": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 70 Min": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "1.7k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Thames Barrier run": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Live commentary": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Ponchos &amp; life jackets": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a longer 70-minute speedboat run all the way to the Thames Barrier.": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you hate getting wet: expect spray on breezy days.": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £75": {
+   "source": "pl page vs EN 6783fce8 card-5/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "🍽️ #6 Best Value Lunch Cruise": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "📍 Tower Millennium Pier": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "3.8k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "2-course lunch": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a relaxed lunch on the river with Tower Bridge views.": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you are staying near Westminster: it boards at Tower Pier.": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "From £53": {
+   "source": "pl page vs EN 6783fce8 card-6/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "⏱️ 2 hours": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 5
+  },
+  "3.6k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "1 glass of sparkling wine": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Canapés": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for an evening cruise with bubbly and canapés.": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a full meal: it is canapés, not dinner.": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £40": {
+   "source": "pl page vs EN 6783fce8 card-7/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "470+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Live jazz band": {
+   "source": "pl page vs EN 6783fce8 #content/div[0]/details[9]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "3-course dinner": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Welcome sparkling wine": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a 3-hour dinner cruise with a live jazz band.": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "on a tight budget: from £109, and the lowest rated cruise here.": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £109": {
+   "source": "pl page vs EN 6783fce8 card-8/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "Thames Clippers": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "1.8k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "1-day hop-on hop-off": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "No commentary": {
+   "source": "pl page vs EN 6783fce8 #content/div[0]/details[10]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Food &amp; drinks to buy": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for using the river as fast transport and hopping off anywhere.": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want commentary: it is public transport, not a tour.": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £28": {
+   "source": "pl page vs EN 6783fce8 card-9/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "5k+ reviews · 3 sites": {
+   "source": "pl page vs EN 6783fce8 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Live music &amp; dancing": {
+   "source": "pl page vs EN 6783fce8 card-10/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a full evening of dinner, live music and dancing.": {
+   "source": "pl page vs EN 6783fce8 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if three hours on board feels too long.": {
+   "source": "pl page vs EN 6783fce8 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £79": {
+   "source": "pl page vs EN 6783fce8 card-10/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "⏱️ 45 min",
+   "tr": "⏱️ 45 min",
+   "why": "identical to English",
+   "source": "pl page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/text()[0]•1"
+  }
+ ]
+}

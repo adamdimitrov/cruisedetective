@@ -1,0 +1,407 @@
+{
+ "format": 1,
+ "lang": "pt",
+ "comment": "Entries of pt.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "What is included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].q"
+  },
+  "Local wine, a regional tasting board, blankets, the crew, insurance and fuel. There is a toilet on the covered yacht.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Which route does it take?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "From Marina do Freixo under all six bridges, past Ribeira and the Gaia Port cellars, then out to Foz and the Atlantic: twice as much river as the 50-minute boats.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "How do I get to the pier?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].q"
+  },
+  "Restaurante Marina do Freixo, N108, 4300-316 Porto, about 4 km east of Ribeira. Take a taxi, Uber or bus.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "When should I go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].q"
+  },
+  "The last departure of the day in summer, for the sunset at the river mouth. Bring a jacket: it gets windy at Foz even in July.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Can I cancel?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].q"
+  },
+  "Yes, for free up to 24 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].a"
+  },
+  "2 hours, wine and tasting board": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "2 adults": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.total.label"
+  },
+  "The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "<b>Free cancellation</b> up to 24 hours before": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 cta.trust[0]"
+  },
+  "<b>Reserve now, pay later</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 cta.trust[1]"
+  },
+  "Which wines do I taste?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "Three, with pairings: Vinho Verde with cashews, a rosé with dried figs and a Tawny Port with chocolate.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Is there a guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Yes, a skipper drives and a guide talks, in English, Portuguese or Spanish.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Does it go out to the ocean?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "Sunset departures carry on towards the Atlantic when the sea is calm enough. Not for seasick travellers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Where does it leave from?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].q"
+  },
+  "Douro Marina, Rua da Praia 430, Vila Nova de Gaia, about 5 km from Ribeira near the river mouth.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "2 hours, 3 wines with pairings": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "Not step-free": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Mobility:</b> not suitable for limited mobility, per the listing</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "Is it good value?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].q"
+  },
+  "Yes: €31 for 2 hours is about €15.50 an hour, with a glass of Port, cheaper per hour than the 50-minute six-bridges boats.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Is the sunset slot more expensive?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "No, daytime and sunset cost the same.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Is food included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].q"
+  },
+  "No, only a glass of Port, plus Wi-Fi and music on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Douro Marina, Rua da Praia, Vila Nova de Gaia. Arrive a little early to find the pontoon.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "2 hours, glass of Port": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "<strong>Included:</strong> a welcome drink of Port, local wine, a soft drink or water.<span class=\"bpa-lang-note\">Bathroom on board, blankets on cool evenings.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].pop_html"
+  },
+  "for the best score here from a big crowd: 4.95 out of 5 from 2,185 reviews, and the sunset slot heads out toward the Atlantic.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.pick_html"
+  },
+  "How good are the reviews?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "A welcome drink (Port, local wine, a soft drink or water), a guide, a certified crew, insurance and fuel.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Is there a toilet?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "Yes, a bathroom, plus blankets on cool days.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "2 hours from Afurada past all 7 bridges up to the Freixo Palace; the sunset slot ends with the sun going down over the river mouth.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "2 hours, welcome glass of Port": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "How small is the group?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "8 guests at most, the smallest group in this comparison, on a sailboat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "No, only a welcome drink and music. For food and wine at a similar price, see #1.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Pontoon C, Douro Marina, Rua da Praia 430, Vila Nova de Gaia.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Which languages does the skipper speak?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "English, Spanish and Portuguese.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "2 hours, max 8 guests": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "<b>Instant mobile ticket</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[1]"
+  },
+  "7,284 reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 reviews.ratings.meta"
+  },
+  "Where do I board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].q"
+  },
+  "On the Ribeira quay, at the jetty by Cais da Estiva and Praça da Ribeira: you can walk on from the old town.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "Is there commentary?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].q"
+  },
+  "Not really: it is a boat ride only, with no drinks and no guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "When does it run?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "Daytime departures, 10:30 to 16:30 in autumn.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "How long is it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].q"
+  },
+  "50 minutes, under all six bridges.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "Yes, for free up to 48 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[4].a"
+  },
+  "50 min, six bridges": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].small"
+  },
+  "<b>Free cancellation</b> up to 48 hours before": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 cta.trust[0]"
+  },
+  "Under 3 free": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">👶 <b>Kids:</b> under 3 ride free, mention them when you book</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].pop_html"
+  },
+  "Do kids pay?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "Children up to 3 ride free if you add them when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "How does the audio guide work?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Through a QR code on your own phone, in English, French, Portuguese or Spanish, so bring earphones.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "Avenida de Diogo Leite 408, on the Gaia quay opposite Cálem, among the Port cellars.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "50 minutes under all six bridges; the ticket is valid for 1 hour.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "50 min, audio guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].small"
+  },
+  "Under 3": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[1].label"
+  },
+  "What is for dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "Cured meats and cheeses, a Francesinha (Porto&rsquo;s signature dish) and a house dessert, with 1 drink.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "Are more drinks included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "No, additional food and drinks cost extra.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Marina do Freixo, Rua do Freixo, 4300-316 Porto, east of the centre, so add a taxi to your evening.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "Can kids come?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "Yes: 0 to 3 year olds pay an infant rate, without a meal.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "Yes, for free up to 72 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "2 hours, dinner and 1 drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].small"
+  },
+  "<b>Free cancellation</b> up to 72 hours before": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[0]"
+  },
+  "The six bridges cruise, a DJ and 1 drink (white wine, two beers or a soft drink). More drinks are sold on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "Is it a sightseeing cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].q"
+  },
+  "Second: it is a party first, so book it with friends rather than for a quiet view.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "Avenida de Ramos Pinto 710 on the Gaia riverfront, a short walk from Ribeira.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "Is there an age limit?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "No alcohol is served to under-18s.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "2 hours, DJ and 1 drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].small"
+  },
+  "How does the day work?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "The boat leaves Cais da Estiva in Ribeira at 08:00, sails upriver to Régua through the Crestuma-Lever dam lock, and a bus brings you back: 11 hours in total.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "The cruise to Régua, breakfast, lunch, drinks and the bus back to Porto. Gratuities are not included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "When does it sail?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "It is seasonal: the next sailings are on weekdays from April 2027.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "Do I need a hotel transfer?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "No, it starts in Ribeira, in front of Café do Cais.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "11 hours, meals included": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].small"
+  },
+  "🌉 #6 Best Six Bridges from Ribeira": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.rank.text"
+  },
+  "🍇 #10 Best Douro Valley Day Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 gallery.rank.text"
+  },
+  "4.95/5 from 2,185 reviews, the highest score here of any cruise with more than 1,000 reviews.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  }
+ }
+}

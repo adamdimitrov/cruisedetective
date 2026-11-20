@@ -1,0 +1,682 @@
+{
+ "format": 1,
+ "lang": "de",
+ "comment": "Where each harvested entry of de.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "de/besten-bootsfahrten-seine-paris/index.html",
+ "english_version": "3155fb21 2026-11-17",
+ "match_score": 2.995,
+ "entries": {
+  "🏆 #1 Best Overall": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Bateaux Parisiens boat passing Pont Alexandre III with the Eiffel Tower behind": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower seen from the Seine": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "Pont Alexandre III seen from the top deck": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Open-air top deck of the Bateaux Parisiens boat": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Views of the Louvre from the boat": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Notre-Dame Cathedral under repair, seen from the boat": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Lower deck seating on the Bateaux Parisiens boat": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "All seats on the top deck are sideways-facing": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "Boarding gates at Port de la Bourdonnais": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[0]/div[5]/img[8]@alt",
+   "seen": 3
+  },
+  "Bateaux Parisiens": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 13
+  },
+  "⏱️ 1 Hour": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 15
+  },
+  "📍 Port de la Bourdonnais (Eiffel Tower)": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 18
+  },
+  "106k+ reviews · 4 sites": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Personally Tested": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[2]/div[1]/details[0]/summary[0]/text()[0] (loose: case/symbol)",
+   "seen": 10
+  },
+  "<strong>I rode this cruise myself</strong> during 12 days of testing Seine cruises in Paris. The video and most photos in the review are my own.<span class=\"bpa-lang-note\">What I checked: deck views, audio guide, boarding queue and value for money. <a href=\"#testing-methodology\">How I test ↓</a></span>": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[2]/div[1]/details[0]/div[1]",
+   "seen": 20
+  },
+  "14-Language Audio": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 16
+  },
+  "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Arabic, Hindi, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">Free smartphone guide or seat handsets. Korean, Dutch and Polish are on the wired handsets only.</span>": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 8
+  },
+  "Right at the Eiffel Tower": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Full Seine Circuit": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 8
+  },
+  "if you want front-facing seats: top-deck benches face sideways.": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 16
+  },
+  "Full review &amp; video ↓": {
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[2]/a[4]/text()[0]",
+   "seen": 20
+  },
+  "Bateaux Mouches boat with its large open top deck": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower lit up at night from the boat": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "Front-facing seats on the top deck at dusk": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Passengers on the top deck in the evening": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Notre-Dame Cathedral at night from the Seine": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "A full Bateaux Mouches boat after dark": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Indoor lower deck with front-facing seats": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "Covered waiting area at Pont de l'Alma": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "Boarding hall at the Bateaux Mouches pier": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/div[5]/img[8]@alt",
+   "seen": 3
+  },
+  "Bateaux Mouches": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "📍 Pont de l'Alma Pier": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "18k+ reviews · 4 sites": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Front-Facing Seats": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "10-Language Audio": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Russian, Chinese, Japanese, Korean</span><span class=\"bpa-lang-note\">English plays over the loudspeakers. For another language, ask staff before boarding.</span>": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "Huge Open-Air Deck": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[3]/span[4]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for photos: front-facing seats on a huge deck.": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a drink on board: there&rsquo;s no bar.": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "✓ Pick it over #1": {
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/div[4]/span[0]/text()[0]",
+   "seen": 28
+  },
+  "🥉 #3 Best Music &amp; Vibe": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Vedettes de Paris boat on the Seine": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower seen from the Vedettes de Paris boat": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower lit up at night": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Outdoor deck at dusk": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Passengers on the top deck at night": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Bar on the lower deck": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Indoor seating at the front of the boat": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "Open deck at the front of the boat": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "Vedettes de Paris pier at Port de Suffren": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[0]/div[5]/img[8]@alt",
+   "seen": 3
+  },
+  "📍 Port de Suffren (Eiffel Tower)": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "29k+ reviews · 4 sites": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "9-Language App Guide": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, French, Spanish, German, Italian, Portuguese, Dutch, Chinese, Japanese</span><span class=\"bpa-lang-note\">Via the free audio guide app, so bring earbuds.</span>": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Curated French Music": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Cozy Boutique Ship": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[3]/span[4]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a calmer evening: smaller boat, French music.": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want spoken commentary: the guide is app-only.": {
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "#4 Best Hop-On Hop-Off": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Batobus boat at a stop on the Seine": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower near a Batobus stop": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "Notre-Dame seen from the Batobus": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Glass cabin of the Batobus": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Batobus seats facing different directions": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Inside the single-deck Batobus": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Inside the Batobus cabin": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "Rear of the Batobus cabin": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "Batobus Paris": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 24h / 48h Pass": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 2,
+   "alternatives": ["⏱️ 24h-/48h-Pass"]
+  },
+  "📍 9 Central Seine Stops": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "13k+ reviews · 4 sites": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "No Audio Guide": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "9 Hop-On Stops": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Heated Glass Cabin": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[3]/span[4]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "to get around 9 stops along the Seine.": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a sightseeing cruise: there&rsquo;s no commentary, and views are limited from its single deck.": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "per adult (24h)": {
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "#5 Best Canal &amp; Locks": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Water rushing through a canal lock": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "Lock gates on the Canal Saint-Martin": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "The underground tunnel beneath Bastille": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Iron footbridge over the Canal Saint-Martin": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "View from the front of the Paris Canal boat": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Top deck benches on the Paris Canal boat": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Indoor lower deck seating": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "Small bar on the lower deck": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "Seats in the captain's cabin": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[8]@alt",
+   "seen": 3
+  },
+  "The Paris Canal boat at the dock": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[0]/div[5]/img[9]@alt",
+   "seen": 3
+  },
+  "Paris Canal": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2.5 Hours": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "St. Martin Canal &amp; Seine River Cruise (Paris Canal)": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "4k+ reviews · 3 sites": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Set departure time, 2.5-hour cruise.</strong> Runs daily from May to August and on selected days the rest of the year.<span class=\"bpa-lang-note\">Departures were at 10:00 and 14:30 when I tested it.</span>": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Live Bilingual Guide": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "4 Canal Locks": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Bastille Tunnel": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[3]/span[4]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a second visit: locks and a tunnel under Bastille.": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want the Eiffel Tower: the route doesn&rsquo;t pass it.": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From €25": {
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 32
+  },
+  "Average of 1 booking site, weighted by number of reviews": {
+   "source": "de page vs EN 3155fb21 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 12
+  },
+  "Full review ↓": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[2]/a[4]/text()[0]",
+   "seen": 20
+  },
+  "Champagne on board the private boat": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "Family on the private boat": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "Couple on the private boat with the Eiffel Tower behind": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Private boat passing under a bridge by the Conciergerie": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Sunset over Notre-Dame from the river": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "Inside the private boat": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "Seating on the private boat": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "⏱️ 1.5 Hours": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "3.3k+ reviews · 3 sites": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Free Champagne": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Private Skipper": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "100% Private (Up to 8)": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a proposal or a group of up to 8.": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you&rsquo;ll need a toilet: there&rsquo;s none on board.": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From €399": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "per private boat": {
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4,
+   "alternatives": ["pro Person"]
+  },
+  "🍽️ #9 Best Lunch Cruise": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Lunch on board with the Eiffel Tower behind": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[0]@alt",
+   "seen": 3
+  },
+  "Lunch table passing Notre-Dame": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "Plated dishes from the lunch menu": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Chocolate dessert on the lunch cruise": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Window table with river views": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[5]@alt",
+   "seen": 3
+  },
+  "View from the stern towards the Eiffel Tower": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 3
+  },
+  "⏱️ 2 Hours (12:45 PM)": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 2,
+   "alternatives": ["⏱️ 2 Stunden (12:45 Uhr)"]
+  },
+  "9.6k+ reviews · 3 sites": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "<strong>One sailing a day.</strong> Check-in 12:15, departure 12:45, back at the quay 14:45.<span class=\"bpa-lang-note\">Plan to arrive by 12:15 for check-in.</span>": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "3-Course Lunch + Wine": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Live Music Onboard": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for daylight views at nearly half the price.": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if your plans are loose: one sailing a day, at 12:45.": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "✓ Pick it over a dinner cruise": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[4]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "From €79": {
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 8
+  },
+  "A crêpe being made at the crêpe stand": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[1]@alt",
+   "seen": 3
+  },
+  "The Eiffel Tower from the boat deck": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[2]@alt",
+   "seen": 3
+  },
+  "Top deck passing the Conciergerie": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[3]@alt",
+   "seen": 3
+  },
+  "Pont Alexandre III from the river": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[4]@alt",
+   "seen": 3
+  },
+  "Notre-Dame Cathedral from the river": {
+   "source": "de page vs EN 3155fb21 card-6/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 6
+  },
+  "Cruise boat on the Seine": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[6]@alt",
+   "seen": 6
+  },
+  "Cruise boat at the Eiffel Tower pier": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[7]@alt",
+   "seen": 3
+  },
+  "13k+ reviews · 3 sites": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "1 Crêpe Included": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Glass Trimaran": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for about €7 more and a fresh crêpe facing the Eiffel Tower.": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want it on board: it&rsquo;s served across the river at Trocadéro Square.": {
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "Bateaux Parisiens Sightseeing Cruise with Audio Guide",
+   "tr": "Beste Pariser Bootsfahrt auf der Seine mit Audioguide (Bateaux Parisiens)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-1/div[0]/div[1]/a[1]/text()[0]"
+  },
+  {
+   "en": "🥈 #2 Runner-Up",
+   "tr": "🥈 #2 Zweitplatzierte Bootsfahrt (360° Freideck)",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[0]/span[0]/text()[0]"
+  },
+  {
+   "en": "Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise",
+   "tr": "Zweitbeste Pariser Flusskreuzfahrt (Bateaux Mouches)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-2/div[0]/div[1]/a[1]/text()[0]"
+  },
+  {
+   "en": "Vedettes de Paris",
+   "tr": "Vedettes de Paris",
+   "why": "identical to English",
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "Vedettes de Paris Seine Cruise with French Music &amp; Bar",
+   "tr": "Beste Pariser Flusskreuzfahrt mit französischer Musik (Vedettes de Paris)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-3/div[0]/div[1]/a[1]/text()[0]"
+  },
+  {
+   "en": "Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass",
+   "tr": "Hop-On/Hop-Off-Flusskreuzfahrt durch Paris (Batobus)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-4/div[0]/div[1]/a[1]/text()[0]"
+  },
+  {
+   "en": "📍 Musée d'Orsay ↔ Parc de la Villette",
+   "tr": "📍 Musée d'Orsay ↔ Parc de la Villette",
+   "why": "identical to English",
+   "source": "de page vs EN 3155fb21 card-10/div[0]/div[1]/div[0]/a[0]/text()[0]"
+  },
+  {
+   "en": "Paris Seine River Private Boat Cruise with Champagne",
+   "tr": "Private Bootsfahrt auf der Seine in Paris (Visite Paris en Bateau)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[0]/div[5]/img[3]@alt"
+  },
+  {
+   "en": "📍 Port de Javel Haut",
+   "tr": "📍 Port de Javel Haut",
+   "why": "identical to English",
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[0]/a[0]/text()[0]"
+  },
+  {
+   "en": "Visite Paris en Bateau",
+   "tr": "Visite Paris en Bateau",
+   "why": "identical to English",
+   "source": "de page vs EN 3155fb21 card-5/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "Seine River Sightseeing Cruise with French Crêpe Tasting",
+   "tr": "Sightseeing-Kreuzfahrt auf der Seine mit französischer Crêpe-Verkostung (Bateaux Parisiens)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-7/div[0]/div[0]/div[5]/img[0]@alt"
+  },
+  {
+   "en": "Paris 3-Course Gourmet Lunch Cruise with Live Music",
+   "tr": "Pariser 3-Gänge-Mittagessen-Kreuzfahrt mit malerischer Aussicht (Bateaux Parisiens)",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[0]/div[5]/img[2]@alt"
+  },
+  {
+   "en": "<strong>A 2-hour loop from the Eiffel Tower, longer than the 1-hour cruises.</strong> Past Notre-Dame and further east to the French National Library, then back past Les Invalides and the French Parliament.<span class=\"bpa-lang-note\"><a href=\"#cruise-itinerary\">See the route map ↓</a></span>",
+   "tr": "<strong>Eine zweistündige Runde ab dem Eiffelturm, länger als die einstündigen Fahrten.</strong> Vorbei an Notre-Dame und weiter östlich bis zur Französischen Nationalbibliothek, dann zurück vorbei am Invalidendom und am französischen Parlament.<span class=\"bpa-lang-note\"><a href=\"#cruise-itinerary\">Zur Routenkarte ↓</a></span>",
+   "why": "numbers differ (older fact)",
+   "source": "de page vs EN 3155fb21 card-8/div[0]/div[1]/div[3]/details[3]/div[1]"
+  }
+ ]
+}
