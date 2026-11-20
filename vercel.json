@@ -810,6 +810,46 @@
       "destination": "/dinner-cruises-cairo/index.html"
     },
     {
+      "source": "/fjord-cruises-bergen",
+      "destination": "/fjord-cruises-bergen/index.html"
+    },
+    {
+      "source": "/sydney-harbour-cruises",
+      "destination": "/sydney-harbour-cruises/index.html"
+    },
+    {
+      "source": "/san-francisco-bay-cruises",
+      "destination": "/san-francisco-bay-cruises/index.html"
+    },
+    {
+      "source": "/boat-tours-split-hvar",
+      "destination": "/boat-tours-split-hvar/index.html"
+    },
+    {
+      "source": "/bosphorus-cruises-istanbul",
+      "destination": "/bosphorus-cruises-istanbul/index.html"
+    },
+    {
+      "source": "/boat-trips-malta",
+      "destination": "/boat-trips-malta/index.html"
+    },
+    {
+      "source": "/canal-tours-copenhagen",
+      "destination": "/canal-tours-copenhagen/index.html"
+    },
+    {
+      "source": "/boat-tours-seattle",
+      "destination": "/boat-tours-seattle/index.html"
+    },
+    {
+      "source": "/singapore-river-cruises",
+      "destination": "/singapore-river-cruises/index.html"
+    },
+    {
+      "source": "/mekong-delta-tours",
+      "destination": "/mekong-delta-tours/index.html"
+    },
+    {
       "source": "/prague-river-cruises",
       "destination": "/prague-river-cruises/index.html"
     },

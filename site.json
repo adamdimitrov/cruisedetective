@@ -70,10 +70,20 @@
       "chao-phraya-river-cruises-bangkok/index.html",
       "dinner-cruises-istanbul/index.html",
       "dinner-cruises-sydney/index.html",
-      "dinner-cruises-cairo/index.html"
+      "dinner-cruises-cairo/index.html",
+      "fjord-cruises-bergen/index.html",
+      "sydney-harbour-cruises/index.html",
+      "san-francisco-bay-cruises/index.html",
+      "boat-tours-split-hvar/index.html",
+      "bosphorus-cruises-istanbul/index.html",
+      "boat-trips-malta/index.html",
+      "canal-tours-copenhagen/index.html",
+      "boat-tours-seattle/index.html",
+      "singapore-river-cruises/index.html",
+      "mekong-delta-tours/index.html"
     ],
     "translate": {
-      "topic": "river, canal, harbor and dinner cruises and boat tours in Europe, the US and Asia",
+      "topic": "river, canal, harbor, fjord and dinner cruises and boat tours in Europe, the Americas, Asia, Africa and Australia",
       "names": [
         "GetYourGuide",
         "Tiqets",

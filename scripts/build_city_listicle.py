@@ -339,6 +339,16 @@ NAMES = {
     "dinner-cruises-istanbul": "Bosphorus dinner cruises in Istanbul",
     "dinner-cruises-sydney": "Sydney Harbour dinner cruises",
     "dinner-cruises-cairo": "Nile dinner cruises in Cairo",
+    "fjord-cruises-bergen": "Bergen fjord cruises",
+    "boat-tours-seattle": "Seattle boat tours",
+    "sydney-harbour-cruises": "Sydney Harbour cruises",
+    "san-francisco-bay-cruises": "San Francisco Bay cruises",
+    "boat-tours-split-hvar": "Split and Hvar boat tours",
+    "bosphorus-cruises-istanbul": "Bosphorus cruises in Istanbul",
+    "boat-trips-malta": "Malta boat trips",
+    "canal-tours-copenhagen": "Copenhagen canal tours",
+    "singapore-river-cruises": "Singapore river cruises",
+    "mekong-delta-tours": "Mekong Delta tours",
 }
 
 

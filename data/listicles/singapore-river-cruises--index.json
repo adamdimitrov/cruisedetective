@@ -1,0 +1,2842 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "tour",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Night Tour",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Group on the river cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra water show"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group under the Supertrees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina Bay Sands at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clarke Quay at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the bumboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra from the promenade"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Merlion at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-08.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-09.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-cyt-night-tour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Chope Your Tour",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=One+Fullerton%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 One Fullerton (or hotel pick-up)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-night-garden-rhapsody-spectra-show-t1072669/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-cyt-night-tour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore River Cruise Garden Rhapsody &amp; Spectra Tour by CYT"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "2,031 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(2,031)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-night-garden-rhapsody-spectra-show-t1072669/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-cyt-night-tour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "River cruise",
+     "pop_html": "<strong>Bumboat from Clarke Quay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Garden Rhapsody",
+     "pop_html": "<strong>The Supertree light show.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💦",
+     "label": "Spectra",
+     "pop_html": "<strong>Light and water show, from land.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Or meet at One Fullerton, 5:30 pm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Merlion at golden hour",
+     "pop_html": "<strong>Photo stop.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "One Fullerton (or hotel pick-up)",
+     "pop_html": "<strong>One Fullerton, 5:30 pm, or hotel pick-up.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the easiest first evening: cruise and both shows, 4.8 from 2,031.",
+    "skip_html": "if you just want the boat: #3 is the ticket alone."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The river cruise, Merlion Park, Garden Rhapsody, Spectra from land, transfers between stops, a guide and water."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Starbucks One Fullerton at 5:30 pm, or hotel pick-up with that option."
+     },
+     {
+      "q": "Is Spectra seen from the boat?",
+      "a": "No, from land; #5 is the one that watches it from the water."
+     },
+     {
+      "q": "Is there much walking?",
+      "a": "Some walking and standing at the shows."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4 h evening tour",
+      "price": "From €26"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-night-garden-rhapsody-spectra-show-t1072669/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-cyt-night-tour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-cyt-night-tour",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "tour",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #2 Best-Rated",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Bumboat by the Merlion"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra fountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees close up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees in red"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertree glow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra projections"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat on Marina Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra colours"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-08.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-09.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-beyond-map-tour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Beyond The Map",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=3+River+Valley+Rd%2C+Clarke+Quay%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Clarke Quay"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-gardens-spectra-light-shows-tour-t1498384/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-beyond-map-tour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore River Cruise, Gardens &amp; Spectra Light Shows Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "251 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(251)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-gardens-spectra-light-shows-tour-t1498384/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-beyond-map-tour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 h",
+     "pop_html": "<strong>3.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "Heritage bumboat",
+     "pop_html": "<strong>From Clarke Quay past the Merlion.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Both shows",
+     "pop_html": "<strong>Garden Rhapsody and Spectra.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍢",
+     "label": "Lau Pa Sat + Satay Street",
+     "pop_html": "<strong>Hawker centre stop (food extra).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "No long pick-ups",
+     "pop_html": "<strong>Meet at Clarke Quay, 5:45 pm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated tour, ending at Satay Street for dinner.",
+    "skip_html": "if you need hotel pick-up: #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it start?",
+      "a": "Clarke Quay River Cruise, 3 River Valley Road, at 5:45 pm."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "No; pick-up points are Maxwell MRT, Swissôtel The Stamford or Marina Bay Cruise Centre."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, but the tour ends at Lau Pa Sat and Satay Street."
+     },
+     {
+      "q": "Which shows?",
+      "a": "Garden Rhapsody and Spectra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 h evening tour",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-gardens-spectra-light-shows-tour-t1498384/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-beyond-map-tour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-beyond-map-tour",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "ticket",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎟️ #3 Best Cruise Only",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Bumboat on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clarke Quay at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ticket kiosk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat by the shophouses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat by Marina Bay Sands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat at Clarke Quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bumboat on Marina Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-bumboat-ticket-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Singapore River Cruise",
+    "⏱️ 40 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=30+Merchant+Rd%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Clarke Quay"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-e-ticket-t150095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-bumboat-ticket&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore: Singapore River Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "2,697 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(2,697)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-e-ticket-t150095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-bumboat-ticket-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "40 minutes",
+     "pop_html": "<strong>Day or night, your time.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "Quays to Marina Bay",
+     "pop_html": "<strong>Clarke Quay, Boat Quay, Merlion, Marina Bay Sands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Traditional bumboat",
+     "pop_html": "<strong>A wooden river boat, open sides.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>Can't be changed or cancelled.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Clarke Quay",
+     "pop_html": "<strong>Clarke Quay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€27 an hour",
+     "pop_html": "<strong>€18 for 40 min,</strong> about €27 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the river on your own schedule, then watch the shows yourself.",
+    "skip_html": "if your plans may change: the ticket is non-refundable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "About 40 minutes."
+     },
+     {
+      "q": "What do you see?",
+      "a": "Clarke Quay, Boat Quay, Merlion Park and Marina Bay Sands."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, it's non-cancellable and non-refundable."
+     },
+     {
+      "q": "Day or night?",
+      "a": "Either; night shows the skyline lit up."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "Singapore River Cruise, Clarke Quay (30 Merchant Road)."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "40 min bumboat",
+      "price": "From €18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-e-ticket-t150095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-bumboat-ticket&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Instant confirmation</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-bumboat-ticket",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 photos"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "tour",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #4 Cheapest Night Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Water B boat at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group under the Supertrees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at the gardens"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertree close up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group by the Merlion"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Merlion selfie"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra show"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Helix Bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-08.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-09.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-waterb-night-tour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wanderlust Ventures",
+    "⏱️ 3 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Marina+Bay%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marina Bay"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-night-cruise-with-garden-rhapsody-and-spectra-t1058963/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-waterb-night-tour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore Night River Cruise with Garden Rhapsody &amp; Spectra"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "907 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(907)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-night-cruise-with-garden-rhapsody-and-spectra-t1058963/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-waterb-night-tour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 to 4 h",
+     "pop_html": "<strong>3 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌙",
+     "label": "Night cruise",
+     "pop_html": "<strong>On a Water B boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Both shows",
+     "pop_html": "<strong>Garden Rhapsody and Spectra (from land).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Helix Bridge",
+     "pop_html": "<strong>Plus Merlion Park.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Poncho + water",
+     "pop_html": "<strong>Provided.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Marina Bay",
+     "pop_html": "<strong>Marina Bay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest guided evening with a night cruise.",
+    "skip_html": "if you want a heritage bumboat: this uses Water B boats."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the cruise at night?",
+      "a": "Yes, a night river cruise on a Water B boat."
+     },
+     {
+      "q": "What's included?",
+      "a": "Transport between stops, a licensed guide, the cruise, both shows, Merlion Park, Helix Bridge, water and a poncho."
+     },
+     {
+      "q": "Is Spectra seen from the boat?",
+      "a": "No, from land."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "No, point-to-point transport between stops."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€21",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 to 4 h evening tour",
+      "price": "From €21"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €42"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-night-cruise-with-garden-rhapsody-and-spectra-t1058963/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-waterb-night-tour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-waterb-night-tour",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "tour",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💦 #5 Only Spectra-from-the-Water Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Spectra from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat at Spectra"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina Bay Sands at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clarke Quay at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina Bay skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Downtown at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra fountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the gardens"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-08.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-09.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-spectra-by-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wanderlust Ventures",
+    "⏱️ 3.5 to 4.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Singapore+Flyer%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-starry-night-cruise-rhapsody-spectra-satay-t712172/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-spectra-by-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore Starry Night Cruise, Spectra By The Boat, Rhapsody"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "1,777 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(1,777)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-starry-night-cruise-rhapsody-spectra-satay-t712172/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-spectra-by-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 to 4.5 h",
+     "pop_html": "<strong>3.5 to 4.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💦",
+     "label": "Spectra from the water",
+     "pop_html": "<strong>The boat sails into Marina Bay for the show.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Included, from around 6 pm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Garden Rhapsody",
+     "pop_html": "<strong>Plus Merlion Park.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide in 9 languages",
+     "pop_html": "<strong>Including German, Spanish, Japanese.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Hotel pick-up around 6 pm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "to watch Spectra from a boat on Marina Bay, with pick-up.",
+    "skip_html": "on price: #1 and #4 cover the same sights for a third."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's different?",
+      "a": "The boat sails into Marina Bay to watch Spectra from the water."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "Yes; without it, meet at the Singapore Flyer taxi rank."
+     },
+     {
+      "q": "What time does it start?",
+      "a": "Around 6 pm."
+     },
+     {
+      "q": "Which languages?",
+      "a": "English, Chinese, Russian, German, Spanish, Japanese, Hindi, Tamil and Arabic."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€77",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "evening tour + pick-up",
+      "price": "From €77"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €154"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-starry-night-cruise-rhapsody-spectra-satay-t712172/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-spectra-by-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-spectra-by-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "tour",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌇 #6 Best Light-to-Night",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruise boat with Supertrees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spectra show"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group by the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Merlion"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina Bay Sands at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Supertrees at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-01.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-02.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-03.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-04.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-05.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-06.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-07.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-08.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-09.avif"
+     },
+     {
+      "src": "/assets/singapore-river-cruises/singapore-river-cruise-trivista-tour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Trivista Tours",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1+Fullerton+Road%2C+Singapore",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Merlion Park"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-spectra-garden-rhapsody-light-show-t1023270/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-trivista-tour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Singapore River Cruise, Spectra &amp; Garden Rhapsody Light Show"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "443 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(443)",
+       "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-spectra-garden-rhapsody-light-show-t1023270/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-trivista-tour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☀️",
+     "label": "Daylight cruise",
+     "pop_html": "<strong>40 minutes on a high-roof boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Both shows",
+     "pop_html": "<strong>From land.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Or meet at Merlion Park.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚶",
+     "label": "2 to 3 km walking",
+     "pop_html": "<strong>Stairs and uneven ground.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Merlion Park",
+     "pop_html": "<strong>Merlion Park or hotel pick-up.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the skyline by daylight and the shows after dark.",
+    "skip_html": "if you want the river lit up: the cruise is in daylight."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the cruise at night?",
+      "a": "No, it's a 40-minute daylight cruise."
+     },
+     {
+      "q": "Which shows?",
+      "a": "Garden Rhapsody and Spectra, both from land."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "With the pick-up option; otherwise meet at Merlion Park."
+     },
+     {
+      "q": "How much walking?",
+      "a": "About 2 to 3 km, with stairs."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4 h tour",
+      "price": "From €26"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/singapore-l170/singapore-river-cruise-spectra-garden-rhapsody-light-show-t1023270/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-singapore-river-cruises-trivista-tour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sgp-trivista-tour",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

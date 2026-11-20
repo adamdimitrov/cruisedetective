@@ -1,0 +1,4751 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "daytrip",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Day Trip",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sampan in the coconut canals"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in a sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide at a honey farm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cycling through coconut gardens"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Village workshop"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vietnamese lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Motorboat at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vinh Trang Pagoda"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mekong river boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-ben-tre-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Kim Travel",
+    "⏱️ 9 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up (D1, D3, D4)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/mekong-delta-small-group-tour-my-tho-ben-tre-t199345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-ben-tre&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "HCM: Mekong Delta, My Tho &amp; Ben Tre Coconut Village"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "5,555 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(5,555)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/mekong-delta-small-group-tour-my-tho-ben-tre-t199345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-ben-tre-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "9 h",
+     "pop_html": "<strong>9 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Motorboat + sampan",
+     "pop_html": "<strong>Across the Mekong, then a rowed sampan through the canals.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥥",
+     "label": "Coconut village",
+     "pop_html": "<strong>Coconut candy workshop, tuk-tuk or e-car, cycling.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Lunch included",
+     "pop_html": "<strong>Vietnamese lunch, vegan option; folk music.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Districts 1, 3 and 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up (D1, D3, D4)",
+     "pop_html": "<strong>Hotels in Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Mekong day at its best: 4.8 from 5,555, lunch included, €15.",
+    "skip_html": "if you want the floating market: that's Can Tho (#5, #6)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Pick-up, transport, guide, entry fees, motorboat and sampan rides, tuk-tuk or e-car, cycling, Vietnamese lunch and a music performance."
+     },
+     {
+      "q": "How long is the drive?",
+      "a": "About 2 hours each way."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "Yes, from hotels in Districts 1, 3 and 4; drop-off in District 1."
+     },
+     {
+      "q": "Do kids pay?",
+      "a": "Under-5s go free."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€15",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "9 h day trip with lunch",
+      "price": "From €15"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €30"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/mekong-delta-small-group-tour-my-tho-ben-tre-t199345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-ben-tre&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-kim-ben-tre",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "daytrip",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👍 #2 Most-Booked Day Trip",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sampan through the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in conical hats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in life jackets on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tuk-tuk ride"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan ride"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan rower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tuk-tuk passengers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vinh Trang Pagoda"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vat-small-group-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Adventure Tours",
+    "⏱️ 9 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vat-small-group&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Mekong Delta Small-Group Tour | Discover the Delta's Charms"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "14,590 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(14,590)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vat-small-group-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "9 h",
+     "pop_html": "<strong>9 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Motorboat + sampan",
+     "pop_html": "<strong>To Coconut Village and the canals.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛕",
+     "label": "Vinh Trang Pagoda",
+     "pop_html": "<strong>First stop.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Lunch + fruit",
+     "pop_html": "<strong>Vietnamese lunch, vegan option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚲",
+     "label": "Tuk-tuk + bike",
+     "pop_html": "<strong>Through the village.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Central hotels, 7:30 to 8:00 am.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest proven day: 14,590 reviews, €14 with lunch.",
+    "skip_html": "if ratings matter: #1 scores higher for €1 more."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Pick-up, transport, guide, boat trips, insurance, fruit, water, lunch, tuk-tuk and cycling."
+     },
+     {
+      "q": "What time is pick-up?",
+      "a": "Around 7:30 to 8:00 am."
+     },
+     {
+      "q": "Is there a vegan lunch?",
+      "a": "Yes."
+     },
+     {
+      "q": "Where do you go?",
+      "a": "Vinh Trang Pagoda, then by motorboat to Coconut Village and by sampan through the canals."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€14",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "9 h day trip with lunch",
+      "price": "From €14"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €28"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-small-group-tour-t60784/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vat-small-group&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-vat-small-group",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "daytrip",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍯 #3 Best for Food",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests rowing in a sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tuk-tuk in the village"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Motorboat on the Mekong"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vietnamese lunch spread"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cycling"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in conical hats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group in the village"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at the pagoda"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-kim-four-islands-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Kim Travel",
+    "⏱️ 9 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up (D1, D3, D4)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-delta-4-islands-boat-tuk-tuk-try-khotcake-cooking-t199363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-four-islands&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "HCM: Mekong Delta Islands Boat &amp; Tuk-Tuk Tour with Tastings"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "3,349 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(3,349)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-delta-4-islands-boat-tuk-tuk-try-khotcake-cooking-t199363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-four-islands-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "9 h",
+     "pop_html": "<strong>9 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "4 islands",
+     "pop_html": "<strong>Motorboat past Dragon, Unicorn, Phoenix and Turtle islands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥞",
+     "label": "Bánh khọt",
+     "pop_html": "<strong>Make mini pancakes with a local chef.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍯",
+     "label": "Tastings",
+     "pop_html": "<strong>Fruit, honey tea, coconut candy.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Districts 1, 3 and 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up (D1, D3, D4)",
+     "pop_html": "<strong>Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the foodiest day trip: tastings plus pancake making, €14.",
+    "skip_html": "if you want quieter canals: every My Tho day shares the route."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Pick-up, transport, guide, pagoda, motorboat and rowboat, tuk-tuk, cycling, lunch, fruit, honey tea, coconut candy, bánh khọt, music, insurance."
+     },
+     {
+      "q": "What's bánh khọt?",
+      "a": "Crispy mini savoury pancakes; you make them with a local chef."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "Yes, Districts 1, 3 and 4."
+     },
+     {
+      "q": "Do kids pay?",
+      "a": "Under-5s go free."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€14",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "9 h day trip with lunch",
+      "price": "From €14"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €28"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-delta-4-islands-boat-tuk-tuk-try-khotcake-cooking-t199363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-kim-four-islands&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-kim-four-islands",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "cuchi",
+    "daytrip"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🕳️ #4 Best Combo Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sampan in the canals"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Shooting range"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside the Cu Chi Tunnels"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest in a tunnel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on the bus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tunnel entrance"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Adventure Tours",
+    "⏱️ 10 to 11 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-full-day-cu-chi-tunnels-mekong-delta-t121656/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Cu Chi Tunnels &amp; Mekong Delta with Coconut Village Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "14,990 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(14,990)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-full-day-cu-chi-tunnels-mekong-delta-t121656/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 to 11 h",
+     "pop_html": "<strong>10 to 11 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Cu Chi Tunnels",
+     "pop_html": "<strong>Morning in the tunnels; shooting range optional (bullets extra).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Mekong by boat",
+     "pop_html": "<strong>Sampan through the canals.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Lunch + fruit",
+     "pop_html": "<strong>Vegan option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Drop-off at Ben Thanh Market.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Central hotels.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you only have one day for both sights.",
+    "skip_html": "if you want time in the delta: it's a rushed combo."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Transport, guide, all entry fees and boat trips, lunch, fruit, water, insurance, hotel pick-up."
+     },
+     {
+      "q": "Is the shooting range included?",
+      "a": "Access yes, bullets no."
+     },
+     {
+      "q": "Where does it end?",
+      "a": "Ben Thanh Market."
+     },
+     {
+      "q": "How long is it?",
+      "a": "10 to 11 hours."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€32",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "10 to 11 h, lunch",
+      "price": "From €32"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €64"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-full-day-cu-chi-tunnels-mekong-delta-t121656/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-cu-chi-mekong",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "market",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛒 #5 Best Floating Market",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Cai Rang floating market"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunrise on the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pineapple boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fruit boats at the market"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Quiet green canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rower on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in conical hats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fruit breakfast"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-can-tho-sampan-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "VeMekong",
+    "⏱️ 6.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=156+Hai+B%C3%A0+Tr%C6%B0ng%2C+Ninh+Ki%E1%BB%81u%2C+C%E1%BA%A7n+Th%C6%A1",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Can Tho centre"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/can-tho-l164341/can-tho-mekong-tour-floating-market-cacao-wild-canals-t803126/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-can-tho-sampan&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Can Tho: Mekong Tour, Floating Market, Cacao &amp; Wild Canals"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,051 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,051)",
+       "url": "https://www.getyourguide.com/can-tho-l164341/can-tho-mekong-tour-floating-market-cacao-wild-canals-t803126/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-can-tho-sampan-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "6.5 h",
+     "pop_html": "<strong>About 6.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "5 am sampan",
+     "pop_html": "<strong>Small boat to Cai Rang at dawn.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍫",
+     "label": "Cacao farm",
+     "pop_html": "<strong>Plus a glass of cacao milk.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌿",
+     "label": "Quiet canals",
+     "pop_html": "<strong>Off the tourist track.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥭",
+     "label": "Breakfast on the river",
+     "pop_html": "<strong>Veggie-friendly, fruit, water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Starts in Can Tho",
+     "pop_html": "<strong>Not from Ho Chi Minh City.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you're staying in Can Tho: the best way to see Cai Rang.",
+    "skip_html": "from Ho Chi Minh City as a day trip: it starts in Can Tho."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it start?",
+      "a": "Chợ Cổ Bến Phà, 156 Hai Bà Trưng street, Can Tho centre, at 5 am."
+     },
+     {
+      "q": "Is it from Ho Chi Minh City?",
+      "a": "No; stay in Can Tho the night before, or take #6 or #9."
+     },
+     {
+      "q": "What's included?",
+      "a": "Guide, sampan and driver, breakfast, fruit, water, the floating market, a cacao farm and cacao milk."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Pregnant travellers and people with back problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€31",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "6.5 h from Can Tho",
+      "price": "From €31"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €62"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/can-tho-l164341/can-tho-mekong-tour-floating-market-cacao-wild-canals-t803126/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-can-tho-sampan&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-can-tho-sampan",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "market"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏰ #6 Floating Market in a Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Floating market boats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Breakfast on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mekong snacks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal by boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rower in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Market vendor boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Floating fish farm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on a sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Market boats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Viet Fun Travel",
+    "⏱️ 12 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up (D1, D3, D4)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-1-day-mekong-delta-tour-floating-market-islet-t758747/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Ho Chi Minh City: 1-Day Mekong Delta Tour, Floating Market, Islet"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "809 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(809)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-1-day-mekong-delta-tour-floating-market-islet-t758747/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "12 h",
+     "pop_html": "<strong>About 12 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "05:00 pick-up",
+     "pop_html": "<strong>To Cai Rang by 7:30 am.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍜",
+     "label": "Breakfast on the market",
+     "pop_html": "<strong>Plus lunch and snacks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐟",
+     "label": "Sơn Islet",
+     "pop_html": "<strong>Fruit orchards, floating fish farm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎆",
+     "label": "Lunar New Year",
+     "pop_html": "<strong>5 to 9 Feb 2027 runs My Tho and Ben Tre instead.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up (D1, D3, D4)",
+     "pop_html": "<strong>5:00 am, Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for Cai Rang without an overnight stay.",
+    "skip_html": "if 12 hours with 7 on the road sounds too much: #9."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What time is pick-up?",
+      "a": "5:00 am, from Districts 1, 3 and 4."
+     },
+     {
+      "q": "What's included?",
+      "a": "Transfer, guide, boats, entries, breakfast at the market, lunch, snacks and water."
+     },
+     {
+      "q": "What about Lunar New Year?",
+      "a": "From 5 to 9 Feb 2027 the market is quiet, so the tour runs to My Tho and Ben Tre."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 12 hours."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€64",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "12 h with breakfast + lunch",
+      "price": "From €64"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €128"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-1-day-mekong-delta-tour-floating-market-islet-t758747/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-cai-rang-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "cuchi",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚐 #7 Most Comfortable Combo",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Limousine van interior"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch with the group"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Old helicopter at Cu Chi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the helicopter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the van"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest in a tunnel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tank at Cu Chi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cu-chi-mekong-vip-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Adventure Tours",
+    "⏱️ 10 to 11 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up (D1, D3, D4)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcmc-cu-chi-tunnels-mekong-delta-vip-tour-by-limousine-t167103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong-vip&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Cu Chi Tunnels &amp; Mekong Delta VIP Tour by Limousine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "1,812 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(1,812)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcmc-cu-chi-tunnels-mekong-delta-vip-tour-by-limousine-t167103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong-vip-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 to 11 h",
+     "pop_html": "<strong>10 to 11 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "VIP limousine van",
+     "pop_html": "<strong>Reclining seats for the long drive.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Cu Chi Tunnels",
+     "pop_html": "<strong>Shooting range optional (bullets extra).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Rowboat + motorboat",
+     "pop_html": "<strong>On the Mekong at My Tho.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Lunch + snacks",
+     "pop_html": "<strong>Vegan option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up (D1, D3, D4)",
+     "pop_html": "<strong>Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the combo day in comfort.",
+    "skip_html": "on a budget: #4 is the same route for €16 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's different from #4?",
+      "a": "A VIP limousine van and a smaller group."
+     },
+     {
+      "q": "What's included?",
+      "a": "VIP transport, guide, entries, boat trips, lunch, fruit, snacks, water, insurance, pick-up."
+     },
+     {
+      "q": "Are bullets included?",
+      "a": "No."
+     },
+     {
+      "q": "Where's pick-up?",
+      "a": "Districts 1, 3 and 4."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€48",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "VIP day, lunch",
+      "price": "From €48"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €96"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcmc-cu-chi-tunnels-mekong-delta-vip-tour-by-limousine-t167103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cu-chi-mekong-vip&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-cu-chi-mekong-vip",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "rest of the gallery repeats photos used on cards 2 and 4 (same operator)"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "daytrip",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #8 Best Small-Group Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Limousine seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group in life jackets"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vinh Trang Pagoda"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the van"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Conical hats in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-vip-limousine-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Adventure Tours",
+    "⏱️ 9 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up (D1, D3, D4)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-full-day-tour-by-limo-t102779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vip-limousine&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Ho Chi Minh City: Mekong Delta VIP Tour by Limousine"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "376 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(376)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-full-day-tour-by-limo-t102779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vip-limousine-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "9 h",
+     "pop_html": "<strong>9 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 10",
+     "pop_html": "<strong>VIP limousine van.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Motorboat + rowboat",
+     "pop_html": "<strong>Paddle the small canals by sampan.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Beer or soft drink",
+     "pop_html": "<strong>Plus fruit, snack, water and lunch.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up (D1, D3, D4)",
+     "pop_html": "<strong>Districts 1, 3, 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small group and a comfortable van on the classic route.",
+    "skip_html": "on value: #1 is rated higher for €15."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people?",
+      "a": "No more than 10."
+     },
+     {
+      "q": "What's included?",
+      "a": "VIP van, motorboat and rowboat, guide, lunch, one beer or soft drink, fruit, snack, water, pick-up."
+     },
+     {
+      "q": "What time is pick-up?",
+      "a": "Around 7:45 to 8:00 am."
+     },
+     {
+      "q": "Vegan lunch?",
+      "a": "Yes."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€39",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "9 h, max 10",
+      "price": "From €39"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/from-ho-chi-minh-city-mekong-delta-full-day-tour-by-limo-t102779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-vip-limousine&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-vip-limousine",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "twoday",
+    "market"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛏️ #9 Best 2-Day Market Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Rower at the floating market"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the sampan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Market boats with pineapples"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Making Vietnamese pancakes"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Making rice paper"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan ride"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-cai-rang-2day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Adventure Tours",
+    "⏱️ 2 Days",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=District+1%2C+Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-cai-rang-floating-market-2-day-tour-with-hotel-t178442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-2day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Mekong Delta &amp; Cai Rang Floating Market 2-day tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "1,976 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(1,976)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-cai-rang-floating-market-2-day-tour-with-hotel-t178442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-2day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 days",
+     "pop_html": "<strong>2 days.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛒",
+     "label": "Cai Rang by boat",
+     "pop_html": "<strong>Morning of day 2.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥞",
+     "label": "Pancake making",
+     "pop_html": "<strong>Plus a sampan ride and tastings.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛏️",
+     "label": "Night in Can Tho",
+     "pop_html": "<strong>Hotel with that option; free evening.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "2 lunches + breakfast",
+     "pop_html": "<strong>Vegan options.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Central hotels.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the floating market without a 5 am start from Saigon.",
+    "skip_html": "if you only have one day: #1 or #6."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the hotel included?",
+      "a": "With the hotel option; 2 adults share a room, solo travellers pay no supplement."
+     },
+     {
+      "q": "Which meals?",
+      "a": "2 lunches and 1 breakfast."
+     },
+     {
+      "q": "When is the floating market?",
+      "a": "Early on day 2."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "Yes, from central hotels."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€68",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 days, hotel option",
+      "price": "From €68"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €136"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/hcm-mekong-cai-rang-floating-market-2-day-tour-with-hotel-t178442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-cai-rang-2day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-cai-rang-2day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "twoday",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚲 #10 Best Active Trip",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sampan through the coconut palms"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family cycling at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Garden homestay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group cycling"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in the rice field"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cooking class"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at the pagoda"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sampan in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-01.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-02.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-03.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-04.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-05.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-06.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-07.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-08.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-09.avif"
+     },
+     {
+      "src": "/assets/mekong-delta-tours/mekong-delta-tour-bike-kayak-2day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Mekong Delta Tour",
+    "⏱️ 2 Days",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ho+Chi+Minh+City",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Hotel pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-2-day-bike-kayak-mekong-delta-tour-t759191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-bike-kayak-2day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Ho Chi Minh City: 2-Day Bike &amp; Kayak Mekong Delta Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "496 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(496)",
+       "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-2-day-bike-kayak-mekong-delta-tour-t759191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-bike-kayak-2day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 days",
+     "pop_html": "<strong>2 days.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak + rowboat",
+     "pop_html": "<strong>Plus a river cruise.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚲",
+     "label": "Cycling",
+     "pop_html": "<strong>Countryside, orchards and rice fields.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏡",
+     "label": "Homestay",
+     "pop_html": "<strong>Air-conditioned room.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍳",
+     "label": "All meals + cooking class",
+     "pop_html": "<strong>Vietnamese barbecue dinner.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Hotel pick-up",
+     "pop_html": "<strong>Hotel pick-up.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for active travellers who want the quiet side of the delta.",
+    "skip_html": "if you want the floating market: #5 or #9."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Private transport, river cruise, rowing boat, kayak, bicycle, homestay, all meals, guide, entries and insurance."
+     },
+     {
+      "q": "Where do you sleep?",
+      "a": "Family Tiny Garden Homestay, air-conditioned room."
+     },
+     {
+      "q": "Which meals?",
+      "a": "1 breakfast, 2 lunches and 1 dinner."
+     },
+     {
+      "q": "Is it a small group?",
+      "a": "Yes."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€63",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 days, all meals",
+      "price": "From €63"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €126"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ho-chi-minh-city-l272/ho-chi-minh-city-2-day-bike-kayak-mekong-delta-tour-t759191/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-mekong-delta-tours-bike-kayak-2day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mkg-bike-kayak-2day",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

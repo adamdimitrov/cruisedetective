@@ -15,26 +15,16 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 5 | Amsterdam canal dinner cruises | dinner-cruises-amsterdam | 1,260 / 37 | amsterdam canal cruise and dinner (420), dinner canal cruises in amsterdam (263) | not checked | not checked | dinner money page format, Amsterdam version | GSC 2026-11-14 |
 | 6 | Night canal cruises Amsterdam | night-canal-cruises-amsterdam | 986 / 23 | amsterdam night canal cruise (254), amsterdam canal night cruise (123) | not checked | not checked | could be a section on /canal-cruises-amsterdam instead | GSC 2026-11-14 |
 | 7 | Sunset cruises Paris | sunset-cruises-paris | 541 / 36 | sunset river cruise paris (96), sunset cruise paris (80) | not checked | not checked | sunset times by month, which boats sail then | GSC 2026-11-14 |
-| 8 | Bosphorus cruises Istanbul | bosphorus-cruises-istanbul | KP ~55k / – | bosphorus cruise (14.8k), bosphorus tour (8.1k), dinner cruise | not checked | not checked | new city; sightseeing vs dinner vs public Şehir Hatları | KP 2026-11-15 |
-| 9 | Malta boat trips | boat-trips-malta | KP ~42k / – | blue grotto malta (12.1k), comino blue lagoon boat trips | not checked | not checked | new destination; Blue Lagoon / Comino day trips, Blue Grotto | KP 2026-11-15 |
-| 10 | Bruges canal boat tours | canal-boat-tours-bruges | KP ~28k / – | bruges boat tour (18.1k) | not checked | not checked | new city; one dominant query, short guide | KP 2026-11-15 |
-| 11 | Copenhagen canal tours | canal-tours-copenhagen | KP ~28k / – | copenhagen boat tour (5.4k), goboat (5.4k), strömma (4.4k) | not checked | not checked | new city; guided tour vs self-drive GoBoat | KP 2026-11-15 |
-| 12 | Dubai dhow and yacht cruises | dhow-cruises-dubai | KP ~60k / – | dubai marina dhow cruise (9.9k), dubai dinner cruise (5.4k) | not checked | not checked | outside Europe; Marina vs Creek dhow, dinner | KP 2026-11-15 |
-| 13 | Sydney harbour cruises | sydney-harbour-cruises | KP ~45k / – | sydney harbour cruise (6.6k), sydney dinner cruise (6.5k) | not checked | not checked | batch 2: Australia; sightseeing vs dinner | KP 2026-11-15 |
-| 14 | San Francisco bay cruises | san-francisco-bay-cruises | KP ~33k / – | san francisco bay cruise; Alcatraz (40.5k) excluded, sold only by the official operator | not checked | not checked | no Alcatraz cards; sunset and bay cruises | KP 2026-11-15 |
-| 15 | Singapore river cruises | singapore-river-cruises | KP ~36k / – | singapore river cruise (18k) | not checked | not checked | bumboat vs Spectra light-show cruises | KP 2026-11-15 |
-| 16 | Seattle boat tours | boat-tours-seattle | KP ~34k / – | seattle harbor cruise, argosy cruises | not checked | not checked | thin on GYG (4 products with 50+ reviews): check inventory first | KP 2026-11-15 |
-| 17 | Lake Geneva cruises | lake-geneva-cruises | KP ~23k / – | lake geneva cruise, montreux boat | not checked | not checked | check the cluster is Switzerland, not Wisconsin | KP 2026-11-15 |
-| 18 | Mekong Delta tours | mekong-delta-tours | KP ~23k / – | mekong delta tour (14.8k), mekong river cruise (9.9k, multi-day) | not checked | not checked | moved to batch 2 on 2026-11-19: day tours from Saigon are bus + boat; frame as boat-led day trips | KP 2026-11-15 |
-| 19 | Split and Hvar boat tours | boat-tours-split-hvar | KP ~19k / – | blue cave tour (5.4k), hvar boat tour | not checked | not checked | Blue Cave / Five Islands vs Hvar day trips | KP 2026-11-15 |
-| 20 | Bergen fjord cruises | fjord-cruises-bergen | KP ~17k / – | bergen fjord cruise (5.4k), mostraumen | not checked | not checked | high booking value (median ~€158) | KP 2026-11-15 |
-| 21 | Stockholm boat tours | boat-tours-stockholm | KP ~15k / – | stockholm hop-on hop-off boat (5.4k), archipelago cruise | not checked | not checked | canal tour vs archipelago | KP 2026-11-15 |
-| 22 | Lisbon boat tours | boat-tours-lisbon | KP ~14k / – | lisbon sunset cruise, tagus river cruise | not checked | not checked | sunset sailing vs sightseeing | KP 2026-11-15 |
-| 23 | Cairo Nile cruises | nile-cruises-cairo | KP ~14k / – | cairo felucca (4.4k), nile dinner cruise cairo (1.9k) | not checked | not checked | felucca vs dinner cruise; no multi-day Luxor cruises | KP 2026-11-15 |
-| 24 | Shanghai Huangpu river cruises | huangpu-river-cruises-shanghai | KP ~14k / – | huangpu river cruise (10k) | not checked | not checked | thin on GYG (2 products with 50+ reviews): check Tiqets | KP 2026-11-15 |
-| 25 | Oslo fjord cruises | fjord-cruises-oslo | KP ~13k / – | oslo fjord cruise, oslo boat tour | not checked | not checked | sightseeing vs dinner, electric boats | KP 2026-11-15 |
-| 26 | Saigon river cruises | river-cruises-saigon | KP ~13k / – | saigon river cruise, ho chi minh dinner cruise | not checked | not checked | dinner cruise vs speedboat to Cu Chi | KP 2026-11-15 |
-| 27 | Hong Kong harbour cruises | harbour-cruises-hong-kong | KP ~10k / – | hong kong harbour cruise, aqua luna | not checked | not checked | harbour cruises only, not the Star Ferry | KP 2026-11-15 |
+| 8 | Bruges canal boat tours | canal-boat-tours-bruges | KP ~28k / – | bruges boat tour (18.1k) | not checked | not checked | new city; one dominant query, short guide | KP 2026-11-15 |
+| 9 | Dubai dhow and yacht cruises | dhow-cruises-dubai | KP ~60k / – | dubai marina dhow cruise (9.9k), dubai dinner cruise (5.4k) | not checked | not checked | outside Europe; Marina vs Creek dhow, dinner | KP 2026-11-15 |
+| 10 | Lake Geneva cruises | lake-geneva-cruises | KP ~23k / – | lake geneva cruise, montreux boat | not checked | not checked | check the cluster is Switzerland, not Wisconsin | KP 2026-11-15 |
+| 11 | Stockholm boat tours | boat-tours-stockholm | KP ~15k / – | stockholm hop-on hop-off boat (5.4k), archipelago cruise | not checked | not checked | canal tour vs archipelago | KP 2026-11-15 |
+| 12 | Lisbon boat tours | boat-tours-lisbon | KP ~14k / – | lisbon sunset cruise, tagus river cruise | not checked | not checked | sunset sailing vs sightseeing | KP 2026-11-15 |
+| 13 | Cairo Nile cruises | nile-cruises-cairo | KP ~14k / – | cairo felucca (4.4k), nile dinner cruise cairo (1.9k) | not checked | not checked | felucca vs dinner cruise; no multi-day Luxor cruises | KP 2026-11-15 |
+| 14 | Shanghai Huangpu river cruises | huangpu-river-cruises-shanghai | KP ~14k / – | huangpu river cruise (10k) | not checked | not checked | thin on GYG (2 products with 50+ reviews): check Tiqets | KP 2026-11-15 |
+| 15 | Oslo fjord cruises | fjord-cruises-oslo | KP ~13k / – | oslo fjord cruise, oslo boat tour | not checked | not checked | sightseeing vs dinner, electric boats | KP 2026-11-15 |
+| 16 | Saigon river cruises | river-cruises-saigon | KP ~13k / – | saigon river cruise, ho chi minh dinner cruise | not checked | not checked | dinner cruise vs speedboat to Cu Chi | KP 2026-11-15 |
+| 17 | Hong Kong harbour cruises | harbour-cruises-hong-kong | KP ~10k / – | hong kong harbour cruise, aqua luna | not checked | not checked | harbour cruises only, not the Star Ferry | KP 2026-11-15 |
 
 ## Refresh (existing page covers it, improve the page instead)
 | page | topic | demand / pos | what to add | noted |
@@ -63,6 +53,16 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 2026-11-20 | dinner-cruises-istanbul | bosphorus dinner cruise (KP ~5.8k cluster) | due 2026-12-18 |
 | 2026-11-20 | dinner-cruises-sydney | sydney harbour dinner cruise (KP ~6.9k cluster) | due 2026-12-18 |
 | 2026-11-20 | dinner-cruises-cairo | nile dinner cruise cairo (KP ~4k cluster) | due 2026-12-18 |
+| 2026-11-20 | bosphorus-cruises-istanbul | bosphorus cruise | due 2026-12-18 |
+| 2026-11-20 | boat-trips-malta | blue lagoon malta boat trip | due 2026-12-18 |
+| 2026-11-20 | canal-tours-copenhagen | copenhagen boat tour | due 2026-12-18 |
+| 2026-11-20 | sydney-harbour-cruises | sydney harbour cruise | due 2026-12-18 |
+| 2026-11-20 | san-francisco-bay-cruises | san francisco bay cruise | due 2026-12-18 |
+| 2026-11-20 | singapore-river-cruises | singapore river cruise | due 2026-12-18 |
+| 2026-11-20 | boat-tours-seattle | seattle harbor cruise | due 2026-12-18 |
+| 2026-11-20 | mekong-delta-tours | mekong delta tour | due 2026-12-18 |
+| 2026-11-20 | boat-tours-split-hvar | blue cave tour | due 2026-12-18 |
+| 2026-11-20 | fjord-cruises-bergen | bergen fjord cruise | due 2026-12-18 |
 
 ## Rejected
 | topic | reason | date |

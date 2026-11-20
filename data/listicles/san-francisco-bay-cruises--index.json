@@ -1,0 +1,4373 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAM9klEQVR4nO2c+Y8cRxXHP1Xdc+0VH+srie04cRLsBJJISZSQ2IRDhCj5CQkIQiCBkEBI/IKAHxB/APwHSCAhkLiEkECOJcQhUA5IQqKAZCchjp1E8RE7Pndt78x0dxV61VUzvb2z65n1rndt9iv1Tu9MH6++9d6rV1WvSoGmHzz+zNNci1BWs3f3rhnfW2zpG4Oai6xrlaAyWQG6UmHPgw8MTlaJqBhI/fkY8AjwMeBDwK3AqHs+8rxlhyBXArwKHAKkcH8GDnuyIsdGfq3TtL7JKhCl/GGA24GvAk8CN3L1YwL4g7L6Z8Bf/Xfal5W9ux8u0dWDrAJRnRuB7wPfBq7r3JkfgczlqFG9ELRHeW0KZvhT4DvAqa4VGZ7avXt2snoQtRr4FfCo/z71L7layJkLQlqmrJayynEA+ALwr5ww49xOl7ACWT2I2gH8ArjH23s8b5IKTvSKQpnuu+W81yX571K+CnAG+ArwezCiFJlVsHfX7i5ZJR8lWAP8Dfhg4UHzhi2Zuir7zkWGFLjz7o5nCbJ0ZMu81UzlDZh5MSiOrlTZ8+D9xApVvEFOpCi/7pcoO0uNdS/QrgpcvfgX5EJyhUiyGFEJW5Snp8xOk4AGsAe4CzghIpuk7W6Ie1z8PeATC6FRXRhQniabq6++UlaoDNaKBJF/55y1JByIr1oP/Mz76o6o6omn/9E59zGTOLiR/ls505cJiCZJ7cpn5D8XGxrjtKoVaSyRe6eVPwXNKgalBUhrGPsw6TfuWZV4mmaJ+F/3QaewG1+WoDacGSKbkaViiNYJHIhbTCglDsZQiau0bYZVYiSm79v953eB34Ybi4SMeiZtiEEuBW3zmpManO11yhpiZbhj/Dru3bCJNXVxCfqK+ay9LzzPu1GNpjakUSFMD9f0Np8Q0Yvfug94QZXI+giwyV+0IC4lMoZdW7eya3ycrSN1amihyUmy2JolyBQ8n6acIKKlMyKJBrQnrMBQEKVEmvH8fEZbXqBE1qcKF/VNlvYOO+BMq8nONePs2ngDd6xey9ahyLUSkZggBvEezhmq3s8STV1IaMQE87P8yPq/NZdJ+sCUydrpP9VsBbCF712HUQWflJthNYOPr9/Ers03cduaEbTJ3xh7suQJodXoWRuqT/vvE87EnGy5fGqwylD+Ebf0IuvWwkUzzMSWgzv/u7XWRQUjGdy9bj2P79jBBml1LmQMD+cUdftHehai0k481sVCBRe6dJ5MK8ccUDofehjqRdaqcNFsdxv/SyAyf6khNpa71m3kk1u2c0MGpp0xOpL7yDx6DyFp6XnuED8WozvN+eJFYHnoMNAtNnAk9xbJCuNVAyFKE+7csJGPbLuF7Y0KyWTGdZ6o7tGbACEyeJAl6j32hWBFRbIGdq2xMdy2dh0Pb97G9kbVOfLGsPc64iuctoTIXc94U9qpITFP63yfaL7ESGXkTcNMQV3gWfhNPoOOZr5FnA96tdbzCjyVDyprKTyw7XZuHW1Q7zi7QJQuFMcXRuXknJxocmZyklasaQwNsWm0QSPLiygDJuIH3eVKYa3i9MQk750/RzuOMEoTGXl2zkIm77HamZe4CdHWYq8hdS6n72B0TsTzYVt5QW4aHebO0Qbj0hKKSU6r+lzAtrUkCi5aeO3QUfYdeJMzzSlSpbmQtNl24/V8dOd21ldjhuOYii1olrVcbCW8dvAQz737FicrEZmKqKUabTWZkNnxpfK/v82TJsjccNX8UQye4/lqlbbw0M2b2QjUphFV9FOaVMH+yVP85ZVXeePEEWxtDFWvYjKIasMMixkNDVGJIydMuTdQr9dIdJVTKuZIXZHomHoSO7ISIasYXKru3WVH7rTV2o7WdsrTZ7mlvH2RZXsQtnmswU2rxpz5zSQqh5jcS+8eYs/r+zmWwNT4atquj6aITIzKLGdNShNLm4w6enqc5c05jSPOKJiIIpKoQlP6fSYm0+KX1Jza0PV/OVmhSQ/fh4mJXn6yjLifMCFEZyoMr1jYMjrMmqjWLZwbs3J3+L+aE1nGnlf2c7LRoD2kSaMK4m6sEY3QRMqQSv8yxGtO4Jk134rhYixaU3OjB5mOnEsUU6vMPeRS0KTcz9nuwJZ/fv9h8MBmqD1h29eOOJPJRAjnI4JAOYSAZ/f9h/PxMG0ZT7Ntpw3O3du8Ix05UVVejJ41m2uq+6sjYlNBabm+oC2XQPe5vu9Qfs8cjwga2m2qBoAqnG9bNUIk0XChuS4a4WSS8eo7R9xYkmhTpqqFPtqgHWlRo8saMeoLlxJp4KZChfGownxSt//X7dudmDzFRNqmFYlThtQR5oktNO1XEy5ZXZ2C0cWWsYYvqHaj++VugASDb5w8zUWda1US5USJQ3YvXZiw54qi3N3pC9rC4XNT/Pzlg9Qyw1ACtSz1LaJ1GiSa9N7EeS7EI7QiSKOUjHj6xMEy7+IsWFAqEMIqMgpqRPsMViV5Uy7RdKZo1SxJJSaNJHDs7aecj7uKpmsH1izjzck18kbT1oZ2pEniyGlVKHxEnSST8avpgzKBG3ed+LArStZg9h9kM95HD0SW8fPXEroEh51qTaZlLD7249smbwRURSKiztRXeXhH4PzYAGTlAz5l4x3EmEW2/q6XPmhxKEqOeWkWoll+pD84bYmdppuZxFPd/8qTq/JyZ7ZX0nEN2PyWXcS8ghczY0axPBrpZSsEgGU58xGCfsLK5YOrrUFaUqyQNQBWyBoAK2QNgBWyBsAKWQNghawBsELWAFghawCskDUAVsgaACtkDYDFnwW4BGSqqpy62EWYVpMsnNnGoswVq/8l1ixN0+RzghlRJwVp+hWwbXwtq42hEUUzZpTD7Hj38E+x4WDOYzBplxhTqeHguXMu6X5GAqNPLrl5bJh71m+gffYcSoYtC5CBx3zwMRyLJ+uSkqWsIrFw8PRJmqV5xyIalRr3brmRW9euhjTpaJcb4najtfnhZruvVbLwnurE5BTHJdumh3aFSY0d69fxxAd2UEtTR1aiIzf2H5BJblcf+QpXr2aRj3VPNFu8efqkIyv4rXCIiCFX8b61q/jc3fdw/8aNjCpN8+IU5xNDmhqaqUskIDJ5WsA12RoK2knGa8eOcO/YamqViKrLgfAJI4WsPkltenTDGnaODbG5McSL75+gJabXTnn77Dm0pEdLssyC5jwvN7Iyw4Hj73N4w1k2rFvNUKGwIcs5EBYrzaZ6jcc2reORjes5lVjemZhkT+sAF22KJBAulu9aFmRZazlz/iL73z/OjnXjbpVVPuU1M4HXaZ2OGNIRDWNYVY0wdoyGhSQVX+YbCTcdp649sgSN4et45chRhkzGIzfdwtaRYaouuSgEpAXtcum6MKw1LVlJWq8Q24RKlmLjPOtefKEj65IqZufl4JdsIl1rjapWOasinjt2nL+/fYh3LkzS7vgsyQjMXX4x3U2ozGeK20Q2RbujG3zk6zkWR7OkMVoyKMkPrdY5227yz6PvEUksdfM2xitVhuIqVZ0bZu74Q+6oLLmUlHBJTJHWsBCliUYpyVzuLkWZJ0wvzfpv+celIuyMivjH0WM8e/AtDreanHU5p7lgQomQIuSQ5Z0kt44xrM9ZuGlb6/mRrKoZZB0sXLRkUOJnqlVO64jnjx5h7779vHj4XY6YlPPScor0mSWVNMsopEyaQt78gpIlONbLDGXXjC8uhz0brI6gWudUC1rnp3hn3z5ePvAGd2zaxM7NW9gyOuZquZ2lKJcYtiixddjk49leZP0JXOUNL4d9ZayOyGp1JrKUi9S50Gpz/NDb/PvQW2ys17lhdIzrV4+irHULCdoqIpWU787KjstGyAT9XS+yRN2e8kt/L3uN9EIRJkcSZZgoppklTKYZJ6aaHGq2WDM54TIORQWacUQi6U/Tqthcrla9BcbvUyNr16bjR8Bnl1qrypC0bmealSqZMbSt4bw1vF9wT5HWJJLB5VZd+N5hSN5n9hLNsi9FWPL7k+DgW6YtWeERjz/9jHuf7/TLfgZfWth9HRYfNZO5ZLe2M8X++4Y9yAo7h8jeNHf6PWmMbLFSNPDQr/hWrn6OqL4XFC81WmKuOh6IqB4Ivtp6hZHGt4MiWUGpT3lTPFvQtv8HhLUP8vk14PnClgVdsgp73gVbfQn4siyUKGw5ci2juKD2B8CPPQ/u+3yXI7eSpau23ncVt627P98eye33EB64OINFSwNjlTGF8n6jQ5RKUtQUex960vv4ZDpZJcKCCV7vW4XHipt0FeKQZdVyXgLFpUZuNY138Pu96T1X3N9wr2w0VuiYzyCrRFhxK7vPA98EHpxFgKsB5Yj1davML4Efemfe8dGOKMGlyCoRVl6v9mHg0347lu2FLQ6uBpwDjsreMt69/NEqI0Nipc0RC3v99UNWibBrFuU4axpRg5D1/0CcVWYmQdMu6JL5P+K/A5ZJmTzrAAAAAElFTkSuQmCC",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "bay",
+    "audio",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Blue & Gold boat passing Alcatraz"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat with Alcatraz behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple pointing at the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the Blue & Gold deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue & Gold cruiser on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends under the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under the Golden Gate Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at Pier 39 with sea lions"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-blue-gold-bay-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Blue & Gold Fleet",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pier+39%2C+The+Embarcadero%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-cruise-on-san-francisco-bay-p1030852/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-blue-gold-bay",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: Bay Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "1,658 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(1,580)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-1-hour-cruise-t23625/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-blue-gold-bay-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.5",
+       "count": "(78)",
+       "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-cruise-on-san-francisco-bay-p1030852/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-blue-gold-bay-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Golden Gate + Alcatraz",
+     "pop_html": "<strong>Under the Golden Gate Bridge and past Alcatraz and Angel Island.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio, 8 languages",
+     "pop_html": "<strong>Audio commentary in English and 7 other languages.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📶",
+     "label": "Wi-Fi",
+     "pop_html": "<strong>Wi-Fi on board.</strong> Food and drinks extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Cancel 72 h before",
+     "pop_html": "<strong>Free cancellation up to 72 hours before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39",
+     "pop_html": "<strong>Pier 39.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic hour on the bay from Pier 39, with the sea lions on the way out.",
+    "skip_html": "if you want both bridges: #4 adds the Bay Bridge."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The Golden Gate Bridge, Alcatraz and Angel Island."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 39, Fisherman's Wharf."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, an audio guide in English and 7 other languages."
+     },
+     {
+      "q": "Does it stop at Alcatraz?",
+      "a": "No, it passes the island; landing tickets are sold separately."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 72 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35.52",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h bay cruise",
+      "price": "From €35.52"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €71.04"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-cruise-on-san-francisco-bay-p1030852/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-blue-gold-bay",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-blue-gold-bay",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 usable photos"
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "bay",
+    "audio",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎧 #2 Best Multilingual Audio",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Red and White boat under the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends taking a selfie on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alcatraz from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Golden Gate from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wake toward the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red and White boat by Alcatraz"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in the evening light"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-red-white-golden-gate-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Red and White Fleet",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Red+and+White+Fleet%2C+Pier+43+1%2F2%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 43½"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-san-francisco-bay-cruise-free-drink-p974604/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-red-white-golden-gate",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: 1-Hour Golden Gate &amp; Bay Area Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "4,230 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(4,151)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-golden-gate-bay-cruise-1-ho-t3285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-red-white-golden-gate-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.6",
+       "count": "(79)",
+       "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-san-francisco-bay-cruise-free-drink-p974604/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-red-white-golden-gate-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio, 15+ languages",
+     "pop_html": "<strong>Personal multilingual audio guide;</strong> the device is provided, no app needed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Golden Gate",
+     "pop_html": "<strong>Out under the Golden Gate Bridge and back past Alcatraz.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Full bar",
+     "pop_html": "<strong>Drinks and snacks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Cancel until the day before",
+     "pop_html": "<strong>Free cancellation until 23:59 the day before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 43½",
+     "pop_html": "<strong>Pier 43½.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most-reviewed Golden Gate cruise, with commentary in your language.",
+    "skip_html": "if you want Alcatraz up close: #3 circles it."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there commentary in my language?",
+      "a": "Yes, a personal audio guide in many languages; the device is provided."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Red and White Fleet, Pier 43½, Fisherman's Wharf."
+     },
+     {
+      "q": "How long is it?",
+      "a": "1 hour."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, there's a full bar."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free until 23:59 the day before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€34.61",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h Golden Gate cruise",
+      "price": "From €34.61"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €69.22"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/san-francisco-attractions-c1772/tickets-for-san-francisco-bay-cruise-free-drink-p974604/?partner=thecruisedetective.com-176436&tq_campaign=san-francisco-bay-cruises-red-white-golden-gate",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-red-white-golden-gate",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 usable photos"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "alcatraz",
+    "audio",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏝️ #3 Best for Alcatraz Views",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Blue & Gold boat by Alcatraz"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue & Gold boat by Alcatraz up close"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Golden Gate from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruiser under the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The city skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alcatraz up close"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the Bay Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-08.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-09.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-escape-rock-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Blue & Gold Fleet",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pier+39%2C+The+Embarcadero%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/escape-from-the-rock-cruise-of-san-franci-t23652/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-escape-rock&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: Escape from The Rock Sightseeing Bay Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,415 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,415)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/escape-from-the-rock-cruise-of-san-franci-t23652/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-escape-rock-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>About 90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Full circle of Alcatraz",
+     "pop_html": "<strong>Circles Alcatraz Island,</strong> with the story of escape attempts."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Bridge to bridge",
+     "pop_html": "<strong>From the Golden Gate to the Bay Bridge.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Skip the ticket booth",
+     "pop_html": "<strong>Straight to the boarding line.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No landing",
+     "pop_html": "<strong>It doesn't stop on Alcatraz.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39",
+     "pop_html": "<strong>Pier 39.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for Alcatraz up close without a landing ticket, plus both bridges.",
+    "skip_html": "if you want to walk the prison: buy an Alcatraz landing ticket instead."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Does it stop on Alcatraz?",
+      "a": "No, it circles the island; landing tickets are separate."
+     },
+     {
+      "q": "Which bridges do you see?",
+      "a": "The Golden Gate and the Bay Bridge."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 90 minutes."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 39."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, circles Alcatraz",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/escape-from-the-rock-cruise-of-san-franci-t23652/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-escape-rock&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-escape-rock",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "bay",
+    "alcatraz",
+    "audio"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌉 #4 Best Bridge to Bridge",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Golden Gate Bridge from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The bridge and the headlands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Golden Gate under blue sky"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alcatraz from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline from the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bay Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bay Bridge from below"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-08.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-09.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bridge-to-bridge-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Red and White Fleet",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Red+and+White+Fleet%2C+Pier+43+1%2F2%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 43½"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bridge-to-bridge-cruise-90-t10401/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bridge-to-bridge&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: Bridge to Bridge Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,127 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,127)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bridge-to-bridge-cruise-90-t10401/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bridge-to-bridge-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Golden Gate + Bay Bridge",
+     "pop_html": "<strong>90 minutes from one bridge to the other,</strong> past Alcatraz and the skyline."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Headphone audio",
+     "pop_html": "<strong>Headphone audio tour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 43½",
+     "pop_html": "<strong>Red and White Fleet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⭐",
+     "label": "4.7 from 1,127",
+     "pop_html": "<strong>Rated 4.7 from 1,127 reviews.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the full bay: both bridges, Alcatraz and the skyline in 90 minutes.",
+    "skip_html": "if an hour is enough: #1 or #2 for €9 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The Golden Gate Bridge, Alcatraz, the skyline and the San Francisco-Oakland Bay Bridge."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 minutes."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "A headphone audio tour."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 43½."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€44",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, both bridges",
+      "price": "From €44"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €88"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bridge-to-bridge-cruise-90-t10401/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bridge-to-bridge&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-bridge-to-bridge",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "sail"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #5 Best Sail",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Adventure Cat catamaran under sail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the trampoline net"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sails up on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran under the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the catamaran"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran approaching the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran by the headlands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran under sail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-08.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-catamaran-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Adventure Cat",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Adventure+Cat+Sailing+Charters%2C+Pier+39%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-golden-gate-bridge-cata-t53341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-catamaran&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: Golden Gate Bridge Catamaran Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "548 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(548)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-golden-gate-bridge-cata-t53341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-catamaran-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Sailing catamaran",
+     "pop_html": "<strong>90 minutes under sail;</strong> sit on the trampoline net over the water."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Golden Gate",
+     "pop_html": "<strong>Out to the Golden Gate Bridge.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Bar on board",
+     "pop_html": "<strong>Refreshments for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39",
+     "pop_html": "<strong>Adventure Cat dock.</strong> Not wheelchair accessible."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for sailing the bay the quiet way: 4.9 from 548.",
+    "skip_html": "if you want commentary: it's a sail, not a narrated tour."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What boat is it?",
+      "a": "A sailing catamaran with a trampoline net."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 minutes."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, refreshments are for sale."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 39."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€59",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min under sail",
+      "price": "From €59"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €118"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-golden-gate-bridge-cata-t53341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-catamaran&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-catamaran",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "sail",
+    "evening"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #6 Best Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Catamarans at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the net"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Golden Gate from the catamaran"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with open arms on the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailing under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran under sail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-catamaran-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Adventure Cat",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Adventure+Cat+Sailing+Charters%2C+Pier+39%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-sunset-cruise-by-luxury-t7249/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-catamaran&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco Bay Sunset Cruise by Luxury Catamaran"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "1,182 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(1,182)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-sunset-cruise-by-luxury-t7249/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-catamaran-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset sail",
+     "pop_html": "<strong>Sail toward the Golden Gate at sunset.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "1 drink included",
+     "pop_html": "<strong>One complimentary drink.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🦭",
+     "label": "Sea lions + Sausalito",
+     "pop_html": "<strong>Views of the Pier 39 sea lions, Alcatraz and Sausalito.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39",
+     "pop_html": "<strong>Boards at the Adventure Cat dock, Pier 39.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most romantic hour and a half on the bay.",
+    "skip_html": "on a budget: #8 is a sunset for €36."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The sunset sail and one complimentary drink."
+     },
+     {
+      "q": "What will I see?",
+      "a": "The Golden Gate, Alcatraz, Sausalito and the Pier 39 sea lions."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 minutes."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 39."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€82",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min at sunset, 1 drink",
+      "price": "From €82"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €164"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-sunset-cruise-by-luxury-t7249/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-catamaran&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-sunset-catamaran",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 usable photos"
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "evening"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌃 #7 Best at Night",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The skyline lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the bay at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bay Bridge at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red and White boat by Alcatraz"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Golden hour over the headlands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "City lights from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-08.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-09.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-city-lights-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Red and White Fleet",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Red+and+White+Fleet%2C+Pier+43+1%2F2%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 43½"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-san-francisco-city-lights-c-t3287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-city-lights&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: San Francisco City Lights Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "2,705 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(2,705)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-san-francisco-city-lights-c-t3287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-city-lights-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌃",
+     "label": "Lights + sunset",
+     "pop_html": "<strong>Two hours from sunset into the city lights.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Both bridges",
+     "pop_html": "<strong>The Golden Gate, the Bay Bridge lights and the skyline.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Bar on board",
+     "pop_html": "<strong>Food and drinks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 43½",
+     "pop_html": "<strong>Boards at Red and White Fleet, Pier 43½.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the skyline and Bay Bridge lights from the water.",
+    "skip_html": "in summer fog season if the views matter most."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The sunset, the skyline lit up and the Bay Bridge lights."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2 hours."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, food and drinks are for sale."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 43½."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€53",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h evening cruise",
+      "price": "From €53"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €106"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-san-francisco-city-lights-c-t3287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-city-lights&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-city-lights",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "evening",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #8 Cheapest Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Golden Gate at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at the pier at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun behind the headlands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bay Bridge at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Toasting at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-sunset-skyline-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Blue & Gold Fleet",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1728+The+Embarcadero%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 The Embarcadero"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-sunset-cruise-see-you-in-th-t461316/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-skyline&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco Sunset &amp; Skyline Bay Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "275 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(275)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-sunset-cruise-see-you-in-th-t461316/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-skyline-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>About 1 to 1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Golden hour to night",
+     "pop_html": "<strong>Golden hour, sunset and night views.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎵",
+     "label": "Soundtrack",
+     "pop_html": "<strong>Music instead of narration.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Skip the booth",
+     "pop_html": "<strong>Straight to the boarding line.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Embarcadero",
+     "pop_html": "<strong>Boards on the Embarcadero by Fisherman's Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest sunset on the bay.",
+    "skip_html": "if you want commentary: there's music, not narration."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there narration?",
+      "a": "No, a soundtrack plays instead."
+     },
+     {
+      "q": "What will I see?",
+      "a": "Golden hour, sunset and night views of the city and bridges."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Blue & Gold Fleet on the Embarcadero at Fisherman's Wharf."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "sunset cruise",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-sunset-cruise-see-you-in-th-t461316/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-sunset-skyline&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-sunset-skyline",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 usable photos"
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "thrill",
+    "alcatraz"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #9 Best Small Group",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Bay Voyager boat speeding"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bay Voyager from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain pointing out the sights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea lions on the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Old lighthouse in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea lion on a pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seal Rock in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fort Point under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests under the Golden Gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-06.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-07.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-08.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-09.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-bay-voyager-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bay Voyager",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pier+39+Concourse+Dock+I%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39, Dock I"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-adventure-boat-tour-t217959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bay-voyager&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco Bay: Small-Group Adventure Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "102 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(102)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-adventure-boat-tour-t217959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bay-voyager-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "Fast small boat",
+     "pop_html": "<strong>A RIB-style boat with a small group.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Expert captain",
+     "pop_html": "<strong>Narration from an expert captain.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Gear provided",
+     "pop_html": "<strong>Weather gear for the occasional splash.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Age 5+",
+     "pop_html": "<strong>Not for under-5s, pregnancy or back problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39, Dock I",
+     "pop_html": "<strong>Pier 39 Concourse, Dock I.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small-group adventure with a captain who knows the bay.",
+    "skip_html": "on a budget: three times the price of #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the boat like?",
+      "a": "A fast small boat with a small group."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, from an expert captain."
+     },
+     {
+      "q": "Will I get wet?",
+      "a": "Possibly; weather gear is provided."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Under-5s, pregnant travellers and people with back problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€118",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, small group",
+      "price": "From €118"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €236"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-bay-adventure-boat-tour-t217959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-bay-voyager&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-bay-voyager",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "evening"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍷 #10 Best with Wine",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Wine boat at Pier 39"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wine glass at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Heated cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-01.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-02.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-03.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-04.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-05.avif"
+     },
+     {
+      "src": "/assets/san-francisco-bay-cruises/sf-bay-cruise-wine-tasting-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "San Francisco Bay Boat Cruises",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pier+39+Concourse+Dock+I%2C+San+Francisco",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier 39, Dock I"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-wine-tasting-on-the-bay-t397366/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-wine-tasting&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "San Francisco: Wine Tasting on the Bay"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "57 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(57)",
+       "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-wine-tasting-on-the-bay-t397366/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-wine-tasting-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "3 wine tastings",
+     "pop_html": "<strong>Three 2 oz wine tastings or one drink.</strong> More drinks $8 to $12."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔥",
+     "label": "Heated cabin",
+     "pop_html": "<strong>Heated indoor cabin and a 360-degree walkway.</strong> Toilet on board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A live guide on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 39, Dock I",
+     "pop_html": "<strong>Boards at Pier 39 Concourse, Dock I.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed cruise with Californian wine in hand.",
+    "skip_html": "if you want the classic big-boat cruise: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Three 2 oz wine tastings or one complimentary drink."
+     },
+     {
+      "q": "Is there a bar?",
+      "a": "Yes, extra drinks are $8 to $12."
+     },
+     {
+      "q": "Is it heated?",
+      "a": "Yes, an indoor heated cabin plus an outdoor walkway."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 39 Concourse, Dock I."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€87",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, 3 tastings or 1 drink",
+      "price": "From €87"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €174"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/san-francisco-l61/san-francisco-wine-tasting-on-the-bay-t397366/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-san-francisco-bay-cruises-wine-tasting&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#sf-wine-tasting",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 6 usable photos"
+   }
+  }
+ ]
+}
