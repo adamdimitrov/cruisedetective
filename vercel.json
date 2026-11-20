@@ -798,6 +798,18 @@
       "destination": "/chao-phraya-river-cruises-bangkok/index.html"
     },
     {
+      "source": "/dinner-cruises-istanbul",
+      "destination": "/dinner-cruises-istanbul/index.html"
+    },
+    {
+      "source": "/dinner-cruises-sydney",
+      "destination": "/dinner-cruises-sydney/index.html"
+    },
+    {
+      "source": "/dinner-cruises-cairo",
+      "destination": "/dinner-cruises-cairo/index.html"
+    },
+    {
       "source": "/prague-river-cruises",
       "destination": "/prague-river-cruises/index.html"
     },

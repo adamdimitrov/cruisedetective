@@ -1,0 +1,2931 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "finedining",
+    "veg"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "MV Sydney 2000 lit up next to the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "MV Sydney 2000 at sunset by the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests toasting at dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waiter pouring wine at a table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Main course plated with red wine"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple dining by the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck with the Opera House at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Chef plating scallops"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glasses of sparkling wine raised"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat passing the Opera House at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-captain-cook-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Captain Cook Cruises",
+    "⏱️ 105 Min to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=King+Street+Wharf%2C+Darling+Harbour%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 King Street Wharf 1, Darling Harbour"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-3-4-or-6-course-menu-t76095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-captain-cook&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney Harbour Dinner Cruise with 3-, 4- or 5-Course Menu"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,107 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,107)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-3-4-or-6-course-menu-t76095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-captain-cook-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1¾ to 3 h",
+     "pop_html": "<strong>105 minutes to 3 hours, by menu.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3, 4 or 5 courses",
+     "pop_html": "<strong>Sunset 3-course or Premium 4-course à la carte,</strong> Starlight 4-course with canapés, or a 5-course Gold Penfolds tasting menu."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐟",
+     "label": "Modern Australian menu",
+     "pop_html": "<strong>Smoked Tasmanian salmon, NSW lamb shoulder,</strong> free-range chicken; scallops and beef tenderloin on the tasting menu.<span class=\"bpa-lang-note\">Vegetarian and vegan dishes on the menu.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Drinks extra",
+     "pop_html": "<strong>Drinks are not included;</strong> order on board. Paired Penfolds wines are an option on the 5-course menu."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👔",
+     "label": "Smart casual",
+     "pop_html": "<strong>The dress code is smart casual.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Live music Sat + Sun",
+     "pop_html": "<strong>Live music on Saturday and Sunday nights.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "King Street Wharf 1, Darling Harbour",
+     "pop_html": "<strong>King Street Wharf No. 1, Darling Harbour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the widest choice: from a 3-course sunset dinner to a 5-course tasting menu with Penfolds wines, on MV Sydney 2000.",
+    "skip_html": "if you want drinks in the price: #2 includes wine and beer."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which menus can I choose?",
+      "a": "Sunset Dinner (3 courses à la carte), Sunset Premium (4 courses), Starlight (4 courses, the first being canapés) or Gold Penfolds (5-course tasting menu, paired Penfolds wines optional)."
+     },
+     {
+      "q": "What's on the menu?",
+      "a": "For example Tasmanian smoked salmon, pumpkin and goat's cheese ravioli, NSW chicken or slow-cooked lamb shoulder, and desserts like passionfruit meringue tart; vegan and gluten-free dishes are marked."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, you order them on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "King Street Wharf No. 1 in Darling Harbour."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Yes, smart casual."
+     }
+    ]
+   },
+   "price": {
+    "main": "€78",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Sunset Dinner",
+      "small": "3 courses à la carte",
+      "price": "From €78"
+     },
+     {
+      "label": "Starlight Dinner",
+      "small": "4 courses with canapés",
+      "price": "Check"
+     },
+     {
+      "label": "Gold Penfolds",
+      "small": "5-course tasting menu",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €156"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-3-4-or-6-course-menu-t76095/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-captain-cook&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-captain-cook",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "finedining",
+    "drinks"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍷 #2 Best All-Inclusive",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The catamaran at sunset on the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room with harbour windows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at dinner with red and white wine"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waitress pouring wine"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Plated dessert"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Aerial view of Circular Quay and the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Chocolate dessert with flowers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-all-inclusive-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Journey Beyond Cruise Sydney",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=King+Street+Wharf%2C+Darling+Harbour%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 King Street Wharf 8"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-3-course-all-inclusive-dinner-harbour-cruise-t361755/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-all-inclusive&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney: 3-Course All-Inclusive Dinner Harbour Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "429 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(429)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-3-course-all-inclusive-dinner-harbour-cruise-t361755/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-all-inclusive-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Wine + beer included",
+     "pop_html": "<strong>NSW wines, beers, soft drinks,</strong> tea and coffee for the whole cruise."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course dinner",
+     "pop_html": "<strong>A 3-course menu of regional NSW produce</strong> with multicultural Sydney influences."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset departure",
+     "pop_html": "<strong>Leaves Darling Harbour as the sun sets;</strong> dinner is served as the city lights come on."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "360° decks",
+     "pop_html": "<strong>Top, fore and aft decks for open views.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancel 3 days ahead",
+     "pop_html": "<strong>Free cancellation up to 3 days before,</strong> not 24 hours."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "King Street Wharf 8",
+     "pop_html": "<strong>King Street Wharf 8, Darling Harbour.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you'll drink with dinner: wine, beer and soft drinks are in the €98, so the ticket is the price of your evening.",
+    "skip_html": "if you book last-minute and might cancel: free cancellation ends 3 days before."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What drinks are included?",
+      "a": "A selection of NSW wines, beers, soft drinks, and tea or coffee."
+     },
+     {
+      "q": "What's for dinner?",
+      "a": "Three courses from a regionally focused menu using New South Wales ingredients."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "King Street Wharf 8, Darling Harbour."
+     },
+     {
+      "q": "What will we see?",
+      "a": "The skyline at sunset, then Taronga Zoo and Luna Park after dinner."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 3 days before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€98",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 courses, wine, beer, soft drinks",
+      "price": "From €98"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €196"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-3-course-all-inclusive-dinner-harbour-cruise-t361755/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-all-inclusive&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b> up to 3 days before",
+     "<b>Drinks included</b>"
+    ],
+    "sublink": {
+     "url": "#syd-all-inclusive",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has 7 photos, all used"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "show",
+    "veg"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎭 #3 Best Show",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The paddle steamer lit up by the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Singer and feathered dancers on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests toasting at a long table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers performing on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Full cast on stage in pink costumes"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The paddle steamer passing the Opera House at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Starter sharing platter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Plated main course"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cast members in silver costumes on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Can-can dancers on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-showboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Australian Cruise Group",
+    "⏱️ 2.5 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=King+Street+Wharf+5%2C+36+The+Promenade%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 King Street Wharf 5"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-cabaret-cruise-with-3-course-dinner-t265665/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-showboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney Harbour: Cabaret Show Cruise with 3-Course Dinner"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "323 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(323)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-cabaret-cruise-with-3-course-dinner-t265665/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-showboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 to 3 h",
+     "pop_html": "<strong>2.5 to 3 hours including boarding.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎭",
+     "label": "Voyage of Love cabaret",
+     "pop_html": "<strong>The harbour's longest-running cabaret show,</strong> with an Australian cast and singer."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3 courses, served",
+     "pop_html": "<strong>Sharing platter (salmon ceviche, scallops, chaat),</strong> chicken or herb-crusted salmon, wattle seed cheesecake.<span class=\"bpa-lang-note\">Full vegetarian menu; kids menu at no extra cost.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛳️",
+     "label": "Paddle steamer",
+     "pop_html": "<strong>Theatre-style dining room with a stage,</strong> panoramic windows and wrap-around verandas."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Bar, drinks extra",
+     "pop_html": "<strong>Fully licensed bar with a curated wine list.</strong> Drinks not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No menu swaps",
+     "pop_html": "<strong>Dietary substitutions are declined;</strong> the kitchen isn't allergen free."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "King Street Wharf 5",
+     "pop_html": "<strong>King Street Wharf 5, Darling Harbour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a night out, not just dinner: Sydney's longest-running cabaret on a paddle steamer, with a 3-course served dinner.",
+    "skip_html": "if you have allergies: the kitchen declines menu substitutions."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the show?",
+      "a": "Voyage of Love, the harbour's longest-running cabaret, with an Australian cast and singer."
+     },
+     {
+      "q": "What's on the menu?",
+      "a": "A sharing platter (salmon ceviche with prawns, scallops, fusion chaat), then chicken or herb-crusted salmon, and wattle seed cheesecake or a pineapple and vanilla dessert. A full vegetarian menu exists."
+     },
+     {
+      "q": "Can kids come?",
+      "a": "Yes, there's a kids menu to pre-order at no extra cost with a child ticket."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "King Street Wharf 5, Darling Harbour. The boat waits no more than 5 minutes past departure."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€106",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3-course dinner + cabaret",
+      "price": "From €106"
+     },
+     {
+      "label": "Child",
+      "small": "kids menu, no extra cost",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €212"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-cabaret-cruise-with-3-course-dinner-t265665/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-showboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-showboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "finedining",
+    "veg",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "✨ #4 Best Views at the Table",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Glass Boat lit up by the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple dining by the windows at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The glass boat under the Harbour Bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at their table facing the Opera House"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple dining with Luna Park behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Starter with flowers and seafood"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seafood sharing platter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grilled fish main"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat on the harbour from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Three desserts on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-glass-boat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Australian Cruise Group",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=King+Street+Wharf+5%2C+36+The+Promenade%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 King Street Wharf 5"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-glass-boat-signature-dinner-cruise-t827450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-glass-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney Harbour: Glass Boat Signature Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "226 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(226)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-glass-boat-signature-dinner-cruise-t827450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-glass-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "4-course signature menu",
+     "pop_html": "<strong>Sharing platter (salmon ceviche, scallops), grilled king prawns,</strong> chicken, market fish or gnocchi, then opera cake.<span class=\"bpa-lang-note\">Full vegan 4-course menu.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Floor-to-ceiling glass",
+     "pop_html": "<strong>Reserved table on the main deck behind glass,</strong> plus a Sky Deck for photos."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕖",
+     "label": "19:00 to 21:00",
+     "pop_html": "<strong>Board 19:00, depart 19:15, back 21:00.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Drinks extra",
+     "pop_html": "<strong>Fully licensed bar.</strong> Drinks not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "King Street Wharf 5",
+     "pop_html": "<strong>King Street Wharf 5.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the view from your seat: 360° glass, a reserved table and a 4-course seafood-led menu in two hours.",
+    "skip_html": "if you have limited mobility: the listing says it isn't suitable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's on the menu?",
+      "a": "A sharing platter (salmon ceviche, seared scallops, chicory salad), grilled king prawns, then chicken, market fish or gnocchi, and opera cake or a pineapple dessert."
+     },
+     {
+      "q": "Is there a vegan menu?",
+      "a": "Yes, a full vegan 4-course menu, plus a kids menu at no extra cost."
+     },
+     {
+      "q": "What time does it run?",
+      "a": "Boarding 19:00, departure 19:15, back at 21:00."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, they're from the licensed bar."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€100",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4-course signature dinner",
+      "price": "From €100"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €200"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-glass-boat-signature-dinner-cruise-t827450/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-glass-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-glass-boat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "budget",
+    "veg",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #5 Most Memorable Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Tall ship under full sail by the Harbour Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck at sunset by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the deck under the masts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail with the Opera House at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests boarding the tall ship"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The tall ship sailing on the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests hauling the ropes"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests helping set the sails"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests looking at the Opera House from the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Opera House silhouette at sunset from the rigging"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-tall-ship-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sydney Harbour Tall Ships",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Campbells+Cove+Jetty%2C+The+Rocks%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Campbell's Cove Jetty, The Rocks"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney: Tall Ship Harbour Twilight Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "367 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(367)",
+       "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Help sail the ship",
+     "pop_html": "<strong>Hoist the sails or take the helm,</strong> on the Southern Swan or the Soren Larsen.<span class=\"bpa-lang-note\">Mast climb available for a fee.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Dinner cooked on board",
+     "pop_html": "<strong>Salads, mildly spiced chicken (GF) or sweet potato,</strong> aubergine and lentils (vegetarian, GF), chocolate brownies.<span class=\"bpa-lang-note\">Starters only October to March.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Drinks extra",
+     "pop_html": "<strong>Buy drinks on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Campbell's Cove",
+     "pop_html": "<strong>Boards at Campbell's Cove Jetty, The Rocks,</strong> 15 minutes before departure."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for something you can't do elsewhere: sail past the Opera House on a timber tall ship and help set the sails, with dinner, for €66.",
+    "skip_html": "if dinner is the point: it's a simple 3-course meal; #1 and #4 are the food boats."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which ship will I sail on?",
+      "a": "The Southern Swan or the Soren Larsen, both historic timber tall ships."
+     },
+     {
+      "q": "What's for dinner?",
+      "a": "Salads, mildly spiced chicken with mushroom and spinach (gluten free) or sweet potato, aubergine and lentils (vegetarian, gluten free), and chocolate brownies. Starters are served October to March."
+     },
+     {
+      "q": "Can I help sail?",
+      "a": "Yes, you can help hoist the sails and take a turn steering. The mast climb costs extra."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, they're for sale on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€66",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h sail + dinner",
+      "price": "From €66"
+     },
+     {
+      "label": "Child 4 to 14",
+      "small": "with a paying adult",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €132"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-tall-ship",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "budget",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #6 Cheapest Dinner Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Opera House and Harbour Bridge at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck facing the city lights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Harbour Bridge and Opera House at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cocktails on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-princess-buffet-04.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sydney Princess Cruises",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Eastern+Pontoon%2C+Circular+Quay%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Eastern Pontoon, Circular Quay"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-buffet-t1083455/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-princess-buffet&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney: Harbour Dinner Cruise with Buffet"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,058 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,058)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-buffet-t1083455/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-princess-buffet-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍛",
+     "label": "Hot + cold buffet",
+     "pop_html": "<strong>A freshly prepared buffet</strong> of hot and cold dishes."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Golden hour to night",
+     "pop_html": "<strong>Sails at sunset; the bridge and Opera House</strong> light up on the way."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Circular Quay",
+     "pop_html": "<strong>Eastern Pontoon, Circular Quay,</strong> next to the Opera House."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪪",
+     "label": "Bring ID + card",
+     "pop_html": "<strong>Show ID and the credit card</strong> you booked with at check-in."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lowest price: a 2-hour sunset buffet cruise from Circular Quay for €48.",
+    "skip_html": "if you want a served meal or a show: it's a buffet and a view."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's for dinner?",
+      "a": "A freshly prepared buffet with hot and cold dishes."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Eastern Pontoon at Circular Quay, by the Opera House."
+     },
+     {
+      "q": "What do I need at check-in?",
+      "a": "Your ID and the credit card used for the booking."
+     },
+     {
+      "q": "Can kids come?",
+      "a": "Yes; under-15s must be with an adult at all times."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€48",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h, buffet dinner",
+      "price": "From €48"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €96"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-dinner-cruise-with-buffet-t1083455/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-princess-buffet&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-princess-buffet",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has 4 photos, all used"
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "show"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💃 #7 Best Party Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Samba dancers in gold feathers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in feathered headdresses on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Vagabond boat lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat at the Darling Harbour wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-sydney/sydney-dinner-cruise-latin-fiesta-04.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vagabond Cruises",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=King+Street+Wharf%2C+The+Promenade%2C+Sydney",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 King Street Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-latin-fiesta-dinner-cruise-t399575/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-latin-fiesta&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Sydney Harbour: Latin Fiesta Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "55 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(55)",
+       "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-latin-fiesta-dinner-cruise-t399575/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-latin-fiesta-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "Samba + salsa show",
+     "pop_html": "<strong>Brazilian samba with live drums and Cuban salsa,</strong> then an all-night DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course set menu",
+     "pop_html": "<strong>A 3-course set menu served to your table.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏆",
+     "label": "Dance competitions",
+     "pop_html": "<strong>Learn a step and compete for prizes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Bar, drinks extra",
+     "pop_html": "<strong>Fully licensed bar.</strong> Drinks not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "King Street Wharf",
+     "pop_html": "<strong>King Street Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a group or birthday night out: four hours of samba, salsa and a DJ with dinner, €78.",
+    "skip_html": "if you want a quiet dinner or a sightseeing focus: it's a party boat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the show?",
+      "a": "Brazilian samba with live drums and Cuban salsa by professional dancers, then a DJ."
+     },
+     {
+      "q": "What's for dinner?",
+      "a": "A 3-course set menu served to the table."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, there's a fully licensed bar."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "King Street Wharf, Darling Harbour."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€78",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4 h, dinner, show, DJ",
+      "price": "From €78"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €156"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sydney-l200/sydney-harbour-latin-fiesta-dinner-cruise-t399575/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-latin-fiesta&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#syd-latin-fiesta",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has 5 photos; the 5th is a collage"
+   }
+  }
+ ]
+}

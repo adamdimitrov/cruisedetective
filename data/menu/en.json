@@ -64,6 +64,29 @@
          "desc": "Official arrivals, nights & spending"
         }
        ]
+      },
+      {
+       "head": "DINNER CRUISES WORLDWIDE",
+       "items": [
+        {
+         "href": "/dinner-cruises-istanbul",
+         "icon": "🕌",
+         "title": "Istanbul Dinner Cruises",
+         "desc": "Bosphorus show boats from €17"
+        },
+        {
+         "href": "/dinner-cruises-sydney",
+         "icon": "🌉",
+         "title": "Sydney Harbour Dinner Cruises",
+         "desc": "Tasting menus, cabaret, tall ship"
+        },
+        {
+         "href": "/dinner-cruises-cairo",
+         "icon": "🏺",
+         "title": "Cairo Nile Dinner Cruises",
+         "desc": "Belly dance, Tanoura, private felucca"
+        }
+       ]
       }
      ]
     },

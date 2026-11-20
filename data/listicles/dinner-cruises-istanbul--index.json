@@ -1,0 +1,2907 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "window",
+    "alcohol",
+    "pickup",
+    "dervish"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Mega Lüfer yacht lit up under the Bosphorus Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The yacht sailing at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers on the stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer on the Mega Lüfer stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer among the tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room set for dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Window table facing the Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers and guests in the dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish in green light"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The full dining room at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-mega-lufer-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Mega Lüfer Yachts",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bosphorus%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier by option, or hotel pickup"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-mega-lufer&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise &amp; Show with Private Table"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "76,656 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(76,656)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-mega-lufer-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3-hour cruise (3 to 5 hours with transfers).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Meze, grill + dessert",
+     "pop_html": "<strong>6 cold Turkish mezes, a hot starter,</strong> then sea bass, chicken, beef Stroganoff or vegetarian, and dessert.<span class=\"bpa-lang-note\">A VIP menu (10 mezes, prawn stew, ribeye) is an option.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soft drinks unlimited",
+     "pop_html": "<strong>Unlimited soft drinks, Turkish coffee and tea.</strong> Unlimited alcohol is a paid option."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌀",
+     "label": "Dervish + belly dance",
+     "pop_html": "<strong>Turkish folk dances, whirling dervishes, belly dance,</strong> Latin and flamenco, then a DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪑",
+     "label": "Private table",
+     "pop_html": "<strong>Your own table, not a shared one.</strong> Solo bookings share a table.<span class=\"bpa-lang-note\">Window, close-to-stage and VIP lounge seats are paid add-ons.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pickup 19:00 to 20:00",
+     "pop_html": "<strong>Hotel pickup by air-conditioned van if you choose it,</strong> or meet at the port."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier by option, or hotel pickup",
+     "pop_html": "<strong>Pier by option, or hotel pickup.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Bosphorus night out: the most-reviewed dinner cruise in Istanbul, a private table and the fullest show, from €26.",
+    "skip_html": "if you want a quiet dinner: the main saloon seats 160 and the show runs all evening."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's on the menu?",
+      "a": "Six cold Turkish mezes, a hot starter, a main (sea bass fillet, sautéed chicken, beef Stroganoff or vegetarian) and dessert. A VIP menu with 10 mezes, prawn stew and ribeye is an option."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Unlimited soft drinks, Turkish coffee and tea are. Unlimited alcohol is a paid option."
+     },
+     {
+      "q": "Will we have our own table?",
+      "a": "Yes, a private table, except solo bookings, which share one. Window and close-to-stage seats are paid add-ons."
+     },
+     {
+      "q": "Can they cater to diets?",
+      "a": "Yes: vegetarian, pescetarian and halal."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "dinner, soft drinks, show",
+      "price": "From €26"
+     },
+     {
+      "label": "Unlimited alcohol",
+      "small": "option",
+      "price": "Check"
+     },
+     {
+      "label": "VIP menu",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-mega-lufer&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-mega-lufer",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "alcohol",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍷 #2 Best for Drinks",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Turyol ship under the lit Bosphorus Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The ship sailing past the bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck facing Ortaköy Mosque"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Table by the window facing the Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Meze and grill plates on the table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish in the dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in costume on the dance floor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room set with mezes"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer dancing with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-turyol-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Turyol",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bosphorus%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Pier by option, or hotel pickup"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-turyol&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise &amp; Turkish Night Show"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "14,690 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(14,690)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-turyol-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Unlimited local drinks",
+     "pop_html": "<strong>Beer, raki, vodka, wine, gin and soft drinks,</strong> unlimited with the alcohol option.<span class=\"bpa-lang-note\">Imported spirits cost extra.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Meze plate + grill",
+     "pop_html": "<strong>Turkish starter plate, salad, paçanga pastry,</strong> then meatballs, chicken skewers or baked fish, and dessert.<span class=\"bpa-lang-note\">Vegetarian: grilled vegetables with rice or pasta.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "1.5-hour Turkish night",
+     "pop_html": "<strong>Belly dancers, folk dances and live music,</strong> then a DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌿",
+     "label": "Eco-friendly ship",
+     "pop_html": "<strong>Turyol calls it the only eco-friendly ship</strong> on the Bosphorus."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier by option, or hotel pickup",
+     "pop_html": "<strong>Pier by option, or hotel pickup.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for drinkers: the open bar of local beer, raki and wine turns a dinner into a party, at 4.8 from 14,690 reviews.",
+    "skip_html": "if you don't drink: you'd pay for the alcohol option you won't use; #3 is cheaper for soft drinks only."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which drinks are unlimited?",
+      "a": "Soft drinks always; local beer, raki, vodka, wine and gin with the alcohol option. Imported drinks cost extra."
+     },
+     {
+      "q": "What's on the menu?",
+      "a": "A Turkish starter plate (fava, muhammara, haydari, cheeses), green salad, paçanga pastry, then grilled meatballs, spicy chicken skewers or baked seasonal fish, and dessert or fruit."
+     },
+     {
+      "q": "Is there a vegetarian menu?",
+      "a": "Yes, grilled vegetables with rice or pasta; vegetarian, pescetarian and halal diets are catered for."
+     },
+     {
+      "q": "What's the show?",
+      "a": "A 1.5-hour Turkish night with belly dancers, folk dances and live music, then a DJ."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "dinner, soft drinks, show",
+      "price": "From €27"
+     },
+     {
+      "label": "Unlimited local alcohol",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-turyol&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-turyol",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "window",
+    "alcohol",
+    "pickup",
+    "dervish",
+    "budget",
+    "access"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #3 Best Value",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Pereme boat lit up below the Bosphorus Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer in pink on the dance floor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish with lights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancer in white performing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers among the tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in costume"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer close to the tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests dancing at the end of the night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish in the dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Host entertaining a table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-pereme-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Pereme Tours",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F+Pier%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kabataş Port"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-with-turkish-night-show-t419108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-pereme&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise &amp; Turkish Night Show"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "2,328 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(2,328)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-with-turkish-night-show-t419108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-pereme-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "4 mains to choose",
+     "pop_html": "<strong>Turkish cold starters and crispy cheese rolls,</strong> then grilled fish, chicken steak, meatballs or falafel."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soft drinks unlimited",
+     "pop_html": "<strong>Unlimited soft drinks, Turkish coffee and tea.</strong> 2 alcoholic drinks optional."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Pick your table",
+     "pop_html": "<strong>Standard, window, front of stage,</strong> or window at the front of the stage.<span class=\"bpa-lang-note\">Private tables are limited.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌀",
+     "label": "Dervish + belly dance",
+     "pop_html": "<strong>Belly dance group, whirling dervish, folk dances,</strong> a rhythm show, then a DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "Wheelchair accessible",
+     "pop_html": "<strong>The listing marks it wheelchair accessible.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kabataş Port",
+     "pop_html": "<strong>Kabataş Port.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lowest price on a well-rated show cruise: €19 from Kabataş, with dervishes, belly dance and a choice of four mains.",
+    "skip_html": "if you want drinks flowing: only two alcoholic drinks come with the option."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do I board?",
+      "a": "Kabataş Port near Dolmabahçe Palace; look for the boat Pereme. T1 tram or F1 funicular from Taksim."
+     },
+     {
+      "q": "What's for dinner?",
+      "a": "Turkish cold starters, crispy cheese rolls (sigara böreği), then grilled fish, grilled chicken steak, grilled meatballs or falafel."
+     },
+     {
+      "q": "Which tables can I book?",
+      "a": "Standard, private window-side, private at the front of the stage, or both window and front of the stage."
+     },
+     {
+      "q": "Is it wheelchair accessible?",
+      "a": "Yes, the listing marks it wheelchair accessible."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€19",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "standard table",
+      "price": "From €19"
+     },
+     {
+      "label": "Window or front-of-stage table",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-with-turkish-night-show-t419108/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-pereme&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-pereme",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "window",
+    "alcohol",
+    "pickup",
+    "dervish",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🪟 #4 Best Window Table",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Whirling dervish on board the Aşk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fish main course at a window table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers performing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer among the tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Violinist playing for a couple"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in traditional dress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancer in an embroidered vest"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dervish performing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-ask-window-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Celaloglu Group",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bosphorus%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Boat Aşk, or hotel pickup"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-show-cruise-dinner-at-window-seat-private-table-t1376318/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-ask-window&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Show Cruise &amp; Dinner at a Private Window Table"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "794 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(794)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-show-cruise-dinner-at-window-seat-private-table-t1376318/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-ask-window-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Window table guaranteed",
+     "pop_html": "<strong>A private table right at the window,</strong> included in the price."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Meze + grill",
+     "pop_html": "<strong>6 cold Turkish mezes, a hot starter,</strong> fish fillet, mixed grill or vegetarian, and seasonal fruit."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Local alcohol option",
+     "pop_html": "<strong>Unlimited soft drinks, Turkish coffee and tea.</strong> Unlimited local alcohol with the option.<span class=\"bpa-lang-note\">Imported drinks extra.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌀",
+     "label": "Dervish + live music",
+     "pop_html": "<strong>Whirling dervishes, belly dance, folk dances,</strong> live Turkish music, then a DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Boat Aşk, or hotel pickup",
+     "pop_html": "<strong>Boat Aşk, or hotel pickup.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for couples who want the view: a guaranteed private window table is included, from €17.",
+    "skip_html": "if you use a wheelchair: the listing says it isn't suitable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the window table guaranteed?",
+      "a": "Yes, a private window-side table is part of this ticket."
+     },
+     {
+      "q": "What's on the menu?",
+      "a": "Six cold Turkish mezes, a hot starter, fish fillet, mixed grill or a vegetarian main, and seasonal fruit."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Unlimited soft drinks, Turkish coffee and tea; unlimited local alcohol with the option."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "The boat named Aşk; pickup between 19:00 and 20:00 if you book it."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€17",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "window table, soft drinks",
+      "price": "From €17"
+     },
+     {
+      "label": "Unlimited local alcohol",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €34"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-show-cruise-dinner-at-window-seat-private-table-t1376318/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-ask-window&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-ask-window",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has 8 photos, all used"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "window",
+    "alcohol",
+    "pickup",
+    "dervish"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎷 #5 Best Live Music",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The mega yacht lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saxophonist on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish among guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in white on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests cheering at their table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dervish in stage smoke"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room set for dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer with light wings"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The yacht by day on the Bosphorus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests laughing at the show"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-stambultour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Stambultour",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F+Tram+Station%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kabataş tram station"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-magic-of-bosphorus-full-meal-turkish-night-show-t1113957/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-stambultour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Magic of the Bosphorus, Full Meal &amp; Turkish Night Show"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "565 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(565)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-magic-of-bosphorus-full-meal-turkish-night-show-t1113957/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-stambultour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎷",
+     "label": "DJ + saxophone",
+     "pop_html": "<strong>Live music from a DJ and a saxophonist,</strong> plus the Turkish night show."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course Turkish dinner",
+     "pop_html": "<strong>Meze, grilled dishes and dessert.</strong> Vegetarian, pescetarian and halal on request."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soft drinks unlimited",
+     "pop_html": "<strong>Water, tea, coffee, juice and soft drinks.</strong> Turkish coffee and alcohol extra; 2-glass alcohol option."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "12-language audio guide",
+     "pop_html": "<strong>A mobile audio guide to the sights</strong> in 12 languages."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kabataş tram station",
+     "pop_html": "<strong>Kabataş tram station.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a livelier band: a saxophonist and DJ on top of the dervish and belly dance show.",
+    "skip_html": "if you're a group wanting window seats: the window table option is for 2 guests only."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do we meet?",
+      "a": "At Kabataş tram station; the operator confirms by WhatsApp."
+     },
+     {
+      "q": "What's included to drink?",
+      "a": "Unlimited water, tea, coffee, juice and soft drinks. Turkish coffee and extra alcohol cost extra; the alcohol option gives 2 glasses."
+     },
+     {
+      "q": "What's the show?",
+      "a": "Folk dances, a whirling dervish ceremony, the Ashuk-Mashuk comedy dance and belly dance, with a DJ and a saxophonist."
+     },
+     {
+      "q": "Can I get a window table?",
+      "a": "Yes as an option, for 2 guests only; larger groups share tables of 4 or 6."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3-course dinner, soft drinks",
+      "price": "From €25"
+     },
+     {
+      "label": "Window table for 2",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-magic-of-bosphorus-full-meal-turkish-night-show-t1113957/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-stambultour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-stambultour",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "alcohol",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎭 #6 Most Varied Show",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The yacht lit up on the Bosphorus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck under the Bosphorus Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy Mosque at night from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Meze plate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grilled fish main"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in red costumes"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bosphorus Bridge from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Belly dancer among the tables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Show in the dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-01.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-02.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-03.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-04.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-05.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-06.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-07.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-08.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-09.avif"
+     },
+     {
+      "src": "/assets/dinner-cruises-istanbul/istanbul-dinner-cruise-amor-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Istanbul Clue",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bosphorus%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Yacht Amor, or hotel pickup"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-w-drinks-entertainment-t64959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-amor&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise w/ Drinks &amp; Entertainment"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,873 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,873)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-w-drinks-entertainment-t64959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-amor-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours (3 to 5 with transfers).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Welcome cocktail",
+     "pop_html": "<strong>A welcome cocktail, dinner and unlimited local soft drinks.</strong> 2 alcoholic drinks optional."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎭",
+     "label": "Six-part show",
+     "pop_html": "<strong>Katibim, Asuk Masuk, mixed and Caucasian folk dances,</strong> belly dancers, then a DJ."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Central pickup",
+     "pop_html": "<strong>From Sultanahmet, Sirkeci, Taksim, Beyoğlu, Karaköy and more.</strong> Back around midnight."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📶",
+     "label": "Wi-Fi on board",
+     "pop_html": "<strong>Wi-Fi on the yacht.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Yacht Amor, or hotel pickup",
+     "pop_html": "<strong>Yacht Amor, or hotel pickup.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most varied folk programme, from the Katibim song to Caucasian dances, with a welcome cocktail.",
+    "skip_html": "if you want to know the menu in advance: the listing only says dinner."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do I board?",
+      "a": "Look for the yacht named Amor, or book hotel pickup from the central districts."
+     },
+     {
+      "q": "Which drinks are included?",
+      "a": "A welcome cocktail and unlimited local soft drinks; 2 alcoholic drinks with the option."
+     },
+     {
+      "q": "What's the show?",
+      "a": "The Katibim song, the Asuk Masuk dwarf dance, mixed and Caucasian folk dances, belly dancers and a DJ."
+     },
+     {
+      "q": "When do I get back?",
+      "a": "Hotel drop-off is around midnight."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "dinner, soft drinks, show",
+      "price": "From €30"
+     },
+     {
+      "label": "2 alcoholic drinks",
+      "small": "option",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-w-drinks-entertainment-t64959/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-istanbul-amor&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-amor",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}
