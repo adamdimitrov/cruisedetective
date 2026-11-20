@@ -16,10 +16,9 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 6 | Night canal cruises Amsterdam | night-canal-cruises-amsterdam | 986 / 23 | amsterdam night canal cruise (254), amsterdam canal night cruise (123) | not checked | not checked | could be a section on /canal-cruises-amsterdam instead | GSC 2026-11-14 |
 | 7 | Sunset cruises Paris | sunset-cruises-paris | 541 / 36 | sunset river cruise paris (96), sunset cruise paris (80) | not checked | not checked | sunset times by month, which boats sail then | GSC 2026-11-14 |
 | 8 | Bruges canal boat tours | canal-boat-tours-bruges | KP ~28k / – | bruges boat tour (18.1k) | not checked | not checked | HELD 2026-11-20: Bruges canal boats are walk-up only; GYG/Tiqets sell boat rides only inside walking tours (4 products) | KP 2026-11-15 |
-| 9 | Dubai dhow and yacht cruises | dhow-cruises-dubai | KP ~60k / – | dubai marina dhow cruise (9.9k), dubai dinner cruise (5.4k) | not checked | not checked | HELD: overlaps LTT /best-dinner-cruises-dubai; waiting on the owner (skip, or a dhow/sightseeing-only TCD page) | KP 2026-11-15 |
-| 10 | Cairo Nile cruises | nile-cruises-cairo | KP ~14k / – | cairo felucca (4.4k), nile dinner cruise cairo (1.9k) | not checked | not checked | HELD 2026-11-20: /dinner-cruises-cairo covers the dinner side; felucca inventory is 4 operators (one at 3.7) | KP 2026-11-15 |
-| 11 | Shanghai Huangpu river cruises | huangpu-river-cruises-shanghai | KP ~14k / – | huangpu river cruise (10k) | not checked | not checked | HELD 2026-11-20: only 2 GYG cruises with 50+ reviews, nothing on Tiqets | KP 2026-11-15 |
-| 12 | Saigon river cruises | river-cruises-saigon | KP ~13k / – | saigon river cruise, ho chi minh dinner cruise | not checked | not checked | HELD 2026-11-20: 4 bookable cruises with reviews, the rest new dinner boats with 0-10 reviews; nothing on Tiqets | KP 2026-11-15 |
+| 9 | Cairo Nile cruises | nile-cruises-cairo | KP ~14k / – | cairo felucca (4.4k), nile dinner cruise cairo (1.9k) | not checked | not checked | HELD 2026-11-20: /dinner-cruises-cairo covers the dinner side; felucca inventory is 4 operators (one at 3.7) | KP 2026-11-15 |
+| 10 | Shanghai Huangpu river cruises | huangpu-river-cruises-shanghai | KP ~14k / – | huangpu river cruise (10k) | not checked | not checked | HELD 2026-11-20: only 2 GYG cruises with 50+ reviews, nothing on Tiqets | KP 2026-11-15 |
+| 11 | Saigon river cruises | river-cruises-saigon | KP ~13k / – | saigon river cruise, ho chi minh dinner cruise | not checked | not checked | HELD 2026-11-20: 4 bookable cruises with reviews, the rest new dinner boats with 0-10 reviews; nothing on Tiqets | KP 2026-11-15 |
 
 ## Refresh (existing page covers it, improve the page instead)
 | page | topic | demand / pos | what to add | noted |
@@ -63,6 +62,7 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 2026-11-20 | boat-tours-lisbon | lisbon sunset cruise | due 2026-12-18 |
 | 2026-11-20 | lake-geneva-cruises | lake geneva cruise | due 2026-12-18 |
 | 2026-11-20 | harbour-cruises-hong-kong | hong kong harbour cruise | due 2026-12-18 |
+| 2026-11-20 | boat-tours-dubai | dubai boat tour / speedboat / yacht tour (no dinner; LTT covers dinner cruises) | due 2026-12-18 |
 
 ## Rejected
 | topic | reason | date |

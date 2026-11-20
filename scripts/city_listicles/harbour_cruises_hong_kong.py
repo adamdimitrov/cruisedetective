@@ -2,7 +2,7 @@
 # Star Ferry left out on purpose (public ferry). Facts from the live GetYourGuide listings, 20 Nov 2026.
 
 SPEC = dict(
-    related=["singapore-river-cruises", "sydney-harbour-cruises", "chao-phraya-river-cruises-bangkok", "ha-long-bay-cruises"],
+    related=["singapore-river-cruises", "sydney-harbour-cruises", "chao-phraya-river-cruises-bangkok", "boat-tours-dubai"],
     prefix="hkg",
     photo_stem="hong-kong-harbour-cruise",
     year="2026",

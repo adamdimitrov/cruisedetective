@@ -1,0 +1,4824 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "speedboat"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboat by the Marina towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Atlantis The Palm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in life jackets at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jumeirah beachfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at full speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by the Marina"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat in front of Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-speedboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xclusive Yachts",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Xclusive+Yachts%2C+Marina+Level%2C+Al+Majara%2C+Dubai+Marina",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-atlantis-palm-burj-al-arab-speedboat-tour-t90741/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-speedboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Marina, Atlantis, Palm &amp; Burj Al Arab Speedboat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "11,752 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(11,752)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-atlantis-palm-burj-al-arab-speedboat-tour-t90741/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-speedboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "Speedboat",
+     "pop_html": "<strong>Marina, JBR, Ain Dubai, the Palm, Atlantis, Burj Al Arab.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>Bottled water and life jackets.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👟",
+     "label": "Flat shoes",
+     "pop_html": "<strong>Wear sandals and light clothes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina",
+     "pop_html": "<strong>Xclusive Yachts boarding point, Marina Level.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the full postcard route by speedboat, the most-booked boat tour in Dubai.",
+    "skip_html": "with back problems or in pregnancy: it's bumpy."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Dubai Marina, JBR, Ain Dubai, the Palm, Atlantis and the Burj Al Arab."
+     },
+     {
+      "q": "How long is it?",
+      "a": "1.5 hours."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live, plus water and life jackets."
+     },
+     {
+      "q": "What should I wear?",
+      "a": "Flat sandals and light clothes; bring a camera."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€37",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h speedboat",
+      "price": "From €37"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €74"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-atlantis-palm-burj-al-arab-speedboat-tour-t90741/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-speedboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-xclusive-speedboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "yacht",
+    "food",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛥️ #2 Best Shared Yacht",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht by the Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina towers at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Air-conditioned lounge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lounge on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests served on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "BBQ skewers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends at the BBQ table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-xclusive-yacht-bbq-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xclusive Yachts",
+    "⏱️ 1 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Xclusive+Yachts%2C+Marina+Level%2C+Al+Majara%2C+Dubai+Marina",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-luxury-yacht-tour-with-breakfast-or-bbq-option-t128958/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-yacht-bbq&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai Marina: Luxury Yacht Tour with Breakfast or BBQ Option"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "22,487 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(22,487)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-luxury-yacht-tour-with-breakfast-or-bbq-option-t128958/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-yacht-bbq-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 3 h",
+     "pop_html": "<strong>1 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍳",
+     "label": "Breakfast or BBQ",
+     "pop_html": "<strong>Morning breakfast, or BBQ on the 2- and 3-hour options.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "❄️",
+     "label": "Air-conditioned lounge",
+     "pop_html": "<strong>Wi-Fi; lounge access 30 min before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👔",
+     "label": "Smart casual",
+     "pop_html": "<strong>No bikinis, no shoes on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Virtual guide",
+     "pop_html": "<strong>English, French, German.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina",
+     "pop_html": "<strong>Xclusive Yachts, Dubai Marina.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed, shaded yacht with food, the most-booked yacht tour in Dubai.",
+    "skip_html": "if you want to swim: not on this one (#5, #6)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The cruise, captain, virtual guide, Wi-Fi lounge, and breakfast or BBQ on the longer options."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Smart casual, no bikinis, no shoes on board."
+     },
+     {
+      "q": "Can I swim?",
+      "a": "No."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Alcohol is extra from the bar."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€23",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h yacht",
+      "price": "From €23"
+     },
+     {
+      "label": "2 or 3 h",
+      "small": "with BBQ",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €46"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-luxury-yacht-tour-with-breakfast-or-bbq-option-t128958/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-xclusive-yacht-bbq&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-xclusive-yacht-bbq",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "yacht",
+    "food",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #3 Best Sunset",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends toasting on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest facing Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Toast at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the crew"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-sunset-yacht-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "360 Adventures",
+    "⏱️ 1 to 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dubai+Marina%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina (gate by email)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-sunset-yacht-tour-with-snacks-and-drinks-t463107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-sunset-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Luxury Sunset Yacht Tour with Light Bites and Drinks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "5,161 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(5,161)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-sunset-yacht-tour-with-snacks-and-drinks-t463107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-sunset-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 2 h",
+     "pop_html": "<strong>1 to 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset timing",
+     "pop_html": "<strong>5 pm departure; 3 pm with a light meal.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soft drinks + water",
+     "pop_html": "<strong>Alcohol for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍢",
+     "label": "Light bites",
+     "pop_html": "<strong>Veg or non-veg.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gate by WhatsApp",
+     "pop_html": "<strong>Exact gate sent the day before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest sunset on a yacht, with snacks.",
+    "skip_html": "if you want an open bar: #5 or #6."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When does it sail?",
+      "a": "3 pm (with a light meal) or 5 pm for sunset (with light bites)."
+     },
+     {
+      "q": "What's included?",
+      "a": "Captain and crew, soft drinks, water, and a light meal or bites by departure."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "The exact gate is sent by email or WhatsApp the day before."
+     },
+     {
+      "q": "Is alcohol included?",
+      "a": "No, it's for sale on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€19",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 to 2 h",
+      "price": "From €19"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-sunset-yacht-tour-with-snacks-and-drinks-t463107/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-sunset-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-sunset-yacht",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "speedboat"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #4 Best-Rated Speedboat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Black speedboat by the new towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat and Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat on the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest smiling"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boarding at the pier"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-black-boats-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The Black Boats",
+    "⏱️ 100 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Pier+7%2C+Dubai+Marina+Mall%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marina Mall, Pier 7"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-100-min-speed-boat-tour-atlantis-burj-al-arab-view-t560109/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-black-boats&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: 100-Min Speed Boat Tour, Atlantis &amp; Burj Al Arab View"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "214 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(214)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-100-min-speed-boat-tour-atlantis-burj-al-arab-view-t560109/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-black-boats-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 40",
+     "pop_html": "<strong>100 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 12 guests",
+     "pop_html": "<strong>Leather seats, skipper and guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>English and Arabic.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📸",
+     "label": "Photo stops",
+     "pop_html": "<strong>Atlantis and the Burj Al Arab.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Pier 7",
+     "pop_html": "<strong>Dubai Marina Mall.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a more comfortable, smaller speedboat with a guide.",
+    "skip_html": "on a budget: #7 is half the price."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many guests?",
+      "a": "Up to 12, plus skipper and guide."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Pier 7, Dubai Marina Mall."
+     },
+     {
+      "q": "Do groups sit together?",
+      "a": "Seats are first come, first served; ask if you need to sit together."
+     },
+     {
+      "q": "What's included?",
+      "a": "The cruise, live guide, water and life jackets."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€43",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "100 min speedboat",
+      "price": "From €43"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €86"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-100-min-speed-boat-tour-atlantis-burj-al-arab-view-t560109/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-black-boats&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-black-boats",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "yacht",
+    "swim",
+    "food"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎧 #5 Best Party Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Superyacht by the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Superyacht and Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Superyacht in front of the wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Superyacht by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ain Dubai at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the bar"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests served food"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-superyacht-dj-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xclusive Yachts",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dubai+Harbour%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Harbour (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-superyacht-with-dj-swimming-bar-optional-t428345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-superyacht-dj&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Luxury Superyacht Tour with Live DJ, Swim &amp; Open Bar"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "4,107 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(4,107)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-superyacht-with-dj-swimming-bar-optional-t428345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-superyacht-dj-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Live DJ",
+     "pop_html": "<strong>Plus a games console on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Swim time",
+     "pop_html": "<strong>Bring a towel or buy one.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Drinks included",
+     "pop_html": "<strong>Water, soft drinks, juice, beer, wine.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Lunch or dinner",
+     "pop_html": "<strong>By option; live sushi on VIP.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Harbour (by option)",
+     "pop_html": "<strong>Dubai Harbour (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a day on the water with a DJ, a swim and drinks included.",
+    "skip_html": "if you just want sightseeing: #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Guide, captain, live DJ, swim time, drinks (water, soft drinks, juice, beer, wine) and lunch or dinner by option."
+     },
+     {
+      "q": "Are cocktails included?",
+      "a": "No."
+     },
+     {
+      "q": "Do you reach Atlantis?",
+      "a": "Only if the weather allows."
+     },
+     {
+      "q": "What should I bring?",
+      "a": "A towel (or buy one on board); no shoes on deck."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€92",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h, drinks + meal",
+      "price": "From €92"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €184"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-luxury-superyacht-with-dj-swimming-bar-optional-t428345/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-superyacht-dj&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-superyacht-dj",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "yacht",
+    "swim",
+    "food"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛝 #6 Best for Swimming",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inflatable slide off the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inflatable sea lounger"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest jumping into the sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers in the sea pool"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "BBQ spread"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kids in life jackets"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at the bow by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-ride-slide-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sky Walker Yachts",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dubai+Harbour+Yacht+Club%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Harbour"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-ride-slide-all-inc-with-bbq-lunch-and-bar-drinks-t434993/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-ride-slide&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Ride and Slide Yacht Cruise with BBQ Lunch and Drinks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "497 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(497)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-ride-slide-all-inc-with-bbq-lunch-and-bar-drinks-t434993/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-ride-slide-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛝",
+     "label": "Yacht slide",
+     "pop_html": "<strong>Plus a sea lounger, paddleboard and snorkel gear.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍖",
+     "label": "BBQ lunch",
+     "pop_html": "<strong>Veg and non-veg.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Unlimited house drinks",
+     "pop_html": "<strong>And soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Harbour",
+     "pop_html": "<strong>Yacht Club.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for families and friends who want to swim, slide and eat.",
+    "skip_html": "if nobody's swimming: it's the point of this trip."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "BBQ lunch, unlimited house and soft drinks, the inflatable slide, a sea lounger, paddleboard and snorkelling gear."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Dubai Harbour Yacht Club."
+     },
+     {
+      "q": "How long is it?",
+      "a": "3 hours."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€80",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h all-inclusive",
+      "price": "From €80"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €160"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-ride-slide-all-inc-with-bbq-lunch-and-bar-drinks-t434993/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-ride-slide&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-ride-slide",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "speedboat",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #7 Cheapest Speedboat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboat by the Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at the marina"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by an island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with a flag by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-splash-speedboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Splash Tours",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Al+Rahim+Mosque%2C+Dubai+Marina",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-15-hour-sightseeing-speedboat-tour-atlantis-t57583/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-splash-speedboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai Marina: 1.5-Hour Atlantis Sightseeing Speedboat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "3,801 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(3,801)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-15-hour-sightseeing-speedboat-tour-atlantis-t57583/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-splash-speedboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€22",
+     "pop_html": "<strong>The cheapest 1.5-hour speedboat here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide",
+     "pop_html": "<strong>Bottle of water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Palm + Burj Al Arab",
+     "pop_html": "<strong>From Dubai Marina.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Health limits",
+     "pop_html": "<strong>Not for pregnancy or back problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina",
+     "pop_html": "<strong>Al Rahim Mosque, Dubai Marina.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the full speedboat loop at the lowest price.",
+    "skip_html": "with back or spine problems."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "From Dubai Marina to the Palm Jumeirah, Atlantis and the Burj Al Arab."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "By the Al Rahim Mosque, Dubai Marina."
+     },
+     {
+      "q": "What's included?",
+      "a": "The speedboat tour, a guide and a bottle of water."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Pregnant travellers and people with back or spinal problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€22",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h speedboat",
+      "price": "From €22"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €44"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-marina-15-hour-sightseeing-speedboat-tour-atlantis-t57583/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-splash-speedboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-splash-speedboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "traditional"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #8 Best Traditional-Style Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Abra by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra on the Palm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra by Atlantis at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra by the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Abra at night by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Atlantis at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crew on the abra"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-abra-tour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Abra Tours",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dubai+Marina%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-abra-boat-tour-in-atlantis-palm-ain-dubai-marina-t518785/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-abra-tour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Abra Boat Tour in Atlantis, Palm, Ain Dubai &amp; Marina"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "550 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(550)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-abra-boat-tour-in-atlantis-palm-ain-dubai-marina-t518785/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-abra-tour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Modern abra",
+     "pop_html": "<strong>The classic Dubai water-taxi shape.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧺",
+     "label": "Bring your own food",
+     "pop_html": "<strong>Ice and bottled water provided.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚿",
+     "label": "Toilet + shower",
+     "pop_html": "<strong>Bluetooth music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Age limits",
+     "pop_html": "<strong>Not for under-2s or pregnancy.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina",
+     "pop_html": "<strong>Dubai Marina.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a slower, open boat where you can bring your own picnic.",
+    "skip_html": "with toddlers under 2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's an abra?",
+      "a": "Dubai's traditional water-taxi design, here a modern version with a toilet and shower."
+     },
+     {
+      "q": "Can we bring food?",
+      "a": "Yes, food and drinks are allowed; water and ice are provided."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "Dubai Marina, Ain Dubai, the Palm and Atlantis."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Children under 2 and pregnant travellers."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€37",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h abra",
+      "price": "From €37"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €74"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-abra-boat-tour-in-atlantis-palm-ain-dubai-marina-t518785/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-abra-tour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-abra-tour",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "speedboat",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🗣️ #9 Best Guided Speedboat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboat by Atlantis"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat on blue water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the new towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide with a guest"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by the Burj Al Arab"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-loveboat-speedboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Love Boat",
+    "⏱️ 1 to 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dubai+Marina%2C+Dubai",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-sightseeing-speedboat-tour-with-live-tour-guide-t565058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-loveboat-speedboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Sightseeing Speedboat Tour with Live Tour Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "844 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(844)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-sightseeing-speedboat-tour-with-live-tour-guide-t565058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-loveboat-speedboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>Sound system on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Bluewaters + Palm Lagoon",
+     "pop_html": "<strong>Plus Atlantis and Burj Al Arab.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💧",
+     "label": "Water",
+     "pop_html": "<strong>Safety gear included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 or 1.5 hours",
+     "pop_html": "<strong>Pick the length when booking.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina (by option)",
+     "pop_html": "<strong>Dubai Marina (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "as a cheaper guided speedboat when #1 is full.",
+    "skip_html": "if you want food or drinks: none included."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Dubai Marina, Bluewaters Island, Palm Lagoon, Atlantis, Ain Dubai and the Burj Al Arab."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, live."
+     },
+     {
+      "q": "What's included?",
+      "a": "Captain and crew, water, sound system, safety gear."
+     },
+     {
+      "q": "How long?",
+      "a": "1 or 1.5 hours by option."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 to 1.5 h",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-sightseeing-speedboat-tour-with-live-tour-guide-t565058/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-loveboat-speedboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-loveboat-speedboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "yacht",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "📸 #10 Best Quick Yacht",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht by Ain Dubai"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht and Marina towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest posing on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the upper deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends celebrating on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends lounging"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with arms raised"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-dubai/dubai-boat-tour-marina-hour-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xclusive Yachts",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Xclusive+Yachts%2C+Marina+Level%2C+Al+Majara%2C+Dubai+Marina",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dubai Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/dubai-l173/dubai-instagrammable-yacht-tour-with-drinks-ainjbr-views-t74627/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-marina-hour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Dubai: Instagrammable Yacht Tour with Drinks &amp; Ain/JBR Views"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,785 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,785)",
+       "url": "https://www.getyourguide.com/dubai-l173/dubai-instagrammable-yacht-tour-with-drinks-ainjbr-views-t74627/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-marina-hour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📸",
+     "label": "Photo cruise",
+     "pop_html": "<strong>Marina, JBR and Ain Dubai.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍹",
+     "label": "Tropical drinks",
+     "pop_html": "<strong>Water and soft tropical drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live commentary",
+     "pop_html": "<strong>English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "❄️",
+     "label": "AC lower deck",
+     "pop_html": "<strong>Open upper deck for photos.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dubai Marina",
+     "pop_html": "<strong>Xclusive Yachts, Dubai Marina.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a quick hour on a yacht with drinks, within the Marina.",
+    "skip_html": "if you want Atlantis: it stays around the Marina and JBR."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Along Dubai Marina to JBR and Ain Dubai."
+     },
+     {
+      "q": "What's included?",
+      "a": "Live commentary, chilled water and tropical drinks, AC lower deck, open upper deck, toilet."
+     },
+     {
+      "q": "How long is it?",
+      "a": "1 hour."
+     },
+     {
+      "q": "Does it reach Atlantis?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€23",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h yacht",
+      "price": "From €23"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €46"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/dubai-l173/dubai-instagrammable-yacht-tour-with-drinks-ainjbr-views-t74627/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-dubai-marina-hour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#dxb-marina-hour",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

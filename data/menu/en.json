@@ -311,6 +311,12 @@
          "icon": "🌃",
          "title": "Hong Kong Harbour Cruises",
          "desc": "Victoria Harbour night yachts"
+        },
+        {
+         "href": "/boat-tours-dubai",
+         "icon": "🚤",
+         "title": "Dubai Boat Tours",
+         "desc": "Speedboats & yachts from €19"
         }
        ]
       }
