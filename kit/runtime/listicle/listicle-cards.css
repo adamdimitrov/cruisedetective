@@ -35,6 +35,9 @@
 .bpa-card:has(.cd-pdd[open]){position:relative;z-index:60}
 .bpa-card:has(.cd-pdd[open]),.bpa-card:has(.cd-pdd[open]) *:not(.cd-gal):not(.cd-gal *){overflow:visible!important}
 @media (max-width:767px){.cd-pdd-pop{right:auto;left:-4px;width:min(270px,calc(100vw - 56px))}}
+/* Right-to-left pages (he): the price box sits on the other side, so the popover opens the other way */
+[dir=rtl] .cd-pdd-pop{right:auto;left:-6px;text-align:right}
+@media (max-width:767px){[dir=rtl] .cd-pdd-pop{left:auto;right:-4px}}
 /* Access pill marks */
 .cd-yes{color:#15803d;font-weight:800}.cd-no{color:#b45309;font-weight:800}
 
@@ -153,3 +156,14 @@
    and listicle.py flags translations long enough to need it. */
 .bpa-media .bpa-rank-tag{max-width:calc(100% - 20px)!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;box-sizing:border-box}
 .bpa-card .bpa-btn{white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;max-width:100%;box-sizing:border-box}
+
+/* Section headers in the review boxes (menu, photos, video): on a phone the label pill wraps under the
+   title instead of pushing the row wider than the card. The pages' inline rule sets nowrap and
+   flex-shrink:0, so these selectors are one step more specific. */
+body details.ltt-bento-group>summary.ltt-bento-group-head{flex-wrap:wrap!important;row-gap:6px!important}
+body details.ltt-bento-group>summary.ltt-bento-group-head>.ltt-bento-group-title{flex:1 1 11em!important;min-width:0!important}
+body details.ltt-bento-group>summary.ltt-bento-group-head>.ltt-bento-right{flex-shrink:1!important;min-width:0!important;max-width:100%!important;margin-inline-start:auto!important}
+body details.ltt-bento-group>summary.ltt-bento-group-head .ltt-mini-pill{white-space:normal!important}
+
+/* Korean: break lines between words (spaces), never inside a word. */
+html:lang(ko) body,html:lang(ko) body *{word-break:keep-all!important;overflow-wrap:anywhere}
