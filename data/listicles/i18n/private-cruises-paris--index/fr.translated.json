@@ -542,6 +542,22 @@
   "about €104 each": {
    "model": "claude-opus-5-5",
    "where": "card-6 price.total.price"
+  },
+  "listing has 9 photos: 8 used, 1 near-duplicate of the first": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 _photo_topup.skip"
+  },
+  "listing has 11 photos: all on the card (3 in another crop)": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 _photo_topup.skip"
+  },
+  "listing has 6 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 _photo_topup.skip"
+  },
+  "listing has 5 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 _photo_topup.skip"
   }
  }
 }
