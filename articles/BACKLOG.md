@@ -60,7 +60,15 @@ A row is **validated** only once the SERP and inventory columns are filled.
 | 2026-11-20 | boat-tours-lake-como | lake como boat tour | due 2026-12-18 |
 | 2026-11-20 | ha-long-bay-cruises | ha long bay cruise | due 2026-12-18 |
 | 2026-11-20 | chao-phraya-river-cruises-bangkok | chao phraya cruise | due 2026-12-18 |
+| 2026-11-20 | dinner-cruises-istanbul | bosphorus dinner cruise (KP ~5.8k cluster) | due 2026-12-18 |
+| 2026-11-20 | dinner-cruises-sydney | sydney harbour dinner cruise (KP ~6.9k cluster) | due 2026-12-18 |
+| 2026-11-20 | dinner-cruises-cairo | nile dinner cruise cairo (KP ~4k cluster) | due 2026-12-18 |
 
 ## Rejected
 | topic | reason | date |
 |---|---|---|
+| Dinner cruises Chicago / Boston / San Diego / San Francisco / Seattle | KP clusters 1.7k to 10k, but GYG/Tiqets dinner offer is one operator (City Cruises / Waterways) in 2-3 tiers; Chicago (~10k) could take a 3-way City Cruises comparison later | 2026-11-20 |
+| Dinner cruises New Orleans | ~2.2k; only Natchez + Creole Queen jazz cruises with optional dinner, both already on /boat-tours-new-orleans | 2026-11-20 |
+| Dinner cruises Miami / Singapore | Miami ~1.7k with no dinner cruise on GYG/Tiqets; Singapore ~1k with 3-4 thin products | 2026-11-20 |
+| Dinner cruises Saigon | ~3-4k, but every listing is an agency resale with the boat assigned on availability and no named boat or menu | 2026-11-20 |
+| Dinner cruises Lisbon, Hong Kong, Lake Geneva, Oslo, Stockholm, Shanghai, Copenhagen, Venice, Lake Como, Malta, Bergen, Split, Bruges, Ha Long, Niagara | dinner cluster under ~600/mo (KP all locations) | 2026-11-20 |
