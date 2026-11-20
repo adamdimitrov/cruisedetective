@@ -900,22 +900,21 @@
     },
     "photos": [
      [
-      ["data-cap", "A Batobus stop on the Seine"],
-      ["alt", "Batobus boat at a stop on the Seine"],
+      ["alt", "Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass"],
       ["sizes", "420px"],
       ["loading", "eager"],
       ["fetchpriority", "high"],
-      ["src", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp"],
-      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp 800w"]
+      ["src", "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-01.avif"],
+      ["srcset", "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-01-p-500.avif 500w, /assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-01.avif 800w"]
      ],
      [
-      ["data-cap", "The Eiffel Tower"],
-      ["alt", "The Eiffel Tower near a Batobus stop"],
+      ["data-cap", "A Batobus stop on the Seine"],
+      ["alt", "Batobus boat at a stop on the Seine"],
       ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
-      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp"],
-      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp 800w"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -926,6 +925,25 @@
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4).webp"],
       ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Batobus Paris Hop-On Hop-Off Seine River Shuttle Pass"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-02.avif"],
+      ["data-srcset", "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-02-p-500.avif 500w, /assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-02.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["data-cap", "The Eiffel Tower"],
+      ["alt", "The Eiffel Tower near a Batobus stop"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -961,31 +979,39 @@
      [
       ["data-cap", "Inside the cabin"],
       ["alt", "Inside the Batobus cabin"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65846f9adf4ea88c69a19d99_Batobu-sightseeing-cruise-blog-image%20(9).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["data-cap", "Inside the cabin"],
       ["alt", "Rear of the Batobus cabin"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65848a5109a769f1933f88ea_Batobu-sightseeing-cruise-blog-image%20(16).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ]
     ],
     "thumbs": [
      {
+      "src": "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65848a61b5df26ea46248b7e_Batobu-sightseeing-cruise-blog-image%20(15)-p-500.webp"
      },
      {
-      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp"
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp"
      },
      {
-      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846edfcc95d8dae2c403b8_Batobu-sightseeing-cruise-blog-image%20(4)-p-500.webp"
+      "src": "/assets/seine-river-cruises-paris/batobus-paris-hop-on-hop-off-seine-river-02-p-500.avif"
+     },
+     {
+      "src": "/assets/cdn/652d0405192ba076b04f74a3/65846eb88c5a2cf5f5d605fd_Batobu-sightseeing-cruise-blog-image%20(14)-p-500.webp"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65846eea3f11a22478ff96ec_Batobu-sightseeing-cruise-blog-image%20(6)-p-500.webp"
@@ -1169,6 +1195,9 @@
      "url": "#4-batobus",
      "text": "Full review &amp; video ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.tiqets.com/en/things-to-do-in-paris-c66746/tickets-for-batobus-riverboat-hop-on-hop-off-p976735/?partner=thecruisedetective.com-176436&tq_campaign=pariv-comp-list-bato"
    }
   },
   {
@@ -1680,6 +1709,9 @@
      "url": "#11-vedettes-de-paris-guided",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 7 photos, all on the card"
    }
   },
   {
@@ -1700,12 +1732,30 @@
       ["srcset", "/assets/ota/seine/private-boat-1-p-500.avif 500w, /assets/ota/seine/private-boat-1.avif 800w"]
      ],
      [
+      ["alt", "Paris Seine River Private Boat Cruise with Champagne"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-01.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-01-p-500.avif 500w, /assets/ota/seine/private-boat-01.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
       ["alt", "Family on the private boat"],
       ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/ota/seine/private-boat-7.avif"],
       ["data-srcset", "/assets/ota/seine/private-boat-7-p-500.avif 500w, /assets/ota/seine/private-boat-7.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris Seine River Private Boat Cruise with Champagne"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/private-boat-02.avif"],
+      ["data-srcset", "/assets/ota/seine/private-boat-02-p-500.avif 500w, /assets/ota/seine/private-boat-02.avif 800w"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -1723,7 +1773,7 @@
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp"],
-      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp 853w"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673eb3fdde1441cad34d0874_Bring-Your-Own%20Picnic%20Paris%20River%20Private%20Cruise.webp 800w"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -1768,7 +1818,13 @@
       "src": "/assets/ota/seine/private-boat-1-p-500.avif"
      },
      {
+      "src": "/assets/ota/seine/private-boat-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/seine/private-boat-7-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/private-boat-02-p-500.avif"
      },
      {
       "src": "/assets/ota/seine/private-boat-3-p-500.avif"
@@ -1935,6 +1991,9 @@
      "url": "#5-visite-paris-en-bateau",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-private-or-shared-cruise-on-the-seine-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-paris-river-cruises-private-cruise-visite-paris-en-bateau-buy-button&mkt_cmp=true"
    }
   },
   {
@@ -2124,6 +2183,9 @@
      "url": "#12-eiffel-tower-seine-cruise",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 5 photos, all on the card"
    }
   },
   {
@@ -2144,6 +2206,15 @@
       ["srcset", "/assets/ota/seine/lunch-cruise-1-p-500.avif 500w, /assets/ota/seine/lunch-cruise-1.avif 800w"]
      ],
      [
+      ["alt", "Paris 3-Course Gourmet Lunch Cruise with Live Music"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-01.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-01-p-500.avif 500w, /assets/ota/seine/lunch-cruise-01.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
       ["alt", "Lunch table passing Notre-Dame"],
       ["sizes", "420px"],
       ["loading", "lazy"],
@@ -2157,8 +2228,17 @@
       ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-02.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-02-p-500.avif 500w, /assets/ota/seine/lunch-cruise-02.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris 3-Course Gourmet Lunch Cruise with Live Music"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp"],
-      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp 960w"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views.webp 800w"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2168,6 +2248,15 @@
       ["decoding", "async"],
       ["data-src", "/assets/ota/seine/lunch-cruise-3.avif"],
       ["data-srcset", "/assets/ota/seine/lunch-cruise-3-p-500.avif 500w, /assets/ota/seine/lunch-cruise-3.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Paris 3-Course Gourmet Lunch Cruise with Live Music"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/lunch-cruise-03.avif"],
+      ["data-srcset", "/assets/ota/seine/lunch-cruise-03-p-500.avif 500w, /assets/ota/seine/lunch-cruise-03.avif 800w"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2203,13 +2292,22 @@
       "src": "/assets/ota/seine/lunch-cruise-1-p-500.avif"
      },
      {
+      "src": "/assets/ota/seine/lunch-cruise-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/seine/lunch-cruise-5-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/673ea880ceb64d8f7b6297c5_Paris%203-Course%20Lunch%20Cruise%20with%20Scenic%20Views-p-500.webp"
      },
      {
       "src": "/assets/ota/seine/lunch-cruise-3-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/lunch-cruise-03-p-500.avif"
      },
      {
       "src": "/assets/ota/seine/lunch-cruise-4-p-500.avif"
@@ -2355,6 +2453,9 @@
      "url": "#8-bateaux-parisiens-lunch",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/bateaux-parisiens-lunch-cruise-t51057/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-river-cruises-paris-lunch-cruise-bateaux-parisiens-comparison-list&mkt_cmp=true"
    }
   },
   {
@@ -2582,6 +2683,9 @@
      "url": "#13-amphibious-bus",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 8 photos, all on the card"
    }
   },
   {
@@ -2602,12 +2706,30 @@
       ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting.webp 960w"]
      ],
      [
+      ["alt", "Seine River Sightseeing Cruise with French Crêpe Tasting"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-01.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-01-p-500.avif 500w, /assets/ota/seine/crepe-cruise-01.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
       ["alt", "A crêpe being made at the crêpe stand"],
       ["sizes", "420px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/ota/seine/crepe-cruise-1.avif"],
       ["data-srcset", "/assets/ota/seine/crepe-cruise-1-p-500.avif 500w, /assets/ota/seine/crepe-cruise-1.avif 800w"],
+      ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
+     ],
+     [
+      ["alt", "Seine River Sightseeing Cruise with French Crêpe Tasting"],
+      ["sizes", "420px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/ota/seine/crepe-cruise-02.avif"],
+      ["data-srcset", "/assets/ota/seine/crepe-cruise-02-p-500.avif 500w, /assets/ota/seine/crepe-cruise-02.avif 800w"],
       ["src", "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="]
      ],
      [
@@ -2670,7 +2792,13 @@
       "src": "/assets/cdn/652d0405192ba076b04f74a3/673e9e00bd36163cc4b80098_Seine%20River%20Sightseeing%20Cruise%20with%20French%20Crepe%20Tasting-p-500.webp"
      },
      {
+      "src": "/assets/ota/seine/crepe-cruise-01-p-500.avif"
+     },
+     {
       "src": "/assets/ota/seine/crepe-cruise-1-p-500.avif"
+     },
+     {
+      "src": "/assets/ota/seine/crepe-cruise-02-p-500.avif"
      },
      {
       "src": "/assets/ota/seine/crepe-cruise-2-p-500.avif"
@@ -2828,6 +2956,9 @@
      "url": "#7-bateaux-parisiens-crepe",
      "text": "Full review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/seine-river-l2601/paris-seine-cruise-crepe-tasting-at-the-eiffel-tower-t374289/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-seine-cruises-paris-crepe-en&mkt_cmp=true"
    }
   }
  ]

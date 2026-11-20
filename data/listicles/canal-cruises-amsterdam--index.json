@@ -390,8 +390,26 @@
       ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
       ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
-      ["src", "/assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23).webp"],
-      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23).webp 800w"]
+      ["src", "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-01.avif"],
+      ["srcset", "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-01-p-500.avif 500w, /assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-01.avif 800w"]
+     ],
+     [
+      ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-02.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-02-p-500.avif 500w, /assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-02.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
@@ -431,18 +449,20 @@
      ],
      [
       ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659072ab015470c887bdb2a6_amsterdam-canal-cruise-lovers-canal%20(20).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659072ab015470c887bdb2a6_amsterdam-canal-cruise-lovers-canal%20(20).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6590543242ecf1f76a52f7bf_amsterdam-canal-cruise-lovers-canal%20(8).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6590543242ecf1f76a52f7bf_amsterdam-canal-cruise-lovers-canal%20(8).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -458,7 +478,13 @@
     "_photo_sep": "\n",
     "thumbs": [
      {
+      "src": "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/6590725d11f274f3b22830fa_amsterdam-canal-cruise-lovers-canal%20(23)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/best-sightseeing-only-canal-cruise-in-amsterdam-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659058cf4b3e0306b4784d9f_amsterdam-canal-cruise-lovers-canal%20(5)-p-500.webp"
@@ -641,6 +667,9 @@
      "url": "#2-lovers-canal",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.tiqets.com/en/amsterdam-attractions-c75061/tickets-for-amsterdam-lovers-canal-cruise-from-central-station-p973666/?partner=thecruisedetective.com-176436&tq_campaign=ams-canal-lovers-en"
    }
   },
   {
@@ -656,8 +685,26 @@
       ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
       ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
-      ["src", "/assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1).webp"],
-      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1).webp 800w"]
+      ["src", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-01.avif"],
+      ["srcset", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-01-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-01.avif 800w"]
+     ],
+     [
+      ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-02.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-02-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-02.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
@@ -670,11 +717,20 @@
      ],
      [
       ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
-      ["sizes", "100vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5).webp"],
       ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-03.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-03-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-03.avif 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -688,18 +744,20 @@
      ],
      [
       ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6590740db807603c1cf6b832_amsterdam-canal-cruise-flagship%20(8).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6590740db807603c1cf6b832_amsterdam-canal-cruise-flagship%20(8).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659073db9f51f4557ff9851d_amsterdam-canal-cruise-flagship%20(11).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659073db9f51f4557ff9851d_amsterdam-canal-cruise-flagship%20(11).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -715,13 +773,22 @@
     "_photo_sep": "\n",
     "thumbs": [
      {
+      "src": "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65905b88582e5f01dc82afc6_amsterdam-canal-cruise-flagship%20(1)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/6590732a560e9077a3cfbd57_amsterdam-canal-cruise-flagship%20(7)-p-500.webp"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659073740382270a544ddd40_amsterdam-canal-cruise-flagship%20(5)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/also-great-amsterdam-canal-cruise-with-optional-03-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65907341eadc405562beeac8_amsterdam-canal-cruise-flagship%20(6)-p-500.webp"
@@ -900,6 +967,9 @@
      "url": "#3-flagship",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/amsterdam-l36/amsterdam-90-minute-boat-cruise-with-drinks-and-snacks-t313498/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-cruises-amsterdam-flagship-en&mkt_cmp=true"
    }
   },
   {
@@ -912,11 +982,29 @@
     },
     "photos": [
      [
+      ["alt", "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["src", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-01.avif"],
+      ["srcset", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-01-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-01.avif 800w"]
+     ],
+     [
       ["alt", "️ Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
       ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
-      ["src", "/assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4).webp"],
-      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4).webp 800w"]
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-02.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-02-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-02.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "️ Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
@@ -937,12 +1025,39 @@
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
+      ["alt", "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-03.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-03-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-03.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
       ["alt", "️ Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
       ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659074a1015470c887bebe3a_amsterdam-canal-cruise-blue-boat%20(5).webp"],
       ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659074a1015470c887bebe3a_amsterdam-canal-cruise-blue-boat%20(5)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659074a1015470c887bebe3a_amsterdam-canal-cruise-blue-boat%20(5).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-04.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-04-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-04.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-05.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-05-p-500.avif 500w, /assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-05.avif 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -958,7 +1073,13 @@
     "_photo_sep": "\n",
     "thumbs": [
      {
+      "src": "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659054c011f274f3b2193af7_amsterdam-canal-cruise-blue-boat%20(4)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/6590744e6cb0602f98864103_amsterdam-canal-cruise-blue-boat%20(12)-p-500.webp"
@@ -967,7 +1088,16 @@
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659054d5d4ddcb4f4dcf065c_amsterdam-canal-cruise-blue-boat%20(7)-p-500.webp"
      },
      {
+      "src": "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-03-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659074a1015470c887bebe3a_amsterdam-canal-cruise-blue-boat%20(5)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-04-p-500.avif"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/also-great-sightseeing-canal-cruise-in-05-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65905ba9506b4a66fe02a843_amsterdam-canal-cruise-blue-boat%20(8)-p-500.webp"
@@ -1135,6 +1265,9 @@
      }
     ],
     "dur": "75"
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/amsterdam-l36/city-canal-cruise-t8271/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-cruises-amsterdam-blue-boat-en&mkt_cmp=true"
    }
   },
   {
@@ -1147,11 +1280,29 @@
     },
     "photos": [
      [
+      ["alt", "Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["src", "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-01.avif"],
+      ["srcset", "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-01-p-500.avif 500w, /assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-01.avif 800w"]
+     ],
+     [
       ["alt", "️ Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
       ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
-      ["src", "/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp"],
-      ["srcset", "/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp 800w"]
+      ["decoding", "async"],
+      ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15)-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15).webp 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
+     ],
+     [
+      ["alt", "Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
+      ["loading", "lazy"],
+      ["decoding", "async"],
+      ["data-src", "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-02.avif"],
+      ["data-srcset", "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-02-p-500.avif 500w, /assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-02.avif 800w"],
+      ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "️ Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
@@ -1191,18 +1342,20 @@
      ],
      [
       ["alt", "️ Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/6595158e6bd758cb3a46a4f7_amsterdam-canal-cruise-friendship%20(6).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/6595158e6bd758cb3a46a4f7_amsterdam-canal-cruise-friendship%20(6).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
       ["alt", "️ Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)"],
-      ["sizes", "(max-width: 767px) 420px, (max-width: 991px) 55vw, (max-width: 1439px) 49vw, 50vw"],
+      ["sizes", "(max-width: 800px) 100vw, 800px"],
       ["loading", "lazy"],
       ["decoding", "async"],
       ["data-src", "/assets/cdn/652d0405192ba076b04f74a3/65907614ba48a05dfddde98f_amsterdam-canal-cruise-friendship%20(7).webp"],
+      ["data-srcset", "/assets/cdn/652d0405192ba076b04f74a3/65907614ba48a05dfddde98f_amsterdam-canal-cruise-friendship%20(7).webp 800w"],
       ["src", "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"]
      ],
      [
@@ -1218,7 +1371,13 @@
     "_photo_sep": "\n",
     "thumbs": [
      {
+      "src": "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-01-p-500.avif"
+     },
+     {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/659075fa8f4163a153f33119_amsterdam-canal-cruise-friendship%20(15)-p-500.webp"
+     },
+     {
+      "src": "/assets/canal-cruises-amsterdam/yet-another-great-amsterdam-canal-cruise-with-02-p-500.avif"
      },
      {
       "src": "/assets/cdn/652d0405192ba076b04f74a3/65907596ff63da989b5a32d2_amsterdam-canal-cruise-friendship%20(47)-p-500.webp"
@@ -1391,6 +1550,9 @@
      "url": "#5-friendship",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/amsterdam-l36/amsterdam-1-hour-gin-tonic-canal-sightseeing-cruise-t420957/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-cruises-amsterdam-friendship-en&mkt_cmp=true"
    }
   },
   {

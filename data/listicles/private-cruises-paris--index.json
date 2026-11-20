@@ -71,7 +71,7 @@
       ],
       [
        "data-src",
-       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-08.avif"
+       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-02.avif"
       ],
       [
        "src",
@@ -101,7 +101,37 @@
       ],
       [
        "data-src",
-       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-02.avif"
+       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private Seine Cruise with Champagne on a Small Boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-08.avif"
       ],
       [
        "src",
@@ -162,6 +192,36 @@
       [
        "data-src",
        "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private Seine Cruise with Champagne on a Small Boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-10.avif"
       ],
       [
        "src",
@@ -264,16 +324,22 @@
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-01.avif"
      },
      {
-      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-08.avif"
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-02.avif"
      },
      {
-      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-02.avif"
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-09.avif"
+     },
+     {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-08.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-07.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-04.avif"
+     },
+     {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-10.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-visite-paris-en-bateau-03.avif"
@@ -435,6 +501,9 @@
      "url": "#pc-visite-paris-en-bateau",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/top-private-cruises-in-paris-with-champagne-more-surprises-t409183/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-private-cruises-paris-visite-paris-en-bateau&mkt_cmp=true"
    }
   },
   {
@@ -500,6 +569,36 @@
       ],
       [
        "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private Small-Boat Cruise with Rosé & Macarons"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
        "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-01.avif"
       ],
       [
@@ -531,6 +630,36 @@
       [
        "data-src",
        "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Private Small-Boat Cruise with Rosé & Macarons"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-10.avif"
       ],
       [
        "src",
@@ -693,10 +822,16 @@
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-02.avif"
      },
      {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-09.avif"
+     },
+     {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-01.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-04.avif"
+     },
+     {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-10.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-boat-in-paris-03.avif"
@@ -849,6 +984,9 @@
      "url": "#pc-boat-in-paris",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-private-small-boat-cruise-with-rose-and-macarons-t642753/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-private-cruises-paris-boat-in-paris&mkt_cmp=true"
    }
   },
   {
@@ -1003,36 +1141,6 @@
       ],
       [
        "data-src",
-       "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-05.avif"
-      ],
-      [
-       "src",
-       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
-      ]
-     ],
-     [
-      [
-       "alt",
-       "2-Hour Private Pontoon Boat Cruise with Skipper-Guide"
-      ],
-      [
-       "height",
-       "534"
-      ],
-      [
-       "width",
-       "800"
-      ],
-      [
-       "loading",
-       "lazy"
-      ],
-      [
-       "decoding",
-       "async"
-      ],
-      [
-       "data-src",
        "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-06.avif"
       ],
       [
@@ -1069,6 +1177,66 @@
        "src",
        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
       ]
+     ],
+     [
+      [
+       "alt",
+       "2-Hour Private Pontoon Boat Cruise with Skipper-Guide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "2-Hour Private Pontoon Boat Cruise with Skipper-Guide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
      ]
     ],
     "thumbs": [
@@ -1085,13 +1253,16 @@
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-04.avif"
      },
      {
-      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-05.avif"
-     },
-     {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-06.avif"
      },
      {
       "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-07.avif"
+     },
+     {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-05.avif"
+     },
+     {
+      "src": "/assets/private-cruises-paris/private-seine-cruise-paris-myparisriver-08.avif"
      }
     ]
    },
@@ -1223,6 +1394,10 @@
      "url": "#pc-myparisriver",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "listing": "https://www.getyourguide.com/paris-l16/paris-seine-river-private-guided-pontoon-boat-cruise-t409495/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-private-cruises-paris-myparisriver&mkt_cmp=true",
+    "skip": "listing has 9 photos: 8 used, 1 near-duplicate of the first"
    }
   },
   {
@@ -1629,6 +1804,9 @@
      "url": "#pc-jps-boat",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 11 photos: all on the card (3 in another crop)"
    }
   },
   {
@@ -1971,6 +2149,9 @@
      "url": "#pc-paris-water-way-pontoon",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 6 photos, all on the card"
    }
   },
   {
@@ -2281,6 +2462,9 @@
      "url": "#pc-paris-water-way-vip",
      "text": "Read Review ↓"
     }
+   },
+   "_photo_topup": {
+    "skip": "listing has 5 photos, all on the card"
    }
   }
  ]
