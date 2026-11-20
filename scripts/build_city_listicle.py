@@ -334,7 +334,7 @@ NAMES = {
     "gondola-rides-venice": "Venice gondola rides",
     "boat-tours-lake-como": "Lake Como boat tours",
     "ha-long-bay-cruises": "Ha Long Bay cruises",
-    "chao-phraya-river-cruises-bangkok": "Chao Phraya river cruises in Bangkok",
+    "chao-phraya-river-cruises-bangkok": "Chao Phraya dinner cruises in Bangkok",
     "dinner-cruises-paris": "Seine dinner cruises in Paris",
     "dinner-cruises-istanbul": "Bosphorus dinner cruises in Istanbul",
     "dinner-cruises-sydney": "Sydney Harbour dinner cruises",
