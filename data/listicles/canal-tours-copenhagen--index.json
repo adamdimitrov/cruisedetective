@@ -2037,6 +2037,1733 @@
    "_photo_topup": {
     "skip": "listing has 6 photos, one shared with card 4"
    }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "small",
+    "long"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #6 Best Small-Group Extras",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends toasting on the small boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the Black Diamond"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Small boat moored in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Selfie with Nyhavn behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the table on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-07.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-small-boat-guided-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Copenhagen Memories",
+    "⏱️ 75 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Gammel+Strand+50%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Gammel Strand"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-luxury-private-guided-boat-tour-t1308094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-small-boat-guided&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Guided Boat Tour Through Beautiful Canals"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "93 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(93)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-luxury-private-guided-boat-tour-t1308094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-small-boat-guided-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 15",
+     "pop_html": "<strong>75 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Friendly live guide",
+     "pop_html": "<strong>History, architecture, everyday life.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Coffee + soft drinks",
+     "pop_html": "<strong>Water and crisps too.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "Steer the boat",
+     "pop_html": "<strong>Under supervision.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧜",
+     "label": "Little Mermaid + Nyhavn",
+     "pop_html": "<strong>Plus Christiansborg and the Black Diamond.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gammel Strand",
+     "pop_html": "<strong>Gammel Strand 50 (check confirmation).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small boat, a chatty guide and snacks included.",
+    "skip_html": "on a budget: #1 covers the same sights for €20."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A guided harbour tour, soft drinks, coffee, water and crisps, and a turn at the wheel."
+     },
+     {
+      "q": "How long is it?",
+      "a": "75 minutes."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "The listing gives Gammel Strand 50 and also mentions Islands Brygge, so check your confirmation."
+     },
+     {
+      "q": "Does it pass the Little Mermaid?",
+      "a": "Yes, plus Nyhavn, Christiansborg and the Black Diamond."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€47",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min guided",
+      "price": "From €47"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €94"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-luxury-private-guided-boat-tour-t1308094/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-small-boat-guided&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-small-boat-guided",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 photos"
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "selfdrive",
+    "budget",
+    "long"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #7 Best Do-It-Yourself",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "GoBoat under a stone bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Amalienborg from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat by Frederik's Church"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoats at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends in a GoBoat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends picnicking on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-self-drive-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "GoBoat",
+    "⏱️ 1 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Islands+Brygge+10%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Islands Brygge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-1-2-or-3-hour-boat-rental-no-licence-required-t445645/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-self-drive&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Electric Boat Rental (No Licence Required)"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "384 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(384)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-1-2-or-3-hour-boat-rental-no-licence-required-t445645/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-self-drive-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 3 h",
+     "pop_html": "<strong>1, 2 or 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "You're the captain",
+     "pop_html": "<strong>No licence needed; map provided.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧺",
+     "label": "Picnic table",
+     "pop_html": "<strong>Bring your own food and drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Up to 8 people",
+     "pop_html": "<strong>From €60 per boat for 1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐕",
+     "label": "Dogs welcome",
+     "pop_html": "<strong>Blankets and life jackets included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Islands Brygge",
+     "pop_html": "<strong>Islands Brygge 10.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a group that wants to picnic on the water and go its own way.",
+    "skip_html": "if you want commentary: no guide on board."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Do I need a licence?",
+      "a": "No; you get a short intro and a map."
+     },
+     {
+      "q": "How many people fit?",
+      "a": "Up to 8 per boat."
+     },
+     {
+      "q": "Can we bring food?",
+      "a": "Yes, there's a picnic table in the middle of the boat."
+     },
+     {
+      "q": "Where do we start?",
+      "a": "Islands Brygge 10."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€60",
+    "sub": "per boat (up to 8), from",
+    "rows": [
+     {
+      "label": "Boat",
+      "small": "1 hour, up to 8",
+      "price": "From €60"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-1-2-or-3-hour-boat-rental-no-licence-required-t445645/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-self-drive&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-goboat-self-drive",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "8 photos on the listing, one is a duplicate"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "private",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🔒 #8 Best Private Picnic Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends at the picnic table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat under the trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends chatting on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat by new buildings"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends cruising"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat on open water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "GoBoat by the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-07.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-08.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-captain-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "GoBoat",
+    "⏱️ 1 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Islands+Brygge+10%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Islands Brygge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-boat-tour-with-captain-lite-t733051/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-captain&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Private Electric Boat Tour with Captain"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "58 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(58)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-boat-tour-with-captain-lite-t733051/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-captain-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Private, up to 7",
+     "pop_html": "<strong>A captain drives, you relax.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧺",
+     "label": "Picnic table",
+     "pop_html": "<strong>Drinks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 3 hours",
+     "pop_html": "<strong>Book the length you want.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Islands Brygge",
+     "pop_html": "<strong>Islands Brygge 10.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Up to 5 people",
+     "pop_html": "<strong>€160 for the whole boat,</strong> about €32 each if 5 share."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a birthday or a group that wants the GoBoat picnic without driving.",
+    "skip_html": "if you're happy to steer: #7 is far cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The boat, a captain and life jackets."
+     },
+     {
+      "q": "How many people fit?",
+      "a": "Up to 7."
+     },
+     {
+      "q": "Can we bring food?",
+      "a": "Drinks are for sale on board; ask about food when booking."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Islands Brygge 10."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€160",
+    "sub": "per boat (up to 7), from",
+    "rows": [
+     {
+      "label": "Boat",
+      "small": "1 hour, up to 7",
+      "price": "From €160"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-boat-tour-with-captain-lite-t733051/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-captain&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-private-captain",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "private",
+    "long"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎶 #9 Best Private Party Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends on a private boat in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with drinks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snacks and champagne on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the sofa seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Harbour at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-07.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-08.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-09.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-private-highlights-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Seaduced Experience",
+    "⏱️ 1 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Christians+Brygge+28%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Christians Brygge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-guided-boat-tour-with-city-highlights-t807410/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-highlights&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Private Guided Boat Tour with City Highlights"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "84 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(84)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-guided-boat-tour-with-city-highlights-t807410/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-highlights-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 to 4 h",
+     "pop_html": "<strong>1, 3 or 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Your music",
+     "pop_html": "<strong>Bluetooth speaker; live commentary by the host.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Swim stop",
+     "pop_html": "<strong>Stop to swim or relax.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍾",
+     "label": "Drinks for sale",
+     "pop_html": "<strong>Beer, wine, prosecco, champagne; no BYO.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☔",
+     "label": "Rain refund",
+     "pop_html": "<strong>Full refund if it rains.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Christians Brygge",
+     "pop_html": "<strong>Christians Brygge 28.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a private celebration with a host, music and a swim stop.",
+    "skip_html": "if you want to bring your own drinks: not allowed."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A 1-, 3- or 4-hour private boat tour, live commentary and a Bluetooth speaker."
+     },
+     {
+      "q": "Can we bring drinks?",
+      "a": "No, but beer, wine, prosecco, champagne and soft drinks are sold on board."
+     },
+     {
+      "q": "How many people?",
+      "a": "Up to 6."
+     },
+     {
+      "q": "What if it rains?",
+      "a": "A full refund is guaranteed."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€267",
+    "sub": "per boat (up to 6), from",
+    "rows": [
+     {
+      "label": "Boat",
+      "small": "1 hour, up to 6",
+      "price": "From €267"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-private-guided-boat-tour-with-city-highlights-t807410/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-private-highlights&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-private-highlights",
+     "text": "Read Review ↓"
+    }
+   }
   }
  ]
 }
