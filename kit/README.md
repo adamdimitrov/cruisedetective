@@ -100,6 +100,10 @@ A site that still needs its own version of a script lists it in `site.json` as
 - `local_checks`: the site's own checks that `check_all.py` also runs, until they
   move into the kit.
 
+`listicle.translate` (optional): what `listicle.py translate` tells the model about the site:
+`{"topic": "Danube cruises in Budapest", "names": [...never translated...], "landmarks": [...]}`.
+Without it the Budapest defaults apply.
+
 ## Listicle language versions
 
 Facts (prices, times, ratings, photos, booking links) always come from the English card data; a

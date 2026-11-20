@@ -1205,7 +1205,8 @@ def text_leaves(data):
     def walk(v, path, key):
         if isinstance(v, dict):
             for k, x in v.items():
-                if k not in FACT_KEYS:
+                # metadata objects such as _photo_topup (written by photo_topup.py) are not card text
+                if k not in FACT_KEYS and not (k.startswith("_") and isinstance(x, dict)):
                     walk(x, path + [k], k)
         elif isinstance(v, list):
             if key == "photos":
@@ -1546,7 +1547,24 @@ REGISTER = {
     "el": "formal/plural (θέλετε)", "tr": "polite 'siz' (isterseniz)", "he": "plural 'אתם'",
     "ja": "polite です/ます style", "ko": "polite 합니다/해요 style",
 }
-TRANSLATE_SYSTEM = """You translate the comparison cards of a travel site's listicle page (Danube cruises in Budapest) from English into {lang}.
+# What the translator is told about the site. A site sets its own in site.json
+# "listicle": {"translate": {"topic": ..., "names": [...], "landmarks": [...]}}; without it the
+# Budapest defaults below apply (the site the translator was written for).
+TRANSLATE_DEFAULTS = {
+    "topic": "Danube cruises in Budapest",
+    "names": ["Vigadó tér", "Jane Haining rakpart", "Akadémia", "GetYourGuide", "Viator", "Tripadvisor",
+              "Budapest Adventures"],
+    "landmarks": ["Elizabeth Bridge", "Chain Bridge", "Parliament"],
+}
+
+
+def translate_cfg():
+    import sitecfg
+    own = (sitecfg.SITE.get("listicle") or {}).get("translate") or {}
+    return {k: own.get(k, v) for k, v in TRANSLATE_DEFAULTS.items()}
+
+
+TRANSLATE_SYSTEM = """You translate the comparison cards of a travel site's listicle page ({topic}) from English into {lang}.
 
 Each item is an HTML fragment from one card ("where" says which part: title, pill label, popover, question, answer, Pick/Skip sentence, price label, photo alt text). Translate it for travellers reading {lang}: natural, concise, same meaning and tone, about the same length (labels must stay short).
 
@@ -1555,7 +1573,7 @@ Hard rules (a translation that breaks one is rejected automatically):
 - Keep every number exactly as in English: prices, currencies (€, Ft), times (write 24-hour times like 21:00 exactly as given), durations, counts, ratings, dock numbers. Do not write numbers as words or words as numbers.
 - Keep URLs and placeholders such as {{n}} exactly.
 - Keep emoji (🏆 🥂 ⏱️ 📍 ✓ ...) where they are.
-- Never translate names of boats, operators, companies, docks, streets, places or sites: {names}, Vigadó tér, Jane Haining rakpart, Akadémia, GetYourGuide, Viator, Tripadvisor, Budapest Adventures. Bridges and landmarks (Elizabeth Bridge, Chain Bridge, Parliament) take the form the existing translations use.
+- Never translate names of boats, operators, companies, docks, streets, places or sites: {names}, {extra_names}. Bridges and landmarks ({landmarks}) take the form the existing translations use.
 - Address the reader with {register}, as the existing translations below do.
 - No em dashes (—): use a comma, colon or an en dash with spaces.
 - Do not add claims (independent, unsponsored, paid our own tickets, ...) that the English does not make.
@@ -1762,7 +1780,10 @@ def translate_main(en_page, lang, opts):
         print(f"{os.path.relpath(en_page, ROOT)} -> {lang}: nothing to translate ({rel} is complete)")
         return 0
     model = os.environ.get("LISTICLE_TRANSLATE_MODEL") or TRANSLATE_MODEL
+    tcfg = translate_cfg()
     system = TRANSLATE_SYSTEM.format(lang=LANG_NAMES.get(lang, lang), names=name_list(data) or "-",
+                                     topic=tcfg["topic"], extra_names=", ".join(tcfg["names"]),
+                                     landmarks=", ".join(tcfg["landmarks"]),
                                      fit_rank=FIT_BUDGET["gallery.rank.text"],
                                      register=REGISTER.get(lang, "the polite form usual on travel sites"),
                                      glossary=glossary(tr, data))
