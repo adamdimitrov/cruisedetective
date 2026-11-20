@@ -1,0 +1,1068 @@
+{
+ "format": 1,
+ "lang": "es",
+ "comment": "Where each harvested entry of es.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "es/cruceros-duero-oporto/index.html",
+ "english_version": "f39bb346 2026-11-19",
+ "match_score": 2.957,
+ "entries": {
+  "🏆 #1 Best Overall": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6,
+   "alternatives": ["🏆 #1 Mejor crucero en general", "🏆 #1 Mejor en General", "🏆 N.º 1 Mejor en general"]
+  },
+  "Atalaia Gold yacht under the Dom Luís I bridge at sunset": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Guests with a tasting board on the yacht deck": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Yacht deck table facing the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Regional tasting board of cured meats and cheese": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Covered lounge of the Atalaia Gold yacht": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Atalaia Gold yacht cruising toward the Dom Luís I bridge at sunset": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "The yacht passing the Ribeira waterfront": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Guests toasting over the tasting board under the canopy": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Guests at the helm-side table with snacks": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Guests relaxing in the yacht's open stern lounge": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Atalaia Gold": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2 Hours": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 21
+  },
+  "Luxury 7 Bridges Yacht Cruise with Wine &amp; Snacks": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Rating on the booking site": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 54
+  },
+  "Wine &amp; tasting board": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Included:</strong> local wine (green or rosé) and a regional tasting board of cured meats and cheese.<span class=\"bpa-lang-note\">Blankets on board for cool evenings. Vegetarian or gluten-free boards on request, if you ask in advance.</span>": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Bridges + river mouth": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Live crew PT/EN": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Commentary in Portuguese and English</strong> from the crew on board.<span class=\"bpa-lang-note\">Covered yacht with a toilet, so it still sails in light rain.</span>": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "<strong>Meet at the marina gate</strong> by Restaurante Marina do Freixo, about 4 km upriver from Ribeira. The crew wear Atalaia Gold ID.<span class=\"bpa-lang-note\">Take a taxi, Uber or bus: it is a long walk from the old town.</span>": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for the best all-round 2 hours: wine and food included, the whole river out to the ocean.": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want to board in Ribeira: the marina is 4 km east.": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 4
+  },
+  "How do I get to the pier?": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 5
+  },
+  "Yes, for free up to 24 hours before.": {
+   "source": "listicle file private-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "per adult": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 32
+  },
+  "Adult": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 4
+  },
+  "The final price is shown before you pay.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 2
+  },
+  "Check Availability →": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[2]/a[1]/text()[0]",
+   "seen": 40
+  },
+  "Booked securely via GetYourGuide": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 24
+  },
+  "<b>Reserve now, pay later</b>": {
+   "source": "listicle file private-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "Full review ↓": {
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[2]/a[4]/text()[0]",
+   "seen": 40
+  },
+  "🥂 #2 Best Wine Tasting": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Guests on the Water Line boat on the Douro": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Three wines served on a wooden board": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Sunset on the Douro from the small boat": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Ribeira houses seen from the river": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Toasting with wine on the cruise": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Skipper chatting with guests on the open boat": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Guests on the cushioned deck heading downriver": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Small boat passing under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "The boat silhouetted at sunset at the Douro mouth": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Skipper pouring wine for guests on board": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Water Line Douro": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Douro Marina, Gaia": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 18
+  },
+  "6 Bridges Small-Group Cruise with 3 Wines": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "127 reviews": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "3 wines + pairings": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Three Portuguese wines:</strong> a Vinho Verde with cashews, a rosé with dried figs and a Tawny Port with chocolate.<span class=\"bpa-lang-note\">Every group gets one instant printed photo to take home.</span>": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Morning, day or sunset": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Choose your departure:</strong> morning, daytime or sunset. Sunset trips head towards the ocean when the sea allows.<span class=\"bpa-lang-note\">Same 2-hour route under the six bridges in every slot.</span>": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Live guide EN/PT/ES": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A skipper and a local guide</strong> on every trip, commentary in English, Portuguese and Spanish.<span class=\"bpa-lang-note\">Listed as wheelchair accessible.</span>": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Douro Marina, Gaia": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 20
+  },
+  "<strong>Rua da Praia 430, Vila Nova de Gaia,</strong> near the river mouth. Drop-off at Douro Marina or Marina da Afurada.<span class=\"bpa-lang-note\">About 5 km downriver from Ribeira: plan a taxi or Uber.</span>": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a real wine pairing with a guide for under €40.": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you get seasick: the listing says it is not suitable.": {
+   "source": "es page vs EN f39bb346 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is there a guide?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 2
+  },
+  "Where does it leave from?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 4
+  },
+  "💶 #3 Best Value Sunset": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Glasses of Port wine on the BBDouro sailboat": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Guests relaxing on the sailboat deck": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Crew serving guests on board": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Group photo under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Sailboat in front of the Ribeira waterfront": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Sailboat and catamaran on the Douro by the Ribeira": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Guests on the catamaran's front deck": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Guests toasting with port wine on deck": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Catamaran on the water at sunset": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Sailboat passing under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "BBDouro": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "Daytime or Sunset Douro River Cruise with Port Wine": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "959 reviews": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Glass of Port": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>A glass of Port wine is included.</strong> Snacks are not, so eat before you board.<span class=\"bpa-lang-note\">Wi-Fi and music on board.</span>": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Day or sunset": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Two departures to choose from:</strong> a daytime cruise or a sunset cruise, 2 hours either way.<span class=\"bpa-lang-note\">Sunset is the one that sells out first in summer.</span>": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "€15.50 per hour": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The cheapest hour on the river with a drink:</strong> €31 for 2 hours, against €21.60 an hour on the €18 50-minute boats.<span class=\"bpa-lang-note\">Only the party boat is cheaper per hour.</span>": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "<strong>Douro Marina, Rua da Praia, Vila Nova de Gaia,</strong> near the river mouth.<span class=\"bpa-lang-note\">About 5 km downriver from Ribeira: plan a taxi or Uber.</span>": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a 2-hour sunset with Port at €31, less per hour than a 50-minute rabelo.": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if anyone in your group has limited mobility: the listing says it is not suitable.": {
+   "source": "es page vs EN f39bb346 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is food included?": {
+   "source": "listicle file thames-river-cruises-london--index/es.json",
+   "seen": 1
+  },
+  "⭐ #4 Highest Rated": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Leçaodouro motor yacht under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Sunset under the Arrábida bridge from the deck": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Guests toasting with local wine and snacks": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "The yacht cruising along the Gaia riverside": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Covered lounge on the yacht's rear deck": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Two glasses of Port over the boat's wake": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Couple toasting below the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Guests watching the sun set over the Atlantic": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 4
+  },
+  "Small group on the open deck of the yacht": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 4
+  },
+  "Lounge cabin below deck": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 4
+  },
+  "Leçaodouro": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Douro Marina, Afurada": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "7 Bridges Small-Group Cruise with Port Wine": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Welcome glass of Port": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Small group": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A small group on a covered motor yacht</strong> with a local guide and a certified crew.<span class=\"bpa-lang-note\">Commentary in English, Portuguese and Spanish.</span>": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Douro Marina, Afurada": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 8
+  },
+  "<strong>Rua da Praia 430, Vila Nova de Gaia,</strong> in the fishing village of Afurada near the river mouth.<span class=\"bpa-lang-note\">About 5 km downriver from Ribeira: plan a taxi or Uber.</span>": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "if you want food on board: only the welcome drink is included, while #1 adds a tasting board.": {
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is there a toilet?": {
+   "source": "listicle file private-cruises-paris--index/es.json",
+   "seen": 2,
+   "alternatives": ["¿Hay aseo?"]
+  },
+  "⛵ #5 Smallest Group Sunset": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Douro Captain sailboat heading into the sunset": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Sailboat at sunset near the river mouth": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Guests on deck watching the sunset": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Sun setting over the Atlantic from the boat": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Guests relaxing under the sail": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Sailboat silhouette at dusk": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Douro Captain": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "2-Hour Sunset River Cruise (Max 8 Guests)": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "21 reviews": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Max 8 guests": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>The smallest shared group here:</strong> never more than 8 people on board.<span class=\"bpa-lang-note\">Arrive 15 minutes before departure.</span>": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Sunset sail to the sea": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>From Pontoon C at Douro Marina</strong> up to Ribeira and Gaia, then out towards the sea past the Douro estuary.<span class=\"bpa-lang-note\">Timed for sunset, so the start time moves with the season.</span>": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Welcome drink": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Included:</strong> a welcome drink, music on board, a professional crew and travel insurance.<span class=\"bpa-lang-note\">Skipper speaks English, Spanish and Portuguese.</span>": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a quiet sunset sail with no more than 8 people.": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if price matters most: at €60 it is the priciest 2-hour shared trip here.": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "es page vs EN f39bb346 card-5/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 16
+  },
+  "<b>Instant mobile ticket</b>": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 1
+  },
+  "🌉 #6 Best Six Bridges from Ribeira": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Tomaz do Douro rabelo boat under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Rabelo boats moored at Cais da Ribeira": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Rabelo boat passing the Gaia riverfront": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 8
+  },
+  "The Douro and the Dom Luís I bridge from the boat": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "The Arrábida bridge seen from the river": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Passengers on the rabelo's deck approaching the Arrábida bridge": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Rail bridges upriver from the Ribeira": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Ribeira waterfront and the Dom Luís I bridge from the river": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Full rabelo deck heading downriver": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Rabelo stern with the Dom Luís I bridge behind": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 50 Min": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "Douro River Six Bridges Cruise from Ribeira": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Average of 2 booking sites, weighted by number of reviews": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 6
+  },
+  "Ribeira quay": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Board at the jetty</strong> where Cais da Estiva meets Praça da Ribeira, right in the old town.<span class=\"bpa-lang-note\">No taxi needed if you are already in Ribeira.</span>": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Six bridges, 50 min": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>All six of Porto&#x27;s bridges</strong> in 50 minutes, including the Dom Luís I iron bridge.<span class=\"bpa-lang-note\">Same classic route as #7, from the Porto side of the river.</span>": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Daytime departures": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Boats run through the day,</strong> 10:30 to 16:30 in autumn.<span class=\"bpa-lang-note\">Pick a date to see that day&#x27;s times.</span>": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the classic six-bridges ride straight from Ribeira, no transport needed.": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a drink or live commentary: it is the boat ride only.": {
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Where do I board?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 2
+  },
+  "Is there commentary?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 3,
+   "alternatives": ["¿Hay comentarios?"]
+  },
+  "When does it run?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 1
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 3
+  },
+  "🎟️ #7 Cheapest Six Bridges": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Manos do Douro rabelo boat passing under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Porto's Ribeira waterfront from the rabelo": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Rabelo boat under the Dom Luís I bridge": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "The Infante bridge seen from the river": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Porto's riverside and Ribeira seen from above": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Rabelo boat with passengers passing the Ribeira": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Dom Luís I bridge framed by old rooftops": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Rabelo cruising past Vila Nova de Gaia": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Rabelo full of passengers near the port wine cellars": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "📍 Gaia quay (opposite Cálem)": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Six Bridges Cruise on a Rabelo Boat": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "17,641 reviews": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 8
+  },
+  "Audio guide, 4 languages": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Scan the QR code</strong> on the boat or at the dock: English, French, Portuguese and Spanish.<span class=\"bpa-lang-note\">Bring your own earphones, none are handed out.</span>": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Gaia quay": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Avenida de Diogo Leite 408,</strong> on the Gaia riverfront opposite Cálem, a short walk across the lower deck of the Dom Luís I bridge from Ribeira.<span class=\"bpa-lang-note\">Show the QR code of your ticket when boarding.</span>": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Traditional rabelo": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A rabelo boat,</strong> the flat-bottomed boat that once carried Port barrels down the Douro.<span class=\"bpa-lang-note\">Covered, so light rain is not a problem.</span>": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the cheapest six-bridges ticket, with the most reviews of any Porto cruise.": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a live guide: the commentary is an audio guide on your phone.": {
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Do kids pay?": {
+   "source": "listicle file thames-river-cruises-london--index/es.json",
+   "seen": 1
+  },
+  "Free": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/es.json",
+   "seen": 5
+  },
+  "🍽️ #8 Best Dinner Cruise": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Rentdouro boat lit up at night on the Douro": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Guests at dinner on board": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Francesinha served on the cruise": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Evening dinner on the river": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Rentdouro": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "Six Bridges Evening Cruise with Francesinha Dinner": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "26 reviews": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Francesinha dinner": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Three courses:</strong> cured meats and cheeses, then a Francesinha, Porto&#x27;s layered sandwich in beer sauce, then house dessert.<span class=\"bpa-lang-note\">Ask about meal changes before the day.</span>": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "1 drink": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 8
+  },
+  "<strong>One drink of your choice:</strong> water, wine, beer, soft drink, sangria or coffee.<span class=\"bpa-lang-note\">Extra drinks are not included.</span>": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Evening, 2 hours": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>An evening cruise</strong> under the six bridges between Porto and Gaia.<span class=\"bpa-lang-note\">Hotel pickup is not included.</span>": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "<strong>Rua do Freixo, Porto,</strong> about 4 km upriver from Ribeira.<span class=\"bpa-lang-note\">Plan a taxi, Uber or bus.</span>": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for dinner and the six bridges in one evening, €40 all in.": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want free-flowing drinks: one drink is included.": {
+   "source": "es page vs EN f39bb346 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Can kids come?": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/es.json",
+   "seen": 4
+  },
+  "Yes, for free up to 72 hours before.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "🎉 #9 Best Party Boat": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "DJ playing on the Douro party boat": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Friends dancing on the party boat": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Party on the lower deck with green lights": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Welcome to the party sign on board": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "The party boat on the Douro": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Guest watching the sunset from the boat": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Guests in party leis dancing on deck": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Guests at the bow between the boat's flags": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Crowded party deck under the canopy": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Drinks poured at the on-board bar": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Douro Style": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Gaia riverfront": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Douro River Party Boat with Sunset Option": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "39 reviews": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 8
+  },
+  "DJ on board": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A DJ plays</strong> for the whole six-bridges trip.<span class=\"bpa-lang-note\">More drinks are sold on board.</span>": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "<strong>One drink per person:</strong> a white wine, two beers or a soft drink.<span class=\"bpa-lang-note\">No alcohol for under-18s.</span>": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Sunset option": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Choose a sunset departure</strong> for the same price when it is on the calendar.<span class=\"bpa-lang-note\">Arrive 15 minutes before the start.</span>": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Gaia riverfront": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 8
+  },
+  "<strong>Avenida de Ramos Pinto 710,</strong> on the Gaia side among the Port cellars.<span class=\"bpa-lang-note\">A short walk from Ribeira across the Dom Luís I bridge.</span>": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for groups and birthdays on a budget: 2 hours with a DJ and a drink for €18.": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a quiet sightseeing cruise.": {
+   "source": "es page vs EN f39bb346 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is it a sightseeing cruise?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "🍇 #10 Best Douro Valley Day Cruise": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Cruise boat sailing through the terraced Douro Valley": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Breakfast table on board the Douro Valley cruise": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Douro Valley vineyards above the river": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Guests watching the Crestuma-Lever dam lock": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Lunch on board with a view of the river": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Vineyards of the Douro Valley at sunset": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Cruise boat entering a Douro dam lock": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Main dining room set for lunch on board": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Cruise boat between Douro Valley vineyards": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Lunch served on board with a glass of beer": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Living Tours": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 11 Hours": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "Douro Valley: River Cruise + Breakfast &amp; Lunch from Porto": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "43 reviews": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Porto to Régua by boat": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Upriver from Porto to Régua,</strong> through the lock of the Crestuma-Lever dam, then back to Porto by bus.<span class=\"bpa-lang-note\">11 hours in total.</span>": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "08:00 from Ribeira": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Meet at 08:00</strong> at Cais da Estiva in Ribeira, in front of Café do Cais.<span class=\"bpa-lang-note\">Back in Porto in the evening.</span>": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Breakfast, lunch, drinks": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Included:</strong> breakfast and lunch on board, with drinks.<span class=\"bpa-lang-note\">Tips are not included.</span>": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "From April": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A seasonal cruise:</strong> the next departures are in April 2027, on weekdays.<span class=\"bpa-lang-note\">No winter sailings.</span>": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "to see the terraced Douro Valley from the water in one day, meals included.": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you visit before April: there are no winter departures.": {
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "When does it sail?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "📍 Marina do Freixo",
+   "tr": "📍 Marina do Freixo",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]"
+  },
+  {
+   "en": "2,045 reviews",
+   "tr": "2045 reseñas",
+   "why": "numbers differ (older fact)",
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "<strong>A 2-hour loop:</strong> under all six bridges, past Ribeira and the Gaia wine cellars, then out to Foz where the Douro meets the Atlantic.<span class=\"bpa-lang-note\">It also passes the 7th bridge, still under construction, hence the name.</span>",
+   "tr": "<strong>Un recorrido de 2 horas:</strong> bajo los seis puentes, frente a Ribeira y las bodegas de Gaia, y luego hasta Foz, donde el Duero se une al Atlántico.<span class=\"bpa-lang-note\">También pasa junto al séptimo puente, todavía en construcción, de ahí el nombre.</span>",
+   "why": "numbers differ (older fact)",
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[1]/div[1]"
+  },
+  {
+   "en": "Marina do Freixo",
+   "tr": "Marina do Freixo",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]"
+  },
+  {
+   "en": "2,185 reviews",
+   "tr": "2185 reseñas",
+   "why": "numbers differ (older fact)",
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "<strong>Included:</strong> a welcome drink of Port, local wine, a soft drink or water.<span class=\"bpa-lang-note\">Bathroom on board, blankets on cool evenings.</span>",
+   "tr": "<strong>Incluido:</strong> una bebida de bienvenida: Oporto, vino local, un refresco o agua.<span class=\"bpa-lang-note\">Baño a bordo y mantas para las tardes frescas.</span>",
+   "why": "colon added or dropped (old label?)",
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[0]/div[1]"
+  },
+  {
+   "en": "for the best score here from a big crowd: 4.95 out of 5 from 2,185 reviews, and the sunset slot heads out toward the Atlantic.",
+   "tr": "por la mejor nota de un crucero con mucho público: 4,95 sobre 5 en 2185 reseñas, y el turno del atardecer sale hacia el Atlántico.",
+   "why": "numbers differ (older fact)",
+   "source": "es page vs EN f39bb346 card-4/div[0]/div[1]/div[4]/text()[0]"
+  },
+  {
+   "en": "📍 Cais da Ribeira",
+   "tr": "📍 Cais da Ribeira",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]"
+  },
+  {
+   "en": "Tomaz do Douro",
+   "tr": "Tomaz do Douro",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "7,284 reviews · 2 sites",
+   "tr": "7284 reseñas · 2 sitios",
+   "why": "numbers differ (older fact)",
+   "source": "es page vs EN f39bb346 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Manos do Douro",
+   "tr": "Manos do Douro",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-7/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "📍 Cais da Estiva, Ribeira",
+   "tr": "📍 Cais da Estiva, Ribeira",
+   "why": "identical to English",
+   "source": "es page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/a[0]/text()[0]"
+  }
+ ]
+}

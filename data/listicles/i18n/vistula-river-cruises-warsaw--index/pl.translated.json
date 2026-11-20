@@ -1,0 +1,331 @@
+{
+ "format": 1,
+ "lang": "pl",
+ "comment": "Entries of pl.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "An audio guide in English and 7 other languages on your phone. Bring your own headphones.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Does it sail in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "Yes, every day of the year except 23 to 27 December, with heated boats and blankets.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "The Marina Warszawa barge on Bulwar Gen. George&rsquo;a Smitha Pattona, below the Copernicus Science Centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Not in the standard ticket; there is an evening version with one drink.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "54 min, audio guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "2 adults": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.total.label"
+  },
+  "Not step-free": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> no access, you step down into a small wooden boat</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "Which drink is included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "A glass of alcohol-free prosecco in spring and summer, mulled wine from autumn. You can also bring your own bottle.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Never more than 11 guests, with a skipper who tells stories about the city instead of an audio guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Weekends only in late autumn; the last 2026 sailing is on 6 December.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "The Dworzec Wodny barge in Powiśle, by the Copernicus Science Centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "55 min, welcome drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "80 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.ratings.meta"
+  },
+  "Yes: the lower deck is fully glazed, heated and air-conditioned, with blankets too.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Yes, a toilet and a bar, which is rare on the small Vistula boats.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Is there a Christmas cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "Yes, in December: lights, holiday music, a glass of mulled wine or hot tea with honey and gingerbread, for €6.81 more.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "How many people does it carry?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "Up to 12 passengers, from the Dworzec Wodny WWA barge by the Copernicus Science Centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "50 to 60 min, heated barge": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "219 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.ratings.meta"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Mobility:</b> you step down to board, not for limited mobility</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "What makes it comfortable?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "Leather sofas instead of wooden benches, music and warm lights after dark, for 11 guests at most.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "Is there English commentary?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].q"
+  },
+  "The captain speaks Polish; English comes from a digital audio guide on your phone.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "March to autumn; in mid-November the calendar was empty until March 2027.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "No, but prosecco is sold on board when available.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "55 min, leather sofas": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "Is it the cheapest cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "Yes: €15.89 for 55 minutes, about €17 an hour.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "Yes, and your own music. There is no bar on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "The skipper is your guide, sometimes in English; there is no audio guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "April to autumn; nothing is bookable until April 2027.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "55 min, motorboat": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "4 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 reviews.ratings.meta"
+  },
+  "Is the commentary live?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].q"
+  },
+  "Yes, from a Warsaw-born skipper who speaks English, not a phone audio guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "The deck is covered, with transparent roll-down walls, so the sunset cruise still works on a rainy evening.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "No, only on shore.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Can I add dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].q"
+  },
+  "Yes, an optional dinner: ask when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "55 min, sunset": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].small"
+  },
+  "5 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 reviews.ratings.meta"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> listed as wheelchair-accessible, with an enclosed cabin</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[4].pop_html"
+  },
+  "Coffee, tea, water, juice and savoury snacks, all in the €18.15 ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "Will it always sail?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Only once 6 people have booked that slot; after that, solo travellers can join.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "Yes, the two-deck catamaran is listed as wheelchair-accessible and has an enclosed cabin.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "Which route does it take?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].q"
+  },
+  "North to the Royal Castle when the water is high enough, or south to Siekierki when it is low.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "1 hour, coffee and snacks": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].small"
+  },
+  "✨ New listing, no reviews yet": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 reviews.ratings.meta"
+  },
+  "30 minutes on an open Bayliner E7 motorboat with 80s music, for up to 9 guests.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "Which route do we take?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "You choose: the Old Town route past the Warsaw Mermaid, or the Skyline route upriver to Siekierkowski Bridge.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "A licensed skipper, music and a souvenir photo; small dogs ride free.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "Does it run in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "Yes, on weekends, from the Dworzec Wodny WWA barge.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "30 min, speedboat": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].small"
+  },
+  "How much is it per person?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "€211.05 for the whole boat and up to 12 people, €17.59 each when it is full.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "Which languages is the commentary in?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].q"
+  },
+  "English or Polish.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "No. The private galar from Warsaw by BOAT (€226.94) includes a glass of prosecco each.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "When can we go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "Every day of the year, from the Dworzec Wodny WWA barge.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "1 to 12 people, 1 hour": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].small"
+  },
+  "White-tailed eagle over the river": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 gallery.photos[6][0][1]"
+  },
+  "What will we see?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "Sandy islands and riverside forest north of Warsaw, looking for kingfishers, herons, cormorants and white-tailed eagles, plus moose, roe deer and beavers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "How many guests?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].q"
+  },
+  "5 at most, with a nature guide and a captain. Binoculars and life jackets are included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "Does the guide speak English?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "No, the guide speaks Polish. Ask before booking if you do not.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "How do I get there?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "Port Rzeczny Marina-Modlin in Nowy Dwór Mazowiecki, outside Warsaw; transport is not included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "3 hours, max 5 guests": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].small"
+  }
+ }
+}

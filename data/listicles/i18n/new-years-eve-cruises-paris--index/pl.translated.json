@@ -1,0 +1,491 @@
+{
+ "format": 1,
+ "lang": "pl",
+ "comment": "Entries of pl.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "18 reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.ratings.meta"
+  },
+  "21:00 or 22:40": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].label"
+  },
+  "<strong>Gala dinner: check-in 20:00, departs 21:00, back at the quay 00:30</strong>, then dancing on board until 04:00. <strong>Champagne cruise:</strong> boarding 22:30, departs 22:40, back 00:00.<span class=\"bpa-lang-note\"><b>📍 Port de la Bourdonnais:</b> 75007 Paris, at the foot of the Eiffel Tower.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].pop_html"
+  },
+  "<strong>Both programs are on the Seine around midnight</strong> and start and end at the foot of the Eiffel Tower, so you see it sparkle at the start and the end.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].pop_html"
+  },
+  "<strong>Gala dinner: a live orchestra</strong>, then dancing on board until 04:00. The Champagne cruise has an audio guide in 11 languages instead.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "Pommery Champagne": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].label"
+  },
+  "<strong>Gala: 2 glasses of Pommery</strong> (aperitif and dessert), Mâcon-Villages or Pessac-Léognan (1 bottle per 4), water and coffee. <strong>Champagne cruise:</strong> a Pommery Pop (20 cl).": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "<strong>Smart casual</strong> for the gala dinner.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "Gala: no refunds": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].label"
+  },
+  "<strong>The gala ticket can&rsquo;t be cancelled.</strong> Book it once your plans for the night are fixed.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "to be on the Seine at midnight by the Eiffel Tower, with a €95 Champagne cruise or a €514 gala from the same pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.pick_html"
+  },
+  "if you may need to cancel: the gala ticket is non-refundable, and the Champagne cruise serves only snacks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.skip_html"
+  },
+  "Is it on the water at midnight?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "Yes. The gala dinner sails from 21:00 to 00:30 and the Champagne cruise from 22:40 to 00:00, both from the Eiffel Tower pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "What is on the gala menu?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].q"
+  },
+  "6 courses: lobster medallions, South-West duck foie gras, a veal cutlet with black truffle, matured cheese and a Maison Lenôtre dessert, with 2 glasses of Pommery and wine.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Does the Champagne cruise include dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].q"
+  },
+  "No: a Pommery Pop (20 cl), a smoked salmon bun, a foie gras brioche and macarons. Eat dinner before you board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Can I cancel the gala ticket?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].q"
+  },
+  "No, the gala ticket is non-refundable, so book it once your plans for the night are fixed.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "How do I get there on 31 December?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].q"
+  },
+  "Roads close around the Champs-Élysées and the Eiffel Tower and the métro gets packed after midnight. Reach Port de la Bourdonnais at least 30 minutes early and plan your way home.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].a"
+  },
+  "22:40–00:00, Champagne &amp; snacks": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "21:00–00:30, 6 courses, dancing to 04:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[1].small"
+  },
+  "2 people, Gala Dinner": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.total.label"
+  },
+  "The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.note"
+  },
+  "<b>Instant confirmation</b> and a mobile QR ticket": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 cta.trust[0]"
+  },
+  "<b>Two programs</b> from the same Eiffel Tower pier": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 cta.trust[1]"
+  },
+  "<div class=\"nye-opts\"><a class=\"nye-opt\" href=\"https://www.getyourguide.com/paris-l16/paris-luxury-new-year-s-eve-dinner-cruise-along-the-seine-t59583/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-nye-cruises-paris-bp-dinner&amp;mkt_cmp=true\" onclick=\"event.stopPropagation()\" rel=\"noopener nofollow sponsored\" target=\"_blank\"><span class=\"nye-opt-name\">🥂 Gala Dinner Cruise</span><span class=\"nye-opt-meta\">21:00–00:30 • 6 courses • dance until 04:00</span><span class=\"nye-opt-price\">€514<small>Book →</small></span></a><a class=\"nye-opt\" href=\"https://www.getyourguide.com/paris-l16/paris-new-year-s-eve-cruise-with-champagne-city-lights-t300677/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-nye-cruises-paris-bp-champagne&amp;mkt_cmp=true\" onclick=\"event.stopPropagation()\" rel=\"noopener nofollow sponsored\" target=\"_blank\"><span class=\"nye-opt-name\">🍾 Champagne Cruise</span><span class=\"nye-opt-meta\">22:40–00:00 • Champagne &amp; snacks</span><span class=\"nye-opt-price\">€95<small>Book →</small></span></a></div><div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">Gala: 6 courses incl. lobster &amp; truffle • Champagne cruise: snacks</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-bateaux-parisiens\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Lobster<span class=\"sep\">•</span>Foie gras<span class=\"sep\">•</span>Truffled veal<span class=\"sep\">•</span>Cheese<span class=\"sep\">•</span>Lenôtre dessert<span class=\"mid\">🕛 At sea, Eiffel Tower view</span></div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 extras_after_faq"
+  },
+  "41 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.ratings.meta"
+  },
+  "21:30 · back 00:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].label"
+  },
+  "<strong>Boarding from 20:30, departs 21:30, back at the quay around 00:30</strong>: a 3-hour cruise, 4 hours with boarding.<span class=\"bpa-lang-note\"><b>📍 Port de Bercy Aval:</b> 1 Port de Bercy Aval, 75012 Paris, east of the centre and far from the Eiffel Tower. Private parking at the pier.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].pop_html"
+  },
+  "<strong>On the river when the clock strikes twelve</strong>, with a DJ for the countdown.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "Singer, then DJ": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].label"
+  },
+  "<strong>A live singer during dinner</strong> and a DJ for midnight.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "Champagne &amp; wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].label"
+  },
+  "<strong>Champagne and amuse-bouches</strong>, a special New Year&rsquo;s menu, 1 bottle of wine for 2, water, coffee or tea.<span class=\"bpa-lang-note\">The New Year&rsquo;s menu is not published.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "Your own table": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].label"
+  },
+  "<strong>Individual tables</strong> by large bay windows: no sharing with strangers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "to be on the river at midnight with dinner, a live singer and a DJ countdown at your own table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.pick_html"
+  },
+  "if you want the Eiffel Tower at midnight: Bercy is east of the centre, and reviews are mixed (3.4/5 from 41).": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.skip_html"
+  },
+  "Yes: it departs at 21:30 and is back at the quay around 00:30, with a DJ for the countdown.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Champagne and amuse-bouches, a special New Year&rsquo;s menu, 1 bottle of wine for 2, water, and coffee or tea. The menu itself is not published.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "1 Port de Bercy Aval, 75012 Paris, east of the centre and far from the Eiffel Tower. There is private parking at the pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Will we share a table?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "No: tables are individual, by large bay windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "What do reviews say?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].q"
+  },
+  "Mixed: 3.4 out of 5 from 41 reviews on GetYourGuide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].a"
+  },
+  "NYE dinner cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].label"
+  },
+  "21:30–00:30, dinner, singer, DJ": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "2 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.total.label"
+  },
+  "<b>Individual tables</b>, no sharing": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 cta.trust[1]"
+  },
+  "29 reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.ratings.meta"
+  },
+  "21:00 · party to 02:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].label"
+  },
+  "<strong>Boarding 20:30, sails 21:00 to 23:15</strong>, then a party on the docked boat until 02:00.<span class=\"bpa-lang-note\"><b>📍 Port de la Conférence (Pont de l&rsquo;Alma):</b> 75008 Paris. The pier area is very busy on New Year&rsquo;s Eve, so arrive early.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].pop_html"
+  },
+  "Midnight at the quay": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].label"
+  },
+  "<strong>The boat is back at 23:15</strong>, so midnight happens at the dock, where the boat turns into a dance floor.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].pop_html"
+  },
+  "2 live musicians": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].label"
+  },
+  "<strong>Two live musicians</strong> during dinner, then the party on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "½ bottle each": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].label"
+  },
+  "<strong>Champagne and appetisers</strong>, then ½ bottle of Champagne or wine per person, tea and coffee.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "<strong>An upper deck with 360° views.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "Vegetarian &amp; vegan": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].label"
+  },
+  "<strong>Vegetarian and vegan menus</strong> are available.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].pop_html"
+  },
+  "for the famous name, a 5-part dinner and a party on board until 02:00, all in one ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 best_for.pick_html"
+  },
+  "if midnight must be on the water: the boat docks at 23:15, and €480 is a lot for a 2h15 cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 best_for.skip_html"
+  },
+  "No. The cruise runs from 21:00 to 23:15; midnight happens at the quay, where the boat turns into a dance floor until 02:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "5 parts: Champagne and appetisers, two starters, a main, cheese and dessert, with ½ bottle of Champagne or wine per person.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Yes, vegetarian and vegan menus are available.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Port de la Conférence at Pont de l&rsquo;Alma (75008). The pier area is very busy on New Year&rsquo;s Eve, so arrive early.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "Is it worth €480?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].q"
+  },
+  "It is expensive for a 2h15 cruise, but the ticket covers the full dinner and the 2-hour party on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "Dinner cruise + party": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].label"
+  },
+  "21:00–23:15, party to 02:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "<b>Dinner and party</b> in one ticket": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 cta.trust[1]"
+  },
+  "13 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.ratings.meta"
+  },
+  "<strong>Departs 18:00, back at the quay around 20:00</strong>, so the rest of your night stays free.<span class=\"bpa-lang-note\"><b>📍 2 Rue du Ranelagh:</b> 75016 Paris, at the foot of Radio France.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].pop_html"
+  },
+  "Singer &amp; guitarist": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].label"
+  },
+  "<strong>A singer-guitarist duo</strong> during dinner.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "Cocktail &amp; wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].label"
+  },
+  "<strong>A welcome cocktail</strong>, ½ bottle of wine and ½ bottle of water per person.<span class=\"bpa-lang-note\">Coffee or tea is not included on the early service (€5).</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "350 m² rooftop": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].label"
+  },
+  "<strong>A 450 m² panoramic room and a 350 m² rooftop.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "All diets": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].label"
+  },
+  "<strong>Halal, vegetarian, vegan, gluten-free and lactose-free</strong> on request when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "for a proper New Year&rsquo;s Eve dinner before your own countdown at a party, the Trocadéro or the Champs-Élysées.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.pick_html"
+  },
+  "if you want a party or midnight on board, and note the mixed reviews (3.2/5, some found it rushed).": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.skip_html"
+  },
+  "When am I back?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "Around 20:00: it departs at 18:00, so the rest of the night is free for your own countdown.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "Pepper-seasoned foie gras with kumquat chutney, veal tenderloin with truffle and morel sauce, and the chef&rsquo;s dessert to share, after a welcome cocktail.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Can I get a special diet?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "Yes: halal, vegetarian, vegan, gluten-free and lactose-free on request when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Is coffee included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "No, coffee or tea costs €5 on the early service. ½ bottle of wine and ½ bottle of water per person are included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Yes, for free up to 72 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].a"
+  },
+  "18:00–20:00, 3 courses, singer": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "<b>Free cancellation</b> up to 72 h before": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 cta.trust[0]"
+  },
+  "<div class=\"nye-opts\"><a class=\"nye-opt\" href=\"https://www.getyourguide.com/paris-l16/paris-new-year-s-eve-dinner-cruise-early-service-t857678/?partner_id=YS414AJ&amp;utm_medium=online_publisher&amp;cmp=article-nye-cruises-paris-diamant-bleu&amp;mkt_cmp=true\" onclick=\"event.stopPropagation()\" rel=\"noopener nofollow sponsored\" target=\"_blank\"><span class=\"nye-opt-name\">🌆 Early Service</span><span class=\"nye-opt-meta\">18:00–20:00 • 3 courses • singer</span><span class=\"nye-opt-price\">€207<small>Book →</small></span></a></div><div class=\"nye-food\"><div class=\"nye-food-head\"><span class=\"nye-food-lbl\">🍽️ Food</span><span aria-label=\"Food level 3 of 3\" class=\"nye-meter\" data-l=\"3\"><i></i><i></i><i></i></span><span class=\"nye-food-lvl\">3 courses + welcome cocktail</span><button aria-haspopup=\"dialog\" class=\"nye-food-btn\" data-nye-menu=\"pnye-diamant-bleu\" type=\"button\">Full menu ↗</button></div><div class=\"nye-food-strip\">Foie gras<span class=\"sep\">•</span>Veal &amp; truffle<span class=\"sep\">•</span>Dessert<span class=\"mid\">🕛 Back by 20:00</span></div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 extras_after_faq"
+  },
+  "19 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.ratings.meta"
+  },
+  "4 h · DJ to 02:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].label"
+  },
+  "<strong>A 2h30 cruise past the Louvre, Notre-Dame and the Conciergerie</strong>, then a DJ party on board facing the Eiffel Tower until 02:00.<span class=\"bpa-lang-note\"><b>📍 Port Debilly:</b> 7 Port Debilly, 75016 Paris, facing the Eiffel Tower.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].pop_html"
+  },
+  "Midnight facing the Eiffel": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].label"
+  },
+  "<strong>Midnight at the quay, facing the Eiffel Tower:</strong> the best backdrop of the boats that dock before midnight.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "2 Champagne + wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].label"
+  },
+  "<strong>2 glasses of Champagne</strong> (aperitif and dessert), ½ bottle of wine (Saint-Émilion or Pouilly-Fumé) and ½ bottle of water per person, coffee or tea.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>Tables are shared by 10 people</strong>: not for a romantic dinner for two.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "<strong>The outdoor terrace is open</strong> during the whole cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "Veg or fish: pre-order": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[5].label"
+  },
+  "<strong>The vegetarian menu and the fish dish</strong> are on pre-order only.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[5].pop_html"
+  },
+  "for dinner and a DJ party with the Eiffel Tower as your midnight backdrop.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.pick_html"
+  },
+  "for a romantic dinner for two: tables are shared by 10 people.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.skip_html"
+  },
+  "No: the 2h30 cruise ends at the quay, and midnight is the DJ party at Port Debilly, facing the Eiffel Tower, until 02:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "An aperitif with 3 amuse-bouches, trout or foie gras pâté en croûte, veal loin or sea bass, two cheeses and a pear and chocolate dome.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Yes: 2 glasses of Champagne, ½ bottle of wine and ½ bottle of water per person, plus coffee or tea.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Yes, tables are shared by 10 people. For a boat of your own, see <a href=\"/private-cruises-paris\">private Seine cruises</a>.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "Can I get a vegetarian meal?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].q"
+  },
+  "Yes, but only on pre-order, like the sea bass.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].a"
+  },
+  "Dinner cruise + DJ party": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].label"
+  },
+  "4 hours, 4 courses": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "<b>Outdoor terrace</b> open all cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 cta.trust[1]"
+  },
+  "🗼 #5 Best Party Facing the Eiffel Tower": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 gallery.rank.text"
+  }
+ }
+}

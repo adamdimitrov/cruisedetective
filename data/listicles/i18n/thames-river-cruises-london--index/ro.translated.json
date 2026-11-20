@@ -1,0 +1,763 @@
+{
+ "format": 1,
+ "lang": "ro",
+ "comment": "Entries of ro.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "Westminster to Greenwich Sightseeing Cruise with Live Commentary": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 title.text"
+  },
+  "<strong>I rode this cruise myself.</strong><span class=\"bpa-lang-note\">What I checked: both decks, the live commentary and the audio app. <a href=\"#1-thames-river-sightseeing\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.tested.pop_html"
+  },
+  "Sailings between 10:20 and 15:40 on the days checked. 1 hour one-way, 2 hours return. Current route: Westminster, Embankment, St Katharine&rsquo;s, Greenwich (Festival and Bankside piers closed).<span class=\"bpa-lang-note\"><b>📍 Westminster Pier:</b> next to the London Eye, Big Ben and Westminster Bridge, with an air-conditioned waiting area. Checked on the booking page for 13, 16 and 21 November 2026; hours change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].pop_html"
+  },
+  "6-Lang Audio App": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].label"
+  },
+  "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">Spanish, Chinese, English, French, German, Italian</span><span class=\"bpa-lang-note\">On a smartphone app, so bring your own earbuds. Or listen to the live English commentary from a crew member over the loudspeakers.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].pop_html"
+  },
+  "Access &amp; kids": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible, strollers welcome</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 5; £11.30 for ages 5-15</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "Calm sightseeing": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].label"
+  },
+  "<strong>Seated sightseeing on a double-decker boat with a live guide, not a party boat.</strong> The guide&rsquo;s dry British humour is the best part.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "Open-air top deck": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[5].label"
+  },
+  "<strong>360° views from the top deck</strong>, with open-air and covered seats facing forward. Heated and air-conditioned cabin below, with tables by the windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "Free Wi-Fi": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].label"
+  },
+  "<strong>Free Wi-Fi on board</strong>, a restroom, and a bar selling drinks and snacks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "if you forgot earbuds and want the audio app: it needs your own.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.skip_html"
+  },
+  "Do I need earbuds?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Only for the audio app in 6 languages. The live English commentary from a crew member plays over the loudspeakers, so it needs none.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Westminster to Greenwich: 1 hour one-way, 2 hours return. The current route also stops at Embankment and St Katharine&rsquo;s, by Tower Bridge.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Yes: under 5s ride free and ages 5 to 15 pay £11.30. Strollers are welcome on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "What if it rains?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].q"
+  },
+  "The top deck has covered seats as well as open-air ones, and the cabin below is heated and air-conditioned.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Yes, for free up to 24 hours before, with a full refund.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].a"
+  },
+  "per adult, from": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.sub"
+  },
+  "1 hour one-way": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "Under 5": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[1].label"
+  },
+  "2 adults + 2 kids (5-15)": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.total.label"
+  },
+  "Checked on the booking page in November 2026. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "<b>Instant mobile ticket</b>, show it on your phone": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[1]"
+  },
+  "London Eye River Cruise: 45-Minute Sightseeing Loop with Live Guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 title.text"
+  },
+  "⏱️ 45 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 kicker[1]"
+  },
+  "<strong>I rode this cruise myself.</strong><span class=\"bpa-lang-note\">What I checked: both decks, the seats, the live guide and the built-in audio guide. <a href=\"#2-london-eye\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.tested.pop_html"
+  },
+  "Every hour from 10:45 to 17:45. About 45 minutes.<span class=\"bpa-lang-note\"><b>📍 London Eye Pier:</b> right below the wheel, opposite Westminster Pier, with a weather-proof waiting area. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].pop_html"
+  },
+  "Live guide + 10-lang audio": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].label"
+  },
+  "<strong>Live English commentary</strong> from a cheeky, knowledgeable guide, or a built-in audio guide in 10 languages.<span class=\"bpa-lang-note\">Bring your own earbuds for the audio guide. Every seat downstairs has a device; on the top deck there is one for every four seats.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "London Eye ticket option": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].label"
+  },
+  "<strong>You can add a London Eye ticket</strong> when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible; <span class=\"cd-no\">✕</span> no strollers</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 2; £12.50 for ages 2-15</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "<strong>A short circular sightseeing loop with a live guide.</strong> Westminster to Tower Bridge and back; it does not go to Greenwich.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "<strong>360° views from an open-air top deck</strong>, though I found the seats there uncomfortable. The cosy lower deck is heated and air-conditioned, with a small bar.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].pop_html"
+  },
+  "How long is it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "About 45 minutes on a circular route from the London Eye as far as Tower Bridge. You can also get off at Tower Bridge Pier. It does not go to Greenwich.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "For the built-in audio guide, yes: bring your own. The live English commentary needs none.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "No, strollers are not allowed. Under 2s ride free and ages 2 to 15 pay £12.50.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "London Eye Pier, right below the wheel and opposite Westminster Pier. It has a weather-proof waiting area.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "Should I book ahead?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].q"
+  },
+  "It is worth it to be sure of a place, though the pier also sells tickets. Cancellation is free up to 24 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].a"
+  },
+  "Under 2": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[2].label"
+  },
+  "2 adults + 2 kids (2-15)": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.total.label"
+  },
+  "24-Hour Hop-On Hop-Off Thames Sightseeing Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 title.text"
+  },
+  "<strong>I rode this cruise myself.</strong><span class=\"bpa-lang-note\">What I checked: both decks, the seats, the live commentary and the audio app. <a href=\"#3-city-cruises-sightseeing-cruise\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.tested.pop_html"
+  },
+  "Cruises run daily from 10:00 to 17:00. Westminster to Tower Bridge takes 30 minutes, Westminster to Greenwich 1 hour.<span class=\"bpa-lang-note\"><b>📍 Westminster Pier:</b> next to the London Eye, Big Ben and Westminster Bridge. Operating hours checked on the booking page for Saturday 21 November 2026; they change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].pop_html"
+  },
+  "<strong>Ride as often as you like for 24 hours</strong> between Westminster, the London Eye, Tower Bridge and Greenwich. Tower Bridge one day and Greenwich the next works well.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].pop_html"
+  },
+  "13-Lang Audio App": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].label"
+  },
+  "<strong>Audio languages:</strong> <span class=\"bpa-lang-names\">English, Arabic, Chinese, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Russian, Vietnamese, Spanish</span><span class=\"bpa-lang-note\">On a smartphone app, so bring earbuds. Or listen to the live English commentary from a crew member.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible, strollers welcome</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 5; £16.95 for ages 5-15</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "<strong>Seated sightseeing on big double-decker boats</strong>, the same route and kind of boat as the leading cruises.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "Skip the catamaran": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].label"
+  },
+  "<strong>City Cruises runs several types of boat.</strong> Skip the catamaran: it has no top deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].pop_html"
+  },
+  "Drinks to buy": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[6].label"
+  },
+  "<strong>Nothing included.</strong> Soft drinks and snacks at the bar on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[6].pop_html"
+  },
+  "How does the 24-hour ticket work?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].q"
+  },
+  "It is valid for 24 hours, and you can hop on and off as often as you like between Westminster, the London Eye, Tower Bridge and Greenwich.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Which boat should I take?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "City Cruises has several types of boat. Skip the catamaran: it has no top deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Are the seats comfortable?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "The padded chairs on the lower deck are. The metal seats on the open top deck were uncomfortable when I rode it.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Is food included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "No. Soft drinks and snacks are sold at the bar on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "Yes: under 5s ride free, ages 5 to 15 pay £16.95, and strollers are welcome.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "24 hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "Thames Rockets Speedboat Ride from the London Eye": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 title.text"
+  },
+  "<strong>I rode this speedboat myself.</strong><span class=\"bpa-lang-note\">What I checked: the seats and handles, the safety gear, the commentary and the fast part after Tower Bridge. <a href=\"#4-thames-rockets-speedboat\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.tested.pop_html"
+  },
+  "Every hour from 10:00 to 15:00. 50 minutes.<span class=\"bpa-lang-note\"><b>📍 London Eye Pier:</b> Thames Rockets is at the very end of the pier, next to the London Eye. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].pop_html"
+  },
+  "<strong>Up to 30 knots (55 km/h)</strong> once you pass Tower Bridge, with short breaks between the fast runs. 12 padded seats with handles to hold.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "Live guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].label"
+  },
+  "<strong>Live English commentary</strong> from the crew, cheeky and funny, from the slow start to the fast part.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "<strong>Life jackets and waterproof jackets provided.</strong> Metal guard rails to hold on to.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible; no toilet on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> £10 off for ages 1-14</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "Thrill ride": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[5].label"
+  },
+  "<strong>An adrenaline ride, not a calm cruise.</strong> Not suitable if you are pregnant or have back or neck problems.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[5].pop_html"
+  },
+  "How fast does it go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "Up to 30 knots (55 km/h). The fast part starts after Tower Bridge; before that it is a slow, guided cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "Will I get wet?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].q"
+  },
+  "You stay mostly dry: waterproof jackets are provided, along with life jackets.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Who should skip it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "Anyone pregnant or with back or neck problems. It is not wheelchair accessible, and there is no toilet on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Where does it go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "From the London Eye past Tower Bridge and Canary Wharf towards Greenwich, then back to the London Eye.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Yes, ages 1 to 14 get £10 off. Book ahead: the 12-seat boats sell out quickly.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].a"
+  },
+  "per person, from": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.sub"
+  },
+  "1-14, £10 off": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[1].small"
+  },
+  "2 adults + 2 kids (1-14)": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.label"
+  },
+  "70-Minute Thames Speedboat Ride to the Thames Barrier": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 title.text"
+  },
+  "📍 Embankment Pier": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 kicker[2].map"
+  },
+  "<strong>I rode this speedboat myself.</strong><span class=\"bpa-lang-note\">What I checked: the seats and handles, the safety gear, the commentary and the run to the Thames Barrier. <a href=\"#5-thames-ribs-speedboat\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.tested.pop_html"
+  },
+  "Three sailings on the day checked: 10:05, 13:50, 15:00. 70 minutes.<span class=\"bpa-lang-note\"><b>📍 Embankment Pier:</b> not Westminster Pier. Weather-proof waiting area on the pier. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].pop_html"
+  },
+  "<strong>70 minutes out to the Thames Barrier and back</strong>, further than the rides that turn at Greenwich. Fast stretches start after Tower Bridge, with sideways turns.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "<strong>Live English commentary from the skipper</strong> whenever you pass a sight, not just at the start.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>Ponchos and life jackets on board</strong>, and metal handles at every seat. Expect spray on breezy days.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible; no toilet on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> £62.22 for ages 2-13; strict minimum age and height rules</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "<strong>An adrenaline ride with no stops on the way.</strong> The same kind of 12-seat boat as Thames Rockets.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[5].pop_html"
+  },
+  "How is it different from Thames Rockets?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "The same kind of 12-seat boat, but 70 minutes instead of 50, and it runs on past Greenwich to the Thames Barrier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "Expect spray on breezy days. Ponchos and life jackets are on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Embankment Pier, not Westminster Pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Ages 2 to 13 pay £62.22, but there are strict minimum age and height rules.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "Can I get off on the way?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].q"
+  },
+  "No, there are no stops: it runs to the Thames Barrier and back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].a"
+  },
+  "2 adults + 2 kids (2-13)": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.total.label"
+  },
+  "Thames Lunch Cruise with 2-Course Lunch from Tower Bridge": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 title.text"
+  },
+  "One sailing at 11:45. 105 minutes.<span class=\"bpa-lang-note\"><b>📍 Tower Millennium Pier:</b> next to Tower Bridge, with a weather-proof waiting area. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[0].pop_html"
+  },
+  "<strong>A 2-course lunch, with tea and coffee.</strong> Other drinks at the bar.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[1].pop_html"
+  },
+  "Live or app commentary": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[2].label"
+  },
+  "<strong>Live English commentary</strong>, or City Cruises&rsquo; audio app in 13 languages (bring earbuds).": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible, strollers welcome</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 2; £10 off for ages 2-12</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[3].pop_html"
+  },
+  "Relaxed lunch": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[4].label"
+  },
+  "<strong>A seated lunch at tables by the windows</strong>, from Tower Bridge to Westminster and back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[4].pop_html"
+  },
+  "<strong>360° views from front-facing open-air seats upstairs.</strong> Heated and air-conditioned cabin below.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[5].pop_html"
+  },
+  "A 2-course lunch with tea and coffee. Other drinks are sold at the bar.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "From Tower Millennium Pier, next to Tower Bridge, to Westminster and back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "105 minutes, with one sailing a day at 11:45.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Yes: under 2s ride free and ages 2 to 12 get £10 off. Strollers and wheelchairs are fine on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "Yes, for free up to 3 days before, with a full refund.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "2-12, £10 off": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[1].small"
+  },
+  "2 adults + 2 kids (2-12)": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.total.label"
+  },
+  "<b>Free cancellation</b> up to 3 days before, full refund": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[0]"
+  },
+  "<div class=\"cd-gal\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🥂 #7 Best Evening Drinks Cruise</span><div aria-label=\"Photo gallery 7\" class=\"bpa-slider\" tabindex=\"0\"><img alt=\"Thames Evening Cruise with Sparkling Wine &amp; Canapés\" loading=\"lazy\" sizes=\"(max-width: 479px) 100vw, 461px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673ff4f2654d06686651cc92_Thames%20River%20Sunset%20Cruise%20with%20Sparkling%20Wine%2C%20Canap%C3%A9s.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673ff4f2654d06686651cc92_Thames%20River%20Sunset%20Cruise%20with%20Sparkling%20Wine%2C%20Canap%C3%A9s-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ff4f2654d06686651cc92_Thames%20River%20Sunset%20Cruise%20with%20Sparkling%20Wine%2C%20Canap%C3%A9s-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ff4f2654d06686651cc92_Thames%20River%20Sunset%20Cruise%20with%20Sparkling%20Wine%2C%20Canap%C3%A9s.webp 960w\"/></div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 gallery.raw"
+  },
+  "Thames Evening Cruise with Sparkling Wine &amp; Canapés": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 title.text"
+  },
+  "One sailing at 18:30. 2 hours, back at the same pier.<span class=\"bpa-lang-note\"><b>📍 Tower Millennium Pier:</b> next to Tower Bridge. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[0].pop_html"
+  },
+  "<strong>One glass of sparkling wine included.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[1].pop_html"
+  },
+  "<strong>Canapés, not a full meal.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[2].pop_html"
+  },
+  "Access": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[4].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-ask\">ⓘ</span> not stated on the booking page: ask City Cruises</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[4].pop_html"
+  },
+  "Evening drinks": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[4].label"
+  },
+  "<strong>An evening cruise past the London Eye, the Tower of London and Tower Bridge</strong>, with a main saloon and an open-air panoramic deck upstairs.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[4].pop_html"
+  },
+  "Is it a dinner cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "No: you get canapés and one glass of sparkling wine. For a full meal, see the jazz or Showboat dinner cruises below.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "What time does it leave?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "18:30 from Tower Millennium Pier, back at the same pier 2 hours later.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "Past the London Eye, the Tower of London and Tower Bridge, then back to Tower Millennium Pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "How are the reviews?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "Mixed: 4.4 on GetYourGuide, but 3.9 on Viator and 3.7 on Tripadvisor.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "glass of sparkling wine + canapés": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].small"
+  },
+  "<div class=\"cd-gal\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🎷 #8 Best Jazz Dinner Cruise</span><div aria-label=\"Photo gallery 8\" class=\"bpa-slider\" tabindex=\"0\"><img alt=\"Thames Jazz Dinner Cruise with 3-Course Dinner &amp; Live Band\" loading=\"lazy\" sizes=\"(max-width: 479px) 100vw, 461px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673ffc306e85dcbc331f01f0_Thames%20Jazz%20Dinner%20Cruise%20with%20Live%20Band%2C%20Views.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673ffc306e85dcbc331f01f0_Thames%20Jazz%20Dinner%20Cruise%20with%20Live%20Band%2C%20Views-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ffc306e85dcbc331f01f0_Thames%20Jazz%20Dinner%20Cruise%20with%20Live%20Band%2C%20Views-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ffc306e85dcbc331f01f0_Thames%20Jazz%20Dinner%20Cruise%20with%20Live%20Band%2C%20Views.webp 960w\"/></div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 gallery.raw"
+  },
+  "Thames Jazz Dinner Cruise with 3-Course Dinner &amp; Live Band": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 title.text"
+  },
+  "One sailing at 20:00. 3 hours, docking around 23:00.<span class=\"bpa-lang-note\"><b>📍 Westminster Pier:</b> next to the London Eye, Big Ben and Westminster Bridge. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[0].pop_html"
+  },
+  "<strong>The ChiJazz band plays two sets</strong> of jazz standards and pop hits, with room to dance.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[1].pop_html"
+  },
+  "<strong>A 3-course dinner</strong>, then coffee or tea.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[2].pop_html"
+  },
+  "<strong>A glass of sparkling wine when you board.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[3].pop_html"
+  },
+  "Date night": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[5].label"
+  },
+  "<strong>Dinner, live jazz and dancing</strong> on the way to Canary Wharf and back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[5].pop_html"
+  },
+  "Who plays?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "The ChiJazz band, with jazz standards and pop hits such as At Last, Cry Me a River and Summertime.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "When does it get back?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "It leaves Westminster Pier at 20:00 and docks around 23:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Is a drink included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].q"
+  },
+  "A glass of sparkling wine when you board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "The lowest here: 4.0 on GetYourGuide and 3.8 on Viator and Tripadvisor.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "dinner + welcome drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].small"
+  },
+  "<div class=\"cd-gal\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🛥️ #9 Best River Transit Pass</span><div aria-label=\"Photo gallery 9\" class=\"bpa-slider\" tabindex=\"0\"><img alt=\"Uber Boat by Thames Clippers 1-Day Hop-On Hop-Off Pass\" loading=\"lazy\" sizes=\"(max-width: 479px) 100vw, 461px, 100vw\" src=\"/assets/cdn/652d0405192ba076b04f74a3/674009b94f72febff54b29a9_Thames%20Hop-On%20Hop-Off%20Cruise%20with%20Uber%20Boat.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/674009b94f72febff54b29a9_Thames%20Hop-On%20Hop-Off%20Cruise%20with%20Uber%20Boat-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/674009b94f72febff54b29a9_Thames%20Hop-On%20Hop-Off%20Cruise%20with%20Uber%20Boat-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/674009b94f72febff54b29a9_Thames%20Hop-On%20Hop-Off%20Cruise%20with%20Uber%20Boat.webp 960w\"/></div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 gallery.raw"
+  },
+  "Uber Boat by Thames Clippers 1-Day Hop-On Hop-Off Pass": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 title.text"
+  },
+  "Every 10–20 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[0].label"
+  },
+  "Boats run throughout the day, every 10 to 20 minutes from key piers; times vary by pier.<span class=\"bpa-lang-note\"><b>📍 Any Uber Boat pier:</b> including Battersea Power Station, Westminster, London Bridge and Greenwich.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[0].pop_html"
+  },
+  "<strong>Unlimited rides to all stops for one day</strong>, from the London Eye and the Tower of London to Shakespeare&rsquo;s Globe and the Shard.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[1].pop_html"
+  },
+  "<strong>Public transport, not a tour.</strong> A free online river guide instead of a live guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-ask\">ⓘ</span> not stated on the booking page: ask Uber Boat by Thames Clippers</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> under 5s travel free; kids go free with the Family Pass</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[3].pop_html"
+  },
+  "Fast commuter boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[4].label"
+  },
+  "<strong>High-speed catamarans</strong> with climate-controlled cabins and a covered outdoor deck. Busy with commuters at peak times.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[4].pop_html"
+  },
+  "<strong>Licensed coffee bars on board.</strong> Nothing included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[5].pop_html"
+  },
+  "Is there commentary?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "No, it is public transport. There is a free online river guide instead.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "How often do boats run?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].q"
+  },
+  "Every 10 to 20 minutes from key piers such as Westminster, London Bridge and Greenwich; times vary by pier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "Do kids pay?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].q"
+  },
+  "Under 5s travel free, and kids go free with the Family Pass.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "When is it busiest?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "At rush hour, when commuters use the boats.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "1-day pass": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].small"
+  },
+  "<div class=\"cd-gal\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🍷 #10 Best Showboat Gala Dinner</span><div aria-label=\"Photo gallery 10\" class=\"bpa-slider\" tabindex=\"0\"><img alt=\"London Showboat: Thames Dinner Cruise with Live Music &amp; Dancing\" loading=\"lazy\" sizes=\"(max-width: 479px) 100vw, 461px, 100vw\" src=\"/assets/cdn/652d0405192ba076b04f74a3/67446f40666f1074283d2a2e_Thames%20Evening%20Cruise%20with%20Dinner%20and%20Live%20Entertainment.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/67446f40666f1074283d2a2e_Thames%20Evening%20Cruise%20with%20Dinner%20and%20Live%20Entertainment-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/67446f40666f1074283d2a2e_Thames%20Evening%20Cruise%20with%20Dinner%20and%20Live%20Entertainment-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/67446f40666f1074283d2a2e_Thames%20Evening%20Cruise%20with%20Dinner%20and%20Live%20Entertainment.webp 960w\"/></div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 gallery.raw"
+  },
+  "London Showboat: Thames Dinner Cruise with Live Music &amp; Dancing": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 title.text"
+  },
+  "One sailing at 19:45. 3 hours, back at Westminster.<span class=\"bpa-lang-note\"><b>📍 Westminster Pier:</b> next to the London Eye, Big Ben and Westminster Bridge. Checked on the booking page for Saturday 14 November 2026; times change by season.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[0].pop_html"
+  },
+  "<strong>A 3-course dinner</strong> after a welcome drink.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[1].pop_html"
+  },
+  "<strong>A singer performs classic and contemporary hits.</strong> Dance, or just sit back and listen.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[2].pop_html"
+  },
+  "<strong>A welcome glass of sparkling wine.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[3].pop_html"
+  },
+  "Dinner &amp; dancing": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[5].label"
+  },
+  "<strong>A 3-hour evening out</strong> past the O2, Canary Wharf and City Hall towards the Thames Barrier, then back to Westminster.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[5].pop_html"
+  },
+  "From Westminster towards the Thames Barrier and back, past the O2, Canary Wharf and City Hall.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "A welcome glass of sparkling wine, a 3-course dinner and live music.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "3 hours, leaving Westminster Pier at 19:45.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "4.3 on GetYourGuide and 4.1 on Viator and Tripadvisor.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  }
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "format": 1,
+ "lang": "ja",
+ "comment": "Where each harvested entry of ja.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "ja/ロンドンのテムズ川クルーズ/index.html",
+ "english_version": "6783fce8 2026-11-18",
+ "match_score": 2.944,
+ "entries": {
+  "🏆 #1 Best Sightseeing Overall": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Thames River Sightseeing": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 1 Hour": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Westminster Pier": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 30
+  },
+  "for the classic Westminster to Greenwich route past the Tower of London and Tower Bridge.": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "How far does it go?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 2
+  },
+  "From £17": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "Booked securely via Tiqets": {
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 4
+  },
+  "London Eye": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3,
+   "alternatives": ["ロンドンアイ"]
+  },
+  "⏱️ 45 min": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 2
+  },
+  "📍 London Eye Pier": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "8.2k+ reviews · 3 sites": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Hourly 10:45–17:45": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "if you are already at the London Eye and want a short river loop.": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a longer trip: about 45 minutes on a circular route.": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Can I bring a stroller?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "Where do I board?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1,
+   "alternatives": ["どこから乗船しますか？"]
+  },
+  "From £16": {
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "🥉 #3 Best Hop-On Hop-Off": {
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "London City Cruises": {
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 19
+  },
+  "24-hour hop-on hop-off": {
+   "source": "ja page vs EN 6783fce8 #content/div[0]/details[4]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "for a 24-hour hop-on hop-off ticket between Westminster, the London Eye, the Tower and Greenwich.": {
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in peak summer: popular sailings fill up fast.": {
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £25": {
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "⚡ #4 Best Speedboat Thrill": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Thames Rockets": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 50 Min": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "9.1k+ reviews · 3 sites": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Hourly 10:00–15:00": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "880bhp speedboat": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Life jackets": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a fast, fun speedboat ride past Tower Bridge.": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you are pregnant or have back or neck issues.": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £65": {
+   "source": "ja page vs EN 6783fce8 card-4/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "Thames Ribs": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 70 Min": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "Thames Barrier run": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Live commentary": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Ponchos &amp; life jackets": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a longer 70-minute speedboat run all the way to the Thames Barrier.": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you hate getting wet: expect spray on breezy days.": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £75": {
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "🍽️ #6 Best Value Lunch Cruise": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "📍 Tower Millennium Pier": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "2-course lunch": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a relaxed lunch on the river with Tower Bridge views.": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you are staying near Westminster: it boards at Tower Pier.": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1,
+   "alternatives": ["何が含まれていますか？"]
+  },
+  "From £53": {
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "⏱️ 2 hours": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 5
+  },
+  "1 glass of sparkling wine": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Canapés": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for an evening cruise with bubbly and canapés.": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a full meal: it is canapés, not dinner.": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £40": {
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "470+ reviews · 3 sites": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Live jazz band": {
+   "source": "ja page vs EN 6783fce8 #content/div[0]/details[9]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "3-course dinner": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Welcome sparkling wine": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a 3-hour dinner cruise with a live jazz band.": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "on a tight budget: from £109, and the lowest rated cruise here.": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £109": {
+   "source": "ja page vs EN 6783fce8 card-8/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "Thames Clippers": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "1.8k+ reviews · 3 sites": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "1-day hop-on hop-off": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "No commentary": {
+   "source": "ja page vs EN 6783fce8 #content/div[0]/details[10]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Food &amp; drinks to buy": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for using the river as fast transport and hopping off anywhere.": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want commentary: it is public transport, not a tour.": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From £28": {
+   "source": "ja page vs EN 6783fce8 card-9/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  },
+  "Live music &amp; dancing": {
+   "source": "ja page vs EN 6783fce8 card-10/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a full evening of dinner, live music and dancing.": {
+   "source": "ja page vs EN 6783fce8 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "From £79": {
+   "source": "ja page vs EN 6783fce8 card-10/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 4
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "31k+ reviews · 4 sites",
+   "tr": "3.1万件以上のレビュー · 4サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "🥈 #2 Runner-Up Sightseeing",
+   "tr": "🥈 #2 第2位 定番クルーズ",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-2/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "5.3k+ reviews · 3 sites",
+   "tr": "5300件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "⚡ #5 Runner-Up Speedboat",
+   "tr": "⚡ #5 第2位 スピードボート",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[0]/span[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "1.7k+ reviews · 3 sites",
+   "tr": "1700件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "3.8k+ reviews · 3 sites",
+   "tr": "3,800件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "3.6k+ reviews · 3 sites",
+   "tr": "3600件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "5k+ reviews · 3 sites",
+   "tr": "5000件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "if three hours on board feels too long.",
+   "tr": "船上で3時間は長いと感じるなら避けて。",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 card-10/div[0]/div[1]/div[4]/text()[1]"
+  },
+  {
+   "en": "3.8k+ reviews · 3 sites",
+   "tr": "3800件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 6783fce8 #content/div[0]/details[7]/summary[0]/div[0]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "format": 1,
+ "lang": "cs",
+ "comment": "Entries of cs.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "4.4k+ reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.ratings.meta"
+  },
+  "<strong>A 45-minute loop under Charles Bridge</strong> into the Čertovka (Devil's Channel) on Kampa Island, past the Grand Priory Mill, then along the Malá Strana bank.<span class=\"bpa-lang-note\">Small wooden boats, so you sit close to the water.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> small open boats, not suitable for wheelchair users</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "Do I need to book a time?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].q"
+  },
+  "No. Boats leave every 15 minutes in the daytime from the pier at the Old Town end of Charles Bridge: show your ticket and board the next one.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "What is included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].q"
+  },
+  "The cruise, a drink (beer, lemonade, tea or coffee, mulled wine in winter), gingerbread or ice cream in summer, Charles Bridge Museum entry and audio in 19 languages.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Where is the pier?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].q"
+  },
+  "Křižovnické náměstí 3, Prague 1, at the Old Town end of Charles Bridge, next to the Charles Bridge Museum. Tram stop Karlovy lázně.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Does it run in the evening?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].q"
+  },
+  "No, these are daytime boats. For the lit-up Castle, book the evening cruise (#2).": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Can I cancel?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].q"
+  },
+  "Yes, for free up to 24 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "45 min, drink, museum entry": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "2 adults": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.total.label"
+  },
+  "The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "<b>Free cancellation</b> up to 24 hours before": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[0]"
+  },
+  "<b>Mobile ticket</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[1]"
+  },
+  "44k+ reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.ratings.meta"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Mobility:</b> not step-free, not suitable for people with mobility impairments</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "When should I go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "Before 20:00 if you can. Between 20:00 and 22:00 boats fill up, and a full boat means you take the next one on the same ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Is a drink included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "No, nothing beyond the cruise. There is a bar on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "What do I see?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "The Rudolfinum, Charles Bridge, Kampa Island and Prague Castle, all floodlit, in 50 minutes on a quiet electric boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Is there commentary?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].q"
+  },
+  "Yes: audio in Czech, English and German, a printed guide in 16 languages and an app in 13.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "50 min, evening": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "2.2k+ reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.ratings.meta"
+  },
+  "Do I have to take the dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].q"
+  },
+  "No: €49 is the cruise and concert, €80 adds a 3-course dinner. You pick your main course at checkout.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "What is on the menu?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "Are drinks included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "No, drinks are ordered on board, even with the dinner ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Is there commentary on the sights?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "No. It is a concert on the water: three live jazz sets over 2.5 hours.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "When does it leave?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "At 19:30, with boarding from about 15 minutes before. The exact pier is on your booking confirmation.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "per adult, from": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.sub"
+  },
+  "Cruise + concert": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].label"
+  },
+  "2.5 hours, live jazz": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "With 3-course dinner": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[1].label"
+  },
+  "drinks extra": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[1].small"
+  },
+  "2 adults with dinner": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.total.label"
+  },
+  "7.2k+ reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.ratings.meta"
+  },
+  "Is a window seat worth it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "It costs €20 more (€99 instead of €79). With glass all round, the middle seats lose less of the view than on an ordinary boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "What is on the buffet?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].q"
+  },
+  "Hot and cold Czech and international dishes, salads and desserts, with vegetarian and vegan options. A welcome drink is included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Are other drinks included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "No, only the welcome drink. Other drinks are paid on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "How long is it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "3 hours, the longest dinner cruise here: it leaves the Čech Bridge pier at 19:00 and is back around 22:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Yes, for free up to 72 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].a"
+  },
+  "Middle seat": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].label"
+  },
+  "buffet, welcome drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "Window seat": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].label"
+  },
+  "guaranteed": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[1].small"
+  },
+  "2 adults, window seats": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.label"
+  },
+  "<b>Free cancellation</b> up to 72 hours before": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 cta.trust[0]"
+  },
+  "3.3k+ reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.ratings.meta"
+  },
+  "Mostly accessible": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> most of the boats on this cruise are wheelchair-accessible</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "A buffet lunch, an aperitif, live accordion music, app audio in 6 languages and Wi-Fi. Other drinks are extra.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "Once a day at 12:00 from Pier 3 under Čech Bridge, back around 14:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Is it wheelchair accessible?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].q"
+  },
+  "Mostly: most of the boats on this cruise are wheelchair-accessible, which is rare on the Vltava.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "How is it different from the dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "Same glass boats and buffet style, €30 cheaper, with daylight views that are better for photos.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "2 hours, buffet lunch": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "€10 extra": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].small"
+  },
+  "3k+ reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 reviews.ratings.meta"
+  },
+  "Is the guide live?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].q"
+  },
+  "Yes, a live guide on board speaks Czech and English, so you can ask questions.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "How is it different from #1?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].q"
+  },
+  "Same Devil&rsquo;s Channel route and price (€22), from the bigger Čech Bridge pier, with a live guide but no drink, snack or museum ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "Does it run in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "Yes, on a heated, closed-top boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Do I need a time slot?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].q"
+  },
+  "Yes, it sails at fixed daytime times: pick a slot when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "45 min, live guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].small"
+  },
+  "10k+ reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 reviews.ratings.meta"
+  },
+  "Foldable only": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Strollers and wheelchairs:</b> must be foldable</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].pop_html"
+  },
+  "Which languages is the audio in?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "24, including Polish, Hungarian, Japanese, Korean, Hindi, Arabic, Hebrew and Ukrainian.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "What do I need for the audio?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Your phone and headphones: it plays through the boat&rsquo;s Wi-Fi via a QR code on the table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "Where is Pier 17?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].q"
+  },
+  "On Dvořákovo nábřeží near Štefánik Bridge, about 15 minutes&rsquo; walk north of Charles Bridge. Check the number: several operators share this stretch.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "Is it good with small kids?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].q"
+  },
+  "Yes, it is short (50 minutes) and easy. Strollers must be foldable.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "50 min, 24-language audio": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].small"
+  },
+  "2.3k+ reviews · 2 sites": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 reviews.ratings.meta"
+  },
+  "What makes it different?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "It is the only cruise here that goes through a lock: the Smíchov lock, then up to Vyšehrad Rock and back past Charles Bridge and the Castle.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "Is it good value?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "The best per hour for sightseeing: €28 for 2 hours, €14 an hour.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Is there a guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].q"
+  },
+  "No live guide: online commentary and a map, plus a paper map and an info booklet.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "No, drinks are from the bar on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "2 hours, through the lock": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].small"
+  },
+  "2.5k+ reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 reviews.ratings.meta"
+  },
+  "Is there an age limit?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "Yes, 18+ only. Bring a valid ID.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "A welcome shot, international DJs, a party guide, sparklers, a photographer and entry to EPIC Club after the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "Is there a dress code?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].q"
+  },
+  "Smart casual, for the club.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "At 20:00 from Dvořákovo nábřeží, for 2 hours on the boat before the club.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "per adult, 18+": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.sub"
+  },
+  "2 hours + EPIC Club": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].small"
+  },
+  "38 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 reviews.ratings.meta"
+  },
+  "Is hotel pickup included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "Yes, a driver takes you from your hotel to the boat. It is one-way, so you make your own way back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "The private boat, an English-speaking captain-guide, a bottle of Czech sparkling wine and other drinks, and music on request. Food is not included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "How much does it cost?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "It is priced per person and gets cheaper as the group grows: €303 for a solo booking on a Saturday, from €156 each for more guests.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "Is it good for a proposal?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "Yes: you have the boat and the captain to yourselves for 1 hour, with sparkling wine on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "Group booking": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].label"
+  },
+  "Solo booking": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[1].label"
+  },
+  "Saturday": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[1].small"
+  }
+ }
+}

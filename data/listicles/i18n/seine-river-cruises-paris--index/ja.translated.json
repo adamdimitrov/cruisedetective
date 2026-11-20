@@ -1,0 +1,979 @@
+{
+ "format": 1,
+ "lang": "ja",
+ "comment": "Entries of ja.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "Bateaux Parisiens boat passing Pont Alexandre III with the Eiffel Tower behind": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 gallery.photos[0][0][1]"
+  },
+  "Pont Alexandre III seen from the top deck": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 gallery.photos[2][1][1]"
+  },
+  "📍 Port de la Bourdonnais (Eiffel Tower)": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 kicker[2].map"
+  },
+  "Bateaux Parisiens Sightseeing Cruise with Audio Guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 title.text"
+  },
+  "Every 20–45 min · 10:00–23:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].label"
+  },
+  "<strong>No time slot needed.</strong> First boat 10:00 (10:30 on winter weekdays), last 21:40 to 23:00 depending on season and day. Until 18 December: Monday to Thursday 10:30 to 21:40, Friday to 22:00, weekends from 10:00. In July and August boats leave every 30 minutes, every 20 minutes in the evening, until 23:00. Show up any time on your chosen day and board the next boat. Boats every 30 minutes in summer, every 45 to 60 minutes in winter.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].pop_html"
+  },
+  "<strong>Port de la Bourdonnais, next to the Eiffel Tower.</strong> Go to Zone 3.1 for the bag check, then wait in the covered area with vending machines.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "Wheelchair: lower deck": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> ramps to the lower deck; the top deck and the toilets are not accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on the lower deck</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, half price for 4–11</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "<strong>A 1-hour loop from the Eiffel Tower and back.</strong> Upstream past the Louvre to Notre-Dame and the islands, then back to the tower. About 20 landmarks, including Pont Alexandre III, Musée d&rsquo;Orsay, the Conciergerie and Hôtel de Ville.<span class=\"bpa-lang-note\">Same loop as most sightseeing cruises here (#2, #3, #6, #8, #11). What differs is the boat, not the route.</span><span class=\"bpa-lang-note\"><a href=\"#cruise-itinerary\">See the route map ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "for your first cruise: boats every 20 to 45 minutes, right at the tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.pick_html"
+  },
+  "Which deck has the best view?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].q"
+  },
+  "The open top deck, with 360° views, but its benches face sideways and have no backrests. Downstairs, take a window seat: you see little from the middle seats.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Which audio guide should I use?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].q"
+  },
+  "The free smartphone guide in your browser (11 languages, no app to download), so bring earbuds. The wired seat handsets sound like an old phone, and the live commentary is hard to follow outside French.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Do I need to book a time?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].q"
+  },
+  "No. Show up any time on your chosen day and board the next boat: every 30 minutes in summer, every 45 to 60 minutes in winter.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Can I get food or drinks?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].q"
+  },
+  "Only from the vending machines on the lower deck, next to the toilet.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Is it wheelchair friendly?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].q"
+  },
+  "Partly. Ramps reach the lower deck, but the top deck and the toilets are not accessible, and the lower deck has a few single steps.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].a"
+  },
+  "Under 4": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[2].label"
+  },
+  "2 adults + 2 kids (4–11)": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.label"
+  },
+  "Was €20, now 10% off. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.note"
+  },
+  "<b>Free cancellation</b> until the day before, full refund": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 cta.trust[0]"
+  },
+  "<b>Instant mobile ticket</b>, a QR code on your phone": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 cta.trust[1]"
+  },
+  "🥈 #2 Runner-Up": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 gallery.rank.text"
+  },
+  "Bateaux Mouches Classic Open-Air Seine Sightseeing Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 title.text"
+  },
+  "Every 30–45 min · 10:00–22:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[0].label"
+  },
+  "<strong>Every seat faces forward.</strong> Upstairs: rows of chairs three wide, with backrests and 360° views. Downstairs: indoor and outdoor rows, with less of a panorama.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> the lower deck has room for wheelchairs</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €8 for 4–12</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "<strong>A huge open top deck with 360° views.</strong> The boats take up to 1,000 passengers, so they can get crowded, but there is room for everyone.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "Are the seats front-facing?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "Yes, on both decks. Upstairs you get rows of chairs with backrests and 360° views, so no turning your head as on the sideways benches of #1.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "How far is it from the Eiffel Tower?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "About 15 minutes on foot. The pier is at Pont de l'Alma (Port de la Conférence), next to Alma-Marceau metro.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Is there a long security check?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "There was none when I went. You queue in the large building, scan your ticket and wait in a covered area or an air-conditioned lounge.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Day or evening?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].q"
+  },
+  "Both work. After dark the crew switches off the cabin lights, so there is no glare on the windows downstairs. The Eiffel Tower sparkles for 5 minutes at the start of every hour after dark.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "Is it good with kids?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].q"
+  },
+  "It is my best-value family pick: kids 4–12 pay €8, under 4 ride free, and there is a toilet and stroller access on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].a"
+  },
+  "2 adults + 2 kids (4–12)": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.total.label"
+  },
+  "Was €20, now 15% off. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.note"
+  },
+  "📍 Port de Suffren (Eiffel Tower)": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 kicker[2].map"
+  },
+  "Evenings · 19:30–23:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].label"
+  },
+  "<strong>Pick a slot when booking, but you&rsquo;re not tied to it.</strong> In my experience you can board another evening departure that day. Sailings run from 19:30 to about 23:00 in season, with fewer departures in winter.<span class=\"bpa-lang-note\">Free to change your date or time until the day before.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].pop_html"
+  },
+  "<strong>French songs play over the loudspeakers instead of spoken commentary.</strong> For commentary, use the free app and bring earbuds.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "Wheelchair access": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> on the lower deck</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €13 for 4–11</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "Is there a guide on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].q"
+  },
+  "No spoken commentary on this sailing: French songs play instead. A free app in 9 languages plays commentary at each sight using your phone's GPS, so bring earbuds.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Can I get a drink?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "Yes, there is a bar in the indoor middle section of the boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Is it calmer than the big boats?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "Yes. The boats take about 220 people, against 400 on Bateaux Parisiens (#1) and up to 1,000 on Bateaux Mouches (#2).": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Can I change my time?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "You pick a slot when booking, but in my experience you can board another evening departure that day. Changing the date or time is free until the day before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "Where do I board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[1].q"
+  },
+  "Port de Suffren, right next to Bateaux Parisiens at the Eiffel Tower. Find the ticket office: the boarding area is next to it.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "Inside the single-deck Batobus": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 gallery.photos[7][1][1]"
+  },
+  "Every 25–40 min · 10:00–19:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].label"
+  },
+  "<strong>Unlimited rides for 24 or 48 hours.</strong> Boats run from 10:00 to 19:00. Hop on and off at any of the 9 stops whenever you like. Boats come every 25 to 40 minutes.<span class=\"bpa-lang-note\">No time slot to book.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].pop_html"
+  },
+  "<strong>No commentary on board.</strong> A crew member announces the stops in English and French.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "Not wheelchair accessible": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[2].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-no\">✕</span> no toilet on board</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4, €13 for 4–11</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "<strong>9 stops along the Seine, each near a major sight.</strong> Get on and off as often as you like while your pass is valid.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "<strong>One deck: a glass cabin plus a small open-air area at the back.</strong> On sunny days it can get hot and glary inside; the windows open in the warmer months.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "if you want a sightseeing cruise: there&rsquo;s no commentary, and views are limited from its single deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.skip_html"
+  },
+  "Is it a sightseeing cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "Not really. It is a river shuttle: no commentary, one deck, and many seats face sideways or inward. For sightseeing, #1 or #2 is the better ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "How often do boats come?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].q"
+  },
+  "Every 25 to 40 minutes. When I checked, they ran from 10:00 to 19:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Is there a toilet on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "No, and there is no bar or vending machine either.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Where can I get on?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "At any of the 9 stops. I boarded at Notre-Dame, which has an indoor ticket office; the pass works at every stop.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Can I bring a stroller?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].q"
+  },
+  "Yes, strollers are fine. Wheelchairs are not: the boat is not wheelchair accessible.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].a"
+  },
+  "per adult (24h)": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.sub"
+  },
+  "24-hour pass. Pick 24h or 48h on the booking page. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.note"
+  },
+  "St. Martin Canal &amp; Seine River Cruise (Paris Canal)": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 title.text"
+  },
+  "2 sailings · 10:00–14:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[0].label"
+  },
+  "<strong>Set departure time, 2.5-hour cruise.</strong> Runs daily from May to August and on selected days the rest of the year.<span class=\"bpa-lang-note\">Departures were at 10:00 and 14:30 when I tested it.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[0].pop_html"
+  },
+  "<strong>A live guide in English and French</strong> who also answers questions.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[1].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-yes\">✓</span> strollers allowed</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-yes\">✓</span> a clean toilet downstairs</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4; children, teens and seniors €15–20</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[2].pop_html"
+  },
+  "<strong>Locks on the Canal Saint-Martin.</strong> Expect some waiting at each one while the water level changes.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[3].pop_html"
+  },
+  "<strong>A mile-long underground tunnel under Bastille.</strong> The cruise ends on the Seine by the Musée d'Orsay, or starts there if you book the other direction.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[4].pop_html"
+  },
+  "Does it pass the Eiffel Tower?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].q"
+  },
+  "No. It runs between Parc de la Villette and the Musée d'Orsay, so you see the canal, not the tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "Which direction should I book?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].q"
+  },
+  "Either: from Parc de la Villette to Orsay or the other way round. The ticket is one-way, so plan your trip back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "When does it sail?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "Fixed departures, at 10:00 and 14:30 when I tested it. It runs daily from May to August and on selected days the rest of the year.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "Is 2.5 hours too long?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "It can feel long: there is real waiting at the locks. The top-deck seats face sideways, and a few heated seats are in the captain's cabin.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "Yes. A small bar downstairs sells hot drinks and snacks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "Child, teen, senior": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[1].label"
+  },
+  "🎙️ #6 Best Live Guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 gallery.rank.text"
+  },
+  "Vedettes de Paris electric boat on a guided Seine cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 gallery.photos[6][0][1]"
+  },
+  "Vedettes de Paris Guided Seine Cruise on an Electric Boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 title.text"
+  },
+  "1.1k+ reviews · 1 site": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 reviews.ratings.meta"
+  },
+  "Time slot · 1 h": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[0].label"
+  },
+  "<strong>You book a time slot.</strong> Arrive 20 minutes early.<span class=\"bpa-lang-note\">The listing does not publish its hours: the sailing times show when you pick a date on the booking page.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[0].pop_html"
+  },
+  "Live English guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[1].label"
+  },
+  "<strong>A live guide on board, in English.</strong><span class=\"bpa-lang-note\">Other languages are on the free audio commentary app (French, Spanish, German, Italian, Dutch and more), so bring earbuds.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[1].pop_html"
+  },
+  "Wheelchair accessible": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[2].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> wheelchair accessible, as listed</span><span class=\"bpa-lang-note\">👶 <b>Kids:</b> <span class=\"cd-ask\">ⓘ</span> child prices show on the booking page</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[2].pop_html"
+  },
+  "100% electric boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[3].label"
+  },
+  "<strong>A quiet, 100% electric boat.</strong> Sit in the cabin or on the open top deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[3].pop_html"
+  },
+  "Champagne option": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[4].label"
+  },
+  "<strong>Port de Suffren, next to the Eiffel Tower.</strong> Go down the steps to the three big red, white and blue Vedettes de Paris flags.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[5].pop_html"
+  },
+  "for a live guide explaining Paris, on a quiet electric boat from the Eiffel Tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 best_for.pick_html"
+  },
+  "if you want commentary in another language: the live guide speaks English, other languages are on the app.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 best_for.skip_html"
+  },
+  "Is the guide live?": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[0].q"
+  },
+  "Yes, a live guide on board speaks English. Other languages are on the free audio app, so bring earbuds.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[0].a"
+  },
+  "Port de Suffren, next to the Eiffel Tower: go down the steps to the three big red, white and blue Vedettes de Paris flags. Arrive 20 minutes early.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[1].a"
+  },
+  "Inside or outside?": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[2].q"
+  },
+  "Both: there is a cabin and an open top deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[2].a"
+  },
+  "Can I add a drink?": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[3].q"
+  },
+  "Can I cancel?": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[4].q"
+  },
+  "Yes, cancelling and rescheduling are free until 23:59 the day before your visit.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[4].a"
+  },
+  "Child prices are shown on the booking page. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.note"
+  },
+  "<b>Free rescheduling</b> until the day before": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 cta.trust[1]"
+  },
+  "👑 #7 Best Private Yacht": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 gallery.rank.text"
+  },
+  "Paris Seine River Private Boat Cruise with Champagne": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 title.text"
+  },
+  "Any start · 11:30–21:30": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].label"
+  },
+  "<strong>You book a private start time.</strong> Start times from 11:30 to 21:30, every day. The boat is yours for the full cruise from that time.<span class=\"bpa-lang-note\">Running late? The skipper waits up to 60 minutes, though the cruise gets shorter.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].pop_html"
+  },
+  "<strong>A bottle of Champagne or wine is included.</strong> You can also bring your own snacks and drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "No toilet on board": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-no\">✕</span> not wheelchair accessible</span><span class=\"bpa-lang-note\">👶 <b>Stroller:</b> <span class=\"cd-no\">✕</span> no strollers</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> <span class=\"cd-no\">✕</span> no toilet on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>Your own captain and no other passengers.</strong> Play your own music on the Bluetooth sound system.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "<strong>The boat is yours: €399 for 1–4 guests, €520 to €660 for 5–8.</strong> All boats now have a roof against sun or rain.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "How many people fit?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "Is there a toilet?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].q"
+  },
+  "No. The boats are small, so there is no restroom on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "What if we are late?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].q"
+  },
+  "The skipper waits up to 60 minutes, but the cruise gets shorter.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Can we bring food and drinks?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "Yes, bring your own snacks and drinks. A bottle of Champagne or wine is included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "Where does it start and end?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].q"
+  },
+  "At Port de Javel Haut in the 15th arrondissement. You come back there or get off near the Louvre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].a"
+  },
+  "Boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].label"
+  },
+  "1–4 guests": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "5–8 guests": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].small"
+  },
+  "🗼 #8 Best Eiffel Tower Combo": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 gallery.rank.text"
+  },
+  "Eiffel Tower visit and Bateaux Mouches Seine cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 gallery.photos[4][0][1]"
+  },
+  "Eiffel Tower + Bateaux Mouches": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 kicker[0]"
+  },
+  "⏱️ Tower + 1h 10m cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 kicker[1]"
+  },
+  "📍 Eiffel Tower &amp; Pont de l'Alma": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 kicker[2].map"
+  },
+  "Eiffel Tower 2nd Floor (Summit Option) + Bateaux Mouches Seine Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 title.text"
+  },
+  "260+ reviews · 1 site": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 reviews.ratings.meta"
+  },
+  "Cruise · 10:00–22:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[0].label"
+  },
+  "2nd floor by elevator": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[1].label"
+  },
+  "<strong>Reserved entry with elevator access to the 1st and 2nd floors</strong>, with a live guide. The summit is included only if you pick that option.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[1].pop_html"
+  },
+  "<strong>Cruise commentary:</strong> <span class=\"bpa-lang-names\">English, Chinese, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish</span><span class=\"bpa-lang-note\">Route map in 25 languages, picked up before boarding.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[2].pop_html"
+  },
+  "Two meeting points": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[3].label"
+  },
+  "<strong>Tower:</strong> 41 Avenue de la Bourdonnais. <strong>Cruise:</strong> Port de la Conférence by Pont de l'Alma, about 15 minutes on foot.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[3].pop_html"
+  },
+  "to do the Eiffel Tower and the river in one booking, with a live guide at the tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 best_for.pick_html"
+  },
+  "if you only want the cruise: #2 is the same boat for €17.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 best_for.skip_html"
+  },
+  "Is the summit included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[0].q"
+  },
+  "Only if you choose the summit option. The base ticket covers the 1st and 2nd floors by elevator.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[0].a"
+  },
+  "Which boat is the cruise?": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[1].q"
+  },
+  "Bateaux Mouches (#2 on this page): the open-air boat from Pont de l'Alma, with commentary in 10 languages.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[1].a"
+  },
+  "How far apart are they?": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[2].q"
+  },
+  "The tower is at 41 Avenue de la Bourdonnais; the Bateaux Mouches pier at Pont de l'Alma is about 15 minutes on foot.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[2].a"
+  },
+  "Is there a guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[3].q"
+  },
+  "Yes, a live guide for the tower visit. The cruise has recorded commentary.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[3].a"
+  },
+  "The seller says you save up to 17% against buying the tickets separately.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 faq.items[4].a"
+  },
+  "2nd floor": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 price.rows[0].small"
+  },
+  "The summit option costs extra. Child prices are shown on the booking page. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 price.note"
+  },
+  "<b>Reserved entry</b> to the Eiffel Tower, by elevator": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 cta.trust[0]"
+  },
+  "<b>Instant booking</b>, digital tickets by email": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 cta.trust[1]"
+  },
+  "Paris 3-Course Gourmet Lunch Cruise with Live Music": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 title.text"
+  },
+  "⏱️ 2 Hours (12:45 PM)": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 kicker[1]"
+  },
+  "<strong>One sailing a day.</strong> Check-in 12:15, departure 12:45, back at the quay 14:45.<span class=\"bpa-lang-note\">Plan to arrive by 12:15 for check-in.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[0].pop_html"
+  },
+  "<strong>A freshly prepared 3-course French lunch at white-tablecloth tables</strong>, with a kir aperitif, wine, water and coffee. Champagne and cheese depend on the package (Premier, Privilege or Étoile).": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[1].pop_html"
+  },
+  "<strong>A live singer with an accordionist</strong> plays during lunch.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[2].pop_html"
+  },
+  "if your plans are loose: one sailing a day, at 12:45.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 best_for.skip_html"
+  },
+  "What time is it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "One sailing a day: check-in 12:15, departure 12:45, back at the quay at 14:45.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "What is included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "Three courses with a kir aperitif, wine, water and coffee. Champagne and cheese depend on the package you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Is there a dress code?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].q"
+  },
+  "Smart casual.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "Why lunch instead of dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "Daylight views at nearly half the price of a dinner cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "How far does it go?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[4].q"
+  },
+  "Further than the 1-hour cruises: past Notre-Dame to the French National Library, then back past Les Invalides and the French Parliament.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[4].a"
+  },
+  "Lunch": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].label"
+  },
+  "The price depends on the package (Premier, Privilege or Étoile). Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.note"
+  },
+  "🦆 #10 Most Unusual": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 gallery.rank.text"
+  },
+  "Les Canards de Paris amphibious bus on the Seine": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 gallery.photos[7][0][1]"
+  },
+  "📍 Place Jacques Rueff (Champ de Mars)": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 kicker[2].map"
+  },
+  "Paris Amphibious Bus Tour: by Road and on the Seine": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 title.text"
+  },
+  "45 reviews · 1 site": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 reviews.ratings.meta"
+  },
+  "Time slot · 1 h 55": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[0].label"
+  },
+  "<strong>You book a departure time.</strong> Be at the start 15 minutes early: latecomers may not be able to board.<span class=\"bpa-lang-note\">The listing does not publish its hours, and the start and end points change with the time of year: check your ticket.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[0].pop_html"
+  },
+  "Live guide EN/FR": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[1].label"
+  },
+  "<strong>A live guide in English and French.</strong> No audio guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[1].pop_html"
+  },
+  "About 20 min afloat": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[2].label"
+  },
+  "<strong>The bus drives into the Seine and floats for about 20 minutes</strong> past the Seine Musicale, Parc de Saint-Cloud and the Bois de Boulogne, with La Défense's towers in view.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[2].pop_html"
+  },
+  "Eiffel Tower to Arc de Triomphe": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[3].label"
+  },
+  "Ages 2 and up": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[4].label"
+  },
+  "for something different: a bus that drives into the Seine, with a live guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 best_for.pick_html"
+  },
+  "if you want the classic river views: only about 20 minutes are on the water, west of the centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 best_for.skip_html"
+  },
+  "How long is it on the water?": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[0].q"
+  },
+  "About 20 minutes of the tour, after the big splash into the Seine.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[0].a"
+  },
+  "Can toddlers come?": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[1].q"
+  },
+  "No, children under 2 are not allowed.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[1].a"
+  },
+  "Where does it start?": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[2].q"
+  },
+  "Place Jacques Rueff by the Champ de Mars, 12 minutes on foot from RER C Champ de Mars - Tour Eiffel. Points can change by season, so check your ticket.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[2].a"
+  },
+  "What language is the guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[3].q"
+  },
+  "English and French, live.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[3].a"
+  },
+  "Yes, free up to 72 hours before, with a full refund. Rescheduling is possible until 72 hours before too.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 faq.items[4].a"
+  },
+  "Ticket": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 price.rows[0].label"
+  },
+  "Children under 2 are not allowed. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 price.note"
+  },
+  "<b>Smartphone ticket</b>, show it to the driver": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 cta.trust[1]"
+  },
+  "#11 Best Crêpe Combo": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 gallery.rank.text"
+  },
+  "<strong>A warm crêpe: sugar, lemon, or chocolate/Nutella.</strong> It is made at Trocadéro Square, open 10:00 to 23:30, before or after the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[1].pop_html"
+  },
+  "<strong>Sails on Bateaux Parisiens' panoramic trimarans</strong>, with the 14-language audio guide.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].pop_html"
+  },
+  "Where do I get the crêpe?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "At Trocadéro Square, across the river from the pier, open 10:00 to 23:30. Have it before or after the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "Which crêpe can I pick?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Sugar, lemon, or chocolate/Nutella.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "How much more than a plain ticket?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].q"
+  },
+  "About €7 more than a plain Bateaux Parisiens ticket (#1), crêpe included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "Is there an audio guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[4].q"
+  },
+  "Yes, in 14 languages, on the seat handsets or on your smartphone.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[4].a"
+  },
+  "Up to 8. You pay per boat: €399 for 1–4 guests, €520 to €660 for 5–8.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "<strong>On land:</strong> the Eiffel Tower, Les Invalides, Pont Alexandre III, the Petit and Grand Palais, the Champs-Élysées, the Arc de Triomphe and Trocadéro.": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 pills[3].pop_html"
+  },
+  "Pont Alexandre III from the river": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 gallery.photos[6][0][1]"
+  },
+  "<strong>A medium-sized double-decker for about 220 passengers.</strong> Open top deck with 360° views and forward-facing chairs; indoor seats and a bar downstairs.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "for a second visit: locks and a tunnel under Bastille.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 best_for.pick_html"
+  },
+  "<strong>Add a glass of Champagne or a snack when you book</strong>; you collect it on the boat. Otherwise food and drinks are not included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 pills[4].pop_html"
+  },
+  "Yes, a glass of Champagne or a snack can be added when you book. You collect it on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 faq.items[3].a"
+  },
+  "per private boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.sub"
+  },
+  "The price is for the whole boat, not per person. Final price shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.note"
+  },
+  "<strong>Tower:</strong> reserved entry. <strong>Cruise:</strong> Bateaux Mouches from Pont de l'Alma, every 30 minutes from 10:00 to 22:00 (April to September); October to March every 45 minutes until 16:00, then every 30 minutes until 21:30.": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 pills[0].pop_html"
+  },
+  "<strong>Ticket valid for a month.</strong> Sailings from 10:00 to 22:00. Do the cruise and the crêpe in either order. Boats every 30 minutes (every 45 minutes from October to March). The crêpe is made at Trocadéro Square, across the river, open 10:00 to 23:30.<span class=\"bpa-lang-note\">Running late or the plan changes? Your ticket still works later that day.</span><span class=\"bpa-lang-note bpa-sparkle\">✨ After dark, the Eiffel Tower sparkles for 5 minutes at the start of every hour. Be on the water around the hour to see it.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[0].pop_html"
+  },
+  "No. The ticket is valid for a month; boats leave every 30 minutes (every 45 minutes from October to March).": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "100% Private (Up to 8)": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].label"
+  }
+ }
+}

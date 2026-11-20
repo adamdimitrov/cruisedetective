@@ -1,0 +1,379 @@
+{
+ "format": 1,
+ "lang": "de",
+ "comment": "Entries of de.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users or guests with limited mobility</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "Yes, a live guide on every departure switches between German and English. There is no audio guide in other languages.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Is it good in bad weather?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].q"
+  },
+  "Yes: the glass roof closes in rain, the cabin is heated when it is cold, and there is a toilet on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Reederei Hadynski, Anna-Louisa-Karsch-Straße 2, 10178 Berlin, opposite Berlin Cathedral, near S Hackescher Markt.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Daily from March to December, on MS Carola or MS Franziska.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "1 hour, live guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "2 adults": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.total.label"
+  },
+  "<b>Free cancellation</b> up to 24h before": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 cta.trust[0]"
+  },
+  "Which route does it take?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "Through the centre on the Spree, then back along the Landwehr Canal through Kreuzberg, under about 40 bridges, past the Technikmuseum and Potsdamer Platz.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Which languages is the commentary in?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "German on board, plus an audio guide in 11 languages.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Is it good with small children?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "3 hours 15 minutes is long for small children; a 1-hour loop (#1 or #3) is easier.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Rolandufer 4, 10179 Berlin, near S+U Jannowitzbrücke. Window seats are not guaranteed, so arrive early.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "No, the ticket is non-refundable, so book once your plans are fixed.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  },
+  "3.25 hours, Spree and canal": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "Two Piers": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].label"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "12, the widest choice here; German plays over the speakers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Which pier do I use?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "Friedrichstraße (Reichstagufer, 10117 Berlin) or the Nikolaiviertel: you choose when you book.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Can I bring a dog or a pushchair?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "Yes, pushchairs and dogs on a lead are allowed. It is not wheelchair accessible.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Is there a live guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "No, the commentary is recorded. #1 has a live guide for the same price.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "1 hour, 12-language audio": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "Silent Electric Boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].label"
+  },
+  "What makes this boat different?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "The Hemingway was built in 1908 and restored with a silent electric engine, white tablecloths and a mahogany salon.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "No, drinks are not in the ticket; they are served at your seat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Yes, in German and English, with background music.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "The FLAGSHIP.BERLIN pier at Paul-Löbe-Haus, just below the Reichstag (U Bundestag).": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "1 to 1.5 hours, electric steamship": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "One glass of Crémant or alcohol-free sparkling wine, music and lounge seating on the sundeck. Extra drinks cost more.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "No, just music and views of the central loop past Museum Island and the Berlin Cathedral.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Can I add dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].q"
+  },
+  "On some dates: a 3-course dinner, with the yacht taking you one way to the Patio restaurant ship.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Can I bring my dog?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "Yes, dogs are allowed, but you lose your choice of seat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "75 to 90 min, glass of Crémant": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 1": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[0][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 2": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[1][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 3": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[2][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 4": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[3][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 5": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[4][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 6": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[5][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 7": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[6][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 8": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[7][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 9": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[8][0][1]"
+  },
+  "Seven Lakes Cruise from Wannsee, photo 10": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.photos[9][0][1]"
+  },
+  "⏱️ About 1h 45": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 kicker[1]"
+  },
+  "Seven Lakes Cruise from Wannsee": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 title.text"
+  },
+  "Which lakes does it pass?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].q"
+  },
+  "Wannsee, Pohlesee, Stölpchensee, Griebnitzsee, Glienicker See and Jungfernsee, past lakeside villas, Babelsberg Palace and the Heilandskirche in Sacrow.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "How do I get there?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].q"
+  },
+  "The Wannsee pier, Kronprinzessinnenweg 5, is a 5-minute walk from S Wannsee, about 25 minutes by S-Bahn from the centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "When is it best?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "In summer: in winter the lakes are grey and quiet.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Are food and drinks included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].q"
+  },
+  "No, they are sold on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "about 1h 45, seven lakes": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].small"
+  },
+  "What does it see that other cruises miss?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "It keeps going east past the Mühlendamm lock: under the Oberbaumbrücke, along the East Side Gallery and into the Osthafen past the Molecule Man.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "German and English on board, plus an audio guide in Spanish, French, Italian, Russian, Polish and Hebrew.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "Alte Börse, opposite Burgstraße 27, 10178 Berlin, near S Hackescher Markt.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "2.5 hours, ending back west at the Reichstag and the Hauptbahnhof.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "2.5 hours, East Side": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 price.rows[0].small"
+  },
+  "What will I see?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "Peacock Island, the church at Nikolskoe, Cecilienhof Palace, the Glienicke Bridge, Babelsberg Palace and the Lange Brücke in Potsdam.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "Does it stop in Potsdam?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].q"
+  },
+  "No, you see the palaces from the water; to visit Sanssouci, take the train instead.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "The Wannsee pier, Kronprinzessinnenweg 5, 14109 Berlin, 25 minutes by S-Bahn from the centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "Yes, in German and English over the onboard system.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "3 hours, to Potsdam": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[0].small"
+  },
+  "From Treptow harbour south-east past Oberschöneweide, Köpenick Palace and Friedrichshagen to Müggelsee, Berlin&rsquo;s largest lake.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "Is it good value?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].q"
+  },
+  "The cheapest hour on the water in this list: €21.90 for 3.5 hours, about €6.30 an hour.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "Treptow harbour, Puschkinallee 15, 12435 Berlin, near S Treptower Park.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "Does it pass the city-centre sights?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].q"
+  },
+  "No, it skips the centre entirely.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "Yes, for free up to 24 hours before, and you can reschedule.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].a"
+  },
+  "3.5 hours, to Müggelsee": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 price.rows[0].small"
+  },
+  "Berlin Dinner (from €79.90): a welcome Prosecco, three courses and one drink. Capital Dinner: a fourth course, all drinks and a guaranteed window seat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "At 18:30 from Charlottenburg, for 2.5 hours past Bellevue Palace, the Reichstag, Museum Island and Alexanderplatz.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "Where is the pier?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].q"
+  },
+  "By Wintersteinstraße 24, 10587 Berlin, near U Richard-Wagner-Platz, west of the centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "Can I pay by card on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].q"
+  },
+  "No, the bar takes cash only.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "Prosecco, 3 courses, 1 drink": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.rows[0].small"
+  },
+  "2 adults, Berlin Dinner": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.total.label"
+  },
+  "listing has 8 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 _photo_topup.skip"
+  }
+ }
+}

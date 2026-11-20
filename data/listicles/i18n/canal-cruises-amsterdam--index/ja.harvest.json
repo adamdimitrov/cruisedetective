@@ -1,0 +1,579 @@
+{
+ "format": 1,
+ "lang": "ja",
+ "comment": "Where each harvested entry of ja.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "ja/ベスト運河クルーズ-アムステルダム/index.html",
+ "english_version": "7d212528 2026-11-18",
+ "match_score": 2.935,
+ "entries": {
+  "🏆 #1 BEST OVERALL EXPERIENCE": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Captain Jack": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 1.5 Hours": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Centraal Station / Rijksmuseum": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "9-Language Audio": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio guide:</strong> <span class=\"bpa-lang-names\">Dutch, English, German, French, Italian, Spanish, Portuguese, Japanese, Simplified Chinese</span>. Live commentary from an English-speaking captain.<span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[4]/div[1]",
+   "seen": 2
+  },
+  "Access &amp; kids": {
+   "source": "listicle file thames-river-cruises-london--index/ja.json",
+   "seen": 1
+  },
+  "for a small electric boat with a live captain, plus unlimited drinks and Dutch snacks as an option.": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in deep winter: the boat is insulated, but not heated.": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is there a guide?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1,
+   "alternatives": ["ガイドはいますか？"]
+  },
+  "Where does it leave from?": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "Is there a toilet on board?": {
+   "source": "listicle file seine-river-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "Under 5": {
+   "source": "listicle file thames-river-cruises-london--index/ja.json",
+   "seen": 1
+  },
+  "Booked securely via FareHarbor": {
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 4
+  },
+  "🥈 #2 BEST VALUE SIGHTSEEING": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "⏱️ 1 Hour": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 12
+  },
+  "📍 Prins Hendrikkade 25": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 18
+  },
+  "Every 20–30 min": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "19-Language Audio": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio guide</strong> in English and 18 other languages; live guide in English.<span class=\"bpa-lang-note\">Tiqets does not list the 18 other languages.</span>": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "if you want open air in summer: it is a covered glass boat.": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Under 4": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 4
+  },
+  "🥉 #3 BEST OPEN-BOAT SLOOP": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Also-Great Amsterdam Canal Cruise with Optional Unlimited Cheese/Drinks (Flagship)": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 27
+  },
+  "Flagship": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "📍 Centraal Station / Anne Frank Huis / Rijksmuseum": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "95k+ reviews · 3 sites": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "English guide": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Live guide:</strong> <span class=\"bpa-lang-names\">English</span><span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[4]/div[1]",
+   "seen": 2
+  },
+  "Live skipper &amp; host": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a small saloon boat with a live guide and a cheese and wine option.": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in winter: insulated but not heated, and the cover can leak in the rain.": {
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🎖️ #4 BEST HEATED CLASSIC": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "️ Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "Blue Boat": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 7
+  },
+  "⏱️ 75 min": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 14
+  },
+  "📍 Stadhouderskade 501 (Rijksmuseum)": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Every 30 min · 10:00–18:15": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Audio in 20+ languages": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "if you want a chatty skipper: the audio guide makes for a flatter vibe.": {
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "✨ #5 BEST LUXURY SALON": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "Friendship": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "📍 Oudezijds Voorburgwal 230": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Every 15 min · 12:15–21:45": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Dutch cheese tasting": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Open boat with blankets": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a small open boat with cocktails and snacks in good weather.": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in winter: cold air gets in and the boat is not heated.": {
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Starboard Boats": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "📍 Amstel 178": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "Light Festival fee included": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "No toilet on board": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "to see the Light Festival artworks from the water, drinks included.": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "outside the festival season, or if you want to start at Centraal Station.": {
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "10-Language Audio": {
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>QR audio guide:</strong> <span class=\"bpa-lang-names\">English, Dutch, German, Spanish, French, Italian, Portuguese, Chinese, Japanese, Arabic</span>. Bring your own headphones.<span class=\"bpa-lang-note\">As listed on GetYourGuide.</span>": {
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "Max 28 guests": {
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a lively cruise with friends and unlimited drinks.": {
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you came for the history: it is more party than commentary.": {
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is there commentary?": {
+   "source": "listicle file thames-river-cruises-london--index/ja.json",
+   "seen": 1
+  },
+  "Buddha Lounge Boat": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 60–90 min": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 2
+  },
+  "📍 Prins Hendrikkade 33A": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Amsterdam 420-Friendly Smoke and Lounge Canal Cruise (Buddha Lounge Boat)": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[0]/div[1]/img[0]@alt",
+   "seen": 9
+  },
+  "Every 30 min · 12:30–22:00": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "Heated seats": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Drinks extra": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "for a relaxed lounge boat where smoking is allowed on board.": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you are a non-smoker or want commentary.": {
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Are drinks included?": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "How long is it?": {
+   "source": "listicle file thames-river-cruises-london--index/ja.json",
+   "seen": 1
+  },
+  "Tours &amp; Tickets": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "18:00 · 75 min": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "New York-style pizza": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Beer, wine &amp; soft drinks": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Ice cream": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a casual family cruise with pizza and drinks included.": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a proper dinner: reviews are mixed on Tripadvisor and Viator.": {
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "2.5k+ reviews · 3 sites": {
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 4
+  },
+  "Unlimited beer, wine &amp; soft drinks": {
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "for a 2-hour evening with a 4-course dinner and drinks.": {
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "What is on the menu?": {
+   "source": "listicle file dinner-cruises-paris--index/ja.json",
+   "seen": 1
+  },
+  "What time does it leave?": {
+   "source": "listicle file thames-river-cruises-london--index/ja.json",
+   "seen": 1,
+   "alternatives": ["出発時刻は？"]
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "Best Amsterdam Canal Cruise Overall with Unlimited Food/Drinks (Captain Jack)",
+   "tr": "食べ放題・飲み放題のアムステルダム運河クルーズ（Captain Jack）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[0]@alt"
+  },
+  {
+   "en": "37k+ reviews · 3 sites",
+   "tr": "3.7万件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "<strong>Rijksmuseum dock, all-inclusive:</strong> 11:00, 13:00, 15:00, 17:00, 19:00. <strong>No-drinks cruise:</strong> 14:00, 16:00. 90 minutes.<span class=\"bpa-lang-note\">Captain Jack&rsquo;s GetYourGuide listing, checked for Saturday 14 November 2026.</span>",
+   "tr": "<strong>Rijksmuseum乗り場（オールインクルーシブ）：</strong> 11:00, 13:00, 15:00, 17:00, 19:00. <strong>ドリンクなしクルーズ：</strong> 14:00、16:00。所要時間90分。<span class=\"bpa-lang-note\">Captain JackのGetYourGuide掲載情報（2026年11月14日土曜日分で確認）。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[3]/div[1]"
+  },
+  {
+   "en": "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)",
+   "tr": "アムステルダムの最高の観光専用運河クルーズ（Lover's Canal）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt"
+  },
+  {
+   "en": "Lover's Canal",
+   "tr": "Lover's Canal",
+   "why": "identical to English",
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "27k+ reviews · 4 sites",
+   "tr": "2.7万件以上のレビュー · 4サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Open 09:30–21:00 on the day checked, with departures every 20 to 30 minutes. 1 hour.<span class=\"bpa-lang-note\">Checked on Tiqets on 12 November 2026; hours change by season.</span>",
+   "tr": "確認日の営業時間は09:30–21:00で、20〜30分間隔で出航しています。所要時間は1時間です。<span class=\"bpa-lang-note\">2026年11月12日にTiqetsで確認。運航時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/div[1]"
+  },
+  {
+   "en": "for the cheapest classic hour from Centraal Station, with audio in 19 languages.",
+   "tr": "中央駅発の最安の定番1時間クルーズに。19言語の音声ガイドつき。",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[0]"
+  },
+  {
+   "en": "Cheese &amp; wine (option)",
+   "tr": "チーズ・ワイン（オプション）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "<strong>Central Station:</strong> 19 sailings from 10:30 to 21:15, plus 23:55. <strong>Anne Frank House:</strong> 19 sailings from 11:00 to 21:30, plus 23:55. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "<strong>中央駅：</strong> 10:30〜21:15に19便、さらに23:55便あり。 <strong>アンネ・フランクの家：</strong> 11:00〜21:30に19便、さらに23:55便あり。所要時間1時間。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[3]/div[1]"
+  },
+  {
+   "en": "22k+ reviews · 3 sites",
+   "tr": "2.2万件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Snack box (option)",
+   "tr": "スナックボックス（オプション）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "<strong>Hard Rock Cafe dock:</strong> every 30 minutes from 10:00 to 18:00. <strong>Heineken Experience dock:</strong> 10:15, 11:15, 12:15, 13:15, 14:15, 15:15, 16:15, 18:15. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "<strong>Hard Rock Cafe乗り場：</strong> 10:00〜18:00の間、30分ごとに出航。 <strong>Heineken Experience乗り場：</strong> 10:15、11:15、12:15、13:15、14:15、15:15、16:15、18:15。所要時間75分。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[4]/div[1]"
+  },
+  {
+   "en": "for a covered, all-weather boat by the Rijksmuseum with audio in 20+ languages.",
+   "tr": "：Rijksmuseum近く発着の全天候型屋根付きボートで、20言語以上の音声ガイドが付いています。",
+   "why": "colon added or dropped (old label?)",
+   "source": "ja page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[0]"
+  },
+  {
+   "en": "️ Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)",
+   "tr": "オープンバーオプション付きのもう一つの素晴らしいアムステルダム運河クルーズ（Friendship）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[0]@alt"
+  },
+  {
+   "en": "19k+ reviews · 3 sites",
+   "tr": "1.9万件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Unlimited spritz &amp; prosecco (option)",
+   "tr": "スプリッツ・プロセッコ飲み放題（オプション）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Old Town departures roughly every 15 minutes from 12:15 to 21:45. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "旧市街から12:15〜21:45の間、約15分ごとに出航。所要時間1時間。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[4]/div[1]"
+  },
+  {
+   "en": "Amsterdam Light Festival Canal Cruise with Unlimited Drinks (Starboard Boats)",
+   "tr": "アムステルダム ライト フェスティバル 運河クルーズ（ドリンク飲み放題付き）（Starboard Boats）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[0]/div[1]/img[0]@alt"
+  },
+  {
+   "en": "4.5k+ reviews · 3 sites",
+   "tr": "4500件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Unlimited drinks &amp; snack (option)",
+   "tr": "ドリンク・軽食飲み放題（オプション）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "16:30, 16:45, 17:00, 18:00, 18:15, 18:30, 19:30, 20:00, 20:15, 21:15, 21:30, 21:45. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 5 December 2026, during the festival.</span>",
+   "tr": "16:30、16:45、17:00、18:00、18:15、18:30、19:30、20:00、20:15、21:15、21:30、21:45。所要時間75分。<span class=\"bpa-lang-note\">フェスティバル期間中の2026年12月5日（土）分でGetYourGuide予約カレンダーにて確認済み。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[3]/div[1]"
+  },
+  {
+   "en": "Amsterdam Canal Booze Cruise with Unlimited Drinks Option (Starboard Boats)",
+   "tr": "アムステルダム運河クルーズ（飲み放題オプション付き）（Starboard Boats）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[0]/div[1]/img[0]@alt"
+  },
+  {
+   "en": "12k+ reviews · 3 sites",
+   "tr": "1.2万件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "Open bar (option)",
+   "tr": "オープンバー（オプション）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "14 sailings · 13:00–21:00",
+   "tr": "1日14便 · 13:00–21:00",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]"
+  },
+  {
+   "en": "From Dam Square: 13:00, 13:30, 15:00, 16:00, 16:30, 17:45, 18:00, 18:45, 19:00, 19:30, 19:45, 20:00, 20:30, 21:00. 1 hour.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "Dam Square発：13:00、13:30、15:00、16:00、16:30、17:45、18:00、18:45、19:00、19:30、19:45、20:00、20:30、21:00。所要時間1時間。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/div[1]"
+  },
+  {
+   "en": "10k+ reviews · 3 sites",
+   "tr": "1万件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "420-friendly (bring your own)",
+   "tr": "420フレンドリー（持ち込み制）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "<strong>70-minute cruise:</strong> every 30 minutes from 12:30 to 22:00 (no 18:30 or 19:00). <strong>60-minute budget cruise:</strong> 17:15, 18:30, 19:45, 21:15. <strong>80-minute luxury cruise:</strong> 13:00, 14:45, 16:30, 19:00, 20:45.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "<strong>70分クルーズ：</strong> 12:30〜22:00まで30分ごとに出航（18:30と19:00の便はなし）。 <strong>60分お手頃クルーズ：</strong> 17:15, 18:30, 19:45, 21:15. <strong>80分ラグジュアリークルーズ：</strong> 13:00, 14:45, 16:30, 19:00, 20:45.<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[3]/div[1]"
+  },
+  {
+   "en": "Amsterdam Pizza Cruise with Drinks (Tours &amp; Tickets)",
+   "tr": "アムステルダム ピザ クルーズ（ドリンク付き）（Tours &amp; Tickets）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[0]/div[1]/img[0]@alt"
+  },
+  {
+   "en": "2.3k+ reviews · 3 sites",
+   "tr": "2300件以上のレビュー · 3サイト",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]"
+  },
+  {
+   "en": "One sailing at 18:00. 75 minutes.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "18:00発の1便のみ。所要時間75分。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[3]/div[1]"
+  },
+  {
+   "en": "Amsterdam Nighttime Canal Cruise with 4-Course Dinner (Tours &amp; Tickets)",
+   "tr": "アムステルダムの夜間運河クルーズと4コースディナー（Tours &amp; Tickets）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[0]/div[1]/img[0]@alt"
+  },
+  {
+   "en": "4-course menu (meat, fish or veg)",
+   "tr": "4コースメニュー（肉・魚・ベジタリアン）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "One sailing at 19:00. 2 hours.<span class=\"bpa-lang-note\">Checked on the GetYourGuide booking calendar for Saturday 14 November 2026, with every start-time menu opened; times change by season.</span>",
+   "tr": "19:00発の1便のみ。所要時間2時間。<span class=\"bpa-lang-note\">2026年11月14日（土）のGetYourGuide予約カレンダーで各開始時刻メニューを開いて確認済み。時間は季節により変わります。</span>",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[2]/div[1]"
+  },
+  {
+   "en": "on a tight budget: one dinner sailing per evening, from €89.",
+   "tr": "予算を抑えたいなら避けて：ディナー便は1晩1便、€89から。",
+   "why": "numbers differ (older fact)",
+   "source": "ja page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[1]"
+  },
+  {
+   "en": "Best Sightseeing-Only Canal Cruise in Amsterdam (Lover's Canal)",
+   "tr": "アムステルダムの最高の観光専用運河クルーズ（Lovers）",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "ja page vs EN 7d212528 #content/div[0]/details[2]/summary[0]/div[0]/h3[1]/text()[0]"
+  }
+ ]
+}

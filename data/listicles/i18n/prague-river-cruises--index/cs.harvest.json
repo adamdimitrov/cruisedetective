@@ -1,0 +1,915 @@
+{
+ "format": 1,
+ "lang": "cs",
+ "comment": "Where each harvested entry of cs.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "cs/plavba-po-vltave-praha/index.html",
+ "english_version": "f39bb346 2026-11-19",
+ "match_score": 3.0,
+ "entries": {
+  "🏆 #1 Best Overall Prague Cruise": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 1": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 2": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 3": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 4": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 5": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 6": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Pražské Benátky boat on the Vltava by Charles Bridge, photo 7": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Historic canal boat by the Old Town Bridge Tower": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Wooden canal boat under the Charles Bridge arches": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Charles Bridge tower through the boat's window": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Pražské Benátky": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 45 Minutes": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "📍 Charles Bridge (Old Town side)": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "Charles Bridge Canal Cruise with Drinks & Museum Entry": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Every 15 min": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>No fixed slot to plan around.</strong> Boats leave every 15 minutes from the pier at the Old Town end of Charles Bridge; daytime departures.<span class=\"bpa-lang-note\">Arrive, show the ticket, board the next boat.</span>": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Drinks + snack": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Included:</strong> a drink of beer, lemonade, tea or coffee (mulled wine in winter) plus traditional gingerbread, or ice cream in summer.<span class=\"bpa-lang-note\">One of only two cruises here where a drink is in the base price for under €25.</span>": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Devil's Channel": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 10
+  },
+  "Museum ticket": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Charles Bridge Museum entry included,</strong> next to the pier at Křižovnické náměstí. Use it before or after the cruise.": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "19-language audio": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[4]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio commentary in 19 languages,</strong> on your own headphones.<span class=\"bpa-lang-note\">English, Spanish, German, French, Italian, Chinese, Japanese, Korean and more.</span>": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[4]/div[1]",
+   "seen": 2
+  },
+  "Not step-free": {
+   "source": "cs page vs EN f39bb346 #content/div[0]/details[2]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[2]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "for a first hour on the water: drinks, gingerbread and a museum for €22.": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want views of Prague Castle at night: these are daytime boats.": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[2]/div[2]/text()[0]",
+   "seen": 16
+  },
+  "🌙 #2 Best Evening Cruise": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 1": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 2": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 3": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 4": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 5": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 6": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Prague Boats evening cruise with Prague Castle lit up, photo 7": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Prague Castle and Charles Bridge lit up at night": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Illuminated cruise boat on the Vltava at dusk": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Evening cruise boat passing the riverbank": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Prague Boats": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 25
+  },
+  "⏱️ 50 Minutes": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 6
+  },
+  "📍 Čech Bridge pier": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 12
+  },
+  "50-Minute Evening Cruise Past the Lit-Up Castle": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Evening departures": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Fixed evening slots.</strong> The listing says the 20:00 to 22:00 departures are the busiest.<span class=\"bpa-lang-note\">If your boat is full, the same ticket is valid on the next departure, with no rebooking.</span>": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Castle by night": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Past Rudolfinum, Charles Bridge, Kampa Island and Prague Castle,</strong> all lit up, then back to Dvořákovo nábřeží.<span class=\"bpa-lang-note\">Electric boats, covered sundeck, air-conditioned inside.</span>": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "3-language audio": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Audio commentary in Czech, English and German,</strong> plus a printed guide in 16 languages and an app in 13.<span class=\"bpa-lang-note\">No drinks included; there is a bar on board.</span>": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the classic night view of the Castle at the lowest price.": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want food or a drink in the ticket price.": {
+   "source": "cs page vs EN f39bb346 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🎷 #3 Best Dinner Cruise": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 1": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 2": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 3": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 4": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 5": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 6": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Live jazz band playing on the Jazz Boat in Prague, photo 7": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Waiter serving guests in the jazz boat's dining room": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Main course and dessert from the jazz boat menu": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Guests applauding the band from their tables": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Jazzboat": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 2.5 Hours": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Central Prague pier": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "Jazz Boat: Live Jazz Cruise with Optional 3-Course Dinner": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Departs 19:30": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Evening cruise, 2.5 hours.</strong> Boarding starts about 15 minutes before departure.<span class=\"bpa-lang-note\">Some tables are shared with other guests.</span>": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Live jazz band": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Three live sets with two breaks,</strong> and a different band most nights.<span class=\"bpa-lang-note\">This is a concert on the water, not a commentary cruise.</span>": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "3-course dinner": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>With the dinner ticket (€80):</strong> Caprese salad, then salmon, vegetarian lasagne, pork tenderloin or chicken, then apple strudel or chocolate brownie.<span class=\"bpa-lang-note\">Pick your main course at checkout. Drinks are extra.</span>": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a night out: live jazz, dinner and the river in one booking.": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want sightseeing commentary or a cheap hour on the water.": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Caprese salad, then salmon, vegetarian lasagne, pork tenderloin or chicken, then apple strudel or chocolate brownie.": {
+   "source": "cs page vs EN f39bb346 card-3/div[0]/div[1]/div[3]/details[2]/div[1]/text()[0]",
+   "seen": 2
+  },
+  "🍽️ #4 Best Buffet Dinner Cruise": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 1": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 2": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 3": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 4": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 5": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 6": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Glass boat dinner cruise on the Vltava in Prague, photo 7": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Guests dining under the glass roof in daylight": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Glass roof passing under the lit Charles Bridge": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Live trio playing on board": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 3 Hours": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "Glass Boat Dinner Cruise with Buffet & Live Music": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Departs 19:00": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Fixed evening slot, 3 hours.</strong> Back on the pier around 22:00.": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Buffet + welcome drink": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Buffet dinner of hot and cold Czech and international dishes,</strong> salads and desserts, plus a welcome drink and live music.<span class=\"bpa-lang-note\">Vegetarian and vegan options. Other drinks are paid on board.</span>": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Glass boat": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Sails on one of four glass-roofed boats:</strong> Grand Bohemia, Bohemia Rhapsody, Agnes de Bohemia or Anna Carolina.<span class=\"bpa-lang-note\">Middle seat €79, guaranteed window seat €99.</span>": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a relaxed 3-hour dinner with views from every table.": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if a buffet isn't your thing: the Jazz Boat plates a 3-course menu.": {
+   "source": "cs page vs EN f39bb346 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "☀️ #5 Best Lunch Cruise": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 1": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 2": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 3": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 4": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 5": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Buffet lunch on a glass boat cruise in Prague, photo 6": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Open sun deck tables with Charles Bridge behind": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Lunch boat cruising past Charles Bridge": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Accordion player on deck during lunch": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Buffet table with salads and fruit": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 2 Hours": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 9
+  },
+  "📍 Čech Bridge, Pier 3": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 8
+  },
+  "2-Hour Lunch Cruise on a Glass Boat with Live Music": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Departs 12:00": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Fixed midday slot, 2 hours.</strong> Back on the pier around 14:00, with the afternoon free.": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Buffet + aperitif": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Buffet lunch and an aperitif,</strong> with an accordionist playing on board.<span class=\"bpa-lang-note\">Other drinks are paid on board.</span>": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "6-language app": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Online audio commentary and map in 6 languages</strong> (Czech, English, Spanish, German, Chinese, Russian), paper map in 16.<span class=\"bpa-lang-note\">Most of the boats are wheelchair-accessible.</span>": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a sit-down meal with daylight views of the Castle.": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want the city lights: book the glass dinner (#4) instead.": {
+   "source": "cs page vs EN f39bb346 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🗣️ #6 Best Live-Guided Cruise": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 1": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 2": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 3": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 4": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 5": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 6": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Prague Boats sightseeing boat by Charles Bridge, photo 7": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Small boat in the Devil's Channel by old houses": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Boat passing a Charles Bridge arch": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Open boat below the Charles Bridge tower": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Devil's Channel Cruise with a Live Guide": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Daytime slots": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 12
+  },
+  "<strong>Fixed departure times.</strong> Pick a slot when you book.<span class=\"bpa-lang-note\">In winter it sails on a heated, closed-top boat.</span>": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Live guide": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>A live guide on board,</strong> speaking Czech and English.<span class=\"bpa-lang-note\">The only live commentary in this top 10 apart from the private boat.</span>": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "<strong>From Čech Bridge upstream to Charles Bridge</strong> and into the Devil's Channel past the Grand Priory Mill, with views of Prague Castle on the way.": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "if you want a person, not a recording, explaining what you see.": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you'd rather have a drink included: #1 does the same channel with one.": {
+   "source": "cs page vs EN f39bb346 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🌐 #7 Cheapest Ticket, Most Languages": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 1": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 2": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 3": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 4": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 5": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 6": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Premiant panoramic cruise boat on the Vltava in Prague, photo 7": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Guests on the open deck heading upriver": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Passenger relaxing on the sun deck": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Panoramic cruise boat below Prague Castle": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Premiant City Tour": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "📍 Pier 17, Štefánik Bridge": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "Panoramic Vltava Cruise with a 24-Language Audio Guide": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Daytime and evening": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Several departures a day.</strong> Pick a slot when you book.": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "24-language audio": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Online audio guide in 24 languages,</strong> including Polish, Hungarian, Japanese, Korean, Hindi, Arabic, Hebrew and Ukrainian.<span class=\"bpa-lang-note\">It works through the boat's Wi-Fi and a QR code on the table, so bring your phone and headphones.</span>": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Castle and Metronome": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>From Štefánik Bridge past the Prague Metronome,</strong> Prague Castle and the Rudolfinum and back.<span class=\"bpa-lang-note\">Strollers and wheelchairs must be foldable.</span>": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the cheapest hour with commentary in your own language.": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want to start at Charles Bridge: this pier is 15 minutes' walk north.": {
+   "source": "cs page vs EN f39bb346 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "⏳ #8 Longest Sightseeing Cruise": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 1": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 2": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 3": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 4": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 5": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 6": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Prague Boats 2-hour cruise boat near Vyšehrad, photo 7": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Cruise boat near the Old Town water tower": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Boat cruising past the Lesser Town riverside": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Boat moored beneath Prague Castle at dusk": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "2-Hour Vltava Cruise to Vyšehrad Through the Smíchov Lock": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Fixed departure times, 2 hours.</strong> Pick a slot when you book.": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Smíchov lock": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>The only cruise here that goes through a lock:</strong> the Smíchov lock, then upstream to Vyšehrad Rock and back past Charles Bridge and the Castle.<span class=\"bpa-lang-note\">Lock traffic can change the route, but not the length.</span>": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Map + online audio": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Online commentary and map,</strong> a handheld paper map and an info booklet.<span class=\"bpa-lang-note\">Bar on board; drinks are extra.</span>": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for the most river for your money: €14 an hour.": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if 2 hours with small kids sounds long: take a 50-minute cruise.": {
+   "source": "cs page vs EN f39bb346 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🎉 #9 Best Party Cruise": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Party boat on the Vltava in Prague at night, photo 1": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 2": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 3": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 4": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 5": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 6": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Party boat on the Vltava in Prague at night, photo 7": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "Packed dance floor inside the party boat": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Guests with sparklers on the open deck": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Party boat deck full of guests at dusk": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Prague Party Cruise": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "📍 Dvořákovo nábřeží": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "Boat Party with DJs and Free Entry to EPIC Club": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Departs 20:00": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Evening party, 2 hours on the boat.</strong> Then on to EPIC Club for the afterparty.": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Welcome shot": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>A welcome shot, international DJs,</strong> a party guide, sparklers and a photographer.<span class=\"bpa-lang-note\">Other drinks from the bar on board.</span>": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Club entry": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Entry to EPIC Club after the cruise.</strong> Dress code smart casual; bring a valid ID.<span class=\"bpa-lang-note\">18+ only.</span>": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "for a night out with other travellers, ending in a club.": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want to see the sights: it's a party, not a tour.": {
+   "source": "cs page vs EN f39bb346 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "🔒 #10 Best Private Boat": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private boat tour on the Vltava in Prague, photo 1": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 2": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 3": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 4": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 5": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 6": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 4
+  },
+  "Private boat tour on the Vltava in Prague, photo 7": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 4
+  },
+  "LucyTours Prague": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 5
+  },
+  "⏱️ 1 Hour": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Hotel transfer to the boat": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 4
+  },
+  "Private Boat Tour with a Captain-Guide and Czech Sparkling Wine": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Your own time": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Private booking:</strong> pick the start time when you book.": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Hotel transfer": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A driver takes you from your hotel to the boat</strong> (one-way transfer).": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Sparkling wine": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A bottle of Czech sparkling wine and other drinks</strong> on board, with music on request.<span class=\"bpa-lang-note\">Food is not included.</span>": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Group price": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The per-person price falls as the group grows:</strong> €303 for a solo booking on a Saturday, from €156 per person for more guests.": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a proposal or a small group that wants the boat to itself.": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you're on a budget: #1 costs €22.": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "per person, from": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "From €156": {
+   "source": "cs page vs EN f39bb346 card-10/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "<strong>A 45-minute loop under Charles Bridge</strong> into the Čertovka (Devil's Channel) on Kampa Island, past the Grand Priory Mill, then along the Malá Strana bank.<span class=\"bpa-lang-note\">Small wooden boats, so you sit close to the water.</span>",
+   "tr": "<strong>45minutový okruh pod Karlovým mostem</strong> do Čertovky na Kampě, kolem Velkopřevorského mlýna a podél malostranského břehu.<span class=\"bpa-lang-note\">Malé dřevěné lodě, sedíte blízko u vody.</span>",
+   "why": "brackets added or dropped (part of the text missing?)",
+   "source": "cs page vs EN f39bb346 card-1/div[0]/div[1]/div[3]/details[2]/div[1]"
+  }
+ ]
+}

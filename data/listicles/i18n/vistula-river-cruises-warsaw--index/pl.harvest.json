@@ -1,0 +1,1049 @@
+{
+ "format": 1,
+ "lang": "pl",
+ "comment": "Where each harvested entry of pl.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "pl/rejsy-po-wisle-warszawa/index.html",
+ "english_version": "7d212528 2026-11-18",
+ "match_score": 3.0,
+ "entries": {
+  "🏆 #1 Best Overall": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6,
+   "alternatives": ["🏆 #1 Najlepszy Wybór Ogólny", "🏆 #1 Najlepszy ogólnie", "🏆 #1 Najlepszy rejs wycieczkowy"]
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 1": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 2": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 3": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 4": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 5": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 6": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat, photo 7": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Passengers on the galar's open deck": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Galar deck with guests on a grey evening": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Krypa": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 54 Min": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Marina Warszawa barge": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Sightseeing Cruise on a Traditional Galar Boat": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "2,320 reviews · 3 sites": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Average of the booking sites, weighted by number of reviews": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[2]/div[0]/details[0]/div[1]/strong[0]/text()[0]",
+   "seen": 18
+  },
+  "Sails in winter": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Daily departures through the winter.</strong> The boats are heated in autumn and winter, and blankets are on board.<span class=\"bpa-lang-note\">No departures 23 to 27 December.</span>": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Audio guide, 8 languages": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>English and 7 more languages, played on your own phone.</strong><span class=\"bpa-lang-note\">Bring your own headphones: they are not included.</span>": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "12 per boat": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Eight 12-seat wooden galars sail as a small fleet, up to 92 guests in total.</strong> You sit in a small open boat, not on a big ship.": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Drink version": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The evening cruise adds one drink: an Italian aperitivo in summer or Galician mulled wine in winter.</strong> Adults only, <a href=\"https://www.tiqets.com/en/warsaw-attractions-c485/tickets-for-warsaw-small-group-evening-river-cruise-audio-guide-1-drink-p1142345/?partner=thecruisedetective.com-176436&tq_campaign=warsaw-vistula-compar-krypa-evening\" rel=\"nofollow sponsored noopener\" target=\"_blank\">from €27.30</a>.": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for the cheapest cruise that still sails in December, with an audio guide in 8 languages.": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a live guide or a drink included.": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is there a guide?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 2
+  },
+  "Where do I board?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 2,
+   "alternatives": ["Gdzie się wsiada?"]
+  },
+  "Is a drink included?": {
+   "source": "listicle file thames-river-cruises-london--index/pl.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/pl.json",
+   "seen": 5,
+   "alternatives": ["Czy mogę anulować?"]
+  },
+  "Yes, for free up to 24 hours before.": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "per adult, from": {
+   "source": "listicle file thames-river-cruises-london--index/pl.json",
+   "seen": 1
+  },
+  "From €17.06": {
+   "source": "pl page vs EN 7d212528 card-1/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "The final price is shown before you pay.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/pl.json",
+   "seen": 2
+  },
+  "Booked securely via Tiqets": {
+   "source": "listicle file bateaux-mouches-vs-bateaux-parisiens-dinner-cruise-side-by-side-comparison--index/pl.json",
+   "seen": 5
+  },
+  "<b>Free cancellation</b>": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "<b>Reserve now, pay later</b>": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "🥂 #2 Best for an Evening Drink": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 1": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 2": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 3": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 4": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 5": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 6": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink, photo 7": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Guests aboard the wooden galar at dusk": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Guests toasting with prosecco on the galar": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Galar passing below the Old Town": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "⏱️ 55 Min": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 12
+  },
+  "📍 Dworzec Wodny barge, Powiśle": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Evening Vistula Cruise on a Wooden Galar with a Welcome Drink": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "438 reviews · 2 sites": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Welcome drink": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Alcohol-free prosecco in spring and summer, mulled wine in autumn and winter.</strong> Tea is the alcohol-free option in winter.<span class=\"bpa-lang-note\">You may bring your own drinks on board.</span>": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Max 11 guests": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 10
+  },
+  "<strong>One traditional wooden galar with an open deck and a covered deck.</strong> Blankets, USB and 220V charging, room for a pushchair.": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Weekends to 6 Dec": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Last 2026 departures: 20, 21, 22, 27 and 29 November, 5 and 6 December.</strong><span class=\"bpa-lang-note\">Not suitable for wheelchair users.</span>": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "35 or 55 min": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Short on time? The same boat runs a 35-minute Old Town and Royal Castle loop.</strong> <a href=\"https://www.getyourguide.com/warsaw-l41/vistula-cruise-with-prosecco-t581212/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-vistula-river-cruises-warsaw-warsaw-by-boat-35min&mkt_cmp=true\" rel=\"nofollow sponsored noopener\" target=\"_blank\">35 or 55 minutes from €18.15</a>.": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a small-group evening on the water with a glass in hand.": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "after 6 December: the boat is off the water until next season.": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "How big is the group?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 1
+  },
+  "From €22.69": {
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 24
+  },
+  "❄️ #3 Best in Winter or Rain": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 1": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 2": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 3": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 4": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 5": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 6": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge, photo 7": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "iBarka lit up on the river at night": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "iBarka cruising with guests on the upper deck": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Warsaw Boats": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "⏱️ 1 Hour": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 9,
+   "alternatives": ["⏱️ 1 godzina"]
+  },
+  "📍 Dworzec Wodny WWA barge": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 18
+  },
+  "Vistula Cruise on the iBarka, a Heated Two-Deck Barge": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Heated glass cabin": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Fully glazed lower deck with heating and air conditioning.</strong> Upstairs is an open sun deck with loungers and blankets.": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Toilet & bar": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A toilet, a bar, tables and a screen on board.</strong><span class=\"bpa-lang-note\">Up to 12 passengers and 5 crew.</span>": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Daily, all year": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 10
+  },
+  "<strong>Bookable every day through November and December.</strong>": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[2]/div[1]/strong[0] (outer)",
+   "seen": 6
+  },
+  "Christmas cruise": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>In December the same barge sails decorated, with Christmas music, mulled wine or tea with honey and gingerbread.</strong> <a href=\"https://www.getyourguide.com/warsaw-l41/warsaw-christmas-river-cruise-t1129961/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-vistula-river-cruises-warsaw-ibarka-christmas&mkt_cmp=true\" rel=\"nofollow sponsored noopener\" target=\"_blank\">Christmas cruise from €29.50</a>.": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a cold or wet day: warm glass cabin, toilet and a bar.": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want the open-air feel of a small wooden boat.": {
+   "source": "pl page vs EN 7d212528 card-3/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Is it warm in winter?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 1
+  },
+  "Is there a toilet?": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 2
+  },
+  "🛋️ #4 Most Comfortable Small Boat": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests), photo 1": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests), photo 2": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests), photo 3": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests), photo 4": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests), photo 5": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Sunset from inside the gondola's curtains": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Couple seated in the gondola's red lounge": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Group of friends aboard the gondola": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Group in matching shirts on the gondola": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Guests standing under the gondola canopy": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "AQUATICA": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Vistula boulevards": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Small-Group Vistula Cruise by Gondola (Max 11 Guests)": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Leather sofas": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Soft leather sofas, white decor and ambient lights after dark.</strong> Blankets on cooler evenings.": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "<strong>A shared boutique cruise, never more than 11 people.</strong> Want the whole boat? The operator also sells it as a private charter.": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "English audio guide": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The captain speaks Polish. English commentary is a digital audio guide on your phone.</strong><span class=\"bpa-lang-note\">Bring headphones. Prosecco can be bought on board.</span>": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "From March": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>No sailings in late autumn and winter: the 2027 calendar opens in March.</strong><span class=\"bpa-lang-note\">Boarding needs a step down from the quay.</span>": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for the comfiest seats on the river in the warm months.": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "from November to February, or if steps are hard for you.": {
+   "source": "pl page vs EN 7d212528 card-4/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "When does it sail?": {
+   "source": "listicle file seine-river-cruises-paris--index/pl.json",
+   "seen": 1,
+   "alternatives": ["Kiedy odbywają się rejsy?"]
+  },
+  "Are drinks included?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 4
+  },
+  "💶 #5 Best Budget Pick (Summer)": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Motorboat Cruise with Your Own Music, photo 1": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Motorboat Cruise with Your Own Music, photo 2": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Motorboat Cruise with Your Own Music, photo 3": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Motorboat Cruise with Your Own Music, photo 4": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Motorboat Cruise with Your Own Music, photo 5": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Skipper and guests aboard the motorboat": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Rejsowisko boats moored at the pier": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[6]@alt",
+   "seen": 3
+  },
+  "Red seats in the motorboat's bow": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Captain at the helm with guests behind": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Motorboat with red canopy on the Vistula": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[9]@alt",
+   "seen": 3
+  },
+  "Rejsowisko": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Wir barge, Poniatowski Bridge": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Motorboat Cruise with Your Own Music": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "138 reviews · 2 sites": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[2]/div[0]/details[0]/summary[0]/span[2]/text()[0]",
+   "seen": 6
+  },
+  "Your own music": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Play your own playlist on board.</strong>": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[0]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Bring your own food": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4,
+   "alternatives": ["Własne jedzenie dozwolone"]
+  },
+  "<strong>Nothing is sold on board, but eating and drinking on board is allowed.</strong> Riverside bars by the pier charge about 20 to 50 zł per person.": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[1]/div[1]",
+   "seen": 2
+  },
+  "Skipper as guide": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The captain points out the sights, sometimes in English.</strong>": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[2]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "From April": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>No winter sailings: the 2027 calendar opens in April.</strong>": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[3]/details[3]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "for the lowest price on the river from April to autumn.": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "in winter, or if you want a guaranteed English guide.": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "Can we bring food and drinks?": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 2,
+   "alternatives": ["Czy możemy zabrać jedzenie i napoje?"]
+  },
+  "From €15.89": {
+   "source": "pl page vs EN 7d212528 card-5/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "🌅 #6 Best Sunset Cruise": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat, photo 1": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat, photo 2": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat, photo 3": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat, photo 4": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat, photo 5": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Wooden boat with guests on the Vistula": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Flota 511": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Solec 8": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Sunset Cruise on a Traditional 12-Metre Boat": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Covered deck": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Weatherproof canvas roof with transparent roll-down walls.</strong> A long wooden table and cushioned seats.": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "English-speaking skipper": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A skipper from Warsaw who speaks English and Polish.</strong>": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[1]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Dinner option": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Dinner can be served on board as an add-on.</strong>": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[2]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Daily in winter": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Bookable every day through November and December.</strong><span class=\"bpa-lang-note\">Toilet on shore, not on board.</span>": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a sunset with a live English-speaking skipper, even in winter.": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a long review record: only 4 so far.": {
+   "source": "pl page vs EN 7d212528 card-6/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What if it rains?": {
+   "source": "listicle file thames-river-cruises-london--index/pl.json",
+   "seen": 1
+  },
+  "Is there a toilet on board?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 2
+  },
+  "☕ #7 Snacks & Drinks Included": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 1": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 2": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 3": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 4": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 5": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks, photo 6": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Kurka Wodna": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "📍 Bulwar Flotylli Wiślanej": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Catamaran Cruise with Coffee, Drinks and Snacks": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Snacks included": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Coffee, tea, cold drinks (water, juices) and savoury snacks.</strong>": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[0]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Sails from 6 people": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>The cruise runs once 6 people have booked. After that, anyone can join, even alone.</strong>": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[1]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Wheelchair-accessible": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>Listed as wheelchair-accessible.</strong> Two decks and an enclosed cabin.": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Route by water level": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Normally north to the Old Town and Royal Castle. At low water it heads south towards Siekierki instead.</strong><span class=\"bpa-lang-note\">Selected dates in November and December.</span>": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "Wheelchair accessible": {
+   "source": "listicle file dinner-cruises-paris--index/pl.json",
+   "seen": 3,
+   "alternatives": ["Dostępne dla wózków inwalidzkich"]
+  },
+  "for coffee and snacks included at a budget price, or a wheelchair user in your group.": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if your date has fewer than 6 bookings: it will not sail.": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/pl.json",
+   "seen": 4
+  },
+  "Is it wheelchair accessible?": {
+   "source": "listicle file dinner-cruises-paris--index/pl.json",
+   "seen": 2
+  },
+  "From €18.15": {
+   "source": "pl page vs EN 7d212528 card-7/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "🚤 #8 Fastest Thrill (30 Min)": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "30-Minute Vistula Speedboat Ride with 80s Music, photo 1": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "30-Minute Vistula Speedboat Ride with 80s Music, photo 2": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "30-Minute Vistula Speedboat Ride with 80s Music, photo 3": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "30-Minute Vistula Speedboat Ride with 80s Music, photo 4": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Miami Wars": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 30 Min": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "30-Minute Vistula Speedboat Ride with 80s Music": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Open speedboat": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A Bayliner E7 motorboat for up to 9 guests and a licensed skipper.</strong> Retro 80s music, Miami Vice style.": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Pick your route": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Old Town route: the Mermaid, the new footbridge and the Old Town up close. Skyline route: upriver to Siekierkowski Bridge.</strong>": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[1]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Souvenir photo": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>A photo of you with the skyline or the Old Town behind you.</strong><span class=\"bpa-lang-note\">Small dogs ride free.</span>": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[2]/div[1]",
+   "seen": 2
+  },
+  "Weekends in winter": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Bookable on weekends through November and December.</strong>": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[3]/details[3]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "for a fast, fun half hour with a photo to take home.": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want a calm sightseeing cruise: it is the priciest per hour.": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/pl.json",
+   "seen": 3
+  },
+  "From €31.77": {
+   "source": "pl page vs EN 7d212528 card-8/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "🔒 #9 Best Private Boat": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12, photo 1": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12, photo 2": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12, photo 3": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12, photo 4": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12, photo 5": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Wooden boat with guests at sunset": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Private Vistula Cruise on a Wooden Boat for up to 12": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Whole boat, up to 12": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>One price for the boat: €17.59 per person if you fill all 12 seats.</strong>": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[0]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "English or Polish": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Live commentary in English or Polish.</strong>": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[1]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "<strong>Bookable every day through the winter.</strong>": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[2]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Other private boats": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Prosecco for everyone: <a href=\"https://www.getyourguide.com/warsaw-l41/warsaw-private-cruise-on-the-vistula-river-t967379/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-vistula-river-cruises-warsaw-warsaw-by-boat-private&mkt_cmp=true\" rel=\"nofollow sponsored noopener\" target=\"_blank\">Warsaw by BOAT private galar, up to 11, €226.94</a>.</strong> Toilet and kitchen: <a href=\"https://www.getyourguide.com/vistula-river-l94964/warsaw-private-vistula-river-catamaran-cruise-for-groups-t1452718/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-vistula-river-cruises-warsaw-kurka-wodna-private&mkt_cmp=true\" rel=\"nofollow sponsored noopener\" target=\"_blank\">Kurka Wodna private catamaran, up to 12, €226.94</a>.": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for a birthday, proposal or group of 8 to 12 who want the boat to themselves.": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "for 2 people: a shared cruise is a tenth of the price.": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "per boat, up to 12": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "Private boat": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "From €211.05": {
+   "source": "pl page vs EN 7d212528 card-9/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  },
+  "12 people": {
+   "source": "listicle file private-cruises-paris--index/pl.json",
+   "seen": 1
+  },
+  "€17.59 each": {
+   "source": "pl page vs EN 7d212528 #content/div[0]/details[9]/div[1]/details[2]/div[1]/div[0]/p[0]/strong[1]/text()[0]",
+   "seen": 2
+  },
+  "🦅 #10 Best Nature Trip": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin, photo 1": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 3
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin, photo 2": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[1]@alt",
+   "seen": 3
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin, photo 3": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[2]@alt",
+   "seen": 3
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin, photo 4": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[3]@alt",
+   "seen": 3
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin, photo 5": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[4]@alt",
+   "seen": 3
+  },
+  "Sandbanks and islands on the wild Vistula": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[5]@alt",
+   "seen": 3
+  },
+  "Safari boat with guests in life jackets": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[7]@alt",
+   "seen": 3
+  },
+  "Trees reflected in a calm Vistula backwater": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[8]@alt",
+   "seen": 3
+  },
+  "Riparia": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 3 Hours": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "📍 Marina Modlin (outside Warsaw)": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[0]/a[0]/text()[0]",
+   "seen": 6
+  },
+  "Vistula Wildlife Safari by Motorboat from Modlin": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/a[1]/text()[0]",
+   "seen": 6
+  },
+  "Birdwatching": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[0]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Kingfishers, herons, cormorants and, with luck, a white-tailed eagle.</strong> Moose, roe deer and beavers live along the banks. Binoculars included.": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[0]/div[1]",
+   "seen": 2
+  },
+  "Max 5 guests": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[1]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>A nature guide and a boat captain for 5 people at most.</strong>": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[1]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Polish-speaking guide": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[2]/summary[0]/span[0]/text()[0]",
+   "seen": 6
+  },
+  "<strong>The live guide speaks Polish.</strong>": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[2]/div[1]/strong[0] (outer)",
+   "seen": 4
+  },
+  "Starts in Modlin": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[3]/summary[0]/span[0]/text()[0]",
+   "seen": 4
+  },
+  "<strong>Marina Modlin river port in Nowy Dwór Mazowiecki, north of Warsaw.</strong> Transport to the marina is not included.": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[3]/details[3]/div[1]",
+   "seen": 2
+  },
+  "for wild islands, sandbanks and birds instead of the skyline.": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[0]",
+   "seen": 2
+  },
+  "if you want city sights or an English-speaking guide.": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[1]/div[4]/text()[1]",
+   "seen": 2
+  },
+  "From €113.47": {
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 6
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "Warsaw by BOAT",
+   "tr": "Warsaw by BOAT",
+   "why": "identical to English",
+   "source": "pl page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "White-tailed eagle over the river",
+   "tr": "Bielik nad rzeką",
+   "why": "much shorter or longer than English (another or older text)",
+   "source": "pl page vs EN 7d212528 card-10/div[0]/div[0]/div[4]/img[6]@alt"
+  }
+ ]
+}

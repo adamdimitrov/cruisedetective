@@ -1,0 +1,523 @@
+{
+ "format": 1,
+ "lang": "pl",
+ "comment": "Entries of pl.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "410 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.ratings.meta"
+  },
+  "<strong>1.5 hours with the boat to yourselves</strong>: past the Eiffel Tower, Pont Alexandre III, Musée d&rsquo;Orsay, the Louvre and Pont Neuf to Notre-Dame and back.<span class=\"bpa-lang-note\"><b>📍 2 Port de Javel Haut:</b> 75015 Paris, by the Statue of Liberty replica. There is no sign at the pier. The captain can drop you near the Louvre at the end if you ask.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].pop_html"
+  },
+  "Champagne included": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].label"
+  },
+  "<strong>A bottle of Champagne and water</strong> are included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].pop_html"
+  },
+  "<strong>Bring your own food and drinks.</strong> Only the Luxury boat (5 to 8 people) has a table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "<strong>Standard boat: €399 for 1 to 4</strong> (no table, 280 kg total passenger weight limit). <strong>Luxury boat:</strong> €520 for 5 to 6, €590 for 7, €660 for 8.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "<strong>A Bluetooth speaker for your own music.</strong> Pets are welcome.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "EN, FR, PL captain": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].label"
+  },
+  "<strong>The captain speaks English, French and Polish</strong>, and reviewers say they take photos for you along the way.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "for the most-reviewed private boat in Paris (410 reviews, 5.0/5) at the lowest price, with Champagne included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.pick_html"
+  },
+  "if you want a table for 2 to 4: only the larger Luxury boat has one.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.skip_html"
+  },
+  "How much is it for our group?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].q"
+  },
+  "€399 for 1 to 4 people on the Standard boat. The Luxury boat is €520 for 5 or 6, €590 for 7 and €660 for 8.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Yes. A bottle of Champagne and water are included, and you can bring your own food and drinks; only the Luxury boat has a table.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Where do we meet the boat?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].q"
+  },
+  "2 Port de Javel Haut, 75015 Paris, by the small Statue of Liberty replica. There is no sign, so save the captain&rsquo;s number.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "The captain waits up to 60 minutes, but the cruise is shortened by the time you are late.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Yes, for free up to 24 hours before.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[4].a"
+  },
+  "Standard boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].label"
+  },
+  "1 to 4 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "Luxury boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[3].label"
+  },
+  "5 to 6 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[1].small"
+  },
+  "7 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[2].small"
+  },
+  "8 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[3].small"
+  },
+  "4 people, Standard boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.total.label"
+  },
+  "The price is per boat unless stated. The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.note"
+  },
+  "<b>Free cancellation</b> up to 24 h before": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 cta.trust[0]"
+  },
+  "<b>Reserve now, pay later</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 cta.trust[1]"
+  },
+  "155 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.ratings.meta"
+  },
+  "1.5 h · evening 20:00": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].label"
+  },
+  "<strong>1.5 hours</strong>, with an evening departure at 20:00. In summer it can finish before dark, which leaves time for dinner afterwards.<span class=\"bpa-lang-note\"><b>📍 2 Port de Javel Haut:</b> 75015 Paris, the same pier as #1.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].pop_html"
+  },
+  "<strong>Rosé, Evian water and macarons</strong> served during the cruise. You can still bring any other food or drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "<strong>A 10-minute photo stop at the Eiffel Tower</strong>, then past the Grand Palais, Pont Alexandre III, Musée d&rsquo;Orsay and the Louvre to Notre-Dame.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "Max 6 on a 10-seat boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].label"
+  },
+  "<strong>A boat that seats 10, limited to 6 passengers</strong>: room to spread out even when full.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "Kids welcome": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].label"
+  },
+  "<span class=\"bpa-lang-note\">👶 <b>Kids:</b> welcome, with life jackets in all sizes</span><span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not suitable for wheelchair users</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "EN or FR captain": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].label"
+  },
+  "<strong>The captain commentates in English or French.</strong> For a proposal, mention it in the booking notes.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].pop_html"
+  },
+  "for a proposal or an anniversary: rosé and macarons on board and a photo stop at the Eiffel Tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.pick_html"
+  },
+  "if it is just the two of you on a budget: it is €490 per boat even for 2.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.skip_html"
+  },
+  "Is it good for a proposal?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "Yes, its reviews read like a list of proposals and anniversaries. Mention it in the booking notes: one reviewer wrote that the captain knew exactly when to give them privacy at the Eiffel Tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "What is served on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Rosé wine, Evian water and macarons. You can bring any other food or drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Yes, children are welcome and there are life jackets in all sizes. It is not suitable for wheelchair users.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "When does it leave?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].q"
+  },
+  "The evening cruise leaves at 20:00 from 2 Port de Javel Haut. In summer it can finish before dark.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "What if the weather is bad?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].q"
+  },
+  "If it is cancelled for bad weather, you can reschedule or get a full refund.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].a"
+  },
+  "Private boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].label"
+  },
+  "up to 6 people, 1.5 hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.rows[0].small"
+  },
+  "6 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.total.label"
+  },
+  "about €82 each": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.price"
+  },
+  "<b>Free cancellation</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 cta.trust[0]"
+  },
+  "151 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.ratings.meta"
+  },
+  "<strong>2 full hours on a private modern pontoon boat</strong>: 30 minutes more than most private boats at the same price. Part of it is the ride up to the Eiffel Tower.<span class=\"bpa-lang-note\"><b>📍 100 Quai du Président Roosevelt:</b> 92130 Issy-les-Moulineaux, just outside Paris to the south-west. One reviewer struggled to find it, so plan your journey.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[0].pop_html"
+  },
+  "Skipper-guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].label"
+  },
+  "<strong>Your skipper doubles as the guide</strong>, with facts and anecdotes in English or French, rated 4.8/5 for guiding. Photo stops at the best backdrops.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[1].pop_html"
+  },
+  "<strong>No drinks are included</strong>: bring your own. Reviewers bring Champagne, wine, charcuterie and pastries.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "Lounge seating": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].label"
+  },
+  "<strong>A modern pontoon boat with lounge seating</strong> and a Bluetooth speaker.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "<strong>€490 for up to 6 people.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "for the longest cruise for the money: 2 hours with a skipper-guide for €490.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 best_for.pick_html"
+  },
+  "if you want a central pier: it leaves from Issy-les-Moulineaux, outside Paris.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 best_for.skip_html"
+  },
+  "2 hours, 30 minutes more than most private boats at the same price. Part of that is the ride up to the Eiffel Tower.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "100 Quai du Président Roosevelt in Issy-les-Moulineaux, just outside Paris to the south-west. Allow extra travel time.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "No, bring your own. Reviewers bring Champagne, wine, charcuterie and pastries.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Yes: the skipper is also the guide, in English or French, rated 4.8/5 for guiding.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "Private pontoon boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].label"
+  },
+  "up to 6 people, 2 hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "65 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.ratings.meta"
+  },
+  "1.5 to 2+ hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].label"
+  },
+  "<strong>Three routes:</strong> Initiation (1.5 hours, €490 for up to 6), Exploration (2 hours) and Conquête, the longest. The longer options are seasonal: in mid-November only Initiation had dates.<span class=\"bpa-lang-note\"><b>📍 Port de Javel:</b> 15th arrondissement (plus code R7XJ+Q66 on the listing).</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[0].pop_html"
+  },
+  "<strong>Guiding rated 5.0/5</strong>, the best guiding score on this list. One guide timed the cruise for the Eiffel Tower sparkle at 21:00 and again at 22:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "<strong>Soft drinks are included</strong>; food is not.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "French or English": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].label"
+  },
+  "<strong>The guide speaks French or English.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "Shelter from rain": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].label"
+  },
+  "<strong>One group on a rainy day</strong> wrote that they stayed protected from the rain and wind.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "if the commentary matters most: guiding rated 5.0/5, timed for the Eiffel Tower sparkle.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.pick_html"
+  },
+  "if you want the most reviews or the best value: 65 reviews, and value rated 4.7/5.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 best_for.skip_html"
+  },
+  "How good is the guide?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "Rated 5.0/5 for guiding across 65 reviews. One guide timed the route so the group saw the Eiffel Tower sparkle at 21:00 and 22:00.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "Which route should I book?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].q"
+  },
+  "Initiation (1.5 hours, €490 for up to 6) runs all year. Exploration (2 hours) and Conquête are seasonal; in mid-November the 2-hour option&rsquo;s next date was in January.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Soft drinks and the live guide. Food and tips are not included.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Is it only for couples?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "No: reviewers booked it for a bachelor party and a team outing too.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Initiation": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].label"
+  },
+  "1.5 hours, up to 6": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[0].small"
+  },
+  "6 people, Initiation": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.total.label"
+  },
+  "56 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.ratings.meta"
+  },
+  "<strong>1.5 hours from the 1st arrondissement</strong>: a loop past Pont Neuf, Île de la Cité and Île Saint-Louis, then down to Musée d&rsquo;Orsay, Pont Alexandre III and the Eiffel Tower.<span class=\"bpa-lang-note\"><b>📍 14 Quai François Mitterrand:</b> 75001 Paris, a short walk from the Louvre.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[0].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> <span class=\"cd-yes\">✓</span> listed as wheelchair-accessible, the only one on this list</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "<strong>A quiet electric pontoon</strong> with a guide and a Bluetooth speaker.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>Bring your own food and drinks</strong>: one family had breakfast on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "<strong>€80 per person, minimum 6</strong>, so €480 even if fewer of you go. Seats are split between the bow and the stern.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "for a group of 6 staying in central Paris, or anyone who needs a wheelchair-accessible private boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.pick_html"
+  },
+  "if you are fewer than 6: you pay for 6 anyway, and the seats are split bow and stern.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 best_for.skip_html"
+  },
+  "14 Quai François Mitterrand, 75001 Paris, a short walk from the Louvre: the most central pier on this list.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "How is it priced?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].q"
+  },
+  "€80 per person with a minimum of 6, so €480 for a group of 6 even if fewer of you go.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Yes, it is the only listing on this page marked wheelchair-accessible.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Can we sit together?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "Not all around one table: the seats are split between the front and the back of the boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "€80 per person, min. 6": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.sub"
+  },
+  "Per person": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].label"
+  },
+  "minimum 6": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[0].small"
+  },
+  "Group of 6": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.total.label"
+  },
+  "15 reviews · GetYourGuide": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 reviews.ratings.meta"
+  },
+  "<strong>1.5 hours from the central pier by the Louvre</strong>, the same as #5.<span class=\"bpa-lang-note\"><b>📍 14 Quai François Mitterrand:</b> 75001 Paris.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[0].pop_html"
+  },
+  "<strong>The only boat on this list for groups larger than 8.</strong> €1,250 works out at about €104 each for 12.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[1].pop_html"
+  },
+  "<strong>A floating lounge</strong> with large sofas and tables, a convertible roof, heating in winter and a toilet on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[2].pop_html"
+  },
+  "<strong>1 bottle of Champagne, macarons and soft drinks</strong> are included. Food boards and extra bottles are sold on board; no outside food or drinks.<span class=\"bpa-lang-note\">Macarons can&rsquo;t be guaranteed for bookings made less than 24 hours ahead (you get €20 back instead).</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[3].pop_html"
+  },
+  "Captain + host-guide": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[4].label"
+  },
+  "<strong>A captain and a host-guide</strong> in French, English or Spanish.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[4].pop_html"
+  },
+  "for birthdays, bachelorette parties and family groups of 9 to 12, or a private cruise in winter.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 best_for.pick_html"
+  },
+  "for a small group or a picnic: €1,250 per boat, and no outside food or drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 best_for.skip_html"
+  },
+  "Up to 12. At €1,250 that is about €104 each for a full boat.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "Yes, plus heating and a convertible roof, so it works in any season.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "Can we bring our own drinks?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "No. One bottle of Champagne, macarons and soft drinks are included; extra bottles and food boards are sold on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Which languages does the host speak?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].q"
+  },
+  "French, English or Spanish.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "VIP limousine boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].label"
+  },
+  "up to 12 people, 1.5 hours": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.rows[0].small"
+  },
+  "12 people": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.total.label"
+  },
+  "about €104 each": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 price.total.price"
+  }
+ }
+}

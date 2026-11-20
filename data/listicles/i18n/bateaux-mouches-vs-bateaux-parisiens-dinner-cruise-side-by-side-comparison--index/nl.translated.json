@@ -1,0 +1,183 @@
+{
+ "format": 1,
+ "lang": "nl",
+ "comment": "Entries of nl.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "🏆 #1 Best Food &amp; Romance": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 gallery.rank.text"
+  },
+  "1. Bateaux Mouches Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 gallery.photos[9][0][1]"
+  },
+  "Bateaux Mouches Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 title.text"
+  },
+  "<strong>I booked this dinner cruise myself</strong> and compared it side by side with Bateaux Parisiens.<span class=\"bpa-lang-note\">What I checked: table spacing, window sightlines, food temperature, wine and seating tiers. <a href=\"/about#methodology\">How I test →</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.tested.pop_html"
+  },
+  "<strong>Departs at 8:30 PM for 2 hours 15 minutes</strong> from Pont de l&rsquo;Alma.<span class=\"bpa-lang-note\"><b>📍 Port de la Conférence (Pont de l&rsquo;Alma):</b> 8th arrondissement, on the Right Bank. Free parking during the cruise.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[0].pop_html"
+  },
+  "<strong>A live violin and grand piano duo</strong> playing a romantic classical repertoire, at a volume that leaves room for conversation.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[1].pop_html"
+  },
+  "<strong>Harmonie: a glass of kir, 1 glass of wine or a soft drink, water, coffee or tea.</strong> Prestige adds sparkling wine and half a bottle of wine per person; Excellence adds Champagne and window-table priority.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "360° open roof deck": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].label"
+  },
+  "<strong>A full open-air rooftop deck</strong>, open throughout the cruise, with large windows below.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "Smart casual": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].label"
+  },
+  "<strong>Smart casual</strong>: a jacket is requested; no sportswear, shorts or sneakers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €45 for ages 4 to 12 (starter, main, dessert, soft drink); free under 4, no meal</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[5].pop_html"
+  },
+  "<strong>Vegetarian, vegan and gluten-free</strong> options.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[6].pop_html"
+  },
+  "for classic romance: excellent food, violin and piano, and a 360° open-air roof deck.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.pick_html"
+  },
+  "if boarding right under the Eiffel Tower matters: it leaves from Pont de l&rsquo;Alma.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 best_for.skip_html"
+  },
+  "No, from Pont de l&rsquo;Alma (Port de la Conférence, 8th arrondissement), on the Right Bank. Parking is free during the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "How was the food?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "Consistently excellent across all courses on my test dinner: beef carpaccio, sea bream and profiteroles stood out, all freshly prepared on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "Yes, the full open-air rooftop deck is open throughout the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "Yes: ages 4 to 12 pay €45 for starter, main, dessert and a soft drink, and under 4s go free (no meal).": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].a"
+  },
+  "Seat and menu tiers are compared in the matrix below. The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.note"
+  },
+  "<b>Instant mobile ticket</b> (QR on your phone)": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 cta.trust[1]"
+  },
+  "🗼 #2 Best Modern Glass Boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 gallery.rank.text"
+  },
+  "2. Bateaux Parisiens Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 gallery.photos[9][0][1]"
+  },
+  "📍 Port de la Bourdonnais Pier 5/7": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 kicker[2].map"
+  },
+  "Bateaux Parisiens Dinner Cruise": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 title.text"
+  },
+  "<strong>I booked this dinner cruise myself</strong> and compared it side by side with Bateaux Mouches.<span class=\"bpa-lang-note\">What I checked: table spacing, window sightlines, food temperature, wine and seating tiers. <a href=\"/about#methodology\">How I test →</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.tested.pop_html"
+  },
+  "<strong>One sailing a night at 8:30 PM, for 2 hours 30 minutes.</strong><span class=\"bpa-lang-note\"><b>📍 Port de la Bourdonnais, Pier 5/7:</b> 7th arrondissement, right under the Eiffel Tower. Free parking during the cruise.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[0].pop_html"
+  },
+  "Live vocalist": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].label"
+  },
+  "<strong>A live female vocalist and keyboard</strong> with a modern lounge and pop repertoire. On my dinner the singer faded into the background.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[1].pop_html"
+  },
+  "All-glass boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].label"
+  },
+  "<strong>A modern curved all-glass trimaran with a panoramic glass roof.</strong> Only a small open-air section at the back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "Window by tier": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].label"
+  },
+  "<strong>Seats depend on the tier:</strong> Étoile and Découverte sit in the centre of the boat; Privilège guarantees a window table and Premier the front of the salon.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "<strong>Free Wi-Fi on board.</strong>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[4].pop_html"
+  },
+  "<strong>Smart casual</strong>: no sportswear, shorts or flip-flops.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[5].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> accessible, with some limitations</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> €40 Étoile ticket for children up to 11</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[6].pop_html"
+  },
+  "to board right under the Eiffel Tower on an all-glass boat with a panoramic roof.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.pick_html"
+  },
+  "if food matters most: my duckling main was bland, and Étoile tables sit in the centre, away from the windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 best_for.skip_html"
+  },
+  "Yes, from Pier 5/7 at Port de la Bourdonnais, right under the Eiffel Tower. Parking is free during the cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Will I get a window table?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Only on the higher tiers: Étoile and Découverte sit in the centre, Privilège guarantees a window table and Premier the front of the salon.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Generally good: the scallop starter and chocolate tart were excellent, but my duckling fillet main was disappointingly bland.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Only a little: there is a small open-air section at the back, and no roof deck during dinner.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  }
+ }
+}

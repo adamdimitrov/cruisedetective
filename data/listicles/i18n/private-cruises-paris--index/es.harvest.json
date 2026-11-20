@@ -1,0 +1,282 @@
+{
+ "format": 1,
+ "lang": "es",
+ "comment": "Where each harvested entry of es.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "es/cruceros-privados-paris/index.html",
+ "english_version": "7d212528 2026-11-18",
+ "match_score": 3.0,
+ "entries": {
+  "🏆 #1 Best Overall Private Cruise": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private Seine Cruise with Champagne on a Small Boat": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Visite Paris En Bateau": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 1.5 Hours": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 12
+  },
+  "Rating on GetYourGuide": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "1.5 hours": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[1]/div[1]/details[2]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 10
+  },
+  "Bring your own food": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Bluetooth speaker": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[3]/div[1]/details[2]/div[1]/div[0]/p[1]/strong[0]/text()[0]",
+   "seen": 2,
+   "alternatives": ["Altavoz Bluetooth"]
+  },
+  "Can we bring food and drinks?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "What if we are late?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "Can I cancel?": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 4
+  },
+  "per boat, up to 4": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "Check Availability →": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[2]/a[1]/text()[0]",
+   "seen": 24
+  },
+  "Booked securely via GetYourGuide": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 5
+  },
+  "Read Review ↓": {
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[2]/a[3]/text()[0]",
+   "seen": 24
+  },
+  "💍 #2 Best for Couples &amp; Proposals": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private Small-Boat Cruise with Rosé & Macarons": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Private Small-Boat Cruise with Rosé &amp; Macarons": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Rosé &amp; macarons": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Eiffel Tower photo stop": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 2
+  },
+  "per boat, up to 6": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 10
+  },
+  "From €490": {
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[2]/div[0]/div[0]/text()[0]",
+   "seen": 18
+  },
+  "⏱️ #3 Most Time on the Water": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "2-Hour Private Pontoon Boat Cruise with Skipper-Guide": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 27
+  },
+  "MyParisRiver": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 3
+  },
+  "⏱️ 2 Hours": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "2 hours": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[2]/div[0]/div[1]/text()[0]•1",
+   "seen": 4
+  },
+  "Bring your own drinks": {
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[1]/div[3]/span[3]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Up to 6 people": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[3]/div[1]/div[3]/div[1]/div[1]/div[1]/text()[0]",
+   "seen": 4
+  },
+  "How long is it?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 2
+  },
+  "Where does it leave from?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 3
+  },
+  "Are drinks included?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 3
+  },
+  "Is there commentary?": {
+   "source": "listicle file canal-cruises-amsterdam--index/es.json",
+   "seen": 2,
+   "alternatives": ["¿Hay comentarios?"]
+  },
+  "🎙️ #4 Best Live Guide": {
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private Seine Cruise with a Live Guide & Soft Drinks": {
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "⏱️ 1.5 to 2 Hours": {
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•1",
+   "seen": 3
+  },
+  "Private Seine Cruise with a Live Guide &amp; Soft Drinks": {
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 30
+  },
+  "Live guide 5.0/5": {
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[1]/div[3]/span[0]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Soft drinks included": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[4]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[1]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "What is included?": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 3
+  },
+  "📍 #5 Most Central Pier": {
+   "source": "es page vs EN 7d212528 card-5/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "Private Electric Pontoon Cruise from the Louvre (6 People)": {
+   "source": "es page vs EN 7d212528 card-5/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 24
+  },
+  "Paris Water Way": {
+   "source": "es page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/text()[0]•0",
+   "seen": 6
+  },
+  "📍 Quai François Mitterrand": {
+   "source": "es page vs EN 7d212528 card-5/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)",
+   "seen": 4
+  },
+  "Wheelchair accessible": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 2
+  },
+  "Quiet electric boat": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[2]/strong[0]/text()[0]",
+   "seen": 2
+  },
+  "Minimum 6 people": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[5]/div[1]/div[0]/div[0]/div[1]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 4
+  },
+  "Is it wheelchair accessible?": {
+   "source": "listicle file dinner-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "The final price is shown before you pay.": {
+   "source": "listicle file new-years-eve-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "🎉 #6 Best for Groups up to 12": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[0]/span[3]/text()[0]",
+   "seen": 6
+  },
+  "VIP Limousine Boat for up to 12 with Champagne & Macarons": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "VIP Limousine Boat for up to 12 with Champagne &amp; Macarons": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[0]/div[4]/img[0]@alt",
+   "seen": 21
+  },
+  "Up to 12 people": {
+   "source": "es page vs EN 7d212528 #content/div[0]/details[6]/div[1]/div[0]/div[0]/div[0]/div[0]/ul[1]/li[0]/strong[0]/text()[0]",
+   "seen": 4
+  },
+  "Heated, convertible roof": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[1]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "Champagne &amp; macarons": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[1]/div[3]/span[2]/text()[0] (loose: case/symbol)",
+   "seen": 2
+  },
+  "How many people fit?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1
+  },
+  "Is there a toilet?": {
+   "source": "listicle file seine-river-cruises-paris--index/es.json",
+   "seen": 1,
+   "alternatives": ["¿Hay aseo?"]
+  },
+  "per boat, up to 12": {
+   "source": "es page vs EN 7d212528 card-6/div[0]/div[2]/div[0]/div[1]/text()[0]",
+   "seen": 4
+  }
+ },
+ "urls": {},
+ "skipped": [
+  {
+   "en": "📍 Port de Javel Haut",
+   "tr": "📍 Port de Javel Haut",
+   "why": "identical to English",
+   "source": "es page vs EN 7d212528 card-1/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Boat in Paris",
+   "tr": "Boat in Paris",
+   "why": "identical to English",
+   "source": "es page vs EN 7d212528 card-2/div[0]/div[1]/div[0]/text()[0]•0"
+  },
+  {
+   "en": "📍 Issy-les-Moulineaux",
+   "tr": "📍 Issy-les-Moulineaux",
+   "why": "identical to English",
+   "source": "es page vs EN 7d212528 card-3/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "📍 Port de Javel",
+   "tr": "📍 Port de Javel",
+   "why": "identical to English",
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/a[0]/text()[0] (loose: case/symbol)"
+  },
+  {
+   "en": "Jp's boat",
+   "tr": "Jp's boat",
+   "why": "identical to English",
+   "source": "es page vs EN 7d212528 card-4/div[0]/div[1]/div[0]/text()[0]•0"
+  }
+ ]
+}
