@@ -1,0 +1,4644 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAM9klEQVR4nO2c+Y8cRxXHP1Xdc+0VH+srie04cRLsBJJISZSQ2IRDhCj5CQkIQiCBkEBI/IKAHxB/APwHSCAhkLiEkECOJcQhUA5IQqKAZCchjp1E8RE7Pndt78x0dxV61VUzvb2z65n1rndt9iv1Tu9MH6++9d6rV1WvSoGmHzz+zNNci1BWs3f3rhnfW2zpG4Oai6xrlaAyWQG6UmHPgw8MTlaJqBhI/fkY8AjwMeBDwK3AqHs+8rxlhyBXArwKHAKkcH8GDnuyIsdGfq3TtL7JKhCl/GGA24GvAk8CN3L1YwL4g7L6Z8Bf/Xfal5W9ux8u0dWDrAJRnRuB7wPfBq7r3JkfgczlqFG9ELRHeW0KZvhT4DvAqa4VGZ7avXt2snoQtRr4FfCo/z71L7layJkLQlqmrJayynEA+ALwr5ww49xOl7ACWT2I2gH8ArjH23s8b5IKTvSKQpnuu+W81yX571K+CnAG+ArwezCiFJlVsHfX7i5ZJR8lWAP8Dfhg4UHzhi2Zuir7zkWGFLjz7o5nCbJ0ZMu81UzlDZh5MSiOrlTZ8+D9xApVvEFOpCi/7pcoO0uNdS/QrgpcvfgX5EJyhUiyGFEJW5Snp8xOk4AGsAe4CzghIpuk7W6Ie1z8PeATC6FRXRhQniabq6++UlaoDNaKBJF/55y1JByIr1oP/Mz76o6o6omn/9E59zGTOLiR/ls505cJiCZJ7cpn5D8XGxrjtKoVaSyRe6eVPwXNKgalBUhrGPsw6TfuWZV4mmaJ+F/3QaewG1+WoDacGSKbkaViiNYJHIhbTCglDsZQiau0bYZVYiSm79v953eB34Ybi4SMeiZtiEEuBW3zmpManO11yhpiZbhj/Dru3bCJNXVxCfqK+ay9LzzPu1GNpjakUSFMD9f0Np8Q0Yvfug94QZXI+giwyV+0IC4lMoZdW7eya3ycrSN1amihyUmy2JolyBQ8n6acIKKlMyKJBrQnrMBQEKVEmvH8fEZbXqBE1qcKF/VNlvYOO+BMq8nONePs2ngDd6xey9ahyLUSkZggBvEezhmq3s8STV1IaMQE87P8yPq/NZdJ+sCUydrpP9VsBbCF712HUQWflJthNYOPr9/Ers03cduaEbTJ3xh7suQJodXoWRuqT/vvE87EnGy5fGqwylD+Ebf0IuvWwkUzzMSWgzv/u7XWRQUjGdy9bj2P79jBBml1LmQMD+cUdftHehai0k481sVCBRe6dJ5MK8ccUDofehjqRdaqcNFsdxv/SyAyf6khNpa71m3kk1u2c0MGpp0xOpL7yDx6DyFp6XnuED8WozvN+eJFYHnoMNAtNnAk9xbJCuNVAyFKE+7csJGPbLuF7Y0KyWTGdZ6o7tGbACEyeJAl6j32hWBFRbIGdq2xMdy2dh0Pb97G9kbVOfLGsPc64iuctoTIXc94U9qpITFP63yfaL7ESGXkTcNMQV3gWfhNPoOOZr5FnA96tdbzCjyVDyprKTyw7XZuHW1Q7zi7QJQuFMcXRuXknJxocmZyklasaQwNsWm0QSPLiygDJuIH3eVKYa3i9MQk750/RzuOMEoTGXl2zkIm77HamZe4CdHWYq8hdS6n72B0TsTzYVt5QW4aHebO0Qbj0hKKSU6r+lzAtrUkCi5aeO3QUfYdeJMzzSlSpbmQtNl24/V8dOd21ldjhuOYii1olrVcbCW8dvAQz737FicrEZmKqKUabTWZkNnxpfK/v82TJsjccNX8UQye4/lqlbbw0M2b2QjUphFV9FOaVMH+yVP85ZVXeePEEWxtDFWvYjKIasMMixkNDVGJIydMuTdQr9dIdJVTKuZIXZHomHoSO7ISIasYXKru3WVH7rTV2o7WdsrTZ7mlvH2RZXsQtnmswU2rxpz5zSQqh5jcS+8eYs/r+zmWwNT4atquj6aITIzKLGdNShNLm4w6enqc5c05jSPOKJiIIpKoQlP6fSYm0+KX1Jza0PV/OVmhSQ/fh4mJXn6yjLifMCFEZyoMr1jYMjrMmqjWLZwbs3J3+L+aE1nGnlf2c7LRoD2kSaMK4m6sEY3QRMqQSv8yxGtO4Jk134rhYixaU3OjB5mOnEsUU6vMPeRS0KTcz9nuwJZ/fv9h8MBmqD1h29eOOJPJRAjnI4JAOYSAZ/f9h/PxMG0ZT7Ntpw3O3du8Ix05UVVejJ41m2uq+6sjYlNBabm+oC2XQPe5vu9Qfs8cjwga2m2qBoAqnG9bNUIk0XChuS4a4WSS8eo7R9xYkmhTpqqFPtqgHWlRo8saMeoLlxJp4KZChfGownxSt//X7dudmDzFRNqmFYlThtQR5oktNO1XEy5ZXZ2C0cWWsYYvqHaj++VugASDb5w8zUWda1US5USJQ3YvXZiw54qi3N3pC9rC4XNT/Pzlg9Qyw1ACtSz1LaJ1GiSa9N7EeS7EI7QiSKOUjHj6xMEy7+IsWFAqEMIqMgpqRPsMViV5Uy7RdKZo1SxJJSaNJHDs7aecj7uKpmsH1izjzck18kbT1oZ2pEniyGlVKHxEnSST8avpgzKBG3ed+LArStZg9h9kM95HD0SW8fPXEroEh51qTaZlLD7249smbwRURSKiztRXeXhH4PzYAGTlAz5l4x3EmEW2/q6XPmhxKEqOeWkWoll+pD84bYmdppuZxFPd/8qTq/JyZ7ZX0nEN2PyWXcS8ghczY0axPBrpZSsEgGU58xGCfsLK5YOrrUFaUqyQNQBWyBoAK2QNgBWyBsAKWQNghawBsELWAFghawCskDUAVsgaACtkDYDFnwW4BGSqqpy62EWYVpMsnNnGoswVq/8l1ixN0+RzghlRJwVp+hWwbXwtq42hEUUzZpTD7Hj38E+x4WDOYzBplxhTqeHguXMu6X5GAqNPLrl5bJh71m+gffYcSoYtC5CBx3zwMRyLJ+uSkqWsIrFw8PRJmqV5xyIalRr3brmRW9euhjTpaJcb4najtfnhZruvVbLwnurE5BTHJdumh3aFSY0d69fxxAd2UEtTR1aiIzf2H5BJblcf+QpXr2aRj3VPNFu8efqkIyv4rXCIiCFX8b61q/jc3fdw/8aNjCpN8+IU5xNDmhqaqUskIDJ5WsA12RoK2knGa8eOcO/YamqViKrLgfAJI4WsPkltenTDGnaODbG5McSL75+gJabXTnn77Dm0pEdLssyC5jwvN7Iyw4Hj73N4w1k2rFvNUKGwIcs5EBYrzaZ6jcc2reORjes5lVjemZhkT+sAF22KJBAulu9aFmRZazlz/iL73z/OjnXjbpVVPuU1M4HXaZ2OGNIRDWNYVY0wdoyGhSQVX+YbCTcdp649sgSN4et45chRhkzGIzfdwtaRYaouuSgEpAXtcum6MKw1LVlJWq8Q24RKlmLjPOtefKEj65IqZufl4JdsIl1rjapWOasinjt2nL+/fYh3LkzS7vgsyQjMXX4x3U2ozGeK20Q2RbujG3zk6zkWR7OkMVoyKMkPrdY5227yz6PvEUksdfM2xitVhuIqVZ0bZu74Q+6oLLmUlHBJTJHWsBCliUYpyVzuLkWZJ0wvzfpv+celIuyMivjH0WM8e/AtDreanHU5p7lgQomQIuSQ5Z0kt44xrM9ZuGlb6/mRrKoZZB0sXLRkUOJnqlVO64jnjx5h7779vHj4XY6YlPPScor0mSWVNMsopEyaQt78gpIlONbLDGXXjC8uhz0brI6gWudUC1rnp3hn3z5ePvAGd2zaxM7NW9gyOuZquZ2lKJcYtiixddjk49leZP0JXOUNL4d9ZayOyGp1JrKUi9S50Gpz/NDb/PvQW2ys17lhdIzrV4+irHULCdoqIpWU787KjstGyAT9XS+yRN2e8kt/L3uN9EIRJkcSZZgoppklTKYZJ6aaHGq2WDM54TIORQWacUQi6U/Tqthcrla9BcbvUyNr16bjR8Bnl1qrypC0bmealSqZMbSt4bw1vF9wT5HWJJLB5VZd+N5hSN5n9hLNsi9FWPL7k+DgW6YtWeERjz/9jHuf7/TLfgZfWth9HRYfNZO5ZLe2M8X++4Y9yAo7h8jeNHf6PWmMbLFSNPDQr/hWrn6OqL4XFC81WmKuOh6IqB4Ivtp6hZHGt4MiWUGpT3lTPFvQtv8HhLUP8vk14PnClgVdsgp73gVbfQn4siyUKGw5ci2juKD2B8CPPQ/u+3yXI7eSpau23ncVt627P98eye33EB64OINFSwNjlTGF8n6jQ5RKUtQUex960vv4ZDpZJcKCCV7vW4XHipt0FeKQZdVyXgLFpUZuNY138Pu96T1X3N9wr2w0VuiYzyCrRFhxK7vPA98EHpxFgKsB5Yj1davML4Efemfe8dGOKMGlyCoRVl6v9mHg0347lu2FLQ6uBpwDjsreMt69/NEqI0Nipc0RC3v99UNWibBrFuU4axpRg5D1/0CcVWYmQdMu6JL5P+K/A5ZJmTzrAAAAAElFTkSuQmCC",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "arch",
+    "live",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Wendella boat on the Chicago River between the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Packed open deck under the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the upper deck listening to the guide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The live guide on the Wendella boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat passing the river towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina City's twin corncob towers from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Looking up at the Wrigley Building from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat under a Chicago River bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The river skyline from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Chicago's river towers lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-architecture-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wendella",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Wendella+Boats%2C+400+N+Michigan+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Michigan Ave Bridge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/chicago-river-75-minute-guided-architecture-cruise-t290485/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-architecture&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago River: 1.5-Hour Guided Architecture Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.77",
+     "score": "4.8",
+     "meta": "9,931 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(9,931)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-river-75-minute-guided-architecture-cruise-t290485/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-architecture-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "All 3 river branches",
+     "pop_html": "<strong>Main, North and South branches in 90 minutes,</strong> from the Michigan Avenue (DuSable) Bridge past Wolf Point and back along the Riverwalk.<span class=\"bpa-lang-note\">The longest river-only route on this list.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A local guide talks the whole way,</strong> from the Wrigley Building and Tribune Tower to Marina City, Willis Tower and Vista Tower.<span class=\"bpa-lang-note\">Commentary in English.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗓️",
+     "label": "Sails all year",
+     "pop_html": "<strong>Open deck or a climate-controlled cabin,</strong> so it runs year-round, rain or shine."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Cash bar + restrooms",
+     "pop_html": "<strong>Local beer, spirits and Garrett's Popcorn for sale.</strong> You may bring your own non-alcoholic drinks and food.<span class=\"bpa-lang-note\">Restrooms with baby-changing tables on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Michigan Ave Bridge",
+     "pop_html": "<strong>Wendella dock, 400 N Michigan Ave (Michigan Avenue Bridge).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the one cruise to book if you only do one: 90 minutes, all three branches, a live guide, all year.",
+    "skip_html": "if you want the skyline from the lake: this route stays on the river."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which part of the river does it cover?",
+      "a": "All three branches: up the Main Branch to Wolf Point, then the North and South Branches, and back past the Riverwalk."
+     },
+     {
+      "q": "Does it run in winter?",
+      "a": "Yes, all year, with a climate-controlled cabin as well as the open deck."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Wendella dock at the Michigan Avenue (DuSable) Bridge, 400 N Michigan Ave, below the Wrigley Building."
+     },
+     {
+      "q": "Can I bring food?",
+      "a": "Yes, your own food and non-alcoholic drinks. Alcohol is sold at the cash bar."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€41",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, all 3 river branches",
+      "price": "From €41"
+     },
+     {
+      "label": "Child under 3",
+      "small": "on a lap",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €82"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/chicago-river-75-minute-guided-architecture-cruise-t290485/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-architecture&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-wendella-architecture",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "arch",
+    "live"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏛️ #2 Best for Architecture Fans",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Chicago's First Lady on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the skyline from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline over the river from the First Lady"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The First Lady passing the Riverwalk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The First Lady's bow under the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Merchandise Mart from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "River towers above the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Looking up at a tower from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-cac-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Chicago's First Lady",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Chicago%27s+First+Lady+Cruises%2C+112+E+Wacker+Dr%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 112 E Wacker Dr"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-chicago-architecture-foundation-center-river-cruise-aboard-chicago-s-first-lady-p1025804/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-first-lady-cac",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago Architecture Center River Cruise aboard Chicago's First Lady"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "734 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(683)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-architecture-river-cruise-on-chicago-s-first-lady-t466232/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-first-lady-cac-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.7",
+       "count": "(51)",
+       "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-chicago-architecture-foundation-center-river-cruise-aboard-chicago-s-first-lady-p1025804/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-first-lady-cac-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎓",
+     "label": "Architecture Center docent",
+     "pop_html": "<strong>The only cruise narrated by Chicago Architecture Center volunteer docents,</strong> trained to cover more than 50 buildings and 13 bascule bridges.<span class=\"bpa-lang-note\">Part of each ticket supports the Center's non-profit work.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "All 3 river branches",
+     "pop_html": "<strong>Main, North and South branches</strong> in 90 minutes, with 360-degree views from the open upper decks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗓️",
+     "label": "March to October",
+     "pop_html": "<strong>Sold for the sailing season, March to October.</strong> Out of season, book #1, which sails all year."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>This ticket can't be cancelled or rescheduled.</strong> Book it once your dates are fixed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "112 E Wacker Dr",
+     "pop_html": "<strong>First Lady dock box office, 112 E Wacker Dr.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most expert commentary on the river: an Architecture Center docent, not a crew guide.",
+    "skip_html": "if your plans may change: this ticket is non-refundable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Who gives the tour?",
+      "a": "A volunteer docent trained by the Chicago Architecture Center, the only cruise in the city that has them."
+     },
+     {
+      "q": "How many buildings does it cover?",
+      "a": "More than 50 buildings and 13 bascule bridges, on all three branches of the river."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "At Chicago's First Lady dock box office, 112 E Wacker Dr, by the Michigan Avenue Bridge."
+     },
+     {
+      "q": "Does it sail in winter?",
+      "a": "No, it is sold for the March to October season."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, this ticket is non-refundable and can't be rescheduled."
+     }
+    ]
+   },
+   "price": {
+    "main": "€51.91",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, Architecture Center docent",
+      "price": "From €51.91"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €103.82"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-chicago-architecture-foundation-center-river-cruise-aboard-chicago-s-first-lady-p1025804/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-first-lady-cac",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>",
+     "<b>Non-refundable</b>"
+    ],
+    "sublink": {
+     "url": "#chi-first-lady-cac",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "arch",
+    "live",
+    "cancel",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #3 Best Value Classic",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Shoreline boat on the Chicago River"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the open deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lifted bascule bridge over the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Shoreline boat between the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "River towers from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red bridge over the Chicago River"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Historic facades along the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Willis Tower from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests facing the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A child looking up at the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-shoreline-architecture-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Shoreline Sightseeing",
+    "⏱️ 75 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Shoreline+Sightseeing%2C+Chicago+Riverwalk",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Shoreline dock (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/architecture-river-tour-t46389/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-shoreline-architecture&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago: Architecture River Cruise Skip-the-Ticket Line"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "4,764 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(4,764)",
+       "url": "https://www.getyourguide.com/chicago-l225/architecture-river-tour-t46389/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-shoreline-architecture-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "All 3 river branches",
+     "pop_html": "<strong>Around 40 landmark buildings</strong> on the Main, North and South branches, with a live docent on board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "75 or 60 minutes",
+     "pop_html": "<strong>75 minutes in season,</strong> 60 minutes from 1 November to 15 April."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Skip the ticket office",
+     "pop_html": "<strong>A barcoded ticket takes you straight to the boarding line.</strong> Boarding starts 15 minutes before departure.<span class=\"bpa-lang-note\">$10 per ticket to change the date or time on the day.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dock by option",
+     "pop_html": "<strong>The boarding dock depends on the departure you pick.</strong> It is shown when you check availability."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€29 an hour",
+     "pop_html": "<strong>€36 for 75 min (60 in winter),</strong> about €29 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the full three-branch route for €5 less than #1, with a live docent.",
+    "skip_html": "if you use a wheelchair: the listing says it is not suitable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "75 minutes in season and 60 minutes from 1 November to 15 April."
+     },
+     {
+      "q": "Is there a live guide?",
+      "a": "Yes, a docent on board covers about 40 landmark buildings."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "It depends on the departure you choose; the dock is shown when you check availability."
+     },
+     {
+      "q": "Can I bring food or drinks?",
+      "a": "No, outside food and drinks are not allowed. There is a cash bar on most boats, depending on the season."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before. Changing the time on the day costs $10 per ticket."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min (60 min from 1 Nov to 15 Apr)",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/architecture-river-tour-t46389/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-shoreline-architecture&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-shoreline-architecture",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "arch",
+    "live",
+    "family",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👨‍👩‍👧 #4 Best with Kids",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Wendella boat at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat between the towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Wrigley Building from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat by the Riverwalk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats on the Chicago River"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat under the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat passing a river bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A bascule bridge raised over the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-45-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wendella",
+    "⏱️ 45 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Wendella+Boats%2C+400+N+Michigan+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Michigan Ave Bridge"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-45-minute-chicago-river-architectural-cruise-p1038959/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-wendella-45",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago: 45-Minute Architectural Sightseeing Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.69",
+     "score": "4.7",
+     "meta": "3,195 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2,985)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-family-friendly-architecture-river-cruise-t361750/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-45-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.6",
+       "count": "(210)",
+       "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-45-minute-chicago-river-architectural-cruise-p1038959/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-wendella-45-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "45 min",
+     "pop_html": "<strong>45 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👨‍👩‍👧",
+     "label": "Made for families",
+     "pop_html": "<strong>45 minutes of commentary pitched at the whole family,</strong> short enough for younger kids."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "Main + South branch",
+     "pop_html": "<strong>From Lake Shore Drive to Willis Tower</strong> and back past the Riverwalk.<span class=\"bpa-lang-note\">The North Branch is not part of this route.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "❄️",
+     "label": "Climate-controlled lounge",
+     "pop_html": "<strong>An indoor lounge plus the open deck,</strong> with a captain who narrates."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>This ticket can't be cancelled or rescheduled.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Michigan Ave Bridge",
+     "pop_html": "<strong>Wendella dock, 400 N Michigan Ave.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest architecture tour here, at a length young kids will sit through.",
+    "skip_html": "if you want the North Branch and the full story: take #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "45 minutes."
+     },
+     {
+      "q": "Which part of the river does it cover?",
+      "a": "The Main Branch from Lake Shore Drive and the South Branch to Willis Tower, then back past the Riverwalk."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "At the Wendella dock, 400 N Michigan Ave, by the Michigan Avenue Bridge."
+     },
+     {
+      "q": "Is it good for kids?",
+      "a": "Yes, the commentary is pitched at families, and there is an indoor climate-controlled lounge."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, this ticket is non-refundable and can't be rescheduled."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25.50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, main branch",
+      "price": "From €25.50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €51"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/chicago-attractions-c80816/tickets-for-45-minute-chicago-river-architectural-cruise-p1038959/?partner=thecruisedetective.com-176436&tq_campaign=chicago-architecture-boat-tours-wendella-45",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Instant mobile ticket</b>",
+     "<b>Non-refundable</b>"
+    ],
+    "sublink": {
+     "url": "#chi-wendella-45",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "arch",
+    "lake",
+    "live",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌊 #5 Best River + Lake",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guide talking to guests on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from Lake Michigan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cash bar on the Wendella boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass towers from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marina City from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests enjoying the cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Navy Pier from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Open water of Lake Michigan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "American flag at the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-lake-river-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wendella",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Wendella+Boats%2C+400+N+Michigan+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Michigan Ave Bridge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-lake-and-river-architecture-cruise-t293160/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-lake-river&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago: 1.5-Hour Lake and River Architecture Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "2,263 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2,263)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-lake-and-river-architecture-cruise-t293160/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-lake-river-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours (longer in summer if the lock is busy).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Through the Chicago Lock",
+     "pop_html": "<strong>Out of the river through the lock</strong> onto Lake Michigan for the skyline from the water.<span class=\"bpa-lang-note\">Can run longer in high summer when the lock is busy.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "River + lake",
+     "pop_html": "<strong>Main Branch to Wolf Point first,</strong> then out through the lock to the lake."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A local guide narrates</strong> both the river architecture and the lakefront."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍿",
+     "label": "Cash bar",
+     "pop_html": "<strong>Local beer, spirits and Garrett's Popcorn for sale.</strong> Own non-alcoholic drinks and food allowed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Michigan Ave Bridge",
+     "pop_html": "<strong>Wendella dock, 400 N Michigan Ave.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for both views in one trip: the river towers and the skyline from Lake Michigan.",
+    "skip_html": "if you want every river building: half the time is out on the lake."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Does it go on Lake Michigan?",
+      "a": "Yes, through the Chicago Lock and out onto the lake for the skyline view."
+     },
+     {
+      "q": "How much of the river do I see?",
+      "a": "The Main Branch up to Wolf Point, then the boat heads out to the lake."
+     },
+     {
+      "q": "Can it run longer?",
+      "a": "Yes, in high summer it can take a little more than 90 minutes when the lock is busy."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Wendella dock, 400 N Michigan Ave, at the Michigan Avenue Bridge."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€44",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, river + Lake Michigan",
+      "price": "From €44"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €88"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-lake-and-river-architecture-cruise-t293160/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-lake-river&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-wendella-lake-river",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "evening",
+    "lake",
+    "live",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #6 Best at Sunset",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Chicago skyline against a golden sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline at dusk from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Navy Pier Ferris wheel at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wendella boat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the deck at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest raising a drink on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bartender pouring on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple watching the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide on the evening cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the lakefront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-wendella-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Wendella",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Wendella+Boats%2C+400+N+Michigan+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Michigan Ave Bridge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-romantic-sunset-cruise-t386902/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago: 1.5-Hour Scenic Sunset Lake Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "790 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(790)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-romantic-sunset-cruise-t386902/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Timed for sunset",
+     "pop_html": "<strong>Departs so you are on the lake</strong> as the sun sets behind the skyline."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Through the Chicago Lock",
+     "pop_html": "<strong>River first, then out through the lock</strong> onto Lake Michigan."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A local guide narrates</strong> the river and the lakefront."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Cash bar",
+     "pop_html": "<strong>Local beer, spirits and Garrett's Popcorn for sale.</strong> Own non-alcoholic drinks and food allowed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Michigan Ave Bridge",
+     "pop_html": "<strong>Wendella dock, 400 N Michigan Ave.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the skyline in golden light, out on the lake, with a drink in hand.",
+    "skip_html": "if architecture is the point: the light is the star here, not the buildings."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When does it leave?",
+      "a": "Departures are timed so you reach the lake around sunset; check the time for your date."
+     },
+     {
+      "q": "Does it go through the lock?",
+      "a": "Yes, from the river through the Chicago Lock onto Lake Michigan."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "At the Wendella dock, 400 N Michigan Ave, about 15 minutes before departure."
+     },
+     {
+      "q": "Are kids welcome?",
+      "a": "Yes, children under 4 go free."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€44",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, sunset on Lake Michigan",
+      "price": "From €44"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €88"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/chicago-15-hour-romantic-sunset-cruise-t386902/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-wendella-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-wendella-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "evening",
+    "lake",
+    "live",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌃 #7 Best at Night",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests photographing the lit skyline from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "River towers lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline at dusk from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lighthouse and skyline at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trump Tower and the Wrigley Building at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Night towers along the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with glow sticks on the evening cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-first-lady-night-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Chicago's First Lady",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Chicago%27s+First+Lady+Cruises%2C+112+E+Wacker+Dr%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 112 E Wacker Dr"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/chicago-by-night-river-and-lake-cruise-t266010/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-first-lady-night&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago by Night River and Lake Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,329 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,329)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-by-night-river-and-lake-cruise-t266010/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-first-lady-night-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌃",
+     "label": "After dark",
+     "pop_html": "<strong>The skyline lit up</strong> from the river and from Lake Michigan."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Through the Harbor Lock",
+     "pop_html": "<strong>Main Branch first, then through the lock</strong> onto the lake."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>Guides tell the city's stories</strong> as you go."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Drinks for sale",
+     "pop_html": "<strong>Water, soft drinks, wine and beer for sale.</strong> No food sold: bring your own snacks.<span class=\"bpa-lang-note\">Open and covered seating.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "112 E Wacker Dr",
+     "pop_html": "<strong>First Lady dock, 112 E Wacker Dr.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lit-up skyline: the river towers and the view back from the lake after dark.",
+    "skip_html": "if you want daylight detail on the buildings: take #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The river towers lit up on the Main Branch, then the whole skyline from Lake Michigan after the Harbor Lock."
+     },
+     {
+      "q": "Is food sold on board?",
+      "a": "No food is sold, but you can bring snacks. Water, soft drinks, wine and beer are for sale."
+     },
+     {
+      "q": "Can I bring a stroller?",
+      "a": "Yes; it is folded and stored in the salon during the cruise."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "At Chicago's First Lady dock, 112 E Wacker Dr."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€46",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min after dark, river + lake",
+      "price": "From €46"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €92"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/chicago-by-night-river-and-lake-cruise-t266010/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-first-lady-night&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-first-lady-night",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "thrill",
+    "arch",
+    "lake",
+    "live",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #8 Best Thrill",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Seadog speedboat spraying across the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat full of guests on Lake Michigan"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seadog under a red river bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat on the river among towers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by a fountain"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the river tour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests cheering on the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat with the skyline behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-seadog-speedboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises (Seadog)",
+    "⏱️ 75 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Navy+Pier%2C+600+E+Grand+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Navy Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-75-min-speedboat-architecture-cruise-t65241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-seadog-speedboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago Seadog 75-Minute Speedboat Architecture Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "301 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(301)",
+       "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-75-min-speedboat-architecture-cruise-t65241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-seadog-speedboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "75 min",
+     "pop_html": "<strong>75 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💨",
+     "label": "Lake speed run",
+     "pop_html": "<strong>It finishes with a fast ride on Lake Michigan.</strong> You may get wet.<span class=\"bpa-lang-note\">Not for pregnant travellers or people with back problems.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "River architecture first",
+     "pop_html": "<strong>Through the Harbor Lock and up the river</strong> past Tribune Tower, Willis Tower and the Merchandise Mart."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live narration",
+     "pop_html": "<strong>A guide narrates the river section.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Navy Pier",
+     "pop_html": "<strong>Boards at Navy Pier,</strong> 600 E Grand Ave.<span class=\"bpa-lang-note\">Toilets on board.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for teens and anyone who wants the architecture with a splash of speed at the end.",
+    "skip_html": "if you are pregnant or have back problems: the listing rules it out."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Will I get wet?",
+      "a": "Possibly: the speedboat is open-air and the lake section is fast."
+     },
+     {
+      "q": "Is there architecture commentary?",
+      "a": "Yes, a live narrated section on the Chicago River after the Harbor Lock."
+     },
+     {
+      "q": "Who can't ride?",
+      "a": "Pregnant travellers and people with back problems. Under-12s must be with an adult."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Navy Pier, 600 E Grand Ave."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before. It runs weather permitting."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min, river + lake speed run",
+      "price": "From €50"
+     },
+     {
+      "label": "Infant",
+      "small": "free ticket needed",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-75-min-speedboat-architecture-cruise-t65241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-seadog-speedboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-seadog-speedboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "dinner",
+    "evening",
+    "lake",
+    "cancel"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #9 Best Dinner Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Odyssey on Lake Michigan with the skyline behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Plated dinner on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests toasting at dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Odyssey cruising past the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clinking glasses over dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple dining by the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Odyssey at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline at dusk from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-08.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-09.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-odyssey-dinner-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises (Odyssey)",
+    "⏱️ 2 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Navy+Pier%2C+600+E+Grand+Ave%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Navy Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-premier-lunch-or-dinner-cruise-t276152/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-odyssey-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "City Cruises Chicago: Premier Lunch or Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "520 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(520)",
+       "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-premier-lunch-or-dinner-cruise-t276152/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-odyssey-dinner-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 to 3 h",
+     "pop_html": "<strong>2 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course plated meal",
+     "pop_html": "<strong>Lunch or dinner with table service,</strong> plus unlimited coffee, hot tea and iced tea.<span class=\"bpa-lang-note\">Alcohol for sale; the menu can change.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "DJ + dance floor",
+     "pop_html": "<strong>A live DJ on board,</strong> and a 360-degree observation deck."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👔",
+     "label": "Dress code",
+     "pop_html": "<strong>Smart casual: no jeans, shorts, trainers or flip-flops.</strong> Jackets and cocktail attire suggested at dinner."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Navy Pier",
+     "pop_html": "<strong>Boarding starts 30 minutes before departure</strong> at Navy Pier, 600 E Grand Ave."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an anniversary or a big night out: a seated 3-course dinner with the skyline outside the window.",
+    "skip_html": "if you just want the architecture: commentary is not the point here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A 3-course plated lunch or dinner, unlimited coffee and tea, the DJ and the service fee. Alcohol costs extra."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Yes, smart casual: no jeans, shorts, sleeveless tops, trainers or flip-flops."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Navy Pier, 600 E Grand Ave. Boarding starts 30 minutes before departure."
+     },
+     {
+      "q": "Can I get a vegetarian or allergy-friendly meal?",
+      "a": "Tell your server about allergies before you order; the menu can change."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€108",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "lunch or dinner, 3 courses",
+      "price": "From €108"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €216"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/city-cruises-chicago-premier-lunch-or-dinner-cruise-t276152/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-odyssey-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-odyssey-dinner",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "arch",
+    "lake",
+    "live",
+    "cancel",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚒 #10 Most Unusual Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The red fireboat under a rainbow on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The fireboat on the river at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset from the fireboat's deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lighthouse through a porthole"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the lake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside the fireboat's cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Towers above the river from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the fireboat's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-01.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-02.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-03.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-04.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-05.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-06.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-07.avif"
+     },
+     {
+      "src": "/assets/chicago-architecture-boat-tours/chicago-boat-tour-fireboat-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Chicago Fireboat Tours",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=DuSable+Harbor%2C+111+N+Lake+Shore+Dr%2C+Chicago",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 DuSable Harbor"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/chicago-l225/chicago-historical-architectural-fireboat-cruise-t962348/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-fireboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Chicago: Historical Lake and River Fireboat Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "20 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(20)",
+       "url": "https://www.getyourguide.com/chicago-l225/chicago-historical-architectural-fireboat-cruise-t962348/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-fireboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 to 120 min",
+     "pop_html": "<strong>90 to 120 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚒",
+     "label": "Retired fireboat",
+     "pop_html": "<strong>You ride the Fred A. Busse,</strong> Chicago's retired fireboat Engine 41."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🖼️",
+     "label": "Floating museum",
+     "pop_html": "<strong>Firefighting artefacts and photographs on board,</strong> included in the ticket."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕛",
+     "label": "12:00 and 15:00",
+     "pop_html": "<strong>Two departures a day from DuSable Harbor,</strong> 90 to 120 minutes depending on the lock."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Expert docents",
+     "pop_html": "<strong>Live commentary on the city, the river and the fire department.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "DuSable Harbor",
+     "pop_html": "<strong>DuSable Harbor, 111 N Lake Shore Dr.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for history fans and kids who love fire engines, at €35.",
+    "skip_html": "if you want a big boat with a bar and lots of reviews: only 20 so far."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is the boat?",
+      "a": "The Fred A. Busse, Chicago's retired fireboat Engine 41, now a floating museum."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "At 12:00 and 15:00 from DuSable Harbor."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 to 120 minutes, depending on the Chicago Harbor Lock."
+     },
+     {
+      "q": "Is there a bar?",
+      "a": "Snacks and drinks, alcoholic and not, are for sale on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 to 120 min, floating museum",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/chicago-l225/chicago-historical-architectural-fireboat-cruise-t962348/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chicago-architecture-boat-tours-fireboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#chi-fireboat",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  }
+ ]
+}

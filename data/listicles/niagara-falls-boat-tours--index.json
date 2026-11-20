@@ -1,0 +1,4714 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "walk",
+    "journey"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Niagara City Cruises boat at the foot of the Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers in red ponchos at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in yellow ponchos at Journey Behind the Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends taking a selfie in the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The brink of the Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A guest in the mist on the observation deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide talking to the group"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in ponchos at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mist rising from the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walks-boat-journey-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Walks Canada",
+    "⏱️ 2.5 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Niagara+City+Cruises%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Canadian side (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-boat-trip-journe-t465947/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walks-boat-journey&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls: Boat Trip &amp; Journey Behind the Falls Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,953 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,953)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-boat-trip-journe-t465947/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walks-boat-journey-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 to 3 h",
+     "pop_html": "<strong>2.5 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Niagara City Cruises boat",
+     "pop_html": "<strong>Pre-reserved tickets for the boat to the foot of the falls,</strong> with an early-boat upgrade option.<span class=\"bpa-lang-note\">The boat is seasonal; check your date.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌊",
+     "label": "Journey Behind the Falls",
+     "pop_html": "<strong>Ticket included: tunnels and observation decks</strong> behind the Horseshoe Falls."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚶",
+     "label": "2 km guided walk",
+     "pop_html": "<strong>An English-speaking guide on a walking tour</strong> of about 2 km at a moderate pace.<span class=\"bpa-lang-note\">Not suitable for wheelchair users.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗼",
+     "label": "Skylon add-on",
+     "pop_html": "<strong>Fast-track Skylon Tower entry</strong> as an option."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Canadian side (by option)",
+     "pop_html": "<strong>Canadian side (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best value guided combo: the boat, Journey Behind the Falls and a guide for €60.",
+    "skip_html": "if you use a wheelchair: it is a 2 km walking tour."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the boat included?",
+      "a": "Pre-reserved Niagara City Cruises tickets are included with the boat option; the boat sails in season only."
+     },
+     {
+      "q": "Is Journey Behind the Falls included?",
+      "a": "Yes, with a poncho."
+     },
+     {
+      "q": "How much walking is there?",
+      "a": "About 2 km (1.2 miles) at a moderate pace."
+     },
+     {
+      "q": "Can I get the first boat of the day?",
+      "a": "Yes, with the Upgrade option, to beat the crowds."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€60",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "guided walk, Journey Behind the Falls, boat option",
+      "price": "From €60"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €120"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-boat-trip-journe-t465947/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walks-boat-journey&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-walks-boat-journey",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "toronto",
+    "journey"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚌 #2 Best from Toronto",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Hornblower boat in front of the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat heading into the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers on the boat at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in blue ponchos at the Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in red ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A rainbow over the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in yellow ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls in mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tour group with the Queen Tour bus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The guide on the bus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-queen-toronto-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Queen Tour",
+    "⏱️ 9 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Toronto%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Toronto or Mississauga pick-up"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/toronto-l177/toronto-guided-niagara-falls-tour-with-boat-ri-t765488/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-queen-toronto&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Toronto: Niagara Falls, Boat Ride &amp; Journey Behind the Falls"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "2,247 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(2,247)",
+       "url": "https://www.getyourguide.com/toronto-l177/toronto-guided-niagara-falls-tour-with-boat-ri-t765488/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-queen-toronto-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "9 h, from Toronto",
+     "pop_html": "<strong>About 9 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "10 pick-up points",
+     "pop_html": "<strong>Air-conditioned bus from downtown Toronto and Mississauga,</strong> about 8:00 to 17:30."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Fast-track boat ticket",
+     "pop_html": "<strong>Fast-track tickets for the Niagara City Cruises (Hornblower) boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌊",
+     "label": "Journey option",
+     "pop_html": "<strong>Add skip-the-line Journey Behind the Falls,</strong> or keep the time for lunch and the views."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎓",
+     "label": "Licensed guide",
+     "pop_html": "<strong>A licensed Niagara Parks guide on the way.</strong> Lunch is not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Toronto or Mississauga pick-up",
+     "pop_html": "<strong>10 points in Toronto and Mississauga.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a day trip from Toronto with the boat already booked and a licensed guide.",
+    "skip_html": "if you're staying in Niagara Falls: #1 is cheaper and shorter."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it pick up?",
+      "a": "From 10 points in downtown Toronto and Mississauga; times are emailed after booking."
+     },
+     {
+      "q": "Is the boat included?",
+      "a": "Yes, fast-track tickets for the Niagara City Cruises (Hornblower) boat."
+     },
+     {
+      "q": "Is lunch included?",
+      "a": "No, there is free time to eat at the falls."
+     },
+     {
+      "q": "Do I need a passport?",
+      "a": "No, the whole day stays on the Canadian side."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€95",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "bus from Toronto + boat (+ Journey option)",
+      "price": "From €95"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €190"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/toronto-l177/toronto-guided-niagara-falls-tour-with-boat-ri-t765488/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-queen-toronto&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-queen-toronto",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "evening"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎆 #3 Best at Night",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Fireworks over the falls from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The falls illuminated at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fireworks over the illuminated falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers watching the fireworks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends in ponchos at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat at the dock after dark"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the evening cruise"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fireworks bursting over the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers in ponchos at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fireworks reflected in the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-fireworks-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Niagara City Cruises",
+    "⏱️ 40 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Niagara+City+Cruises%2C+5920+Niagara+Pkwy%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Niagara City Cruises dock"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-40-minute-illumi-t146292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-fireworks-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls, Canada: Evening Fireworks Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "2,815 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(2,815)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-40-minute-illumi-t146292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-fireworks-cruise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "40 min",
+     "pop_html": "<strong>40 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎆",
+     "label": "Illumination + fireworks",
+     "pop_html": "<strong>Cruise up to the falls after dark</strong> as the Illumination lights them and fireworks go up.<span class=\"bpa-lang-note\">Fireworks are weather-dependent; no refund if they don't happen.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "The boat itself",
+     "pop_html": "<strong>The only card here that is simply the Niagara City Cruises boat,</strong> no tour around it."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚡",
+     "label": "Funicular + patio",
+     "pop_html": "<strong>Funicular down to the gorge</strong> and access to the Riverside Patio."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Cash bar + Wi-Fi",
+     "pop_html": "<strong>Music, a licensed cash bar and Wi-Fi on board.</strong> Poncho included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Niagara City Cruises dock",
+     "pop_html": "<strong>Niagara City Cruises dock.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the falls at their most dramatic: lit up, with fireworks, from the water.",
+    "skip_html": "if you want the full daytime soaking at the foot of the falls: take #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The falls under the evening Illumination, with fireworks when the weather allows."
+     },
+     {
+      "q": "What if there are no fireworks?",
+      "a": "The cruise runs rain or shine, but there's no refund if the fireworks don't happen."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 40 minutes."
+     },
+     {
+      "q": "What's on board?",
+      "a": "Music, a licensed cash bar and Wi-Fi. A poncho is included."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€34",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "40 min after dark",
+      "price": "From €34"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €68"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-40-minute-illumi-t146292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-fireworks-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-fireworks-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "walk",
+    "journey"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #4 Highest Rated",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Niagara City Cruises boat below the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passenger in a poncho in the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in yellow ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in ponchos on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends in the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at Journey Behind the Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tour group in red ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The guide with the group"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat heading into the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-walk-niagara-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Walk Niagara Tours",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=5146+Murray+St%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 5146 Murray St"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/best-niagara-falls-guided-tour-t451416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walk-niagara&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls Canada: Boat Ride, Journey Behind the Falls"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "340 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(340)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/best-niagara-falls-guided-tour-t451416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walk-niagara-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>About 2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⭐",
+     "label": "4.9 from 340",
+     "pop_html": "<strong>The highest-rated guided tour here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "8:30 first-in tour",
+     "pop_html": "<strong>The 8:30 tour is first into Journey Behind the Falls.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Skip-the-line both",
+     "pop_html": "<strong>Skip-the-line boat and Journey Behind the Falls,</strong> ponchos included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💳",
+     "label": "$200 Fun Pack",
+     "pop_html": "<strong>A Niagara Fun Pack worth over $200 in savings</strong> on other attractions."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "5146 Murray St",
+     "pop_html": "<strong>5146 Murray St, Niagara Falls, Ontario.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most polished guided morning: first in line, top-rated guide.",
+    "skip_html": "on a budget: #1 covers the same sights for €39 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A licensed guide, skip-the-line Niagara City Cruises and Journey Behind the Falls with ponchos, and a Niagara Fun Pack."
+     },
+     {
+      "q": "Where do we meet?",
+      "a": "5146 Murray St, Niagara Falls, Ontario."
+     },
+     {
+      "q": "Is it on the Canadian side?",
+      "a": "Yes, entirely."
+     },
+     {
+      "q": "Why book the 8:30 tour?",
+      "a": "It's first into Journey Behind the Falls, before the crowds."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€99",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "guide, boat, Journey, Fun Pack",
+      "price": "From €99"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €198"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/best-niagara-falls-guided-tour-t451416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-walk-niagara&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-walk-niagara",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "walk",
+    "journey",
+    "skylon",
+    "accessible"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🗼 #5 Best All-in-One",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests in ponchos at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group in yellow ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at a Journey Behind the Falls portal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends taking a selfie in the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the falls' edge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple in ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Skylon Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from the Skylon Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the walk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-skylon-combo-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "See Sight Tours",
+    "⏱️ 3 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Skylon+Tower%2C+5200+Robinson+St%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skylon Tower"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tour-skylon-journ-t391918/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-skylon-combo&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls Tour: Skylon, Journey Behind the Falls &amp; Boat Ride"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "2,075 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2,075)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tour-skylon-journ-t391918/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-skylon-combo-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 to 4 h",
+     "pop_html": "<strong>3 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗼",
+     "label": "Skylon Tower",
+     "pop_html": "<strong>A glass lift 520 ft up to the observation deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌊",
+     "label": "Journey Behind the Falls",
+     "pop_html": "<strong>Tunnels behind the Horseshoe Falls.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Boat May to December",
+     "pop_html": "<strong>Niagara City Cruises boat from May to December;</strong> Niagara Takes Flight replaces it January to April."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "Wheelchair + pushchair",
+     "pop_html": "<strong>Wheelchair and pushchair accessible.</strong> 2.5 km of walking in total."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Skylon Tower",
+     "pop_html": "<strong>Skylon Tower, 5200 Robinson St.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for all three big attractions in one go, and the most accessible tour here.",
+    "skip_html": "in January to April if the boat matters: it is replaced by a flight show."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "Skylon Tower, Journey Behind the Falls and the Niagara City Cruises boat (May to December), with live commentary."
+     },
+     {
+      "q": "What happens in winter?",
+      "a": "From January to April the boat is replaced by Niagara Takes Flight."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "Yes, wheelchair and pushchair accessible; about 2.5 km of walking."
+     },
+     {
+      "q": "Where do we meet?",
+      "a": "Inside Skylon Tower, 5200 Robinson St, by the Daredevil Exhibit."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€66",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "Skylon, Journey Behind the Falls, boat",
+      "price": "From €66"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €132"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tour-skylon-journ-t391918/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-skylon-combo&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-skylon-combo",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "usa",
+    "walk",
+    "accessible"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🇺🇸 #6 Best on the US Side",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Maid of the Mist boat near the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in ponchos at Cave of the Winds"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in blue ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the Cave of the Winds deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends in ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The American Falls up close"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The falls in sunlight"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls from the US side"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The American Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-maid-of-the-mist-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "See Sight Tours",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Hard+Rock+Cafe%2C+333+Prospect+St%2C+Niagara+Falls%2C+NY",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Niagara Falls, NY"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-new-york-l87888/niagara-falls-tour-with-maid-t391944/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-maid-of-the-mist&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls USA: Maid of the Mist &amp; Cave of the Winds"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "33 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(33)",
+       "url": "https://www.getyourguide.com/niagara-falls-new-york-l87888/niagara-falls-tour-with-maid-t391944/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-maid-of-the-mist-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Maid of the Mist",
+     "pop_html": "<strong>The original boat, from the US side,</strong> mid-May to October."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌬️",
+     "label": "Cave of the Winds",
+     "pop_html": "<strong>Walk up to the foot of Bridal Veil Falls.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Goat Island stops",
+     "pop_html": "<strong>Terrapin Point, Luna Island and Three Sisters Islands,</strong> with a guided walk and the Observation Deck."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>An expert local guide.</strong> Wheelchair and pram accessible."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Niagara Falls, NY",
+     "pop_html": "<strong>Hard Rock Cafe, 333 Prospect St, Niagara Falls, NY.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the US side: the original Maid of the Mist plus Cave of the Winds.",
+    "skip_html": "outside mid-May to October: Maid of the Mist doesn't sail."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which boat is it?",
+      "a": "Maid of the Mist, the US-side boat, from mid-May to October."
+     },
+     {
+      "q": "What else is included?",
+      "a": "Cave of the Winds, the Observation Deck and a guided walk with stops at Terrapin Point, Luna Island and Three Sisters Islands."
+     },
+     {
+      "q": "Where do we meet?",
+      "a": "Hard Rock Cafe, 333 Prospect St, Niagara Falls, NY."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "Yes, wheelchair and pram accessible."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€109",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "Maid of the Mist, Cave of the Winds, guide",
+      "price": "From €109"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €218"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-new-york-l87888/niagara-falls-tour-with-maid-t391944/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-maid-of-the-mist&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-maid-of-the-mist",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "walk"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #7 Best Short Small Group",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The boat under a rainbow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers in red ponchos on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mist and rainbow over the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat in the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The falls from the walkway"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spray at the foot of the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat near the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The guide at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-small-group-walk-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "You Choose Niagara Tours",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=7005+Niagara+River+Pkwy%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Niagara River Pkwy"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/walking-tour-of-niagara-falls-t806696/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-small-group-walk&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Iconic Hornblower Boat and Small Group Walking Tour: Canada"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "284 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(284)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/walking-tour-of-niagara-falls-t806696/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-small-group-walk-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚶",
+     "label": "1-hour guided walk",
+     "pop_html": "<strong>A small-group walk with a licensed Niagara Parks guide</strong> before the boat."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Timed boat ticket",
+     "pop_html": "<strong>Then a timed Hornblower ticket;</strong> the boat ride itself is self-guided."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Poncho included",
+     "pop_html": "<strong>A recyclable mist poncho.</strong> Bring a change of clothes."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Niagara River Pkwy",
+     "pop_html": "<strong>Meet at 7005 Niagara River Parkway.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a short, small-group intro and a timed boat slot, without Journey Behind the Falls.",
+    "skip_html": "if you want Journey Behind the Falls too: #1 includes it for less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A one-hour small-group walk with a licensed guide, a timed Hornblower boat ticket and a poncho."
+     },
+     {
+      "q": "Is the guide on the boat?",
+      "a": "No, the boat ride is self-guided."
+     },
+     {
+      "q": "Is Journey Behind the Falls included?",
+      "a": "No."
+     },
+     {
+      "q": "Where do we meet?",
+      "a": "7005 Niagara River Parkway, Niagara Falls, Ontario."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€76",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h guided walk + timed boat ticket",
+      "price": "From €76"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €152"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/walking-tour-of-niagara-falls-t806696/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-small-group-walk&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-small-group-walk",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "walk",
+    "journey",
+    "skylon"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🇩🇪 #8 Best in German",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The boat at the foot of the Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The falls and the Skylon Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Niagara River rapids"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Skylon Tower's yellow lift"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Floral Clock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-bg-tours-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "BG Tours",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Canadian side"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-guided-tour-with-t777473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-bg-tours&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls: Boat, Journey Behind the Falls &amp; Tower Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "696 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(696)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-guided-tour-with-t777473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-bg-tours-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "English + German",
+     "pop_html": "<strong>Commentary in English and German,</strong> on availability."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Boat 1 May to 30 Nov",
+     "pop_html": "<strong>Hornblower boat from 1 May to 30 November;</strong> Niagara Takes Flight or the Power Station replace it in winter."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗼",
+     "label": "Skylon + Journey",
+     "pop_html": "<strong>Skylon Tower and Journey Behind the Falls included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Not for everyone",
+     "pop_html": "<strong>Not suitable for people with mobility impairments</strong> or heart problems."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Canadian side",
+     "pop_html": "<strong>Canadian side.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for German speakers who want everything narrated in their language.",
+    "skip_html": "if you speak English: #5 covers the same three attractions for €46 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is it in German?",
+      "a": "Commentary is offered in English and German, on availability."
+     },
+     {
+      "q": "What is included?",
+      "a": "A narrated tour of the Canadian side, Skylon Tower, Journey Behind the Falls and the Hornblower boat (1 May to 30 November), with a poncho."
+     },
+     {
+      "q": "What happens in winter?",
+      "a": "From 1 December to 30 April the boat is replaced by Niagara Takes Flight or the Niagara Power Station."
+     },
+     {
+      "q": "Who is it not for?",
+      "a": "People with mobility impairments or heart problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€112",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "boat, Journey, Skylon, narrated tour",
+      "price": "From €112"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €224"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-guided-tour-with-t777473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-bg-tours&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-bg-tours",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 6 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "toronto"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍁 #9 Best Day Trip Value",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The boat at the foot of the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests photographing the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest in a poncho at the brink"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in ponchos on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends in ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Child in a poncho at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Niagara-on-the-Lake's main street"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The tour coach"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-king-toronto-notl-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "King Transportation",
+    "⏱️ 10 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Maple+Leaf+Square%2C+Toronto",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Maple Leaf Square, Toronto"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/toronto-l177/toronto-niagara-falls-bus-tour-with-maple-tast-t519021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-king-toronto-notl&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls Tour &amp; Niagara-on-the-Lake + Boat + More"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "937 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(937)",
+       "url": "https://www.getyourguide.com/toronto-l177/toronto-niagara-falls-bus-tour-with-maple-tast-t519021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-king-toronto-notl-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 h, from Toronto",
+     "pop_html": "<strong>About 10 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "From Maple Leaf Square",
+     "pop_html": "<strong>Bus from downtown Toronto,</strong> with a certified Niagara Falls guide and Wi-Fi."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Niagara-on-the-Lake",
+     "pop_html": "<strong>A stop in Niagara-on-the-Lake,</strong> the Whirlpool and the Floral Clock."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍁",
+     "label": "Maple syrup tasting",
+     "pop_html": "<strong>At Maple Leaf Place.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "➕",
+     "label": "Boat is an add-on",
+     "pop_html": "<strong>Add fast-track boat and Journey Behind the Falls tickets</strong> when you book."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Maple Leaf Square, Toronto",
+     "pop_html": "<strong>Maple Leaf Square, Toronto.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest day trip from Toronto, with Niagara-on-the-Lake thrown in.",
+    "skip_html": "if you assume the boat is included: it's an add-on."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the boat included?",
+      "a": "Not in the base price; add fast-track boat and Journey Behind the Falls tickets when booking."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Maple Leaf Square in downtown Toronto."
+     },
+     {
+      "q": "What else do you see?",
+      "a": "Niagara-on-the-Lake, the Whirlpool, the Floral Clock and a maple syrup tasting."
+     },
+     {
+      "q": "Do I need a passport?",
+      "a": "No, the tour stays in Canada."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€46",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "bus + guide (boat and Journey are add-ons)",
+      "price": "From €46"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €92"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/toronto-l177/toronto-niagara-falls-bus-tour-with-maple-tast-t519021/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-king-toronto-notl&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-king-toronto-notl",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "walk",
+    "journey",
+    "skylon"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🧩 #10 Most Flexible",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends in ponchos at the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Selfie in the mist"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Skylon Tower at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in ponchos on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group in ponchos"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Horseshoe Falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Frozen spray at the falls in winter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snow at the falls' edge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The tower and the falls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Winter at Table Rock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-01.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-02.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-03.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-04.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-05.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-06.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-07.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-08.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-09.avif"
+     },
+     {
+      "src": "/assets/niagara-falls-boat-tours/niagara-boat-tour-discovery-flex-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Niagara Falls Discovery Tours",
+    "⏱️ 30 Min to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Skylon+Tower%2C+5200+Robinson+St%2C+Niagara+Falls%2C+Ontario",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Skylon Tower"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tower-boat-ride-t1191128/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-discovery-flex&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Niagara Falls: Boat Ride, Journey Behind the Falls &amp; Tower"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "721 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(721)",
+       "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tower-boat-ride-t1191128/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-discovery-flex-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min to 4 h",
+     "pop_html": "<strong>30 minutes to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧩",
+     "label": "Choose your mix",
+     "pop_html": "<strong>Skylon, Journey Behind the Falls, the boat,</strong> a van tour, or a bundle."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌍",
+     "label": "Guides in 9 languages",
+     "pop_html": "<strong>English, French, Spanish, Portuguese, Japanese,</strong> Urdu, Hindi, Malayalam and Tamil."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Skip-the-line Journey",
+     "pop_html": "<strong>On the combo, bundle and van tours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Inside Skylon Tower",
+     "pop_html": "<strong>Meet by the Starbucks inside Skylon Tower.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for building exactly the combo you want, or a guide in your own language.",
+    "skip_html": "if ratings matter most: it scores 4.1, the lowest here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What can I choose?",
+      "a": "Skylon Tower, Journey Behind the Falls, the boat, a van tour, or bundles of them."
+     },
+     {
+      "q": "Which languages?",
+      "a": "English, French, Spanish, Portuguese, Japanese, Urdu, Hindi, Malayalam and Tamil."
+     },
+     {
+      "q": "Where do we meet?",
+      "a": "Inside Skylon Tower, by the Starbucks near reception."
+     },
+     {
+      "q": "Is the €20 price with the boat?",
+      "a": "No, €20 is the cheapest single option; boat combos cost more."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€20",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Cheapest option",
+      "small": "single attraction",
+      "price": "From €20"
+     },
+     {
+      "label": "Boat combos",
+      "small": "boat + Journey + Skylon",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €40"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/niagara-falls-ontario-l87891/niagara-falls-tower-boat-ride-t1191128/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-niagara-falls-boat-tours-discovery-flex&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nia-discovery-flex",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

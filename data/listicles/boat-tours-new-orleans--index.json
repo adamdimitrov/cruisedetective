@@ -1,0 +1,4590 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "river",
+    "jazz",
+    "accessible"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Steamboat Natchez lit up at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Natchez under the lit bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jazz band on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddlewheel at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the evening deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Natchez's stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-evening-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Steamboat Natchez",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Steamboat+Natchez%2C+Toulouse+Street+Wharf%2C+New+Orleans",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Toulouse Street Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-steamboat-jazz-cruise-t22812/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-evening&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Evening Steamboat Jazz Cruise + Optional Dinner"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "5,560 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(5,560)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-steamboat-jazz-cruise-t22812/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-evening-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎺",
+     "label": "Live jazz",
+     "pop_html": "<strong>Live New Orleans jazz on board</strong> as you cruise the Mississippi."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Creole dinner option",
+     "pop_html": "<strong>Add a Creole dinner buffet cooked on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "History narration",
+     "pop_html": "<strong>Detailed narration of New Orleans' history.</strong> Indoor and outdoor seating."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Board 1 hour early",
+     "pop_html": "<strong>Boarding opens an hour before departure.</strong> Non-smoking; wheelchair accessible."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Toulouse Street Wharf",
+     "pop_html": "<strong>Toulouse Street Wharf, French Quarter.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic New Orleans evening: a real steamboat, live jazz and dinner on the river.",
+    "skip_html": "if you want wildlife: the swamps are a different trip (#3 to #9)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there live music?",
+      "a": "Yes, live New Orleans jazz."
+     },
+     {
+      "q": "Is dinner included?",
+      "a": "Only with the dinner option, a Creole buffet prepared on board."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "The Steamboat Natchez at the Toulouse Street Wharf, French Quarter."
+     },
+     {
+      "q": "When should I arrive?",
+      "a": "Boarding begins an hour before departure."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€53",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h cruise",
+      "price": "From €53"
+     },
+     {
+      "label": "With dinner",
+      "small": "Creole buffet on board",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €106"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-steamboat-jazz-cruise-t22812/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-evening&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-natchez-evening",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "river",
+    "jazz",
+    "accessible"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "☀️ #2 Best Daytime River Cruise",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Steamboat Natchez on the Mississippi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "St Louis Cathedral from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Calliope pipes being played"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests dancing on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain at the wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests watching a ship pass"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Engine room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Officer on the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-natchez-daytime-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Steamboat Natchez",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Woldenberg+Park%2C+400+Toulouse+St%2C+New+Orleans",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Toulouse Street Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-daytime-steamboat-jazz-cruise-t22810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-daytime&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Daytime Steamboat Jazz Cruise + Optional Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "4,821 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(4,821)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-daytime-steamboat-jazz-cruise-t22810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-daytime-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎹",
+     "label": "Calliope concert",
+     "pop_html": "<strong>A live steam calliope concert before boarding.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Creole lunch option",
+     "pop_html": "<strong>Add a plated Creole lunch sampler cooked on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Narration",
+     "pop_html": "<strong>The history of New Orleans and the river.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Toulouse St",
+     "pop_html": "<strong>Woldenberg Park, 400 Toulouse St.</strong> Board 30 minutes before."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Natchez by daylight, €13 cheaper, with the calliope concert.",
+    "skip_html": "if you want the band and city lights: the evening cruise (#1)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the calliope concert?",
+      "a": "A live concert on the steamboat's steam calliope before you board."
+     },
+     {
+      "q": "Is lunch included?",
+      "a": "Only with the lunch option, a Creole lunch sampler."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "Woldenberg Park, 400 Toulouse St."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "Yes, the vessel is wheelchair accessible."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€40",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h cruise",
+      "price": "From €40"
+     },
+     {
+      "label": "With lunch",
+      "small": "Creole lunch sampler",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-daytime-steamboat-jazz-cruise-t22810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-natchez-daytime&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-natchez-daytime",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "swamp",
+    "airboat",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💨 #3 Best Airboat",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Airboat full of guests on the bayou"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spanish moss over the swamp"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator's mouth"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bayou channel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Turtles on a log"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Baby alligator"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cypress reflections"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-airboat-16-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Louisiana Tour Company",
+    "⏱️ 100 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=9706+Barataria+Blvd%2C+Marrero%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Louisiana Tour Co. swamp dock"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-high-speed-16-passenger-airboat-t145602/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-airboat-16&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: High-Speed 16-Passenger Airboat Ride"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "2,988 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(2,988)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-high-speed-16-passenger-airboat-t145602/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-airboat-16-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "100 min",
+     "pop_html": "<strong>100 minutes (about 4 hours with pick-up).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💨",
+     "label": "High-speed airboat",
+     "pop_html": "<strong>Stadium-style seating</strong> into areas other boats can't reach."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐊",
+     "label": "Wildlife",
+     "pop_html": "<strong>Alligators, turtles and birds,</strong> with a local captain-guide."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Hotel pick-up from New Orleans if selected.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📏",
+     "label": "Min. 48 in",
+     "pop_html": "<strong>Children must be 48 in tall.</strong> Not for pregnancy or back problems."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Louisiana Tour Co. swamp dock",
+     "pop_html": "<strong>Louisiana Tour Company swamp dock, Marrero.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the thrill and the wildlife together: 4.9 from 2,988 reviews.",
+    "skip_html": "for small children or back problems."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is the airboat ride?",
+      "a": "About 100 minutes; up to 4 hours with pick-up."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "Only if you select it."
+     },
+     {
+      "q": "Will I get wet?",
+      "a": "If it rains, yes: it's an open boat. Ponchos are sold at the gift shop."
+     },
+     {
+      "q": "Are there age or height limits?",
+      "a": "Children must be 48 in tall; not for pregnant riders or people with neck or back problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€59",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "100 min airboat",
+      "price": "From €59"
+     },
+     {
+      "label": "With pick-up",
+      "small": "New Orleans hotels",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €118"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-high-speed-16-passenger-airboat-t145602/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-airboat-16&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-airboat-16",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "swamp",
+    "pickup",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🐊 #4 Best Classic Swamp Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Swamp tour boat on the bayou"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator on a log"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligators by the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bayou channel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest holding a baby alligator"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dock and picnic area"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swamp tour dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-manchac-swamp-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Cajun Pride",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Cajun+Pride+Swamp+Tours%2C+LaPlace%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 LaPlace (I-10 exit 209)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-manchac-bayou-swamp-cruise-w-o-t19994/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-manchac-swamp&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans Manchac Bayou Swamp Cruise with Optional Pick-Up"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,800 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,800)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-manchac-bayou-swamp-cruise-w-o-t19994/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-manchac-swamp-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Narrated swamp boat",
+     "pop_html": "<strong>A local captain narrates the Manchac bayou.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐊",
+     "label": "Gators + wildlife",
+     "pop_html": "<strong>Alligators and swamp wildlife up close.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Optional hotel pick-up.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌧️",
+     "label": "Rain or shine",
+     "pop_html": "<strong>Thunderstorms: call to reschedule.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "LaPlace (I-10 exit 209)",
+     "pop_html": "<strong>Cajun Pride Swamp Tours, LaPlace (I-10 exit 209).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a calm, narrated swamp boat at a fair price, with pick-up if you want it.",
+    "skip_html": "if you want speed: the airboats (#3, #7) are a different ride."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where is it?",
+      "a": "Cajun Pride Swamp Tours near LaPlace, off I-10 exit 209."
+     },
+     {
+      "q": "Is pick-up available?",
+      "a": "Yes, as an option."
+     },
+     {
+      "q": "What will I see?",
+      "a": "The Manchac bayou with alligators and swamp wildlife."
+     },
+     {
+      "q": "Does it run in rain?",
+      "a": "Yes; in thunderstorms you can reschedule by phone."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€32",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min swamp boat",
+      "price": "From €32"
+     },
+     {
+      "label": "With pick-up",
+      "small": "New Orleans hotels",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €64"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-manchac-bayou-swamp-cruise-w-o-t19994/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-manchac-swamp&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-manchac-swamp",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "river",
+    "accessible"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏛️ #5 Best History Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Creole Queen paddlewheeler"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddlewheel churning"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddlewheeler on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Malus-Beauregard House at Chalmette"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen from the shore"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole lunch buffet"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddlewheeler under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen at Chalmette"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The gangway"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-history-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Creole Queen",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Creole+Queen%2C+1+Poydras+St%2C+New+Orleans",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 1 Poydras St"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-creole-queen-historical-cruise-t171936/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-history&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Creole Queen History Cruise with Optional Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,189 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,189)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-creole-queen-historical-cruise-t171936/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-history-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚔️",
+     "label": "Chalmette Battlefield",
+     "pop_html": "<strong>A 1-hour guided tour by National Park Rangers</strong> of the Battle of New Orleans site."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛳️",
+     "label": "Paddlewheeler",
+     "pop_html": "<strong>1.5 hours narrated on the Creole Queen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Creole lunch option",
+     "pop_html": "<strong>Add a Creole lunch buffet.</strong> No outside food or drinks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "Accessible",
+     "pop_html": "<strong>The paddlewheeler is wheelchair accessible.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "1 Poydras St",
+     "pop_html": "<strong>1 Poydras St.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for history buffs: the river plus a ranger tour of the Battle of New Orleans site.",
+    "skip_html": "if you want music: book the Natchez (#1, #2)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A 1.5-hour narrated cruise and a 1-hour guided tour of Chalmette Battlefield by National Park Rangers."
+     },
+     {
+      "q": "Is lunch included?",
+      "a": "Only with the lunch option, a Creole buffet."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "1 Poydras St, by the Riverwalk."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "Yes, the Creole Queen is wheelchair accessible."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€43",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "cruise + battlefield tour",
+      "price": "From €43"
+     },
+     {
+      "label": "With lunch",
+      "small": "Creole buffet",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €86"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-creole-queen-historical-cruise-t171936/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-history&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-creole-queen-history",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "swamp",
+    "accessible",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #6 Cheapest Swamp Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Bayou in Jean Lafitte National Park"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Herons in the swamp"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator swimming"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Covered swamp boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family holding a baby alligator"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kids at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swamp trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gator by the bank"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-jean-lafitte-bayou-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Creole Queen (Bayou tours)",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=6601+Leo+Kerner+Pkwy%2C+Marrero%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marrero"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-traditional-swamp-tour-with-lu-t172161/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-jean-lafitte-bayou&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Bayou Tour in Jean Lafitte National Park"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "450 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(450)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-traditional-swamp-tour-with-lu-t172161/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-jean-lafitte-bayou-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌳",
+     "label": "Jean Lafitte area",
+     "pop_html": "<strong>A bayou tour near Jean Lafitte National Park.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€29",
+     "pop_html": "<strong>The cheapest swamp tour here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "Accessible + toilet",
+     "pop_html": "<strong>The boat is wheelchair accessible and has a toilet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Marrero",
+     "pop_html": "<strong>6601 Leo Kerner Pkwy, Marrero.</strong> No transport included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest well-reviewed swamp boat, with a toilet and wheelchair access.",
+    "skip_html": "without a car: there's no pick-up."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where is it?",
+      "a": "6601 Leo Kerner Pkwy, Marrero, near Jean Lafitte National Park."
+     },
+     {
+      "q": "Is transport included?",
+      "a": "No."
+     },
+     {
+      "q": "Is the boat accessible?",
+      "a": "Yes, wheelchair accessible, with toilets."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 minutes."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€29",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min swamp boat",
+      "price": "From €29"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €58"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-traditional-swamp-tour-with-lu-t172161/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-jean-lafitte-bayou&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-jean-lafitte-bayou",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "swamp",
+    "airboat",
+    "pickup"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌿 #7 Best Small Airboat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Airboat skimming the bayou"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat under cypress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Airboat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator close up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cypress channel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator gliding"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Great egret"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator's open mouth"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Raccoon in a tree"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Still bayou water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-lafitte-airboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Airboat Adventures",
+    "⏱️ 105 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Airboat+Adventures%2C+5145+Fleming+Park+Rd%2C+Lafitte%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lafitte"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/airboat-swamp-tours-just-south-of-new-orle-t27973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-lafitte-airboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Lafitte: Swamp Tours South of New Orleans by Airboat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "941 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(941)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/airboat-swamp-tours-just-south-of-new-orle-t27973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-lafitte-airboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "105 min",
+     "pop_html": "<strong>105 minutes (up to 4 hours with pick-up).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💨",
+     "label": "Open airboat",
+     "pop_html": "<strong>High-speed open airboat with a Coast Guard-certified captain.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌿",
+     "label": "South of the city",
+     "pop_html": "<strong>The bayous around Lafitte,</strong> about 40 minutes from New Orleans."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Taxis and Uber don't pick up out here:</strong> book the pick-up or drive."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Age 5+",
+     "pop_html": "<strong>Not for under-5s, pregnancy or back problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lafitte",
+     "pop_html": "<strong>5145 Fleming Park Rd, Lafitte.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a smaller-group airboat at €10 less than #3.",
+    "skip_html": "without a car or pick-up: rideshares won't collect you there."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where is it?",
+      "a": "5145 Fleming Park Rd, Lafitte, about 40 minutes from New Orleans."
+     },
+     {
+      "q": "Can I get an Uber back?",
+      "a": "No, taxis and Uber don't pick up in the area; book the pick-up or drive."
+     },
+     {
+      "q": "Who can ride?",
+      "a": "Not children under 5, pregnant riders or people with back problems."
+     },
+     {
+      "q": "Is there a bar?",
+      "a": "A gift shop and bar on site."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€49",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "105 min airboat",
+      "price": "From €49"
+     },
+     {
+      "label": "With pick-up",
+      "small": "New Orleans hotels",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €98"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/airboat-swamp-tours-just-south-of-new-orle-t27973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-lafitte-airboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-lafitte-airboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "swamp",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌲 #8 Best Wild Swamp",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Swamp boat among cypress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator in the reeds"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Raccoon in the swamp"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wild boar in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cypress forest"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mossy swamp trees"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-honey-island-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Cajun Encounters",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=55345+US-90%2C+Slidell%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Slidell"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/slidell-l202314/new-orleans-swamp-and-bayou-boat-tour-t645533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-honey-island&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Honey Island Swamp and Bayou Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "275 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(275)",
+       "url": "https://www.getyourguide.com/slidell-l202314/new-orleans-swamp-and-bayou-boat-tour-t645533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-honey-island-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌲",
+     "label": "Honey Island Swamp",
+     "pop_html": "<strong>One of the wildest swamps near the city,</strong> on the Pearl River."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Local guide",
+     "pop_html": "<strong>Live commentary from a local guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 hours",
+     "pop_html": "<strong>Longer than most swamp boats.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Slidell",
+     "pop_html": "<strong>55345 US-90, Slidell.</strong> No transport included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€17 an hour",
+     "pop_html": "<strong>€34 for 2 h,</strong> about €17 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a wilder swamp and a longer boat ride, if you have a car.",
+    "skip_html": "without a car: transport isn't included."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where is it?",
+      "a": "55345 US-90, Slidell, northeast of New Orleans."
+     },
+     {
+      "q": "Is transport included?",
+      "a": "No."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2 hours."
+     },
+     {
+      "q": "Does it run in bad weather?",
+      "a": "It operates in all weather; dress for it."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€34",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h swamp boat",
+      "price": "From €34"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €68"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/slidell-l202314/new-orleans-swamp-and-bayou-boat-tour-t645533/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-honey-island&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-honey-island",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 6 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "swamp",
+    "pickup",
+    "accessible",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "☂️ #9 Best in Rain or Sun",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Covered pontoon in the swamp"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the pontoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Pontoon in the bayou"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bayou greenery"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Raccoon in the reeds"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dead tree in the swamp"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Egret in the grass"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Alligator snapping"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swamp water and moss"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-covered-pontoon-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Adventures of Jean Lafitte",
+    "⏱️ 1.5 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Adventures+of+Jean+Lafitte%2C+Lafitte%2C+LA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Lafitte"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-covered-swamp-tour-t510708/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-covered-pontoon&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Swamp Tour on Covered Pontoon Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "516 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(516)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-covered-swamp-tour-t510708/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-covered-pontoon-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min (3 h with transport)",
+     "pop_html": "<strong>90 minutes (1.5 to 3 h with transport).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☂️",
+     "label": "Covered pontoon",
+     "pop_html": "<strong>Shade from the sun and cover from rain.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧑‍✈️",
+     "label": "Certified captain",
+     "pop_html": "<strong>A US Coast Guard-certified captain with live commentary.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "♿",
+     "label": "Ramp access",
+     "pop_html": "<strong>A ramp for wheelchairs and pushchairs.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Transport option",
+     "pop_html": "<strong>From New Orleans if selected; no rideshares out there.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Lafitte",
+     "pop_html": "<strong>Adventures of Jean Lafitte, about 40 min from New Orleans.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for comfort: shade, a ramp, and transport from New Orleans if you need it.",
+    "skip_html": "if you want speed: take an airboat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the boat covered?",
+      "a": "Yes, it's a covered pontoon."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "There's a ramp for wheelchairs and pushchairs."
+     },
+     {
+      "q": "Is transport available?",
+      "a": "Yes, as an option from New Orleans."
+     },
+     {
+      "q": "How far is it?",
+      "a": "About 40 minutes from New Orleans."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€32",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min covered pontoon",
+      "price": "From €32"
+     },
+     {
+      "label": "With transport",
+      "small": "from New Orleans",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €64"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-covered-swamp-tour-t510708/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-covered-pontoon&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-covered-pontoon",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "river",
+    "jazz"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🎷 #10 Best Natchez Alternative",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Creole Queen lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jazz band on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen paddlewheeler"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jazz trio"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Musicians in the salon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ticket kiosk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Creole Queen at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dinner buffet"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-new-orleans/new-orleans-boat-tour-creole-queen-jazz-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Creole Queen",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Creole+Queen%2C+1+Poydras+St%2C+New+Orleans",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Creole Queen dock"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-jazz-boat-cruise-with-t172146/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-jazz&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "New Orleans: Evening Jazz Boat Cruise with Optional Dinner"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,149 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,149)",
+       "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-jazz-boat-cruise-with-t172146/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-jazz-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎷",
+     "label": "Live jazz band",
+     "pop_html": "<strong>A live jazz band on the Creole Queen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Dinner option",
+     "pop_html": "<strong>Add dinner on board.</strong> Alcohol for sale."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👶",
+     "label": "Under-6s free",
+     "pop_html": "<strong>Children 5 and under ride free.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Boarding 6 pm",
+     "pop_html": "<strong>Boarding begins at 6:00 pm daily.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Creole Queen dock",
+     "pop_html": "<strong>Creole Queen dock.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for evening jazz on a paddlewheeler, when the Natchez is full.",
+    "skip_html": "if you can get on the Natchez: #1 is the original."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there live music?",
+      "a": "Yes, a live jazz band."
+     },
+     {
+      "q": "Is dinner included?",
+      "a": "Only with the dinner option."
+     },
+     {
+      "q": "When does it board?",
+      "a": "At 6:00 pm daily."
+     },
+     {
+      "q": "Do kids pay?",
+      "a": "Children 5 and under go free."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€55",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h evening cruise",
+      "price": "From €55"
+     },
+     {
+      "label": "Children 5 and under",
+      "small": "",
+      "price": "Free"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €110"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/new-orleans-l370/new-orleans-evening-jazz-boat-cruise-with-t172146/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-new-orleans-creole-queen-jazz&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#nola-creole-queen-jazz",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

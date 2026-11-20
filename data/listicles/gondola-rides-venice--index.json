@@ -1,0 +1,4495 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAM9klEQVR4nO2c+Y8cRxXHP1Xdc+0VH+srie04cRLsBJJISZSQ2IRDhCj5CQkIQiCBkEBI/IKAHxB/APwHSCAhkLiEkECOJcQhUA5IQqKAZCchjp1E8RE7Pndt78x0dxV61VUzvb2z65n1rndt9iv1Tu9MH6++9d6rV1WvSoGmHzz+zNNci1BWs3f3rhnfW2zpG4Oai6xrlaAyWQG6UmHPgw8MTlaJqBhI/fkY8AjwMeBDwK3AqHs+8rxlhyBXArwKHAKkcH8GDnuyIsdGfq3TtL7JKhCl/GGA24GvAk8CN3L1YwL4g7L6Z8Bf/Xfal5W9ux8u0dWDrAJRnRuB7wPfBq7r3JkfgczlqFG9ELRHeW0KZvhT4DvAqa4VGZ7avXt2snoQtRr4FfCo/z71L7layJkLQlqmrJayynEA+ALwr5ww49xOl7ACWT2I2gH8ArjH23s8b5IKTvSKQpnuu+W81yX571K+CnAG+ArwezCiFJlVsHfX7i5ZJR8lWAP8Dfhg4UHzhi2Zuir7zkWGFLjz7o5nCbJ0ZMu81UzlDZh5MSiOrlTZ8+D9xApVvEFOpCi/7pcoO0uNdS/QrgpcvfgX5EJyhUiyGFEJW5Snp8xOk4AGsAe4CzghIpuk7W6Ie1z8PeATC6FRXRhQniabq6++UlaoDNaKBJF/55y1JByIr1oP/Mz76o6o6omn/9E59zGTOLiR/ls505cJiCZJ7cpn5D8XGxrjtKoVaSyRe6eVPwXNKgalBUhrGPsw6TfuWZV4mmaJ+F/3QaewG1+WoDacGSKbkaViiNYJHIhbTCglDsZQiau0bYZVYiSm79v953eB34Ybi4SMeiZtiEEuBW3zmpManO11yhpiZbhj/Dru3bCJNXVxCfqK+ay9LzzPu1GNpjakUSFMD9f0Np8Q0Yvfug94QZXI+giwyV+0IC4lMoZdW7eya3ycrSN1amihyUmy2JolyBQ8n6acIKKlMyKJBrQnrMBQEKVEmvH8fEZbXqBE1qcKF/VNlvYOO+BMq8nONePs2ngDd6xey9ahyLUSkZggBvEezhmq3s8STV1IaMQE87P8yPq/NZdJ+sCUydrpP9VsBbCF712HUQWflJthNYOPr9/Ers03cduaEbTJ3xh7suQJodXoWRuqT/vvE87EnGy5fGqwylD+Ebf0IuvWwkUzzMSWgzv/u7XWRQUjGdy9bj2P79jBBml1LmQMD+cUdftHehai0k481sVCBRe6dJ5MK8ccUDofehjqRdaqcNFsdxv/SyAyf6khNpa71m3kk1u2c0MGpp0xOpL7yDx6DyFp6XnuED8WozvN+eJFYHnoMNAtNnAk9xbJCuNVAyFKE+7csJGPbLuF7Y0KyWTGdZ6o7tGbACEyeJAl6j32hWBFRbIGdq2xMdy2dh0Pb97G9kbVOfLGsPc64iuctoTIXc94U9qpITFP63yfaL7ESGXkTcNMQV3gWfhNPoOOZr5FnA96tdbzCjyVDyprKTyw7XZuHW1Q7zi7QJQuFMcXRuXknJxocmZyklasaQwNsWm0QSPLiygDJuIH3eVKYa3i9MQk750/RzuOMEoTGXl2zkIm77HamZe4CdHWYq8hdS6n72B0TsTzYVt5QW4aHebO0Qbj0hKKSU6r+lzAtrUkCi5aeO3QUfYdeJMzzSlSpbmQtNl24/V8dOd21ldjhuOYii1olrVcbCW8dvAQz737FicrEZmKqKUabTWZkNnxpfK/v82TJsjccNX8UQye4/lqlbbw0M2b2QjUphFV9FOaVMH+yVP85ZVXeePEEWxtDFWvYjKIasMMixkNDVGJIydMuTdQr9dIdJVTKuZIXZHomHoSO7ISIasYXKru3WVH7rTV2o7WdsrTZ7mlvH2RZXsQtnmswU2rxpz5zSQqh5jcS+8eYs/r+zmWwNT4atquj6aITIzKLGdNShNLm4w6enqc5c05jSPOKJiIIpKoQlP6fSYm0+KX1Jza0PV/OVmhSQ/fh4mJXn6yjLifMCFEZyoMr1jYMjrMmqjWLZwbs3J3+L+aE1nGnlf2c7LRoD2kSaMK4m6sEY3QRMqQSv8yxGtO4Jk134rhYixaU3OjB5mOnEsUU6vMPeRS0KTcz9nuwJZ/fv9h8MBmqD1h29eOOJPJRAjnI4JAOYSAZ/f9h/PxMG0ZT7Ntpw3O3du8Ix05UVVejJ41m2uq+6sjYlNBabm+oC2XQPe5vu9Qfs8cjwga2m2qBoAqnG9bNUIk0XChuS4a4WSS8eo7R9xYkmhTpqqFPtqgHWlRo8saMeoLlxJp4KZChfGownxSt//X7dudmDzFRNqmFYlThtQR5oktNO1XEy5ZXZ2C0cWWsYYvqHaj++VugASDb5w8zUWda1US5USJQ3YvXZiw54qi3N3pC9rC4XNT/Pzlg9Qyw1ACtSz1LaJ1GiSa9N7EeS7EI7QiSKOUjHj6xMEy7+IsWFAqEMIqMgpqRPsMViV5Uy7RdKZo1SxJJSaNJHDs7aecj7uKpmsH1izjzck18kbT1oZ2pEniyGlVKHxEnSST8avpgzKBG3ed+LArStZg9h9kM95HD0SW8fPXEroEh51qTaZlLD7249smbwRURSKiztRXeXhH4PzYAGTlAz5l4x3EmEW2/q6XPmhxKEqOeWkWoll+pD84bYmdppuZxFPd/8qTq/JyZ7ZX0nEN2PyWXcS8ghczY0axPBrpZSsEgGU58xGCfsLK5YOrrUFaUqyQNQBWyBoAK2QNgBWyBsAKWQNghawBsELWAFghawCskDUAVsgaACtkDYDFnwW4BGSqqpy62EWYVpMsnNnGoswVq/8l1ixN0+RzghlRJwVp+hWwbXwtq42hEUUzZpTD7Hj38E+x4WDOYzBplxhTqeHguXMu6X5GAqNPLrl5bJh71m+gffYcSoYtC5CBx3zwMRyLJ+uSkqWsIrFw8PRJmqV5xyIalRr3brmRW9euhjTpaJcb4najtfnhZruvVbLwnurE5BTHJdumh3aFSY0d69fxxAd2UEtTR1aiIzf2H5BJblcf+QpXr2aRj3VPNFu8efqkIyv4rXCIiCFX8b61q/jc3fdw/8aNjCpN8+IU5xNDmhqaqUskIDJ5WsA12RoK2knGa8eOcO/YamqViKrLgfAJI4WsPkltenTDGnaODbG5McSL75+gJabXTnn77Dm0pEdLssyC5jwvN7Iyw4Hj73N4w1k2rFvNUKGwIcs5EBYrzaZ6jcc2reORjes5lVjemZhkT+sAF22KJBAulu9aFmRZazlz/iL73z/OjnXjbpVVPuU1M4HXaZ2OGNIRDWNYVY0wdoyGhSQVX+YbCTcdp649sgSN4et45chRhkzGIzfdwtaRYaouuSgEpAXtcum6MKw1LVlJWq8Q24RKlmLjPOtefKEj65IqZufl4JdsIl1rjapWOasinjt2nL+/fYh3LkzS7vgsyQjMXX4x3U2ozGeK20Q2RbujG3zk6zkWR7OkMVoyKMkPrdY5227yz6PvEUksdfM2xitVhuIqVZ0bZu74Q+6oLLmUlHBJTJHWsBCliUYpyVzuLkWZJ0wvzfpv+celIuyMivjH0WM8e/AtDreanHU5p7lgQomQIuSQ5Z0kt44xrM9ZuGlb6/mRrKoZZB0sXLRkUOJnqlVO64jnjx5h7779vHj4XY6YlPPScor0mSWVNMsopEyaQt78gpIlONbLDGXXjC8uhz0brI6gWudUC1rnp3hn3z5ePvAGd2zaxM7NW9gyOuZquZ2lKJcYtiixddjk49leZP0JXOUNL4d9ZayOyGp1JrKUi9S50Gpz/NDb/PvQW2ys17lhdIzrV4+irHULCdoqIpWU787KjstGyAT9XS+yRN2e8kt/L3uN9EIRJkcSZZgoppklTKYZJ6aaHGq2WDM54TIORQWacUQi6U/Tqthcrla9BcbvUyNr16bjR8Bnl1qrypC0bmealSqZMbSt4bw1vF9wT5HWJJLB5VZd+N5hSN5n9hLNsi9FWPL7k+DgW6YtWeERjz/9jHuf7/TLfgZfWth9HRYfNZO5ZLe2M8X++4Y9yAo7h8jeNHf6PWmMbLFSNPDQr/hWrn6OqL4XFC81WmKuOh6IqB4Ivtp6hZHGt4MiWUGpT3lTPFvQtv8HhLUP8vk14PnClgVdsgp73gVbfQn4siyUKGw5ci2juKD2B8CPPQ/u+3yXI7eSpau23ncVt627P98eye33EB64OINFSwNjlTGF8n6jQ5RKUtQUex960vv4ZDpZJcKCCV7vW4XHipt0FeKQZdVyXgLFpUZuNY138Pu96T1X3N9wr2w0VuiYzyCrRFhxK7vPA98EHpxFgKsB5Yj1davML4Efemfe8dGOKMGlyCoRVl6v9mHg0347lu2FLQ6uBpwDjsreMt69/NEqI0Nipc0RC3v99UNWibBrFuU4axpRg5D1/0CcVWYmQdMu6JL5P+K/A5ZJmTzrAAAAAElFTkSuQmCC",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "shared",
+    "commentary",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Gondolier rowing on a small Venice canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola gliding along a side canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola at sunset with the Salute behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola under a canal bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier in a quiet canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola passing a palazzo"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from a gondola's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Grand Canal at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas near the Salute"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-09.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-classic-grand-canal-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Venice Tours",
+    "⏱️ 50 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Venice+Tours%2C+Calle+San+Gallo+1093%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Calle San Gallo, by St Mark's"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-classic-gondola-ride-p974328/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-classic-grand-canal",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Classic Gondola Ride"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "28,406 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(26,983)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-grand-canal-gondola-ride-with-app-commentary-t221382/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-classic-grand-canal-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.2",
+       "count": "(1,423)",
+       "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-classic-gondola-ride-p974328/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-classic-grand-canal-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "20 min intro + 30 min ride",
+     "pop_html": "<strong>50 minutes (20-min intro + 30-min ride).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Grand Canal + side canals",
+     "pop_html": "<strong>About 30 minutes through quiet side canals</strong> and out onto the Grand Canal: La Fenice, the Guggenheim, the Salute."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Gondola Gallery",
+     "pop_html": "<strong>A 20-minute introduction and the Gondola Gallery:</strong> a cut-open gondola and the builders' tools."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide, 8 languages",
+     "pop_html": "<strong>Download the audio guide for the ride.</strong> The gondolier rows; he doesn't sing or guide."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Cancel until the day before",
+     "pop_html": "<strong>Free cancellation and changes until 23:59</strong> the day before your ride."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Calle San Gallo, by St Mark's",
+     "pop_html": "<strong>Venice Tours, Calle San Gallo 1093, by St Mark's Square.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Grand Canal ride at a shared price, with the story of the gondola thrown in.",
+    "skip_html": "if you want a serenade or your own gondola: see #4 or #9."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is the ride?",
+      "a": "About 30 minutes on the water, after a 20-minute introduction: 50 minutes in all."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "At the Venice Tours office on Calle San Gallo, a few steps from St Mark's Square."
+     },
+     {
+      "q": "Does the gondolier sing?",
+      "a": "No, he rows. Commentary comes from the audio guide, in English and 7 other languages."
+     },
+     {
+      "q": "How many people share a gondola?",
+      "a": "A small group: gondolas carry up to 5 passengers."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free until 23:59 the day before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€39",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "shared gondola, 30 min ride",
+      "price": "From €39"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-classic-gondola-ride-p974328/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-classic-grand-canal",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-classic-grand-canal",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "shared",
+    "sighs",
+    "commentary",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💑 #2 Best Shared Ride for Couples",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Couple in a gondola on a Venice canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola at sunset by the Salute"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A quiet canal from the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas moored by San Giorgio"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "San Giorgio Maggiore across the basin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "San Giorgio Maggiore from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-semi-private-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-semi-private-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The Tour Shop",
+    "⏱️ 30 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Campo+San+Zaccaria+4683%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Campo San Zaccaria"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-semi-private-gondola-ride-under-the-bridge-of-sighs-t1400361/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-semi-private&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Semi-Private Gondola Ride under the Bridge of Sighs"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "265 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(265)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-semi-private-gondola-ride-under-the-bridge-of-sighs-t1400361/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-semi-private-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min",
+     "pop_html": "<strong>30 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 3 guests",
+     "pop_html": "<strong>You share the gondola with at most 2 other guests,</strong> not a full boat of strangers."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Bridge of Sighs",
+     "pop_html": "<strong>Under the Bridge of Sighs</strong> and through the small canals behind St Mark's."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide app",
+     "pop_html": "<strong>Stories of Venice on your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Campo San Zaccaria",
+     "pop_html": "<strong>Meet in Campo San Zaccaria,</strong> behind the Riva degli Schiavoni."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for couples: a near-private ride under the Bridge of Sighs at the shared price.",
+    "skip_html": "if you want the Grand Canal: this route is around St Mark's."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people share the gondola?",
+      "a": "At most 3 guests in all, so 2 other people at most."
+     },
+     {
+      "q": "Does it pass the Bridge of Sighs?",
+      "a": "Yes, it goes under the Bridge of Sighs."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, through an audio guide app on your phone."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "Campo San Zaccaria 4683, behind the Riva degli Schiavoni."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€39",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "30 min, max 3 guests per gondola",
+      "price": "From €39"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-semi-private-gondola-ride-under-the-bridge-of-sighs-t1400361/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-semi-private&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-semi-private",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 6 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "shared",
+    "sighs",
+    "commentary",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌉 #3 Best for the Bridge of Sighs",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Bridge of Sighs from a gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas by St Mark's waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Carving by the Bridge of Sighs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Doge's Palace from the basin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola under the Bridge of Sighs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola heading toward the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bridge of Sighs up close"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge of Sighs from below"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Doge's Palace from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bridge-of-sighs-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Venice Tours",
+    "⏱️ 45 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Venice+Tours%2C+Calle+de+le+Rasse+4536%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Calle de le Rasse"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-bridge-of-sighs-shared-gondola-ride-p1080746/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bridge-of-sighs",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Gondola Ride through the Bridge of Sighs and St. Mark’s Basin"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.09",
+     "score": "4.1",
+     "meta": "2,789 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(2,613)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-crafted-gondola-under-breathtaking-bridge-of-sighs-t942495/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-bridge-of-sighs-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.0",
+       "count": "(176)",
+       "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-bridge-of-sighs-shared-gondola-ride-p1080746/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bridge-of-sighs-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "15 min intro + 30 min ride",
+     "pop_html": "<strong>45 minutes (15-min intro + 30-min ride).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌉",
+     "label": "Bridge of Sighs + basin",
+     "pop_html": "<strong>Under the Bridge of Sighs and out into St Mark's Basin,</strong> past the Doge's Palace."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "App commentary",
+     "pop_html": "<strong>Commentary through a mobile app in 5 languages.</strong> A 15-minute introduction before you board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Gondola Gallery",
+     "pop_html": "<strong>Includes access to the Gondola Gallery.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Calle de le Rasse",
+     "pop_html": "<strong>Meet at Venice Tours, Calle de le Rasse 4536,</strong> off the Riva degli Schiavoni."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Bridge of Sighs and the Doge's Palace from the water, at the lowest shared price.",
+    "skip_html": "if you want quiet canals: St Mark's Basin is the busiest water in Venice."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is the route?",
+      "a": "Under the Bridge of Sighs and along St Mark's Basin, past the Doge's Palace."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "A 15-minute introduction on land, then commentary through a mobile app."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "Venice Tours, Calle de le Rasse 4536, just off the Riva degli Schiavoni."
+     },
+     {
+      "q": "Is the Gondola Gallery included?",
+      "a": "Yes."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "30 min ride + 15 min intro",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-bridge-of-sighs-shared-gondola-ride-p1080746/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bridge-of-sighs",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-bridge-of-sighs",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "private",
+    "commentary",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🔒 #4 Best Private Gondola",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Couple on a private gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest relaxing in the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Rialto Bridge from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A quiet canal off the tourist path"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier rowing by San Giorgio"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas by the Salute"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a colourful canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondoliers at the station"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a narrow canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Grand Canal from the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-09.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-hidden-canals-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "TUI Musement",
+    "⏱️ 30 Min to 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Fondamenta+Cossetti+458%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Fondamenta Cossetti"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-private-gondola-ride-off-the-beaten-path-t99711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-hidden-canals&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice Private Gondola Ride: Tour Hidden Canals and Sights"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "1,215 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(1,215)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-private-gondola-ride-off-the-beaten-path-t99711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-hidden-canals-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Your own gondola",
+     "pop_html": "<strong>Up to 5 people,</strong> just your group and the gondolier."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Gondolier narrates",
+     "pop_html": "<strong>Your gondolier talks about Venice's merchant past</strong> and the sights you pass."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min to 2 hours",
+     "pop_html": "<strong>30 min (to Palazzo Briati), 1 hour (San Polo),</strong> 1.5 hours (Rialto Market) or 2 hours (full route)."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Fondamenta Cossetti",
+     "pop_html": "<strong>Starts at Fondamenta Cossetti 458,</strong> near Piazzale Roma, away from St Mark's crowds."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Up to 5 people",
+     "pop_html": "<strong>€159 for the whole gondola,</strong> about €31.80 each if 5 share."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for groups of 3 to 5 and anyone who wants a longer ride with a gondolier who talks.",
+    "skip_html": "for a couple on a budget: a shared seat (#1 or #2) is cheaper for two."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people fit?",
+      "a": "Up to 5, in your own private gondola."
+     },
+     {
+      "q": "How long can I ride?",
+      "a": "30 minutes, 1 hour, 1.5 hours or 2 hours, depending on the option."
+     },
+     {
+      "q": "Does the gondolier explain the sights?",
+      "a": "Yes, he talks about Venice's history and what you pass."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Fondamenta Cossetti 458, near Piazzale Roma. Arrive 10 minutes early."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€159",
+    "sub": "per gondola (up to 5), from",
+    "rows": [
+     {
+      "label": "Whole gondola",
+      "small": "30 min, up to 5 people",
+      "price": "From €159"
+     },
+     {
+      "label": "Each, if 5 of you",
+      "small": "per person",
+      "price": "From €31.80"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-private-gondola-ride-off-the-beaten-path-t99711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-hidden-canals&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-private-hidden-canals",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "shared",
+    "combo"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏛️ #5 Best Combo Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Smiling couple in a gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier rowing past palazzi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bridge of Sighs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Rialto Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "St Mark's Basilica"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "St Mark's Campanile"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside the Doge's Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-st-marks-combo-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The Tour Guy",
+    "⏱️ 30 Min to 6 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Piazza+San+Marco%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-st-mark-s-doge-s-palace-rialto-and-gondola-tour-t356200/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-st-marks-combo&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: St Mark's, Doge's Palace, Rialto and Gondola Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "415 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(415)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-st-mark-s-doge-s-palace-rialto-and-gondola-tour-t356200/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-st-marks-combo-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min ride (or full day)",
+     "pop_html": "<strong>30 minutes (gondola only) to about 6 hours (full tour).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "St Mark's + Doge's Palace",
+     "pop_html": "<strong>On the full tour: timed entry and a guide in St Mark's Basilica</strong> and the Doge's Palace, then Rialto."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Gondola either way",
+     "pop_html": "<strong>A 30-minute shared Grand Canal gondola ride,</strong> on its own or as the finale."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "English guide",
+     "pop_html": "<strong>An expert English-speaking guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👗",
+     "label": "Dress code",
+     "pop_html": "<strong>Cover knees and shoulders for St Mark's Basilica.</strong> Photo ID needed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a first day in Venice: the big sights with a guide, then the gondola, in one booking.",
+    "skip_html": "if you only want the gondola: #1 is cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What does the full tour include?",
+      "a": "Timed entry and guided visits of St Mark's Basilica and the Doge's Palace, Rialto, a walk through quieter areas and a 30-minute shared gondola ride."
+     },
+     {
+      "q": "Can I book only the gondola?",
+      "a": "Yes, there is a gondola-only option from €45."
+     },
+     {
+      "q": "Is there a dress code?",
+      "a": "Yes, knees and shoulders covered for St Mark's Basilica, and bring a photo ID."
+     },
+     {
+      "q": "Is lunch included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€45",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "gondola only, 30 min shared",
+      "price": "From €45"
+     },
+     {
+      "label": "Full tour",
+      "small": "St Mark's, Doge's Palace, Rialto + gondola",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €90"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-st-mark-s-doge-s-palace-rialto-and-gondola-tour-t356200/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-st-marks-combo&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-st-marks-combo",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "shared",
+    "evening"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌙 #6 Best Evening Ride",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Gondolier and guests in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a narrow canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola passing under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A gondolier's striped shirt up close"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in an evening canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola at dusk by the Salute"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola on the Grand Canal in the evening"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a quiet canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier rowing past palazzi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-evening-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-09.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-evening-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Venice Tours",
+    "⏱️ 50 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Venice+Tours%2C+Calle+San+Gallo+1093%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Calle San Gallo, by St Mark's"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-grand-canal-evening-gondola-ride-gallery-access-vr-experience-p975136/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-evening",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Grand Canal Evening Gondola Ride + Gondola Gallery Access"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "3.88",
+     "score": "3.9",
+     "meta": "645 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "3.9",
+       "count": "(609)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-grand-canal-romantic-serenade-by-crafted-gondola-t97284/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-evening-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "3.6",
+       "count": "(36)",
+       "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-grand-canal-evening-gondola-ride-gallery-access-vr-experience-p975136/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-evening-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "20 min intro + 30 min ride",
+     "pop_html": "<strong>50 minutes (20-min intro + 30-min ride).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌙",
+     "label": "Evening light",
+     "pop_html": "<strong>The ride in the evening,</strong> through side canals and part of the Grand Canal."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏛️",
+     "label": "Gondola Gallery",
+     "pop_html": "<strong>A 20-minute introduction and the Gondola Gallery before you board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Up to 5 per gondola",
+     "pop_html": "<strong>Seats are assigned by the gondolier.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Near St Mark's",
+     "pop_html": "<strong>Meet at the Venice Tours office near San Marco;</strong> arrive 10 minutes early."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for Venice at its calmest: the evening, after the day-trippers have gone.",
+    "skip_html": "if ratings matter most: it scores lower than the daytime rides."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When does it run?",
+      "a": "In the evening; pick the departure on the booking calendar."
+     },
+     {
+      "q": "What is the route?",
+      "a": "Smaller canals and part of the Grand Canal."
+     },
+     {
+      "q": "Is the Gondola Gallery included?",
+      "a": "Yes, with a 20-minute introduction."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "At the Venice Tours office near St Mark's Square, 10 minutes before departure."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€42.90",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "evening, shared, 30 min ride",
+      "price": "From €42.90"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €85.80"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-grand-canal-evening-gondola-ride-gallery-access-vr-experience-p975136/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-evening",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-evening",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "shared",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #7 Best Budget Ride",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Gondola moored on a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas lined up on a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A narrow canal from the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest smiling in the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier in a side canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Taking a photo from the gondola"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola by a stone bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola at the San Marco waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola with red seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas on the basin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-09.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-gray-line-shared-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Gray Line Venice",
+    "⏱️ 30 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=San+Marco%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option, San Marco area"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-gondola-experience-t59278/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-gray-line-shared&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Traditional Shared Gondola Ride"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "4,062 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(4,062)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-gondola-experience-t59278/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-gray-line-shared-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min",
+     "pop_html": "<strong>About 30 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€36",
+     "pop_html": "<strong>One of the lowest shared-gondola prices here,</strong> with 4,062 reviews behind it."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "San Marco canals",
+     "pop_html": "<strong>About 30 minutes on the small canals around San Marco,</strong> past palazzi and bridges."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🙋",
+     "label": "Boarding assistance",
+     "pop_html": "<strong>Staff help you board.</strong> An audio-guided introduction comes with some options."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "No-show = no refund",
+     "pop_html": "<strong>Late arrivals aren't refunded.</strong> Very high tide can cancel the ride (refunded)."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option, San Marco area",
+     "pop_html": "<strong>By option, San Marco area.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before (no refund for no-shows).</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a budget ride with a long track record: €36, 4.1 from 4,062.",
+    "skip_html": "if you want commentary on board: there isn't any."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "About 30 minutes on the water."
+     },
+     {
+      "q": "How many share the gondola?",
+      "a": "Up to 5 passengers."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Not on board; some options include an audio-guided introduction."
+     },
+     {
+      "q": "What if there's high tide?",
+      "a": "In exceptional high tide or heavy rain the ride can be cancelled and refunded."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before. No-shows are not refunded."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "30 min shared, San Marco canals",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-gondola-experience-t59278/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-gray-line-shared&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-gray-line-shared",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "shared"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⚓ #8 Quickest Start",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Gondola on the Grand Canal at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Grand Canal in evening light"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from the gondola's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola passing palazzi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola by the Rialto"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolas near the Salute"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a side canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier rowing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-08.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-09.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-bucintoro-shared-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bucintoro Viaggi",
+    "⏱️ 30 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Riva+degli+Schiavoni%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Riva degli Schiavoni"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-shared-gondola-ride-p1111557/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bucintoro-shared",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Shared Gondola Ride On Grand Canal"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "3.90",
+     "score": "3.9",
+     "meta": "7,101 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "3.9",
+       "count": "(7,044)",
+       "url": "https://www.getyourguide.com/venice-l35/gondola-tour-in-venice-t27331/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-bucintoro-shared-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "3.9",
+       "count": "(57)",
+       "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-shared-gondola-ride-p1111557/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bucintoro-shared-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min",
+     "pop_html": "<strong>About 30 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Straight onto the water",
+     "pop_html": "<strong>No introduction or gallery:</strong> you board and go, about 30 minutes."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "Grand Canal + small canals",
+     "pop_html": "<strong>Palaces and bridges</strong> on the Grand Canal and quieter canals."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🙋",
+     "label": "Boarding help",
+     "pop_html": "<strong>Staff help you board.</strong> No commentary on the ride."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Riva degli Schiavoni",
+     "pop_html": "<strong>Boards on the Riva degli Schiavoni waterfront.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a quick ride with no introduction: board, glide, done.",
+    "skip_html": "if you want stories: there is no commentary."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there an introduction or tour?",
+      "a": "No, you board and ride; there is no commentary."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 30 minutes, sometimes less when the canals are busy."
+     },
+     {
+      "q": "Where do I board?",
+      "a": "On the Riva degli Schiavoni, by St Mark's."
+     },
+     {
+      "q": "Is there music or singing?",
+      "a": "No serenade is included."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€39",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "30 min shared",
+      "price": "From €39"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/venice-attractions-c71510/tickets-for-venice-shared-gondola-ride-p1111557/?partner=thecruisedetective.com-176436&tq_campaign=gondola-rides-venice-bucintoro-shared",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-bucintoro-shared",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "private",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💰 #9 Cheapest Private Gondola",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Gondolier on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier in a narrow canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a quiet canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a side canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal with flowers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola detail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Reflections in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-private-san-moise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-private-san-moise-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Venetoinside",
+    "⏱️ 30 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Gondola+Bauer%2C+Calle+Larga+XXII+Marzo+2091%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Campo San Moisè"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-grand-canal-private-gondola-ride-t414473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-san-moise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: Grand Canal Private 30-Minute Gondola Ride"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.10",
+     "score": "4.1",
+     "meta": "660 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.1",
+       "count": "(660)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-grand-canal-private-gondola-ride-t414473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-san-moise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "30 min",
+     "pop_html": "<strong>30 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Your own gondola",
+     "pop_html": "<strong>Up to 5 people, at a time you choose.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "Grand Canal + inner canals",
+     "pop_html": "<strong>Inner canals and the Grand Canal landmarks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By St Mark's",
+     "pop_html": "<strong>Starts at the Gondola Bauer station, Campo San Moisè,</strong> a few steps from St Mark's Square."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No commentary",
+     "pop_html": "<strong>Explanations during the ride are not included.</strong> No strollers or big bags."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest private gondola, a few steps from St Mark's.",
+    "skip_html": "if you want your gondolier to explain: commentary isn't included."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people fit?",
+      "a": "Up to 5, in your own gondola."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "The Gondola Bauer station, Calle Larga XXII Marzo, Campo San Moisè, near St Mark's."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "No, explanations are not included."
+     },
+     {
+      "q": "Can I bring a stroller?",
+      "a": "No, strollers and large bags are not allowed."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€139",
+    "sub": "per gondola (up to 5), from",
+    "rows": [
+     {
+      "label": "Whole gondola",
+      "small": "30 min, up to 5 people",
+      "price": "From €139"
+     },
+     {
+      "label": "Each, if 5 of you",
+      "small": "per person",
+      "price": "From €27.80"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-grand-canal-private-gondola-ride-t414473/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-private-san-moise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-private-san-moise",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "private",
+    "sighs",
+    "commentary"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #10 Best for a Proposal",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Private gondola under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola in a golden canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from the bow on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondola on the Grand Canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gondolier rowing guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Bridge of Sighs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Rialto Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Palazzo by the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/gondola-rides-venice/venice-gondola-champagne-private-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-01.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-02.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-03.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-04.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-05.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-06.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-07.avif"
+     },
+     {
+      "src": "/assets/gondola-rides-venice/venice-gondola-champagne-private-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Voir Venise",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Campo+San+Zaccaria+4683%2C+Venezia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Campo San Zaccaria"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/venice-l35/venice-vip-champagne-gondola-ride-1-hour-private-tour-t1143255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-champagne-private&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Venice: VIP Champagne Gondola Ride: 1-Hour Private Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "42 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(42)",
+       "url": "https://www.getyourguide.com/venice-l35/venice-vip-champagne-gondola-ride-1-hour-private-tour-t1143255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-champagne-private-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Bottle of Champagne",
+     "pop_html": "<strong>A chilled bottle of premium Italian Champagne on board.</strong> Soft drinks for under-18s."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "A full hour",
+     "pop_html": "<strong>60 minutes, twice the usual ride:</strong> Bridge of Sighs, the Grand Canal towards Rialto and hidden canals."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💍",
+     "label": "Proposal help",
+     "pop_html": "<strong>Special arrangements for proposals and anniversaries on request.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Danieli station",
+     "pop_html": "<strong>Departs from the Danieli gondola station,</strong> meeting at Campo San Zaccaria."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Private, max 5",
+     "pop_html": "<strong>Fully private for your group,</strong> up to 5 guests."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a proposal or an anniversary: an hour, a bottle of Champagne, the Bridge of Sighs.",
+    "skip_html": "if it isn't a big occasion: #4 gives you a private gondola for €159."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A 1-hour private gondola ride with a bottle of premium Italian Champagne, the Bridge of Sighs, the Grand Canal towards Rialto and hidden canals."
+     },
+     {
+      "q": "Can you help with a proposal?",
+      "a": "Yes, special arrangements for proposals and anniversaries are available on request."
+     },
+     {
+      "q": "How many people?",
+      "a": "Fully private, up to 5 guests."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Danieli gondola station; meet at Campo San Zaccaria 4683."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€220",
+    "sub": "from",
+    "rows": [
+     {
+      "label": "Private gondola",
+      "small": "1 hour, Champagne, up to 5",
+      "price": "From €220"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/venice-l35/venice-vip-champagne-gondola-ride-1-hour-private-tour-t1143255/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-gondola-rides-venice-champagne-private&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ven-champagne-private",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  }
+ ]
+}

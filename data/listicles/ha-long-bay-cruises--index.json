@@ -1,0 +1,4633 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "day",
+    "kayak",
+    "transfer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Day Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Day cruise boat among Ha Long Bay's karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayakers between limestone islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests kayaking in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking through the cave at Luon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside Sung Sot Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sung Sot Cave lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet on the day boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seafood lunch on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-dgb-day-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "DGB Indochina Today",
+    "⏱️ 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tuan+Chau+Marina%2C+Ha+Long%2C+Quang+Ninh",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Tuan Chau Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-cruise-swimming-meal-kayak-t422336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-dgb-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: Ha Long Bay Day Cruise: Swimming, Meal, Kayaking"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "15,064 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(15,064)",
+       "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-cruise-swimming-meal-kayak-t422336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-dgb-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>Full day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Sung Sot + Luon caves",
+     "pop_html": "<strong>Sung Sot Cave, Luon Cave and Titop Island,</strong> with a hike and a beach swim."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak or bamboo boat",
+     "pop_html": "<strong>Paddle or be rowed through Luon Cave's lagoon.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Lunch + sunset party",
+     "pop_html": "<strong>Set-menu lunch and a sunset party</strong> with tea, fruit and light food.<span class=\"bpa-lang-note\">Other drinks extra.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Hanoi bus +US$10",
+     "pop_html": "<strong>Meet at Tuan Chau Marina at 11:15,</strong> or add a return transfer from Hanoi for US$10."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Tuan Chau Marina",
+     "pop_html": "<strong>Tuan Chau Marina at 11:15, or Hanoi pick-up (+US$10).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Ha Long day: every highlight, 15,000+ reviews, from €36.",
+    "skip_html": "if you want to wake up on the bay: book an overnight boat (#7 to #9)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Cruise, English-speaking guide, set-menu lunch, kayak or bamboo boat, Sung Sot and Luon caves, Titop Island, beach swim, entrance fees and a sunset party."
+     },
+     {
+      "q": "Is the Hanoi transfer included?",
+      "a": "Only if you add it: US$10 return. Otherwise meet at Tuan Chau Marina at 11:15."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Water on the bus and tea at the sunset party; other drinks are extra."
+     },
+     {
+      "q": "Is there a speedboat?",
+      "a": "It's an optional paid add-on at the site."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "cruise from Tuan Chau Marina",
+      "price": "From €36"
+     },
+     {
+      "label": "Hanoi transfer",
+      "small": "return, per person",
+      "price": "+US$10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-cruise-swimming-meal-kayak-t422336/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-dgb-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-dgb-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "day",
+    "luxury",
+    "kayak",
+    "transfer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "✨ #2 Best Luxury Day Cruise",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Luxury day boat among the karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Day boat in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking past the limestone"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the boat at the dock"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Selfie on deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet lunch on the luxury boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Set-menu lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-luxury-day-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Real Vietnam Travel",
+    "⏱️ 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tuan+Chau+International+Marina%2C+Ha+Long",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Tuan Chau Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-trip-luxury-cruise-buffet-t828604/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-luxury-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: Ha Long Bay Day Trip: Luxury Cruise &amp; Buffet Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "6,426 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(6,426)",
+       "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-trip-luxury-cruise-buffet-t828604/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-luxury-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>Full day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛁",
+     "label": "Jacuzzi + buffet",
+     "pop_html": "<strong>The Luxury Cruise option has a jacuzzi and a buffet lunch;</strong> the Standard option a set menu.<span class=\"bpa-lang-note\">Vegetarian and gluten-free on request.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Sung Sot + Titop",
+     "pop_html": "<strong>Sung Sot Cave, kayak or bamboo boat at Luon Cave,</strong> Titop Island trek and beach swim."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Bay fee included",
+     "pop_html": "<strong>The Ha Long Bay entrance fee is included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Shuttle +US$15",
+     "pop_html": "<strong>Meet at Tuan Chau International Marina,</strong> or add the Hanoi shuttle for US$15."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Tuan Chau Marina",
+     "pop_html": "<strong>Tuan Chau International Marina, or Hanoi shuttle (+US$15).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a nicer boat at nearly the same price: buffet, jacuzzi and a 4.9 rating.",
+    "skip_html": "if you assume the bus is included: on the marina option it isn't."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the difference between Luxury and Standard?",
+      "a": "Luxury has a buffet lunch and jacuzzi access; Standard has a set-menu lunch."
+     },
+     {
+      "q": "Is the Hanoi transfer included?",
+      "a": "Not on the marina-pick-up option; the shuttle from the Old Quarter is US$15 extra."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, drinks are sold on board; you may bring your own."
+     },
+     {
+      "q": "Which caves do you visit?",
+      "a": "Sung Sot Cave, plus a kayak or bamboo boat at Luon Cave."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€37",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "from Tuan Chau Marina",
+      "price": "From €37"
+     },
+     {
+      "label": "Hanoi shuttle",
+      "small": "return, per person",
+      "price": "+US$15"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €74"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-day-trip-luxury-cruise-buffet-t828604/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-luxury-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-luxury-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "day",
+    "kayak",
+    "transfer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚐 #3 Best with Transfer",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Kayakers in front of the karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Day boat in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cruising past islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Karst islands from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in Sung Sot Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests watching the sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Visitors inside the cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Titop Island's beach"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Limestone islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-09.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-amazing-day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Amazing Vietnam Tour",
+    "⏱️ 6 Hours to 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tuan+Chau%2C+Ha+Long",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long port (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-deluxe-cruise-full-day-with-lu-t1130684/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-amazing-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: Ha Long Bay Day Cruise with Lunch, Cave &amp; Kayaking"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "343 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(343)",
+       "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-deluxe-cruise-full-day-with-lu-t1130684/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-amazing-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>6 hours to a full day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Shuttle or limousine",
+     "pop_html": "<strong>Options with a return shuttle bus or limousine from Hanoi's Old Quarter;</strong> port-only options too."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍤",
+     "label": "Seafood lunch",
+     "pop_html": "<strong>Vietnamese lunch with seafood and local dishes,</strong> vegetarian available. Welcome drink."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak at Hang Luon",
+     "pop_html": "<strong>Kayak or bamboo boat, Sung Sot Cave and Titop Island.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⭐",
+     "label": "4.9 from 343",
+     "pop_html": "<strong>Rated 4.9 from 343 reviews.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long port (by option)",
+     "pop_html": "<strong>Ha Long port (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a door-to-door day with a limousine van instead of a big bus.",
+    "skip_html": "if you're already in Ha Long: #1 and #2 have far more reviews."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the transfer included?",
+      "a": "On options 3 to 5, yes, with free pick-up in Hanoi's Old Quarter; options 1 and 2 are port-only."
+     },
+     {
+      "q": "What's for lunch?",
+      "a": "A Vietnamese lunch with seafood and local dishes; vegetarian on request."
+     },
+     {
+      "q": "Which activities?",
+      "a": "Kayak or bamboo boat at Hang Luon, Sung Sot Cave and Titop Island."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "A welcome drink; other drinks on the boat are extra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€36",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "cruise only, or with Hanoi bus/limousine",
+      "price": "From €36"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €72"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-deluxe-cruise-full-day-with-lu-t1130684/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-amazing-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-amazing-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "day",
+    "luxury",
+    "kayak",
+    "transfer"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛁 #4 Best 5-Star Day Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "5-star day boat in Ha Long Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jacuzzi on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayakers in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Through Luon Cave by boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside Sung Sot Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jacuzzi deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking past karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bamboo boat in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-09.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-jacuzzi-day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "DGB Indochina Today",
+    "⏱️ 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tuan+Chau+Marina%2C+Ha+Long",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Tuan Chau Marina"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-hercules-5-day-cruise-buffet-j-t1136292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-jacuzzi-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: Ha Long Bay 5* Cruise, Buffet, Jacuzzi, Cave, Kayak"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "50 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(50)",
+       "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-hercules-5-day-cruise-buffet-j-t1136292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-jacuzzi-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>Full day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛁",
+     "label": "Jacuzzi on deck",
+     "pop_html": "<strong>A 5-star day boat with a jacuzzi</strong> and a buffet lunch."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Caves + Titop",
+     "pop_html": "<strong>Sung Sot Cave, Luon Cave by kayak or bamboo boat,</strong> Titop hike and beach."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset party",
+     "pop_html": "<strong>Fruit and light food at sunset.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "+US$10 transfer",
+     "pop_html": "<strong>Meet at Tuan Chau at 11:30,</strong> or add the Hanoi transfer."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Tuan Chau Marina",
+     "pop_html": "<strong>Tuan Chau Marina at 11:30, or Hanoi (+US$10).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the 5-star day boat from the same operator as #1, for €8 more.",
+    "skip_html": "if reviews matter: it has only 50 so far."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What makes it 5-star?",
+      "a": "A newer boat with a jacuzzi and a buffet lunch."
+     },
+     {
+      "q": "Is the Hanoi transfer included?",
+      "a": "Only as an add-on, US$10 return; otherwise meet at Tuan Chau Marina at 11:30."
+     },
+     {
+      "q": "Which caves?",
+      "a": "Sung Sot Cave and Luon Cave (by kayak or bamboo boat)."
+     },
+     {
+      "q": "Are children cheaper?",
+      "a": "Under 4s go free; ages 4 to 8 pay the child rate for the first child."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€44",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5-star day boat from Tuan Chau",
+      "price": "From €44"
+     },
+     {
+      "label": "Hanoi transfer",
+      "small": "return, per person",
+      "price": "+US$10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €88"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hanoi-l205/hanoi-ha-long-bay-hercules-5-day-cruise-buffet-j-t1136292/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-jacuzzi-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-jacuzzi-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "day",
+    "kayak",
+    "transfer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #5 Cheapest Day Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Day boat by an island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaker in a cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sung Sot Cave lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A karst island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayakers on the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Path on Titop Island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Jacuzzi on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-tuan-chau-day-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Tuan Chau Island Tourism",
+    "⏱️ 6 Hours to 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tuan+Chau+Port%2C+Ha+Long",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Tuan Chau port (D9)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-luxury-daytime-sightseeing-cruise-a-t1178813/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-tuan-chau-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Ha Long Bay: Full-Day Cruise: Buffet, Kayak &amp; Sung Sot Cave"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "39 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(39)",
+       "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-luxury-daytime-sightseeing-cruise-a-t1178813/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-tuan-chau-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>6 hours to a full day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€25",
+     "pop_html": "<strong>The cheapest full day on the bay here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Same highlights",
+     "pop_html": "<strong>Sung Sot and Luon caves, kayak or bamboo boat,</strong> Titop hike and swim."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Lunch + sunset party",
+     "pop_html": "<strong>Set-menu or buffet lunch,</strong> and a sunset party with tea and fruit."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gate D9, Tuan Chau",
+     "pop_html": "<strong>Meet at the main gate of the tourism office, D9 Port Area.</strong> Staff in white and blue shirts.<span class=\"bpa-lang-note\">Not for seasickness or recent surgery.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lowest price for the full caves-and-kayak day.",
+    "skip_html": "if you want proven reviews: only 39 so far."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Guide, cruise, lunch, kayak or bamboo boat, Sung Sot and Luon caves, Titop Island and a sunset party."
+     },
+     {
+      "q": "Where do I meet?",
+      "a": "At the main gate of the tourism office, D9 Port Area, Tuan Chau."
+     },
+     {
+      "q": "Is a Hanoi transfer available?",
+      "a": "Yes, as an option."
+     },
+     {
+      "q": "Who shouldn't go?",
+      "a": "People prone to seasickness, with epilepsy or recent surgery."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "from Tuan Chau port",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-luxury-daytime-sightseeing-cruise-a-t1178813/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-tuan-chau-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-tuan-chau-day",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "day",
+    "luxury",
+    "kayak",
+    "transfer",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #6 Best Sunset Day Trip",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Kayakers among the karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests watching the sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at sunset on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset behind the islands"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaks in a lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-entdecke-day-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Entdecke Travel Vietnam",
+    "⏱️ 6 to 12 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ha+Long%2C+Quang+Ninh",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-ha-long-bay-day-trip-cruise-with-kaya-t1309617/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-entdecke-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: Ha Long Bay Day Trip Cruise with Kayaking and Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "76 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(76)",
+       "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-ha-long-bay-day-trip-cruise-with-kaya-t1309617/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-entdecke-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Day trip",
+     "pop_html": "<strong>6 to 12 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Deluxe or Premium",
+     "pop_html": "<strong>Set-menu lunch on Deluxe;</strong> buffet and onboard jacuzzi on Premium."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak or bamboo boat",
+     "pop_html": "<strong>Plus swimming time.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Afternoon tea",
+     "pop_html": "<strong>Snacks and fresh fruit in the afternoon.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Old Quarter pick-up",
+     "pop_html": "<strong>Hotel pick-up in Hanoi's Old Quarter as an option.</strong> Some hotels can't be reached at rush hour."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long (by option)",
+     "pop_html": "<strong>Ha Long (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a cheap day with the option to upgrade to a jacuzzi boat.",
+    "skip_html": "if you want the classic two-cave itinerary listed in full: see #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the difference between Deluxe and Premium?",
+      "a": "Deluxe has a set-menu lunch; Premium has a buffet and an onboard jacuzzi."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "As an option, in Hanoi's Old Quarter."
+     },
+     {
+      "q": "Can vegetarians eat?",
+      "a": "Yes, vegetarian and gluten-free on request."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, drinks with lunch and on board are extra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€29",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "Deluxe (set menu) or Premium (buffet, jacuzzi)",
+      "price": "From €29"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €58"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-ha-long-bay-day-trip-cruise-with-kaya-t1309617/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-entdecke-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-entdecke-day",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "overnight",
+    "kayak",
+    "transfer"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌙 #7 Cheapest Overnight",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Overnight boat at sunset among the karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dinner table on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple dining on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset party table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun deck with loungers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The bay from the top deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The overnight boat in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dinner at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin with twin beds"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-09.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-budget-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sunlight Travel & Cruise",
+    "⏱️ 2 Days",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ha+Long%2C+Quang+Ninh",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long (pick-up 11:40)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-bay-2d1n-cruise-kayak-caves-sunset-t1483132/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-budget&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Ha Long Bay 2D1N Cruise: Kayak, Caves &amp; Sunset"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "60 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(60)",
+       "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-bay-2d1n-cruise-kayak-caves-sunset-t1483132/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-budget-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 days, 1 night",
+     "pop_html": "<strong>2 days, 1 night.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛏️",
+     "label": "Shared cabin",
+     "pop_html": "<strong>Twin or triple cabins, 2 to 3 people per cabin.</strong> Single supplement 1,000,000 VND."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "4 meals",
+     "pop_html": "<strong>3 main meals and a breakfast on board,</strong> plus a sunset party and cooking class."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak + fishing",
+     "pop_html": "<strong>Kayaking, fishing gear and karaoke.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Fee extra",
+     "pop_html": "<strong>The bay entrance ticket (630,000 VND) is not included.</strong><span class=\"bpa-lang-note\">Not for seasickness.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long (pick-up 11:40)",
+     "pop_html": "<strong>Ha Long (pick-up 11:40).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest night on the bay: sunset, sunrise and four meals for €73.",
+    "skip_html": "if you want a private 5-star cabin: see #8 or #9."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What cabin will I get?",
+      "a": "A shared twin or triple cabin; a single supplement applies if travelling alone."
+     },
+     {
+      "q": "What meals are included?",
+      "a": "Three main meals and one breakfast, plus a sunset party and cooking class."
+     },
+     {
+      "q": "Is the entrance fee included?",
+      "a": "No, the bay entrance ticket (630,000 VND) is extra."
+     },
+     {
+      "q": "Is the Hanoi transfer included?",
+      "a": "Depending on the option; there is an expressway transfer option."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€73",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 days, twin or triple cabin",
+      "price": "From €73"
+     },
+     {
+      "label": "Bay entrance fee",
+      "small": "paid extra",
+      "price": "630,000 VND"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €146"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ha-long-l119790/ha-long-bay-2d1n-cruise-kayak-caves-sunset-t1483132/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-budget&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-overnight-budget",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "overnight",
+    "luxury",
+    "kayak",
+    "transfer"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛏️ #8 Best Overnight Value",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The 5-star boat in Ha Long Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin with a bay view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin with a sofa"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin balcony"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dinner at dusk on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bathroom with a view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The sun deck from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat among the karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the evening deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset dinner table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-09.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-overnight-5star-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Go Asia Travel",
+    "⏱️ 2 Days",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ha+Long%2C+Quang+Ninh",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/hanoi-l205/hanoi-2-day-ha-long-bay-5-star-cruise-t201178/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-5star&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: 2-Day Ha Long Bay 5-Star Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "109 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(109)",
+       "url": "https://www.getyourguide.com/hanoi-l205/hanoi-2-day-ha-long-bay-5-star-cruise-t201178/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-5star-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 days, 1 night",
+     "pop_html": "<strong>2 days, 1 night.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛏️",
+     "label": "Private ensuite cabin",
+     "pop_html": "<strong>Your own room with an ensuite bathroom.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "All meals + fees",
+     "pop_html": "<strong>All meals and entrance tickets included,</strong> plus a welcome drink."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Kayak, swim, squid fishing",
+     "pop_html": "<strong>Kayaking, swimming and night squid fishing.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Hanoi hotel pick-up if selected.</strong> Holiday surcharges on some dates."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long (by option)",
+     "pop_html": "<strong>Ha Long (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a private cabin and all meals at a mid-range price.",
+    "skip_html": "if you're travelling solo: the single supplement is US$80."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the cabin private?",
+      "a": "Yes, a private room with an ensuite bathroom."
+     },
+     {
+      "q": "Are meals and fees included?",
+      "a": "Yes, all meals and entrance tickets."
+     },
+     {
+      "q": "What activities are there?",
+      "a": "Kayaking, swimming and squid fishing."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "A welcome drink; other drinks and tips are extra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€139",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 days, private ensuite cabin",
+      "price": "From €139"
+     },
+     {
+      "label": "Single traveller",
+      "small": "supplement, paid on the trip",
+      "price": "+US$80"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €278"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/hanoi-l205/hanoi-2-day-ha-long-bay-5-star-cruise-t201178/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-overnight-5star&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-overnight-5star",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "overnight",
+    "luxury",
+    "kayak"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💎 #9 Best Luxury Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Luxury cruise ship in Lan Ha Bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Evening on the top deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Balcony cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin with a sea-view balcony"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Twin cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin window to the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Towel swans on the bed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin balcony at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Marble bathroom"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bathtub with a view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-09.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-three-day-balcony-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Halong Bay Lux Cruises",
+    "⏱️ 3 Days",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ha+Long%2C+Quang+Ninh",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-3-day-ha-longlan-ha-bay-cruise-with-p-t473514/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-three-day-balcony&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Hanoi: 3-Day Ha Long/Lan Ha Bay Cruise with Private Balcony"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "276 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(276)",
+       "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-3-day-ha-longlan-ha-bay-cruise-with-p-t473514/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-three-day-balcony-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 days, 2 nights",
+     "pop_html": "<strong>3 days, 2 nights.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Private balcony",
+     "pop_html": "<strong>Luxury cabin with a private ocean-view balcony,</strong> marble bathroom and 24-hour room service."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Lan Ha Bay",
+     "pop_html": "<strong>Ha Long and quieter Lan Ha Bay over 3 days.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚲",
+     "label": "Cycling + Tai Chi",
+     "pop_html": "<strong>Cycling at Viet Hai Village, a cooking demo,</strong> morning Tai Chi, kayaking, bamboo boats and caving."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Bus +US$25",
+     "pop_html": "<strong>Limousine transfer from Hanoi or Ninh Binh is extra.</strong> Passport needed."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long (by option)",
+     "pop_html": "<strong>Ha Long (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the bay done properly: 3 days, a balcony and quiet Lan Ha Bay.",
+    "skip_html": "on a short trip or a tight budget: one night (#7, #8) is plenty for most."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the cabin like?",
+      "a": "A luxury cabin with a private ocean-view balcony, marble bathroom and room service."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "Ha Long Bay and Lan Ha Bay, with Viet Hai Village by bike."
+     },
+     {
+      "q": "Are meals included?",
+      "a": "Yes, all meals on board; drinks are extra."
+     },
+     {
+      "q": "Is the transfer included?",
+      "a": "No, the limousine bus is US$25 per person return."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€280",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 days, balcony cabin",
+      "price": "From €280"
+     },
+     {
+      "label": "Limousine bus",
+      "small": "Hanoi return, per person",
+      "price": "+US$25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €560"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ha-long-l119790/hanoi-3-day-ha-longlan-ha-bay-cruise-with-p-t473514/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-three-day-balcony&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-three-day-balcony",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "day",
+    "port",
+    "kayak"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚢 #10 Best for Cruise Passengers",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boats among Ha Long's karsts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaker in a grotto"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Kayaking past a cliff"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside a cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest relaxing on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruise ship at the port"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group with the bay behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-01.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-02.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-03.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-04.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-05.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-06.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-07.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-08.avif"
+     },
+     {
+      "src": "/assets/ha-long-bay-cruises/ha-long-bay-cruise-cruise-port-4h-09.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Vietnam Top Travel",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ha+Long+International+Cruise+Port%2C+Bai+Chay",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Ha Long International Cruise Port"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/ha-long-l119790/from-halong-cruise-port-4-hour-boat-tour-of-t933335/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-cruise-port-4h&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Halong Cruise Port: 4-Hour Boat Tour of Ha Long Bay"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "31 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(31)",
+       "url": "https://www.getyourguide.com/ha-long-l119790/from-halong-cruise-port-4-hour-boat-tour-of-t933335/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-cruise-port-4h-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚢",
+     "label": "From your ship",
+     "pop_html": "<strong>Pick-up and drop-off at Ha Long International Cruise Port.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔒",
+     "label": "Private boat",
+     "pop_html": "<strong>A 4-hour private boat tour of the bay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍲",
+     "label": "Lunch on board",
+     "pop_html": "<strong>Vietnamese set menu.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Floating village",
+     "pop_html": "<strong>Kayak or small rowing boat around the floating village;</strong> all entrance fees included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Ha Long International Cruise Port",
+     "pop_html": "<strong>Ha Long International Cruise Port, Bai Chay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for cruise-ship passengers: the bay in 4 hours from the port, back before all-aboard.",
+    "skip_html": "if you're coming from Hanoi: book a day cruise instead."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it start?",
+      "a": "At Ha Long International Cruise Port (Bai Chay), with pick-up and drop-off."
+     },
+     {
+      "q": "Is it private?",
+      "a": "Yes, a private boat tour."
+     },
+     {
+      "q": "What's included?",
+      "a": "Lunch, a guide with 5+ years' experience, kayak or small boat at the floating village, and all entrance fees."
+     },
+     {
+      "q": "Is it long enough?",
+      "a": "Four hours, designed to fit a cruise-ship port day."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€55",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "4 h private boat tour",
+      "price": "From €55"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €110"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/ha-long-l119790/from-halong-cruise-port-4-hour-boat-tour-of-t933335/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-ha-long-bay-cruises-cruise-port-4h&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#hlb-cruise-port-4h",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

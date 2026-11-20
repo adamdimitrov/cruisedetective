@@ -1,0 +1,4574 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "harbor",
+    "live",
+    "short",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "City Cruises boat leaving Long Wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The USS Constitution's masts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boston Light on its island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "City Cruises boat at the wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boston's waterfront towers from the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Custom House Tower over the wharves"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The USS Constitution in Charlestown"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Harbor cruise boat under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-historic-harbor-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1+Long+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Long Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-historic-sightseeing-cruise-p975751/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-historic-harbor",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston Harbor: 1-Hour Historic Sightseeing Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "2,013 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(1,998)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-city-cruises-historical-sightseeing-cruise-t7201/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-historic-harbor-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.7",
+       "count": "(15)",
+       "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-historic-sightseeing-cruise-p975751/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-historic-harbor-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live narration",
+     "pop_html": "<strong>Expert guides on board tell Boston's story</strong> from the Tea Party to the Navy Yard."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚓",
+     "label": "USS Constitution",
+     "pop_html": "<strong>Past the USS Constitution, Castle Island and the North End,</strong> with the skyline behind."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Decks + indoor cabin",
+     "pop_html": "<strong>Outdoor viewing decks and an indoor cabin with large windows.</strong> Wheelchair accessible."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Gate closes early",
+     "pop_html": "<strong>Boarding starts 15 minutes before departure</strong> and the gate closes 2 minutes before."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Long Wharf",
+     "pop_html": "<strong>Long Wharf, 1 Long Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic first Boston boat ride: one hour, live guide, all the harbor landmarks.",
+    "skip_html": "if you want whales or open sea: this stays in the inner harbor."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "The USS Constitution, Castle Island, the North End and the waterfront skyline, with a live guide."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Long Wharf, 1 Long Wharf, next to the New England Aquarium."
+     },
+     {
+      "q": "Is it wheelchair accessible?",
+      "a": "Yes, the boat is wheelchair accessible."
+     },
+     {
+      "q": "How early should I arrive?",
+      "a": "15 minutes before; the gate closes 2 minutes before departure."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€41.89",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "60 min, inner harbor",
+      "price": "From €41.89"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €83.78"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-historic-sightseeing-cruise-p975751/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-historic-harbor",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-historic-harbor",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "whale",
+    "live"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🐋 #2 Best Wildlife Trip",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Humpback whale breaching off Boston"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Two humpbacks feeding at the surface"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whales lunge-feeding among seagulls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A humpback lifting its head"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whale tail above the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Humpback fluke as it dives"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the whale watch boat's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A whale spouting on the horizon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whale tail in the distance"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Humpback breaching close to the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-whale-watch-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-whale-watch-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1+Long+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Long Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-whale-watch-cruise-p975754/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-whale-watch",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston Harbor Whale Watch Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "5,555 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(5,468)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-city-cruises-whale-watching-cruise-t7101/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-whale-watch-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.4",
+       "count": "(87)",
+       "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-whale-watch-cruise-p975754/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-whale-watch-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🐋",
+     "label": "Stellwagen Bank",
+     "pop_html": "<strong>A fast catamaran heads to Stellwagen Bank Marine Sanctuary,</strong> the feeding ground of humpback, fin and minke whales."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔬",
+     "label": "Aquarium naturalists",
+     "pop_html": "<strong>Naturalists from the New England Aquarium</strong> narrate and answer questions."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "Plan 4 hours",
+     "pop_html": "<strong>The trip averages 3.5 to 4 hours</strong> and can run longer if the whales are far out."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗓️",
+     "label": "March to September",
+     "pop_html": "<strong>Sold for the whale season,</strong> March to September.<span class=\"bpa-lang-note\">Not for people prone to motion sickness.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Long Wharf",
+     "pop_html": "<strong>Long Wharf, 1 Long Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the trip people remember: humpbacks at Stellwagen Bank, with Aquarium naturalists on board.",
+    "skip_html": "if you get seasick or only have an afternoon: plan 4 hours on open water."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do you see the whales?",
+      "a": "At Stellwagen Bank Marine Sanctuary, a feeding ground off Massachusetts: humpback, fin and minke whales."
+     },
+     {
+      "q": "How long does it take?",
+      "a": "3.5 to 4 hours on average, sometimes longer when the whales are far out."
+     },
+     {
+      "q": "Who narrates?",
+      "a": "Naturalists from the New England Aquarium."
+     },
+     {
+      "q": "When does it run?",
+      "a": "In the whale season, March to September."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€78.04",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 to 4 h, Stellwagen Bank",
+      "price": "From €78.04"
+     },
+     {
+      "label": "Infant",
+      "small": "ticket needed to board",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €156.08"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-whale-watch-cruise-p975754/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-whale-watch",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-whale-watch",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "harbor",
+    "sunset",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #3 Best Value",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Mass Bay Lines boat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The sun setting behind Boston"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline at dusk from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "American flag at the stern at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The sun over the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mass Bay Lines boat on the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Skyline and flag from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain at the wheel at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mass Bay Lines boat by the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-mass-bay-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Massachusetts Bay Lines",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=60+Rowes+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rowes Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-sunset-cruise-p1129678/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-mass-bay-sunset",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston Harbor: Sunset Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,158 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,157)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-sunset-cruise-t382855/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-mass-bay-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "5.0",
+       "count": "(1)",
+       "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-sunset-cruise-p1129678/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-mass-bay-sunset-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset on the harbor",
+     "pop_html": "<strong>90 minutes as the sun sets behind the city,</strong> past the USS Constitution and the harbor landmarks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Bar on board",
+     "pop_html": "<strong>Drinks for sale at the onboard bar.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Rowes Wharf, Gate C",
+     "pop_html": "<strong>Board at Gate C, 60 Rowes Wharf.</strong> Arrive 30 minutes before.<span class=\"bpa-lang-note\">Nearest T: Aquarium or South Station.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌧️",
+     "label": "Rain or shine",
+     "pop_html": "<strong>It sails in any weather.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest sunset on the water in Boston: 90 minutes for under €30.",
+    "skip_html": "if you want a live history tour: this one is about the view."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where do I board?",
+      "a": "Gate C at 60 Rowes Wharf (enter 400 Atlantic Avenue in your GPS). Arrive 30 minutes before."
+     },
+     {
+      "q": "What will I see?",
+      "a": "The skyline at sunset, the USS Constitution and other harbor landmarks."
+     },
+     {
+      "q": "Can I buy drinks?",
+      "a": "Yes, there is a bar on board."
+     },
+     {
+      "q": "Does it run in rain?",
+      "a": "Yes, rain or shine."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28.59",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min at sunset",
+      "price": "From €28.59"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €57.18"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/boston-attractions-c80835/tickets-for-boston-harbor-sunset-cruise-p1129678/?partner=thecruisedetective.com-176436&tq_campaign=boat-tours-boston-mass-bay-sunset",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-mass-bay-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "sail",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛵ #4 Best Sailing Trip",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Schooners under full sail off Boston"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests relaxing on the schooner deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Two schooners sailing together"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the schooner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The schooner with the skyline behind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a drink on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the schooner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sailing past the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Schooner heeling in the wind"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Schooner at Rowes Wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-schooner-sail-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Classic Harbor Line",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=70+Rowes+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rowes Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/boston-city-centre-harbour-sailing-cruise-t45343/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-schooner-sail&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston: City Centre Harbour Sailing Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "268 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(268)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-city-centre-harbour-sailing-cruise-t45343/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-schooner-sail-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours (2 hours with some options).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Classic pilot schooner",
+     "pop_html": "<strong>Sail on Adirondack III or IV,</strong> a classic pilot schooner, past the Inner Harbor Islands."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soda + water included",
+     "pop_html": "<strong>Soda and water are on the house.</strong> Food is not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👨‍✈️",
+     "label": "Ask the crew",
+     "pop_html": "<strong>No formal tour: the captain and crew</strong> answer questions about the sights."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Rowes Wharf",
+     "pop_html": "<strong>Boards at 70 Rowes Wharf.</strong><span class=\"bpa-lang-note\">Under-17s must be with an adult.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for real sailing, the wind and the quiet, rather than a narrated cruise.",
+    "skip_html": "if you want a guided history tour: the crew only answers questions."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What boat is it?",
+      "a": "A classic pilot schooner, Adirondack III or IV."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "No formal tour; the captain and crew answer questions about the sights."
+     },
+     {
+      "q": "Is anything included?",
+      "a": "Soda and water. Food is not included."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "70 Rowes Wharf."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min under sail",
+      "price": "From €50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/boston-city-centre-harbour-sailing-cruise-t45343/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-schooner-sail&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-schooner-sail",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "sail",
+    "sunset"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #5 Most Romantic",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Schooner sailing past Rowes Wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boston skyline at sunset from the schooner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests enjoying the sail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun setting behind the sails"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with drinks on the schooner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests chatting on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Golden light over the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset glow on the sails"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crew pouring for guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-champagne-sail-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Classic Harbor Line",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=70+Rowes+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rowes Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/champagne-sunset-sail-aboard-schooner-adirondack-iii-t45445/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-champagne-sail&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston: Harbour Champagne Sunset Sail from Rowes Wharf"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "334 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(334)",
+       "url": "https://www.getyourguide.com/boston-l260/champagne-sunset-sail-aboard-schooner-adirondack-iii-t45445/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-champagne-sail-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset under sail",
+     "pop_html": "<strong>Two hours on Adirondack III or IV</strong> as the sun sets behind the skyline."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Champagne bar",
+     "pop_html": "<strong>Beer, wine, Champagne and soft drinks for sale,</strong> card only.<span class=\"bpa-lang-note\">Bring your own picnic.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💧",
+     "label": "Water included",
+     "pop_html": "<strong>Bring a refillable bottle.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Rowes Wharf",
+     "pop_html": "<strong>Boards at 70 Rowes Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a date: two hours under sail at sunset with a glass of Champagne.",
+    "skip_html": "if you're on a budget: #3 gives you the same sunset for €28.59."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is Champagne included?",
+      "a": "No, it is sold on board (card only), with beer, wine and soft drinks. Water is included."
+     },
+     {
+      "q": "Can I bring food?",
+      "a": "Yes, you can bring a picnic."
+     },
+     {
+      "q": "What boat is it?",
+      "a": "The schooner Adirondack III or IV."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "70 Rowes Wharf."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€75",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h sunset sail",
+      "price": "From €75"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €150"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/champagne-sunset-sail-aboard-schooner-adirondack-iii-t45445/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-champagne-sail&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-champagne-sail",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "harbor",
+    "sunset",
+    "live"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛥️ #6 Best Sunset Yacht",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sunset over Boston Harbor from the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The yacht Northern Lights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest photographing the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends taking a selfie on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the open deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the bar"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The yacht's bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the wood-panelled cabin"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cabin bar on the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-northern-lights-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-northern-lights-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Classic Harbor Line",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=70+Rowes+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rowes Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/boston-harbour-sunset-yacht-cruise-t174810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-northern-lights&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston: Harbour Sunset Yacht Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "614 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(614)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-harbour-sunset-yacht-cruise-t174810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-northern-lights-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "Classic yacht",
+     "pop_html": "<strong>The 1920s-style yacht Northern Lights,</strong> with a climate-controlled cabin and open decks."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💥",
+     "label": "Sunset cannon",
+     "pop_html": "<strong>Catch the USS Constitution's sunset cannon</strong> on the way past."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Light commentary + music",
+     "pop_html": "<strong>Light commentary on the landmarks</strong> and music on board."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Bar, card only",
+     "pop_html": "<strong>Beer, wine, Champagne and cocktails for sale.</strong> No outside alcohol."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Rowes Wharf",
+     "pop_html": "<strong>70 Rowes Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for sunset in comfort: a warm cabin, a bar and the cannon salute.",
+    "skip_html": "if you want to sail: this is a motor yacht."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is the boat?",
+      "a": "The classic yacht Northern Lights, with a climate-controlled cabin and open decks."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Light commentary on the main sights, plus music (not on December holiday departures)."
+     },
+     {
+      "q": "Can I bring alcohol?",
+      "a": "No; drinks are sold at the bar, by card only."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "70 Rowes Wharf. Arrive 15 minutes early with a photo ID."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h on the yacht Northern Lights",
+      "price": "From €50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/boston-harbour-sunset-yacht-cruise-t174810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-northern-lights&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-northern-lights",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "harbor",
+    "live"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏝️ #7 Best for the Harbor Islands",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Classic Harbor Line boat on the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family photographing the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the open deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest looking at the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat at the wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The skyline from the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends enjoying the view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bar on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-harbor-islands-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Classic Harbor Line",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=70+Rowes+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Rowes Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/boston-historical-new-england-harbour-cruise-t144465/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-harbor-islands&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston: Boston Harbour Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "240 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(240)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-historical-new-england-harbour-cruise-t144465/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-harbor-islands-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "34 harbor islands",
+     "pop_html": "<strong>Stories of the harbor's islands,</strong> forts, lighthouses and wildlife."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚓",
+     "label": "Navy history",
+     "pop_html": "<strong>Past Bunker Hill, USS Cassin Young and the USS Constitution,</strong> Fort Independence and the Seaport."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Captain narrates",
+     "pop_html": "<strong>Moderate narration from the captain</strong> on the main sights."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💳",
+     "label": "Card-only bar",
+     "pop_html": "<strong>Drinks and snacks for sale,</strong> card only."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Rowes Wharf",
+     "pop_html": "<strong>70 Rowes Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for 90 minutes of harbor, islands and naval history at a calmer pace than the big boats.",
+    "skip_html": "if you want a full guided tour: the captain's narration is moderate."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What will I see?",
+      "a": "Bunker Hill Monument, USS Cassin Young, the USS Constitution, Fort Independence and the Seaport."
+     },
+     {
+      "q": "Who narrates?",
+      "a": "The captain, with moderate commentary on the main sights."
+     },
+     {
+      "q": "Can I buy drinks?",
+      "a": "Yes, drinks and snacks by credit card only."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "70 Rowes Wharf."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€46",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min, harbor and islands",
+      "price": "From €46"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €92"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/boston-historical-new-england-harbour-cruise-t144465/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-harbor-islands&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-harbor-islands",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "thrill",
+    "short"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #8 Best Thrill Ride",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Codzilla thrill boat racing across the harbor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Codzilla spinning with guests aboard"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Codzilla at the wharf"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests cheering on Codzilla"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A girl in the wind on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests getting splashed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "A young rider grinning"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Codzilla captain"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-codzilla-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-codzilla-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises",
+    "⏱️ 45 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=1+Long+Wharf%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Long Wharf"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/boston-city-cruises-harbour-codzilla-high-speed-thrill-boat-t7223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-codzilla&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Boston: City Cruises Harbour Codzilla High-Speed Thrill Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "398 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(398)",
+       "url": "https://www.getyourguide.com/boston-l260/boston-city-cruises-harbour-codzilla-high-speed-thrill-boat-t7223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-codzilla-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "45 min",
+     "pop_html": "<strong>45 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💨",
+     "label": "40 mph spins",
+     "pop_html": "<strong>2,800 horsepower, hairpin turns and 360-degree spins.</strong> You will get wet."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎵",
+     "label": "Loud soundtrack",
+     "pop_html": "<strong>An original soundtrack and storyline,</strong> with some narration."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📏",
+     "label": "Min. 110 cm",
+     "pop_html": "<strong>No under-4s or riders under 110 cm (3 ft 6 in).</strong> Not for pregnant riders or anyone with back, heart or blood-pressure problems."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎒",
+     "label": "No storage",
+     "pop_html": "<strong>There is nowhere to keep things dry.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Long Wharf",
+     "pop_html": "<strong>Long Wharf, 1 Long Wharf.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for teenagers and adrenaline: 45 minutes of spins and spray.",
+    "skip_html": "for small children, pregnancy, or back or heart problems: the listing rules them out."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How fast does it go?",
+      "a": "Up to 40 mph, with hairpin turns and 360-degree spins."
+     },
+     {
+      "q": "Will I get wet?",
+      "a": "Yes, it is designed to be a wet ride, and there is no storage."
+     },
+     {
+      "q": "Is there a height limit?",
+      "a": "Yes, riders must be at least 110 cm (3 ft 6 in) and 4 or older."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Long Wharf."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€51",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "45 min, 40 mph",
+      "price": "From €51"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €102"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/boston-city-cruises-harbour-codzilla-high-speed-thrill-boat-t7223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-codzilla&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-codzilla",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "dinner"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #9 Best Buffet Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Spirit of Boston at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Spirit of Boston at the Seaport"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the buffet"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests toasting over dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests pointing at the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rooftop lounge deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room with a view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-spirit-dinner-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises",
+    "⏱️ 2 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=200+Seaport+Blvd%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Seaport (200 Seaport Blvd)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-harbour-buffet-lunch-or-dinner-cruise-t277562/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-spirit-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "City Cruises Boston: Harbour Buffet Lunch or Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "487 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(487)",
+       "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-harbour-buffet-lunch-or-dinner-cruise-t277562/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-spirit-dinner-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 to 3 h",
+     "pop_html": "<strong>2 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Chef's buffet",
+     "pop_html": "<strong>A chef-curated buffet lunch or dinner,</strong> plus unlimited coffee, hot tea and iced tea.<span class=\"bpa-lang-note\">Alcohol for sale.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "DJ + dancing",
+     "pop_html": "<strong>A live DJ and a dance floor.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌆",
+     "label": "Rooftop lounge",
+     "pop_html": "<strong>Climate-controlled interiors and a rooftop lounge deck.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏳",
+     "label": "Board an hour early",
+     "pop_html": "<strong>Boarding opens 1 hour before departure,</strong> so you can explore the ship at the dock."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Seaport (200 Seaport Blvd)",
+     "pop_html": "<strong>200 Seaport Blvd.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed group meal on the water at €74, cheaper than a plated dinner.",
+    "skip_html": "if you want fine dining: #10 serves plated courses."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What food is served?",
+      "a": "A chef-curated buffet lunch or dinner, with unlimited coffee and tea. Alcohol is extra."
+     },
+     {
+      "q": "Is there entertainment?",
+      "a": "Yes, a live DJ and dancing."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Seaport, 200 Seaport Blvd."
+     },
+     {
+      "q": "What should I wear?",
+      "a": "Casually stylish; flat, closed-toe shoes are recommended."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€74",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "buffet lunch or dinner, 2 to 3 h",
+      "price": "From €74"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €148"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-harbour-buffet-lunch-or-dinner-cruise-t277562/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-spirit-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-spirit-dinner",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "dinner"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #10 Best for a Special Dinner",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Odyssey by the Boston skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Odyssey at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends toasting on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Set tables in the dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest raising a glass at dinner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Observation deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-boston/boston-boat-tour-odyssey-dinner-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "City Cruises",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=200+Seaport+Blvd%2C+Boston%2C+MA",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Seaport"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-premier-brunch-or-dinner-harbour-cruise-t8167/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-odyssey-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "City Cruises Boston: Premier Brunch or Dinner Harbour Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "131 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(131)",
+       "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-premier-brunch-or-dinner-harbour-cruise-t8167/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-odyssey-dinner-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "3-course plated dinner",
+     "pop_html": "<strong>A 3-course plated dinner or a buffet brunch,</strong> at your own private table."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "DJ + dance floor",
+     "pop_html": "<strong>Live DJ, dance floor and observation decks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Coffee + tea",
+     "pop_html": "<strong>Unlimited coffee, hot tea and iced tea.</strong> Alcohol for sale."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏳",
+     "label": "Board an hour early",
+     "pop_html": "<strong>Boarding opens 1 hour before departure.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Seaport",
+     "pop_html": "<strong>Seaport.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an anniversary or a proper night out: plated courses and your own table.",
+    "skip_html": "if you want the best value meal on the water: #9 is €28 cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is included?",
+      "a": "A 3-course plated dinner or a buffet brunch, a private table, a DJ, and unlimited coffee and tea."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Alcohol is sold on board; coffee and tea are unlimited."
+     },
+     {
+      "q": "Can we sit together?",
+      "a": "Yes, if you are on the same booking."
+     },
+     {
+      "q": "When can I board?",
+      "a": "Up to 1 hour before departure."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€102",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "plated dinner or buffet brunch",
+      "price": "From €102"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €204"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/boston-l260/city-cruises-boston-premier-brunch-or-dinner-harbour-cruise-t8167/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-boston-odyssey-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bos-odyssey-dinner",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 7 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,4396 @@
+{
+ "format": 1,
+ "icons": {
+  "Tiqets": "data:image/png;base64,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",
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "dinner",
+    "show",
+    "drinks"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The cruise ship lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The ship in purple light on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Thai dancers in costume"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancer performing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tables on the rooftop deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rooftop deck at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet station"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun lit up from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide by Wat Arun at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-asiatique-5star-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Bangkok Chaophraya Cruise",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Asiatique+The+Riverfront%2C+2194+Charoen+Krung+Rd%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Asiatique The Riverfront"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-chao-phraya-river-luxury-dinner-cruise-at-asiatique-p1114481/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-asiatique-5star",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: The Newest Chao Phraya River 5-Star Dinner Cruise at Asiatique"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "5,418 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(5,410)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-the-newest-luxury-5-star-bangkok-chao-t960991/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-asiatique-5star-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.2",
+       "count": "(8)",
+       "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-chao-phraya-river-luxury-dinner-cruise-at-asiatique-p1114481/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-asiatique-5star-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍣",
+     "label": "Seafood buffet",
+     "pop_html": "<strong>International and seafood buffet</strong> with salmon sashimi and beef steak."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Soft drinks included",
+     "pop_html": "<strong>Non-alcoholic drinks included.</strong> Alcohol for sale."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "Thai dance + live music",
+     "pop_html": "<strong>Thai dance shows and live music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪑",
+     "label": "Rooftop seat",
+     "pop_html": "<strong>A guaranteed rooftop seat.</strong> Up to 300 guests."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Asiatique The Riverfront",
+     "pop_html": "<strong>Asiatique The Riverfront.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated dinner cruise on the river: rooftop seat, show and sashimi buffet.",
+    "skip_html": "if you want a quiet, intimate dinner: it's a 300-seat ship."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it leave from?",
+      "a": "Asiatique The Riverfront, 2194 Charoen Krung Rd."
+     },
+     {
+      "q": "What food is served?",
+      "a": "An international and seafood buffet, including salmon sashimi and beef steak."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Non-alcoholic drinks are; alcohol is extra."
+     },
+     {
+      "q": "Is there a show?",
+      "a": "Yes, Thai dance shows and live music."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€41.56",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h, buffet + soft drinks",
+      "price": "From €41.56"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €83.12"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-chao-phraya-river-luxury-dinner-cruise-at-asiatique-p1114481/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-asiatique-5star",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-asiatique-5star",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "dinner",
+    "show",
+    "drinks",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍺 #2 Best Value Party Cruise",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "White Orchid boat by Wat Arun and the Ferris wheel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers at Asiatique"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests dancing on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rama VIII Bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Thai dancers on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rama VIII Bridge lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet line"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-white-orchid-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "White Orchid",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Asiatique+The+Riverfront%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-white-orchid-chao-phraya-dinner-cruise-t616103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-white-orchid&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: White Orchid Chao Phraya Dinner Cruise with Free Beer"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "5,516 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(5,516)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-white-orchid-chao-phraya-dinner-cruise-t616103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-white-orchid-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h (4.5 with options)",
+     "pop_html": "<strong>2 hours (up to 4.5 hours with options).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Open beer bar",
+     "pop_html": "<strong>Free-flow beer,</strong> plus a welcome drink."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍛",
+     "label": "Unlimited buffet",
+     "pop_html": "<strong>Thai and international dishes,</strong> vegetarian options."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "Cabaret show",
+     "pop_html": "<strong>Thai cultural and cabaret show on night cruises,</strong> and live music."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "41-language audio",
+     "pop_html": "<strong>Audio guide by QR code;</strong> bring earphones."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a fun, cheap night: free beer, a buffet and a cabaret show for €31.",
+    "skip_html": "if you want fine dining or a quiet table: it's a party boat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is beer included?",
+      "a": "Yes, an open bar with beer."
+     },
+     {
+      "q": "What food is served?",
+      "a": "An unlimited Thai and international buffet with vegetarian dishes."
+     },
+     {
+      "q": "Is there a show?",
+      "a": "Yes, a Thai cultural and cabaret show on the night cruise, plus live music."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "An audio guide in 41 languages by QR code; bring earphones."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€31",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "buffet, open beer bar",
+      "price": "From €31"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €62"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-white-orchid-chao-phraya-dinner-cruise-t616103/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-white-orchid&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-white-orchid",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "longtail",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛶 #3 Best Daytime Boat",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Long-tail boat passing the Big Buddha"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the long-tail boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests filming from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Long-tail on a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Long-tail boat in the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Big Buddha"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Long-tail boat bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Temple from the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-longtail-canal-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "CanalTour x ExploreSiam",
+    "⏱️ 1 to 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Thonburi+canals%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option, Thonburi"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-cruise-t724973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-longtail-canal&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok Long-Tail Boat Canal Tour &amp; Big Buddha Views"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "5,753 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(5,753)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-cruise-t724973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-longtail-canal-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 or 2 h",
+     "pop_html": "<strong>1 or 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "Thonburi canals",
+     "pop_html": "<strong>A long-tail boat through the klongs of Thonburi,</strong> past stilt houses and temples."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🙏",
+     "label": "Big Buddha views",
+     "pop_html": "<strong>Views of the giant Buddha at Wat Paknam.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💧",
+     "label": "Guide + water",
+     "pop_html": "<strong>A tour guide and a bottle of water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌧️",
+     "label": "Rain or shine",
+     "pop_html": "<strong>No refund for weather cancellations.</strong> Not for back problems or over-70s."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option, Thonburi",
+     "pop_html": "<strong>By option, Thonburi.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for real Bangkok by day: the canals, the stilt houses and the Big Buddha, €17.",
+    "skip_html": "if it's raining and you want a refund: weather cancellations aren't refunded."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Through the canals of Thonburi, with views of the Big Buddha at Wat Paknam."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, plus a bottle of water."
+     },
+     {
+      "q": "How long is it?",
+      "a": "1 or 2 hours."
+     },
+     {
+      "q": "What if it rains?",
+      "a": "It runs rain or shine; weather cancellations are not refunded."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€17",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 or 2 h shared long-tail",
+      "price": "From €17"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €34"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-cruise-t724973/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-longtail-canal&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-longtail-canal",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "hop",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #4 Cheapest Way on the River",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Tourist boat by the Grand Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seats on the tourist boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Passengers on the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-hop-on-boat-04.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Chao Phraya Tourist Boat",
+    "⏱️ 1 Day",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Sathorn+Pier%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Sathorn Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-hop-onhop-off-boat-t409287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-hop-on-boat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: Chao Phraya River Hop-on/hop-off Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "3,567 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(3,567)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-hop-onhop-off-boat-t409287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-hop-on-boat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "All day",
+     "pop_html": "<strong>All day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Unlimited day pass",
+     "pop_html": "<strong>Hop on and off at the river's main piers</strong> all day."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏯",
+     "label": "Temples by boat",
+     "pop_html": "<strong>Stops near the Grand Palace, Wat Pho and Wat Arun.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Guide booklet",
+     "pop_html": "<strong>A travel guide booklet included.</strong> Temple entry fees not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Sathorn Pier",
+     "pop_html": "<strong>Start at Sathorn Pier (BTS Saphan Taksin).</strong> Extends to Asiatique from 11:30."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for sightseeing on the cheap: the river as your bus to the temples, €4.03 all day.",
+    "skip_html": "if you want dinner or commentary: this is transport."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is it?",
+      "a": "An unlimited-ride day pass on the Chao Phraya Tourist Boat."
+     },
+     {
+      "q": "Where do I start?",
+      "a": "Sathorn Pier, next to BTS Saphan Taksin."
+     },
+     {
+      "q": "Does it go to Asiatique?",
+      "a": "Yes, the route extends to Asiatique from 11:30 (from Phra Arthit)."
+     },
+     {
+      "q": "Are temple tickets included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€4.03",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "unlimited rides, 1 day",
+      "price": "From €4.03"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €8.06"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-hop-onhop-off-boat-t409287/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-hop-on-boat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-hop-on-boat",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 4 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "dinner",
+    "drinks"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🦐 #5 Best Seafood Buffet",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Super Galaxy cruise ship at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tables on the lit deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Decorated dining deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "ICONSIAM from the ship"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Singer on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Salmon sashimi"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Grill station"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet spread"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Teppanyaki"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-super-galaxy-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Super Galaxy Cruise",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=ICONSIAM%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 ICONSIAM Pier 4"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-iconsiam-super-galaxy-dinner-cruise-sh-t1312660/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-super-galaxy&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Newest Luxury Super Galaxy Chao Phraya Cruise at ICONSIAM"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "861 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(861)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-iconsiam-super-galaxy-dinner-cruise-sh-t1312660/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-super-galaxy-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "🦐",
+     "label": "Big seafood buffet",
+     "pop_html": "<strong>Sashimi, grilled prawns, mussels, squid, sushi,</strong> teppanyaki and steak."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Drinks included",
+     "pop_html": "<strong>Some drinks are included;</strong> drinks from the menu are extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕰️",
+     "label": "2.5 hours",
+     "pop_html": "<strong>Longer than most dinner cruises.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "ICONSIAM Pier 4",
+     "pop_html": "<strong>Arrive 30 minutes early; last check-in 20:00.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€18 an hour",
+     "pop_html": "<strong>€46 for 2.5 h,</strong> about €18 an hour per adult."
+    }
+   ],
+   "best_for": {
+    "pick_html": "for seafood lovers: the biggest buffet on the river, 2.5 hours long.",
+    "skip_html": "if you want a show: it's about the food."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's on the buffet?",
+      "a": "Salmon sashimi, grilled prawns, mussels, squid, sushi, teppanyaki, beef steak, Thai dishes and desserts."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "ICONSIAM Pier 4."
+     },
+     {
+      "q": "When do I check in?",
+      "a": "At least 30 minutes before; the last check-in is 20:00."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Some are; drinks ordered from the menu cost extra."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€46",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h, seafood buffet",
+      "price": "From €46"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €92"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-iconsiam-super-galaxy-dinner-cruise-sh-t1312660/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-super-galaxy&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-super-galaxy",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "dinner"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "✨ #6 Best Luxury Buffet",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Opulence cruise with the skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet on the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests under Rama VIII Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Grand Palace at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Prawns on the buffet"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Night skyline"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Desserts"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "ICONSIAM at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-opulence-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Opulence",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=ICONSIAM%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 ICONSIAM Pier 2"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-opulence-luxury-river-dinner-cruise-t742208/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-opulence&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: Opulence Luxury River Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "514 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(514)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-opulence-luxury-river-dinner-cruise-t742208/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-opulence-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Buffet dinner",
+     "pop_html": "<strong>A luxury buffet dinner.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Welcome drink",
+     "pop_html": "<strong>Welcome drink and water.</strong> Alcohol and soft drinks extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏯",
+     "label": "Grand Palace views",
+     "pop_html": "<strong>Past the Grand Palace and Wat Arun lit up.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "ICONSIAM Pier 2",
+     "pop_html": "<strong>Boards at ICONSIAM Pier 2.</strong> The boat doesn't wait for late arrivals."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for an elegant buffet cruise from ICONSIAM.",
+    "skip_html": "if you want drinks included: only water and a welcome drink are."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it leave from?",
+      "a": "ICONSIAM Pier 2."
+     },
+     {
+      "q": "What's included?",
+      "a": "A welcome drink, the cruise, a buffet dinner and water."
+     },
+     {
+      "q": "Are soft drinks included?",
+      "a": "No, alcohol and soft drinks are extra."
+     },
+     {
+      "q": "What if I'm late?",
+      "a": "The cruise won't wait."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h, buffet dinner",
+      "price": "From €50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-opulence-luxury-river-dinner-cruise-t742208/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-opulence&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-opulence",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "finedining",
+    "show"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #7 Best Fine Dining",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Saffron cruise at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room under the glass roof"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saffron under Rama VIII Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun lit up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The ship lit at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck view at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-saffron-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Saffron Cruise (Banyan Tree)",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=ICONSIAM%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 ICONSIAM"
+    }
+   ],
+   "title": {
+    "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-saffron-chao-phraya-river-dinner-cruise-p1091528/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-saffron",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: Saffron Luxurious Chao Phraya River Dinner Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.51",
+     "score": "4.5",
+     "meta": "45 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(44)",
+       "url": "https://www.getyourguide.com/bangkok-l169/saffron-cruise-by-banyan-tree-t441461/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-saffron-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "5.0",
+       "count": "(1)",
+       "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-saffron-chao-phraya-river-dinner-cruise-p1091528/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-saffron-pop",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "4-course Thai dinner",
+     "pop_html": "<strong>A signature 4-course Thai set dinner</strong> with petit fours."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍸",
+     "label": "Moon Deck cocktail",
+     "pop_html": "<strong>A welcome cocktail on the Moon Deck.</strong> Other drinks extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "38 m boat",
+     "pop_html": "<strong>An intimate 38-metre boat</strong> with live entertainment."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "ICONSIAM",
+     "pop_html": "<strong>Boards at ICONSIAM.</strong> Transfers extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a special night: a 4-course Thai tasting menu instead of a buffet.",
+    "skip_html": "on a budget: #2 is a quarter of the price."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the menu?",
+      "a": "A signature 4-course Thai set dinner with petit fours."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "A welcome cocktail on the Moon Deck; other drinks are extra."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "ICONSIAM."
+     },
+     {
+      "q": "Can I request a seat?",
+      "a": "Seats are arranged by the restaurant."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€120.69",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h, 4-course set dinner",
+      "price": "From €120.69"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €241.38"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.tiqets.com/en/bangkok-attractions-c78586/tickets-for-bangkok-saffron-chao-phraya-river-dinner-cruise-p1091528/?partner=thecruisedetective.com-176436&tq_campaign=chao-phraya-river-cruises-bangkok-saffron",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via Tiqets",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-saffron",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 8 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "longtail",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏯 #8 Best with a Temple Visit",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guide with guests on the long-tail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wat Arun from the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Long-tail boat by Wat Arun"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Golden Buddha by the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at Wat Arun"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide showing guests a temple"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Temple interior"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Big Buddha"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Big Buddha close up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Temple guardian"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-wat-arun-longtail-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "TripGuru",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tha+Tian+Pier%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Tha Tian Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-tour-to-wat-arun-t432685/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-wat-arun-longtail&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: Long-tail Boat Canal Tour to Wat Arun"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "585 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(585)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-tour-to-wat-arun-t432685/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-wat-arun-longtail-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏯",
+     "label": "Wat Arun stop",
+     "pop_html": "<strong>Time at Wat Arun, the Temple of Dawn.</strong> Entry 200 THB, cash."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛶",
+     "label": "3 hours by long-tail",
+     "pop_html": "<strong>Through the Thonburi canals with an English-speaking guide.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚪",
+     "label": "Canal locks",
+     "pop_html": "<strong>You may wait at the water locks;</strong> they have no fixed schedule."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Tha Tian Pier",
+     "pop_html": "<strong>By Wat Pho.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for canals plus a guided Wat Arun visit, from the pier by Wat Pho.",
+    "skip_html": "if you forget cash: Wat Arun's 200 THB is paid on the day."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is Wat Arun entry included?",
+      "a": "No, it's 200 THB per person in cash."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Tha Tian Pier, by Wat Pho."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Yes, English-speaking."
+     },
+     {
+      "q": "Why might we wait?",
+      "a": "At the canal water locks, which have no fixed schedule."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€18",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h with English guide",
+      "price": "From €18"
+     },
+     {
+      "label": "Wat Arun ticket",
+      "small": "cash on the day",
+      "price": "200 THB"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €36"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-long-tail-boat-canal-tour-to-wat-arun-t432685/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-wat-arun-longtail&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-wat-arun-longtail",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "dinner",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #9 Best Sunset Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Planet cruise by Wat Arun"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lit tables on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers with guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Seafood platter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the river"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Chef at the buffet"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tables at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck lounge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-04.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-05.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-06.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-07.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-08.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-09.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-planet-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The Planet Cruise",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Asiatique+The+Riverfront%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Asiatique, Pier 1"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-the-planet-dinner-cruise-t581092/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-planet-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: The Planet Sunset Dinner Cruise on the Chao Phraya River"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "1,082 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(1,082)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-the-planet-dinner-cruise-t581092/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-planet-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "90 min (sunset)",
+     "pop_html": "<strong>90 minutes (sunset cruise).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset 17:15 to 18:45",
+     "pop_html": "<strong>Check in at Asiatique Warehouse 3 (16:00 to 17:00),</strong> board at Pier 1."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍣",
+     "label": "Buffet",
+     "pop_html": "<strong>Thai and international buffet with salmon sashimi and steak.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Live music",
+     "pop_html": "<strong>Live music throughout.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Welcome drink",
+     "pop_html": "<strong>Coffee, tea or water on boarding.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Asiatique, Pier 1",
+     "pop_html": "<strong>Asiatique, Pier 1.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for sunset on the river with a buffet, before a night out at Asiatique.",
+    "skip_html": "if you want Wat Arun lit up at night: book a later dinner cruise."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "When is the sunset cruise?",
+      "a": "17:15 to 18:45; check in at Asiatique Warehouse 3 between 16:00 and 17:00."
+     },
+     {
+      "q": "What food is served?",
+      "a": "A Thai and international buffet with salmon sashimi, beef steak and desserts."
+     },
+     {
+      "q": "Is there music?",
+      "a": "Yes, live music."
+     },
+     {
+      "q": "Is there a dinner version?",
+      "a": "Yes, a later dinner cruise from Asiatique."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "sunset cruise, buffet",
+      "price": "From €30"
+     },
+     {
+      "label": "Dinner cruise",
+      "small": "later departure",
+      "price": "Check"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-the-planet-dinner-cruise-t581092/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-planet-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-planet-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "dinner",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #10 Cheapest Dinner Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Wat Arun lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet counter on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet line"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Buffet station"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-01.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-02.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-03.avif"
+     },
+     {
+      "src": "/assets/chao-phraya-river-cruises-bangkok/bangkok-river-cruise-meridian-buffet-04.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Meridian Cruise",
+    "⏱️ 1.5 to 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Chao+Phraya+River%2C+Bangkok",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-meridian-cruise-1-wi-t533043/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-meridian-buffet&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bangkok: Chao Phraya River Meridian Cruise with Buffet"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "827 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(827)",
+       "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-meridian-cruise-1-wi-t533043/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-meridian-buffet-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 to 2 h",
+     "pop_html": "<strong>1.5 to 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🦐",
+     "label": "Seafood buffet",
+     "pop_html": "<strong>An international seafood buffet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Drinks",
+     "pop_html": "<strong>Welcome drink, water, coffee and tea.</strong> Alcohol extra."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎶",
+     "label": "Live music",
+     "pop_html": "<strong>Live music on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎂",
+     "label": "Celebration cake",
+     "pop_html": "<strong>A free mini cake in your birthday month,</strong> anniversary or graduation."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lowest price on a Chao Phraya dinner cruise: €17.",
+    "skip_html": "if you want a show or a rooftop: see #1 or #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "An international seafood buffet, welcome drink, water, coffee, tea and live music."
+     },
+     {
+      "q": "Is alcohol included?",
+      "a": "No."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No."
+     },
+     {
+      "q": "Any extras for celebrations?",
+      "a": "A free mini cake in your birthday month, on an anniversary or for a graduation."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€17",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "seafood buffet cruise",
+      "price": "From €17"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €34"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bangkok-l169/bangkok-chao-phraya-river-meridian-cruise-1-wi-t533043/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-chao-phraya-river-cruises-bangkok-meridian-buffet&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#bkk-meridian-buffet",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "New page 2026-11-19: the listing gallery had only 4 usable photos of this product (rest were maps, text boards, other attractions or duplicates)"
+   }
+  }
+ ]
+}
