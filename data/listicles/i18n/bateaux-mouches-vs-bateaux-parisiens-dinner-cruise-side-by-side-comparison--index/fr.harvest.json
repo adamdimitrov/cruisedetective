@@ -1,0 +1,209 @@
+{
+ "format": 1,
+ "lang": "fr",
+ "comment": "Where each harvested entry of fr.json came from (listicle_harvest.py). Review, then delete this file or keep it as a record.",
+ "page": "fr/bateaux-mouches-ou-bateaux-parisiens/index.html",
+ "english_version": "worktree",
+ "match_score": 0.0,
+ "entries": {
+  "📍 Pont de l'Alma Pier": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1,
+   "alternatives": ["📍 Embarcadère du pont de l’Alma"]
+  },
+  "12k+ reviews · 4 sites": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Average of 4 booking sites, weighted by number of reviews": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 2,
+   "alternatives": ["Moyenne de 4 sites de réservation, pondérée par le nombre d’avis"]
+  },
+  "Personally tested": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 2
+  },
+  "Violin &amp; piano": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Kir &amp; wine included": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Smart casual": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 2,
+   "alternatives": ["Tenue correcte décontractée"]
+  },
+  "Access &amp; kids": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 1
+  },
+  "Diet options": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Does it leave from the Eiffel Tower?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Which menu should I book?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Harmonie (€114) for the classic dinner with kir and a glass of wine. Prestige (€135) adds sparkling wine, half a bottle of wine per person and a cheese option. Excellence (€170) adds Champagne, a cheese course and window-table priority.": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1,
+   "alternatives": ["Harmonie (114 €) pour le dîner classique avec kir et un verre de vin. Prestige (135 €) ajoute un vin pétillant, une demi-bouteille de vin par personne et une option fromage. Excellence (170 €) ajoute le champagne, un plateau de fromages et la priorité pour les tables en fenêtre."]
+  },
+  "Can I go outside?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Can kids come?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 2
+  },
+  "per adult": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "Harmonie menu": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "kir, 1 glass of wine": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Prestige menu": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "half a bottle of wine pp": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Excellence menu": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Champagne, window priority": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Child": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "4-12, 3 courses": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Under 4": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "no meal": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Free": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "2 adults + 2 kids (4-12), Harmonie": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Check Availability →": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 5
+  },
+  "Booked securely via Tiqets": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "<b>Free cancellation</b> up to 72 h before": {
+   "source": "listicle file new-years-eve-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Read Review ↓": {
+   "source": "listicle file canal-cruises-amsterdam--index/fr.json",
+   "seen": 3
+  },
+  "Bateaux Parisiens": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 3
+  },
+  "20k+ reviews · 4 sites": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Which ticket should I book?": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Étoile (€115): 3 courses, kir and wine (1 bottle per 4). Découverte (€139) adds Champagne. Privilège (€185) adds cheese and a guaranteed window table. Premier (€215): 5 courses and the front tables.": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1,
+   "alternatives": ["Étoile (115 €) : 3 plats, kir et vin (1 bouteille pour 4). Découverte (139 €) ajoute le champagne. Privilège (185 €) ajoute le fromage et une table en fenêtre garantie. Premier (215 €) : 5 plats et les tables à l'avant."]
+  },
+  "Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "3 courses, kir, wine": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Découverte": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "adds Champagne": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Privilège": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "cheese, window table": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "Premier": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "5 courses, front tables": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "up to 11, Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  },
+  "2 adults + 2 kids (up to 11), Étoile": {
+   "source": "listicle file dinner-cruises-paris--index/fr.json",
+   "seen": 1
+  }
+ },
+ "urls": {
+  "/about#methodology": {
+   "to": "/fr/a-propos#methodology",
+   "source": "listicle file dinner-cruises-paris--index/fr.json"
+  }
+ },
+ "skipped": [
+  {
+   "en": "Compagnie des Bateaux Mouches",
+   "tr": "Compagnie des Bateaux Mouches",
+   "why": "identical to English",
+   "source": "port memory new-years-eve-cruises-paris__index/fr.json [f1c3df6640c0]"
+  }
+ ]
+}
