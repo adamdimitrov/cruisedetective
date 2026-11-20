@@ -135,8 +135,10 @@
   "<strong>A small group on a covered motor yacht</strong> with a local guide and a certified crew.<span class=\"bpa-lang-note\">Commentary in English, Portuguese and Spanish.</span>": "<strong>Un grupo reducido en un yate a motor cubierto</strong> con un guía local y una tripulación certificada.<span class=\"bpa-lang-note\">Explicaciones en inglés, portugués y español.</span>",
   "Douro Marina, Afurada": "Douro Marina, Afurada",
   "<strong>Rua da Praia 430, Vila Nova de Gaia,</strong> in the fishing village of Afurada near the river mouth.<span class=\"bpa-lang-note\">About 5 km downriver from Ribeira: plan a taxi or Uber.</span>": "<strong>Rua da Praia 430, Vila Nova de Gaia,</strong> en el pueblo pesquero de Afurada, cerca de la desembocadura.<span class=\"bpa-lang-note\">A unos 5 km río abajo de Ribeira: cuenta con un taxi o un Uber.</span>",
+  "for the best score here from a big crowd: 4.95 out of 5 from 2,185 reviews, and the sunset slot heads out toward the Atlantic.": "por la mejor nota de este ranking entre muchas opiniones: 4.95 sobre 5 en 2,185 reseñas, y el turno del atardecer sale hacia el Atlántico.",
   "if you want food on board: only the welcome drink is included, while #1 adds a tasting board.": "si quieres comida a bordo: solo incluye la bebida de bienvenida, mientras que el #1 añade una tabla de degustación.",
   "How good are the reviews?": "¿Qué tal son las reseñas?",
+  "4.95/5 from 2,185 reviews, the highest score here of any cruise with more than 1,000 reviews.": "4.95/5 en 2,185 reseñas, la nota más alta aquí de todos los cruceros con más de 1,000 reseñas.",
   "A welcome drink (Port, local wine, a soft drink or water), a guide, a certified crew, insurance and fuel.": "Una bebida de bienvenida (Oporto, vino local, refresco o agua), un guía, una tripulación certificada, el seguro y el combustible.",
   "Is there a toilet?": "¿Hay baño?",
   "Yes, a bathroom, plus blankets on cool days.": "Sí, hay baño, y mantas en los días frescos.",
@@ -169,6 +171,7 @@
   "2 hours, max 8 guests": "2 horas, máx. 8 personas",
   "Booked securely via Tiqets": "Reserva segura con Tiqets",
   "<b>Instant mobile ticket</b>": "<b>Entrada móvil al instante</b>",
+  "listing has 6 photos, all on the card": "el anuncio tiene 6 fotos, todas en la tarjeta",
   "🌉 #6 Best Six Bridges from Ribeira": "🌉 #6 Mejor seis puentes desde Ribeira",
   "Tomaz do Douro rabelo boat under the Dom Luís I bridge": "Barco rabelo de Tomaz do Douro bajo el puente Dom Luís I",
   "Rabelo boats moored at Cais da Ribeira": "Barcos rabelos amarrados en el Cais da Ribeira",
@@ -264,6 +267,7 @@
   "Yes, for free up to 72 hours before.": "Sí, gratis hasta 72 horas antes.",
   "2 hours, dinner and 1 drink": "2 horas, cena y 1 bebida",
   "<b>Free cancellation</b> up to 72 hours before": "<b>Cancelación gratuita</b> hasta 72 horas antes",
+  "listing has 4 photos, all on the card": "el anuncio tiene 4 fotos, todas en la tarjeta",
   "🎉 #9 Best Party Boat": "🎉 #9 Mejor barco de fiesta",
   "DJ playing on the Douro party boat": "DJ pinchando en el barco de fiesta del Duero",
   "Friends dancing on the party boat": "Amigos bailando en el barco de fiesta",
@@ -328,9 +332,7 @@
   "It is seasonal: the next sailings are on weekdays from April 2027.": "Es de temporada: las próximas salidas son entre semana a partir de abril de 2027.",
   "Do I need a hotel transfer?": "¿Necesito traslado desde el hotel?",
   "No, it starts in Ribeira, in front of Café do Cais.": "No, empieza en Ribeira, frente al Café do Cais.",
-  "11 hours, meals included": "11 horas, comidas incluidas",
-  "for the best score here from a big crowd: 4.95 out of 5 from 2,185 reviews, and the sunset slot heads out toward the Atlantic.": "por la mejor nota de este ranking entre muchas opiniones: 4.95 sobre 5 en 2,185 reseñas, y el turno del atardecer sale hacia el Atlántico.",
-  "4.95/5 from 2,185 reviews, the highest score here of any cruise with more than 1,000 reviews.": "4.95/5 en 2,185 reseñas, la nota más alta aquí de todos los cruceros con más de 1,000 reseñas."
+  "11 hours, meals included": "11 horas, comidas incluidas"
  },
  "ui": {
   "faq_title": "❓ {n} preguntas que hacen los viajeros",

@@ -1,0 +1,591 @@
+{
+ "format": 1,
+ "lang": "it",
+ "comment": "Entries of it.json written by `listicle.py translate` (machine translation: review before publishing).",
+ "entries": {
+  "<strong>I rode this cruise myself.</strong> The video in the review is mine.<span class=\"bpa-lang-note\">What I checked: boat type, pier, crowds and what the ticket includes. <a href=\"#1-captain-jack\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 reviews.tested.pop_html"
+  },
+  "Electric open boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].label"
+  },
+  "<strong>A small electric boat with padded seats.</strong> The cover comes off in summer and it sails open-air; in winter it is insulated but not heated.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[2].pop_html"
+  },
+  "Unlimited drinks &amp; snacks": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].label"
+  },
+  "<strong>The all-inclusive ticket has unlimited drinks and Dutch snacks:</strong> soft drinks, wine and beer, with stroopwafel, Gouda cheese, sausage and crackers. A cheaper no-drinks cruise runs on some dates.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[3].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 5; €25 for ages 5–12</span><span class=\"bpa-lang-note\">👶 <b>Strollers:</b> fit on board</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> none on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 pills[4].pop_html"
+  },
+  "Is it heated in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].q"
+  },
+  "No. The boat is insulated but not heated, so dress warmly. I rode it in November and did not feel cold.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[0].a"
+  },
+  "Yes. The captain gives live commentary in English and answers questions. GetYourGuide also lists an audio guide in 9 languages.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[1].a"
+  },
+  "What food and drinks are included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].q"
+  },
+  "On the all-inclusive ticket: unlimited soft drinks, wine and beer, with Dutch snacks such as stroopwafel, Gouda cheese, sausage and crackers.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[2].a"
+  },
+  "Two meeting points: Museumbrug 2 near the Rijksmuseum and Prins Hendrikkade 33b near Centraal Station.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[3].a"
+  },
+  "No, so make a bathroom stop before boarding: the cruise takes 90 minutes.": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 faq.items[4].a"
+  },
+  "all-inclusive": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.rows[0].small"
+  },
+  "2 adults + 2 kids (5–12)": {
+   "model": "claude-opus-5-5",
+   "where": "card-1 price.total.label"
+  },
+  "From-prices on the booking page when last checked; they can change by date. The final price is shown before you pay.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 price.note"
+  },
+  "<b>Instant mobile ticket</b>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 cta.trust[1]"
+  },
+  "<strong>I rode this cruise myself.</strong> The video in the review is mine.<span class=\"bpa-lang-note\">What I checked: boat type, pier, crowds and what the ticket includes. <a href=\"#2-lovers-canal\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 reviews.tested.pop_html"
+  },
+  "Heated glass boat": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].label"
+  },
+  "<strong>Covered, insulated and heated in winter.</strong> Up to 60 passengers at 4- and 6-seat tables. In summer the windows open, and there is a small open-air area at the back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[2].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4; €7.65 for ages 4–13</span><span class=\"bpa-lang-note\">👶 <b>Strollers:</b> fit on board</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> none on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 pills[3].pop_html"
+  },
+  "Is it warm enough in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].q"
+  },
+  "Yes. The boat is covered, insulated and heated. On my November ride it was even a bit too warm, so I opened a window.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[0].a"
+  },
+  "Which languages does the audio guide cover?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].q"
+  },
+  "Tiqets lists English and 18 other languages. On my ride there were 12, including Dutch, German, French, Spanish, Italian, Japanese and Chinese.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[1].a"
+  },
+  "Do I need my own earbuds?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].q"
+  },
+  "No. Disposable earbuds are provided at each table, and you can plug in your own. On my ride the connection cut out at times.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[2].a"
+  },
+  "Is it open-air in summer?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].q"
+  },
+  "No, it stays covered, but the windows open and there is a small open-air area at the back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[3].a"
+  },
+  "How much are child tickets?": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].q"
+  },
+  "Free under 4 and €7.65 for ages 4 to 13. Adults pay from €13.": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 faq.items[4].a"
+  },
+  "2 adults + 2 kids (4–13)": {
+   "model": "claude-opus-5-5",
+   "where": "card-2 price.total.label"
+  },
+  "<strong>I rode this cruise myself.</strong> The video in the review is mine.<span class=\"bpa-lang-note\">What I checked: boat type, pier, crowds and what the ticket includes. <a href=\"#3-flagship\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 reviews.tested.pop_html"
+  },
+  "<strong>Live commentary in English from the skipper</strong>, who takes questions. A host serves food and drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[2].pop_html"
+  },
+  "<strong>Optional unlimited Gouda cheese and wine, from €22.</strong> The basic sightseeing ticket starts at €14, and you can upgrade on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[3].pop_html"
+  },
+  "Open-air in summer": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].label"
+  },
+  "<strong>The cover comes off in summer.</strong> In winter the boat is insulated but not heated, and on my rainy November ride water leaked in.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[4].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 3; €11.17 for ages 3–12</span><span class=\"bpa-lang-note\">👶 <b>Strollers:</b> fit on board</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> none on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 pills[5].pop_html"
+  },
+  "Can I reserve seats?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].q"
+  },
+  "No. Seats on virtually all canal cruises are first come, first served, so arrive 15 minutes early.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[0].a"
+  },
+  "Which dock should I use?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].q"
+  },
+  "Any of the three: Stationsplein 26 (Centraal Station), Prinsengracht 263 (Anne Frank House) or Museumbrug 1 (Rijksmuseum).": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[1].a"
+  },
+  "Day or night?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].q"
+  },
+  "Day, if you came for the sights. On my night ride in the rain I could barely see out; at night it is more of a drinks outing.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[2].a"
+  },
+  "Is the cheese and wine worth it?": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].q"
+  },
+  "Only if you love cheese: it is soft and hard Gouda with wine. I would book the basic ticket and buy drinks on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[3].a"
+  },
+  "Is it warm in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].q"
+  },
+  "No. It is insulated but not heated, and I was cold on my November ride.": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 faq.items[4].a"
+  },
+  "sightseeing": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[0].small"
+  },
+  "unlimited cheese &amp; wine": {
+   "model": "claude-opus-5-5",
+   "where": "card-3 price.rows[1].small"
+  },
+  "⏱️ 75 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 kicker[1]"
+  },
+  "Also-Great Sightseeing Canal Cruise in Amsterdam (Blue Boat)": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 title.text"
+  },
+  "<strong>I rode this cruise myself.</strong> The video in the review is mine.<span class=\"bpa-lang-note\">What I checked: boat type, pier, crowds and what the ticket includes. <a href=\"#4-blueboat\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 reviews.tested.pop_html"
+  },
+  "<strong>Audio guide on earbuds plugged in at each table.</strong> On my ride it had 19 languages, including English, Dutch, German, French, Spanish, Italian, Polish and Japanese. The skipper gives no commentary.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[1].pop_html"
+  },
+  "<strong>Covered, insulated and heated</strong>, with 4-seat tables and up to 55 passengers. The windows open in summer, and there is a small open-air area at the back.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[2].pop_html"
+  },
+  "<strong>Optional snack box for €10 more:</strong> a soft drink, beer or wine, chips, popcorn, peanuts and a stroopwafel. The basic ticket has no food or drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[3].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> some boats are wheelchair accessible; call ahead for exact times</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 5</span><span class=\"bpa-lang-note\">👶 <b>Strollers:</b> fit on board</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> none on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 pills[4].pop_html"
+  },
+  "Is the skipper chatty?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].q"
+  },
+  "No. On my ride the skipper did not introduce himself or comment, so the audio guide does all the talking and the mood is flatter.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[0].a"
+  },
+  "Is it good in rain or cold?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].q"
+  },
+  "Yes. The boat is covered, insulated and heated, so bad weather does not spoil it. I did not feel cold in November.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[1].a"
+  },
+  "Can wheelchair users join?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].q"
+  },
+  "Some boats are wheelchair accessible. Call ahead to ask which departure times use them.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[2].a"
+  },
+  "Which dock does it leave from?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].q"
+  },
+  "Two docks close together: Stadhouderskade 501 by the Rijksmuseum and Stadhouderskade 550 by the Heineken Experience.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[3].a"
+  },
+  "Is it good for young kids?": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].q"
+  },
+  "Yes. Under-5s ride free, the cabin is heated, there is an open deck at the back and strollers fit on board.": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 faq.items[4].a"
+  },
+  "Snack box": {
+   "model": "claude-opus-5-5",
+   "where": "card-4 price.rows[1].label"
+  },
+  "add-on": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[2].small"
+  },
+  "Yet-Another Great Amsterdam Canal Cruise with Open Bar Option (Friendship)": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 title.text"
+  },
+  "<strong>I rode this cruise myself.</strong> The video in the review is mine.<span class=\"bpa-lang-note\">What I checked: boat type, pier, crowds and what the ticket includes. <a href=\"#5-friendship\">Full review ↓</a></span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 reviews.tested.pop_html"
+  },
+  "<strong>Dutch cheese tasting on board.</strong><span class=\"bpa-lang-note\">No food was served when I rode it, so check what your ticket includes on the booking page.</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[1].pop_html"
+  },
+  "<strong>Optional open bar</strong>; otherwise drinks are sold one by one. When I rode it the bar had cocktails, wine, beer, prosecco and energy drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[2].pop_html"
+  },
+  "<strong>A small boat for up to 24 passengers</strong>, with padded seats and blankets. The winter cover is thin: I was cold in November and rain leaked in.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[3].pop_html"
+  },
+  "<span class=\"bpa-lang-note\">♿ <b>Wheelchair:</b> not wheelchair accessible</span><span class=\"bpa-lang-note\">🎟️ <b>Kids:</b> free under 4; €9.50 for ages 4–15 with the drinks package only (on the regular ticket children pay the adult price)</span><span class=\"bpa-lang-note\">👶 <b>Strollers:</b> fit on board</span><span class=\"bpa-lang-note\">🚻 <b>Toilet:</b> none on board</span>": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 pills[4].pop_html"
+  },
+  "Is it good in winter?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].q"
+  },
+  "Not really. The winter cover is thin and the boat is not heated: I was freezing in November even with a blanket. Go in summer, when it sails open-air.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[0].a"
+  },
+  "Yes. The captain narrates live in English and chats with guests.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[1].a"
+  },
+  "Oudezijds Voorburgwal 230, in the old centre.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[2].a"
+  },
+  "Do kids pay less?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].q"
+  },
+  "Only with the drinks package: €9.50 for ages 4 to 15. On the regular ticket children pay the adult price; under-4s ride free.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[3].a"
+  },
+  "How big is the boat?": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].q"
+  },
+  "Small: up to 24 passengers, with padded seats and pillows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 faq.items[4].a"
+  },
+  "4–15, drinks package": {
+   "model": "claude-opus-5-5",
+   "where": "card-5 price.rows[1].small"
+  },
+  "<div class=\"cd-gal cd-gal-one\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">💡 #6 BEST LIGHT FESTIVAL</span>\n<div aria-label=\"Photo gallery 6\" class=\"bpa-slider\" tabindex=\"0\">\n<img alt=\"Amsterdam Light Festival Canal Cruise with Unlimited Drinks (Starboard Boats)\" loading=\"lazy\" sizes=\"(max-width: 670px) 100vw, 670px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673edcf260545b4d84072cc1_Highly-Rated%20Amsterdam%20Light%20Festival%20Canal%20Cruise%20with%20Unlimited%20Drinks.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673edcf260545b4d84072cc1_Highly-Rated%20Amsterdam%20Light%20Festival%20Canal%20Cruise%20with%20Unlimited%20Drinks-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673edcf260545b4d84072cc1_Highly-Rated%20Amsterdam%20Light%20Festival%20Canal%20Cruise%20with%20Unlimited%20Drinks.webp 670w\"/>\n</div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 gallery.raw"
+  },
+  "<strong>Sails past the Amsterdam Light Festival artworks</strong>, with the festival fee in the ticket. It runs only while the festival is on in winter.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[1].pop_html"
+  },
+  "<strong>Optional unlimited drinks and a snack:</strong> glühwein, hot chocolate, beer, wine and soda.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[2].pop_html"
+  },
+  "<strong>No toilet on board.</strong> The cruise takes 75 minutes.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 pills[3].pop_html"
+  },
+  "When does it run?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].q"
+  },
+  "Only while the Amsterdam Light Festival is on, from November to January. The times shown were checked for Saturday 5 December 2026.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[0].a"
+  },
+  "Is the boat covered?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].q"
+  },
+  "Yes. It is a fully electric boat, protected from the elements, with warm blankets.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[1].a"
+  },
+  "What drinks are included?": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].q"
+  },
+  "With the drinks option: unlimited glühwein, hot chocolate, beer, wine and soda, plus a snack.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[2].a"
+  },
+  "Amstel 178, not Centraal Station.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[3].a"
+  },
+  "No, so use one before boarding.": {
+   "model": "claude-opus-5-5",
+   "where": "card-6 faq.items[4].a"
+  },
+  "<div class=\"cd-gal cd-gal-one\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🎉 #7 BEST SOCIAL BOOZE CRUISE</span>\n<div aria-label=\"Photo gallery 7\" class=\"bpa-slider\" tabindex=\"0\">\n<img alt=\"Amsterdam Canal Booze Cruise with Unlimited Drinks Option (Starboard Boats)\" loading=\"lazy\" sizes=\"(max-width: 960px) 100vw, 960px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673ee24a1588a94898010c6d_Amsterdam%20Canal%20Booze%20Cruise%20with%20Unlimited%20Drinks%20Option.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673ee24a1588a94898010c6d_Amsterdam%20Canal%20Booze%20Cruise%20with%20Unlimited%20Drinks%20Option-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673ee24a1588a94898010c6d_Amsterdam%20Canal%20Booze%20Cruise%20with%20Unlimited%20Drinks%20Option-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673ee24a1588a94898010c6d_Amsterdam%20Canal%20Booze%20Cruise%20with%20Unlimited%20Drinks%20Option.webp 960w\"/>\n</div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 gallery.raw"
+  },
+  "<strong>Optional open bar:</strong> unlimited beer, wine and soft drinks while you cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[2].pop_html"
+  },
+  "<strong>A small group of up to 28 people</strong>, popular with bachelor and bachelorette groups.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 pills[3].pop_html"
+  },
+  "Adults only": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[4].label"
+  },
+  "<strong>Not for kids:</strong> an adults-only cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[4].pop_html"
+  },
+  "Is it a party or a sightseeing tour?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].q"
+  },
+  "More party than commentary: it is about the drinks and the company more than the sights.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[0].a"
+  },
+  "What comes with the open bar?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].q"
+  },
+  "Unlimited beer, wine and soft drinks while you cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[1].a"
+  },
+  "How big is the group?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].q"
+  },
+  "Up to 28 people.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[2].a"
+  },
+  "There is a QR audio guide in 10 languages on your own phone, so bring headphones.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[3].a"
+  },
+  "Can I bring kids?": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[4].q"
+  },
+  "No, it is an adults-only cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-7 faq.items[4].a"
+  },
+  "<div class=\"cd-gal cd-gal-one\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🌿 #8 BEST 420 SMOKE LOUNGE</span>\n<div aria-label=\"Photo gallery 8\" class=\"bpa-slider\" tabindex=\"0\">\n<img alt=\"Amsterdam 420-Friendly Smoke and Lounge Canal Cruise (Buddha Lounge Boat)\" loading=\"lazy\" sizes=\"(max-width: 853px) 100vw, 853px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673fcb95851c10e9ce59bf19_Amsterdam%20420-Friendly%20Smoke%20and%20Lounge%20Canal%20Cruise.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673fcb95851c10e9ce59bf19_Amsterdam%20420-Friendly%20Smoke%20and%20Lounge%20Canal%20Cruise-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673fcb95851c10e9ce59bf19_Amsterdam%20420-Friendly%20Smoke%20and%20Lounge%20Canal%20Cruise-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673fcb95851c10e9ce59bf19_Amsterdam%20420-Friendly%20Smoke%20and%20Lounge%20Canal%20Cruise.webp 853w\"/>\n</div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 gallery.raw"
+  },
+  "⏱️ 60–90 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 kicker[1]"
+  },
+  "<strong>Smoking is allowed in the lounge; bring your own.</strong> Hookah or shisha costs extra.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[1].pop_html"
+  },
+  "<strong>Heated seats and closed windows in winter</strong>; in summer all the windows open. Up to 22 guests.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[2].pop_html"
+  },
+  "<strong>Drinks are not in the price:</strong> €10 for 2 drinks or €15 for unlimited drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 pills[3].pop_html"
+  },
+  "Can I smoke on board?": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].q"
+  },
+  "Yes, that is the point of this boat: you can light up in the lounge. Hookah or shisha costs extra.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[0].a"
+  },
+  "No. Add 2 drinks for €10 or unlimited drinks for €15.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[1].a"
+  },
+  "Pick the 60-minute budget cruise, the 70-minute cruise or the 80-minute luxury cruise.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[2].a"
+  },
+  "Yes: heated seats and closed windows.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[3].a"
+  },
+  "Little. It is about the atmosphere, not the history.": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 faq.items[4].a"
+  },
+  "2 drinks": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[1].label"
+  },
+  "Unlimited drinks": {
+   "model": "claude-opus-5-5",
+   "where": "card-8 price.rows[2].label"
+  },
+  "<div class=\"cd-gal cd-gal-one\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🍕 #9 BEST PIZZA CANAL CRUISE</span>\n<div aria-label=\"Photo gallery 9\" class=\"bpa-slider\" tabindex=\"0\">\n<img alt=\"Amsterdam Pizza Cruise with Drinks (Tours &amp; Tickets)\" loading=\"lazy\" sizes=\"(max-width: 960px) 100vw, 960px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673fd3d7ae4f9539eac68b56_Amsterdam%20Pizza%20Cruise%20with%20Drinks.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673fd3d7ae4f9539eac68b56_Amsterdam%20Pizza%20Cruise%20with%20Drinks-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673fd3d7ae4f9539eac68b56_Amsterdam%20Pizza%20Cruise%20with%20Drinks-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673fd3d7ae4f9539eac68b56_Amsterdam%20Pizza%20Cruise%20with%20Drinks.webp 960w\"/>\n</div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 gallery.raw"
+  },
+  "18:00 · 75 min": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[0].label"
+  },
+  "<strong>One New York-style pizza per guest:</strong> Margherita, Pepperoni, Hawaii or Chilli Chicken, with Californian Veggie or Vegan Margherita for vegetarians and a smaller Margherita for kids.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[1].pop_html"
+  },
+  "<strong>Drinks are included:</strong> beer, wine and soft drinks.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[2].pop_html"
+  },
+  "<strong>Cookie Dough Chocolate Chip ice cream</strong> for dessert.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 pills[3].pop_html"
+  },
+  "Can we order different pizzas?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].q"
+  },
+  "One pizza type per booking. For different pizzas, make separate bookings under the same name so you sit together.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[0].a"
+  },
+  "Is there a vegetarian option?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].q"
+  },
+  "Yes: Californian Veggie or Vegan Margherita.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[1].a"
+  },
+  "Is it good for kids?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].q"
+  },
+  "Yes. There is a smaller Margherita for kids, and ice cream for dessert.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[2].a"
+  },
+  "Prins Hendrikkade 25, a few minutes from Centraal Station.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[3].a"
+  },
+  "Is it a proper dinner?": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].q"
+  },
+  "No, it is pizza on a boat. Reviews are mixed: 3.6 to 3.7 out of 5 on Tripadvisor and Viator.": {
+   "model": "claude-opus-5-5",
+   "where": "card-9 faq.items[4].a"
+  },
+  "<div class=\"cd-gal cd-gal-one\"><div class=\"bpa-media\">\n<span class=\"bpa-rank-tag bpa-blue\">🍷 #10 BEST 4-COURSE DINNER CRUISE</span>\n<div aria-label=\"Photo gallery 10\" class=\"bpa-slider\" tabindex=\"0\">\n<img alt=\"Amsterdam Nighttime Canal Cruise with 4-Course Dinner (Tours &amp; Tickets)\" loading=\"lazy\" sizes=\"(max-width: 853px) 100vw, 853px\" src=\"/assets/cdn/652d0405192ba076b04f74a3/673fee7787ea61dbd3040fd4_Amsterdam%20Nighttime%20Canal%20Cruise%20with%204-Course%20Dinner%2C%20Drinks.webp\" srcset=\"/assets/cdn/652d0405192ba076b04f74a3/673fee7787ea61dbd3040fd4_Amsterdam%20Nighttime%20Canal%20Cruise%20with%204-Course%20Dinner%2C%20Drinks-p-500.webp 500w, /assets/cdn/652d0405192ba076b04f74a3/673fee7787ea61dbd3040fd4_Amsterdam%20Nighttime%20Canal%20Cruise%20with%204-Course%20Dinner%2C%20Drinks-p-800.webp 800w, /assets/cdn/652d0405192ba076b04f74a3/673fee7787ea61dbd3040fd4_Amsterdam%20Nighttime%20Canal%20Cruise%20with%204-Course%20Dinner%2C%20Drinks.webp 853w\"/>\n</div>\n</div></div>": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 gallery.raw"
+  },
+  "<strong>Pick meat, fish or vegetarian.</strong> Every menu starts with green pea soup with grilled asparagus and ends with tiramisu made with stroopwafels. One menu per booking.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[1].pop_html"
+  },
+  "<strong>Unlimited beer, wine and soft drinks</strong> with dinner.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 pills[2].pop_html"
+  },
+  "Meat (beef tartare, beef casserole), fish (house-smoked salmon, baked cod) or vegetarian (brioche with scrambled egg, roasted vegetable lasagna), each with pea soup to start and stroopwafel tiramisu to finish.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[0].a"
+  },
+  "Can we order different menus?": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].q"
+  },
+  "One menu per booking. For different menus, make separate bookings under the same name so you sit together.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[1].a"
+  },
+  "One dinner sailing per evening: 19:00 on the date checked, for 2 hours.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[2].a"
+  },
+  "Prins Hendrikkade 25, near Centraal Station.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[3].a"
+  },
+  "Yes, commentary in multiple languages explains the highlights.": {
+   "model": "claude-opus-5-5",
+   "where": "card-10 faq.items[4].a"
+  }
+ }
+}

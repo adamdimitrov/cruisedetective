@@ -946,6 +946,18 @@
   "Yes, in 14 languages, on the seat handsets or on your smartphone.": {
    "model": "claude-opus-5-5",
    "where": "card-7 faq.items[4].a"
+  },
+  "listing has 7 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-11 _photo_topup.skip"
+  },
+  "listing has 5 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-12 _photo_topup.skip"
+  },
+  "listing has 8 photos, all on the card": {
+   "model": "claude-opus-5-5",
+   "where": "card-13 _photo_topup.skip"
   }
  }
 }
