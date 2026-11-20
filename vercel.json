@@ -870,6 +870,10 @@
       "destination": "/harbour-cruises-hong-kong/index.html"
     },
     {
+      "source": "/boat-tours-dubai",
+      "destination": "/boat-tours-dubai/index.html"
+    },
+    {
       "source": "/prague-river-cruises",
       "destination": "/prague-river-cruises/index.html"
     },

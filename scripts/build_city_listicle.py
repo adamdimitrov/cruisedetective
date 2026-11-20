@@ -354,6 +354,7 @@ NAMES = {
     "fjord-cruises-oslo": "Oslo fjord cruises",
     "lake-geneva-cruises": "Lake Geneva cruises",
     "harbour-cruises-hong-kong": "Hong Kong harbour cruises",
+    "boat-tours-dubai": "Dubai boat tours",
 }
 
 
