@@ -1,0 +1,4749 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "dinner"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Dinner Cruise",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Mega yacht lit up under the Bosphorus Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The yacht at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room with Bosphorus views"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Long dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in white dresses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dancers on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Folk dance show"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancers in costume"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancer on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on deck in daylight"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-dinner-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Mega Lüfer Yachts",
+    "⏱️ 3 to 5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F+Pier%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option (pick-up available)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise &amp; Show with Private Table"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "76,656 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(76,656)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-dinner-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 to 5 h",
+     "pop_html": "<strong>3 to 5 hours with transfers.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Mezes + main + dessert",
+     "pop_html": "<strong>6 cold mezes, a hot starter, sea bass, chicken, beef or veggie main, dessert.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Unlimited soft drinks",
+     "pop_html": "<strong>Turkish tea and coffee too;</strong> unlimited alcohol if you choose that option."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "Turkish night show",
+     "pop_html": "<strong>Folk dances, dervishes, belly dance, flamenco and a DJ.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪑",
+     "label": "Private table",
+     "pop_html": "<strong>Your own table (solo bookings share one).</strong> Window tables cost extra per person."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Hotel pick-up by van or meet at the port.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option (pick-up available)",
+     "pop_html": "<strong>Port or hotel pick-up, by option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic dinner-and-show night: 76,656 reviews at 4.8, from €26.",
+    "skip_html": "if you want quiet views: the show is loud and the windows are a paid add-on."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's on the menu?",
+      "a": "Six cold Turkish mezes, a hot starter, a main of sea bass, chicken, beef Stroganoff or a vegetarian dish, and dessert."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "Unlimited soft drinks, tea and coffee; unlimited alcohol only with that option."
+     },
+     {
+      "q": "Do I get a window seat?",
+      "a": "Only if you add the window table option, priced per person."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "With the pick-up option; otherwise you meet at the port."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€26",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "standard dinner, soft drinks",
+      "price": "From €26"
+     },
+     {
+      "label": "Window table",
+      "small": "add-on per person",
+      "price": "extra"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €52"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-show-with-private-table-t415437/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-mega-lufer-dinner",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "sightseeing",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⛴️ #2 Best Sightseeing Boat",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sightseeing boat under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest feeding seagulls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest by the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea Land boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Maiden's Tower close up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-sea-land-audio-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sea Land",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Emin%C3%B6n%C3%BC+Pier%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Eminönü Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-tour-with-audio-guide-t461969/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-sea-land-audio&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Sightseeing Cruise Tour with Audio Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "6,473 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(6,473)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-tour-with-audio-guide-t461969/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-sea-land-audio-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗺️",
+     "label": "Full route",
+     "pop_html": "<strong>Up to the second Bosphorus Bridge.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "30-language audio guide",
+     "pop_html": "<strong>On your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☕",
+     "label": "Unlimited tea",
+     "pop_html": "<strong>Self-service Turkish tea and Nescafé.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧺",
+     "label": "Bring your own food",
+     "pop_html": "<strong>Food and drinks allowed on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Eminönü",
+     "pop_html": "<strong>Office by Eminönü Pier.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the whole Bosphorus by day for €7, tea included.",
+    "skip_html": "if you want a live guide: #5 or #6."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How far does it go?",
+      "a": "The full route to the second Bosphorus Bridge, along both shores."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "An audio guide in 30 languages on your phone."
+     },
+     {
+      "q": "Is anything to eat included?",
+      "a": "Unlimited Turkish tea and Nescafé; you can bring your own food."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Eminönü Pier; check in at the office beside it."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€7",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h cruise + audio guide",
+      "price": "From €7"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €14"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-tour-with-audio-guide-t461969/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-sea-land-audio&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-sea-land-audio",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "yacht",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛥️ #3 Best Small-Group Yacht",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht below Rumeli Fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Turkish breakfast table on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at Rumeli Fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Turkish coffee and pastries"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht on the Bosphorus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht by the palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-history-yacht-asian-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "The History Travel",
+    "⏱️ 2 to 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Dolmabah%C3%A7e+Mosque%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Dolmabahçe Mosque"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/bosphorus-cruise-with-stopover-on-the-asian-side-t463141/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-history-yacht-asian&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul Bosphorus Yacht Cruise with Asian Side Stopover"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,567 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,567)",
+       "url": "https://www.getyourguide.com/istanbul-l56/bosphorus-cruise-with-stopover-on-the-asian-side-t463141/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-history-yacht-asian-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2 to 2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌏",
+     "label": "Asian-side stop",
+     "pop_html": "<strong>Short stop in Beylerbeyi or Kanlıca.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>Audio guide in 6 more languages.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥐",
+     "label": "Pastries + coffee",
+     "pop_html": "<strong>Savoury pastries, fruit, Turkish coffee with Turkish delight,</strong> unlimited tea."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>Luxury yacht.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Dolmabahçe Mosque",
+     "pop_html": "<strong>Meet 15 minutes early.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the only cruise here that lets you step off on the Asian side.",
+    "skip_html": "at sunset: this is a daytime cruise."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Do you go ashore?",
+      "a": "Yes, a short stop in Beylerbeyi or Kanlıca on the Asian side."
+     },
+     {
+      "q": "Is there a live guide?",
+      "a": "Yes, in English, plus a free audio guide in six languages."
+     },
+     {
+      "q": "What's included to eat?",
+      "a": "Savoury pastries, fruit, Turkish coffee with Turkish delight and unlimited tea."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Dolmabahçe Mosque."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€28",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h yacht + stop",
+      "price": "From €28"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €56"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/bosphorus-cruise-with-stopover-on-the-asian-side-t463141/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-history-yacht-asian&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-history-yacht-asian",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "dinner"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #4 Dinner Cruise Alternative",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Dinner boat under the lit bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the Bosphorus"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy Mosque at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bosphorus Bridge at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dining room"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wine with the view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mezes plate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Main course"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Whirling dervish"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dancer on stage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-turyol-dinner-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Turyol",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option (pick-up available)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-turyol-dinner&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Dinner Cruise &amp; Turkish Night Show"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "14,690 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(14,690)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-turyol-dinner-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Dinner on board",
+     "pop_html": "<strong>Turkish dinner.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Unlimited soft drinks",
+     "pop_html": "<strong>Unlimited local alcohol with that option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💃",
+     "label": "1.5 h show",
+     "pop_html": "<strong>Turkish night show, dances, live DJ.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Or meet at the pier.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option (pick-up available)",
+     "pop_html": "<strong>Pier or hotel pick-up, by option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "as a second dinner date when #1 is full, same price.",
+    "skip_html": "if imported spirits matter: only local alcohol is in the drinks option."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Dinner, unlimited soft drinks, a 1.5-hour Turkish night show, dances and a live DJ."
+     },
+     {
+      "q": "Is alcohol included?",
+      "a": "Unlimited local alcohol with that option; imported drinks are extra."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "With the pick-up option."
+     },
+     {
+      "q": "Are special diets available?",
+      "a": "Yes: vegetarian, pescetarian and halal."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "dinner + soft drinks",
+      "price": "From €27"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-dinner-cruise-turkish-night-show-t438511/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-turyol-dinner&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-turyol-dinner",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "yacht",
+    "sunset",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌅 #5 Best Sunset Yacht",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Yacht at sunset by the mosques"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht by Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the guide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fruit platter on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide talking to guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the Turkish flag"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dolmabahçe Palace from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-velena-sunset-yacht-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Velena Travel",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F+Transfer+Centre%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kabataş"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-on-a-luxury-yacht-t188385/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-velena-sunset-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Sunset Cruise on a Luxury Yacht"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "1,538 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(1,538)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-on-a-luxury-yacht-t188385/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-velena-sunset-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛥️",
+     "label": "25 m yacht",
+     "pop_html": "<strong>Live guide in English or Spanish.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍯",
+     "label": "Baklava + fruit",
+     "pop_html": "<strong>Snacks, biscuits, baklava, fruit platter,</strong> lemonade or juice, water, tea, coffee."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚐",
+     "label": "Pick-up option",
+     "pop_html": "<strong>Or meet at Kabataş.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kabataş",
+     "pop_html": "<strong>Princes' Islands line sign, look for Velena Travel.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a polished sunset yacht with a guide and baklava.",
+    "skip_html": "on price: #7 does a similar sunset yacht for €10."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A 25-metre yacht, a guide, light snacks, biscuits, baklava, a fruit platter, lemonade or juice, water, tea and coffee."
+     },
+     {
+      "q": "Is alcohol included?",
+      "a": "No."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Kabataş Transfer Centre, opposite Kabataş tram station, by the Princes' Islands line sign."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "With the pick-up option."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€50",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h sunset yacht",
+      "price": "From €50"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €100"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-on-a-luxury-yacht-t188385/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-velena-sunset-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-velena-sunset-yacht",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "sightseeing",
+    "sunset",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥤 #6 Best with Unlimited Soft Drinks",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sunset from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy palace from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Galata Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Turkish flag at the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy Mosque"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the top deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mega yacht"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rumeli Fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-mega-lufer-sightseeing-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Mega Lüfer Yachts",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-sightseeing&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bosphorus Day/Sunset/Night Sightseeing Cruise &amp; Audio Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "20,501 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(20,501)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-sightseeing-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Unlimited soft drinks",
+     "pop_html": "<strong>Plus tea and Nescafé.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Day, sunset or night",
+     "pop_html": "<strong>Pick the time.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>9 languages.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍽️",
+     "label": "Upgrades",
+     "pop_html": "<strong>Snacks, dinner or unlimited alcohol as options.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a sunset cruise with unlimited soft drinks for €7.",
+    "skip_html": "if you want a smaller boat: #3, #5, #7."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The cruise, a 9-language audio guide, unlimited soft drinks, tea, coffee and Wi-Fi."
+     },
+     {
+      "q": "Can I add food or alcohol?",
+      "a": "Yes: snacks, dinner and unlimited alcohol are options."
+     },
+     {
+      "q": "Can I bring food?",
+      "a": "No, outside food and drinks aren't allowed."
+     },
+     {
+      "q": "What sights do you pass?",
+      "a": "Dolmabahçe Palace, Ortaköy Mosque, Rumeli Fortress, Beylerbeyi Palace, Maiden's Tower and both bridges."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€7",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h cruise, soft drinks",
+      "price": "From €7"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €14"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-daytime-or-sunset-sightseeing-cruise-audio-guide-t653610/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-mega-lufer-sightseeing&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-mega-lufer-sightseeing",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "yacht",
+    "sunset",
+    "guide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #7 Cheapest Sunset Yacht",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guests on the bow under the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at a table on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Violinist on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Yacht from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Table set on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-efe-sunset-yacht-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Efe Yacht",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-sunset-bosphorus-yacht-t648978/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-efe-sunset-yacht&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Yacht Cruise at Sunset with Snacks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "2,331 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(2,331)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-sunset-bosphorus-yacht-t648978/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-efe-sunset-yacht-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>About 2 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 40 guests",
+     "pop_html": "<strong>Indoor and outdoor decks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍪",
+     "label": "Snacks + fruit",
+     "pop_html": "<strong>Biscuits, fruit platter, tea and coffee.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "BYO drinks",
+     "pop_html": "<strong>You can bring your own drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide",
+     "pop_html": "<strong>English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small sunset yacht at sightseeing-boat prices.",
+    "skip_html": "for wheelchair users: not suitable."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How big is the group?",
+      "a": "Up to 40 guests on a yacht with indoor and outdoor decks."
+     },
+     {
+      "q": "What's included?",
+      "a": "A guide, light snacks, biscuits, a fruit platter, tea and coffee."
+     },
+     {
+      "q": "Can I bring drinks?",
+      "a": "Yes, you can bring your own."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€10",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h sunset yacht",
+      "price": "From €10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €20"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-sunset-bosphorus-yacht-t648978/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-efe-sunset-yacht&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-efe-sunset-yacht",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "sightseeing",
+    "sunset",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🌉 #8 Best Night Cruise",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Guest watching the sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Galata at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bridge lit up at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy Mosque at night"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun setting behind the mosques"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the top deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rumeli Fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Çırağan Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travels-sunset-night-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Travels in Istanbul",
+    "⏱️ 2 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Emin%C3%B6n%C3%BC+Pier%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Eminönü Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-explore-the-bosphorus-on-a-sunset-boat-cruise-t418223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travels-sunset-night&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Explore the Bosphorus on a Sunset Boat Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "504 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(504)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-explore-the-bosphorus-on-a-sunset-boat-cruise-t418223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travels-sunset-night-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 h",
+     "pop_html": "<strong>2 hours (±15 min).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>English and Russian.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌙",
+     "label": "Sunset or night",
+     "pop_html": "<strong>Two times to choose.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔥",
+     "label": "Heated cabin",
+     "pop_html": "<strong>Indoor heating plus outdoor seats.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Eminönü",
+     "pop_html": "<strong>Central, by public transport.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a guided night cruise with the bridges lit up, in winter too.",
+    "skip_html": "if you want drinks included: #6."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Sunset or night?",
+      "a": "Both are offered; pick when you book."
+     },
+     {
+      "q": "Is there a live guide?",
+      "a": "Yes, in English and Russian."
+     },
+     {
+      "q": "Is it heated?",
+      "a": "Yes, the cabin has indoor heating."
+     },
+     {
+      "q": "Are drinks included?",
+      "a": "No, soft drinks and snacks are for sale."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€10",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2 h sunset or night",
+      "price": "From €10"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €20"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-explore-the-bosphorus-on-a-sunset-boat-cruise-t418223/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travels-sunset-night&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-travels-sunset-night",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "sightseeing",
+    "sunset",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🥂 #9 Best Champagne Option",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Cruise boat at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Champagne at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset over the old town"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red wine at sunset"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by Rumeli Fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset silhouette"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Maiden's Tower"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-dentur-sunset-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Dentur Avrasya",
+    "⏱️ 2 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kabata%C5%9F+Pier%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Kabataş Pier"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-with-drinks-and-snacks-t764101/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-dentur-sunset&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Day/Sunset Cruise with Optional Drinks &amp; Snacks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "4,824 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(4,824)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-with-drinks-and-snacks-t764101/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-dentur-sunset-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 to 3 h",
+     "pop_html": "<strong>2 to 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥂",
+     "label": "Champagne option",
+     "pop_html": "<strong>Champagne or wine with cheese and fruit, 18+.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>Commentary on your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Day or sunset",
+     "pop_html": "<strong>Choose a daytime or golden-hour sailing.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Kabataş Pier",
+     "pop_html": "<strong>5 minutes from Dolmabahçe Palace.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest ticket, or a sunset with champagne and cheese.",
+    "skip_html": "if coffee matters: it's not included."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the cheapest option?",
+      "a": "The cruise with an audio guide, from €4.95."
+     },
+     {
+      "q": "What's in the champagne option?",
+      "a": "Champagne, red or white wine with a cheese platter and fruit, 18+."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Kabataş Pier, 5 minutes' walk from Dolmabahçe Palace."
+     },
+     {
+      "q": "Is coffee included?",
+      "a": "No, it's for sale on board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€4.95",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "cruise + audio guide",
+      "price": "From €4.95"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €9.90"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sunset-cruise-with-drinks-and-snacks-t764101/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-dentur-sunset&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-dentur-sunset",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "sightseeing",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏰ #10 Most Flexible Times",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sightseeing boat by the palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bosphorus with sailboats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Heart-shaped hands at the view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hagia Sophia from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at the rail"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Dolmabahçe Palace"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Ortaköy Mosque"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-01.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-02.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-03.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-04.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-05.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-06.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-07.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-08.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-09.avif"
+     },
+     {
+      "src": "/assets/bosphorus-cruises-istanbul/bosphorus-cruise-travelgroup-hourly-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Travelgroup",
+    "⏱️ 90 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Emin%C3%B6n%C3%BC%2C+Istanbul",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 By option"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-with-sunset-option-t195194/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travelgroup-hourly&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Istanbul: Bosphorus Sightseeing Cruise with Sunset Option"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.20",
+     "score": "4.2",
+     "meta": "2,199 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.2",
+       "count": "(2,199)",
+       "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-with-sunset-option-t195194/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travelgroup-hourly-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>90 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏰",
+     "label": "Hourly departures",
+     "pop_html": "<strong>Sunset sailings at 4 pm and 5 pm.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>On your phone.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📲",
+     "label": "QR ticket",
+     "pop_html": "<strong>Emailed the day before.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€5",
+     "pop_html": "<strong>The cheapest fixed price here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "By option",
+     "pop_html": "<strong>By option.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "when you just want to hop on at a time that suits you.",
+    "skip_html": "if ratings matter: 4.2 is the lowest here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How often does it sail?",
+      "a": "Hourly; the 4 pm and 5 pm sailings catch the sunset."
+     },
+     {
+      "q": "How long is it?",
+      "a": "90 minutes."
+     },
+     {
+      "q": "How do I get the ticket?",
+      "a": "A QR code by email the day before (instantly for same-day bookings)."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€5",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "90 min cruise",
+      "price": "From €5"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €10"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/istanbul-l56/istanbul-bosphorus-sightseeing-cruise-with-sunset-option-t195194/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-bosphorus-cruises-istanbul-travelgroup-hourly&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#ist-travelgroup-hourly",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

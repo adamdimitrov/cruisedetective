@@ -1,0 +1,2042 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "classic",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Canal boat under the bridges"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Nyhavn from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Tour boat in Nyhavn"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on a canal boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Low stone bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Old ship in the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Canal from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Circle Bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Black Diamond library"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Harbour schooner"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-07.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-08.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-09.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-classic-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ved+Stranden+26%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Gammel Strand"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-boat-tour-from-gammel-strand-t37848/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-classic&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Canal Cruise with Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "13,232 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(13,232)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-boat-tour-from-gammel-strand-t37848/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-classic-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>English and Danish (some tours audio).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧜",
+     "label": "Little Mermaid",
+     "pop_html": "<strong>Plus Nyhavn, Christiansborg, Amalienborg, the Opera.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Rain poncho",
+     "pop_html": "<strong>Provided if it rains.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gammel Strand",
+     "pop_html": "<strong>Ved Stranden 26.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic loop with a live guide at the lowest price.",
+    "skip_html": "if you want a quiet small boat: #2 or #3."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "1 hour."
+     },
+     {
+      "q": "Is it guided?",
+      "a": "Yes, live in English and Danish; some departures use an audio guide in 6 languages."
+     },
+     {
+      "q": "Do you see the Little Mermaid?",
+      "a": "Yes, from the water at Langelinie."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Ved Stranden 26, Gammel Strand."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€20",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h guided",
+      "price": "From €20"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €40"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-boat-tour-from-gammel-strand-t37848/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-classic&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-stromma-classic",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "small",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #2 Best Small Group",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "GoBoat electric boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by colourful houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain at the helm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the picnic table"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under a bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests with the captain"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in a canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests chatting"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-07.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-08.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-09.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-goboat-captained-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "GoBoat",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Islands+Brygge+10%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Islands Brygge"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-tour-with-guide-in-electric-boat-t888258/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-captained&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Electric Canal Tour with live guide &amp; hygge"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,650 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,650)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-tour-with-guide-in-electric-boat-t888258/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-captained-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 9 guests",
+     "pop_html": "<strong>Picnic-table boat, silent electric.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Captain-guide",
+     "pop_html": "<strong>Ask anything, Danish and English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Drinks for sale",
+     "pop_html": "<strong>Or add a drinks option; blankets to borrow.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Islands Brygge",
+     "pop_html": "<strong>Across the harbour from the centre.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed small-group hour with a captain who answers questions.",
+    "skip_html": "if you want the Little Mermaid: the route focuses on Nyhavn, Christianshavn and the Opera."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people?",
+      "a": "Up to 9 per boat."
+     },
+     {
+      "q": "What do you see?",
+      "a": "Nyhavn, Amalienborg, the Opera House, Børsen and Christianshavn."
+     },
+     {
+      "q": "Can I drink on board?",
+      "a": "Yes, drinks are for sale or as a booking option."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Islands Brygge 10."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€27",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h, max 9",
+      "price": "From €27"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €54"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-canal-tour-with-guide-in-electric-boat-t888258/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-goboat-captained&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-goboat-captained",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #3 Best-Rated",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Electric boat at golden hour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the bridge"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the leather seats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Frederik's Church from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat among sailboats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-electric-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 1 Hour",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ved+Stranden+26%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Gammel Strand"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-guided-tour-by-electric-boat-t460727/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-electric&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Exclusive Guided Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "2,530 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(2,530)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-guided-tour-by-electric-boat-t460727/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-electric-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h",
+     "pop_html": "<strong>1 hour to 65 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "12 seats",
+     "pop_html": "<strong>Quiet electric luxury boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Personal guide",
+     "pop_html": "<strong>Insider stories, Danish and English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌧️",
+     "label": "Rain or shine",
+     "pop_html": "<strong>Few steps to board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gammel Strand",
+     "pop_html": "<strong>Ved Stranden 26.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated tour, on a quiet 12-seat boat.",
+    "skip_html": "if you're on a budget: #1 is €15 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many seats?",
+      "a": "12."
+     },
+     {
+      "q": "Is it guided?",
+      "a": "Yes, a personal local guide in Danish and English."
+     },
+     {
+      "q": "Does it run in rain?",
+      "a": "Yes, rain or shine."
+     },
+     {
+      "q": "Is it accessible?",
+      "a": "No, there are a few steps to board."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h, 12 seats",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-guided-tour-by-electric-boat-t460727/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-electric&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-stromma-electric",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "classic",
+    "long"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏱️ #4 Longest Tour",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Tour boat on the canal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by colourful houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Christiansborg from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Opera House through the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in the covered boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Opera House at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-05.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-06.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-stromma-harbour-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 105 Minutes",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ved+Stranden+26%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Gammel Strand"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-classic-canal-tour-the-harbour-t462004/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-harbour&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Classic Canal Tour &amp; The Harbour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "711 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(711)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-classic-canal-tour-the-harbour-t462004/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-harbour-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1 h 45",
+     "pop_html": "<strong>The classic loop plus the outer harbour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "Nordhavn",
+     "pop_html": "<strong>The new waterfront district.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☂️",
+     "label": "Covered boat",
+     "pop_html": "<strong>Rain or shine.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>Danish and English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gammel Strand",
+     "pop_html": "<strong>Ved Stranden 26.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for more than the standard hour, including the new Nordhavn district.",
+    "skip_html": "with small kids: 105 minutes is long."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is it?",
+      "a": "1 hour 45 minutes."
+     },
+     {
+      "q": "What's extra compared with the classic tour?",
+      "a": "The outer harbour and the Nordhavn district."
+     },
+     {
+      "q": "Is the boat covered?",
+      "a": "Yes."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Ved Stranden 26."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€33",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1 h 45 guided",
+      "price": "From €33"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €66"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-classic-canal-tour-the-harbour-t462004/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-stromma-harbour&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#cph-stromma-harbour",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "drinks",
+    "long"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍺 #5 Best with Drinks",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Friends toasting on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Christiansborg from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends laughing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a glass of wine"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends at the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-01.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-02.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-03.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-04.avif"
+     },
+     {
+      "src": "/assets/canal-tours-copenhagen/copenhagen-canal-tour-sip-sail-05.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Strömma",
+    "⏱️ 1.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ved+Stranden+26%2C+Copenhagen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Gammel Strand"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-sip-sail-canal-cruise-t1028330/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-sip-sail&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Copenhagen: Sip &amp; Sail Canal Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "174 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(174)",
+       "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-sip-sail-canal-cruise-t1028330/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-sip-sail-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "1.5 h",
+     "pop_html": "<strong>1.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍺",
+     "label": "Drinks included",
+     "pop_html": "<strong>Beer, cider, wine, soft drinks and water.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚫",
+     "label": "No guide",
+     "pop_html": "<strong>A relaxed cruise, not a tour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☂️",
+     "label": "Covered boat",
+     "pop_html": "<strong>Windows open on warm days.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Non-refundable",
+     "pop_html": "<strong>Can't be cancelled.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Gammel Strand",
+     "pop_html": "<strong>Ved Stranden 26.</strong>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for drinks on the water with friends.",
+    "skip_html": "if you want to learn about the city: it isn't guided."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What drinks are included?",
+      "a": "Beer, cider, wine, soft drinks and water."
+     },
+     {
+      "q": "Is it guided?",
+      "a": "No."
+     },
+     {
+      "q": "How long is it?",
+      "a": "1.5 hours."
+     },
+     {
+      "q": "Can I bring a stroller?",
+      "a": "No: strollers, bikes and large luggage aren't allowed."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "No, it's non-refundable."
+     }
+    ]
+   },
+   "price": {
+    "main": "€53",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "1.5 h, drinks included",
+      "price": "From €53"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €106"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/copenhagen-l12/copenhagen-sip-sail-canal-cruise-t1028330/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-canal-tours-copenhagen-sip-sail&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Instant confirmation</b>"
+    ],
+    "sublink": {
+     "url": "#cph-sip-sail",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has 6 photos, one shared with card 4"
+   }
+  }
+ ]
+}

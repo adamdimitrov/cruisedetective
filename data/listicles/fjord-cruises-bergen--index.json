@@ -1,0 +1,4838 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "half",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Rødne fjord boat on the Osterfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mist over the Osterfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall tumbling into the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mirror-calm fjord and farmland"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends taking a selfie on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The narrow Mostraumen passage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat at the Mostraumen narrows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest watching the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a hot drink by the window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mountains reflected in the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rodne-mostraumen-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Rødne Fjord Cruise",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaiterminalen%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bergen city centre"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/from-bergen-the-original-fjord-cruise-to-mostr-t441435/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rodne-mostraumen&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Bergen: Scenic Fjord Cruise to Mostraumen"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "10,594 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(10,594)",
+       "url": "https://www.getyourguide.com/bergen-l1132/from-bergen-the-original-fjord-cruise-to-mostr-t441435/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rodne-mostraumen-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 h",
+     "pop_html": "<strong>3.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏔️",
+     "label": "Osterfjord to Mostraumen",
+     "pop_html": "<strong>Up the Osterfjord to the narrow Mostraumen strait,</strong> with waterfalls close enough to touch."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Audio guide",
+     "pop_html": "<strong>Audio commentary on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛋️",
+     "label": "Big cabin + sun deck",
+     "pop_html": "<strong>A spacious heated cabin and a sun deck.</strong> Pastries, snacks and drinks at the kiosk."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌧️",
+     "label": "Rain or shine",
+     "pop_html": "<strong>Sails in any weather.</strong> Watch for sea eagles."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bergen city centre",
+     "pop_html": "<strong>Bergen city centre quay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic Bergen fjord half day: the most-booked cruise, big comfortable boat.",
+    "skip_html": "if you want a live guide: #3 has one for €5 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "Up the Osterfjord to the narrow Mostraumen strait and back, about 3.5 hours."
+     },
+     {
+      "q": "Is there commentary?",
+      "a": "Yes, an audio guide on board."
+     },
+     {
+      "q": "Is food sold on board?",
+      "a": "Yes, freshly baked pastries, snacks and drinks at the kiosk."
+     },
+     {
+      "q": "Does it sail in bad weather?",
+      "a": "Yes, rain or shine."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€83",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 h return cruise",
+      "price": "From €83"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €166"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/from-bergen-the-original-fjord-cruise-to-mostr-t441435/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rodne-mostraumen&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-rodne-mostraumen",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "half",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #2 Best Value",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Fjord boat speeding along the Osterfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in a green fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord boat by a farm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck in the sun"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in a deep blue fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The narrow strait"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord with farmland"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Red and white fjord boat in Bergen"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat cruising past cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliffs above the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-gft-mostraumen-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Guided Fjord Tours",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaien+13%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaien 13"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-the-local-opera-t414903/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-gft-mostraumen&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Mostraumen Fjord Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "4,554 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(4,554)",
+       "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-the-local-opera-t414903/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-gft-mostraumen-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 h",
+     "pop_html": "<strong>3.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏔️",
+     "label": "Same Mostraumen route",
+     "pop_html": "<strong>3.5 hours up the Osterfjord to Mostraumen and back.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€63",
+     "pop_html": "<strong>The cheapest Mostraumen cruise here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧊",
+     "label": "Winter ice",
+     "pop_html": "<strong>In deep winter the inner fjord can freeze;</strong> the boat turns back where it's safe."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍫",
+     "label": "Kiosk on board",
+     "pop_html": "<strong>Drinks and snacks for sale.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaien 13",
+     "pop_html": "<strong>Strandkaien 13, Bergen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the same fjord as #1 for €20 less.",
+    "skip_html": "if you want commentary: there's no guide listed."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is it the same route as #1?",
+      "a": "Yes, the Osterfjord to the Mostraumen narrows and back in about 3.5 hours."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No guide is listed; it's the cruise only."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Strandkaien 13, Bergen."
+     },
+     {
+      "q": "What about winter?",
+      "a": "In very cold spells ice can block the inner fjord, and the boat turns back where it's safe."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€63",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 h return cruise",
+      "price": "From €63"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €126"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-the-local-opera-t414903/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-gft-mostraumen&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-gft-mostraumen",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "half",
+    "guide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🗣️ #3 Best with a Live Guide",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Fjordcharter boat on the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by a waterfall"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bergen harbour from the air"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat sailing a green fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat wake in the narrows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord and mountains"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide speaking on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Upper deck seating"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cafe on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Saloon with windows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-guided-mostraumen-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Fjordcharter Norway",
+    "⏱️ 3.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Torget+2%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Torget (Fish Market)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-with-local-guid-t997576/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-guided-mostraumen&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Mostraumen Fjord Cruise with Live Guide"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "3,116 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(3,116)",
+       "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-with-local-guid-t997576/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-guided-mostraumen-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 h",
+     "pop_html": "<strong>3.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live English guide",
+     "pop_html": "<strong>An English-speaking guide on board,</strong> plus a written guide in several languages."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏔️",
+     "label": "Mostraumen route",
+     "pop_html": "<strong>Osterfjord to the Mostraumen narrows.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛋️",
+     "label": "Three decks",
+     "pop_html": "<strong>Sun deck, upper and lower decks</strong> and a saloon with big windows."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Torget, by the Fish Market",
+     "pop_html": "<strong>Leaves from Torget 2, in the city centre.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Mostraumen cruise with a person explaining what you see.",
+    "skip_html": "on the tightest budget: #2 is €15 cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is there a live guide?",
+      "a": "Yes, an English-speaking guide on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Torget 2, by the Fish Market in central Bergen."
+     },
+     {
+      "q": "Can I bring a bike?",
+      "a": "Contact the operator in advance; bike spaces are limited in summer."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, food and drinks are for sale."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€78",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 h with English guide",
+      "price": "From €78"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €156"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-with-local-guid-t997576/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-guided-mostraumen&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-guided-mostraumen",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "rib"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #4 Best Thrill",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "RIB boat in the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB crossing a green fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB speeding along the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB passengers in flotation suits"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall from the RIB"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB wake in the narrows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliffs from the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Captain pointing out the sights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall near the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rib-safari-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Guided Fjord Tours",
+    "⏱️ 2.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaien+16%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaien 16"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/modalen-l177711/bergen-mostraumen-fjord-safari-by-premium-r-t1144671/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rib-safari&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Mostraumen Fjord Safari by Premium RIB Boat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "194 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(194)",
+       "url": "https://www.getyourguide.com/modalen-l177711/bergen-mostraumen-fjord-safari-by-premium-r-t1144671/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rib-safari-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2.5 h",
+     "pop_html": "<strong>2.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "Premium RIB",
+     "pop_html": "<strong>Fast, low and close to the water,</strong> all the way to Mostraumen and back."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Flotation suit",
+     "pop_html": "<strong>Warm flotation suit (XS to 4XL), life jacket and safety gear included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎧",
+     "label": "Captain + audio",
+     "pop_html": "<strong>The captain stops at the highlights;</strong> an audio guide runs in between."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Age 8+",
+     "pop_html": "<strong>Not for under-8s, pregnancy or back problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaien 16",
+     "pop_html": "<strong>Strandkaien 16, Bergen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for adrenaline and a close look: the fjord at speed, an hour faster than the boats.",
+    "skip_html": "with young kids or back problems."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What is a RIB?",
+      "a": "A fast rigid inflatable boat; you sit low and close to the water."
+     },
+     {
+      "q": "What should I wear?",
+      "a": "Warm layers; a flotation suit, life jacket and protective gear are provided."
+     },
+     {
+      "q": "How long is it?",
+      "a": "2.5 hours to Mostraumen and back."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Children under 8, pregnant travellers and people with back problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€139",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "2.5 h RIB safari",
+      "price": "From €139"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €278"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/modalen-l177711/bergen-mostraumen-fjord-safari-by-premium-r-t1144671/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rib-safari&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-rib-safari",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "fullday",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏔️ #5 Best Full Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Fjord cruise deck on the Nærøyfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest on the Stegastein viewpoint"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Green Nærøyfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mirror-calm fjord with the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Winter fjord from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Couple on deck in winter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruise ship in the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Valley above Flåm"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snowy peaks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Light lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-naeroyfjord-lunch-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Travel North",
+    "⏱️ 12 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaiterminalen%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaiterminalen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/naeroyfjord-cruise-flam-and-stegastein-incl-lu-t942285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-naeroyfjord-lunch&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: UNESCO Fjord Cruise, Flåm &amp; Stegastein, Incl. Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "1,508 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(1,508)",
+       "url": "https://www.getyourguide.com/bergen-l1132/naeroyfjord-cruise-flam-and-stegastein-incl-lu-t942285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-naeroyfjord-lunch-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "12 h",
+     "pop_html": "<strong>About 12 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏔️",
+     "label": "UNESCO Nærøyfjord",
+     "pop_html": "<strong>A 2-hour cruise on the UNESCO-listed Nærøyfjord.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👀",
+     "label": "Stegastein + Tvindefossen",
+     "pop_html": "<strong>The Stegastein viewpoint and Tvindefossen waterfall.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥪",
+     "label": "Lunch + coffee",
+     "pop_html": "<strong>Light lunch and afternoon coffee or tea included.</strong> Dietary requests by 14:00 the day before."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Real guide",
+     "pop_html": "<strong>An English-speaking guide, not a driver-guide,</strong> on a new coach. Departs 07:30."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaiterminalen",
+     "pop_html": "<strong>Strandkaiterminalen, 07:30.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the UNESCO fjord in one day from Bergen, with lunch and a real guide.",
+    "skip_html": "if you only have half a day: take #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Coach, English-speaking guide, 2-hour Nærøyfjord cruise, Stegastein viewpoint, Tvindefossen, light lunch and afternoon coffee or tea."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "Meet at Strandkaiterminalen at 07:15 for a 07:30 departure."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 12 hours."
+     },
+     {
+      "q": "Does it run in winter?",
+      "a": "Yes, in all weather; dress in layers."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€285",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "12 h, coach + 2 h cruise + lunch",
+      "price": "From €285"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €570"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/naeroyfjord-cruise-flam-and-stegastein-incl-lu-t942285/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-naeroyfjord-lunch&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-naeroyfjord-lunch",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "fullday",
+    "guide",
+    "railway"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚂 #6 Best Fjord + Railway",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Nærøyfjord cruise boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Flåm Railway in the valley"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Viking reenactor at Njardarheimr"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall viewpoint"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Viking village houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Viking village gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Flåm Railway carriage"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Flåm Railway by a waterfall"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord from the deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall by the road"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-viking-flam-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Guided Fjord Tours",
+    "⏱️ 10.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaien+16%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaien 16"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/bergen-viking-village-naeroyfjord-cruise-flam-t261967/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-viking-flam&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Viking Village, Nærøyfjord Cruise &amp; Flåm Railway"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "1,483 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(1,483)",
+       "url": "https://www.getyourguide.com/bergen-l1132/bergen-viking-village-naeroyfjord-cruise-flam-t261967/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-viking-flam-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10.5 h",
+     "pop_html": "<strong>10.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛳️",
+     "label": "Premium Nærøyfjord cruise",
+     "pop_html": "<strong>A premium cruise on the UNESCO-listed Nærøyfjord.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚂",
+     "label": "Flåm + Bergen Railway",
+     "pop_html": "<strong>Both the Flåm Railway and the Bergen Railway.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪓",
+     "label": "Viking village",
+     "pop_html": "<strong>A guided tour of Njardarheimr Viking Village.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live guide",
+     "pop_html": "<strong>A guide all day, with return transport.</strong> Food not included."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaien 16",
+     "pop_html": "<strong>Strandkaien 16, Bergen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the full Norway in a Nutshell experience, guided, in one day.",
+    "skip_html": "on a budget: it's €298, food extra."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "A guide, transport, Njardarheimr Viking Village, a premium Nærøyfjord cruise, the Flåm Railway and the Bergen Railway."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, there are chances to buy food during the day."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Strandkaien 16, Bergen."
+     },
+     {
+      "q": "What about winter?",
+      "a": "From October to April the trip may be adapted to the weather."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€298",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "10.5 h, train + cruise + village",
+      "price": "From €298"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €596"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/bergen-viking-village-naeroyfjord-cruise-flam-t261967/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-viking-flam&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-viking-flam",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "fullday",
+    "guide",
+    "railway"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #7 Fjord + Railway with Lunch",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Cruise boat on the Nærøyfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Flåm Railway window view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the fjord boat deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snowy fjord from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall viewpoint"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snowy train window"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Flåm Railway in the valley"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall from the railway"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall in winter"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord valley"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-flam-railway-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Travel North",
+    "⏱️ 11 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaiterminalen%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaiterminalen"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/gudvangen-l108082/the-flam-railway-the-naeroyfjord-tour-t1154629/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-flam-railway&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Legendary Flåm Railway &amp; UNESCO Fjord Cruise with Lunch"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "162 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(162)",
+       "url": "https://www.getyourguide.com/gudvangen-l108082/the-flam-railway-the-naeroyfjord-tour-t1154629/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-flam-railway-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "11 h",
+     "pop_html": "<strong>About 11 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚂",
+     "label": "Flåm + Bergen Railway",
+     "pop_html": "<strong>Both railways included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛳️",
+     "label": "2-hour UNESCO cruise",
+     "pop_html": "<strong>On the Nærøyfjord.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥪",
+     "label": "Light lunch",
+     "pop_html": "<strong>Included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Dedicated guide",
+     "pop_html": "<strong>An English-speaking guide and a new air-conditioned coach.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaiterminalen",
+     "pop_html": "<strong>Strandkaiterminalen, Bergen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the railway and the fjord with lunch included and a dedicated guide.",
+    "skip_html": "if price matters: #6 includes the same railway for €52 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The Flåm Railway, Bergen Railway, a 2-hour fjord cruise, light lunch, Tvindefossen and a dedicated English-speaking guide."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 11 hours; times vary with the season."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Strandkaiterminalen, Bergen."
+     },
+     {
+      "q": "Dietary needs?",
+      "a": "Tell the operator in advance."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€350",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "11 h, railway + cruise + lunch",
+      "price": "From €350"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €700"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/gudvangen-l108082/the-flam-railway-the-naeroyfjord-tour-t1154629/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-flam-railway&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-flam-railway",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "selfguided",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏡 #8 Best Self-Guided Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Couple on the boat with the Norwegian flag"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rosendal church by the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Express boat at Rosendal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall near Rosendal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rosendal Barony gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Barony manor house"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mountain stream"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Wooden building in Rosendal"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord view"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rosendal's tree-lined path"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-rosendal-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Rødne Fjord Cruise",
+    "⏱️ 7 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaiterminalen%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bergen city centre"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/bergen-cruise-to-beautiful-rosendal-by-the-har-t947142/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rosendal&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Cruise to beautiful Rosendal by the Hardangerfjord"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "712 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(712)",
+       "url": "https://www.getyourguide.com/bergen-l1132/bergen-cruise-to-beautiful-rosendal-by-the-har-t947142/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rosendal-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "7 h (4 h on the boat)",
+     "pop_html": "<strong>About 7 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛴️",
+     "label": "2 h each way",
+     "pop_html": "<strong>A modern boat from Bergen to Rosendal and back.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏡",
+     "label": "3.5 h in Rosendal",
+     "pop_html": "<strong>Explore the village on your own.</strong> Barony and Folgefonn Centre entry extra (open May to August)."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧭",
+     "label": "No guide",
+     "pop_html": "<strong>A self-guided day, travelling like the locals.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍫",
+     "label": "Kiosk",
+     "pop_html": "<strong>Snacks and drinks for sale on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bergen city centre",
+     "pop_html": "<strong>Bergen city centre.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a relaxed day out on your own terms, to a village by the Hardangerfjord.",
+    "skip_html": "if you want a guided tour: there's no guiding."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How does it work?",
+      "a": "Boat from Bergen to Rosendal (about 2 hours), 3.5 hours on your own, then the boat back."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "No, it's self-guided."
+     },
+     {
+      "q": "What can I visit?",
+      "a": "The Rosendal Barony and Folgefonn Centre (entry extra, open May to August), waterfalls and the village."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, a kiosk sells snacks and drinks."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€81",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "return boat, 3.5 h in Rosendal",
+      "price": "From €81"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €162"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/bergen-cruise-to-beautiful-rosendal-by-the-har-t947142/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-rosendal&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-rosendal",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "rib",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "❄️ #9 Best in Winter",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "RIB riders in the Hardangerfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB by a waterfall"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB on a misty fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB in the fjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests suiting up"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB speeding along"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in flotation suits"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guide pointing out the sights"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterfall from the RIB"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "RIB wake"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-hardanger-rib-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Hardangerfjord Adventure",
+    "⏱️ 75 Min",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Kaien+28%2C+Norheimsund",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Norheimsund"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/norheimsund-l191797/from-norheimsund-hardangerfjord-fyksesu-t432745/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-hardanger-rib&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Norheimsund: All-Year Hardangerfjord &amp; Fyksesund RIB Safari"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "145 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(145)",
+       "url": "https://www.getyourguide.com/norheimsund-l191797/from-norheimsund-hardangerfjord-fyksesu-t432745/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-hardanger-rib-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "75 min",
+     "pop_html": "<strong>75 minutes.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Norheimsund",
+     "pop_html": "<strong>Starts at Kaien 28, Norheimsund,</strong> about 1.5 hours by road from Bergen."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗓️",
+     "label": "All year",
+     "pop_html": "<strong>Runs in most weather, all year.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Full gear",
+     "pop_html": "<strong>Flotation suit, life vest, goggles, gloves, mittens and hat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Guide EN/NO",
+     "pop_html": "<strong>Live guide in English and Norwegian.</strong> Age 5+."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Hardangerfjord and Fyksesund by RIB, even in winter, if you have a car.",
+    "skip_html": "without transport: it starts in Norheimsund, not Bergen."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it start?",
+      "a": "Kaien 28, Norheimsund, east of Bergen."
+     },
+     {
+      "q": "Does it run in winter?",
+      "a": "Yes, all year in most weather."
+     },
+     {
+      "q": "What gear is provided?",
+      "a": "Flotation suit, life vest, goggles, gloves, mittens and a hat."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Under-5s, pregnant travellers and people with back problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€96",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "75 min RIB safari",
+      "price": "From €96"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €192"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/norheimsund-l191797/from-norheimsund-hardangerfjord-fyksesu-t432745/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-hardanger-rib&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-hardanger-rib",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "half",
+    "guide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏙️ #10 Best Bergen in a Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Fjord boat on the Osterfjord"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fløibanen funicular"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bryggen's wooden houses"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bergen from Mount Fløyen"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View over Bergen"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mostraumen narrows"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bergen at dusk"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bryggen waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fjord boat in Bergen"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-01.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-02.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-03.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-04.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-05.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-06.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-07.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-08.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-09.avif"
+     },
+     {
+      "src": "/assets/fjord-cruises-bergen/bergen-fjord-cruise-mostraumen-floyen-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Guided Fjord Tours",
+    "⏱️ 6.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Strandkaien+16%2C+Bergen",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Strandkaien 16"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-mt-floyen-city-t388341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-mostraumen-floyen&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Bergen: Mostraumen Fjord Cruise, Mt Fløyen, City Sightseeing"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "69 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(69)",
+       "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-mt-floyen-city-t388341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-mostraumen-floyen-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "6.5 h",
+     "pop_html": "<strong>6.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏔️",
+     "label": "Mostraumen cruise",
+     "pop_html": "<strong>The Osterfjord cruise to Mostraumen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚡",
+     "label": "Mount Fløyen",
+     "pop_html": "<strong>Funicular to Mount Fløyen, skip-the-line.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏙️",
+     "label": "City sightseeing",
+     "pop_html": "<strong>A guided historic city tour.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>An expert guide all day.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Strandkaien 16",
+     "pop_html": "<strong>Strandkaien 16, Bergen.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for one day that covers Bergen and its fjord with a guide.",
+    "skip_html": "if you only want the fjord: #1 to #3 cost half."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "An expert guide, a historic city tour, the Mostraumen fjord cruise and the Mount Fløyen funicular."
+     },
+     {
+      "q": "Is it small-group?",
+      "a": "Yes."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Strandkaien 16, Bergen."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€158",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "6.5 h, small group",
+      "price": "From €158"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €316"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/bergen-l1132/bergen-mostraumen-fjord-cruise-mt-floyen-city-t388341/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-fjord-cruises-bergen-mostraumen-floyen&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#brg-mostraumen-floyen",
+     "text": "Read Review ↓"
+    }
+   }
+  }
+ ]
+}

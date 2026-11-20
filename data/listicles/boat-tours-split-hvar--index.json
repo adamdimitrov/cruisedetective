@@ -1,0 +1,4717 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "bluecave",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Overall",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Inside the Blue Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends swimming in turquoise water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkellers on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat in a bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests riding up front"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliff jumping into clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea cave from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest relaxing on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat in a grotto"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Family on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speed-line-blue-cave-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Speed Line",
+    "⏱️ 10.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Trg+Republike+%28Prokurative%29%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Prokurative, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/from-split-blue-cave-hvar-mamma-mia-5-islands-bo-t351016/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speed-line-blue-cave&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Split: Blue Cave, Hvar, Mamma Mia, 5 Islands boat tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "1,752 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(1,752)",
+       "url": "https://www.getyourguide.com/split-l268/from-split-blue-cave-hvar-mamma-mia-5-islands-bo-t351016/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speed-line-blue-cave-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10.5 h",
+     "pop_html": "<strong>10.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💙",
+     "label": "Blue Cave + 5 islands",
+     "pop_html": "<strong>Blue Cave on Biševo, Vis (Mamma Mia), Hvar and more,</strong> with swim stops."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Blue Cave ticket extra",
+     "pop_html": "<strong>The Blue Cave entry is paid on the day,</strong> about €18 to €24 depending on the month."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel gear + shade",
+     "pop_html": "<strong>Snorkelling gear, sun shade,</strong> storage and Bluetooth music."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Skipper-guide",
+     "pop_html": "<strong>A driver-guide in English.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Prokurative, Split",
+     "pop_html": "<strong>Prokurative (Trg Republike), Split.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated Blue Cave day at a fair price: 4.9 from 1,752, €79.",
+    "skip_html": "with back problems or in pregnancy: it's a long speedboat day."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Which places do you visit?",
+      "a": "The Blue Cave on Biševo, Vis and its Mamma Mia locations, Hvar and other islands, with swim stops."
+     },
+     {
+      "q": "Is the Blue Cave ticket included?",
+      "a": "No, it's paid in cash on the boat, about €18 to €24 depending on the month."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Prokurative (Trg Republike), central Split."
+     },
+     {
+      "q": "Are food and drinks included?",
+      "a": "No, bring water and money for lunch."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€79",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "10.5 h speedboat day",
+      "price": "From €79"
+     },
+     {
+      "label": "Blue Cave ticket",
+      "small": "cash on the boat",
+      "price": "€18 to €24"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €158"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/from-split-blue-cave-hvar-mamma-mia-5-islands-bo-t351016/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speed-line-blue-cave&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-speed-line-blue-cave",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "lagoon",
+    "small",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏝️ #2 Best Half Day",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboats in the Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The Blue Lagoon from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir from the air"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkeller in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat on turquoise water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir's waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats anchored in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboats racing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-booker-blue-lagoon-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Booker Travel",
+    "⏱️ 5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Maruli%C4%87eva+ul.+4%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marulićeva 4, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-and-3-islands-speedboat-tour-t396090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-booker-blue-lagoon&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Lagoon &amp; 3 Islands Speedboat Tour, Small Group"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "4,905 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(4,905)",
+       "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-and-3-islands-speedboat-tour-t396090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-booker-blue-lagoon-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "5 h",
+     "pop_html": "<strong>5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + 3 islands",
+     "pop_html": "<strong>The Blue Lagoon, Trogir and nearby islands in 5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>A small-group speedboat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel + water",
+     "pop_html": "<strong>Snorkelling goggles and water included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Central Split",
+     "pop_html": "<strong>Marulićeva 4.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic half day: the Blue Lagoon's clear water, back by mid-afternoon.",
+    "skip_html": "if you want the Blue Cave: that's a full-day trip (#1, #3)."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "The Blue Lagoon, Trogir and nearby islands."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 5 hours."
+     },
+     {
+      "q": "Is there an extra ticket?",
+      "a": "No cave ticket on this route; food and drinks are extra."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Booker travel agency, Marulićeva 4, Split."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€70",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5 h small-group speedboat",
+      "price": "From €70"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €140"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-and-3-islands-speedboat-tour-t396090/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-booker-blue-lagoon&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-booker-blue-lagoon",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "lagoon",
+    "lunch"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍔 #3 Best All-Inclusive Day",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Cruise boat in the Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The lagoon from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends snorkelling"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Burgers and chips on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest sitting at the stern"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sun deck from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Croatian flag on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the sun deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inflatable in the water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-pleter-lunch-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Pleter Travel",
+    "⏱️ 8 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Obala+Hrvatskog+narodnog+preporoda+12%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Riva, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-tour-with-food-drinks-t741442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-pleter-lunch-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Lagoon and 3-Island Cruise with Food and Drinks"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "4,471 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(4,471)",
+       "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-tour-with-food-drinks-t741442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-pleter-lunch-cruise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "8 h",
+     "pop_html": "<strong>8 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍔",
+     "label": "Lunch + doughnuts",
+     "pop_html": "<strong>Breakfast doughnuts and lunch (beef, tuna or veggie burger with chips).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Unlimited drinks",
+     "pop_html": "<strong>Water, lemonade and wine, unlimited.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "☀️",
+     "label": "Big boat",
+     "pop_html": "<strong>Sunbeds and Wi-Fi on a larger cruise boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel gear",
+     "pop_html": "<strong>Snorkelling equipment (deposit).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Riva, Split",
+     "pop_html": "<strong>Riva, Split.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a lazy day: big boat, lunch and unlimited wine, no extras to pay.",
+    "skip_html": "if you want speed and small groups: #2."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Breakfast doughnuts, a burger lunch with chips, unlimited water, lemonade and wine, snorkelling gear, sunbeds and Wi-Fi."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 8 hours."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Riva, Obala Hrvatskog narodnog preporoda 12."
+     },
+     {
+      "q": "Is there a deposit?",
+      "a": "Yes, for the snorkelling equipment."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€85",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "8 h, lunch + unlimited drinks",
+      "price": "From €85"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €170"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-tour-with-food-drinks-t741442/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-pleter-lunch-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-pleter-lunch-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "bluecave",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #4 Most-Booked Blue Cave Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Inside the Blue Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boarding the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at the harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats at a sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hvar harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Cave glow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-providenca-blue-cave-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Providenca",
+    "⏱️ 10 to 11 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Split%2C+Croatia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Split (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/splittrogir-blue-cave-mamma-mia-hvar-and-5-islan-t390071/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-providenca-blue-cave&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Blue Cave, Mamma Mia, Hvar and 5-Island Small-Group Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "8,311 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(8,311)",
+       "url": "https://www.getyourguide.com/split-l268/splittrogir-blue-cave-mamma-mia-hvar-and-5-islan-t390071/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-providenca-blue-cave-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 to 11 h",
+     "pop_html": "<strong>10 to 11 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💙",
+     "label": "Blue Cave + Hvar",
+     "pop_html": "<strong>Blue Cave, Mamma Mia locations, Hvar and 5 islands.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Blue Cave ticket extra",
+     "pop_html": "<strong>The Blue Cave entry is paid on the day,</strong> about €18 to €24 depending on the month."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧥",
+     "label": "Windproof jackets",
+     "pop_html": "<strong>Windproof and life jackets, snorkelling gear.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group, 10+",
+     "pop_html": "<strong>Skipper and guide; minimum age 10.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Split (by option)",
+     "pop_html": "<strong>Split (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the most-booked Blue Cave day, small group, adults and older kids.",
+    "skip_html": "with kids under 10, or on a budget: #1 is €66 less."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the Blue Cave ticket included?",
+      "a": "No, it's extra on the day."
+     },
+     {
+      "q": "Is there an age limit?",
+      "a": "Yes, not for children under 10."
+     },
+     {
+      "q": "What's included?",
+      "a": "Speedboat, skipper and guide, snorkelling gear, windproof and life jackets, insurance."
+     },
+     {
+      "q": "Is hotel pick-up included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€145",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "small-group speedboat day",
+      "price": "From €145"
+     },
+     {
+      "label": "Blue Cave ticket",
+      "small": "on the day",
+      "price": "€18 to €24"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €290"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/splittrogir-blue-cave-mamma-mia-hvar-and-5-islan-t390071/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-providenca-blue-cave&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-providenca-blue-cave",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "bluecave",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💙 #5 Best Mid-Price Blue Cave",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Glowing water in the Blue Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests in Hvar harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cave entrance from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkeller in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Small boat in the cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach stop"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliff jump from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hvar town"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island village"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-cave-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Toto Travel",
+    "⏱️ 10 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Split%2C+Croatia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Split (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/splitpodstrana-blue-cave-hvar-6-islands-speedboa-t94779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-cave&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Cave, Mamma Mia &amp; 5 Islands Small-Group Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "2,428 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(2,428)",
+       "url": "https://www.getyourguide.com/split-l268/splitpodstrana-blue-cave-hvar-6-islands-speedboa-t94779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-cave-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 h",
+     "pop_html": "<strong>10 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💙",
+     "label": "Blue Cave + Vis",
+     "pop_html": "<strong>Biševo's Blue Cave, Vis and other islands,</strong> with free time for lunch and a swim."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Blue Cave ticket extra",
+     "pop_html": "<strong>The Blue Cave entry is paid on the day,</strong> about €18 to €24 depending on the month."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel gear",
+     "pop_html": "<strong>Goggles, snorkels and safety gear.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>Age 4+.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Split (by option)",
+     "pop_html": "<strong>Split (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small-group Blue Cave day that takes kids from 4.",
+    "skip_html": "on price alone: #1 is €20 less with better reviews."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the Blue Cave ticket included?",
+      "a": "No, it's paid in cash to the crew: €18 in low season, €24 from 20 June to 10 September."
+     },
+     {
+      "q": "Which islands?",
+      "a": "Biševo (Blue Cave), Vis and others, with free time to swim and eat."
+     },
+     {
+      "q": "Is there an age limit?",
+      "a": "Not for children under 4."
+     },
+     {
+      "q": "Are towels included?",
+      "a": "No, bring a beach towel."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€99",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "10 h speedboat day",
+      "price": "From €99"
+     },
+     {
+      "label": "Blue Cave ticket",
+      "small": "cash to the crew",
+      "price": "€18 to €24"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €198"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/splitpodstrana-blue-cave-hvar-6-islands-speedboa-t94779/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-cave&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-toto-blue-cave",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "lagoon",
+    "small",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⭐ #6 Best-Rated Half Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Island from the air"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkellers underwater"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach bar on the island"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir's fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Underwater cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkeller in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Islands from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir aerial"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Girl floating in the sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-maris-blue-lagoon-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Maris Boats",
+    "⏱️ 5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Obala+Hrvatskog+narodnog+preporoda+11%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Riva, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-cruise-with-snorkelli-t634363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-maris-blue-lagoon&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Lagoon &amp; 3-Island Cruise with Snorkelling"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "352 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(352)",
+       "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-cruise-with-snorkelli-t634363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-maris-blue-lagoon-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "5 h",
+     "pop_html": "<strong>5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Wine + water",
+     "pop_html": "<strong>Wine and bottled water in a cooler.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkelling",
+     "pop_html": "<strong>Snorkelling equipment and wind jackets.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + 3 islands",
+     "pop_html": "<strong>Half day with Trogir.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⭐",
+     "label": "4.9 from 352",
+     "pop_html": "<strong>The best-rated half day here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Riva, Split",
+     "pop_html": "<strong>Riva, Split.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the best-rated half day, with wine in the cooler.",
+    "skip_html": "if you want lunch on board: #3 or #9."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Speedboat, skipper, wind jackets, wine and bottled water, snorkelling gear, insurance."
+     },
+     {
+      "q": "How long is it?",
+      "a": "5 hours."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "The Riva, Obala Hrvatskog narodnog preporoda 11."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€70",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5 h speedboat",
+      "price": "From €70"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €140"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-island-cruise-with-snorkelli-t634363/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-maris-blue-lagoon&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-maris-blue-lagoon",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "lagoon",
+    "small",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #7 Cheapest Half Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Turquoise bay with boats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests jumping from the jetty"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir fortress"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests boarding"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach bar"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat guests"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats moored in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliff jumping"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-toto-blue-lagoon-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Toto Travel",
+    "⏱️ 5.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Trumbi%C4%87eva+obala+2%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Riva, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-islands-small-group-speedboa-t111373/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-lagoon&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Lagoon &amp; 3 Islands Small-Group Speedboat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.60",
+     "score": "4.6",
+     "meta": "795 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.6",
+       "count": "(795)",
+       "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-islands-small-group-speedboa-t111373/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-lagoon-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "5.5 h",
+     "pop_html": "<strong>5.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€60",
+     "pop_html": "<strong>The cheapest Blue Lagoon trip here.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + 3 islands",
+     "pop_html": "<strong>5.5 hours by small-group speedboat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel gear",
+     "pop_html": "<strong>Snorkels and goggles provided.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Trumbićeva obala",
+     "pop_html": "<strong>On the Split waterfront.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest Blue Lagoon day with a small group.",
+    "skip_html": "if ratings matter most: #2 and #6 score higher."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "The Blue Lagoon and three islands."
+     },
+     {
+      "q": "How long is it?",
+      "a": "About 5.5 hours."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Toto Travel, Trumbićeva obala 2."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€60",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5.5 h small group",
+      "price": "From €60"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €120"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/split-blue-lagoon-3-islands-small-group-speedboa-t111373/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-toto-blue-lagoon&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-toto-blue-lagoon",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "bluecave"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #8 Alternative Blue Cave Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboat in a cove"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Small boat inside the Blue Cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach with loungers"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach bar under the pines"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hvar's palm-lined waterfront"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Hvar town square"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats in Hvar harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Bay with clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-speedboat-vis-hvar-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Day Trips",
+    "⏱️ 10 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Split%2C+Croatia",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Split (by option)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/full-day-blue-cave-split-tour-t52238/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speedboat-vis-hvar&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Split: Blue Cave, Vis &amp; Hvar Full-Day Trip by Speedboat"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "1,029 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(1,029)",
+       "url": "https://www.getyourguide.com/split-l268/full-day-blue-cave-split-tour-t52238/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speedboat-vis-hvar-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "10 h",
+     "pop_html": "<strong>10 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💙",
+     "label": "Blue Cave, Vis + Hvar",
+     "pop_html": "<strong>Speedboat day with a skipper.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎟️",
+     "label": "Blue Cave ticket extra",
+     "pop_html": "<strong>The Blue Cave entry is paid on the day,</strong> about €18 to €24 depending on the month."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel masks",
+     "pop_html": "<strong>Snorkelling masks and safety gear.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Health limits",
+     "pop_html": "<strong>Not for under-3s, pregnancy, back or heart problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Split (by option)",
+     "pop_html": "<strong>Split (by option).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "as a backup Blue Cave date when #1 and #5 are full.",
+    "skip_html": "on value: #1 costs €59 less with better reviews."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Is the Blue Cave ticket included?",
+      "a": "No: €24 from June to September, €18 in April, May and October."
+     },
+     {
+      "q": "What's included?",
+      "a": "Speedboat, skipper, snorkelling masks, safety gear and insurance."
+     },
+     {
+      "q": "Is pick-up included?",
+      "a": "No."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Under-3s, pregnant travellers, people with back, heart or mobility problems."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€138",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "10 h speedboat day",
+      "price": "From €138"
+     },
+     {
+      "label": "Blue Cave ticket",
+      "small": "Jun to Sep / Apr, May, Oct",
+      "price": "€24 / €18"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €276"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/full-day-blue-cave-split-tour-t52238/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-speedboat-vis-hvar&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-speedboat-vis-hvar",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "lagoon",
+    "lunch"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛶 #9 Best with Water Toys",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat in a turquoise bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cruise boat from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddleboards and inflatables"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lunch tray on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers by the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crew serving lunch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmer in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Paddleboarders"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-06.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-07.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-08.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-09.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-lunch-cruise-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Gray Line Croatia",
+    "⏱️ 8 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Obala+Lazareta+1%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Obala Lazareta, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/blue-lagoon-3-islands-cruise-with-lunch-from-spl-t399711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-lunch-cruise&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Split: Blue Lagoon, Čiovo &amp; Šolta with Lunch &amp; Drinks Included"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "2,860 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(2,860)",
+       "url": "https://www.getyourguide.com/split-l268/blue-lagoon-3-islands-cruise-with-lunch-from-spl-t399711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-lunch-cruise-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "8 h",
+     "pop_html": "<strong>8 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍔",
+     "label": "Lunch + wine",
+     "pop_html": "<strong>Breakfast doughnuts, burger lunch,</strong> unlimited wine with and after lunch."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏄",
+     "label": "SUPs + inflatables",
+     "pop_html": "<strong>Stand-up paddleboards and inflatables to use.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Unlimited soft drinks",
+     "pop_html": "<strong>Water and juice.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Obala Lazareta",
+     "pop_html": "<strong>Split waterfront.</strong> €10 refundable deposit for gear."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a lunch cruise with paddleboards and inflatables for the swim stops.",
+    "skip_html": "if you want the small-group speedboat feel."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "Breakfast doughnuts, a burger lunch, unlimited wine with lunch, unlimited water and juice, SUPs and inflatables."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "The Blue Lagoon, Čiovo and Šolta."
+     },
+     {
+      "q": "Is there a deposit?",
+      "a": "€10, refundable, for snorkelling gear and water toys."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Obala Lazareta 1, Split."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€85",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "8 h, lunch + unlimited wine",
+      "price": "From €85"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €170"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/blue-lagoon-3-islands-cruise-with-lunch-from-spl-t399711/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-lunch-cruise&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-grayline-lunch-cruise",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "lagoon",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏰 #10 Best with Trogir Old Town",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Speedboats racing"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Island bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Snorkeller with an inflatable"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir gate"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Trogir from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-01.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-02.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-03.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-04.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-05.avif"
+     },
+     {
+      "src": "/assets/boat-tours-split-hvar/split-boat-tour-grayline-half-day-06.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Gray Line Croatia",
+    "⏱️ 5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Obala+Lazareta+3%2C+Split",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Obala Lazareta, Split"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/split-l268/split-half-day-blue-lagoon-ciovo-and-trogir-boat-t193910/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-half-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Split: Half-Day Blue Lagoon, Trogir &amp; Čiovo Speedboat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.30",
+     "score": "4.3",
+     "meta": "789 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.3",
+       "count": "(789)",
+       "url": "https://www.getyourguide.com/split-l268/split-half-day-blue-lagoon-ciovo-and-trogir-boat-t193910/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-half-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "5 h",
+     "pop_html": "<strong>5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏰",
+     "label": "Trogir stop",
+     "pop_html": "<strong>Time in UNESCO-listed Trogir.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon",
+     "pop_html": "<strong>Swim and snorkel.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛽",
+     "label": "All-in price",
+     "pop_html": "<strong>Fuel, captain, crew, goggles and insurance included.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Obala Lazareta",
+     "pop_html": "<strong>None</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lagoon plus a wander in Trogir's old town.",
+    "skip_html": "if ratings matter: 4.3 is the lowest here."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it go?",
+      "a": "The Blue Lagoon, Čiovo and Trogir."
+     },
+     {
+      "q": "How long is it?",
+      "a": "5 hours."
+     },
+     {
+      "q": "What's included?",
+      "a": "Speedboat, fuel, captain and crew, snorkelling goggles, insurance."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Obala Lazareta 3, Split."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€65",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5 h speedboat",
+      "price": "From €65"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €130"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/split-l268/split-half-day-blue-lagoon-ciovo-and-trogir-boat-t193910/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-tours-split-hvar-grayline-half-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#spl-grayline-half-day",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 6 photos"
+   }
+  }
+ ]
+}

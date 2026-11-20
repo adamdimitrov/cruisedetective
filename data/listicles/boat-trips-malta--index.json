@@ -1,0 +1,4722 @@
+{
+ "format": 1,
+ "icons": {
+  "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
+ },
+ "cards": [
+  {
+   "id": "card-1",
+   "cats": [
+    "fullday",
+    "slide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏆 #1 Best Full Day",
+     "medal": "bpa-gold"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat moored in the Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "fetchpriority",
+       "high"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "The boat from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crew member at the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gozo from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends with pineapple drinks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a pineapple drink"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterslide into the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gozo village church"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest jumping into the sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-hornblower-gozo-comino-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Hornblower Cruises",
+    "⏱️ 7 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bugibba+Jetty%2C+St+Paul%27s+Bay%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bugibba Jetty"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-blue-lagoon-cruise-swim-sightsee-t215556/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-hornblower-gozo-comino&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta Boat: Comino Blue Lagoon, Crystal Lagoon, Gozo &amp; Caves"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "7,755 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(7,755)",
+       "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-blue-lagoon-cruise-swim-sightsee-t215556/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-hornblower-gozo-comino-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "7 h",
+     "pop_html": "<strong>7 hours (10:00 departure).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + Gozo",
+     "pop_html": "<strong>1.5 h swimming at the Blue Lagoon,</strong> 3 h free time on Gozo."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛝",
+     "label": "10 m waterslide",
+     "pop_html": "<strong>Unlimited use, swim ladders.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🗣️",
+     "label": "Live commentary",
+     "pop_html": "<strong>Family-run crew.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "Extras in cash",
+     "pop_html": "<strong>Gozo shuttle €5, cave speedboat €15,</strong> snorkel hire €5."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bugibba Jetty",
+     "pop_html": "<strong>Bugibba Jetty.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the classic all-day trip: lagoon, caves and Gozo for €30.",
+    "skip_html": "if you only want to swim: #2 gives you the lagoon in 3 hours."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The cruise, 1.5 hours at the Blue Lagoon, the Comino caves, a Crystal Lagoon photo stop, 3 hours on Gozo, the waterslide and live commentary."
+     },
+     {
+      "q": "What costs extra?",
+      "a": "Lunch and drinks, the Gozo shuttle (€5 cash), the cave speedboat (€15 cash), snorkel hire and lockers."
+     },
+     {
+      "q": "When does it leave?",
+      "a": "10:00 sharp from Bugibba Jetty; boarding from 8:30."
+     },
+     {
+      "q": "Do I need a Blue Lagoon pass?",
+      "a": "Yes, a free QR pass from blcomino.com to go ashore."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "7 h full day",
+      "price": "From €30"
+     },
+     {
+      "label": "Gozo shuttle",
+      "small": "optional, cash",
+      "price": "From €5"
+     },
+     {
+      "label": "Cave speedboat",
+      "small": "optional, cash",
+      "price": "From €15"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-blue-lagoon-cruise-swim-sightsee-t215556/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-hornblower-gozo-comino&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-hornblower-gozo-comino",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-2",
+   "cats": [
+    "halfday",
+    "small",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "⏱️ #2 Best Half Day",
+     "medal": "bpa-silver"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Small boat in turquoise water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Rock arch over the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea arch from below"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Beach with a kayak"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Crystal Lagoon from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Lagoon beach"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gozo harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside a sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sunset at sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sealife-half-day-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sea Life Cruises",
+    "⏱️ 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Sea+Life+Cruises%2C+Mellie%C4%A7a%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marfa, Mellieħa"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/mellieha-l117580/malta-comino-gozo-blue-crystal-lagoon-cruise-with-seacaves-t559198/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sealife-half-day&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta: Comino, Blue Lagoon, Crystal Lagoon &amp; Gozo Boat Trip"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "2,681 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(2,681)",
+       "url": "https://www.getyourguide.com/mellieha-l117580/malta-comino-gozo-blue-crystal-lagoon-cruise-with-seacaves-t559198/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sealife-half-day-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 h",
+     "pop_html": "<strong>3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon 1 h",
+     "pop_html": "<strong>Plus 30 min at the Crystal Lagoon.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Sea caves",
+     "pop_html": "<strong>Comino's caves and Gozo harbour from the boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Small group",
+     "pop_html": "<strong>Noodle floats, toilet on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Not for everyone",
+     "pop_html": "<strong>Not for pregnancy, back problems or over-70s.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Marfa, Mellieħa",
+     "pop_html": "<strong>Marfa, Mellieħa.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the lagoon without losing the day: 3 hours from Marfa for €21.",
+    "skip_html": "with back problems or over 70: it's a bumpy small boat."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long at the Blue Lagoon?",
+      "a": "About 1 hour, plus 30 minutes at the Crystal Lagoon."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Marfa, near Mellieħa in the north, the closest point to Comino."
+     },
+     {
+      "q": "Who can't join?",
+      "a": "Pregnant travellers, people with back or mobility problems, and over-70s."
+     },
+     {
+      "q": "Is snorkel gear included?",
+      "a": "No, it can be hired on board for cash."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Free cancellation up to 24 hours before applies on the booking site; the boat doesn't wait for late arrivals."
+     }
+    ]
+   },
+   "price": {
+    "main": "€21",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 h small boat",
+      "price": "From €21"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €42"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/mellieha-l117580/malta-comino-gozo-blue-crystal-lagoon-cruise-with-seacaves-t559198/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sealife-half-day&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-sealife-half-day",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-3",
+   "cats": [
+    "halfday",
+    "small"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👥 #3 Best Small Group",
+     "medal": "bpa-bronze"
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Motorboat in turquoise water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Two motorboats from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Comino caves from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Lagoon from the air"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at a quay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Mgarr ix-Xini bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat wake at speed"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-harbour-helm-small-08.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Harbour & Helm",
+    "⏱️ 3 to 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=San+Pawl+il-Ba%C4%A7ar%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 St Paul's Bay"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/comino-l117490/malta-blue-lagoon-comino-and-gozo-boat-tour-t1005358/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-harbour-helm-small&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta: Blue Lagoon, Comino and Gozo Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "898 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(898)",
+       "url": "https://www.getyourguide.com/comino-l117490/malta-blue-lagoon-comino-and-gozo-boat-tour-t1005358/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-harbour-helm-small-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3 to 4 h",
+     "pop_html": "<strong>3 to 4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "👥",
+     "label": "Max 10 guests",
+     "pop_html": "<strong>Skipper-guide on a motorboat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Smuggler's Cave + Window",
+     "pop_html": "<strong>Smuggler's Cave, Comino caves, the Window,</strong> Crystal and Blue Lagoon, Mgarr ix-Xini."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🤿",
+     "label": "Snorkel gear included",
+     "pop_html": "<strong>Freshwater shower, shade, toilet.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🌅",
+     "label": "Sunset option",
+     "pop_html": "<strong>Morning, afternoon or sunset.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⚠️",
+     "label": "Health limits",
+     "pop_html": "<strong>Not for under-4s, non-swimmers, pregnancy or back problems.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "St Paul's Bay",
+     "pop_html": "<strong>St Paul's Bay.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a small fast boat that reaches the caves the big boats can't.",
+    "skip_html": "with kids under 4 or non-swimmers."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How many people?",
+      "a": "Up to 10 guests."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "Smuggler's Cave, Comino's caves and Window, the Crystal and Blue Lagoons, and Mgarr ix-Xini on Gozo."
+     },
+     {
+      "q": "Is snorkelling gear included?",
+      "a": "Yes, plus a freshwater shower and toilet."
+     },
+     {
+      "q": "Is there a sunset trip?",
+      "a": "Yes, morning, afternoon and sunset departures."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€38",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3 to 4 h, max 10",
+      "price": "From €38"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €76"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/comino-l117490/malta-blue-lagoon-comino-and-gozo-boat-tour-t1005358/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-harbour-helm-small&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-harbour-helm-small",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 8 photos"
+   }
+  },
+  {
+   "id": "card-4",
+   "cats": [
+    "fullday",
+    "slide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🛝 #4 Best Comino-Only Day",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Catamaran with waterslides"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran at anchor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea arch on Comino"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran under way"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests by the slide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the rocks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-catamaran-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sea Trips",
+    "⏱️ 6 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bugibba+Jetty%2C+St+Paul%27s+Bay%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bugibba Jetty"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/malta-l90/comino-blue-lagoon-crystal-lagoon-and-seacaves-tour-t196241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-catamaran&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Comino: Blue Lagoon, Crystal Lagoon and Sea Caves Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.70",
+     "score": "4.7",
+     "meta": "9,144 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.7",
+       "count": "(9,144)",
+       "url": "https://www.getyourguide.com/malta-l90/comino-blue-lagoon-crystal-lagoon-and-seacaves-tour-t196241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-catamaran-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "6 h",
+     "pop_html": "<strong>6 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Swim at both lagoons",
+     "pop_html": "<strong>Crystal Lagoon swim June to October.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛝",
+     "label": "Waterslides",
+     "pop_html": "<strong>Plus free sunbeds (first come).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍔",
+     "label": "Bar + kitchen",
+     "pop_html": "<strong>Burgers, wraps, cocktails for sale.</strong> No outside food."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bugibba Jetty",
+     "pop_html": "<strong>Bugibba Jetty.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a big catamaran day on Comino alone, with slides and a bar.",
+    "skip_html": "if you want Gozo too: #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Can you swim at the Crystal Lagoon?",
+      "a": "From June to October, weather permitting; a photo stop the rest of the year."
+     },
+     {
+      "q": "Can I bring food?",
+      "a": "No, food and drinks are sold on board."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Bugibba Jetty."
+     },
+     {
+      "q": "Which time slot for the lagoon pass?",
+      "a": "The operator emails it the day before."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€30",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "6 h catamaran",
+      "price": "From €30"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €60"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/malta-l90/comino-blue-lagoon-crystal-lagoon-and-seacaves-tour-t196241/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-catamaran&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-seatrips-catamaran",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-5",
+   "cats": [
+    "fullday",
+    "slide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "👍 #5 Most-Booked",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat in the Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers by the waterslide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gozo cathedral"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "View from a sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests at the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Waterslide into the sea"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers at the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at anchor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-seatrips-gozo-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Sea Trips",
+    "⏱️ 7 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Bugibba+Jetty%2C+St+Paul%27s+Bay%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Bugibba Jetty"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-islands-blue-lagoon-seacaves-tour-t197872/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-gozo&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta: Gozo &amp; Comino Islands, Blue Lagoon &amp; Sea Caves Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "22,086 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(22,086)",
+       "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-islands-blue-lagoon-seacaves-tour-t197872/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-gozo-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "7 h",
+     "pop_html": "<strong>7 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + Gozo",
+     "pop_html": "<strong>3 to 4 hours on Gozo.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🪟",
+     "label": "Underwater windows",
+     "pop_html": "<strong>Plus waterslides.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Gozo bus option",
+     "pop_html": "<strong>To the Old Town (and a beach Jun to Sep).</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Bugibba Jetty",
+     "pop_html": "<strong>Bugibba Jetty.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the cheapest Gozo and Comino day, €25.",
+    "skip_html": "if you want to swim at the Crystal Lagoon: photo stop only."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long on Gozo?",
+      "a": "3 to 4 hours, with an optional bus to the Old Town."
+     },
+     {
+      "q": "Can you swim at the Crystal Lagoon?",
+      "a": "No, it's a photo stop; you swim at the Blue Lagoon."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No, the bar takes cards."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Bugibba Jetty."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€25",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "7 h full day",
+      "price": "From €25"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €50"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/malta-l90/malta-gozo-comino-islands-blue-lagoon-seacaves-tour-t197872/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-seatrips-gozo&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-seatrips-gozo",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-6",
+   "cats": [
+    "lunch",
+    "fullday"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🍽️ #6 Best All-Inclusive",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Sailing catamaran in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran at anchor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest with a drink"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Glass deck panel"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran in a bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest jumping in"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group on board"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran in the bay"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-spirit-malta-lunch-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Trendy Group",
+    "⏱️ 7 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Triq+ix-Xatt%2C+Sliema%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Sliema"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/comino-l117490/comino-blue-lagoon-catamaran-cruise-with-lunch-and-open-bar-t440002/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-spirit-malta-lunch&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Comino: Blue Lagoon Catamaran Cruise with Lunch and Open Bar"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "1,243 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(1,243)",
+       "url": "https://www.getyourguide.com/comino-l117490/comino-blue-lagoon-catamaran-cruise-with-lunch-and-open-bar-t440002/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-spirit-malta-lunch-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "7 h",
+     "pop_html": "<strong>7 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🍷",
+     "label": "Open bar",
+     "pop_html": "<strong>Wine, beer and soft drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥗",
+     "label": "Buffet lunch",
+     "pop_html": "<strong>Cold cuts, cheeses, salads, bread.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "⛵",
+     "label": "Sailing catamaran",
+     "pop_html": "<strong>Leaves Sliema at 10:30.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔞",
+     "label": "17+",
+     "pop_html": "<strong>Not for under-17s.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Sliema",
+     "pop_html": "<strong>Sliema, 10:30.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for adults who want lunch and drinks sorted, from Sliema.",
+    "skip_html": "with kids, or on a budget."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's for lunch?",
+      "a": "Cold cuts, cheeses, a selection of salads and bread rolls."
+     },
+     {
+      "q": "What's in the open bar?",
+      "a": "Wine, beer and soft drinks."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Sliema seafront, at 10:30."
+     },
+     {
+      "q": "Can kids come?",
+      "a": "No, it's 17+."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€89",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "7 h, lunch + open bar",
+      "price": "From €89"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €178"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/comino-l117490/comino-blue-lagoon-catamaran-cruise-with-lunch-and-open-bar-t440002/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-spirit-malta-lunch&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-spirit-malta-lunch",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-7",
+   "cats": [
+    "small",
+    "halfday"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🚤 #7 Best Private Boat",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Private speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends on the speedboat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group in pink hats"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Speedboat by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Fish in clear water"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Friends waving"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guest at a rock arch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside a cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-private-speedboat-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xlendi Pleasure Cruises",
+    "⏱️ 2 to 3 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Marfa%2C+Mellie%C4%A7a%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marfa, Mellieħa"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/mgarr-l143615/malta-comino-blue-lagoon-private-speedboat-tour-t793810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-private-speedboat&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta: Comino, Blue Lagoon Private Speedboat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.90",
+     "score": "4.9",
+     "meta": "439 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.9",
+       "count": "(439)",
+       "url": "https://www.getyourguide.com/mgarr-l143615/malta-comino-blue-lagoon-private-speedboat-tour-t793810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-private-speedboat-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "2 to 3 h",
+     "pop_html": "<strong>2 or 3 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "💶",
+     "label": "€59 + €79 fuel",
+     "pop_html": "<strong>Real total from about €138 per boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🧊",
+     "label": "Cool box",
+     "pop_html": "<strong>Bring your own food and drinks.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🕳️",
+     "label": "Caves + both lagoons",
+     "pop_html": "<strong>Swim and snorkel stops.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Marfa, Mellieħa",
+     "pop_html": "<strong>Marfa, Mellieħa.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a group of 4 to 9: about €15 to €35 each, on your own boat.",
+    "skip_html": "for couples on a budget, or non-swimmers."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's the real price?",
+      "a": "From €59 per boat plus €79 fuel paid to the skipper."
+     },
+     {
+      "q": "How many people fit?",
+      "a": "Up to 9."
+     },
+     {
+      "q": "Can we bring drinks?",
+      "a": "Yes, there's a cool box; food and drinks aren't included."
+     },
+     {
+      "q": "Where does it go?",
+      "a": "The Blue Lagoon, the Crystal Lagoon and the caves."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€59",
+    "sub": "per boat (up to 9), plus €79 fuel",
+    "rows": [
+     {
+      "label": "Boat",
+      "small": "up to 9, from",
+      "price": "From €59"
+     },
+     {
+      "label": "Fuel",
+      "small": "paid to the skipper",
+      "price": "From €79"
+     }
+    ],
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/mgarr-l143615/malta-comino-blue-lagoon-private-speedboat-tour-t793810/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-private-speedboat&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-private-speedboat",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-8",
+   "cats": [
+    "halfday",
+    "slide",
+    "budget"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "💶 #8 Best Value Catamaran",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Catamaran with a slide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Inside a sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Guests on the bow"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Deck seating"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Underwater viewing deck"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Gozo harbour"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Catamaran in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at anchor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-xlendi-catamaran-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Xlendi Pleasure Cruises",
+    "⏱️ 3.5 to 6 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Marfa+Jetty%2C+Mellie%C4%A7a%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Marfa Jetty"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/mellieha-l117580/malta-catamaran-half-day-cruise-to-comino-gozo-sea-caves-t1355736/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-xlendi-catamaran&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Malta: Comino &amp; Gozo, Blue &amp; Crystal Lagoon Catamaran Cruise"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.80",
+     "score": "4.8",
+     "meta": "418 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.8",
+       "count": "(418)",
+       "url": "https://www.getyourguide.com/mellieha-l117580/malta-catamaran-half-day-cruise-to-comino-gozo-sea-caves-t1355736/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-xlendi-catamaran-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "3.5 to 6 h",
+     "pop_html": "<strong>3.5 to 6 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "2 swim stops",
+     "pop_html": "<strong>Blue Lagoon 1 to 1.5 h, Santa Maria Bay 30 min.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛝",
+     "label": "Slide + top-deck jump",
+     "pop_html": "<strong>Underwater viewing.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🥤",
+     "label": "Welcome drink",
+     "pop_html": "<strong>Bar on board.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🅿️",
+     "label": "Free parking",
+     "pop_html": "<strong>Marfa Jetty, by the Riviera Hotel.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Marfa Jetty",
+     "pop_html": "<strong>Marfa Jetty.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for a short, cheap catamaran half day with two swims.",
+    "skip_html": "if you want Gozo time: pick the 5 to 6 h option or #1."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "What's included?",
+      "a": "The cruise, a welcome drink, the waterslide, underwater viewing, two swim stops and the caves."
+     },
+     {
+      "q": "Where does it leave from?",
+      "a": "Marfa Jetty, in front of the Riviera Hotel; free parking nearby."
+     },
+     {
+      "q": "What costs extra?",
+      "a": "Snorkel hire €5, drinks, the optional Gozo bus €5."
+     },
+     {
+      "q": "How long is it?",
+      "a": "3.5 hours, or 5 to 6 hours with Gozo."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€23",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "3.5 h catamaran",
+      "price": "From €23"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €46"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/mellieha-l117580/malta-catamaran-half-day-cruise-to-comino-gozo-sea-caves-t1355736/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-xlendi-catamaran&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-xlendi-catamaran",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-9",
+   "cats": [
+    "fullday",
+    "slide"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🏙️ #9 Best from Sliema",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "Boat in the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat with a slide"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat by the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Blue Lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Lagoon from above"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Swimmers by the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat under the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boat at anchor"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-08.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Sea cave"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-09.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Boats at the lagoon"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-10.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-07.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-08.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-09.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-sliema-comino-10.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "Water Taxi Limited",
+    "⏱️ 5.5 to 7.5 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Ferries+4%2C+Triq+ix-Xatt%2C+Sliema%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Sliema Ferries"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-comino-crystal-lagoon-and-blue-lagoon-cruise-t463416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sliema-comino&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "Comino: Blue Lagoon, Crystal Lagoon and Sea Caves"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.50",
+     "score": "4.5",
+     "meta": "8,669 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.5",
+       "count": "(8,669)",
+       "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-comino-crystal-lagoon-and-blue-lagoon-cruise-t463416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sliema-comino-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "5.5 to 7.5 h",
+     "pop_html": "<strong>5.5 to 7.5 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Leaves Sliema",
+     "pop_html": "<strong>No bus to the north.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏝️",
+     "label": "Blue Lagoon + Crystal Lagoon",
+     "pop_html": "<strong>Or St Nicholas Bay, May to October.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🛝",
+     "label": "Waterslide",
+     "pop_html": "<strong>Slide into the sea from the boat.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🎫",
+     "label": "Free Blue Lagoon pass",
+     "pop_html": "<strong>Going ashore at the Blue Lagoon needs a free QR pass</strong> from blcomino.com; book your time slot."
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "if you stay in Sliema or St Julian's and want to skip the bus north.",
+    "skip_html": "if you're in the north: Marfa trips (#2, #8) are shorter and cheaper."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "Where does it leave from?",
+      "a": "Sliema Ferries, Triq ix-Xatt."
+     },
+     {
+      "q": "Which stops?",
+      "a": "The Blue Lagoon, the Comino caves, the Crystal Lagoon or St Nicholas Bay (May to October), and a Gozo photo stop on the long option."
+     },
+     {
+      "q": "Is food included?",
+      "a": "No."
+     },
+     {
+      "q": "Does it run in rain?",
+      "a": "Yes, rain or shine; the captain may change the route in rough seas."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "5.5 to 7.5 h",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-comino-crystal-lagoon-and-blue-lagoon-cruise-t463416/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-sliema-comino&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-sliema-comino",
+     "text": "Read Review ↓"
+    }
+   }
+  },
+  {
+   "id": "card-10",
+   "cats": [
+    "halfday"
+   ],
+   "gallery": {
+    "rank": {
+     "text": "🕳️ #10 Best for the Blue Grotto",
+     "medal": ""
+    },
+    "photos": [
+     [
+      [
+       "alt",
+       "The Blue Grotto arch"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "eager"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-01.avif"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Small boat at the cliffs"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-02.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Clear water by the rocks"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-03.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cliffs from the boat"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-04.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cave walls"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-05.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Cave entrance"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-06.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ],
+     [
+      [
+       "alt",
+       "Group at the viewpoint"
+      ],
+      [
+       "height",
+       "534"
+      ],
+      [
+       "width",
+       "800"
+      ],
+      [
+       "loading",
+       "lazy"
+      ],
+      [
+       "decoding",
+       "async"
+      ],
+      [
+       "data-src",
+       "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-07.avif"
+      ],
+      [
+       "src",
+       "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3C/svg%3E"
+      ]
+     ]
+    ],
+    "thumbs": [
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-01.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-02.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-03.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-04.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-05.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-06.avif"
+     },
+     {
+      "src": "/assets/boat-trips-malta/malta-boat-trip-blue-grotto-07.avif"
+     }
+    ]
+   },
+   "kicker": [
+    "English Cafe Malta",
+    "⏱️ 4 Hours",
+    {
+     "url": "https://www.google.com/maps/search/?api=1&query=Tign%C3%A9+Seafront%2C+Sliema%2C+Malta",
+     "onclick": "event.stopPropagation()",
+     "rel": "noopener noreferrer",
+     "target": "_blank",
+     "map": "📍 Sliema (bus)"
+    }
+   ],
+   "title": {
+    "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-blue-grotto-excursion-sea-caves-boat-tour-t731659/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-blue-grotto&mkt_cmp=true",
+    "rel": "noopener nofollow sponsored",
+    "target": "_blank",
+    "text": "From Sliema: Blue Grotto Excursion &amp; Sea Caves Boat Tour"
+   },
+   "reviews": {
+    "ratings": {
+     "stars": "4.40",
+     "score": "4.4",
+     "meta": "180 reviews · GetYourGuide",
+     "heading": "Rating on GetYourGuide",
+     "sites": [
+      {
+       "kind": "link",
+       "site": "GetYourGuide",
+       "score": "4.4",
+       "count": "(180)",
+       "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-blue-grotto-excursion-sea-caves-boat-tour-t731659/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-blue-grotto-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      }
+     ]
+    }
+   },
+   "pills": [
+    {
+     "cls": "bpa-lang",
+     "emoji": "⏱️",
+     "label": "4 h",
+     "pop_html": "<strong>4 hours.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚌",
+     "label": "Bus from Sliema",
+     "pop_html": "<strong>Private bus there and back.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🚤",
+     "label": "20-minute cave boat",
+     "pop_html": "<strong>Into the Blue Grotto caves.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🏊",
+     "label": "Free time",
+     "pop_html": "<strong>Swim or explore the village.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "🔞",
+     "label": "18+",
+     "pop_html": "<strong>Not for under-18s.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "📍",
+     "label": "Sliema (bus)",
+     "pop_html": "<strong>Tigné Seafront, Sliema.</strong>"
+    },
+    {
+     "cls": "bpa-lang",
+     "emoji": "↩️",
+     "label": "Free cancellation",
+     "pop_html": "<strong>Free up to 24 hours before.</strong><span class=\"bpa-lang-note\">Reserve now, pay later.</span>"
+    }
+   ],
+   "best_for": {
+    "pick_html": "for the Blue Grotto without driving to the south coast.",
+    "skip_html": "if you want a long boat day: the boat part is 20 minutes."
+   },
+   "faq": {
+    "items": [
+     {
+      "q": "How long is the boat ride?",
+      "a": "About 20 minutes; the rest is the bus, a walk and free time."
+     },
+     {
+      "q": "Where does it start?",
+      "a": "Tigné Seafront, Sliema, by McDonald's."
+     },
+     {
+      "q": "Is there a guide?",
+      "a": "Team support throughout, not a formal history guide."
+     },
+     {
+      "q": "Can kids come?",
+      "a": "No, it's 18+."
+     },
+     {
+      "q": "Can I cancel?",
+      "a": "Yes, for free up to 24 hours before."
+     }
+    ]
+   },
+   "price": {
+    "main": "€35",
+    "sub": "per adult, from",
+    "rows": [
+     {
+      "label": "Adult",
+      "small": "bus + 20 min boat",
+      "price": "From €35"
+     }
+    ],
+    "total": {
+     "label": "2 adults",
+     "price": "From €70"
+    },
+    "note": "The final price is shown before you pay."
+   },
+   "cta": {
+    "btn": {
+     "url": "https://www.getyourguide.com/sliema-l117585/from-sliema-blue-grotto-excursion-sea-caves-boat-tour-t731659/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-boat-trips-malta-blue-grotto&mkt_cmp=true",
+     "rel": "noopener nofollow sponsored",
+     "target": "_blank",
+     "text": "Check Availability →"
+    },
+    "via": "Booked securely via GetYourGuide",
+    "trust": [
+     "<b>Free cancellation</b>",
+     "<b>Reserve now, pay later</b>"
+    ],
+    "sublink": {
+     "url": "#mlt-blue-grotto",
+     "text": "Read Review ↓"
+    }
+   },
+   "_photo_topup": {
+    "skip": "listing has only 7 photos"
+   }
+  }
+ ]
+}

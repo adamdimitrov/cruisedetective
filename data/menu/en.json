@@ -144,6 +144,53 @@
          "desc": "Six bridges, sunset boats & Douro Valley"
         }
        ]
+      },
+      {
+       "head": "MEDITERRANEAN & NORDICS",
+       "items": [
+        {
+         "href": "/gondola-rides-venice",
+         "icon": "🛶",
+         "title": "Venice Gondola Rides",
+         "desc": "Shared vs private, from €36"
+        },
+        {
+         "href": "/boat-tours-lake-como",
+         "icon": "⛰️",
+         "title": "Lake Como Boat Tours",
+         "desc": "Wooden boats, Bellagio & Varenna"
+        },
+        {
+         "href": "/boat-tours-split-hvar",
+         "icon": "💙",
+         "title": "Split & Hvar Boat Tours",
+         "desc": "Blue Cave & Blue Lagoon trips"
+        },
+        {
+         "href": "/boat-trips-malta",
+         "icon": "🏝️",
+         "title": "Malta Boat Trips",
+         "desc": "Comino Blue Lagoon & Gozo from €21"
+        },
+        {
+         "href": "/bosphorus-cruises-istanbul",
+         "icon": "🕌",
+         "title": "Bosphorus Cruises",
+         "desc": "Sunset yachts & dinner cruises"
+        },
+        {
+         "href": "/canal-tours-copenhagen",
+         "icon": "🚤",
+         "title": "Copenhagen Canal Tours",
+         "desc": "Classic & small electric boats"
+        },
+        {
+         "href": "/fjord-cruises-bergen",
+         "icon": "🏔️",
+         "title": "Bergen Fjord Cruises",
+         "desc": "Fjord trips & Mostraumen"
+        }
+       ]
       }
      ]
     },
@@ -187,24 +234,24 @@
          "icon": "🎺",
          "title": "New Orleans Boat Tours",
          "desc": "Natchez steamboat & swamp tours"
+        },
+        {
+         "href": "/san-francisco-bay-cruises",
+         "icon": "🌉",
+         "title": "San Francisco Bay Cruises",
+         "desc": "Under the Golden Gate Bridge"
+        },
+        {
+         "href": "/boat-tours-seattle",
+         "icon": "🗻",
+         "title": "Seattle Boat Tours",
+         "desc": "Harbor, Locks, sunset & orcas"
         }
        ]
       },
       {
-       "head": "ITALY & ASIA",
+       "head": "ASIA & PACIFIC",
        "items": [
-        {
-         "href": "/gondola-rides-venice",
-         "icon": "🛶",
-         "title": "Venice Gondola Rides",
-         "desc": "Shared vs private, from €36"
-        },
-        {
-         "href": "/boat-tours-lake-como",
-         "icon": "⛰️",
-         "title": "Lake Como Boat Tours",
-         "desc": "Wooden boats, Bellagio & Varenna"
-        },
         {
          "href": "/ha-long-bay-cruises",
          "icon": "🏝️",
@@ -216,6 +263,24 @@
          "icon": "🛕",
          "title": "Bangkok River Cruises",
          "desc": "Chao Phraya dinner & long-tail boats"
+        },
+        {
+         "href": "/mekong-delta-tours",
+         "icon": "🛶",
+         "title": "Mekong Delta Tours",
+         "desc": "Sampans, coconut canals, floating markets"
+        },
+        {
+         "href": "/singapore-river-cruises",
+         "icon": "🌃",
+         "title": "Singapore River Cruises",
+         "desc": "Bumboats & light-show tours"
+        },
+        {
+         "href": "/sydney-harbour-cruises",
+         "icon": "🌏",
+         "title": "Sydney Harbour Cruises",
+         "desc": "Opera House views, lunch & dinner"
         }
        ]
       }
