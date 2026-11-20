@@ -1,6 +1,6 @@
 # Sydney Harbour dinner cruises: seven different boats, from a tall ship and a paddle-steamer cabaret
 # to a 5-course degustation. Facts from the live GetYourGuide listings, 20 Nov 2026 (EUR from-prices per adult).
-# Tiqets sells only lunch cruises in Sydney, so every card books on GetYourGuide.
+# Tall ship twilight books on Tiqets (22.6%, same price, free cancellation); the rest on GetYourGuide.
 
 SPEC = dict(
     related=['dinner-cruises-paris', 'dinner-cruises-istanbul', 'dinner-cruises-cairo', 'ha-long-bay-cruises'],
@@ -194,9 +194,11 @@ SPEC = dict(
             cats="budget veg short", dur="2 Hours", hours=2, len="2 h",
             pier="Campbell's Cove Jetty, The Rocks", maps="Campbells Cove Jetty, The Rocks, Sydney",
             title="Sydney: Tall Ship Harbour Twilight Dinner Cruise",
+            site="Tiqets", tq="sydney-attractions-c60400/tickets-for-sydney-harbour-tall-ship-twilight-dinner-cruise-p989622",
             gyg="/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/",
-            ratings=[("GetYourGuide", 4.5, 367)],
-            price=66, rows=[("Adult", "2 h sail + dinner", 66), ("Child 4 to 14", "with a paying adult", "Check")],
+            ratings=[("GetYourGuide", 4.5, 367), ("Tiqets", 4.5, 17)],
+            price=66.17, rows=[("Adult", "2 h sail + dinner", 66.17), ("Child 4 to 14", "with a paying adult", "Check")],
+            trust=["<b>Free cancellation</b> up to 24h before", "<b>Weather refund</b> or new date if unsafe"],
             alts=["Tall ship under full sail by the Harbour Bridge", "Guests on deck at sunset by the bridge", "Guests on the deck under the masts", "Guests at the rail with the Opera House at dusk",
                   "Guests boarding the tall ship", "The tall ship sailing on the harbour", "Guests hauling the ropes", "Guests helping set the sails",
                   "Guests looking at the Opera House from the bow", "Opera House silhouette at sunset from the rigging"],
@@ -206,7 +208,7 @@ SPEC = dict(
                 ("🍷", "Drinks extra", "Buy drinks on board.", None, None),
                 ("📍", "Campbell's Cove", "Boards at Campbell's Cove Jetty, The Rocks,", "15 minutes before departure.", None),
             ],
-            pick="for something you can't do elsewhere: sail past the Opera House on a timber tall ship and help set the sails, with dinner, for €66.",
+            pick="for something you can't do elsewhere: sail past the Opera House on a timber tall ship and help set the sails, with dinner, for €66.17.",
             skip="if dinner is the point: it's a simple 3-course meal; #1 and #4 are the food boats.",
             faq=[
                 ("Which ship will I sail on?", "The Southern Swan or the Soren Larsen, both historic timber tall ships."),
@@ -215,11 +217,11 @@ SPEC = dict(
                 ("Are drinks included?", "No, they're for sale on board."),
                 ("Can I cancel?", "Yes, for free up to 24 hours before."),
             ],
-            pros=[("Real tall ship", ""), ("Hands-on sailing", ""), ("€66", "")],
+            pros=[("Real tall ship", ""), ("Hands-on sailing", ""), ("€66.17", "")],
             cons=[("Simple menu", ""), ("Not wheelchair accessible", "")],
             summary=[
                 "The most memorable boat on the harbour: a two-hour twilight sail on the <strong>Southern Swan or Soren Larsen</strong>, historic timber tall ships, from Campbell's Cove past the Opera House, Fort Denison and Luna Park. You can <strong>help hoist the sails or steer</strong>.",
-                "Dinner is cooked on board: salads, spiced chicken or a vegetarian sweet potato and lentil dish, and brownies. €66, drinks extra. Rated 4.5 from 367 reviews.",
+                "Dinner is cooked on board: salads, spiced chicken or a vegetarian sweet potato and lentil dish, and brownies. €66.17, drinks extra. Rated 4.5 from 384 reviews on two sites.",
                 "💡 <strong>Tip:</strong> wear flat shoes; you'll be on a working deck.",
             ],
             facts=[("Duration", "2 hours"), ("Ships", "Southern Swan or Soren Larsen"), ("Departure", "Campbell's Cove Jetty, The Rocks"),
@@ -307,7 +309,7 @@ SPEC = dict(
     ],
     faq_h2="Sydney Harbour Dinner Cruises: FAQ",
     faq=[
-        ("How much is a Sydney Harbour dinner cruise?", "From <strong>€48</strong> (buffet) and <strong>€66</strong> (tall ship) to <strong>€98</strong> with drinks included and <strong>€106</strong> with a cabaret show. Most exclude drinks."),
+        ("How much is a Sydney Harbour dinner cruise?", "From <strong>€48</strong> (buffet) and <strong>€66.17</strong> (tall ship) to <strong>€98</strong> with drinks included and <strong>€106</strong> with a cabaret show. Most exclude drinks."),
         ("Which Sydney dinner cruise is best?", "Captain Cook's MV Sydney 2000 for most people; the all-inclusive cruise for drinks in the price (4.8, the best rating); the paddle steamer for a show."),
         ("Are drinks included on Sydney dinner cruises?", "Only on the all-inclusive cruise (NSW wines, beer, soft drinks). On the others you buy them at the bar."),
         ("Where do Sydney dinner cruises leave from?", "Mostly King Street Wharf in Darling Harbour; also Circular Quay and Campbell's Cove in The Rocks."),

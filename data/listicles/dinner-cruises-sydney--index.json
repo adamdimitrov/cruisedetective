@@ -1,6 +1,7 @@
 {
  "format": 1,
  "icons": {
+  "Tiqets": "data:image/png;base64,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",
   "GetYourGuide": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADEElEQVR4nMWXWUgVURjHfzOOXbeylBZarLAiyMiwJJOwyEhCSKjIiKggXwrqLQgEe+gp6Kl6iqKXIrAFIgsKSS1KElsoQ0oLrSQtxX3rmvH5zXV8uDpzzeUPl5lz7v+c/3fOt5wzBjYG96UwlTAKK4eepi1+DGiU1yn6NdqaGPbKfwLzp3QLdMELhnZgGsSHNU2mGVbIIwYGICwMfBEQGa19fb3Q0+X8N2kGGAasTobNmZC4BmLjtL+zDWo/wstiqH4Dg4PepxzUIHQfISvOPghZuRA7JzinuwMe34Z713VHPOhb3sw0YPdhyDkCVrj2+f9AV6e+R8dof9RMyDkK4TPgxkXw+12ntlwZ4tekjbAr1xGvfguPbkF9jbYXLYOs/coTZO6Bd+VQ+dw1JixXA2SC1AxdnaCmCi4XQEO9w6mvhU/v4eQ5NULclbZDjXCJB9PVAJls6SqnXVak4mLYyF9zE5QWObwliRARNQFBaFmwLg1i47VdVQGNP4Jz4+ZCcrq+93RCRYlbHBjuLpAJ2lshaQN8+wrNUkFHQcsveHLHaXuoCZYrQ4rNoVOa/1Jw2prhVcnok4dYiExPrED0B/w9gbBcGVJQbl6CjGyo+6yRHTBCUnQsTIgLLJvy+hkM+NUl4gpBQiIkrAg+rr8PPlQ43HEbEO6DA8dh5VqtfhdOawwI0nfC3rzg41qaoCBv9IwJKQYMM/i2BnbnP2C5Mv4OQG+3zQ6HuHmOIRVl0N4G/n5I2aL1IkSYrgzx4fcvTjt1G8yO1wCUM+HuVSgvBl9kyOLeDBAh8bkctQKp9Xln9LkwAVK3womzWifGAcuVIVstl4yyh3riCTZth/Xp0NUO0bP0vAgEniDgJg8wPbGkHBdegaf3NRMEIipCAXFx07Xz0FBHKLA8MztaVeDtCz1qFy+HMAvaWjTfSx9AU4Oegp3t0PrbtQYIvF/JRsaEzweRMeoeqZQjheT2FID73dAIPZFFVFwiOxIMIVxIBdP+XWDazzEO+UnDkKZpf6XmA3YOTQlEK1+0hyNmuj7P/wFtgwzE0AJjuwAAAABJRU5ErkJggg=="
  },
  "cards": [
@@ -2227,7 +2228,7 @@
     }
    ],
    "title": {
-    "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship&mkt_cmp=true",
+    "url": "https://www.tiqets.com/en/sydney-attractions-c60400/tickets-for-sydney-harbour-tall-ship-twilight-dinner-cruise-p989622/?partner=thecruisedetective.com-176436&tq_campaign=dinner-cruises-sydney-tall-ship",
     "rel": "noopener nofollow sponsored",
     "target": "_blank",
     "text": "Sydney: Tall Ship Harbour Twilight Dinner Cruise"
@@ -2236,8 +2237,8 @@
     "ratings": {
      "stars": "4.50",
      "score": "4.5",
-     "meta": "367 reviews · GetYourGuide",
-     "heading": "Rating on GetYourGuide",
+     "meta": "384 reviews · 2 sites",
+     "heading": "Average of the booking sites, weighted by number of reviews",
      "sites": [
       {
        "kind": "link",
@@ -2245,6 +2246,15 @@
        "score": "4.5",
        "count": "(367)",
        "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship-pop&mkt_cmp=true",
+       "rel": "noopener nofollow sponsored",
+       "target": "_blank"
+      },
+      {
+       "kind": "link",
+       "site": "Tiqets",
+       "score": "4.5",
+       "count": "(17)",
+       "url": "https://www.tiqets.com/en/sydney-attractions-c60400/tickets-for-sydney-harbour-tall-ship-twilight-dinner-cruise-p989622/?partner=thecruisedetective.com-176436&tq_campaign=dinner-cruises-sydney-tall-ship-pop",
        "rel": "noopener nofollow sponsored",
        "target": "_blank"
       }
@@ -2290,7 +2300,7 @@
     }
    ],
    "best_for": {
-    "pick_html": "for something you can't do elsewhere: sail past the Opera House on a timber tall ship and help set the sails, with dinner, for €66.",
+    "pick_html": "for something you can't do elsewhere: sail past the Opera House on a timber tall ship and help set the sails, with dinner, for €66.17.",
     "skip_html": "if dinner is the point: it's a simple 3-course meal; #1 and #4 are the food boats."
    },
    "faq": {
@@ -2318,13 +2328,13 @@
     ]
    },
    "price": {
-    "main": "€66",
+    "main": "€66.17",
     "sub": "per adult, from",
     "rows": [
      {
       "label": "Adult",
       "small": "2 h sail + dinner",
-      "price": "From €66"
+      "price": "From €66.17"
      },
      {
       "label": "Child 4 to 14",
@@ -2334,21 +2344,21 @@
     ],
     "total": {
      "label": "2 adults",
-     "price": "From €132"
+     "price": "From €132.34"
     },
     "note": "The final price is shown before you pay."
    },
    "cta": {
     "btn": {
-     "url": "https://www.getyourguide.com/sydney-l200/2-hour-twilight-tall-ship-sydney-harbour-dinner-cruise-t24674/?partner_id=YS414AJ&utm_medium=online_publisher&cmp=article-dinner-cruises-sydney-tall-ship&mkt_cmp=true",
+     "url": "https://www.tiqets.com/en/sydney-attractions-c60400/tickets-for-sydney-harbour-tall-ship-twilight-dinner-cruise-p989622/?partner=thecruisedetective.com-176436&tq_campaign=dinner-cruises-sydney-tall-ship",
      "rel": "noopener nofollow sponsored",
      "target": "_blank",
      "text": "Check Availability →"
     },
-    "via": "Booked securely via GetYourGuide",
+    "via": "Booked securely via Tiqets",
     "trust": [
-     "<b>Free cancellation</b>",
-     "<b>Reserve now, pay later</b>"
+     "<b>Free cancellation</b> up to 24h before",
+     "<b>Weather refund</b> or new date if unsafe"
     ],
     "sublink": {
      "url": "#syd-tall-ship",
