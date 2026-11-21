@@ -920,6 +920,26 @@
   ],
   "redirects": [
     {
+      "source": "/404",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(cs|de|es|fr|it|ja|nl|pl|pt|ro)/404",
+      "destination": "/:lang",
+      "permanent": true
+    },
+    {
+      "source": "/search",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(cs|de|es|fr|it|ja|nl|pl|pt|ro)/search",
+      "destination": "/:lang",
+      "permanent": true
+    },
+    {
       "source": "/seine-river-cruise-review",
       "destination": "/seine-river-cruises-paris",
       "permanent": true
